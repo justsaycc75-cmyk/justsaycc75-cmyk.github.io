@@ -56,33 +56,26 @@
   const montage=document.querySelector('.stream-montage');
   if(!montage)return;
   const brands=[
-    {name:'Netflix',domain:'netflix.com'},
-    {name:'Stan',domain:'stan.com.au'},
-    {name:'HBO Max',domain:'max.com'},
-    {name:'Prime Video',domain:'primevideo.com'},
-    {name:'Apple TV+',domain:'tv.apple.com'},
-    {name:'Foxtel',domain:'foxtel.com.au'}
+    {name:'Netflix',logo:'https://commons.wikimedia.org/wiki/Special:FilePath/Netflix_2015_logo.svg'},
+    {name:'Stan',logo:'https://commons.wikimedia.org/wiki/Special:FilePath/Stan_Logo_2016.svg'},
+    {name:'HBO Max',logo:'https://commons.wikimedia.org/wiki/Special:FilePath/Max_logo.svg'},
+    {name:'Prime Video',logo:'https://commons.wikimedia.org/wiki/Special:FilePath/Amazon_Prime_Video_logo.svg'},
+    {name:'Apple TV+',logo:'https://commons.wikimedia.org/wiki/Special:FilePath/Apple_TV_Plus_Logo.svg'},
+    {name:'Foxtel',logo:'https://commons.wikimedia.org/wiki/Special:FilePath/Foxtel_logo.svg'}
   ];
   [...montage.querySelectorAll('span')].forEach((tile,i)=>{
     const brand=brands[i];
     if(!brand)return;
     tile.textContent='';
+    tile.classList.add('stream-logo-cell');
     const logo=document.createElement('img');
-    logo.src=`https://logo.clearbit.com/${brand.domain}?size=240`;
+    logo.src=brand.logo;
     logo.alt=brand.name;
     logo.loading='lazy';
-    logo.style.maxWidth='72%';
-    logo.style.maxHeight='72px';
-    logo.style.width='auto';
-    logo.style.height='auto';
-    logo.style.objectFit='contain';
-    logo.style.display='block';
-    logo.style.filter='drop-shadow(0 2px 4px rgba(0,0,0,.25))';
+    logo.className='stream-logo-img';
     const fallback=document.createElement('strong');
     fallback.textContent=brand.name;
-    fallback.style.display='none';
-    fallback.style.fontSize='1.05rem';
-    fallback.style.letterSpacing='.05em';
+    fallback.className='stream-logo-fallback';
     logo.addEventListener('error',()=>{logo.style.display='none';fallback.style.display='block';});
     tile.append(logo,fallback);
   });
