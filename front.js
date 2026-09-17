@@ -108,3 +108,32 @@
     <a href="radio.html" class="front-photo-card rail-graphic rail-radio"><b>7.100&nbsp;MHz<br>IC-705</b><span>Shortwave</span><em>Sydney listening</em></a>
     <a href="markets.html" class="front-photo-card rail-graphic rail-markets"><b>▲ ASX&nbsp;&nbsp;▲ S&amp;P<br>▼ FX&nbsp;&nbsp;▲ GOLD</b><span>Markets</span><em>Global dashboard</em></a>`;
 })();
+
+(()=>{
+  const directGames={
+    roosters:'https://www.nrl.com/draw/nrl-premiership/2026/finals-week-2/roosters-v-sharks/',
+    giants:'https://www.nfl.com/games/giants-at-rams-2026-reg-2',
+    seahawks:'https://www.nfl.com/games/seahawks-at-cardinals-2026-reg-2',
+    packers:'https://www.nfl.com/games/packers-at-jets-2026-reg-2'
+  };
+  Object.entries(directGames).forEach(([team,url])=>{
+    const card=document.querySelector(`.team-photo-card.${team}`);
+    if(card)card.href=url;
+  });
+
+  const rotatingLinks={
+    'Sydney Roosters':directGames.roosters,
+    'New York Giants':directGames.giants,
+    'Seattle Seahawks':directGames.seahawks,
+    'Green Bay Packers':directGames.packers
+  };
+  const fixtureLink=document.querySelector('[data-sport-link]');
+  const teamEl=document.querySelector('[data-sport-team]');
+  if(!fixtureLink||!teamEl)return;
+  const syncLink=()=>{
+    const team=teamEl.textContent.trim();
+    if(rotatingLinks[team])fixtureLink.href=rotatingLinks[team];
+  };
+  syncLink();
+  new MutationObserver(syncLink).observe(teamEl,{childList:true,subtree:true,characterData:true});
+})();
