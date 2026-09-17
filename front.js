@@ -131,8 +131,8 @@
       </div>
       <span>Sport</span><em>Teams + upcoming games</em>
     </a>
-    <a href="racing.html" class="front-photo-card rail-graphic rail-punt"><b>SATURDAY<br>ON THE PUNT</b><span>The Punt</span><em>Tips + last week</em></a>
-    <a href="radio.html" class="front-photo-card rail-graphic rail-radio"><b>7.100&nbsp;MHz<br>IC-705</b><span>Shortwave</span><em>Sydney listening</em></a>
+    <a href="racing.html" class="front-photo-card"><img src="Punt.png" alt="Saturday on the Punt horse racing"><span>The Punt</span><em>Tips + last week</em></a>
+    <a href="radio.html" class="front-photo-card"><img src="Icom.png" alt="Icom IC-705 shortwave radio"><span>Shortwave</span><em>Sydney listening</em></a>
     <a href="markets.html" class="front-photo-card rail-graphic rail-markets"><b>▲ ASX&nbsp;&nbsp;▲ S&amp;P<br>▼ FX&nbsp;&nbsp;▲ GOLD</b><span>Markets</span><em>Global dashboard</em></a>`;
 
   if(!document.getElementById('rail-team-logo-styles')){
