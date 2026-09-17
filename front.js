@@ -5,6 +5,16 @@
   const track=(document.querySelector('[data-daily-track]')?.textContent||'').trim();
   img.alt=track?`${artist} — ${track}`:artist;
 
+  if(artist==='Ed Kuepper'){
+    const direct='https://www.youtube.com/watch?v=dGvy2IOmvp4';
+    document.querySelectorAll('[data-youtube]').forEach(e=>e.href=direct);
+    document.querySelectorAll('[data-daily-track]').forEach(e=>e.textContent="(When There's) This Party");
+    img.src='https://img.youtube.com/vi/dGvy2IOmvp4/hqdefault.jpg';
+    const box=document.querySelector('[data-video-frame]');
+    if(box)box.innerHTML='<iframe src="https://www.youtube.com/embed/dGvy2IOmvp4?rel=0" title="Ed Kuepper — (When There\'s) This Party" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
+    return;
+  }
+
   const frame=document.querySelector('[data-video-frame] iframe');
   if(frame){
     const m=frame.src.match(/embed\/([^?]+)/);
