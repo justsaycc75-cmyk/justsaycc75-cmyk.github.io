@@ -36,6 +36,17 @@
     return;
   }
 
+  if(artist==='Arcadia'){
+    const direct='https://www.youtube.com/watch?v=hqRBqT0iZKo';
+    document.querySelectorAll('[data-youtube]').forEach(e=>e.href=direct);
+    img.src='https://i.ytimg.com/vi/hqRBqT0iZKo/maxresdefault.jpg';
+    img.alt='Arcadia — El Diablo';
+    const box=document.querySelector('[data-video-frame]');
+    if(box)box.innerHTML='<iframe src="https://www.youtube.com/embed/hqRBqT0iZKo?rel=0" title="Arcadia — El Diablo" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
+    if(visual)visual.style.display='none';
+    return;
+  }
+
   const frame=document.querySelector('[data-video-frame] iframe');
   if(frame){
     const m=frame.src.match(/embed\/([^?]+)/);
@@ -110,10 +121,34 @@
     <a href="journeys.html" class="front-photo-card"><img src="assets/img/crown_sunset.webp" alt="Journeys and cruises"><span>Journeys</span><em>Cruises + side trips</em></a>
     <a href="hunter.html" class="front-photo-card"><img src="assets/img/hunter1.webp" alt="Hunter Valley"><span>Hunter Valley</span><em>Cellar doors + favourites</em></a>
     <a href="watching.html" class="front-photo-card rail-graphic rail-watch"><b>NETFLIX · STAN<br>HBO · PRIME</b><span>Watching</span><em>Current watch list</em></a>
-    <a href="sport.html" class="front-photo-card rail-graphic rail-sport"><b>ROOSTERS<br>NFL</b><span>Sport</span><em>Teams + upcoming games</em></a>
+    <a href="sport.html" class="front-photo-card rail-graphic rail-sport rail-sport-teams">
+      <b>ROOSTERS<br>AND NFL</b>
+      <div class="rail-team-logos" aria-hidden="true">
+        <img src="https://img.logokit.com/roosters.com.au" alt="">
+        <img src="https://static.www.nfl.com/t_q-best/league/api/clubs/logos/NYG" alt="">
+        <img src="https://static.www.nfl.com/t_q-best/league/api/clubs/logos/SEA" alt="">
+        <img src="https://static.www.nfl.com/t_q-best/league/api/clubs/logos/GB" alt="">
+      </div>
+      <span>Sport</span><em>Teams + upcoming games</em>
+    </a>
     <a href="racing.html" class="front-photo-card rail-graphic rail-punt"><b>SATURDAY<br>ON THE PUNT</b><span>The Punt</span><em>Tips + last week</em></a>
     <a href="radio.html" class="front-photo-card rail-graphic rail-radio"><b>7.100&nbsp;MHz<br>IC-705</b><span>Shortwave</span><em>Sydney listening</em></a>
     <a href="markets.html" class="front-photo-card rail-graphic rail-markets"><b>▲ ASX&nbsp;&nbsp;▲ S&amp;P<br>▼ FX&nbsp;&nbsp;▲ GOLD</b><span>Markets</span><em>Global dashboard</em></a>`;
+
+  if(!document.getElementById('rail-team-logo-styles')){
+    const style=document.createElement('style');
+    style.id='rail-team-logo-styles';
+    style.textContent=`
+      .rail-sport-teams{min-height:150px;padding:14px 12px 12px!important}
+      .rail-sport-teams b{font-size:.95rem!important;line-height:1.02!important;max-width:105px}
+      .rail-team-logos{position:absolute;z-index:2;top:14px;right:10px;width:92px;display:grid;grid-template-columns:repeat(2,38px);gap:6px;justify-content:end}
+      .rail-team-logos img{width:38px!important;height:38px!important;object-fit:contain!important;background:#fff;border:1px solid #ffffff33;border-radius:10px;padding:4px;filter:none!important;transform:none!important;box-shadow:0 4px 12px #0007}
+      .rail-sport-teams span{bottom:28px!important}
+      .rail-sport-teams em{bottom:9px!important}
+      @media(max-width:700px){.rail-team-logos{width:96px;grid-template-columns:repeat(2,40px)}.rail-team-logos img{width:40px!important;height:40px!important}}
+    `;
+    document.head.appendChild(style);
+  }
 })();
 
 (()=>{
