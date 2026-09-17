@@ -11,7 +11,7 @@ const regulars=[
   {artist:'V Spy V Spy',tracks:['Clarity of Mind','Overland','Hardtimes'],url:'https://www.youtube.com/results?search_query=Spy+v+Spy+Clarity+of+Mind'},
   {artist:'Machine Gun Fellatio',tracks:['Rollercoaster','Pussytown'],url:'https://www.youtube.com/results?search_query=Machine+Gun+Fellatio+Rollercoaster'},
   {artist:'Ed Kuepper',tracks:['When There’s This Party','Burned My Fingers','Told Myself','Also Sprach The King Of Euro Disco'],url:'https://www.youtube.com/results?search_query=Ed+Kuepper+When+There%27s+This+Party'},
-  {artist:'Arcadia',tracks:['The Promise','The Flame','Goodbye Is Forever','El Diablo'],url:'https://www.youtube.com/results?search_query=Arcadia+The+Promise'},
+  {artist:'Arcadia',tracks:['El Diablo'],url:'https://www.youtube.com/watch?v=hqRBqT0iZKo',embed:'hqRBqT0iZKo'},
   {artist:'Mental As Anything',tracks:['Mr Natural','Berserk Warriors'],url:'https://www.youtube.com/results?search_query=Mental+As+Anything+Mr+Natural'},
   {artist:'POND',tracks:["America’s Cup",'Hang a Cross On Me','Human Touch','Zond','Lights of Leeming'],url:'https://www.youtube.com/results?search_query=POND+America%27s+Cup'},
   {artist:'Models',tracks:['King of Kings','God Bless America'],url:'https://www.youtube.com/results?search_query=Models+King+of+Kings+Australian+band'},
@@ -72,9 +72,9 @@ document.querySelectorAll('[data-menu-button]').forEach(btn=>btn.addEventListene
 
 const sportsFixtures=[
   {team:'Sydney Roosters',match:'Roosters v Cronulla-Sutherland Sharks',when:'Saturday 19 September • 7:50pm Sydney',venue:'Allianz Stadium',start:'2026-09-19T19:50:00+10:00',url:'https://www.nrl.com/draw/nrl-premiership/2026/finals-week-2/roosters-v-sharks/'},
-  {team:'Green Bay Packers',match:'Packers @ New York Jets',when:'Monday 21 September • 3:00am Sydney',venue:'MetLife Stadium',start:'2026-09-21T03:00:00+10:00',url:'https://www.packers.com/schedule/'},
-  {team:'Seattle Seahawks',match:'Seahawks @ Arizona Cardinals',when:'Monday 21 September • 6:25am Sydney',venue:'State Farm Stadium',start:'2026-09-21T06:25:00+10:00',url:'https://www.seahawks.com/schedule/'},
-  {team:'New York Giants',match:'Giants @ Los Angeles Rams',when:'Tuesday 22 September • 10:15am Sydney',venue:'SoFi Stadium',start:'2026-09-22T10:15:00+10:00',url:'https://www.giants.com/schedule/'}
+  {team:'Green Bay Packers',match:'Packers @ New York Jets',when:'Monday 21 September • 3:00am Sydney',venue:'MetLife Stadium',start:'2026-09-21T03:00:00+10:00',url:'https://www.nfl.com/games/packers-at-jets-2026-reg-2'},
+  {team:'Seattle Seahawks',match:'Seahawks @ Arizona Cardinals',when:'Monday 21 September • 6:25am Sydney',venue:'State Farm Stadium',start:'2026-09-21T06:25:00+10:00',url:'https://www.nfl.com/games/seahawks-at-cardinals-2026-reg-2'},
+  {team:'New York Giants',match:'Giants @ Los Angeles Rams',when:'Tuesday 22 September • 10:15am Sydney',venue:'SoFi Stadium',start:'2026-09-22T10:15:00+10:00',url:'https://www.nfl.com/games/giants-at-rams-2026-reg-2'}
 ];
 const now=new Date();
 let visibleSports=sportsFixtures.filter(f=>new Date(f.start)>now);
@@ -93,7 +93,7 @@ function renderSport(){
 }
 document.querySelectorAll('[data-sport-prev]').forEach(b=>b.addEventListener('click',()=>{sportIndex=(sportIndex-1+visibleSports.length)%visibleSports.length;renderSport();}));
 document.querySelectorAll('[data-sport-next]').forEach(b=>b.addEventListener('click',()=>{sportIndex=(sportIndex+1)%visibleSports.length;renderSport();}));
-document.querySelectorAll('[data-live-updated]').forEach(e=>e.textContent='Fixtures refreshed 17 Sep 2026');
+document.querySelectorAll('[data-live-updated]').forEach(e=>e.textContent='Fixtures refreshed 18 Sep 2026');
 renderSport();
 
 const oddities=[
