@@ -80,3 +80,18 @@
     tile.append(logo,fallback);
   });
 })();
+
+(()=>{
+  const rail=document.querySelector('.front-photo-rail');
+  if(!rail)return;
+  rail.setAttribute('aria-label','Main section shortcuts');
+  rail.innerHTML=`
+    <a href="music.html" class="front-photo-card"><img src="assets/img/cassette.webp" alt="Music"><span>Music</span><em>Daily clip + archive</em></a>
+    <a href="journeys.html" class="front-photo-card"><img src="assets/img/crown_sunset.webp" alt="Journeys and cruises"><span>Journeys</span><em>Cruises + side trips</em></a>
+    <a href="hunter.html" class="front-photo-card"><img src="assets/img/hunter1.webp" alt="Hunter Valley"><span>Hunter Valley</span><em>Cellar doors + favourites</em></a>
+    <a href="watching.html" class="front-photo-card rail-graphic rail-watch"><b>NETFLIX · STAN<br>HBO · PRIME</b><span>Watching</span><em>Current watch list</em></a>
+    <a href="sport.html" class="front-photo-card rail-graphic rail-sport"><b>ROOSTERS<br>NFL</b><span>Sport</span><em>Teams + upcoming games</em></a>
+    <a href="racing.html" class="front-photo-card rail-graphic rail-punt"><b>SATURDAY<br>ON THE PUNT</b><span>The Punt</span><em>Tips + last week</em></a>
+    <a href="radio.html" class="front-photo-card rail-graphic rail-radio"><b>7.100&nbsp;MHz<br>IC-705</b><span>Shortwave</span><em>Sydney listening</em></a>
+    <a href="markets.html" class="front-photo-card rail-graphic rail-markets"><b>▲ ASX&nbsp;&nbsp;▲ S&amp;P<br>▼ FX&nbsp;&nbsp;▲ GOLD</b><span>Markets</span><em>Global dashboard</em></a>`;
+})();
