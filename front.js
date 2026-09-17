@@ -1,4 +1,11 @@
 (()=>{
+  const css=document.createElement('link');
+  css.rel='stylesheet';
+  css.href='hero-polish.css';
+  document.head.appendChild(css);
+})();
+
+(()=>{
   document.querySelectorAll('[data-scroll-to]').forEach(link=>{
     link.addEventListener('click',event=>{
       const id=link.getAttribute('data-scroll-to');
