@@ -24,6 +24,7 @@
     },
     'Dalliance':{
       url:'https://www.intl.paramountplus.com/au/shows/dalliance/',
+      video:'ig8FXSB4C4c',
       summary:'An Australian drama about a close circle of friends in their sixties whose marriages, loyalties and long-held secrets begin to unravel after a chance encounter changes everything.',
       source:'Paramount+ Australia',
       direct:true
