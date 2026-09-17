@@ -1,63 +1,137 @@
 (()=>{
-  const pageMap={
-    'Dept. Q':'Dept. Q (TV series)',
-    'True Detective':'True Detective',
-    'Landman':'Landman (TV series)',
-    'The Hunting Wives':'The Hunting Wives',
-    'Dalliance':'Dalliance',
-    'The End':'The End (Australian TV series)',
-    'The Twelve':'The Twelve (Australian TV series)',
-    'Black Mirror':'Black Mirror',
-    'After Life':'After Life (TV series)',
-    'Adolescence':'Adolescence (TV series)',
-    'Dark Winds':'Dark Winds',
-    'The Night Of':'The Night Of',
-    'The Fall':'The Fall (TV series)',
-    'Mr. Robot':'Mr. Robot',
-    'Big Little Lies':'Big Little Lies (TV series)',
-    'Line of Duty':'Line of Duty',
-    'Unforgotten':'Unforgotten',
-    'Blue Lights':'Blue Lights (2023 TV series)',
-    'The Missing':'The Missing (British TV series)',
-    'Breaking Bad':'Breaking Bad',
-    'Sicario':'Sicario (2015 film)'
-  };
-
-  const shorten=(text,max=155)=>{
-    if(!text)return 'Open for a quick description, cast and background.';
-    const clean=text.replace(/\s+/g,' ').trim();
-    if(clean.length<=max)return clean;
-    const cut=clean.slice(0,max);
-    return cut.slice(0,cut.lastIndexOf(' '))+'…';
+  const shows={
+    'Dept. Q':{
+      video:'72hK6FUmm8o',
+      summary:'A brilliant but abrasive Edinburgh detective is put in charge of a new cold-case unit and an unlikely team of investigators.',
+      source:'Netflix'
+    },
+    'True Detective':{
+      video:'ahisFWxT2q4',
+      summary:'An anthology crime drama in which each season follows a different investigation, cast and setting, usually with plenty of darkness around the edges.',
+      source:'HBO'
+    },
+    'Landman':{
+      video:'7zxh49-bsIk',
+      summary:'Billy Bob Thornton leads a modern West Texas drama about roughnecks, oil companies, money, family and the people trying to survive the boom.',
+      source:'Paramount+'
+    },
+    'The Hunting Wives':{
+      video:'uZvZfqiAhdQ',
+      summary:'A newcomer to East Texas is drawn into the orbit of a wealthy socialite and her dangerous circle of friends, where obsession and murder are never far away.',
+      source:'Lionsgate TV / Netflix'
+    },
+    'Dalliance':{
+      video:'g9SnOOWdGMU',
+      summary:'An Australian drama about a close circle of friends in their sixties whose marriages, loyalties and long-held secrets begin to unravel.',
+      source:'Paramount+'
+    },
+    'The End':{
+      video:'P99OJwh8fIE',
+      summary:'A dark Australian comedy-drama following three generations of one family wrestling with life, death, dignity and the mess in between.',
+      source:'SHOWTIME / Foxtel'
+    },
+    'The Twelve':{
+      video:'0WlCTT8DD0M',
+      summary:'Twelve ordinary Australians are selected for jury duty in a murder trial while their own complicated lives begin to affect how they see the case.',
+      source:'Foxtel'
+    },
+    'Black Mirror':{
+      video:'1iqra1ojEvM',
+      summary:'Charlie Brooker’s anthology of unsettling stand-alone stories about technology, society and the increasingly blurry line between the two.',
+      source:'Netflix'
+    },
+    'After Life':{
+      video:'eIGGKSHMQOM',
+      summary:'Ricky Gervais plays a grieving widower who decides to stop filtering himself, only to discover that the people around him refuse to give up on him.',
+      source:'Netflix'
+    },
+    'Adolescence':{
+      video:'Wk5OxqtpBR4',
+      summary:'A family, a detective and a therapist try to understand what happened after a 13-year-old boy is accused of murdering a classmate.',
+      source:'Netflix'
+    },
+    'Dark Winds':{
+      video:'TcmY-9eeBIM',
+      summary:'Two Navajo police officers investigate violent crimes in the 1970s American Southwest while confronting secrets, culture and their own beliefs.',
+      source:'AMC+'
+    },
+    'The Night Of':{
+      video:'556N5vojtp0',
+      summary:'A New York murder case follows a young accused man, his lawyer, the police investigation and the machinery of the criminal justice system.',
+      source:'HBO'
+    },
+    'The Fall':{
+      video:'ELmHY-aFe08',
+      summary:'Gillian Anderson’s detective hunts Jamie Dornan’s serial killer in Belfast in a tense psychological cat-and-mouse crime drama.',
+      source:'Netflix / BBC'
+    },
+    'Mr. Robot':{
+      video:'YibylhkLwGo',
+      summary:'A gifted but troubled cyber-security engineer is recruited by an underground hacker group determined to attack a powerful global corporation.',
+      source:'USA Network'
+    },
+    'Big Little Lies':{
+      video:'8XgMvMpvCFI',
+      summary:'The apparently perfect lives of a group of wealthy Monterey mothers begin to unravel as secrets, rivalry and a murder investigation collide.',
+      source:'HBO'
+    },
+    'Line of Duty':{
+      video:'LbKIzP4bmFA',
+      summary:'AC-12 investigates police corruption from the inside, where every interview can turn into an interrogation and almost nobody is entirely clean.',
+      source:'BBC'
+    },
+    'Unforgotten':{
+      video:'CQV81dqu57Y',
+      summary:'Detectives reopen old murder cases after long-buried remains are discovered, slowly exposing secrets that people thought were safely forgotten.',
+      source:'ITV'
+    },
+    'Blue Lights':{
+      video:'C2fifCku6IU',
+      summary:'Three new police recruits in Belfast learn how difficult front-line policing becomes when gangs, informants, communities and colleagues all overlap.',
+      source:'BBC'
+    },
+    'The Missing':{
+      video:'9k5Z8pui9Us',
+      summary:'A child disappears during a family holiday in France, leaving his parents and investigators trapped in a case that continues to haunt them for years.',
+      source:'BBC'
+    },
+    'Breaking Bad':{
+      video:'VaOt6tXyf2Y',
+      summary:'A terminally ill chemistry teacher turns to making methamphetamine and gradually transforms from suburban family man into a major criminal figure.',
+      source:'Breaking Bad official channel'
+    },
+    'Sicario':{
+      video:'7XLQ1bkSLDo',
+      summary:'An idealistic FBI agent joins a covert task force operating along the US–Mexico border and discovers that the rules are far murkier than she expected.',
+      source:'Lionsgate'
+    }
   };
 
   document.querySelectorAll('[data-watch]').forEach(card=>{
     const title=card.dataset.watch;
-    const page=pageMap[title]||title;
-    const summaryUrl=`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(page)}`;
-    card.href=`https://en.wikipedia.org/wiki/${encodeURIComponent(page.replace(/ /g,'_'))}`;
+    const info=shows[title];
+    if(!info)return;
+
+    card.href=`https://www.youtube.com/watch?v=${info.video}`;
     card.target='_blank';
     card.rel='noopener';
-    fetch(summaryUrl)
-      .then(r=>r.ok?r.json():Promise.reject())
-      .then(data=>{
-        if(data.content_urls?.desktop?.page)card.href=data.content_urls.desktop.page;
-        const p=card.querySelector('.watch-copy p');
-        if(p)p.textContent=shorten(data.extract);
-        if(data.thumbnail?.source){
-          const wrap=card.querySelector('.watch-thumb');
-          if(wrap){
-            const img=document.createElement('img');
-            img.src=data.thumbnail.source;
-            img.alt=title;
-            img.loading='lazy';
-            wrap.prepend(img);
-          }
-        }
-      })
-      .catch(()=>{
-        const p=card.querySelector('.watch-copy p');
-        if(p)p.textContent='Open for a quick description, cast and background.';
-      });
+    card.setAttribute('aria-label',`${title} — official trailer / overview`);
+
+    const thumb=card.querySelector('.watch-thumb');
+    if(thumb){
+      const img=document.createElement('img');
+      img.src=`https://i.ytimg.com/vi/${info.video}/hqdefault.jpg`;
+      img.alt=`${title} trailer thumbnail`;
+      img.loading='lazy';
+      img.decoding='async';
+      img.referrerPolicy='no-referrer';
+      thumb.prepend(img);
+    }
+
+    const p=card.querySelector('.watch-copy p');
+    if(p)p.textContent=info.summary;
+
+    const small=card.querySelector('.watch-copy small');
+    if(small)small.textContent=`Official trailer / overview — ${info.source} →`;
   });
 })();
