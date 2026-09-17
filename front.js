@@ -148,6 +148,7 @@
       .front-photo-card.image-only-card{height:170px;padding:0!important;background:#07100b}
       .front-photo-card.image-only-card:after{display:none!important}
       .front-photo-card.image-only-card img{width:100%!important;height:100%!important;object-fit:cover!important;object-position:center!important;display:block}
+      .front-photo-card.image-only-card[href="radio.html"] img{object-fit:contain!important;background:#07100b;padding:4px!important}
       .front-photo-card.image-only-card:hover img{transform:scale(1.025);filter:brightness(1.04)}
       @media(max-width:700px){
         .rail-team-logos{width:96px;grid-template-columns:repeat(2,40px)}
