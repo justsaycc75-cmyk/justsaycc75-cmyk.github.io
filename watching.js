@@ -67,7 +67,7 @@
       source:'Netflix / BBC'
     },
     'Mr. Robot':{
-      video:'YibylhkLwGo',
+      video:'LnCHNZdfA5s',
       summary:'A gifted but troubled cyber-security engineer is recruited by an underground hacker group determined to attack a powerful global corporation.',
       source:'USA Network'
     },
@@ -126,6 +126,7 @@
       img.loading='lazy';
       img.decoding='async';
       img.referrerPolicy='no-referrer';
+      img.onerror=()=>{ img.remove(); };
       thumb.prepend(img);
     }
 
