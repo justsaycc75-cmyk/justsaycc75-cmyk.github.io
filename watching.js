@@ -6,9 +6,11 @@
       source:'Netflix'
     },
     'True Detective':{
-      video:'ahisFWxT2q4',
+      url:'https://www.hbo.com/true-detective',
+      video:'Q4uxGbhO4ag',
       summary:'An anthology crime drama in which each season follows a different investigation, cast and setting, usually with plenty of darkness around the edges.',
-      source:'HBO'
+      source:'HBO',
+      direct:true
     },
     'Landman':{
       video:'7zxh49-bsIk',
