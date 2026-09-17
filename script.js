@@ -20,7 +20,26 @@ const regulars=[
   {artist:'Jack Green',tracks:['Murder'],url:'https://www.youtube.com/results?search_query=Jack+Green+Murder+1981'},
   {artist:'The Church',tracks:['The Unguarded Moment'],url:'https://www.youtube.com/results?search_query=The+Church+The+Unguarded+Moment'},
   {artist:'Simple Minds',tracks:['Love Song'],url:'https://www.youtube.com/results?search_query=Simple+Minds+Love+Song+official'},
-  {artist:'RocKwiz',tracks:['Baby Blue — Isabella Manfredi & Stephen Cummings','Featured performance'],url:'https://www.youtube.com/results?search_query=RocKwiz+Baby+Blue+Isabella+Manfredi+Stephen+Cummings'}
+  {artist:'RocKwiz',tracks:['Baby Blue — Isabella Manfredi & Stephen Cummings','Featured performance'],url:'https://www.youtube.com/results?search_query=RocKwiz+Baby+Blue+Isabella+Manfredi+Stephen+Cummings'},
+  {artist:'Hunters & Collectors',tracks:['Throw Your Arms Around Me','Holy Grail'],url:'https://www.youtube.com/results?search_query=Hunters+and+Collectors+official'},
+  {artist:'Midnight Oil',tracks:['Beds Are Burning','The Dead Heart'],url:'https://www.youtube.com/results?search_query=Midnight+Oil+official'},
+  {artist:'Cold Chisel',tracks:['Bow River','Khe Sanh'],url:'https://www.youtube.com/results?search_query=Cold+Chisel+official'},
+  {artist:'Pink Floyd',tracks:['Comfortably Numb','Time'],url:'https://www.youtube.com/results?search_query=Pink+Floyd+official'},
+  {artist:'Spiderbait',tracks:['Black Betty','Buy Me a Pony'],url:'https://www.youtube.com/results?search_query=Spiderbait+official'},
+  {artist:'Tubeway Army',tracks:['Are Friends Electric?'],url:'https://www.youtube.com/results?search_query=Tubeway+Army+Are+Friends+Electric'},
+  {artist:'Kasabian',tracks:['Club Foot','Fire'],url:'https://www.youtube.com/results?search_query=Kasabian+official'},
+  {artist:'The B-52s',tracks:['Rock Lobster','Private Idaho'],url:'https://www.youtube.com/results?search_query=The+B-52s+official'},
+  {artist:'Died Pretty',tracks:['D.C.','Sweetheart'],url:'https://www.youtube.com/results?search_query=Died+Pretty+official'},
+  {artist:'Devo',tracks:['Whip It','Girl U Want'],url:'https://www.youtube.com/results?search_query=Devo+official'},
+  {artist:'Duran Duran',tracks:['The Chauffeur','Planet Earth'],url:'https://www.youtube.com/results?search_query=Duran+Duran+official'},
+  {artist:'Absent Friends',tracks:['I Don\'t Want to Be with Nobody but You'],url:'https://www.youtube.com/results?search_query=Absent+Friends+Australian+band'},
+  {artist:'INXS',tracks:['Don\'t Change','Original Sin'],url:'https://www.youtube.com/results?search_query=INXS+official'},
+  {artist:'Tumbleweed',tracks:['Sundial'],url:'https://www.youtube.com/results?search_query=Tumbleweed+Australian+band+official'},
+  {artist:'Foo Fighters',tracks:['Everlong','The Pretender'],url:'https://www.youtube.com/results?search_query=Foo+Fighters+official'},
+  {artist:'Alex Lloyd',tracks:['Amazing','Lucky Star'],url:'https://www.youtube.com/results?search_query=Alex+Lloyd+official'},
+  {artist:'Do-Ré-Mi',tracks:['Man Overboard'],url:'https://www.youtube.com/results?search_query=Do-Re-Mi+Man+Overboard+Australian+band'},
+  {artist:'The The',tracks:['Uncertain Smile','This Is the Day'],url:'https://www.youtube.com/results?search_query=The+The+official'},
+  {artist:'Mi-Sex',tracks:['Computer Games','People'],url:'https://www.youtube.com/results?search_query=Mi-Sex+official'}
 ];
 
 const archive=[
