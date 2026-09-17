@@ -131,8 +131,8 @@
       </div>
       <span>Sport</span><em>Teams + upcoming games</em>
     </a>
-    <a href="racing.html" class="front-photo-card"><img src="Punt.png" alt="Saturday on the Punt horse racing"><span>The Punt</span><em>Tips + last week</em></a>
-    <a href="radio.html" class="front-photo-card"><img src="Icom.png" alt="Icom IC-705 shortwave radio"><span>Shortwave</span><em>Sydney listening</em></a>
+    <a href="racing.html" class="front-photo-card image-only-card"><img src="Punt.png" alt="Saturday on the Punt horse racing"></a>
+    <a href="radio.html" class="front-photo-card image-only-card"><img src="Icom.png" alt="Icom IC-705 shortwave radio"></a>
     <a href="markets.html" class="front-photo-card rail-graphic rail-markets"><b>▲ ASX&nbsp;&nbsp;▲ S&amp;P<br>▼ FX&nbsp;&nbsp;▲ GOLD</b><span>Markets</span><em>Global dashboard</em></a>`;
 
   if(!document.getElementById('rail-team-logo-styles')){
@@ -145,7 +145,15 @@
       .rail-team-logos img{width:38px!important;height:38px!important;object-fit:contain!important;background:#fff;border:1px solid #ffffff33;border-radius:10px;padding:4px;filter:none!important;transform:none!important;box-shadow:0 4px 12px #0007}
       .rail-sport-teams span{bottom:28px!important}
       .rail-sport-teams em{bottom:9px!important}
-      @media(max-width:700px){.rail-team-logos{width:96px;grid-template-columns:repeat(2,40px)}.rail-team-logos img{width:40px!important;height:40px!important}}
+      .front-photo-card.image-only-card{height:170px;padding:0!important;background:#07100b}
+      .front-photo-card.image-only-card:after{display:none!important}
+      .front-photo-card.image-only-card img{width:100%!important;height:100%!important;object-fit:cover!important;object-position:center!important;display:block}
+      .front-photo-card.image-only-card:hover img{transform:scale(1.025);filter:brightness(1.04)}
+      @media(max-width:700px){
+        .rail-team-logos{width:96px;grid-template-columns:repeat(2,40px)}
+        .rail-team-logos img{width:40px!important;height:40px!important}
+        .front-photo-card.image-only-card{height:150px}
+      }
     `;
     document.head.appendChild(style);
   }
