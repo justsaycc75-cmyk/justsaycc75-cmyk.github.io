@@ -21,9 +21,10 @@
       source:'Lionsgate TV / Netflix'
     },
     'Dalliance':{
-      video:'g9SnOOWdGMU',
-      summary:'An Australian drama about a close circle of friends in their sixties whose marriages, loyalties and long-held secrets begin to unravel.',
-      source:'Paramount+'
+      url:'https://www.intl.paramountplus.com/au/shows/dalliance/',
+      summary:'An Australian drama about a close circle of friends in their sixties whose marriages, loyalties and long-held secrets begin to unravel after a chance encounter changes everything.',
+      source:'Paramount+ Australia',
+      direct:true
     },
     'The End':{
       video:'P99OJwh8fIE',
@@ -112,13 +113,13 @@
     const info=shows[title];
     if(!info)return;
 
-    card.href=`https://www.youtube.com/watch?v=${info.video}`;
+    card.href=info.url || `https://www.youtube.com/watch?v=${info.video}`;
     card.target='_blank';
     card.rel='noopener';
-    card.setAttribute('aria-label',`${title} — official trailer / overview`);
+    card.setAttribute('aria-label',`${title} — ${info.direct ? 'official show page' : 'official trailer / overview'}`);
 
     const thumb=card.querySelector('.watch-thumb');
-    if(thumb){
+    if(thumb && info.video){
       const img=document.createElement('img');
       img.src=`https://i.ytimg.com/vi/${info.video}/hqdefault.jpg`;
       img.alt=`${title} trailer thumbnail`;
@@ -132,6 +133,6 @@
     if(p)p.textContent=info.summary;
 
     const small=card.querySelector('.watch-copy small');
-    if(small)small.textContent=`Official trailer / overview — ${info.source} →`;
+    if(small)small.textContent=`${info.direct ? 'Official show page' : 'Official trailer / overview'} — ${info.source} →`;
   });
 })();
