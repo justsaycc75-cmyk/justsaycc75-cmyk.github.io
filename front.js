@@ -51,3 +51,39 @@
     .then(d=>{if(d.thumbnail&&d.thumbnail.source){img.src=d.thumbnail.source;}})
     .catch(()=>{});
 })();
+
+(()=>{
+  const montage=document.querySelector('.stream-montage');
+  if(!montage)return;
+  const brands=[
+    {name:'Netflix',domain:'netflix.com'},
+    {name:'Stan',domain:'stan.com.au'},
+    {name:'HBO Max',domain:'max.com'},
+    {name:'Prime Video',domain:'primevideo.com'},
+    {name:'Apple TV+',domain:'tv.apple.com'},
+    {name:'Foxtel',domain:'foxtel.com.au'}
+  ];
+  [...montage.querySelectorAll('span')].forEach((tile,i)=>{
+    const brand=brands[i];
+    if(!brand)return;
+    tile.textContent='';
+    const logo=document.createElement('img');
+    logo.src=`https://logo.clearbit.com/${brand.domain}?size=240`;
+    logo.alt=brand.name;
+    logo.loading='lazy';
+    logo.style.maxWidth='72%';
+    logo.style.maxHeight='72px';
+    logo.style.width='auto';
+    logo.style.height='auto';
+    logo.style.objectFit='contain';
+    logo.style.display='block';
+    logo.style.filter='drop-shadow(0 2px 4px rgba(0,0,0,.25))';
+    const fallback=document.createElement('strong');
+    fallback.textContent=brand.name;
+    fallback.style.display='none';
+    fallback.style.fontSize='1.05rem';
+    fallback.style.letterSpacing='.05em';
+    logo.addEventListener('error',()=>{logo.style.display='none';fallback.style.display='block';});
+    tile.append(logo,fallback);
+  });
+})();
