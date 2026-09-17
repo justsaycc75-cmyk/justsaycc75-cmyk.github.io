@@ -1,4 +1,17 @@
 (()=>{
+  document.querySelectorAll('[data-scroll-to]').forEach(link=>{
+    link.addEventListener('click',event=>{
+      const id=link.getAttribute('data-scroll-to');
+      const target=document.getElementById(id);
+      if(!target)return;
+      event.preventDefault();
+      target.scrollIntoView({behavior:'smooth',block:'start'});
+      if(history.replaceState)history.replaceState(null,'',`#${id}`);
+    });
+  });
+})();
+
+(()=>{
   const img=document.querySelector('[data-artist-image]');
   const visual=document.querySelector('.artist-visual');
   if(!img)return;
