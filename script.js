@@ -58,7 +58,7 @@ document.querySelectorAll('[data-archive-img]').forEach(e=>{e.src=archivePick.im
 document.querySelectorAll('[data-archive-title]').forEach(e=>e.textContent=archivePick.title);
 document.querySelectorAll('[data-archive-meta]').forEach(e=>e.textContent=archivePick.meta);
 document.querySelectorAll('[data-archive-text]').forEach(e=>e.textContent=archivePick.text);
-document.querySelectorAll('[data-archive-link]').forEach(e=>e.href=archivePick.href);
+document.querySelectorAll('[data-archive-link]').forEach(e=>e.href='archive.html');
 
 function sydParts(){
   const f=new Intl.DateTimeFormat('en-AU',{timeZone:'Australia/Sydney',weekday:'short',hour:'2-digit',minute:'2-digit',hour12:false});
