@@ -14,17 +14,19 @@
   content:"NEXT TRIP";
   position:absolute;
   z-index:3;
-  top:14px;
-  left:16px;
+  left:20px;
+  bottom:18px;
+  top:auto;
   padding:7px 12px;
   border-radius:999px;
-  background:rgba(7,10,8,.9);
+  background:rgba(7,10,8,.92);
   border:1px solid rgba(255,255,255,.16);
   color:#b8ff39;
   font-size:.66rem;
   font-weight:900;
   letter-spacing:.18em;
   text-transform:uppercase;
+  box-shadow:0 5px 14px rgba(0,0,0,.25);
 }
 .hero-cassette:after{
   content:"";
@@ -91,7 +93,7 @@
 .hero-cassette figcaption{
   text-align:left;
   font-size:clamp(1.16rem,1.55vw,1.42rem);
-  padding:17px 20px 19px;
+  padding:17px 20px 64px;
 }
 .hero-cassette:before{
   box-shadow:0 5px 14px rgba(0,0,0,.25);
