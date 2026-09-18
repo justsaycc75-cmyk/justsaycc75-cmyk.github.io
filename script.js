@@ -2,7 +2,7 @@ const regulars=[
   {artist:'Sunsick Daisy',tracks:['Breathe In... Breathe Out','Search the latest clip'],url:''},
   {artist:'The Buoys',tracks:['I Want You','Lie To Me Again'],url:'https://www.youtube.com/results?search_query=The+Buoys+I+Want+You+official'},
   {artist:'Old Mervs',tracks:['Parched'],url:'https://www.youtube.com/watch?v=myBg9F3EyRs',embed:'myBg9F3EyRs'},
-  {artist:'Teen Jesus and the Jean Teasers',tracks:['AHHHH!','Girl Sports'],url:'https://www.youtube.com/watch?v=NhS46GfvUS8',embed:'NhS46GfvUS8'},
+  {artist:'Teen Jesus and the Jean Teasers',tracks:['AHHHH!'],url:'https://www.youtube.com/watch?v=98V-utPJGv8',embed:'98V-utPJGv8'},
   {artist:'Deepend & Last Call',tracks:['Pocketful of Sunshine'],url:'https://www.youtube.com/results?search_query=Deepend+Last+Call+Pocketful+of+Sunshine'},
   {artist:'Parquet Courts',tracks:['Stoned And Starving','Dust','Walking At A Downtown Pace','Black And White','Human Performance'],url:'https://www.youtube.com/watch?v=a5CvZTIoir8',embed:'a5CvZTIoir8'},
   {artist:'The Brian Jonestown Massacre',tracks:['Anemone','Nailing Honey To The Bee','Hide and Seek','Panic in Babylon'],url:'https://www.youtube.com/results?search_query=Brian+Jonestown+Massacre+Anemone'},
@@ -15,7 +15,7 @@ const regulars=[
   {artist:'Mental As Anything',tracks:['Mr Natural','Berserk Warriors'],url:'https://www.youtube.com/results?search_query=Mental+As+Anything+Mr+Natural'},
   {artist:'POND',tracks:["America’s Cup",'Hang a Cross On Me','Human Touch','Zond','Lights of Leeming'],url:'https://www.youtube.com/results?search_query=POND+America%27s+Cup'},
   {artist:'Models',tracks:['King of Kings','God Bless America'],url:'https://www.youtube.com/results?search_query=Models+King+of+Kings+Australian+band'},
-  {artist:'Visage',tracks:['Fade To Grey'],url:'https://www.youtube.com/results?search_query=Visage+Fade+To+Grey+official'},
+  {artist:'Visage',tracks:['Fade To Grey'],url:'https://www.youtube.com/watch?v=UMPC8QJF6sI',embed:'UMPC8QJF6sI'},
   {artist:'Talking Heads',tracks:['Life During Wartime','Burning Down the House'],url:'https://www.youtube.com/results?search_query=Talking+Heads+Life+During+Wartime+2002'},
   {artist:'Jack Green',tracks:['Murder'],url:'https://www.youtube.com/results?search_query=Jack+Green+Murder+1981'},
   {artist:'The Church',tracks:['The Unguarded Moment'],url:'https://www.youtube.com/results?search_query=The+Church+The+Unguarded+Moment'},
@@ -33,7 +33,7 @@ const regulars=[
   {artist:'Devo',tracks:['Whip It','Girl U Want'],url:'https://www.youtube.com/results?search_query=Devo+official'},
   {artist:'Duran Duran',tracks:['The Chauffeur','Planet Earth'],url:'https://www.youtube.com/results?search_query=Duran+Duran+official'},
   {artist:'Absent Friends',tracks:['I Don\'t Want to Be with Nobody but You'],url:'https://www.youtube.com/results?search_query=Absent+Friends+Australian+band'},
-  {artist:'INXS',tracks:['Don\'t Change','Original Sin'],url:'https://www.youtube.com/results?search_query=INXS+official'},
+  {artist:'INXS',tracks:["Don't Change"],url:'https://www.youtube.com/watch?v=sLm3Khusq_8',embed:'sLm3Khusq_8'},
   {artist:'Tumbleweed',tracks:['Sundial'],url:'https://www.youtube.com/results?search_query=Tumbleweed+Australian+band+official'},
   {artist:'Foo Fighters',tracks:['Everlong','The Pretender'],url:'https://www.youtube.com/results?search_query=Foo+Fighters+official'},
   {artist:'Alex Lloyd',tracks:['Amazing','Lucky Star'],url:'https://www.youtube.com/results?search_query=Alex+Lloyd+official'},
@@ -45,7 +45,7 @@ const regulars=[
   {artist:'Dumbhead',tracks:['Featured track'],url:'https://www.youtube.com/results?search_query=Dumbhead+Australian+band+official'},
   {artist:'The Belair Lip Bombs',tracks:['Featured track'],url:'https://www.youtube.com/results?search_query=The+Belair+Lip+Bombs+official'},
   {artist:'Floodlights',tracks:['Featured track'],url:'https://www.youtube.com/results?search_query=Floodlights+Australian+band+official'},
-  {artist:'Eliza & The Delusionals',tracks:['Featured track'],url:'https://www.youtube.com/results?search_query=Eliza+and+The+Delusionals+official'},
+  {artist:'Eliza & The Delusionals',tracks:['Just Exist'],url:'https://www.youtube.com/watch?v=tSyixJf9Yt8',embed:'tSyixJf9Yt8'},
   {artist:'Body Type',tracks:['Featured track'],url:'https://www.youtube.com/results?search_query=Body+Type+Australian+band+official'},
   {artist:'Polly',tracks:['Featured track'],url:'https://www.youtube.com/results?search_query=Polly+Australian+band+official'},
   {artist:'EXEK',tracks:['Featured track'],url:'https://www.youtube.com/results?search_query=EXEK+band+official'},
@@ -58,7 +58,7 @@ const regulars=[
   {artist:'Yes Boone',tracks:['Featured track'],url:'https://www.youtube.com/results?search_query=Yes+Boone+band+official'},
   {artist:'Glycereens',tracks:['Featured track'],url:'https://www.youtube.com/results?search_query=Glycereens+band+official'},
   {artist:'Forbit',tracks:['Featured track'],url:'https://www.youtube.com/results?search_query=Forbit+Australian+band+official'},
-  {artist:'Spacey Jane',tracks:['Featured track'],url:'https://www.youtube.com/results?search_query=Spacey+Jane+official'}
+  {artist:'Spacey Jane',tracks:['Booster Seat'],url:'https://www.youtube.com/watch?v=XxKuwlnx58q',embed:'XxKuwlnx58q'}
 ];
 
 const archive=[
@@ -77,7 +77,10 @@ function hash(s){let n=0;for(const c of s)n=(n*31+c.charCodeAt(0))>>>0;return n;
 const key=sydDate();
 const artistPick=regulars[hash(key)%regulars.length];
 const trackPick=artistPick.tracks[hash(key+'track')%artistPick.tracks.length];
-const clipUrl=artistPick.url || ('https://www.youtube.com/results?search_query='+encodeURIComponent(artistPick.artist+' '+trackPick));
+const exactSearch='https://www.youtube.com/results?search_query='+encodeURIComponent(artistPick.artist+' '+trackPick+' official');
+const clipUrl=artistPick.embed
+  ? 'https://www.youtube.com/watch?v='+artistPick.embed
+  : ((artistPick.url||'').includes('watch?v=') && artistPick.tracks.length===1 ? artistPick.url : exactSearch);
 
 document.querySelectorAll('[data-daily-artist]').forEach(e=>e.textContent=artistPick.artist);
 document.querySelectorAll('[data-daily-track]').forEach(e=>e.textContent=trackPick);
@@ -87,7 +90,7 @@ document.querySelectorAll('[data-video-frame]').forEach(frame=>{
   if(artistPick.embed){
     frame.innerHTML=`<iframe src="https://www.youtube.com/embed/${artistPick.embed}?rel=0" title="${artistPick.artist} — ${trackPick}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
   }else{
-    frame.innerHTML=`<div class="video-fallback"><span>DAILY VIDEO PICK</span><b>${artistPick.artist}</b><em>${trackPick}</em><a class="btn" href="${clipUrl}" target="_blank" rel="noopener">Open clip on YouTube →</a></div>`;
+    frame.innerHTML=`<div class="video-fallback"><span>DAILY VIDEO PICK</span><b>${artistPick.artist}</b><em>${trackPick}</em><a class="btn" href="${clipUrl}" target="_blank" rel="noopener">Find today’s song on YouTube →</a></div>`;
   }
 });
 
