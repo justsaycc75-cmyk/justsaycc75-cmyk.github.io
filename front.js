@@ -36,6 +36,18 @@
     return;
   }
 
+  if(artist==='Visage'){
+    const direct='https://www.youtube.com/watch?v=UMPC8QJF6sI';
+    document.querySelectorAll('[data-youtube]').forEach(e=>e.href=direct);
+    document.querySelectorAll('[data-daily-track]').forEach(e=>e.textContent='Fade To Grey');
+    img.src='https://i.ytimg.com/vi/UMPC8QJF6sI/maxresdefault.jpg';
+    img.alt='Visage — Fade To Grey';
+    const box=document.querySelector('[data-video-frame]');
+    if(box)box.innerHTML='<iframe src="https://www.youtube.com/embed/UMPC8QJF6sI?rel=0" title="Visage — Fade To Grey" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
+    if(visual)visual.style.display='none';
+    return;
+  }
+
   if(artist==='Arcadia'){
     const direct='https://www.youtube.com/watch?v=hqRBqT0iZKo';
     document.querySelectorAll('[data-youtube]').forEach(e=>e.href=direct);
