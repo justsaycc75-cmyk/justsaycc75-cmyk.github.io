@@ -122,14 +122,17 @@
     <a href="hunter.html" class="front-photo-card"><img src="assets/img/hunter1.webp" alt="Hunter Valley"><span>Hunter Valley</span><em>Cellar doors + favourites</em></a>
     <a href="watching.html" class="front-photo-card rail-graphic rail-watch"><b>NETFLIX · STAN<br>HBO · PRIME</b><span>Watching</span><em>Current watch list</em></a>
     <a href="sport.html" class="front-photo-card rail-graphic rail-sport rail-sport-teams">
-      <b>ROOSTERS<br>AND NFL</b>
-      <div class="rail-team-logos" aria-hidden="true">
-        <img src="https://img.logokit.com/roosters.com.au" alt="">
-        <img src="https://static.www.nfl.com/t_q-best/league/api/clubs/logos/NYG" alt="">
-        <img src="https://static.www.nfl.com/t_q-best/league/api/clubs/logos/SEA" alt="">
-        <img src="https://static.www.nfl.com/t_q-best/league/api/clubs/logos/GB" alt="">
+      <div class="sport-card-copy">
+        <small>SPORT</small>
+        <b>ROOSTERS<br>&amp; NFL</b>
       </div>
-      <span>Sport</span><em>Teams + upcoming games</em>
+      <div class="rail-team-logos" aria-label="Sydney Roosters, New York Giants, Seattle Seahawks and Green Bay Packers">
+        <span class="team-logo-tile"><img src="https://cdn.freebiesupply.com/logos/large/2x/sydney-roosters-1-logo-png-transparent.png" alt="Sydney Roosters"></span>
+        <span class="team-logo-tile"><img src="https://static.www.nfl.com/t_q-best/league/api/clubs/logos/NYG" alt="New York Giants"></span>
+        <span class="team-logo-tile"><img src="https://static.www.nfl.com/t_q-best/league/api/clubs/logos/SEA" alt="Seattle Seahawks"></span>
+        <span class="team-logo-tile"><img src="https://static.www.nfl.com/t_q-best/league/api/clubs/logos/GB" alt="Green Bay Packers"></span>
+      </div>
+      <em>Teams + upcoming games</em>
     </a>
     <a href="racing.html" class="front-photo-card image-only-card"><img src="Punt.png" alt="Saturday on the Punt horse racing"></a>
     <a href="radio.html" class="front-photo-card image-only-card"><img src="Icom.png" alt="Icom IC-705 shortwave radio"></a>
@@ -139,20 +142,34 @@
     const style=document.createElement('style');
     style.id='rail-team-logo-styles';
     style.textContent=`
-      .rail-sport-teams{min-height:150px;padding:14px 12px 12px!important}
-      .rail-sport-teams b{font-size:.95rem!important;line-height:1.02!important;max-width:105px}
-      .rail-team-logos{position:absolute;z-index:2;top:14px;right:10px;width:92px;display:grid;grid-template-columns:repeat(2,38px);gap:6px;justify-content:end}
-      .rail-team-logos img{width:38px!important;height:38px!important;object-fit:contain!important;background:#fff;border:1px solid #ffffff33;border-radius:10px;padding:4px;filter:none!important;transform:none!important;box-shadow:0 4px 12px #0007}
-      .rail-sport-teams span{bottom:28px!important}
-      .rail-sport-teams em{bottom:9px!important}
+      .rail-sport-teams{
+        min-height:178px;
+        padding:16px!important;
+        background:
+          radial-gradient(circle at 85% 15%,rgba(255,255,255,.08),transparent 28%),
+          linear-gradient(145deg,#0d3920 0%,#102919 52%,#08150e 100%)!important;
+        border-color:#31513a!important;
+      }
+      .rail-sport-teams:after{display:none!important}
+      .sport-card-copy{position:relative;z-index:2}
+      .sport-card-copy small{display:block;color:#9ee65b;font-size:.58rem;font-weight:900;letter-spacing:.2em;margin-bottom:5px}
+      .rail-sport-teams b{display:block!important;font-size:1.12rem!important;line-height:.98!important;letter-spacing:.025em!important;max-width:none!important;color:#fff}
+      .rail-team-logos{position:absolute;z-index:2;left:14px;right:14px;bottom:38px;display:grid;grid-template-columns:repeat(4,1fr);gap:7px}
+      .team-logo-tile{position:static!important;display:flex!important;align-items:center;justify-content:center;height:46px;background:rgba(255,255,255,.95)!important;border:1px solid rgba(255,255,255,.35);border-radius:12px!important;box-shadow:0 5px 14px rgba(0,0,0,.32);overflow:hidden}
+      .team-logo-tile img{width:38px!important;height:38px!important;object-fit:contain!important;padding:3px!important;background:transparent!important;border:0!important;border-radius:0!important;filter:none!important;transform:none!important;box-shadow:none!important}
+      .rail-sport-teams em{left:16px!important;bottom:12px!important;color:#d7e2da!important;font-size:.69rem!important}
+      .rail-sport-teams:hover{transform:translateY(-2px);border-color:var(--lime)!important;box-shadow:0 14px 28px rgba(0,0,0,.28)}
+      .rail-sport-teams:hover .team-logo-tile{box-shadow:0 7px 18px rgba(0,0,0,.38)}
+
       .front-photo-card.image-only-card{height:170px;padding:0!important;background:#07100b}
       .front-photo-card.image-only-card:after{display:none!important}
       .front-photo-card.image-only-card img{width:100%!important;height:100%!important;object-fit:cover!important;object-position:center!important;display:block}
       .front-photo-card.image-only-card[href="radio.html"] img{object-fit:contain!important;background:#07100b;padding:4px!important}
       .front-photo-card.image-only-card:hover img{transform:scale(1.025);filter:brightness(1.04)}
       @media(max-width:700px){
-        .rail-team-logos{width:96px;grid-template-columns:repeat(2,40px)}
-        .rail-team-logos img{width:40px!important;height:40px!important}
+        .rail-team-logos{left:12px;right:12px;bottom:36px;grid-template-columns:repeat(4,1fr);gap:6px}
+        .team-logo-tile{height:44px}
+        .team-logo-tile img{width:36px!important;height:36px!important}
         .front-photo-card.image-only-card{height:150px}
       }
     `;
