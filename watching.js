@@ -108,6 +108,61 @@
       video:'7XLQ1bkSLDo',
       summary:'An idealistic FBI agent joins a covert task force operating along the US–Mexico border and discovers that the rules are far murkier than she expected.',
       source:'Lionsgate'
+    },
+    'The X-Files':{
+      url:'https://www.youtube.com/results?search_query=The+X-Files+official+trailer',
+      wiki:'The X-Files',
+      summary:'FBI agents Fox Mulder and Dana Scully investigate unexplained cases involving conspiracy, paranormal activity, monsters, government secrecy and the occasional deeply strange small town.',
+      source:'Official trailer / overview'
+    },
+    'Broadchurch':{
+      url:'https://www.youtube.com/results?search_query=Broadchurch+official+trailer+ITV',
+      wiki:'Broadchurch',
+      summary:'A child’s murder tears through a quiet Dorset town, forcing two detectives to dig into secrets, grief and suspicion as almost everyone becomes capable of hiding something.',
+      source:'ITV / official trailer'
+    },
+    'The Bridge':{
+      url:'https://www.youtube.com/results?search_query=The+Bridge+Bron+Broen+official+trailer',
+      wiki:'The Bridge (2011 TV series)',
+      summary:'A body found exactly on the Denmark–Sweden border forces two very different detectives to work together across jurisdictions in one of Scandinavian crime drama’s defining series.',
+      source:'Bron/Broen / official trailer'
+    },
+    'Sons of Anarchy':{
+      url:'https://www.fxnetworks.com/shows/sons-of-anarchy',
+      wiki:'Sons of Anarchy',
+      summary:'An outlaw motorcycle club tries to protect its town and its criminal empire while family loyalty, violence, betrayal and power struggles steadily tear everything apart.',
+      source:'FX',
+      direct:true
+    },
+    'Tulsa King':{
+      url:'https://www.paramountplus.com/shows/tulsa-king/',
+      video:'NXpzKI-sEac',
+      wiki:'Tulsa King',
+      summary:'Sylvester Stallone plays New York mobster Dwight Manfredi, exiled to Tulsa after 25 years in prison, where he starts building a new criminal crew from scratch.',
+      source:'Paramount+',
+      direct:true
+    },
+    'The Madison':{
+      url:'https://www.paramountplus.com/shows/the-madison/',
+      video:'OSb-X_YkLg4',
+      wiki:'The Madison (TV series)',
+      summary:'Taylor Sheridan’s Montana drama follows the Clyburn family as they leave New York for the Madison River Valley and try to rebuild their lives after tragedy.',
+      source:'Paramount+',
+      direct:true
+    },
+    'Mr Inbetween':{
+      url:'https://www.fxnetworks.com/shows/mr-inbetween',
+      wiki:'Mr Inbetween',
+      summary:'Ray Shoesmith is a Sydney hitman, father, brother and boyfriend trying to keep normal life and violent work in separate boxes. Dark, funny, brutal and very Australian.',
+      source:'FX',
+      direct:true
+    },
+    'Dexter':{
+      url:'https://www.paramountplus.com/shows/dexter/',
+      wiki:'Dexter (TV series)',
+      summary:'A Miami blood-spatter analyst leads a double life as a serial killer who targets other murderers, while trying to maintain the appearance of a normal family man.',
+      source:'Showtime / Paramount+',
+      direct:true
     }
   };
 
@@ -122,15 +177,22 @@
     card.setAttribute('aria-label',`${title} — ${info.direct ? 'official show page' : 'official trailer / overview'}`);
 
     const thumb=card.querySelector('.watch-thumb');
-    if(thumb && info.video){
+    if(thumb){
       const img=document.createElement('img');
-      img.src=`https://i.ytimg.com/vi/${info.video}/hqdefault.jpg`;
-      img.alt=`${title} trailer thumbnail`;
+      img.alt=`${title} thumbnail`;
       img.loading='lazy';
       img.decoding='async';
       img.referrerPolicy='no-referrer';
-      img.onerror=()=>{ img.remove(); };
-      thumb.prepend(img);
+      if(info.video){
+        img.src=`https://i.ytimg.com/vi/${info.video}/hqdefault.jpg`;
+        img.onerror=()=>{ img.remove(); };
+        thumb.prepend(img);
+      }else if(info.wiki){
+        fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(info.wiki)}`)
+          .then(r=>r.ok?r.json():Promise.reject())
+          .then(d=>{if(d.thumbnail&&d.thumbnail.source){img.src=d.thumbnail.source;thumb.prepend(img);}})
+          .catch(()=>{});
+      }
     }
 
     const p=card.querySelector('.watch-copy p');
