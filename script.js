@@ -16,7 +16,7 @@ const regulars=[
   {artist:'POND',tracks:["America’s Cup",'Hang a Cross On Me','Human Touch','Zond','Lights of Leeming'],url:'https://www.youtube.com/results?search_query=POND+America%27s+Cup'},
   {artist:'Models',tracks:['King of Kings','God Bless America'],url:'https://www.youtube.com/results?search_query=Models+King+of+Kings+Australian+band'},
   {artist:'Visage',tracks:['Fade To Grey'],url:'https://www.youtube.com/watch?v=UMPC8QJF6sI',embed:'UMPC8QJF6sI'},
-  {artist:'Talking Heads',tracks:['Life During Wartime','Burning Down the House'],url:'https://www.youtube.com/results?search_query=Talking+Heads+Life+During+Wartime+2002'},
+  {artist:'Talking Heads',tracks:['Life During Wartime'],url:'https://www.youtube.com/watch?v=alEjtNx0fTg',embed:'alEjtNx0fTg'},
   {artist:'Jack Green',tracks:['Murder'],url:'https://www.youtube.com/results?search_query=Jack+Green+Murder+1981'},
   {artist:'The Church',tracks:['The Unguarded Moment'],url:'https://www.youtube.com/results?search_query=The+Church+The+Unguarded+Moment'},
   {artist:'Simple Minds',tracks:['Love Song'],url:'https://www.youtube.com/results?search_query=Simple+Minds+Love+Song+official'},
@@ -75,7 +75,8 @@ function sydDate(){
 }
 function hash(s){let n=0;for(const c of s)n=(n*31+c.charCodeAt(0))>>>0;return n;}
 const key=sydDate();
-const artistPick=regulars[hash(key)%regulars.length];
+const playableRegulars=regulars.filter(r=>r.embed);
+const artistPick=playableRegulars[hash(key)%playableRegulars.length];
 const trackPick=artistPick.tracks[hash(key+'track')%artistPick.tracks.length];
 const exactSearch='https://www.youtube.com/results?search_query='+encodeURIComponent(artistPick.artist+' '+trackPick+' official');
 const clipUrl=artistPick.embed
