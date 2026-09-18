@@ -39,7 +39,26 @@ const regulars=[
   {artist:'Alex Lloyd',tracks:['Amazing','Lucky Star'],url:'https://www.youtube.com/results?search_query=Alex+Lloyd+official'},
   {artist:'Do-Ré-Mi',tracks:['Man Overboard'],url:'https://www.youtube.com/results?search_query=Do-Re-Mi+Man+Overboard+Australian+band'},
   {artist:'The The',tracks:['Uncertain Smile','This Is the Day'],url:'https://www.youtube.com/results?search_query=The+The+official'},
-  {artist:'Mi-Sex',tracks:['Computer Games','People'],url:'https://www.youtube.com/results?search_query=Mi-Sex+official'}
+  {artist:'Mi-Sex',tracks:['Computer Games','People'],url:'https://www.youtube.com/results?search_query=Mi-Sex+official'},
+  {artist:'Radio Free Alice',tracks:['Featured track'],url:'https://www.youtube.com/results?search_query=Radio+Free+Alice+official'},
+  {artist:'The Slims',tracks:['Featured track'],url:'https://www.youtube.com/results?search_query=The+Slims+Australian+band+official'},
+  {artist:'Dumbhead',tracks:['Featured track'],url:'https://www.youtube.com/results?search_query=Dumbhead+Australian+band+official'},
+  {artist:'The Belair Lip Bombs',tracks:['Featured track'],url:'https://www.youtube.com/results?search_query=The+Belair+Lip+Bombs+official'},
+  {artist:'Floodlights',tracks:['Featured track'],url:'https://www.youtube.com/results?search_query=Floodlights+Australian+band+official'},
+  {artist:'Eliza & The Delusionals',tracks:['Featured track'],url:'https://www.youtube.com/results?search_query=Eliza+and+The+Delusionals+official'},
+  {artist:'Body Type',tracks:['Featured track'],url:'https://www.youtube.com/results?search_query=Body+Type+Australian+band+official'},
+  {artist:'Polly',tracks:['Featured track'],url:'https://www.youtube.com/results?search_query=Polly+Australian+band+official'},
+  {artist:'EXEK',tracks:['Featured track'],url:'https://www.youtube.com/results?search_query=EXEK+band+official'},
+  {artist:'Inanna Indigo',tracks:['Featured track'],url:'https://www.youtube.com/results?search_query=Inanna+Indigo+official'},
+  {artist:'Snake Mountain',tracks:['Featured track'],url:'https://www.youtube.com/results?search_query=Snake+Mountain+Australian+band+official'},
+  {artist:'MACËY',tracks:['Featured track'],url:'https://www.youtube.com/results?search_query=MACEY+Australian+artist+official'},
+  {artist:'Lazy Haze',tracks:['Featured track'],url:'https://www.youtube.com/results?search_query=Lazy+Haze+Australian+band+official'},
+  {artist:'Pacific Avenue',tracks:['Featured track'],url:'https://www.youtube.com/results?search_query=Pacific+Avenue+band+official'},
+  {artist:'Newport',tracks:['Featured track'],url:'https://www.youtube.com/results?search_query=Newport+Australian+band+official'},
+  {artist:'Yes Boone',tracks:['Featured track'],url:'https://www.youtube.com/results?search_query=Yes+Boone+band+official'},
+  {artist:'Glycereens',tracks:['Featured track'],url:'https://www.youtube.com/results?search_query=Glycereens+band+official'},
+  {artist:'Forbit',tracks:['Featured track'],url:'https://www.youtube.com/results?search_query=Forbit+Australian+band+official'},
+  {artist:'Spacey Jane',tracks:['Featured track'],url:'https://www.youtube.com/results?search_query=Spacey+Jane+official'}
 ];
 
 const archive=[
