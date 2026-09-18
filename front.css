@@ -47,3 +47,21 @@
 .swans-news-links a:hover{border-color:var(--lime);background:#111a13}
 @media(max-width:900px){.swans-news-card{grid-template-columns:1fr}.swans-news-visual{min-height:280px}.swans-news-copy{padding:26px}}
 @media(max-width:560px){.swans-news{padding-bottom:28px}.swans-news-visual{min-height:240px;padding:24px 16px;gap:8px}.swans-team-mark img{width:78px;height:78px}.swans-score{min-width:112px}.swans-score strong{font-size:2.1rem}.swans-news-copy{padding:22px 18px}.swans-news-links{display:grid}.swans-news-links a{justify-content:center}}
+
+/* NFL results under Coming up in sport */
+.nfl-results-block{margin-top:28px;padding-top:24px;border-top:1px solid #26332b}
+.nfl-results-head{display:flex;align-items:end;justify-content:space-between;gap:18px;margin-bottom:14px}
+.nfl-results-head h3{margin:.18em 0 0;font-size:clamp(1.7rem,3vw,2.45rem)}
+.nfl-results-head>span{color:#97a39b;font-size:.78rem;font-weight:800}
+.nfl-results-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.nfl-result-card{position:relative;padding:16px 17px 15px;border:1px solid #334038;border-radius:16px;background:linear-gradient(145deg,#111713,#0b100d)}
+.nfl-result-card small{display:block;color:#93a098;font-size:.67rem;font-weight:900;letter-spacing:.14em;text-transform:uppercase;margin-bottom:9px}
+.nfl-result-card strong,.nfl-result-card span{display:block}
+.nfl-result-card strong{font-size:1rem;color:#fff;margin-bottom:5px}
+.nfl-result-card span{font-size:.91rem;color:#bfc8c2}
+.nfl-result-card em{display:inline-block;margin-top:11px;color:var(--lime);font-size:.7rem;font-style:normal;font-weight:900;letter-spacing:.12em;text-transform:uppercase}
+.nfl-result-card.favourite{border-color:#4e5f54;box-shadow:inset 0 0 0 1px rgba(170,255,34,.04)}
+.nfl-result-card.favourite small{color:var(--lime)}
+.nfl-results-link{margin-top:16px}
+@media(max-width:900px){.nfl-results-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:520px){.nfl-results-head{display:block}.nfl-results-head>span{display:block;margin-top:6px}.nfl-results-grid{grid-template-columns:1fr}}
