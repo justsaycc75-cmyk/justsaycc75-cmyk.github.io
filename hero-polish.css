@@ -37,10 +37,10 @@
   position:relative;
   z-index:1;
   width:100%;
-  height:320px!important;
+  height:350px!important;
   object-fit:contain!important;
   object-position:center!important;
-  padding:34px 14px 14px!important;
+  padding:28px 10px 10px!important;
   background:linear-gradient(180deg,#f2ecd7,#e8dfc2)!important;
   filter:none!important;
 }
@@ -79,13 +79,13 @@
 }
 .hero-cassette:hover img{transform:scale(1.01)}
 @media(max-width:980px){
-  .hero-cassette{min-height:350px}
-  .hero-cassette img{height:270px!important}
+  .hero-cassette{min-height:380px}
+  .hero-cassette img{height:300px!important}
   .hero-cassette figcaption{font-size:1.08rem;padding:16px 18px 18px}
 }
 @media(max-width:700px){
   .hero-cassette{max-width:420px}
-  .hero-cassette img{height:285px!important}
+  .hero-cassette img{height:315px!important}
   .hero-cassette figcaption{font-size:1.12rem}
 }
 .hero-cassette figcaption{
