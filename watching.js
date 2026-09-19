@@ -143,7 +143,7 @@
       direct:true
     },
     'The Madison':{
-      url:'https://www.paramountplus.com/shows/the-madison/',
+      url:'https://www.paramountplus.com/sneak-peak/where-to-watch-the-madison/',
       video:'OSb-X_YkLg4',
       wiki:'The Madison (TV series)',
       summary:'Taylor Sheridan’s Montana drama follows the Clyburn family as they leave New York for the Madison River Valley and try to rebuild their lives after tragedy.',
@@ -158,7 +158,7 @@
       direct:true
     },
     'Dexter':{
-      url:'https://www.paramountplus.com/shows/dexter/',
+      url:'https://www.intl.paramountplus.com/au/shows/dexter/episodes/',
       wiki:'Dexter (TV series)',
       summary:'A Miami blood-spatter analyst leads a double life as a serial killer who targets other murderers, while trying to maintain the appearance of a normal family man.',
       source:'Showtime / Paramount+',
