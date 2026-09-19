@@ -59,6 +59,21 @@ const regulars=[
   {artist:'Glycereens',tracks:['Featured track'],url:'https://www.youtube.com/results?search_query=Glycereens+band+official'},
   {artist:'Forbit',tracks:['Featured track'],url:'https://www.youtube.com/results?search_query=Forbit+Australian+band+official'},
   {artist:'Spacey Jane',tracks:['Booster Seat'],url:'https://www.youtube.com/watch?v=XxKuwlnx58q',embed:'XxKuwlnx58q'}
+  ,
+  {artist:'Fleetwood Mac',tracks:['Dreams','The Chain'],url:'https://www.youtube.com/results?search_query=Fleetwood+Mac+official'},
+  {artist:'The Killers',tracks:['Mr. Brightside','When You Were Young'],url:'https://www.youtube.com/results?search_query=The+Killers+official'},
+  {artist:'Arctic Monkeys',tracks:['Do I Wanna Know?','R U Mine?'],url:'https://www.youtube.com/results?search_query=Arctic+Monkeys+official'},
+  {artist:'Prince',tracks:['Purple Rain','When Doves Cry'],url:'https://www.youtube.com/results?search_query=Prince+official'},
+  {artist:'AC/DC',tracks:['Back in Black','Thunderstruck'],url:'https://www.youtube.com/results?search_query=ACDC+official'},
+  {artist:'Aerosmith',tracks:['Dream On','Sweet Emotion'],url:'https://www.youtube.com/results?search_query=Aerosmith+official'},
+  {artist:'The Beatles',tracks:['Come Together','A Day in the Life'],url:'https://www.youtube.com/results?search_query=The+Beatles+official'},
+  {artist:'Bob Dylan',tracks:['Like a Rolling Stone','Tangled Up in Blue'],url:'https://www.youtube.com/results?search_query=Bob+Dylan+official'},
+  {artist:'The Rolling Stones',tracks:['Gimme Shelter','Paint It, Black'],url:'https://www.youtube.com/results?search_query=The+Rolling+Stones+official'},
+  {artist:'David Bowie',tracks:['Heroes','Life on Mars?'],url:'https://www.youtube.com/results?search_query=David+Bowie+official'},
+  {artist:'Led Zeppelin',tracks:['Kashmir','When the Levee Breaks'],url:'https://www.youtube.com/results?search_query=Led+Zeppelin+official'},
+  {artist:'Bruce Springsteen',tracks:['Born to Run','The River'],url:'https://www.youtube.com/results?search_query=Bruce+Springsteen+official'},
+  {artist:'Neil Young',tracks:['Heart of Gold','Rockin\' in the Free World'],url:'https://www.youtube.com/results?search_query=Neil+Young+official'},
+  {artist:'The Velvet Underground',tracks:['Sunday Morning','I\'m Waiting for the Man'],url:'https://www.youtube.com/results?search_query=The+Velvet+Underground+official'}
 ];
 
 const archive=[
