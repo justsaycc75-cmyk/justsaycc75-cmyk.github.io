@@ -78,3 +78,15 @@
 .nfl-result-card>small{margin-top:13px}
 .nfl-result-card>em{margin-bottom:15px}
 @media(max-width:520px){.nfl-result-thumb{height:104px}.nfl-result-thumb img{width:62px;height:62px}}
+
+/* Dedicated NFL home section */
+.nfl-upcoming-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.nfl-upcoming-grid .team-photo-card,.nfl-upcoming-grid .team-photo-card img{min-height:390px}
+.nfl-upcoming-grid .team-photo-overlay span{font-size:.7rem;letter-spacing:.1em}
+.nfl-upcoming-grid .team-photo-overlay small{font-size:.86rem;line-height:1.4}
+.nfl-watch-row{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-top:18px;padding:22px;border:1px solid #344139;border-radius:18px;background:linear-gradient(145deg,#111713,#0b100d)}
+.nfl-watch-row h3{margin:.25em 0 .3em;font-size:1.7rem}
+.nfl-watch-row p{margin:0;color:#c7d0ca;line-height:1.55;max-width:850px}
+.nfl-watch-row .sport-main-link{margin:0;white-space:nowrap}
+@media(max-width:900px){.nfl-upcoming-grid{grid-template-columns:1fr 1fr}.nfl-watch-row{display:block}.nfl-watch-row .sport-main-link{margin-top:16px}}
+@media(max-width:620px){.nfl-upcoming-grid{grid-template-columns:1fr}.nfl-upcoming-grid .team-photo-card,.nfl-upcoming-grid .team-photo-card img{min-height:300px}}
