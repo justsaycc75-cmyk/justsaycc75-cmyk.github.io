@@ -217,3 +217,15 @@
   syncLink();
   new MutationObserver(syncLink).observe(teamEl,{childList:true,subtree:true,characterData:true});
 })();
+(()=> {
+  const picks={syd:null,nz:null};
+  document.querySelectorAll('[data-nrl-pick]').forEach(btn=>{
+    btn.addEventListener('click',()=>{
+      const group=btn.dataset.nrlPick;
+      picks[group]=btn.dataset.team;
+      document.querySelectorAll(`[data-nrl-pick="${group}"]`).forEach(b=>b.classList.toggle('active',b===btn));
+      const out=document.querySelector(`[data-nrl-output="${group}"]`);
+      if(out)out.textContent=btn.dataset.team;
+    });
+  });
+})();
