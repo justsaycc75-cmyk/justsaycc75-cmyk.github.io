@@ -131,7 +131,22 @@
   rail.innerHTML=`
     <a href="music.html" class="front-photo-card"><img src="assets/img/cassette.webp" alt="Music"><span>Music</span><em>Daily clip + archive</em></a>
 
-    <a href="watching.html" class="front-photo-card rail-graphic rail-watch"><b>NETFLIX · STAN<br>HBO · PRIME</b><span>Watching</span><em>Current watch list</em></a>
+    <a href="markets.html" class="front-photo-card rail-markets-pro" aria-label="Open Global Markets dashboard">
+      <div class="market-mini-head"><small>MARKETS</small><b>Global pulse</b></div>
+      <div class="market-mini-gauges">
+        <i><u></u><span>ASX</span></i>
+        <i><u></u><span>S&amp;P</span></i>
+        <i><u></u><span>FX</span></i>
+        <i><u></u><span>GOLD</span></i>
+      </div>
+      <em>Open live dashboard →</em>
+    </a>
+
+    <a href="radio.html" class="front-photo-card image-only-card"><img src="Icom.png" alt="Icom IC-705 shortwave radio"></a>
+
+    <a href="journeys.html" class="front-photo-card"><img src="assets/img/crown_sunset.webp" alt="Journeys and cruises"><span>Journeys</span><em>Cruises + side trips</em></a>
+
+    <a href="hunter.html" class="front-photo-card"><img src="assets/img/hunter1.webp" alt="Hunter Valley"><span>Hunter Valley</span><em>Cellar doors + favourites</em></a>
 
     <a href="sport.html" class="front-photo-card rail-graphic rail-sport rail-sport-teams">
       <div class="sport-card-copy">
@@ -147,24 +162,9 @@
       <em>Teams + upcoming games</em>
     </a>
 
-    <a href="racing.html" class="front-photo-card image-only-card"><img src="Punt.png" alt="Saturday on the Punt horse racing"></a>
+    <a href="watching.html" class="front-photo-card rail-graphic rail-watch"><b>NETFLIX · STAN<br>HBO · PRIME</b><span>Watching</span><em>Current watch list</em></a>
 
-    <a href="radio.html" class="front-photo-card image-only-card"><img src="Icom.png" alt="Icom IC-705 shortwave radio"></a>
-
-    <a href="journeys.html" class="front-photo-card"><img src="assets/img/crown_sunset.webp" alt="Journeys and cruises"><span>Journeys</span><em>Cruises + side trips</em></a>
-
-    <a href="hunter.html" class="front-photo-card"><img src="assets/img/hunter1.webp" alt="Hunter Valley"><span>Hunter Valley</span><em>Cellar doors + favourites</em></a>
-
-    <a href="markets.html" class="front-photo-card rail-markets-pro" aria-label="Open Global Markets dashboard">
-      <div class="market-mini-head"><small>MARKETS</small><b>Global pulse</b></div>
-      <div class="market-mini-gauges">
-        <i><u></u><span>ASX</span></i>
-        <i><u></u><span>S&amp;P</span></i>
-        <i><u></u><span>FX</span></i>
-        <i><u></u><span>GOLD</span></i>
-      </div>
-      <em>Open live dashboard →</em>
-    </a>`;
+    <a href="racing.html" class="front-photo-card image-only-card"><img src="Punt.png" alt="Saturday on the Punt horse racing"></a>`;
 
   if(!document.getElementById('rail-team-logo-styles')){
     const style=document.createElement('style');
