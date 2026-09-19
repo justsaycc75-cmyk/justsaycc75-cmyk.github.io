@@ -260,8 +260,13 @@ const archive=[
 function sydDate(){
   return new Intl.DateTimeFormat('en-CA',{timeZone:'Australia/Sydney',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
 }
+function sydHour(){
+  const parts=new Intl.DateTimeFormat('en-AU',{timeZone:'Australia/Sydney',hour:'2-digit',hour12:false}).formatToParts(new Date());
+  return parseInt(parts.find(p=>p.type==='hour')?.value||'0',10)%24;
+}
 function hash(s){let n=0;for(const c of s)n=(n*31+c.charCodeAt(0))>>>0;return n;}
-const key=sydDate();
+const eightHourSlot=Math.floor(sydHour()/8);
+const key=sydDate()+'-slot-'+eightHourSlot;
 const playableRegulars=regulars.filter(r=>r.embed);
 const artistPick=playableRegulars[hash(key)%playableRegulars.length];
 const trackPick=artistPick.tracks[hash(key+'track')%artistPick.tracks.length];
