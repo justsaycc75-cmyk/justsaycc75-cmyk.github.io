@@ -22,31 +22,33 @@
 @media(max-width:980px){.watch-feature{grid-template-columns:1fr}.stream-montage{min-height:245px;border-left:0;border-top:1px solid #344038;padding:16px}.watch-feature-copy h2{font-size:clamp(2.3rem,7vw,3.8rem)}}
 @media(max-width:700px){.stream-montage{padding:12px;gap:10px}.stream-montage span{padding:12px;border-radius:15px}.stream-logo-img{max-height:50px}.watch-feature-copy{padding:24px 22px}}
 @media(max-width:480px){.watch-feature{border-radius:18px}.watch-feature-copy h2{font-size:2.35rem}.stream-montage{min-height:220px}.stream-logo-img{max-height:42px}}
-/* Latest Swans news feature */
-.swans-news{padding:8px 0 40px}
-.swans-news .kicker{margin-bottom:12px}
-.swans-news-card{display:grid;grid-template-columns:minmax(360px,.9fr) minmax(0,1.1fr);border:1px solid #3a4640;border-radius:24px;overflow:hidden;background:linear-gradient(145deg,#111713,#0a0d0b);box-shadow:0 14px 34px rgba(0,0,0,.28)}
-.swans-news-visual{min-height:330px;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:16px;padding:34px;background:radial-gradient(circle at 20% 30%,rgba(220,28,45,.38),transparent 34%),radial-gradient(circle at 82% 68%,rgba(73,39,111,.46),transparent 36%),linear-gradient(145deg,#121915,#070a08);position:relative;isolation:isolate}
-.swans-news-visual:after{content:"SCG • FRIDAY NIGHT";position:absolute;left:22px;bottom:18px;color:#d7ddd9;font-size:.72rem;font-weight:900;letter-spacing:.2em}
-.swans-team-mark{display:flex;flex-direction:column;align-items:center;gap:10px;text-align:center;font-size:.8rem;font-weight:900;letter-spacing:.12em}
-.swans-team-mark img{width:112px;height:112px;object-fit:contain;filter:drop-shadow(0 8px 18px rgba(0,0,0,.34))}
-.swans-score{text-align:center;min-width:140px}
-.swans-score small{display:block;color:var(--lime);font-size:.66rem;font-weight:900;letter-spacing:.16em}
-.swans-score strong{display:block;margin:10px 0 4px;font-size:2.65rem;line-height:1;color:#fff;letter-spacing:-.05em}
-.swans-score strong em{font-style:normal;color:#7f8b84;font-size:.75em}
-.swans-score span{color:#b9c2bc;font-size:.78rem;font-weight:800}
-.swans-news-copy{padding:30px 32px 28px}
-.swans-news-meta{display:flex;gap:10px;align-items:center;margin-bottom:10px;color:#aeb8b1;font-size:.76rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
-.swans-news-meta span:first-child{color:#ff5367}
-.swans-news-copy h2{margin:.15em 0 .35em;font-size:clamp(2rem,3.5vw,3.2rem);line-height:1;letter-spacing:-.035em}
-.swans-news-deck{font-size:1.05rem;line-height:1.5;color:#eef2ef;font-weight:750}
-.swans-news-copy p{color:#c7d0ca;line-height:1.58}
-.swans-news-bottom{padding-top:4px}
-.swans-news-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
-.swans-news-links a{display:inline-flex;padding:10px 14px;border:1px solid #425248;border-radius:999px;color:var(--lime);text-decoration:none;font-size:.82rem;font-weight:900}
-.swans-news-links a:hover{border-color:var(--lime);background:#111a13}
-@media(max-width:900px){.swans-news-card{grid-template-columns:1fr}.swans-news-visual{min-height:280px}.swans-news-copy{padding:26px}}
-@media(max-width:560px){.swans-news{padding-bottom:28px}.swans-news-visual{min-height:240px;padding:24px 16px;gap:8px}.swans-team-mark img{width:78px;height:78px}.swans-score{min-width:112px}.swans-score strong{font-size:2.1rem}.swans-news-copy{padding:22px 18px}.swans-news-links{display:grid}.swans-news-links a{justify-content:center}}
+/* NRL finals weekend preview */
+.nrl-weekend{padding:12px 0 42px}
+.nrl-weekend-head{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:20px}
+.nrl-weekend-head h2{margin:.15em 0 .25em}
+.nrl-weekend-head p{max-width:900px;color:#c8d1ca;line-height:1.6}
+.nrl-preview-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.nrl-preview-card{overflow:hidden;border:1px solid #344139;border-radius:22px;background:linear-gradient(145deg,#111713,#0a0f0c);box-shadow:0 14px 30px rgba(0,0,0,.24)}
+.nrl-preview-photo{display:block;height:300px;overflow:hidden}
+.nrl-preview-photo img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .22s ease,filter .22s ease}
+.nrl-preview-photo:hover img{transform:scale(1.025);filter:brightness(1.05)}
+.nrl-preview-copy{padding:20px}
+.nrl-preview-copy small{display:block;color:var(--orange);font-weight:900;letter-spacing:.08em;text-transform:uppercase;font-size:.72rem}
+.nrl-preview-copy h3{font-size:1.65rem;margin:.35em 0}
+.nrl-preview-copy p{color:#cbd4ce;line-height:1.6}
+.nrl-pick-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+.nrl-pick-row button{border:1px solid #405047;border-radius:999px;background:#0c120e;color:#e9eeea;padding:9px 13px;font-weight:900;cursor:pointer}
+.nrl-pick-row button:hover,.nrl-pick-row button.active{border-color:var(--lime);background:#152116;color:var(--lime)}
+.nrl-calculator{display:grid;grid-template-columns:.75fr 1.25fr;gap:22px;align-items:center;margin-top:20px;padding:22px;border:1px solid #405047;border-radius:20px;background:radial-gradient(circle at 10% 10%,rgba(170,255,34,.11),transparent 28%),linear-gradient(145deg,#0f1711,#0a0f0c)}
+.nrl-calculator h3{margin:.2em 0}
+.nrl-calculator p{color:#aeb9b1}
+.nrl-calc-lines{display:grid;gap:10px}
+.nrl-calc-lines>div{padding:14px 16px;border:1px solid #2f3d34;border-radius:14px;background:#0a100c}
+.nrl-calc-lines span{display:block;color:#9ca89f;font-size:.74rem;font-weight:800;text-transform:uppercase;letter-spacing:.08em}
+.nrl-calc-lines strong{display:block;margin-top:4px;font-size:1.12rem}
+.nrl-calc-lines b{color:var(--lime)}
+@media(max-width:900px){.nrl-weekend-head{display:block}.nrl-preview-grid,.nrl-calculator{grid-template-columns:1fr}.nrl-preview-photo{height:260px}}
+@media(max-width:560px){.nrl-preview-photo{height:220px}.nrl-pick-row{display:grid;grid-template-columns:1fr 1fr}.nrl-pick-row button{width:100%}}
 
 /* NFL results under Coming up in sport */
 .nfl-results-block{margin-top:28px;padding-top:24px;border-top:1px solid #26332b}
