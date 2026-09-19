@@ -29,7 +29,21 @@ linear-gradient(145deg,#0a1710,#07100b)}
 .market-panel h2,.market-panel h3{margin:.15em 0}
 .market-panel p{color:#bfc9c1;line-height:1.55}
 .market-note{color:#8f9e93;font-size:.86rem;margin-top:12px}
-.tv-wrap{min-height:112px}
+.market-pulse-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-top:14px}
+.market-pulse-card{position:relative;overflow:hidden;border:1px solid #34453a;border-radius:18px;background:linear-gradient(145deg,#0b120e,#09100c);padding:14px;box-shadow:0 10px 24px rgba(0,0,0,.2)}
+.market-pulse-card:before{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(circle at 80% 12%,rgba(170,255,34,.09),transparent 28%)}
+.market-pulse-card header{display:flex;justify-content:space-between;align-items:start;gap:10px;margin-bottom:8px;position:relative;z-index:2}
+.market-pulse-card header small{display:block;color:#91a097;font-size:.62rem;font-weight:900;letter-spacing:.13em;text-transform:uppercase}
+.market-pulse-card header strong{display:block;margin-top:3px;color:#fff;font-size:1.05rem}
+.market-pulse-card header a{color:var(--lime);font-size:.72rem;font-weight:900;text-decoration:none;border:1px solid #38483e;border-radius:999px;padding:5px 8px}
+.market-pulse-card header a:hover{border-color:var(--lime)}
+.market-mini-live{display:block;width:100%;height:170px;position:relative;z-index:2;--tv-widget-background-color:transparent}
+.market-pulse-card.fx{border-color:#4a4033}
+.market-pulse-card.fx:before{background:radial-gradient(circle at 80% 12%,rgba(255,138,36,.1),transparent 28%)}
+.market-pulse-footer{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:10px;color:#9ba79e;font-size:.7rem;font-weight:800;position:relative;z-index:2}
+.market-pulse-footer span:last-child{color:#c8d2cb}
+@media(max-width:1100px){.market-pulse-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){.market-pulse-grid{grid-template-columns:1fr}.market-mini-live{height:160px}}
 .tv-overview{min-height:520px;border-radius:16px;overflow:hidden;background:#0b100d}
 .market-links{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:20px}
 .market-link{display:block;padding:16px;border:1px solid #334037;border-radius:16px;background:#0d130f;text-decoration:none;transition:.2s}
@@ -39,7 +53,7 @@ linear-gradient(145deg,#0a1710,#07100b)}
 @media(max-width:1000px){.market-hero{grid-template-columns:1fr}.gauge-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:700px){.market-links{grid-template-columns:repeat(2,1fr)}.market-map{height:110px}.market-map:before{display:none}}
 @media(max-width:520px){.gauge-grid,.market-links{grid-template-columns:1fr}.market-hero-copy,.market-visual-panel,.market-panel{padding:16px}}
-</style><script type="module" src="https://widgets.tradingview-widget.com/w/en/tv-ticker-tape.js"></script><script type="module" src="https://widgets.tradingview-widget.com/w/en/tv-market-overview.js"></script></head><body><header class="topbar"><div class="wrap nav"><a class="brand" href="index.html">MY <b>RETIREMENT</b> PAGE</a><button class="menu-btn" data-menu-button aria-label="Open navigation">MENU</button><nav><a href="music.html">Music</a><a href="journeys.html">Journeys</a><a href="hunter.html">Hunter</a><a href="watching.html">Watching</a><a href="sport.html">Sport</a><a href="racing.html">The Punt</a><a href="radio.html">Radio</a><a href="markets.html">Markets</a></nav></div></header><main><section class="section"><div class="market-shell">
+</style><script type="module" src="https://widgets.tradingview-widget.com/w/en/tv-mini-chart.js"></script><script type="module" src="https://widgets.tradingview-widget.com/w/en/tv-market-overview.js"></script></head><body><header class="topbar"><div class="wrap nav"><a class="brand" href="index.html">MY <b>RETIREMENT</b> PAGE</a><button class="menu-btn" data-menu-button aria-label="Open navigation">MENU</button><nav><a href="music.html">Music</a><a href="journeys.html">Journeys</a><a href="hunter.html">Hunter</a><a href="watching.html">Watching</a><a href="sport.html">Sport</a><a href="racing.html">The Punt</a><a href="radio.html">Radio</a><a href="markets.html">Markets</a></nav></div></header><main><section class="section"><div class="market-shell">
 <div class="market-hero">
   <div class="market-hero-copy"><div class="kicker">Markets</div><h1>Global Markets<br><span style="color:var(--lime)">Snapshot</span></h1><p>A faster, more visual way to read the day: Australia, Wall Street, currencies and gold — with the live numbers underneath when you want to dig deeper.</p><a class="market-cta" href="#live-markets">Jump to live markets →</a></div>
   <div class="market-visual-panel"><div class="market-map"></div><div class="gauge-grid">
@@ -50,7 +64,35 @@ linear-gradient(145deg,#0a1710,#07100b)}
   </div></div>
 </div>
 
-<div id="live-markets" class="market-panel"><div class="market-panel-head"><div><div class="kicker">Live ticker</div><h2>Major markets at a glance</h2></div><p>Fast read first. Detail second.</p></div><div class="tv-wrap"><tv-ticker-tape symbols="ASX:XJO,SP:SPX,NASDAQ:NDX,DJ:DJI,TVC:UKX,TVC:NI225,OANDA:XAUUSD,FX_IDC:AUDUSD" item-size="compact"></tv-ticker-tape></div><div class="market-note">Market data is supplied by TradingView and may be delayed depending on the exchange.</div></div>
+<div id="live-markets" class="market-panel">
+  <div class="market-panel-head">
+    <div><div class="kicker">Live market pulse</div><h2>Major markets at a glance</h2></div>
+    <p>Four markets. One quick read.</p>
+  </div>
+  <div class="market-pulse-grid">
+    <div class="market-pulse-card">
+      <header><div><small>Australia</small><strong>ASX 200</strong></div><a href="https://www.tradingview.com/symbols/OANDA-AU200AUD/" target="_blank" rel="noopener">Open →</a></header>
+      <tv-mini-chart class="market-mini-live" theme="dark" symbol="OANDA:AU200AUD"></tv-mini-chart>
+      <div class="market-pulse-footer"><span>Australia 200</span><span>Live market chart</span></div>
+    </div>
+    <div class="market-pulse-card">
+      <header><div><small>United States</small><strong>S&amp;P 500</strong></div><a href="https://www.tradingview.com/symbols/SPX500USD/" target="_blank" rel="noopener">Open →</a></header>
+      <tv-mini-chart class="market-mini-live" theme="dark" symbol="OANDA:SPX500USD"></tv-mini-chart>
+      <div class="market-pulse-footer"><span>US large caps</span><span>Live market chart</span></div>
+    </div>
+    <div class="market-pulse-card fx">
+      <header><div><small>Currency</small><strong>AUD / USD</strong></div><a href="https://www.tradingview.com/symbols/AUDUSD/?exchange=FX_IDC" target="_blank" rel="noopener">Open →</a></header>
+      <tv-mini-chart class="market-mini-live" theme="dark" symbol="FX_IDC:AUDUSD"></tv-mini-chart>
+      <div class="market-pulse-footer"><span>Australian dollar</span><span>Live FX chart</span></div>
+    </div>
+    <div class="market-pulse-card">
+      <header><div><small>Commodity</small><strong>Gold</strong></div><a href="https://www.tradingview.com/symbols/XAUUSD/" target="_blank" rel="noopener">Open →</a></header>
+      <tv-mini-chart class="market-mini-live" theme="dark" symbol="OANDA:XAUUSD"></tv-mini-chart>
+      <div class="market-pulse-footer"><span>Spot gold</span><span>Live commodity chart</span></div>
+    </div>
+  </div>
+  <div class="market-note">Charts are supplied by TradingView. Some markets may show a closed-market state outside trading hours.</div>
+</div>
 
 <div class="market-panel"><div class="market-panel-head"><div><div class="kicker">Live market view</div><h2>What is moving now</h2></div><p>Momentum across the major markets.</p></div><div class="tv-overview"><tv-market-overview mode="market-movers"></tv-market-overview></div></div>
 
