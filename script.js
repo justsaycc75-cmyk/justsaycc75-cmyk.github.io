@@ -74,6 +74,9 @@ const regulars=[
   {artist:'Bruce Springsteen',tracks:['Born to Run','The River'],url:'https://www.youtube.com/results?search_query=Bruce+Springsteen+official'},
   {artist:'Neil Young',tracks:['Heart of Gold','Rockin\' in the Free World'],url:'https://www.youtube.com/results?search_query=Neil+Young+official'},
   {artist:'The Velvet Underground',tracks:['Sunday Morning','I\'m Waiting for the Man'],url:'https://www.youtube.com/results?search_query=The+Velvet+Underground+official'}
+  ,
+  {artist:'Queen',tracks:['Don\'t Stop Me Now','Bohemian Rhapsody'],url:'https://www.youtube.com/results?search_query=Queen+official'},
+  {artist:'Eagles',tracks:['Hotel California','Life in the Fast Lane'],url:'https://www.youtube.com/results?search_query=Eagles+official'}
 ];
 
 const archive=[
