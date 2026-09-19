@@ -148,7 +148,16 @@
     </a>
     <a href="racing.html" class="front-photo-card image-only-card"><img src="Punt.png" alt="Saturday on the Punt horse racing"></a>
     <a href="radio.html" class="front-photo-card image-only-card"><img src="Icom.png" alt="Icom IC-705 shortwave radio"></a>
-    <a href="markets.html" class="front-photo-card rail-graphic rail-markets"><b>▲ ASX&nbsp;&nbsp;▲ S&amp;P<br>▼ FX&nbsp;&nbsp;▲ GOLD</b><span>Markets</span><em>Global dashboard</em></a>`;
+    <a href="markets.html" class="front-photo-card rail-markets-pro" aria-label="Open Global Markets dashboard">
+      <div class="market-mini-head"><small>MARKETS</small><b>Global pulse</b></div>
+      <div class="market-mini-gauges">
+        <i><u></u><span>ASX</span></i>
+        <i><u></u><span>S&amp;P</span></i>
+        <i><u></u><span>FX</span></i>
+        <i><u></u><span>GOLD</span></i>
+      </div>
+      <em>Open live dashboard →</em>
+    </a>`;
 
   if(!document.getElementById('rail-team-logo-styles')){
     const style=document.createElement('style');
@@ -178,6 +187,55 @@
       .front-photo-card.image-only-card img{width:100%!important;height:100%!important;object-fit:cover!important;object-position:center!important;display:block}
       .front-photo-card.image-only-card[href="radio.html"] img{object-fit:contain!important;background:#07100b;padding:4px!important}
       .front-photo-card.image-only-card:hover img{transform:scale(1.025);filter:brightness(1.04)}
+      .rail-markets-pro{
+        height:178px!important;
+        padding:14px!important;
+        display:block;
+        position:relative;
+        overflow:hidden;
+        text-decoration:none;
+        background:
+          radial-gradient(circle at 82% 22%,rgba(170,255,34,.16),transparent 28%),
+          linear-gradient(145deg,#07150d,#0b2414 62%,#06100a)!important;
+        border-color:#294334!important;
+      }
+      .rail-markets-pro:before{
+        content:"";
+        position:absolute;inset:0;
+        background:linear-gradient(90deg,transparent 0 46%,rgba(170,255,34,.035) 46% 47%,transparent 47% 100%);
+        pointer-events:none
+      }
+      .market-mini-head{position:relative;z-index:2}
+      .market-mini-head small{display:block;color:#aaff22;font-size:.56rem;font-weight:900;letter-spacing:.18em}
+      .market-mini-head b{display:block;margin-top:2px;color:#fff;font-size:1rem;letter-spacing:.02em}
+      .market-mini-gauges{position:relative;z-index:2;display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-top:13px}
+      .market-mini-gauges i{display:flex;flex-direction:column;align-items:center;gap:4px;font-style:normal}
+      .market-mini-gauges u{
+        width:38px;height:20px;
+        display:block;
+        border:4px solid #23352a;
+        border-bottom:0;
+        border-radius:38px 38px 0 0;
+        position:relative;
+        text-decoration:none;
+        box-shadow:inset 0 0 0 1px rgba(255,255,255,.02)
+      }
+      .market-mini-gauges u:before{
+        content:"";
+        position:absolute;
+        left:-4px;top:-4px;
+        width:24px;height:20px;
+        border:4px solid #aaff22;
+        border-right-color:transparent;
+        border-bottom:0;
+        border-radius:38px 38px 0 0;
+        transform:rotate(-3deg);
+        filter:drop-shadow(0 0 5px rgba(170,255,34,.28))
+      }
+      .market-mini-gauges i:nth-child(3) u:before{width:15px;border-color:#ff8a24 transparent transparent #ff8a24}
+      .market-mini-gauges span{position:static!important;background:none!important;border:0!important;padding:0!important;color:#dbe5dd!important;font-size:.55rem!important;font-weight:900!important}
+      .rail-markets-pro em{position:absolute!important;z-index:2;left:14px!important;bottom:11px!important;color:#b9c6bd!important;font-size:.66rem!important}
+      .rail-markets-pro:hover{transform:translateY(-2px);border-color:#aaff22!important;box-shadow:0 14px 28px rgba(0,0,0,.28)}
       @media(max-width:700px){
         .rail-team-logos{left:12px;right:12px;bottom:36px;grid-template-columns:repeat(4,1fr);gap:6px}
         .team-logo-tile{height:44px}
