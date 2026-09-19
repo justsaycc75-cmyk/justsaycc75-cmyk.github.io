@@ -7,22 +7,23 @@
 .market-hero-copy .market-cta{display:inline-flex;margin-top:18px;padding:11px 16px;border:1px solid #425248;border-radius:999px;color:var(--lime);font-weight:900;text-decoration:none}
 .market-hero-copy .market-cta:hover{border-color:var(--lime);background:#111a13}
 .market-visual-panel{border:1px solid #2f4135;border-radius:26px;padding:22px;background:radial-gradient(circle at 75% 15%,rgba(170,255,34,.1),transparent 24%),linear-gradient(145deg,#07120b,#0a160f);overflow:hidden}
-.market-map{height:150px;position:relative;border-bottom:1px solid #26352b;margin-bottom:18px;background:
-radial-gradient(circle at 18% 45%,rgba(170,255,34,.32) 0 3px,transparent 4px),
-radial-gradient(circle at 52% 28%,rgba(170,255,34,.28) 0 3px,transparent 4px),
-radial-gradient(circle at 83% 68%,rgba(170,255,34,.32) 0 3px,transparent 4px),
-linear-gradient(145deg,#0a1710,#07100b)}
-.market-map:before{content:"NEW YORK      LONDON                           SYDNEY";position:absolute;left:7%;right:7%;top:54px;color:#99a69c;font-size:.64rem;font-weight:900;letter-spacing:.14em;word-spacing:6.5rem;white-space:nowrap}
-.market-map:after{content:"";position:absolute;left:8%;right:9%;top:74px;height:1px;background:linear-gradient(90deg,transparent,#6fa73f 18%,transparent 34%,#6fa73f 54%,transparent 72%,#6fa73f 90%,transparent);box-shadow:0 0 10px rgba(170,255,34,.28)}
-.gauge-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
-.gauge-card{padding:14px;border:1px solid #2d3b32;border-radius:18px;background:#0a100c;overflow:hidden;position:relative}
-.gauge-card small{display:block;color:#9aa89f;font-size:.62rem;font-weight:900;letter-spacing:.12em;text-transform:uppercase}
-.gauge-card h3{margin:4px 0 2px;font-size:1.05rem}
-.gauge-symbol{display:inline-block;margin:4px 0 8px;padding:5px 8px;border-radius:999px;background:#101a13;border:1px solid #304036;color:var(--lime);font-size:.68rem;font-weight:900;letter-spacing:.05em}
-.gauge-card.fx .gauge-symbol{color:#ff9b45;border-color:#4a4033}
-.gauge-mini{display:block;width:100%;height:105px;margin-top:4px;--tv-widget-background-color:transparent}
-.gauge-card strong{display:block;margin-top:7px;color:#dce5de;font-size:.74rem;line-height:1.35}
-.gauge-card em{display:block;margin-top:2px;color:#829088;font-size:.66rem;font-style:normal}
+.market-worldline{height:66px;display:flex;align-items:center;justify-content:center;gap:18px;border-bottom:1px solid #26352b;margin-bottom:16px;color:#9aa79f;font-size:.65rem;font-weight:900;letter-spacing:.14em}
+.market-worldline i{display:block;width:52px;height:1px;background:linear-gradient(90deg,#2b4a32,#aaff22,#2b4a32);box-shadow:0 0 8px rgba(170,255,34,.18)}
+.snapshot-six{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.snapshot-card{position:relative;display:block;overflow:hidden;padding:14px;border:1px solid #2d3b32;border-radius:18px;background:linear-gradient(145deg,#0a100c,#0b150f);text-decoration:none;color:inherit;transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease}
+.snapshot-card:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 86% 14%,rgba(170,255,34,.10),transparent 28%);pointer-events:none}
+.snapshot-card:hover{transform:translateY(-3px);border-color:var(--lime);box-shadow:0 12px 26px rgba(0,0,0,.26)}
+.snapshot-card small{display:block;color:#99a69d;font-size:.58rem;font-weight:900;letter-spacing:.13em;text-transform:uppercase;position:relative;z-index:2}
+.snapshot-card h3{margin:3px 0 3px;font-size:1.03rem;position:relative;z-index:2}
+.snapshot-icon{position:absolute;right:12px;top:12px;display:flex;align-items:center;justify-content:center;width:38px;height:38px;border:1px solid #3a5140;border-radius:50%;background:#0f1b13;color:var(--lime);font-size:.72rem;font-weight:900;box-shadow:0 0 16px rgba(170,255,34,.08)}
+.snapshot-card.fx .snapshot-icon{color:#8ddcff;border-color:#31505b}
+.snapshot-card.gold .snapshot-icon{color:#ffd34a;border-color:#5b4e26}
+.snapshot-card.oil .snapshot-icon{color:#ff9b45;border-color:#5a3f2c}
+.snapshot-chart{display:block;width:100%;height:100px;margin:6px 0;position:relative;z-index:2;--tv-widget-background-color:transparent}
+.snapshot-card b{display:block;color:#dce5de;font-size:.72rem;line-height:1.35;position:relative;z-index:2}
+.snapshot-card em{display:block;margin-top:3px;color:#7f8d84;font-size:.64rem;font-style:normal;position:relative;z-index:2}
+@media(max-width:1100px){.snapshot-six{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){.snapshot-six{grid-template-columns:1fr}.market-worldline{gap:10px}.market-worldline i{width:28px}}
 .market-panel{margin-top:22px;border:1px solid #2f3d34;border-radius:22px;background:linear-gradient(180deg,#101511,#0b0f0c);padding:20px;overflow:hidden}
 .market-panel-head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:10px}
 .market-panel h2,.market-panel h3{margin:.15em 0}
@@ -54,29 +55,44 @@ linear-gradient(145deg,#0a1710,#07100b)}
 @media(max-width:520px){.gauge-grid,.market-links{grid-template-columns:1fr}.market-hero-copy,.market-visual-panel,.market-panel{padding:16px}}
 </style><script type="module" src="https://widgets.tradingview-widget.com/w/en/tv-mini-chart.js"></script><script type="module" src="https://widgets.tradingview-widget.com/w/en/tv-market-overview.js"></script></head><body><header class="topbar"><div class="wrap nav"><a class="brand" href="index.html">MY <b>RETIREMENT</b> PAGE</a><button class="menu-btn" data-menu-button aria-label="Open navigation">MENU</button><nav><a href="music.html">Music</a><a href="journeys.html">Journeys</a><a href="hunter.html">Hunter</a><a href="watching.html">Watching</a><a href="sport.html">Sport</a><a href="racing.html">The Punt</a><a href="radio.html">Radio</a><a href="markets.html">Markets</a></nav></div></header><main><section class="section"><div class="market-shell">
 <div class="market-hero">
-  <div class="market-hero-copy"><div class="kicker">Markets</div><h1>Global Markets<br><span style="color:var(--lime)">Snapshot</span></h1><p>A faster, more visual way to read the day: Australia, Wall Street, currencies and gold — with the live numbers underneath when you want to dig deeper.</p><a class="market-cta" href="#live-markets">Jump to live markets →</a></div>
-  <div class="market-visual-panel"><div class="market-map"></div><div class="gauge-grid">
-    <div class="gauge-card">
-      <small>Australia</small><h3>Australia 200</h3><span class="gauge-symbol">OANDA:AU200AUD</span>
-      <tv-mini-chart class="gauge-mini" theme="dark" symbol="OANDA:AU200AUD"></tv-mini-chart>
-      <strong>ASX 200 market proxy</strong><em>Live CFD benchmark</em>
-    </div>
-    <div class="gauge-card">
-      <small>United States</small><h3>S&amp;P 500</h3><span class="gauge-symbol">TVC:SPX</span>
-      <tv-mini-chart class="gauge-mini" theme="dark" symbol="TVC:SPX"></tv-mini-chart>
-      <strong>S&amp;P 500 Index</strong><em>Official index symbol</em>
-    </div>
-    <div class="gauge-card fx">
-      <small>Currency</small><h3>AUD / USD</h3><span class="gauge-symbol">FX_IDC:AUDUSD</span>
-      <tv-mini-chart class="gauge-mini" theme="dark" symbol="FX_IDC:AUDUSD"></tv-mini-chart>
-      <strong>Australian Dollar / US Dollar</strong><em>Spot FX</em>
-    </div>
-    <div class="gauge-card">
-      <small>Commodity</small><h3>Gold</h3><span class="gauge-symbol">OANDA:XAUUSD</span>
-      <tv-mini-chart class="gauge-mini" theme="dark" symbol="OANDA:XAUUSD"></tv-mini-chart>
-      <strong>Gold / US Dollar</strong><em>Spot gold</em>
-    </div>
-  </div></div>
+  <div class="market-hero-copy"><div class="kicker">Markets</div><h1>Global Markets<br><span style="color:var(--lime)">Snapshot</span></h1><p>A faster, more visual way to read the day: Australia, Wall Street, tech, currencies, gold and oil — six live snapshots with the deeper detail underneath.</p><a class="market-cta" href="#live-markets">Jump to live markets →</a></div>
+  <div class="market-visual-panel">
+  <div class="market-worldline">
+    <span>NEW YORK</span><i></i><span>LONDON</span><i></i><span>SYDNEY</span>
+  </div>
+  <div class="snapshot-six">
+    <a class="snapshot-card aus" href="https://www.tradingview.com/symbols/OANDA-AU200AUD/" target="_blank" rel="noopener">
+      <div class="snapshot-icon">AU</div><small>Australia</small><h3>Australia 200</h3>
+      <tv-mini-chart class="snapshot-chart" theme="dark" symbol="OANDA:AU200AUD"></tv-mini-chart>
+      <b>ASX 200 market proxy</b><em>Open live chart →</em>
+    </a>
+    <a class="snapshot-card us" href="https://www.tradingview.com/symbols/SP-SPX/" target="_blank" rel="noopener">
+      <div class="snapshot-icon">US</div><small>United States</small><h3>S&amp;P 500</h3>
+      <tv-mini-chart class="snapshot-chart" theme="dark" symbol="TVC:SPX"></tv-mini-chart>
+      <b>S&amp;P 500 Index</b><em>Open live chart →</em>
+    </a>
+    <a class="snapshot-card us" href="https://www.tradingview.com/symbols/NASDAQ-NDX/" target="_blank" rel="noopener">
+      <div class="snapshot-icon">NQ</div><small>United States</small><h3>Nasdaq 100</h3>
+      <tv-mini-chart class="snapshot-chart" theme="dark" symbol="NASDAQ:NDX"></tv-mini-chart>
+      <b>Nasdaq 100 Index</b><em>Open live chart →</em>
+    </a>
+    <a class="snapshot-card fx" href="https://www.tradingview.com/symbols/AUDUSD/?exchange=FX_IDC" target="_blank" rel="noopener">
+      <div class="snapshot-icon">A$</div><small>Currency</small><h3>AUD / USD</h3>
+      <tv-mini-chart class="snapshot-chart" theme="dark" symbol="FX_IDC:AUDUSD"></tv-mini-chart>
+      <b>Australian Dollar / US Dollar</b><em>Open live chart →</em>
+    </a>
+    <a class="snapshot-card gold" href="https://www.tradingview.com/symbols/XAUUSD/" target="_blank" rel="noopener">
+      <div class="snapshot-icon">Au</div><small>Commodity</small><h3>Gold</h3>
+      <tv-mini-chart class="snapshot-chart" theme="dark" symbol="OANDA:XAUUSD"></tv-mini-chart>
+      <b>Spot gold</b><em>Open live chart →</em>
+    </a>
+    <a class="snapshot-card oil" href="https://www.tradingview.com/symbols/BCOUSD/" target="_blank" rel="noopener">
+      <div class="snapshot-icon">Oil</div><small>Energy</small><h3>Brent Oil</h3>
+      <tv-mini-chart class="snapshot-chart" theme="dark" symbol="OANDA:BCOUSD"></tv-mini-chart>
+      <b>Brent crude oil</b><em>Open live chart →</em>
+    </a>
+  </div>
+</div>
 </div>
 
 <div id="live-markets" class="market-panel">
