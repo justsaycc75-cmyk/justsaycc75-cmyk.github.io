@@ -15,15 +15,14 @@ linear-gradient(145deg,#0a1710,#07100b)}
 .market-map:before{content:"NEW YORK      LONDON                           SYDNEY";position:absolute;left:7%;right:7%;top:54px;color:#99a69c;font-size:.64rem;font-weight:900;letter-spacing:.14em;word-spacing:6.5rem;white-space:nowrap}
 .market-map:after{content:"";position:absolute;left:8%;right:9%;top:74px;height:1px;background:linear-gradient(90deg,transparent,#6fa73f 18%,transparent 34%,#6fa73f 54%,transparent 72%,#6fa73f 90%,transparent);box-shadow:0 0 10px rgba(170,255,34,.28)}
 .gauge-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
-.gauge-card{padding:16px;border:1px solid #2d3b32;border-radius:18px;background:#0a100c;text-align:center}
-.gauge-card small{display:block;color:#aab6ad;font-size:.67rem;font-weight:900;letter-spacing:.12em;text-transform:uppercase}
-.gauge-card h3{margin:5px 0 10px;font-size:1.15rem}
-.gauge{width:128px;height:68px;margin:auto;position:relative;overflow:hidden}
-.gauge:before{content:"";position:absolute;left:4px;top:4px;width:112px;height:112px;border-radius:50%;border:12px solid #213128;border-bottom-color:transparent;border-left-color:#7ef53f;border-top-color:#aaff22;transform:rotate(-45deg);box-shadow:0 0 15px rgba(170,255,34,.1)}
-.gauge:after{content:"";position:absolute;left:61px;bottom:0;width:3px;height:51px;background:#d9ffd0;transform-origin:bottom center;transform:rotate(31deg);border-radius:3px;box-shadow:0 0 8px rgba(170,255,34,.35)}
-.gauge-card.fx .gauge:before{border-left-color:#ff744f;border-top-color:#ff9a3c}
-.gauge-card.fx .gauge:after{transform:rotate(-18deg);background:#ff8a24}
-.gauge-card strong{display:block;margin-top:4px;color:#dce5de;font-size:.82rem}
+.gauge-card{padding:14px;border:1px solid #2d3b32;border-radius:18px;background:#0a100c;overflow:hidden;position:relative}
+.gauge-card small{display:block;color:#9aa89f;font-size:.62rem;font-weight:900;letter-spacing:.12em;text-transform:uppercase}
+.gauge-card h3{margin:4px 0 2px;font-size:1.05rem}
+.gauge-symbol{display:inline-block;margin:4px 0 8px;padding:5px 8px;border-radius:999px;background:#101a13;border:1px solid #304036;color:var(--lime);font-size:.68rem;font-weight:900;letter-spacing:.05em}
+.gauge-card.fx .gauge-symbol{color:#ff9b45;border-color:#4a4033}
+.gauge-mini{display:block;width:100%;height:105px;margin-top:4px;--tv-widget-background-color:transparent}
+.gauge-card strong{display:block;margin-top:7px;color:#dce5de;font-size:.74rem;line-height:1.35}
+.gauge-card em{display:block;margin-top:2px;color:#829088;font-size:.66rem;font-style:normal}
 .market-panel{margin-top:22px;border:1px solid #2f3d34;border-radius:22px;background:linear-gradient(180deg,#101511,#0b0f0c);padding:20px;overflow:hidden}
 .market-panel-head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:10px}
 .market-panel h2,.market-panel h3{margin:.15em 0}
@@ -57,10 +56,26 @@ linear-gradient(145deg,#0a1710,#07100b)}
 <div class="market-hero">
   <div class="market-hero-copy"><div class="kicker">Markets</div><h1>Global Markets<br><span style="color:var(--lime)">Snapshot</span></h1><p>A faster, more visual way to read the day: Australia, Wall Street, currencies and gold — with the live numbers underneath when you want to dig deeper.</p><a class="market-cta" href="#live-markets">Jump to live markets →</a></div>
   <div class="market-visual-panel"><div class="market-map"></div><div class="gauge-grid">
-    <div class="gauge-card"><small>Australia</small><h3>ASX 200</h3><div class="gauge"></div><strong>Live direction below</strong></div>
-    <div class="gauge-card"><small>United States</small><h3>S&amp;P 500</h3><div class="gauge"></div><strong>Live direction below</strong></div>
-    <div class="gauge-card fx"><small>Currency</small><h3>AUD / USD</h3><div class="gauge"></div><strong>Live direction below</strong></div>
-    <div class="gauge-card"><small>Commodity</small><h3>Gold</h3><div class="gauge"></div><strong>Live direction below</strong></div>
+    <div class="gauge-card">
+      <small>Australia</small><h3>Australia 200</h3><span class="gauge-symbol">OANDA:AU200AUD</span>
+      <tv-mini-chart class="gauge-mini" theme="dark" symbol="OANDA:AU200AUD"></tv-mini-chart>
+      <strong>ASX 200 market proxy</strong><em>Live CFD benchmark</em>
+    </div>
+    <div class="gauge-card">
+      <small>United States</small><h3>S&amp;P 500</h3><span class="gauge-symbol">TVC:SPX</span>
+      <tv-mini-chart class="gauge-mini" theme="dark" symbol="TVC:SPX"></tv-mini-chart>
+      <strong>S&amp;P 500 Index</strong><em>Official index symbol</em>
+    </div>
+    <div class="gauge-card fx">
+      <small>Currency</small><h3>AUD / USD</h3><span class="gauge-symbol">FX_IDC:AUDUSD</span>
+      <tv-mini-chart class="gauge-mini" theme="dark" symbol="FX_IDC:AUDUSD"></tv-mini-chart>
+      <strong>Australian Dollar / US Dollar</strong><em>Spot FX</em>
+    </div>
+    <div class="gauge-card">
+      <small>Commodity</small><h3>Gold</h3><span class="gauge-symbol">OANDA:XAUUSD</span>
+      <tv-mini-chart class="gauge-mini" theme="dark" symbol="OANDA:XAUUSD"></tv-mini-chart>
+      <strong>Gold / US Dollar</strong><em>Spot gold</em>
+    </div>
   </div></div>
 </div>
 
@@ -71,24 +86,24 @@ linear-gradient(145deg,#0a1710,#07100b)}
   </div>
   <div class="market-pulse-grid">
     <div class="market-pulse-card">
-      <header><div><small>Australia</small><strong>ASX 200</strong></div><a href="https://www.tradingview.com/symbols/OANDA-AU200AUD/" target="_blank" rel="noopener">Open →</a></header>
+      <header><div><small>Australia</small><strong>Australia 200</strong></div><a href="https://www.tradingview.com/symbols/OANDA-AU200AUD/" target="_blank" rel="noopener">Open →</a></header>
       <tv-mini-chart class="market-mini-live" theme="dark" symbol="OANDA:AU200AUD"></tv-mini-chart>
-      <div class="market-pulse-footer"><span>Australia 200</span><span>Live market chart</span></div>
+      <div class="market-pulse-footer"><span>ASX 200 proxy • OANDA:AU200AUD</span><span>Live chart</span></div>
     </div>
     <div class="market-pulse-card">
-      <header><div><small>United States</small><strong>S&amp;P 500</strong></div><a href="https://www.tradingview.com/symbols/SPX500USD/" target="_blank" rel="noopener">Open →</a></header>
-      <tv-mini-chart class="market-mini-live" theme="dark" symbol="OANDA:SPX500USD"></tv-mini-chart>
-      <div class="market-pulse-footer"><span>US large caps</span><span>Live market chart</span></div>
+      <header><div><small>United States</small><strong>S&amp;P 500</strong></div><a href="https://www.tradingview.com/symbols/SP-SPX/" target="_blank" rel="noopener">Open →</a></header>
+      <tv-mini-chart class="market-mini-live" theme="dark" symbol="TVC:SPX"></tv-mini-chart>
+      <div class="market-pulse-footer"><span>S&amp;P 500 • TVC:SPX</span><span>Live chart</span></div>
     </div>
     <div class="market-pulse-card fx">
       <header><div><small>Currency</small><strong>AUD / USD</strong></div><a href="https://www.tradingview.com/symbols/AUDUSD/?exchange=FX_IDC" target="_blank" rel="noopener">Open →</a></header>
       <tv-mini-chart class="market-mini-live" theme="dark" symbol="FX_IDC:AUDUSD"></tv-mini-chart>
-      <div class="market-pulse-footer"><span>Australian dollar</span><span>Live FX chart</span></div>
+      <div class="market-pulse-footer"><span>AUD/USD • FX_IDC:AUDUSD</span><span>Live FX</span></div>
     </div>
     <div class="market-pulse-card">
       <header><div><small>Commodity</small><strong>Gold</strong></div><a href="https://www.tradingview.com/symbols/XAUUSD/" target="_blank" rel="noopener">Open →</a></header>
       <tv-mini-chart class="market-mini-live" theme="dark" symbol="OANDA:XAUUSD"></tv-mini-chart>
-      <div class="market-pulse-footer"><span>Spot gold</span><span>Live commodity chart</span></div>
+      <div class="market-pulse-footer"><span>Gold • OANDA:XAUUSD</span><span>Live spot</span></div>
     </div>
   </div>
   <div class="market-note">Charts are supplied by TradingView. Some markets may show a closed-market state outside trading hours.</div>
