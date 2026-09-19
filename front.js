@@ -139,7 +139,7 @@
         <b>ROOSTERS<br>&amp; NFL</b>
       </div>
       <div class="rail-team-logos" aria-label="Sydney Roosters, New York Giants, Seattle Seahawks and Green Bay Packers">
-        <span class="team-logo-tile"><img src="https://cdn.freebiesupply.com/logos/large/2x/sydney-roosters-1-logo-png-transparent.png" alt="Sydney Roosters"></span>
+        <span class="team-logo-tile"><img src="https://www.nrl.com/.theme/roosters/badge.svg?bust=202608030238" alt="Sydney Roosters"></span>
         <span class="team-logo-tile"><img src="https://static.www.nfl.com/t_q-best/league/api/clubs/logos/NYG" alt="New York Giants"></span>
         <span class="team-logo-tile"><img src="https://static.www.nfl.com/t_q-best/league/api/clubs/logos/SEA" alt="Seattle Seahawks"></span>
         <span class="team-logo-tile"><img src="https://static.www.nfl.com/t_q-best/league/api/clubs/logos/GB" alt="Green Bay Packers"></span>
