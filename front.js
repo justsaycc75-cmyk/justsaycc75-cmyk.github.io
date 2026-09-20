@@ -28,7 +28,7 @@
   const fallback='assets/img/cassette.webp';
 
   if(visual)visual.style.display='block';
-  img.alt=track?\`${artist} — ${track}\`:artist;
+  img.alt=track?`${artist} — ${track}`:artist;
   img.loading='eager';
 
   const setImage=src=>{
@@ -41,9 +41,9 @@
   // Prefer the exact YouTube thumbnail when today's song has an embedded/direct clip.
   const frame=document.querySelector('[data-video-frame] iframe');
   if(frame){
-    const match=frame.src.match(/embed\\/([^?&]+)/);
+    const match=frame.src.match(/embed\/([^?&]+)/);
     if(match&&match[1]){
-      setImage(\`https://i.ytimg.com/vi/${match[1]}/maxresdefault.jpg\`);
+      setImage(`https://i.ytimg.com/vi/${match[1]}/maxresdefault.jpg`);
       return;
     }
   }
@@ -51,7 +51,7 @@
   const ytHref=document.querySelector('[data-youtube]')?.href||'';
   const directMatch=ytHref.match(/[?&]v=([^&]+)/);
   if(directMatch&&directMatch[1]){
-    setImage(\`https://i.ytimg.com/vi/${directMatch[1]}/maxresdefault.jpg\`);
+    setImage(`https://i.ytimg.com/vi/${directMatch[1]}/maxresdefault.jpg`);
     return;
   }
 
@@ -86,14 +86,14 @@
 
   setImage(fallback);
   const page=wikiPages[artist]||artist;
-  fetch(\`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(page)}\`)
+  fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(page)}`)
     .then(r=>r.ok?r.json():Promise.reject())
     .then(d=>{
       const src=d?.thumbnail?.source||d?.originalimage?.source;
       if(src)setImage(src);
     })
     .catch(()=>{});
-})();;
+})();
 
 (()=>{
   const montage=document.querySelector('.stream-montage');
