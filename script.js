@@ -274,18 +274,24 @@ function hash(s){let n=0;for(const c of s)n=(n*31+c.charCodeAt(0))>>>0;return n;
   - the same artist is kept out of consecutive slots where possible
   - the page automatically reloads when a new 8-hour slot begins
 */
-const rotationSongs=[];
-regulars.forEach(r=>{
-  (r.tracks||[]).forEach((track,trackIndex)=>{
-    if(!track || /^(Featured track|Featured performance|Search the latest clip)$/i.test(track))return;
-    rotationSongs.push({
-      artist:r.artist,
-      track,
-      url:r.url||'',
-      embed:trackIndex===0 ? (r.embed||'') : ''
-    });
-  });
-});
+const directSongRotation=[
+  {artist:'Old Mervs',track:'Parched',id:'myBg9F3EyRs'},
+  {artist:'Teen Jesus and the Jean Teasers',track:'AHHHH!',id:'98V-utPJGv8'},
+  {artist:'Parquet Courts',track:'Stoned And Starving',id:'a5CvZTIoir8'},
+  {artist:'Arcadia',track:'El Diablo',id:'hqRBqT0iZKo'},
+  {artist:'Visage',track:'Fade To Grey',id:'UMPC8QJF6sI'},
+  {artist:'Talking Heads',track:'Life During Wartime',id:'alEjtNx0fTg'},
+  {artist:'INXS',track:"Don't Change",id:'sLm3Khusq_8'},
+  {artist:'Eliza & The Delusionals',track:'Just Exist',id:'tSyixJf9Yt8'},
+  {artist:'Spacey Jane',track:'Booster Seat',id:'XxKuwlnx58q'},
+  {artist:'Midnight Oil',track:'Beds Are Burning',id:'ejorQVy3m8E'},
+  {artist:'Spiderbait',track:'Black Betty',id:'ftbuDDWFHz4'},
+  {artist:'Hunters & Collectors',track:'Throw Your Arms Around Me',id:'5-hDK76bIps'},
+  {artist:'Devo',track:'Whip It',id:'IIEVqFB4WUo'},
+  {artist:'The B-52s',track:'Rock Lobster',id:'2uH5AhFh8UI'},
+  {artist:'The Church',track:'The Unguarded Moment',id:'Osz-GQbX37o'},
+  {artist:'Foo Fighters',track:'Everlong',id:'vLkBybsH73k'}
+];
 
 function seededShuffle(list,seed){
   const a=list.slice();
@@ -301,29 +307,7 @@ function seededShuffle(list,seed){
   return a;
 }
 
-function buildRotation(list){
-  const shuffled=seededShuffle(list,0x51A7C0DE);
-  const result=[];
-  const remaining=shuffled.slice();
-
-  while(remaining.length){
-    const prev=result[result.length-1];
-    let pickIndex=0;
-    if(prev && remaining[0].artist===prev.artist){
-      const alt=remaining.findIndex(x=>x.artist!==prev.artist);
-      if(alt>0)pickIndex=alt;
-    }
-    result.push(remaining.splice(pickIndex,1)[0]);
-  }
-
-  if(result.length>1 && result[0].artist===result[result.length-1].artist){
-    const swap=result.findIndex((x,i)=>i>0 && x.artist!==result[0].artist && result[i-1].artist!==result[result.length-1].artist);
-    if(swap>0)[result[swap],result[result.length-1]]=[result[result.length-1],result[swap]];
-  }
-  return result;
-}
-
-const rotationOrder=buildRotation(rotationSongs);
+const rotationOrder=seededShuffle(directSongRotation,0x51A7C0DE);
 
 function sydneySlotKey(){
   const parts=new Intl.DateTimeFormat('en-CA',{
@@ -340,17 +324,12 @@ function sydneySlotKey(){
 const currentSlot=sydneySlotKey();
 const songIndex=((currentSlot.serial%rotationOrder.length)+rotationOrder.length)%rotationOrder.length;
 const songPick=rotationOrder[songIndex];
-
-const artistPick=regulars.find(r=>r.artist===songPick.artist) || {artist:songPick.artist,tracks:[songPick.track]};
+const artistPick={artist:songPick.artist,embed:songPick.id};
 const trackPick=songPick.track;
 const key=currentSlot.key;
-const exactSearch='https://www.youtube.com/results?search_query='+encodeURIComponent(songPick.artist+' '+trackPick+' official');
-const clipUrl=songPick.embed
-  ? 'https://www.youtube.com/watch?v='+songPick.embed
-  : exactSearch;
-artistPick.embed=songPick.embed;
+const clipUrl='https://www.youtube.com/watch?v='+songPick.id;
+const artworkUrl='https://i.ytimg.com/vi/'+songPick.id+'/maxresdefault.jpg';
 
-// If somebody leaves the page open across an 8-hour boundary, refresh once the slot changes.
 setInterval(()=>{
   if(sydneySlotKey().key!==currentSlot.key)location.reload();
 },60000);
@@ -358,6 +337,12 @@ setInterval(()=>{
 document.querySelectorAll('[data-daily-artist]').forEach(e=>e.textContent=artistPick.artist);
 document.querySelectorAll('[data-daily-track]').forEach(e=>e.textContent=trackPick);
 document.querySelectorAll('[data-youtube]').forEach(e=>{e.href=clipUrl;});
+
+document.querySelectorAll('[data-artist-image]').forEach(e=>{
+  e.src=artworkUrl;
+  e.alt=artistPick.artist+' — '+trackPick;
+  e.onerror=()=>{e.onerror=null;e.src='assets/img/cassette.webp';};
+});
 
 document.querySelectorAll('[data-video-frame]').forEach(frame=>{
   if(artistPick.embed){
