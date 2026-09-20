@@ -164,7 +164,13 @@
 
     <a href="watching.html" class="front-photo-card rail-graphic rail-watch"><b>NETFLIX · STAN<br>HBO · PRIME</b><span>Watching</span><em>Current watch list</em></a>
 
-    <a href="racing.html" class="front-photo-card image-only-card"><img src="Punt.png" alt="Saturday on the Punt horse racing"></a>`;
+    <a href="racing.html" class="front-photo-card image-only-card"><img src="Punt.png" alt="Saturday on the Punt horse racing"></a>
+
+    <a href="archive.html" class="front-photo-card image-only-card archive-rail-card" aria-label="Open photo archive">
+      <img src="assets/img/crown_sunset.webp" alt="Holiday photo archive">
+      <span>Archive</span>
+      <em>Trips, photos + memories</em>
+    </a>`;
 
   if(!document.getElementById('rail-team-logo-styles')){
     const style=document.createElement('style');
@@ -193,6 +199,11 @@
       .front-photo-card.image-only-card:after{display:none!important}
       .front-photo-card.image-only-card img{width:100%!important;height:100%!important;object-fit:cover!important;object-position:center!important;display:block}
       .front-photo-card.image-only-card[href="radio.html"] img{object-fit:contain!important;background:#07100b;padding:4px!important}
+      .front-photo-card.archive-rail-card{position:relative}
+      .front-photo-card.archive-rail-card:after{display:block!important;content:"";position:absolute;inset:42% 0 0;background:linear-gradient(transparent,#050706ee);z-index:1}
+      .front-photo-card.archive-rail-card span{position:absolute!important;z-index:2;left:12px!important;bottom:30px!important;background:#080a09e8!important;border:1px solid #ffffff24!important;padding:5px 9px!important;border-radius:999px!important;font-size:.75rem!important;font-weight:900!important;letter-spacing:.025em!important;color:#fff!important}
+      .front-photo-card.archive-rail-card em{position:absolute!important;z-index:2;left:12px!important;bottom:10px!important;color:#d5ddd7!important;font-style:normal!important;font-size:.67rem!important;font-weight:700!important}
+
       .front-photo-card.image-only-card:hover img{transform:scale(1.025);filter:brightness(1.04)}
       .rail-markets-pro{
         height:178px!important;
