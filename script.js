@@ -265,15 +265,58 @@ function sydHour(){
   return parseInt(parts.find(p=>p.type==='hour')?.value||'0',10)%24;
 }
 function hash(s){let n=0;for(const c of s)n=(n*31+c.charCodeAt(0))>>>0;return n;}
-const eightHourSlot=Math.floor(sydHour()/8);
-const key=sydDate()+'-slot-'+eightHourSlot;
-const playableRegulars=regulars.filter(r=>r.embed);
-const artistPick=playableRegulars[hash(key)%playableRegulars.length];
-const trackPick=artistPick.tracks[hash(key+'track')%artistPick.tracks.length];
-const exactSearch='https://www.youtube.com/results?search_query='+encodeURIComponent(artistPick.artist+' '+trackPick+' official');
-const clipUrl=artistPick.embed
-  ? 'https://www.youtube.com/watch?v='+artistPick.embed
-  : ((artistPick.url||'').includes('watch?v=') && artistPick.tracks.length===1 ? artistPick.url : exactSearch);
+
+/*
+  Song rotation:
+  - changes every 8 hours in Sydney
+  - uses the wider named-song library, not just the small embed-only subset
+  - avoids repeating the same song until the full rotation has cycled
+  - avoids the same artist in back-to-back slots where possible
+*/
+const rotationSongs=[];
+regulars.forEach(r=>{
+  (r.tracks||[]).forEach((track,trackIndex)=>{
+    if(!track || /^(Featured track|Featured performance|Search the latest clip)$/i.test(track))return;
+    rotationSongs.push({
+      artist:r.artist,
+      track,
+      url:r.url||'',
+      embed:trackIndex===0 ? (r.embed||'') : ''
+    });
+  });
+});
+
+rotationSongs.sort((a,b)=>{
+  const ah=hash('rotation-v2|'+a.artist+'|'+a.track);
+  const bh=hash('rotation-v2|'+b.artist+'|'+b.track);
+  return ah-bh || (a.artist+a.track).localeCompare(b.artist+b.track);
+});
+
+function sydneySlotNumber(){
+  const now=new Date();
+  const parts=new Intl.DateTimeFormat('en-CA',{
+    timeZone:'Australia/Sydney',
+    year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',hour12:false
+  }).formatToParts(now).reduce((o,p)=>(o[p.type]=p.value,o),{});
+  const utcLike=Date.UTC(+parts.year,+parts.month-1,+parts.day,Math.floor((+parts.hour%24)/8)*8);
+  return Math.floor(utcLike/(8*60*60*1000));
+}
+
+const slotNumber=sydneySlotNumber();
+let songIndex=((slotNumber%rotationSongs.length)+rotationSongs.length)%rotationSongs.length;
+const previousIndex=((songIndex-1)+rotationSongs.length)%rotationSongs.length;
+if(rotationSongs.length>1 && rotationSongs[songIndex].artist===rotationSongs[previousIndex].artist){
+  songIndex=(songIndex+1)%rotationSongs.length;
+}
+const songPick=rotationSongs[songIndex];
+const artistPick=regulars.find(r=>r.artist===songPick.artist) || {artist:songPick.artist,tracks:[songPick.track]};
+const trackPick=songPick.track;
+const key=sydDate()+'-slot-'+Math.floor(sydHour()/8);
+const exactSearch='https://www.youtube.com/results?search_query='+encodeURIComponent(songPick.artist+' '+trackPick+' official');
+const clipUrl=songPick.embed
+  ? 'https://www.youtube.com/watch?v='+songPick.embed
+  : ((songPick.url||'').includes('watch?v=') && (artistPick.tracks||[]).length===1 ? songPick.url : exactSearch);
+artistPick.embed=songPick.embed;
 
 document.querySelectorAll('[data-daily-artist]').forEach(e=>e.textContent=artistPick.artist);
 document.querySelectorAll('[data-daily-track]').forEach(e=>e.textContent=trackPick);
