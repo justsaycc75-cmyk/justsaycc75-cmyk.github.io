@@ -22,52 +22,40 @@
   const img=document.querySelector('[data-artist-image]');
   const visual=document.querySelector('.artist-visual');
   if(!img)return;
+
   const artist=(document.querySelector('[data-daily-artist]')?.textContent||'').trim();
   const track=(document.querySelector('[data-daily-track]')?.textContent||'').trim();
-  img.alt=track?`${artist} — ${track}`:artist;
+  const fallback='assets/img/cassette.webp';
 
-  if(artist==='Ed Kuepper'){
-    const direct='https://www.youtube.com/watch?v=dGvy2IOmvp4';
-    document.querySelectorAll('[data-youtube]').forEach(e=>e.href=direct);
-    document.querySelectorAll('[data-daily-track]').forEach(e=>e.textContent="(When There's) This Party");
-    const box=document.querySelector('[data-video-frame]');
-    if(box)box.innerHTML='<iframe src="https://www.youtube.com/embed/dGvy2IOmvp4?rel=0" title="Ed Kuepper — (When There\'s) This Party" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
-    if(visual)visual.style.display='none';
-    return;
-  }
+  if(visual)visual.style.display='block';
+  img.alt=track?\`${artist} — ${track}\`:artist;
+  img.loading='eager';
 
-  if(artist==='Visage'){
-    const direct='https://www.youtube.com/watch?v=UMPC8QJF6sI';
-    document.querySelectorAll('[data-youtube]').forEach(e=>e.href=direct);
-    document.querySelectorAll('[data-daily-track]').forEach(e=>e.textContent='Fade To Grey');
-    img.src='https://i.ytimg.com/vi/UMPC8QJF6sI/maxresdefault.jpg';
-    img.alt='Visage — Fade To Grey';
-    const box=document.querySelector('[data-video-frame]');
-    if(box)box.innerHTML='<iframe src="https://www.youtube.com/embed/UMPC8QJF6sI?rel=0" title="Visage — Fade To Grey" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
-    if(visual)visual.style.display='none';
-    return;
-  }
+  const setImage=src=>{
+    if(!src)return false;
+    img.onerror=()=>{img.onerror=null;img.src=fallback;};
+    img.src=src;
+    return true;
+  };
 
-  if(artist==='Arcadia'){
-    const direct='https://www.youtube.com/watch?v=hqRBqT0iZKo';
-    document.querySelectorAll('[data-youtube]').forEach(e=>e.href=direct);
-    img.src='https://i.ytimg.com/vi/hqRBqT0iZKo/maxresdefault.jpg';
-    img.alt='Arcadia — El Diablo';
-    const box=document.querySelector('[data-video-frame]');
-    if(box)box.innerHTML='<iframe src="https://www.youtube.com/embed/hqRBqT0iZKo?rel=0" title="Arcadia — El Diablo" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
-    if(visual)visual.style.display='none';
-    return;
-  }
-
+  // Prefer the exact YouTube thumbnail when today's song has an embedded/direct clip.
   const frame=document.querySelector('[data-video-frame] iframe');
   if(frame){
-    const m=frame.src.match(/embed\/([^?]+)/);
-    if(m){
-      if(visual)visual.style.display='none';
+    const match=frame.src.match(/embed\\/([^?&]+)/);
+    if(match&&match[1]){
+      setImage(\`https://i.ytimg.com/vi/${match[1]}/maxresdefault.jpg\`);
       return;
     }
   }
 
+  const ytHref=document.querySelector('[data-youtube]')?.href||'';
+  const directMatch=ytHref.match(/[?&]v=([^&]+)/);
+  if(directMatch&&directMatch[1]){
+    setImage(\`https://i.ytimg.com/vi/${directMatch[1]}/maxresdefault.jpg\`);
+    return;
+  }
+
+  // Otherwise use an artist image. The cassette artwork remains the guaranteed fallback.
   const wikiPages={
     'The Buoys':'The Buoys (band)',
     'Teen Jesus and the Jean Teasers':'Teen Jesus and the Jean Teasers',
@@ -86,14 +74,26 @@
     'Parquet Courts':'Parquet Courts',
     'Tony Joe White':'Tony Joe White',
     'King Stingray':'King Stingray',
-    'Arcadia':'Arcadia (band)'
+    'Arcadia':'Arcadia (band)',
+    'INXS':'INXS',
+    'Midnight Oil':'Midnight Oil',
+    'Cold Chisel':'Cold Chisel',
+    'Hunters & Collectors':'Hunters & Collectors',
+    'The Saints':'The Saints (Australian band)',
+    'The Go-Betweens':'The Go-Betweens',
+    'Nick Cave & The Bad Seeds':'Nick Cave and the Bad Seeds'
   };
+
+  setImage(fallback);
   const page=wikiPages[artist]||artist;
-  fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(page)}`)
+  fetch(\`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(page)}\`)
     .then(r=>r.ok?r.json():Promise.reject())
-    .then(d=>{if(d.thumbnail&&d.thumbnail.source){img.src=d.thumbnail.source;}})
+    .then(d=>{
+      const src=d?.thumbnail?.source||d?.originalimage?.source;
+      if(src)setImage(src);
+    })
     .catch(()=>{});
-})();
+})();;
 
 (()=>{
   const montage=document.querySelector('.stream-montage');
