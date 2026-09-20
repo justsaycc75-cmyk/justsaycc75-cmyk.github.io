@@ -328,7 +328,7 @@ const artistPick={artist:songPick.artist,embed:songPick.id};
 const trackPick=songPick.track;
 const key=currentSlot.key;
 const clipUrl='https://www.youtube.com/watch?v='+songPick.id;
-const artworkUrl='https://i.ytimg.com/vi/'+songPick.id+'/maxresdefault.jpg';
+const artworkUrl='https://i.ytimg.com/vi/'+songPick.id+'/hqdefault.jpg';
 
 setInterval(()=>{
   if(sydneySlotKey().key!==currentSlot.key)location.reload();
@@ -347,7 +347,7 @@ document.querySelectorAll('[data-artist-image]').forEach(e=>{
 document.querySelectorAll('[data-video-frame]').forEach(frame=>{
   frame.innerHTML=`
     <a class="daily-video-poster" href="${clipUrl}" target="_blank" rel="noopener" aria-label="Watch ${artistPick.artist} — ${trackPick} on YouTube">
-      <img src="${artworkUrl}" alt="${artistPick.artist} — ${trackPick}">
+      <img src="${artworkUrl}" alt="${artistPick.artist} — ${trackPick}" onerror="this.onerror=null;this.src='assets/img/cassette.webp'">
       <span class="daily-video-shade"></span>
       <span class="daily-video-play">▶</span>
       <span class="daily-video-copy">
