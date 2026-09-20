@@ -199,7 +199,7 @@
       .front-photo-card.image-only-card[href="radio.html"] img{object-fit:contain!important;background:#07100b;padding:4px!important}
       .front-photo-card.news-rail-card{height:170px!important;padding:0!important;overflow:hidden;background:#07101c!important;border-color:#234666!important}
       .front-photo-card.news-rail-card:after{display:none!important}
-      .front-photo-card.news-rail-card img{width:100%!important;height:100%!important;object-fit:cover!important;object-position:center!important;display:block}
+      .front-photo-card.news-rail-card img{width:100%!important;height:100%!important;object-fit:contain!important;object-position:center!important;display:block;background:#07101c}
       .front-photo-card.news-rail-card:hover{border-color:#6cbfff!important;transform:translateY(-2px);box-shadow:0 14px 28px rgba(0,0,0,.28)}
 
       .front-photo-card.image-only-card:hover img{transform:scale(1.025);filter:brightness(1.04)}
