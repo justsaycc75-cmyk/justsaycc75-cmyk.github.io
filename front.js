@@ -27,7 +27,7 @@
   const track=(document.querySelector('[data-daily-track]')?.textContent||'').trim();
   const fallback='assets/img/cassette.webp';
 
-  if(visual)visual.style.display='block';
+  if(visual)visual.style.display='none';
   img.alt=track?`${artist} — ${track}`:artist;
   img.loading='eager';
 
