@@ -269,9 +269,10 @@ function hash(s){let n=0;for(const c of s)n=(n*31+c.charCodeAt(0))>>>0;return n;
 /*
   Song rotation:
   - changes every 8 hours in Sydney
-  - uses the wider named-song library, not just the small embed-only subset
-  - avoids repeating the same song until the full rotation has cycled
-  - avoids the same artist in back-to-back slots where possible
+  - every named song enters the rotation
+  - no song repeats until the whole pool has been used
+  - the same artist is kept out of consecutive slots where possible
+  - the page automatically reloads when a new 8-hour slot begins
 */
 const rotationSongs=[];
 regulars.forEach(r=>{
@@ -286,37 +287,73 @@ regulars.forEach(r=>{
   });
 });
 
-rotationSongs.sort((a,b)=>{
-  const ah=hash('rotation-v2|'+a.artist+'|'+a.track);
-  const bh=hash('rotation-v2|'+b.artist+'|'+b.track);
-  return ah-bh || (a.artist+a.track).localeCompare(b.artist+b.track);
-});
+function seededShuffle(list,seed){
+  const a=list.slice();
+  let s=seed>>>0;
+  const rnd=()=>{
+    s=(s*1664525+1013904223)>>>0;
+    return s/4294967296;
+  };
+  for(let i=a.length-1;i>0;i--){
+    const j=Math.floor(rnd()*(i+1));
+    [a[i],a[j]]=[a[j],a[i]];
+  }
+  return a;
+}
 
-function sydneySlotNumber(){
-  const now=new Date();
+function buildRotation(list){
+  const shuffled=seededShuffle(list,0x51A7C0DE);
+  const result=[];
+  const remaining=shuffled.slice();
+
+  while(remaining.length){
+    const prev=result[result.length-1];
+    let pickIndex=0;
+    if(prev && remaining[0].artist===prev.artist){
+      const alt=remaining.findIndex(x=>x.artist!==prev.artist);
+      if(alt>0)pickIndex=alt;
+    }
+    result.push(remaining.splice(pickIndex,1)[0]);
+  }
+
+  if(result.length>1 && result[0].artist===result[result.length-1].artist){
+    const swap=result.findIndex((x,i)=>i>0 && x.artist!==result[0].artist && result[i-1].artist!==result[result.length-1].artist);
+    if(swap>0)[result[swap],result[result.length-1]]=[result[result.length-1],result[swap]];
+  }
+  return result;
+}
+
+const rotationOrder=buildRotation(rotationSongs);
+
+function sydneySlotKey(){
   const parts=new Intl.DateTimeFormat('en-CA',{
     timeZone:'Australia/Sydney',
     year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',hour12:false
-  }).formatToParts(now).reduce((o,p)=>(o[p.type]=p.value,o),{});
-  const utcLike=Date.UTC(+parts.year,+parts.month-1,+parts.day,Math.floor((+parts.hour%24)/8)*8);
-  return Math.floor(utcLike/(8*60*60*1000));
+  }).formatToParts(new Date()).reduce((o,p)=>(o[p.type]=p.value,o),{});
+  const y=+parts.year,m=+parts.month,d=+parts.day,h=(+parts.hour)%24;
+  return {
+    key:`${y}-${String(m).padStart(2,'0')}-${String(d).padStart(2,'0')}-${Math.floor(h/8)}`,
+    serial:Math.floor(Date.UTC(y,m-1,d,Math.floor(h/8)*8)/(8*60*60*1000))
+  };
 }
 
-const slotNumber=sydneySlotNumber();
-let songIndex=((slotNumber%rotationSongs.length)+rotationSongs.length)%rotationSongs.length;
-const previousIndex=((songIndex-1)+rotationSongs.length)%rotationSongs.length;
-if(rotationSongs.length>1 && rotationSongs[songIndex].artist===rotationSongs[previousIndex].artist){
-  songIndex=(songIndex+1)%rotationSongs.length;
-}
-const songPick=rotationSongs[songIndex];
+const currentSlot=sydneySlotKey();
+const songIndex=((currentSlot.serial%rotationOrder.length)+rotationOrder.length)%rotationOrder.length;
+const songPick=rotationOrder[songIndex];
+
 const artistPick=regulars.find(r=>r.artist===songPick.artist) || {artist:songPick.artist,tracks:[songPick.track]};
 const trackPick=songPick.track;
-const key=sydDate()+'-slot-'+Math.floor(sydHour()/8);
+const key=currentSlot.key;
 const exactSearch='https://www.youtube.com/results?search_query='+encodeURIComponent(songPick.artist+' '+trackPick+' official');
 const clipUrl=songPick.embed
   ? 'https://www.youtube.com/watch?v='+songPick.embed
-  : ((songPick.url||'').includes('watch?v=') && (artistPick.tracks||[]).length===1 ? songPick.url : exactSearch);
+  : exactSearch;
 artistPick.embed=songPick.embed;
+
+// If somebody leaves the page open across an 8-hour boundary, refresh once the slot changes.
+setInterval(()=>{
+  if(sydneySlotKey().key!==currentSlot.key)location.reload();
+},60000);
 
 document.querySelectorAll('[data-daily-artist]').forEach(e=>e.textContent=artistPick.artist);
 document.querySelectorAll('[data-daily-track]').forEach(e=>e.textContent=trackPick);
