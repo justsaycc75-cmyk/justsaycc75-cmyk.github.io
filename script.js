@@ -345,11 +345,17 @@ document.querySelectorAll('[data-artist-image]').forEach(e=>{
 });
 
 document.querySelectorAll('[data-video-frame]').forEach(frame=>{
-  if(artistPick.embed){
-    frame.innerHTML=`<iframe src="https://www.youtube.com/embed/${artistPick.embed}?rel=0" title="${artistPick.artist} — ${trackPick}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
-  }else{
-    frame.innerHTML=`<div class="video-fallback"><span>DAILY VIDEO PICK</span><b>${artistPick.artist}</b><em>${trackPick}</em><a class="btn" href="${clipUrl}" target="_blank" rel="noopener">Find today’s song on YouTube →</a></div>`;
-  }
+  frame.innerHTML=`
+    <a class="daily-video-poster" href="${clipUrl}" target="_blank" rel="noopener" aria-label="Watch ${artistPick.artist} — ${trackPick} on YouTube">
+      <img src="${artworkUrl}" alt="${artistPick.artist} — ${trackPick}">
+      <span class="daily-video-shade"></span>
+      <span class="daily-video-play">▶</span>
+      <span class="daily-video-copy">
+        <small>WATCH ON YOUTUBE</small>
+        <strong>${artistPick.artist}</strong>
+        <em>${trackPick}</em>
+      </span>
+    </a>`;
 });
 
 const archivePick=archive[hash(key+'archive')%archive.length];
