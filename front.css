@@ -140,3 +140,24 @@
 /* Keep the custom Warriors v Knights artwork fully visible */
 .warriors-result .home-sport-hero-image{background:radial-gradient(circle at 50% 30%,#1b2720,#080b09 70%)}
 .warriors-result .home-sport-hero-image img{object-fit:contain!important;padding:8px;box-sizing:border-box}
+
+/* Full-size Roosta artwork on homepage */
+.home-prelim-graphic.roosta-art{
+  display:block;
+  height:auto;
+  aspect-ratio:4/3;
+  padding:0;
+  overflow:hidden;
+  background:#080b09;
+}
+.home-prelim-graphic.roosta-art img{
+  display:block;
+  width:100%!important;
+  height:100%!important;
+  max-width:none;
+  object-fit:cover;
+  filter:none;
+}
+@media(max-width:600px){
+  .home-prelim-graphic.roosta-art{height:auto;aspect-ratio:4/3}
+}
