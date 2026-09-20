@@ -167,13 +167,7 @@
     <a href="racing.html" class="front-photo-card image-only-card"><img src="Punt.png" alt="Saturday on the Punt horse racing"></a>
 
     <a href="https://www.reuters.com/world/" class="front-photo-card image-only-card news-rail-card" aria-label="Open latest world news" target="_blank" rel="noopener">
-      <div class="news-tile-graphic">
-        <div class="news-globe">◉</div>
-        <div class="news-lines"></div>
-        <strong>NEWS</strong>
-        <span>World News</span>
-        <em>Latest headlines →</em>
-      </div>
+      <img src="News.png" alt="World news and latest headlines">
     </a>`;
 
   if(!document.getElementById('rail-team-logo-styles')){
@@ -205,25 +199,7 @@
       .front-photo-card.image-only-card[href="radio.html"] img{object-fit:contain!important;background:#07100b;padding:4px!important}
       .front-photo-card.news-rail-card{height:170px!important;padding:0!important;overflow:hidden;background:#07101c!important;border-color:#234666!important}
       .front-photo-card.news-rail-card:after{display:none!important}
-      .news-tile-graphic{position:relative;width:100%;height:100%;overflow:hidden;background:
-        radial-gradient(circle at 78% 42%,rgba(55,137,255,.32),transparent 24%),
-        radial-gradient(circle at 82% 48%,#1c6fb3 0 2%,transparent 2.5%),
-        linear-gradient(135deg,#07111f 0%,#0a2545 52%,#09131f 100%)}
-      .news-tile-graphic:before{content:"";position:absolute;right:-26px;top:6px;width:120px;height:120px;border:2px solid rgba(100,190,255,.55);border-radius:50%;box-shadow:
-        inset 0 0 26px rgba(37,127,255,.24),0 0 28px rgba(37,127,255,.18)}
-      .news-tile-graphic:after{content:"";position:absolute;right:13px;top:30px;width:74px;height:74px;border-radius:50%;
-        background:
-          radial-gradient(circle at 35% 36%,#6cc5ff 0 2px,transparent 3px),
-          radial-gradient(circle at 62% 28%,#6cc5ff 0 2px,transparent 3px),
-          radial-gradient(circle at 52% 62%,#6cc5ff 0 2px,transparent 3px),
-          repeating-linear-gradient(18deg,rgba(111,198,255,.16) 0 1px,transparent 1px 12px);
-        border:1px solid rgba(117,199,255,.45);box-shadow:0 0 18px rgba(48,142,255,.3)}
-      .news-globe{position:absolute;right:42px;top:52px;z-index:2;color:#9bd6ff;font-size:.82rem;opacity:.9}
-      .news-lines{position:absolute;inset:0;background:repeating-linear-gradient(180deg,transparent 0 18px,rgba(255,255,255,.025) 18px 19px)}
-      .news-tile-graphic strong{position:absolute;left:16px;top:18px;z-index:2;color:#fff;font-size:1.45rem;line-height:1;font-weight:1000;letter-spacing:.04em}
-      .news-tile-graphic strong:after{content:"";display:block;width:38px;height:3px;background:#ff4d3d;margin-top:7px;border-radius:3px}
-      .news-tile-graphic span{position:absolute!important;left:16px!important;bottom:42px!important;z-index:2;background:#07101cdd!important;border:1px solid #ffffff22!important;color:#fff!important;padding:5px 9px!important;border-radius:999px!important;font-size:.74rem!important;font-weight:900!important}
-      .news-tile-graphic em{position:absolute!important;left:16px!important;bottom:15px!important;z-index:2;color:#b8ff39!important;font-style:normal!important;font-size:.7rem!important;font-weight:900!important}
+      .front-photo-card.news-rail-card img{width:100%!important;height:100%!important;object-fit:cover!important;object-position:center!important;display:block}
       .front-photo-card.news-rail-card:hover{border-color:#6cbfff!important;transform:translateY(-2px);box-shadow:0 14px 28px rgba(0,0,0,.28)}
 
       .front-photo-card.image-only-card:hover img{transform:scale(1.025);filter:brightness(1.04)}
