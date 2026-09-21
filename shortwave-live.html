@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sydney Shortwave Live — My Retirement Page</title>
+<meta name="description" content="A public shortwave listening dashboard for Sydney with bands to try, HFGCS frequencies, public SDR links, aviation HF, emergency information and world times.">
+<link rel="stylesheet" href="style.css">
+<style>
+:root{--sw-blue:#49b8ff;--sw-cyan:#5ce1e6;--sw-lime:#b8ff39;--sw-orange:#ff8a1f}
+.sw-shell{max-width:1420px;margin:auto;padding:0 22px}.sw-hero{display:grid;grid-template-columns:1.15fr .85fr;gap:26px;align-items:center;padding:30px 0 20px}.sw-hero-copy h1{font-size:clamp(3rem,7vw,6.4rem);max-width:840px}.sw-hero-copy p{max-width:840px;color:#cdd7d0;font-size:1.08rem}.sw-live{display:inline-flex;align-items:center;gap:8px;padding:7px 11px;border:1px solid #395144;border-radius:999px;color:var(--sw-lime);font-weight:900;font-size:.75rem;letter-spacing:.12em}.sw-live:before{content:"";width:8px;height:8px;border-radius:50%;background:var(--sw-lime);box-shadow:0 0 14px var(--sw-lime)}.sw-hero-art{border:1px solid #314238;border-radius:24px;overflow:hidden;background:#061018;box-shadow:0 18px 46px rgba(0,0,0,.28)}.sw-hero-art img{width:100%;height:100%;min-height:340px;object-fit:cover}
+.sw-status{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:18px 0 26px}.sw-stat{padding:15px;border:1px solid #2e3b33;border-radius:16px;background:#0b100d}.sw-stat small{display:block;color:#91a197;font-size:.65rem;font-weight:900;letter-spacing:.12em;text-transform:uppercase}.sw-stat strong{display:block;margin-top:4px;font-size:1.05rem}.sw-stat b{color:var(--sw-lime)}
+.sw-section{padding:28px 0}.sw-head{display:flex;align-items:end;justify-content:space-between;gap:18px;margin-bottom:15px}.sw-head h2{margin:.15em 0}.sw-head p{max-width:760px;color:#aeb9b1;margin:0}
+.best-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.best-card{display:block;padding:18px;border:1px solid #334139;border-radius:18px;background:linear-gradient(145deg,#111713,#0a0f0c);text-decoration:none;transition:.2s}.best-card:hover{transform:translateY(-3px);border-color:var(--sw-lime)}.best-card small{display:block;color:var(--sw-orange);font-size:.66rem;font-weight:900;letter-spacing:.12em;text-transform:uppercase}.best-card strong{display:block;margin:6px 0 5px;font-size:1.05rem}.best-card span{display:block;color:#aeb8b1;font-size:.82rem;line-height:1.45}.best-card em{display:inline-block;margin-top:12px;color:var(--sw-lime);font-style:normal;font-weight:900;font-size:.78rem}
+.band-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}.band-card{padding:16px;border:1px solid #2f3d34;border-radius:16px;background:#0b100d}.band-card strong{display:block;font-size:1.1rem}.band-card span{display:block;margin-top:3px;color:#aeb8b1;font-size:.78rem}.band-card b{display:block;margin-top:10px;color:var(--sw-lime);font-size:.75rem}.band-card.hot{border-color:#53684f;box-shadow:inset 0 0 0 1px rgba(184,255,57,.05)}
+.freq-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.freq-card{padding:18px;border:1px solid #344139;border-radius:18px;background:linear-gradient(145deg,#101611,#090e0b)}.freq-card .freq{font-size:1.55rem;font-weight:1000;color:#fff}.freq-card .mode{color:var(--sw-lime);font-size:.75rem;font-weight:900;margin-left:5px}.freq-card p{color:#b8c2bb;font-size:.86rem;line-height:1.5}.freq-card .tools{display:flex;gap:8px;flex-wrap:wrap}.freq-card button,.freq-card a{border:1px solid #405047;border-radius:999px;background:#0d130f;color:#dce5de;padding:8px 11px;font-weight:900;font-size:.72rem;text-decoration:none;cursor:pointer}.freq-card button:hover,.freq-card a:hover{border-color:var(--sw-lime);color:var(--sw-lime)}
+.sw-panel{padding:20px;border:1px solid #344139;border-radius:20px;background:radial-gradient(circle at 10% 10%,rgba(73,184,255,.09),transparent 28%),linear-gradient(145deg,#0d1511,#090d0b)}.commentary{font-size:1rem;line-height:1.65;color:#d2dad4}.commentary b{color:var(--sw-lime)}
+.clock-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}.clock{padding:14px;border:1px solid #344139;border-radius:15px;background:#0a100c}.clock small{display:block;color:#91a197;font-size:.64rem;font-weight:900;letter-spacing:.12em}.clock strong{display:block;margin-top:3px;font-size:1.15rem}.clock span{display:block;color:#aeb8b1;font-size:.72rem}
+.link-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.link-card{display:block;padding:18px;border:1px solid #334139;border-radius:17px;background:#0b100d;text-decoration:none}.link-card:hover{border-color:var(--sw-lime)}.link-card small{color:var(--sw-orange);font-weight:900;font-size:.65rem;letter-spacing:.12em;text-transform:uppercase}.link-card strong{display:block;margin:5px 0;color:#fff}.link-card span{display:block;color:#aeb8b1;font-size:.82rem;line-height:1.45}
+.sw-note{margin-top:15px;color:#8e9a92;font-size:.78rem;line-height:1.5}
+@media(max-width:980px){.sw-hero{grid-template-columns:1fr}.sw-status,.best-grid{grid-template-columns:repeat(2,1fr)}.band-grid{grid-template-columns:repeat(3,1fr)}.freq-grid,.link-grid{grid-template-columns:1fr 1fr}.clock-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:620px){.sw-status,.best-grid,.band-grid,.freq-grid,.link-grid,.clock-grid{grid-template-columns:1fr}.sw-head{display:block}.sw-hero-art img{min-height:240px}}
+</style>
+</head>
+<body>
+<header class="topbar"><div class="wrap nav"><a class="brand" href="index.html">MY <b>RETIREMENT</b> PAGE</a><button class="menu-btn" data-menu-button aria-label="Open navigation">MENU</button><nav><a href="music.html">Music</a><a href="journeys.html">Journeys</a><a href="hunter.html">Hunter</a><a href="watching.html">Watching</a><a href="sport.html">Sport</a><a href="racing.html">The Punt</a><a href="radio.html">Radio</a><a href="markets.html">Markets</a></nav></div></header>
+
+<main class="sw-shell">
+<section class="sw-hero">
+  <div class="sw-hero-copy">
+    <div class="sw-live">PUBLIC • NO SIGN-IN REQUIRED</div>
+    <div class="kicker" style="margin-top:14px">Sydney shortwave</div>
+    <h1>Listen to the world.</h1>
+    <p>A public listening dashboard built for Sydney. Use it to work out which HF bands are worth trying now, jump to public SDRs, keep an eye on HFGCS and aviation HF, and follow the parts of the world moving into their best listening windows.</p>
+  </div>
+  <div class="sw-hero-art"><img src="Radar.png" alt="Radar-style shortwave monitoring graphic"></div>
+</section>
+
+<div class="sw-status">
+  <div class="sw-stat"><small>Sydney time</small><strong id="sydClock">—</strong></div>
+  <div class="sw-stat"><small>UTC</small><strong id="utcClock">—</strong></div>
+  <div class="sw-stat"><small>Current window</small><strong id="windowLabel">—</strong></div>
+  <div class="sw-stat"><small>Best first move</small><strong><b id="firstMove">—</b></strong></div>
+</div>
+
+<section class="sw-section">
+  <div class="sw-head"><div><div class="kicker">Best buttons to try right now</div><h2>Start here.</h2></div><p>These change with Sydney time. They are deliberately biased toward voice traffic and public services rather than data-only signals.</p></div>
+  <div class="best-grid" id="bestGrid"></div>
+</section>
+
+<section class="sw-section">
+  <div class="sw-head"><div><div class="kicker">Bands to try from Sydney</div><h2>Where to tune first</h2></div><p>Propagation is never guaranteed. The highlighted bands are simply the ones that usually make the most sense for the current part of the day.</p></div>
+  <div class="band-grid" id="bandGrid"></div>
+</section>
+
+<section class="sw-section">
+  <div class="sw-head"><div><div class="kicker">Military / government HF</div><h2>HFGCS voice frequencies</h2></div><p>Common US High Frequency Global Communications System channels. You may hear routine aircraft calls, ground stations or coded Emergency Action Messages.</p></div>
+  <div class="freq-grid">
+    <div class="freq-card"><div><span class="freq">11175</span><span class="mode">kHz USB</span></div><p>The most commonly monitored HFGCS frequency and a sensible first channel to try.</p><div class="tools"><button data-copy="11175 USB">Copy frequency</button><a href="https://kiwisdr.com/" target="_blank" rel="noopener">Open KiwiSDR →</a></div></div>
+    <div class="freq-card"><div><span class="freq">8992</span><span class="mode">kHz USB</span></div><p>Often useful after dark or when the lower HF path is stronger than 11175.</p><div class="tools"><button data-copy="8992 USB">Copy frequency</button><a href="https://warwatchintel.com/intel" target="_blank" rel="noopener">War Watch Intel →</a></div></div>
+    <div class="freq-card"><div><span class="freq">15016</span><span class="mode">kHz USB</span></div><p>A higher-frequency HFGCS channel that can be worth checking during daylight.</p><div class="tools"><button data-copy="15016 USB">Copy frequency</button><a href="https://kiwisdr.com/" target="_blank" rel="noopener">Open KiwiSDR →</a></div></div>
+  </div>
+  <p class="sw-note">Monitoring public radio traffic does not confirm that an operation is underway. Increased traffic can reflect routine training, exercises, weather, rerouting or other normal activity.</p>
+</section>
+
+<section class="sw-section">
+  <div class="sw-head"><div><div class="kicker">Aircraft HF</div><h2>Long-range aviation voice</h2></div><p>HF aviation frequencies vary by route, region and time. These are useful examples to have ready when listening from Australia and the Pacific.</p></div>
+  <div class="freq-grid">
+    <div class="freq-card"><div><span class="freq">5643</span><span class="mode">kHz USB</span></div><p>Lower HF aviation channel that can become more useful at night.</p><div class="tools"><button data-copy="5643 USB">Copy frequency</button><a href="https://kiwisdr.com/" target="_blank" rel="noopener">Find public SDR →</a></div></div>
+    <div class="freq-card"><div><span class="freq">8867</span><span class="mode">kHz USB</span></div><p>A familiar long-range aviation monitoring frequency in the Asia-Pacific region.</p><div class="tools"><button data-copy="8867 USB">Copy frequency</button><a href="https://kiwisdr.com/" target="_blank" rel="noopener">Find public SDR →</a></div></div>
+    <div class="freq-card"><div><span class="freq">11396</span><span class="mode">kHz USB</span></div><p>Higher HF aviation option that can work better in daylight.</p><div class="tools"><button data-copy="11396 USB">Copy frequency</button><a href="https://kiwisdr.com/" target="_blank" rel="noopener">Find public SDR →</a></div></div>
+  </div>
+</section>
+
+<section class="sw-section">
+  <div class="sw-head"><div><div class="kicker">Listening conditions</div><h2>What the clock suggests</h2></div><p>Plain-English guidance instead of a wall of solar indices.</p></div>
+  <div class="sw-panel commentary" id="commentary"></div>
+</section>
+
+<section class="sw-section">
+  <div class="sw-head"><div><div class="kicker">World times</div><h2>Follow darkness across the globe</h2></div><p>Useful reference points for deciding where broadcasters and long-distance paths may be moving into evening or night.</p></div>
+  <div class="clock-grid">
+    <div class="clock" data-zone="America/Los_Angeles"><small>LOS ANGELES</small><strong>—</strong><span>US West Coast</span></div>
+    <div class="clock" data-zone="America/Chicago"><small>DALLAS</small><strong>—</strong><span>US Central</span></div>
+    <div class="clock" data-zone="America/New_York"><small>NEW YORK</small><strong>—</strong><span>US East Coast</span></div>
+    <div class="clock" data-zone="Europe/London"><small>LONDON</small><strong>—</strong><span>United Kingdom</span></div>
+    <div class="clock" data-zone="Asia/Jerusalem"><small>JERUSALEM</small><strong>—</strong><span>Middle East</span></div>
+    <div class="clock" data-zone="Asia/Shanghai"><small>BEIJING</small><strong>—</strong><span>China</span></div>
+    <div class="clock" data-zone="Pacific/Auckland"><small>AUCKLAND</small><strong>—</strong><span>New Zealand</span></div>
+    <div class="clock" data-zone="Australia/Sydney"><small>SYDNEY</small><strong>—</strong><span>Home</span></div>
+  </div>
+</section>
+
+<section class="sw-section">
+  <div class="sw-head"><div><div class="kicker">Public links</div><h2>Useful live services</h2></div><p>These links are independent of ChatGPT and can be opened by any visitor.</p></div>
+  <div class="link-grid">
+    <a class="link-card" href="https://kiwisdr.com/" target="_blank" rel="noopener"><small>Public SDR</small><strong>KiwiSDR directory</strong><span>Find HF receivers around the world and tune them in your browser.</span></a>
+    <a class="link-card" href="https://warwatchintel.com/intel" target="_blank" rel="noopener"><small>HF intelligence</small><strong>War Watch Intel</strong><span>HFGCS, EAM and aircraft-monitoring resources.</span></a>
+    <a class="link-card" href="https://sydney.rdio.online" target="_blank" rel="noopener"><small>Local radio</small><strong>NSW Public Safety RDIO</strong><span>Community scanner access for supported NSW services.</span></a>
+    <a class="link-card" href="https://www.abc.net.au/listen/live/sydney" target="_blank" rel="noopener"><small>Local information</small><strong>ABC Sydney live</strong><span>Useful local information source online and on radio.</span></a>
+    <a class="link-card" href="https://www.bom.gov.au/nsw/" target="_blank" rel="noopener"><small>Weather</small><strong>BOM NSW</strong><span>Official forecasts, warnings and weather information.</span></a>
+    <a class="link-card" href="https://www.nsw.gov.au/emergency/hazards-near-me-app" target="_blank" rel="noopener"><small>Emergency</small><strong>Hazards Near Me NSW</strong><span>Official NSW emergency information and warnings.</span></a>
+  </div>
+</section>
+
+<p class="sw-note" style="padding-bottom:35px">This page is a listening aid, not an emergency service. Frequencies, schedules and propagation change. Always use official authorities for emergency information.</p>
+</main>
+
+<footer class="footer"><div class="wrap footer-grid"><span>© My Retirement Page</span><span>Sydney Shortwave Live • public listening dashboard</span></div></footer>
+
+<script src="script.js"></script>
+<script>
+(()=>{
+  const fmt=(zone)=>new Intl.DateTimeFormat('en-AU',{timeZone:zone,weekday:'short',hour:'2-digit',minute:'2-digit',hour12:false}).format(new Date());
+  const hourIn=(zone)=>Number(new Intl.DateTimeFormat('en-GB',{timeZone:zone,hour:'2-digit',hour12:false}).format(new Date()))%24;
+  const sydHour=()=>hourIn('Australia/Sydney');
+
+  function phase(){
+    const h=sydHour();
+    if(h>=5&&h<9)return 'morning';
+    if(h>=9&&h<17)return 'day';
+    if(h>=17&&h<21)return 'evening';
+    return 'night';
+  }
+
+  const bandData=[
+    {name:'80 m',range:'3.5–4 MHz',best:['night'],note:'Local/regional amateur voice after dark'},
+    {name:'60/49 m',range:'4.7–6.2 MHz',best:['night','morning'],note:'Lower HF, broadcasters and utility'},
+    {name:'41/40 m',range:'7–7.3 MHz',best:['night','evening','morning'],note:'Strong night-time listening band'},
+    {name:'31/30 m',range:'9–10.2 MHz',best:['evening','night','morning'],note:'Excellent transition band'},
+    {name:'25/20 m',range:'11.5–14.35 MHz',best:['day','evening'],note:'Useful daytime and greyline range'},
+    {name:'19/17 m',range:'15–18.2 MHz',best:['day'],note:'Daylight long-distance paths'},
+    {name:'15/13 m',range:'21–22 MHz',best:['day'],note:'Higher HF when the band is open'}
+  ];
+
+  const choices={
+    morning:[
+      ['Greyline first','9–15 MHz','Sunrise can briefly improve long-distance paths. Start around 9–12 MHz.','https://kiwisdr.com/'],
+      ['HFGCS 11175','11175 kHz USB','A strong all-round military voice channel to check early.','https://warwatchintel.com/intel'],
+      ['Aviation HF','8867 kHz USB','Try Asia-Pacific long-range aircraft voice.','https://kiwisdr.com/'],
+      ['ABC Sydney','Local information','Useful local information source if you are checking weather or events.','https://www.abc.net.au/listen/live/sydney']
+    ],
+    day:[
+      ['Higher HF','15–21 MHz','Daylight usually gives the higher bands their best chance.','https://kiwisdr.com/'],
+      ['HFGCS 15016','15016 kHz USB','Higher-frequency HFGCS option for daylight.','https://warwatchintel.com/intel'],
+      ['Aviation HF','11396 kHz USB','A higher aviation HF channel worth trying in daylight.','https://kiwisdr.com/'],
+      ['International broadcast','15–18 MHz','Look for strong broadcasters from Asia and the Pacific.','https://kiwisdr.com/']
+    ],
+    evening:[
+      ['Greyline sweep','7–15 MHz','This is often the most interesting transition period of the day.','https://kiwisdr.com/'],
+      ['HFGCS 11175','11175 kHz USB','Keep 11175 open as darkness spreads west of Sydney.','https://warwatchintel.com/intel'],
+      ['Aviation HF','8867 kHz USB','Long-range aircraft voice can become easier to hear.','https://kiwisdr.com/'],
+      ['Lower HF next','7–10 MHz','Move down in frequency as full darkness arrives.','https://kiwisdr.com/']
+    ],
+    night:[
+      ['Lower HF','4–10 MHz','Night favours the lower bands. Start around 7–9 MHz.','https://kiwisdr.com/'],
+      ['HFGCS 8992','8992 kHz USB','A good lower HFGCS channel for night-time listening.','https://warwatchintel.com/intel'],
+      ['Aviation HF','5643 kHz USB','Lower aviation HF can improve after dark.','https://kiwisdr.com/'],
+      ['HFGCS 11175','11175 kHz USB','Still worth keeping in the scan alongside 8992.','https://warwatchintel.com/intel']
+    ]
+  };
+
+  function render(){
+    const p=phase();
+    const labels={morning:'Sunrise / greyline',day:'Daylight',evening:'Sunset / greyline',night:'Night'};
+    document.getElementById('sydClock').textContent=fmt('Australia/Sydney');
+    document.getElementById('utcClock').textContent=fmt('UTC').replace(/^[A-Za-z]{3},?\s*/,'');
+    document.getElementById('windowLabel').textContent=labels[p];
+    document.getElementById('firstMove').textContent=choices[p][0][1];
+
+    document.getElementById('bestGrid').innerHTML=choices[p].map(x=>`
+      <a class="best-card" href="${x[3]}" target="_blank" rel="noopener">
+        <small>${x[0]}</small><strong>${x[1]}</strong><span>${x[2]}</span><em>Open listening tool →</em>
+      </a>`).join('');
+
+    document.getElementById('bandGrid').innerHTML=bandData.map(b=>`
+      <div class="band-card ${b.best.includes(p)?'hot':''}">
+        <strong>${b.name}</strong><span>${b.range}</span><b>${b.best.includes(p)?'TRY NOW':'SECONDARY'}</b><span>${b.note}</span>
+      </div>`).join('');
+
+    const commentary={
+      morning:'<b>Morning greyline:</b> start in the middle of HF rather than at the extremes. Around sunrise, paths can briefly improve in directions that were poor an hour earlier. Try 9–15 MHz first, then move lower if signals are weak.',
+      day:'<b>Daylight:</b> move upward. Around Sydney, 15–21 MHz is often the sensible first sweep when propagation is healthy. Higher HFGCS and aviation channels are more logical than the low bands at this time.',
+      evening:'<b>Evening greyline:</b> this is one of the best times to experiment. Begin around 9–15 MHz and gradually move down toward 7 MHz as darkness settles in. Signals can appear quickly and disappear just as fast.',
+      night:'<b>Night:</b> concentrate on the lower HF bands. Around 4–10 MHz is the natural starting point, with 8992 and 11175 kHz both worth keeping in the military scan. Long-range aviation voice can also improve on lower HF.'
+    };
+    document.getElementById('commentary').innerHTML=commentary[p]+' <br><br>Conditions can change quickly, so silence on one frequency does not mean the whole band is dead. Move 500 kHz to 1 MHz at a time and listen for voice peaks rather than staying parked on one channel.';
+  }
+
+  document.querySelectorAll('.clock').forEach(el=>{
+    const zone=el.dataset.zone;
+    el.querySelector('strong').textContent=fmt(zone);
+  });
+
+  document.querySelectorAll('[data-copy]').forEach(btn=>{
+    btn.addEventListener('click',async()=>{
+      try{await navigator.clipboard.writeText(btn.dataset.copy);btn.textContent='Copied';setTimeout(()=>btn.textContent='Copy frequency',1200);}catch(e){}
+    });
+  });
+
+  render();
+  setInterval(()=>{
+    render();
+    document.querySelectorAll('.clock').forEach(el=>el.querySelector('strong').textContent=fmt(el.dataset.zone));
+  },60000);
+})();
+</script>
+</body>
+</html>
