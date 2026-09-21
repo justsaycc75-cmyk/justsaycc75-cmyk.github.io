@@ -131,8 +131,16 @@
   rail.innerHTML=`
     <a href="music.html" class="front-photo-card"><img src="assets/img/cassette.webp" alt="Music"><span>Music</span><em>Daily clip + archive</em></a>
 
-    <a href="https://www.reuters.com/world/" class="front-photo-card image-only-card news-rail-card" aria-label="Open latest world news" target="_blank" rel="noopener">
-      <img src="News.png?v=20260921" alt="World news and latest headlines">
+    <a href="https://osirisai.live/" class="front-photo-card osiris-rail-card" aria-label="Open OSIRIS Global Intelligence Platform" target="_blank" rel="noopener">
+      <div class="osiris-grid" aria-hidden="true"></div>
+      <div class="osiris-scan" aria-hidden="true"></div>
+      <div class="osiris-card-copy">
+        <small>LIVE OSINT</small>
+        <b>OSIRIS</b>
+        <strong>GLOBAL INTELLIGENCE</strong>
+        <span>Flights · ships · satellites · CCTV · hazards</span>
+        <em>Open live platform →</em>
+      </div>
     </a>
 
     <a href="markets.html" class="front-photo-card rail-markets-pro" aria-label="Open Global Markets dashboard">
@@ -203,6 +211,47 @@
       .front-photo-card.news-rail-card:after{display:none!important}
       .front-photo-card.news-rail-card img{width:100%!important;height:100%!important;object-fit:contain!important;object-position:center!important;display:block;background:#07101c}
       .front-photo-card.news-rail-card:hover{border-color:#6cbfff!important;transform:translateY(-2px);box-shadow:0 14px 28px rgba(0,0,0,.28)}
+      .front-photo-card.osiris-rail-card{
+        height:170px!important;
+        padding:0!important;
+        overflow:hidden;
+        position:relative;
+        display:block;
+        text-decoration:none;
+        background:
+          radial-gradient(circle at 72% 40%,rgba(44,255,174,.18),transparent 34%),
+          radial-gradient(circle at 28% 64%,rgba(0,159,255,.15),transparent 30%),
+          linear-gradient(145deg,#020909 0%,#061313 52%,#020707 100%)!important;
+        border-color:#244a43!important;
+      }
+      .front-photo-card.osiris-rail-card:after{display:none!important}
+      .osiris-grid{
+        position:absolute;inset:0;
+        background-image:
+          linear-gradient(rgba(84,255,203,.055) 1px,transparent 1px),
+          linear-gradient(90deg,rgba(84,255,203,.055) 1px,transparent 1px);
+        background-size:18px 18px;
+        mask-image:linear-gradient(to bottom,rgba(0,0,0,.95),transparent);
+      }
+      .osiris-grid:before,.osiris-grid:after{
+        content:"";position:absolute;left:73%;top:43%;border:1px solid rgba(72,255,188,.38);border-radius:50%;transform:translate(-50%,-50%)
+      }
+      .osiris-grid:before{width:88px;height:88px}
+      .osiris-grid:after{width:48px;height:48px}
+      .osiris-scan{
+        position:absolute;left:73%;top:43%;width:76px;height:1px;
+        transform-origin:left center;transform:rotate(-18deg);
+        background:linear-gradient(90deg,#72ffd0,transparent);
+        box-shadow:0 0 9px rgba(114,255,208,.75)
+      }
+      .osiris-card-copy{position:absolute;inset:0;padding:15px;z-index:2;display:flex;flex-direction:column;align-items:flex-start}
+      .osiris-card-copy small{color:#72ffd0;font-size:.55rem;font-weight:900;letter-spacing:.2em}
+      .osiris-card-copy b{display:block;margin-top:7px;color:#fff;font-size:1.48rem;line-height:.95;letter-spacing:.18em;text-shadow:0 0 16px rgba(114,255,208,.25)}
+      .osiris-card-copy strong{display:block;margin-top:5px;color:#b8c9c5;font-size:.60rem;letter-spacing:.11em}
+      .osiris-card-copy span{position:static!important;margin-top:14px!important;background:none!important;border:0!important;padding:0!important;color:#d6e5e1!important;font-size:.62rem!important;font-weight:700!important;max-width:145px}
+      .osiris-card-copy em{position:absolute!important;left:15px!important;bottom:12px!important;color:#72ffd0!important;font-size:.67rem!important;font-weight:900!important}
+      .front-photo-card.osiris-rail-card:hover{border-color:#72ffd0!important;transform:translateY(-2px);box-shadow:0 14px 28px rgba(0,0,0,.32),0 0 22px rgba(65,255,191,.08)}
+      .front-photo-card.osiris-rail-card:hover .osiris-scan{box-shadow:0 0 15px rgba(114,255,208,.95)}
 
       .front-photo-card.image-only-card:hover img{transform:scale(1.025);filter:brightness(1.04)}
       .rail-markets-pro{
