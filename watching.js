@@ -164,6 +164,41 @@
       source:'Showtime / Paramount+',
       direct:true
     }
+,
+    'Sharp Objects':{
+      url:'https://www.hbo.com/sharp-objects',
+      wiki:'Sharp Objects (miniseries)',
+      summary:'A troubled journalist returns to her Missouri hometown to investigate the murders of two girls, forcing her to confront a poisonous family history and her own past.',
+      source:'HBO',
+      direct:true
+    },
+    'The Killing':{
+      url:'https://www.youtube.com/results?search_query=The+Killing+official+trailer',
+      wiki:'The Killing (American TV series)',
+      summary:'Two Seattle detectives investigate a teenage girl’s murder in a brooding, long-form mystery where the case slowly exposes political, family and personal secrets.',
+      source:'Official trailer / overview'
+    },
+    'Happy Valley':{
+      url:'https://www.bbc.co.uk/programmes/b06zqjpj',
+      wiki:'Happy Valley (TV series)',
+      summary:'A tough Yorkshire police sergeant faces violent crime, family trauma and the return of a dangerous man from her past in one of Britain’s strongest modern crime dramas.',
+      source:'BBC',
+      direct:true
+    },
+    'The Night Manager':{
+      url:'https://www.bbc.co.uk/programmes/p03g13rt',
+      wiki:'The Night Manager (British TV series)',
+      summary:'A former soldier working as a hotel night manager is recruited into an intelligence operation targeting a charismatic international arms dealer.',
+      source:'BBC',
+      direct:true
+    },
+    'Mayor of Kingstown':{
+      url:'https://www.paramountplus.com/shows/mayor-of-kingstown/',
+      wiki:'Mayor of Kingstown',
+      summary:'In a Michigan town dominated by prisons, the McLusky family works between police, inmates, gangs and politicians in a brutal cycle of violence and uneasy deals.',
+      source:'Paramount+',
+      direct:true
+    }
   };
 
   document.querySelectorAll('[data-watch]').forEach(card=>{
