@@ -131,18 +131,6 @@
   rail.innerHTML=`
     <a href="music.html" class="front-photo-card"><img src="assets/img/cassette.webp" alt="Music"><span>Music</span><em>Daily clip + archive</em></a>
 
-    <a href="https://osirisai.live/" class="front-photo-card osiris-rail-card" aria-label="Open OSIRIS Global Intelligence Platform" target="_blank" rel="noopener">
-      <div class="osiris-grid" aria-hidden="true"></div>
-      <div class="osiris-scan" aria-hidden="true"></div>
-      <div class="osiris-card-copy">
-        <small>LIVE OSINT</small>
-        <b>OSIRIS</b>
-        <strong>GLOBAL INTELLIGENCE</strong>
-        <span>Flights · ships · satellites · CCTV · hazards</span>
-        <em>Open live platform →</em>
-      </div>
-    </a>
-
     <a href="markets.html" class="front-photo-card rail-markets-pro" aria-label="Open Global Markets dashboard">
       <div class="market-mini-head"><small>MARKETS</small><b>Global pulse</b></div>
       <div class="market-mini-gauges">
@@ -155,6 +143,18 @@
     </a>
 
     <a href="radio.html" class="front-photo-card image-only-card"><img src="Icom.png" alt="Icom IC-705 shortwave radio"></a>
+
+    <a href="https://osirisai.live/" class="front-photo-card osiris-rail-card" aria-label="Open OSIRIS Global Intelligence Platform" target="_blank" rel="noopener">
+      <div class="osiris-grid" aria-hidden="true"></div>
+      <div class="osiris-scan" aria-hidden="true"></div>
+      <div class="osiris-card-copy">
+        <small>LIVE OSINT</small>
+        <b>OSIRIS</b>
+        <strong>GLOBAL INTELLIGENCE</strong>
+        <span>Flights · ships · satellites · CCTV · hazards</span>
+        <em>Open live platform →</em>
+      </div>
+    </a>
 
     <a href="journeys.html" class="front-photo-card"><img src="assets/img/crown_sunset.webp" alt="Journeys and cruises"><span>Journeys</span><em>Cruises + side trips</em></a>
 
