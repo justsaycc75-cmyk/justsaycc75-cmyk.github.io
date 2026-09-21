@@ -170,9 +170,7 @@
 
     <a href="racing.html" class="front-photo-card image-only-card"><img src="Punt.png" alt="Saturday on the Punt horse racing"></a>
 
-    <a href="https://www.reuters.com/world/" class="front-photo-card image-only-card news-rail-card" aria-label="Open latest world news" target="_blank" rel="noopener">
-      <img src="News.png?v=20260921" alt="World news and latest headlines">
-    </a>`;
+`;
 
   if(!document.getElementById('rail-team-logo-styles')){
     const style=document.createElement('style');
