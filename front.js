@@ -131,6 +131,10 @@
   rail.innerHTML=`
     <a href="music.html" class="front-photo-card"><img src="assets/img/cassette.webp" alt="Music"><span>Music</span><em>Daily clip + archive</em></a>
 
+    <a href="https://www.reuters.com/world/" class="front-photo-card image-only-card news-rail-card" aria-label="Open latest world news" target="_blank" rel="noopener">
+      <img src="News.png?v=20260921" alt="World news and latest headlines">
+    </a>
+
     <a href="markets.html" class="front-photo-card rail-markets-pro" aria-label="Open Global Markets dashboard">
       <div class="market-mini-head"><small>MARKETS</small><b>Global pulse</b></div>
       <div class="market-mini-gauges">
