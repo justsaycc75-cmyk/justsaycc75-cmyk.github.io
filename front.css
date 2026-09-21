@@ -176,3 +176,32 @@
 .club-badge.brentford{background:#d71920}.club-badge.chelsea{background:#034694}.club-badge.villa{background:#670e36}.club-badge.spurs{background:#132257}.club-badge.brighton{background:#0057b8}.club-badge.arsenal{background:#ef0107}.club-badge.everton{background:#003399}.club-badge.ipswich{background:#1d428a}.club-badge.newcastle{background:#111}.club-badge.hull{background:#f5a623;color:#111}.club-badge.coventry{background:#69b3e7;color:#08223d}.club-badge.forest{background:#dd0000}.club-badge.liverpool{background:#c8102e}.club-badge.bournemouth{background:#da291c}.club-badge.leeds{background:#1d428a}.club-badge.palace{background:#1b458f}.club-badge.mancity{background:#6cabdd;color:#102542}.club-badge.sunderland{background:#d71920}.club-badge.fulham{background:#fff;color:#111}.club-badge.manutd{background:#da291c}
 @media(max-width:980px){.score-thumb-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:560px){.score-thumb-grid{grid-template-columns:1fr}}
+
+/* Fresh NRL preliminary-final feature cards */
+.prelim-fresh-grid{grid-template-columns:1fr 1fr}
+.fresh-prelim-card{min-width:0}
+.fresh-prelim-visual{position:relative;display:block;height:360px;overflow:hidden;background:#07100b;text-decoration:none}
+.fresh-prelim-visual>img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .25s ease,filter .25s ease}
+.fresh-prelim-visual:hover>img{transform:scale(1.025);filter:brightness(1.05)}
+.fresh-prelim-tag{position:absolute;left:16px;bottom:15px;padding:8px 11px;border-radius:999px;background:#050806e8;border:1px solid #ffffff28;color:var(--lime);font-size:.7rem;font-weight:900;letter-spacing:.11em}
+.fresh-story-link{display:inline-block;margin-top:13px;color:var(--lime);font-weight:900;text-decoration:none;font-size:.82rem}
+.fresh-story-link:hover{text-decoration:underline}
+.panthers-knights-visual{display:grid;grid-template-columns:1fr .76fr 1fr;align-items:center;gap:10px;padding:24px;background:
+  radial-gradient(circle at 50% 12%,rgba(255,255,255,.11),transparent 26%),
+  linear-gradient(125deg,#090909 0%,#171717 35%,#ee3f8c 49%,#163f78 51%,#082a54 72%,#d62231 100%)}
+.panthers-knights-visual:before,.panthers-knights-visual:after{content:"";position:absolute;border-radius:50%;border:1px solid rgba(255,255,255,.08)}
+.panthers-knights-visual:before{width:330px;height:330px;left:-150px;top:-150px}
+.panthers-knights-visual:after{width:290px;height:290px;right:-130px;bottom:-140px}
+.matchup-glow{position:absolute;left:50%;top:50%;width:170px;height:170px;transform:translate(-50%,-50%);border-radius:50%;background:radial-gradient(circle,rgba(184,255,57,.17),transparent 64%);filter:blur(2px)}
+.matchup-team,.matchup-centre{position:relative;z-index:2;text-align:center}
+.matchup-emblem{width:118px;height:118px;margin:0 auto 14px;display:flex;align-items:center;justify-content:center;border-radius:28px;color:#fff;font-size:3.6rem;font-weight:1000;line-height:1;box-shadow:0 12px 28px rgba(0,0,0,.4),inset 0 1px 0 rgba(255,255,255,.2)}
+.panthers-emblem{background:linear-gradient(145deg,#050505,#191919 60%,#ff4ca0);border:2px solid #ff5ea9}
+.knights-emblem{background:linear-gradient(145deg,#063d7b,#0e5da4 58%,#d92131);border:2px solid #ef3340}
+.matchup-team strong{display:block;color:#fff;font-size:1.2rem;letter-spacing:.08em}
+.matchup-team small{display:block;margin-top:5px;color:#c9d3cc;font-size:.62rem;font-weight:900;letter-spacing:.11em}
+.matchup-centre span{display:block;color:var(--lime);font-size:.65rem;font-weight:900;letter-spacing:.13em}
+.matchup-centre b{display:block;margin:10px 0;color:#fff;font-size:3.4rem;line-height:1;text-shadow:0 0 18px rgba(184,255,57,.18)}
+.matchup-centre em{display:block;color:#fff;font-style:normal;font-size:.76rem;font-weight:900}
+.matchup-centre small{display:block;margin-top:5px;color:#c7d0ca;font-size:.63rem;font-weight:800}
+@media(max-width:920px){.prelim-fresh-grid{grid-template-columns:1fr}.fresh-prelim-visual{height:330px}}
+@media(max-width:600px){.fresh-prelim-visual{height:260px}.panthers-knights-visual{padding:15px;grid-template-columns:1fr .72fr 1fr}.matchup-emblem{width:76px;height:76px;border-radius:20px;font-size:2.4rem}.matchup-team strong{font-size:.86rem}.matchup-team small{font-size:.52rem}.matchup-centre b{font-size:2.5rem}.matchup-centre em{font-size:.62rem}.fresh-prelim-tag{font-size:.6rem}}
