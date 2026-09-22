@@ -3,57 +3,139 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Sydney Shortwave Live — My Retirement Page</title>
-<meta name="description" content="A public shortwave listening dashboard for Sydney with bands to try, HFGCS frequencies, public SDR links, aviation HF, emergency information and world times.">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Sydney Shortwave Live — HF Operations Desk</title>
+<meta name="description" content="A professional shortwave listening dashboard for Sydney: live SDR launch presets, HFGCS, aviation HF, propagation guidance, world clocks and public radio resources.">
 <link rel="stylesheet" href="style.css">
 <style>
-:root{--sw-blue:#49b8ff;--sw-cyan:#5ce1e6;--sw-lime:#b8ff39;--sw-orange:#ff8a1f}
-.sw-shell{max-width:1420px;margin:auto;padding:0 22px}.sw-hero{display:grid;grid-template-columns:1.15fr .85fr;gap:26px;align-items:center;padding:30px 0 20px}.sw-hero-copy h1{font-size:clamp(3rem,7vw,6.4rem);max-width:840px}.sw-hero-copy p{max-width:840px;color:#cdd7d0;font-size:1.08rem}.sw-live{display:inline-flex;align-items:center;gap:8px;padding:7px 11px;border:1px solid #395144;border-radius:999px;color:var(--sw-lime);font-weight:900;font-size:.75rem;letter-spacing:.12em}.sw-live:before{content:"";width:8px;height:8px;border-radius:50%;background:var(--sw-lime);box-shadow:0 0 14px var(--sw-lime)}.sw-hero-art{border:1px solid #314238;border-radius:24px;overflow:hidden;background:#061018;box-shadow:0 18px 46px rgba(0,0,0,.28)}.sw-hero-art img{width:100%;height:100%;min-height:340px;object-fit:cover}
-.sw-status{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:18px 0 26px}.sw-stat{padding:15px;border:1px solid #2e3b33;border-radius:16px;background:#0b100d}.sw-stat small{display:block;color:#91a197;font-size:.65rem;font-weight:900;letter-spacing:.12em;text-transform:uppercase}.sw-stat strong{display:block;margin-top:4px;font-size:1.05rem}.sw-stat b{color:var(--sw-lime)}
-.sw-section{padding:28px 0}.sw-head{display:flex;align-items:end;justify-content:space-between;gap:18px;margin-bottom:15px}.sw-head h2{margin:.15em 0}.sw-head p{max-width:760px;color:#aeb9b1;margin:0}
+:root{
+  --sw-blue:#49b8ff;--sw-cyan:#5ce1e6;--sw-lime:#b8ff39;--sw-orange:#ff8a1f;
+  --sw-panel:#0b1210;--sw-panel2:#0e1714;--sw-line:#304139;--sw-soft:#9eaca3
+}
+body{background:
+  radial-gradient(circle at 18% 0,rgba(51,122,106,.12),transparent 29%),
+  radial-gradient(circle at 90% 14%,rgba(38,119,160,.10),transparent 25%),
+  #080a09}
+.sw-shell{max-width:1480px;margin:auto;padding:0 22px 40px}
+.sw-topnav{position:sticky;top:64px;z-index:14;margin:0 -22px;padding:9px 22px;border-bottom:1px solid #26372f;background:#080b09ee;backdrop-filter:blur(12px)}
+.sw-topnav-inner{max-width:1436px;margin:auto;display:flex;gap:9px;overflow-x:auto;scrollbar-width:none}.sw-topnav-inner::-webkit-scrollbar{display:none}
+.sw-topnav a{white-space:nowrap;text-decoration:none;color:#cbd5ce;border:1px solid #33433a;border-radius:999px;padding:7px 11px;font-size:.72rem;font-weight:900;letter-spacing:.05em}.sw-topnav a:hover{border-color:var(--sw-lime);color:var(--sw-lime)}
+
+.sw-hero{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(380px,.85fr);gap:28px;align-items:stretch;padding:34px 0 18px}
+.sw-hero-copy{display:flex;flex-direction:column;justify-content:center}.sw-hero-copy h1{font-size:clamp(3.3rem,7.5vw,7rem);max-width:900px;line-height:.88;margin:.16em 0 .22em}.sw-hero-copy p{max-width:880px;color:#cdd7d0;font-size:1.08rem}
+.sw-live{display:inline-flex;width:max-content;align-items:center;gap:8px;padding:7px 11px;border:1px solid #3a5346;border-radius:999px;color:var(--sw-lime);font-weight:900;font-size:.72rem;letter-spacing:.12em}.sw-live:before{content:"";width:8px;height:8px;border-radius:50%;background:var(--sw-lime);box-shadow:0 0 14px var(--sw-lime)}
+.sw-hero-art{position:relative;border:1px solid #314a44;border-radius:26px;overflow:hidden;background:#061018;box-shadow:0 22px 52px rgba(0,0,0,.34)}.sw-hero-art img{width:100%;height:100%;min-height:390px;object-fit:cover;filter:saturate(.92) contrast(1.04) brightness(.88)}
+.sw-hero-art:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,rgba(4,9,7,.88)),repeating-linear-gradient(0deg,transparent 0 4px,rgba(92,225,230,.025) 5px)}
+.sw-radar-label{position:absolute;z-index:2;left:16px;bottom:16px;right:16px;display:flex;justify-content:space-between;gap:10px;align-items:end}.sw-radar-label strong{font-size:1.1rem}.sw-radar-label span{color:var(--sw-cyan);font-size:.72rem;font-weight:900;letter-spacing:.12em}
+
+.sw-status{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:11px;margin:16px 0 10px}.sw-stat{padding:15px;border:1px solid #2e3f36;border-radius:16px;background:linear-gradient(145deg,#0d1511,#090e0b)}.sw-stat small{display:block;color:#91a197;font-size:.63rem;font-weight:900;letter-spacing:.12em;text-transform:uppercase}.sw-stat strong{display:block;margin-top:4px;font-size:1.02rem}.sw-stat b{color:var(--sw-lime)}
+.sw-section{padding:32px 0;scroll-margin-top:130px}.sw-head{display:flex;align-items:end;justify-content:space-between;gap:20px;margin-bottom:16px}.sw-head h2{margin:.13em 0}.sw-head p{max-width:760px;color:#aeb9b1;margin:0}
+.sw-panel{padding:20px;border:1px solid #34453c;border-radius:22px;background:radial-gradient(circle at 10% 10%,rgba(73,184,255,.07),transparent 28%),linear-gradient(145deg,#0d1511,#090d0b)}
+
+.ops-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:14px}.ops-primary{padding:24px;border:1px solid #3a4d42;border-radius:22px;background:
+  radial-gradient(circle at 90% 0,rgba(92,225,230,.12),transparent 26%),
+  linear-gradient(145deg,#101915,#090e0b)}.ops-primary h3{font-size:1.8rem;margin:.25em 0}.ops-primary p{color:#c4cec7;line-height:1.6}
+.ops-quick{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.ops-tile{padding:17px;border:1px solid #34443b;border-radius:17px;background:#0a100d}.ops-tile small{display:block;color:var(--sw-orange);font-weight:900;font-size:.64rem;letter-spacing:.12em}.ops-tile strong{display:block;margin-top:4px}.ops-tile span{display:block;color:#9eaaa3;font-size:.78rem;margin-top:4px;line-height:1.35}
+
+.launch-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.launch-card{position:relative;overflow:hidden;padding:19px;border:1px solid #33463c;border-radius:19px;background:
+  radial-gradient(circle at 100% 0,rgba(73,184,255,.08),transparent 35%),
+  linear-gradient(145deg,#111914,#0a0f0c)}
+.launch-card:before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--sw-cyan);opacity:.7}.launch-card.mil:before{background:var(--sw-orange)}.launch-card.air:before{background:var(--sw-blue)}.launch-card.utility:before{background:var(--sw-lime)}
+.launch-card small{display:block;color:#8fa198;font-size:.63rem;font-weight:900;letter-spacing:.13em;text-transform:uppercase}.launch-card h3{margin:.3em 0 .15em;font-size:1.24rem}.launch-card .tune{display:flex;align-items:baseline;gap:7px;margin:9px 0}.launch-card .tune strong{font-size:1.75rem}.launch-card .tune b{font-size:.72rem;color:var(--sw-lime);letter-spacing:.1em}.launch-card p{color:#b9c4bc;font-size:.84rem;line-height:1.5;min-height:64px}.launch-tools{display:flex;gap:7px;flex-wrap:wrap;margin-top:13px}.launch-tools a,.launch-tools button{border:1px solid #405249;border-radius:999px;background:#0c130f;color:#dce5df;padding:8px 10px;font-weight:900;font-size:.7rem;text-decoration:none;cursor:pointer}.launch-tools .primary{border-color:#58705e;color:var(--sw-lime)}.launch-tools a:hover,.launch-tools button:hover{border-color:var(--sw-lime);color:var(--sw-lime)}
+
 .best-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.best-card{display:block;padding:18px;border:1px solid #334139;border-radius:18px;background:linear-gradient(145deg,#111713,#0a0f0c);text-decoration:none;transition:.2s}.best-card:hover{transform:translateY(-3px);border-color:var(--sw-lime)}.best-card small{display:block;color:var(--sw-orange);font-size:.66rem;font-weight:900;letter-spacing:.12em;text-transform:uppercase}.best-card strong{display:block;margin:6px 0 5px;font-size:1.05rem}.best-card span{display:block;color:#aeb8b1;font-size:.82rem;line-height:1.45}.best-card em{display:inline-block;margin-top:12px;color:var(--sw-lime);font-style:normal;font-weight:900;font-size:.78rem}
-.band-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}.band-card{padding:16px;border:1px solid #2f3d34;border-radius:16px;background:#0b100d}.band-card strong{display:block;font-size:1.1rem}.band-card span{display:block;margin-top:3px;color:#aeb8b1;font-size:.78rem}.band-card b{display:block;margin-top:10px;color:var(--sw-lime);font-size:.75rem}.band-card.hot{border-color:#53684f;box-shadow:inset 0 0 0 1px rgba(184,255,57,.05)}
+
+.band-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:9px}.band-card{padding:15px;border:1px solid #2f3d34;border-radius:16px;background:#0b100d}.band-card strong{display:block;font-size:1.05rem}.band-card span{display:block;margin-top:3px;color:#aeb8b1;font-size:.74rem}.band-card b{display:block;margin-top:10px;color:var(--sw-lime);font-size:.7rem}.band-card.hot{border-color:#53684f;box-shadow:inset 0 0 0 1px rgba(184,255,57,.05)}
+
 .freq-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.freq-card{padding:18px;border:1px solid #344139;border-radius:18px;background:linear-gradient(145deg,#101611,#090e0b)}.freq-card .freq{font-size:1.55rem;font-weight:1000;color:#fff}.freq-card .mode{color:var(--sw-lime);font-size:.75rem;font-weight:900;margin-left:5px}.freq-card p{color:#b8c2bb;font-size:.86rem;line-height:1.5}.freq-card .tools{display:flex;gap:8px;flex-wrap:wrap}.freq-card button,.freq-card a{border:1px solid #405047;border-radius:999px;background:#0d130f;color:#dce5de;padding:8px 11px;font-weight:900;font-size:.72rem;text-decoration:none;cursor:pointer}.freq-card button:hover,.freq-card a:hover{border-color:var(--sw-lime);color:var(--sw-lime)}
-.sw-panel{padding:20px;border:1px solid #344139;border-radius:20px;background:radial-gradient(circle at 10% 10%,rgba(73,184,255,.09),transparent 28%),linear-gradient(145deg,#0d1511,#090d0b)}.commentary{font-size:1rem;line-height:1.65;color:#d2dad4}.commentary b{color:var(--sw-lime)}
-.clock-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}.clock{padding:14px;border:1px solid #344139;border-radius:15px;background:#0a100c}.clock small{display:block;color:#91a197;font-size:.64rem;font-weight:900;letter-spacing:.12em}.clock strong{display:block;margin-top:3px;font-size:1.15rem}.clock span{display:block;color:#aeb8b1;font-size:.72rem}
+
+.receiver-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:11px}.receiver-card{padding:17px;border:1px solid #34453c;border-radius:18px;background:#0a100d}.receiver-card small{display:block;color:var(--sw-cyan);font-size:.64rem;font-weight:900;letter-spacing:.12em}.receiver-card strong{display:block;margin:5px 0}.receiver-card span{display:block;color:#9eaaa3;font-size:.8rem;line-height:1.45}.receiver-card a{display:inline-block;margin-top:12px;color:var(--sw-lime);font-weight:900;text-decoration:none;font-size:.76rem}
+
+.commentary{font-size:1rem;line-height:1.65;color:#d2dad4}.commentary b{color:var(--sw-lime)}
+.clock-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}.clock{padding:14px;border:1px solid #344139;border-radius:15px;background:#0a100c}.clock small{display:block;color:#91a197;font-size:.64rem;font-weight:900;letter-spacing:.12em}.clock strong{display:block;margin-top:3px;font-size:1.1rem}.clock span{display:block;color:#aeb8b1;font-size:.72rem}
 .link-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.link-card{display:block;padding:18px;border:1px solid #334139;border-radius:17px;background:#0b100d;text-decoration:none}.link-card:hover{border-color:var(--sw-lime)}.link-card small{color:var(--sw-orange);font-weight:900;font-size:.65rem;letter-spacing:.12em;text-transform:uppercase}.link-card strong{display:block;margin:5px 0;color:#fff}.link-card span{display:block;color:#aeb8b1;font-size:.82rem;line-height:1.45}
 .sw-note{margin-top:15px;color:#8e9a92;font-size:.78rem;line-height:1.5}
-@media(max-width:980px){.sw-hero{grid-template-columns:1fr}.sw-status,.best-grid{grid-template-columns:repeat(2,1fr)}.band-grid{grid-template-columns:repeat(3,1fr)}.freq-grid,.link-grid{grid-template-columns:1fr 1fr}.clock-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:620px){.sw-status,.best-grid,.band-grid,.freq-grid,.link-grid,.clock-grid{grid-template-columns:1fr}.sw-head{display:block}.sw-hero-art img{min-height:240px}}
+.sw-disclaimer{padding:16px 18px;border:1px solid #3a453f;border-radius:16px;background:#0a100d;color:#98a59d;font-size:.8rem;line-height:1.55}
+
+@media(max-width:1120px){.sw-status{grid-template-columns:repeat(3,1fr)}.launch-grid{grid-template-columns:repeat(2,1fr)}.band-grid{grid-template-columns:repeat(4,1fr)}.receiver-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:900px){.sw-hero,.ops-grid{grid-template-columns:1fr}.sw-hero-art img{min-height:300px}.best-grid{grid-template-columns:repeat(2,1fr)}.freq-grid,.link-grid{grid-template-columns:1fr 1fr}.clock-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:620px){.sw-status,.best-grid,.band-grid,.freq-grid,.link-grid,.clock-grid,.launch-grid,.receiver-grid,.ops-quick{grid-template-columns:1fr}.sw-head{display:block}.sw-hero-copy h1{font-size:3.3rem}.sw-hero-art img{min-height:230px}.sw-topnav{top:62px}}
 </style>
 </head>
 <body>
 <header class="topbar"><div class="wrap nav"><a class="brand" href="index.html">MY <b>RETIREMENT</b> PAGE</a><button class="menu-btn" data-menu-button aria-label="Open navigation">MENU</button><nav><a href="music.html">Music</a><a href="journeys.html">Journeys</a><a href="hunter.html">Hunter</a><a href="watching.html">Watching</a><a href="sport-current.html">Sport</a><a href="racing.html">The Punt</a><a href="radio.html">Radio</a><a href="markets.html">Markets</a></nav></div></header>
 
+<div class="sw-topnav" aria-label="Shortwave dashboard sections"><div class="sw-topnav-inner">
+  <a href="#operations">Operations desk</a><a href="#launch">SDR launch panel</a><a href="#best-now">Try now</a><a href="#bands">Bands</a><a href="#hfgcs">HFGCS</a><a href="#aviation">Aviation</a><a href="#receivers">Receiver network</a><a href="#conditions">Conditions</a><a href="#clocks">World times</a><a href="#resources">Resources</a>
+</div></div>
+
 <main class="sw-shell">
 <section class="sw-hero">
   <div class="sw-hero-copy">
-    <div class="sw-live">PUBLIC • NO SIGN-IN REQUIRED</div>
-    <div class="kicker" style="margin-top:14px">Sydney shortwave</div>
+    <div class="sw-live">SYDNEY HF OPERATIONS DESK • PUBLIC</div>
+    <div class="kicker" style="margin-top:14px">Shortwave • SDR • Utility • Aviation</div>
     <h1>Listen to the world.</h1>
-    <p>A public listening dashboard built for Sydney. Use it to work out which HF bands are worth trying now, jump to public SDRs, keep an eye on HFGCS and aviation HF, and follow the parts of the world moving into their best listening windows.</p>
+    <p>A professional listening console built around Sydney. Start with the frequencies most likely to be useful now, launch public SDR tools, follow military and aviation voice channels, and use the clocks and band guidance to decide where to listen next.</p>
   </div>
-  <div class="sw-hero-art"><img src="Radar.png" alt="Radar-style shortwave monitoring graphic"></div>
+  <div class="sw-hero-art">
+    <img src="Radar.png" alt="Radar-style shortwave monitoring graphic">
+    <div class="sw-radar-label"><strong>GLOBAL HF MONITOR</strong><span>SYDNEY • AUSTRALIA</span></div>
+  </div>
 </section>
 
 <div class="sw-status">
   <div class="sw-stat"><small>Sydney time</small><strong id="sydClock">—</strong></div>
   <div class="sw-stat"><small>UTC</small><strong id="utcClock">—</strong></div>
-  <div class="sw-stat"><small>Current window</small><strong id="windowLabel">—</strong></div>
+  <div class="sw-stat"><small>Listening window</small><strong id="windowLabel">—</strong></div>
   <div class="sw-stat"><small>Best first move</small><strong><b id="firstMove">—</b></strong></div>
+  <div class="sw-stat"><small>Recommended approach</small><strong id="approachLabel">Scan + compare</strong></div>
 </div>
 
-<section class="sw-section">
-  <div class="sw-head"><div><div class="kicker">Best buttons to try right now</div><h2>Start here.</h2></div><p>These change with Sydney time. They are deliberately biased toward voice traffic and public services rather than data-only signals.</p></div>
+<section class="sw-section" id="operations">
+  <div class="sw-head"><div><div class="kicker">Operations desk</div><h2>Your listening workflow</h2></div><p>The page is arranged like a monitoring desk: decide what is worth trying, open the receiver, tune the target, then compare another SDR if the path is poor.</p></div>
+  <div class="ops-grid">
+    <div class="ops-primary">
+      <div class="sw-live">LIVE WORKFLOW</div>
+      <h3>Frequency first. Receiver second. Propagation decides the rest.</h3>
+      <p>Use the launch presets below as your starting point. If a frequency is quiet, do not assume nothing is happening — change SDR location, move to another network frequency or shift bands as the Sydney day changes.</p>
+      <div class="launch-tools"><a class="primary" href="#launch">Open launch panel ↓</a><a href="radio.html">Back to Radio page →</a></div>
+    </div>
+    <div class="ops-quick">
+      <div class="ops-tile"><small>01 • SELECT</small><strong>Choose a target</strong><span>Military, aviation, utility or broadcast.</span></div>
+      <div class="ops-tile"><small>02 • TUNE</small><strong>Copy the preset</strong><span>Frequency and mode are shown together.</span></div>
+      <div class="ops-tile"><small>03 • LISTEN</small><strong>Open a public SDR</strong><span>Try another location if the path is poor.</span></div>
+      <div class="ops-tile"><small>04 • COMPARE</small><strong>Watch the clock</strong><span>Move lower after dark and higher by day.</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="sw-section" id="launch">
+  <div class="sw-head"><div><div class="kicker">Live SDR launch panel</div><h2>One-click listening presets</h2></div><p>Each card gives you the target, mode and the reason to try it. Copy the tuning preset, then open the receiver directory or related live service.</p></div>
+  <div class="launch-grid">
+    <article class="launch-card mil"><small>USAF • HFGCS</small><h3>Primary global channel</h3><div class="tune"><strong>11175</strong><b>kHz USB</b></div><p>One of the core HFGCS voice channels. Listen for aircraft calls, ground stations and coded Emergency Action Messages.</p><div class="launch-tools"><button data-copy="11175 USB">Copy 11175 USB</button><a class="primary" href="https://kiwisdr.com/" target="_blank" rel="noopener">Open KiwiSDR →</a><a href="https://warwatchintel.com/intel" target="_blank" rel="noopener">Intel →</a></div></article>
+    <article class="launch-card mil"><small>USAF • HFGCS</small><h3>Lower-HF companion</h3><div class="tune"><strong>8992</strong><b>kHz USB</b></div><p>Useful alongside 11175, particularly as lower HF improves after dark. Keep both in the scan rather than relying on one channel.</p><div class="launch-tools"><button data-copy="8992 USB">Copy 8992 USB</button><a class="primary" href="https://kiwisdr.com/" target="_blank" rel="noopener">Open KiwiSDR →</a><a href="https://warwatchintel.com/intel" target="_blank" rel="noopener">Intel →</a></div></article>
+    <article class="launch-card air"><small>Aviation • Pacific</small><h3>Long-range aircraft voice</h3><div class="tune"><strong>8867</strong><b>kHz USB</b></div><p>A useful Asia-Pacific HF voice target. Aircraft and ground communications can be brief, so leave it open rather than expecting continuous audio.</p><div class="launch-tools"><button data-copy="8867 USB">Copy 8867 USB</button><a class="primary" href="https://kiwisdr.com/" target="_blank" rel="noopener">Open KiwiSDR →</a></div></article>
+    <article class="launch-card air"><small>VOLMET • Aviation weather</small><h3>Shannon VOLMET lower channel</h3><div class="tune"><strong>5505</strong><b>kHz USB</b></div><p>A structured aviation-weather target. It is useful for checking whether a European lower-HF path is making it through.</p><div class="launch-tools"><button data-copy="5505 USB">Copy 5505 USB</button><a class="primary" href="https://kiwisdr.com/" target="_blank" rel="noopener">Open KiwiSDR →</a></div></article>
+    <article class="launch-card air"><small>VOLMET • Aviation weather</small><h3>Shannon VOLMET mid-HF</h3><div class="tune"><strong>8957</strong><b>kHz USB</b></div><p>A higher Shannon VOLMET option and a good comparison against 5505 when daylight or greyline favours mid-HF.</p><div class="launch-tools"><button data-copy="8957 USB">Copy 8957 USB</button><a class="primary" href="https://kiwisdr.com/" target="_blank" rel="noopener">Open KiwiSDR →</a></div></article>
+    <article class="launch-card utility"><small>Broadcast • General</small><h3>International shortwave sweep</h3><div class="tune"><strong id="broadcastBand">9–15</strong><b>MHz AM</b></div><p>Use the suggested band as a fast way to find strong international broadcasters before hunting individual stations.</p><div class="launch-tools"><button data-copy="International broadcast AM">Copy note</button><a class="primary" href="https://kiwisdr.com/" target="_blank" rel="noopener">Open KiwiSDR →</a></div></article>
+  </div>
+  <p class="sw-note">Public SDRs are independently operated and may be full, offline or configured differently. If one receiver is poor, try another location before abandoning the frequency.</p>
+</section>
+
+<section class="sw-section" id="best-now">
+  <div class="sw-head"><div><div class="kicker">Best buttons to try right now</div><h2>Start here.</h2></div><p>These change with Sydney time. They are deliberately biased toward voice traffic and useful public services rather than data-only signals.</p></div>
   <div class="best-grid" id="bestGrid"></div>
 </section>
 
-<section class="sw-section">
-  <div class="sw-head"><div><div class="kicker">Bands to try from Sydney</div><h2>Where to tune first</h2></div><p>Propagation is never guaranteed. The highlighted bands are simply the ones that usually make the most sense for the current part of the day.</p></div>
+<section class="sw-section" id="bands">
+  <div class="sw-head"><div><div class="kicker">Bands to try from Sydney</div><h2>Where to tune first</h2></div><p>Propagation is never guaranteed. Highlighted bands are simply the most logical starting points for the current part of the day.</p></div>
   <div class="band-grid" id="bandGrid"></div>
 </section>
 
-<section class="sw-section">
-  <div class="sw-head"><div><div class="kicker">Military / government HF</div><h2>HFGCS voice frequencies</h2></div><p>Common US High Frequency Global Communications System channels. You may hear routine aircraft calls, ground stations or coded Emergency Action Messages.</p></div>
+<section class="sw-section" id="hfgcs">
+  <div class="sw-head"><div><div class="kicker">Military / government HF</div><h2>HFGCS voice frequencies</h2></div><p>Common U.S. High Frequency Global Communications System channels. You may hear routine aircraft calls, ground stations or coded Emergency Action Messages.</p></div>
   <div class="freq-grid">
     <div class="freq-card"><div><span class="freq">11175</span><span class="mode">kHz USB</span></div><p>The most commonly monitored HFGCS frequency and a sensible first channel to try.</p><div class="tools"><button data-copy="11175 USB">Copy frequency</button><a href="https://kiwisdr.com/" target="_blank" rel="noopener">Open KiwiSDR →</a></div></div>
     <div class="freq-card"><div><span class="freq">8992</span><span class="mode">kHz USB</span></div><p>Often useful after dark or when the lower HF path is stronger than 11175.</p><div class="tools"><button data-copy="8992 USB">Copy frequency</button><a href="https://warwatchintel.com/intel" target="_blank" rel="noopener">War Watch Intel →</a></div></div>
@@ -62,7 +144,7 @@
   <p class="sw-note">Monitoring public radio traffic does not confirm that an operation is underway. Increased traffic can reflect routine training, exercises, weather, rerouting or other normal activity.</p>
 </section>
 
-<section class="sw-section">
+<section class="sw-section" id="aviation">
   <div class="sw-head"><div><div class="kicker">Aircraft HF</div><h2>Long-range aviation voice</h2></div><p>HF aviation frequencies vary by route, region and time. These are useful examples to have ready when listening from Australia and the Pacific.</p></div>
   <div class="freq-grid">
     <div class="freq-card"><div><span class="freq">5643</span><span class="mode">kHz USB</span></div><p>Lower HF aviation channel that can become more useful at night.</p><div class="tools"><button data-copy="5643 USB">Copy frequency</button><a href="https://kiwisdr.com/" target="_blank" rel="noopener">Find public SDR →</a></div></div>
@@ -71,12 +153,22 @@
   </div>
 </section>
 
-<section class="sw-section">
+<section class="sw-section" id="receivers">
+  <div class="sw-head"><div><div class="kicker">Global receiver network</div><h2>Listen from another part of the world</h2></div><p>The receiver location matters as much as the frequency. A signal inaudible from Sydney may be strong from Hawaii, New Zealand, North America or Europe.</p></div>
+  <div class="receiver-grid">
+    <div class="receiver-card"><small>PACIFIC</small><strong>Hawaii / central Pacific</strong><span>Useful for Pacific military HF, aviation and paths between North America and Oceania.</span><a href="https://kiwisdr.com/" target="_blank" rel="noopener">Find Pacific SDR →</a></div>
+    <div class="receiver-card"><small>OCEANIA</small><strong>Australia / New Zealand</strong><span>Good comparison receivers for regional aviation, Pacific paths and local-to-regional HF.</span><a href="https://kiwisdr.com/" target="_blank" rel="noopener">Find Oceania SDR →</a></div>
+    <div class="receiver-card"><small>NORTH AMERICA</small><strong>USA / Canada</strong><span>Useful when monitoring U.S. military, utility and North American broadcast traffic.</span><a href="https://kiwisdr.com/" target="_blank" rel="noopener">Find North America SDR →</a></div>
+    <div class="receiver-card"><small>EUROPE</small><strong>UK / Ireland / Europe</strong><span>Best starting region for Shannon VOLMET, European broadcast and utility monitoring.</span><a href="https://kiwisdr.com/" target="_blank" rel="noopener">Find Europe SDR →</a></div>
+  </div>
+</section>
+
+<section class="sw-section" id="conditions">
   <div class="sw-head"><div><div class="kicker">Listening conditions</div><h2>What the clock suggests</h2></div><p>Plain-English guidance instead of a wall of solar indices.</p></div>
   <div class="sw-panel commentary" id="commentary"></div>
 </section>
 
-<section class="sw-section">
+<section class="sw-section" id="clocks">
   <div class="sw-head"><div><div class="kicker">World times</div><h2>Follow darkness across the globe</h2></div><p>Useful reference points for deciding where broadcasters and long-distance paths may be moving into evening or night.</p></div>
   <div class="clock-grid">
     <div class="clock" data-zone="America/Los_Angeles"><small>LOS ANGELES</small><strong>—</strong><span>US West Coast</span></div>
@@ -90,8 +182,8 @@
   </div>
 </section>
 
-<section class="sw-section">
-  <div class="sw-head"><div><div class="kicker">Public links</div><h2>Useful live services</h2></div><p>These links are independent of ChatGPT and can be opened by any visitor.</p></div>
+<section class="sw-section" id="resources">
+  <div class="sw-head"><div><div class="kicker">Public links</div><h2>Useful live services</h2></div><p>These services are independent of this site and can be opened by any visitor.</p></div>
   <div class="link-grid">
     <a class="link-card" href="https://kiwisdr.com/" target="_blank" rel="noopener"><small>Public SDR</small><strong>KiwiSDR directory</strong><span>Find HF receivers around the world and tune them in your browser.</span></a>
     <a class="link-card" href="https://warwatchintel.com/intel" target="_blank" rel="noopener"><small>HF intelligence</small><strong>War Watch Intel</strong><span>HFGCS, EAM and aircraft-monitoring resources.</span></a>
@@ -102,10 +194,10 @@
   </div>
 </section>
 
-<p class="sw-note" style="padding-bottom:35px">This page is a listening aid, not an emergency service. Frequencies, schedules and propagation change. Always use official authorities for emergency information.</p>
+<div class="sw-disclaimer">This page is a listening aid, not an emergency service. Frequencies, schedules and propagation change. Public SDR receivers are independently operated. Always use official authorities for emergency information.</div>
 </main>
 
-<footer class="footer"><div class="wrap footer-grid"><span>© My Retirement Page</span><span>Sydney Shortwave Live • public listening dashboard</span></div></footer>
+<footer class="footer"><div class="wrap footer-grid"><span>© My Retirement Page</span><span>Sydney Shortwave Live • HF Operations Desk</span></div></footer>
 
 <script src="script.js"></script>
 <script>
@@ -162,10 +254,12 @@
   function render(){
     const p=phase();
     const labels={morning:'Sunrise / greyline',day:'Daylight',evening:'Sunset / greyline',night:'Night'};
+    const broadcast={morning:'9–15',day:'15–18',evening:'7–15',night:'4–10'};
     document.getElementById('sydClock').textContent=fmt('Australia/Sydney');
     document.getElementById('utcClock').textContent=fmt('UTC').replace(/^[A-Za-z]{3},?\s*/,'');
     document.getElementById('windowLabel').textContent=labels[p];
     document.getElementById('firstMove').textContent=choices[p][0][1];
+    document.getElementById('broadcastBand').textContent=broadcast[p];
 
     document.getElementById('bestGrid').innerHTML=choices[p].map(x=>`
       <a class="best-card" href="${x[3]}" target="_blank" rel="noopener">
@@ -183,25 +277,29 @@
       evening:'<b>Evening greyline:</b> this is one of the best times to experiment. Begin around 9–15 MHz and gradually move down toward 7 MHz as darkness settles in. Signals can appear quickly and disappear just as fast.',
       night:'<b>Night:</b> concentrate on the lower HF bands. Around 4–10 MHz is the natural starting point, with 8992 and 11175 kHz both worth keeping in the military scan. Long-range aviation voice can also improve on lower HF.'
     };
-    document.getElementById('commentary').innerHTML=commentary[p]+' <br><br>Conditions can change quickly, so silence on one frequency does not mean the whole band is dead. Move 500 kHz to 1 MHz at a time and listen for voice peaks rather than staying parked on one channel.';
+    document.getElementById('commentary').innerHTML=commentary[p]+' <br><br><b>Practical method:</b> if a target is silent, change receiver location before assuming the channel is inactive. Then move to the companion frequency or shift 500 kHz to 1 MHz at a time looking for stronger voice peaks.';
   }
 
-  document.querySelectorAll('.clock').forEach(el=>{
-    const zone=el.dataset.zone;
-    el.querySelector('strong').textContent=fmt(zone);
-  });
+  function updateClocks(){
+    document.querySelectorAll('.clock').forEach(el=>el.querySelector('strong').textContent=fmt(el.dataset.zone));
+  }
 
   document.querySelectorAll('[data-copy]').forEach(btn=>{
     btn.addEventListener('click',async()=>{
-      try{await navigator.clipboard.writeText(btn.dataset.copy);btn.textContent='Copied';setTimeout(()=>btn.textContent='Copy frequency',1200);}catch(e){}
+      const original=btn.textContent;
+      try{
+        await navigator.clipboard.writeText(btn.dataset.copy);
+        btn.textContent='Copied';
+        setTimeout(()=>btn.textContent=original,1200);
+      }catch(e){
+        btn.textContent=btn.dataset.copy;
+        setTimeout(()=>btn.textContent=original,1600);
+      }
     });
   });
 
-  render();
-  setInterval(()=>{
-    render();
-    document.querySelectorAll('.clock').forEach(el=>el.querySelector('strong').textContent=fmt(el.dataset.zone));
-  },60000);
+  render();updateClocks();
+  setInterval(()=>{render();updateClocks();},60000);
 })();
 </script>
 </body>
