@@ -212,10 +212,10 @@
       direct:true
     },
     'The Killing':{
-      url:'https://www.youtube.com/results?search_query=The+Killing+official+trailer',
+      search:'The Killing AMC Mireille Enos Joel Kinnaman official trailer',
       wiki:'The Killing (American TV series)',
       summary:'Two Seattle detectives investigate a teenage girl’s murder in a brooding, long-form mystery where the case slowly exposes political, family and personal secrets.',
-      source:'Official trailer / overview'
+      source:'AMC / official trailer'
     },
     'Happy Valley':{
       url:'https://www.bbc.co.uk/programmes/b06zqjpj',
