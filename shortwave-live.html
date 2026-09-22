@@ -62,6 +62,52 @@ body{background:
 @media(max-width:1120px){.sw-status{grid-template-columns:repeat(3,1fr)}.launch-grid{grid-template-columns:repeat(2,1fr)}.band-grid{grid-template-columns:repeat(4,1fr)}.receiver-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:900px){.sw-hero,.ops-grid{grid-template-columns:1fr}.sw-hero-art img{min-height:300px}.best-grid{grid-template-columns:repeat(2,1fr)}.freq-grid,.link-grid{grid-template-columns:1fr 1fr}.clock-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:620px){.sw-status,.best-grid,.band-grid,.freq-grid,.link-grid,.clock-grid,.launch-grid,.receiver-grid,.ops-quick{grid-template-columns:1fr}.sw-head{display:block}.sw-hero-copy h1{font-size:3.3rem}.sw-hero-art img{min-height:230px}.sw-topnav{top:62px}}
+
+/* Tactical visual refresh — cleaner original layout with military/SDR artwork */
+.sw-shell{max-width:1420px}
+.sw-hero{grid-template-columns:1.08fr .92fr;gap:24px;padding:28px 0 16px;align-items:center}
+.sw-hero-copy h1{font-size:clamp(3rem,6vw,5.8rem);line-height:.92;max-width:780px}
+.sw-hero-copy p{font-size:1.04rem;max-width:790px}
+.sw-hero-art{border-radius:22px;box-shadow:0 16px 38px rgba(0,0,0,.3)}
+.sw-hero-art img{min-height:330px;max-height:430px}
+.sw-radar-label{left:14px;right:14px;bottom:13px}
+.sw-status{grid-template-columns:repeat(5,minmax(0,1fr));gap:10px;margin-top:12px}
+.sw-stat{padding:13px 14px;border-radius:14px}
+.sw-section{padding:27px 0}
+.sw-head h2{font-size:clamp(1.9rem,3.5vw,3rem)}
+.ops-grid{grid-template-columns:1fr .9fr}
+.ops-primary{padding:20px}
+.ops-primary h3{font-size:1.55rem}
+.ops-tile{padding:14px}
+.launch-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}
+.launch-card{padding:0;border-radius:18px;background:#0a100d;box-shadow:0 10px 24px rgba(0,0,0,.18)}
+.launch-card:before{display:none}
+.launch-thumb{position:relative;height:155px;overflow:hidden;border-bottom:1px solid #2e4539;background:#06100d}
+.launch-thumb:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,rgba(3,8,6,.65)),repeating-linear-gradient(0deg,transparent 0 4px,rgba(184,255,57,.025) 5px);pointer-events:none}
+.launch-thumb img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .22s ease,filter .22s ease}
+.launch-card:hover .launch-thumb img{transform:scale(1.025);filter:brightness(1.06)}
+.launch-body{padding:16px 17px 17px}
+.launch-card small{color:var(--sw-orange)}
+.launch-card.air small{color:var(--sw-cyan)}
+.launch-card.utility small{color:var(--sw-lime)}
+.launch-card h3{font-size:1.12rem}
+.launch-card .tune{margin:6px 0}
+.launch-card .tune strong{font-size:1.58rem}
+.launch-card p{min-height:58px;font-size:.81rem}
+.launch-tools{margin-top:11px}
+.best-card{position:relative;overflow:hidden}
+.best-card:before{content:"";position:absolute;width:7px;height:7px;border-radius:50%;right:14px;top:14px;background:var(--sw-lime);box-shadow:0 0 11px var(--sw-lime)}
+.receiver-card{padding:0;overflow:hidden;background:#0a100d}
+.receiver-thumb{height:120px;border-bottom:1px solid #304239;background:#06100d}
+.receiver-thumb img{width:100%;height:100%;object-fit:cover}
+.receiver-body{padding:15px 16px 16px}
+.clock{background:linear-gradient(180deg,#0b120e,#080d0b);box-shadow:inset 0 0 18px rgba(184,255,57,.025)}
+.clock strong{font-family:Consolas,"Courier New",monospace;color:#eaf6ec}
+.sw-panel,.freq-card,.link-card,.band-card,.receiver-card,.sw-stat{box-shadow:inset 0 1px 0 rgba(255,255,255,.02)}
+@media(max-width:1120px){.launch-grid{grid-template-columns:repeat(2,1fr)}.sw-status{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:900px){.sw-hero,.ops-grid{grid-template-columns:1fr}.sw-hero-art img{min-height:280px}.launch-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:620px){.launch-grid,.sw-status{grid-template-columns:1fr}.launch-thumb{height:180px}}
+
 </style>
 </head>
 <body>
@@ -81,7 +127,7 @@ body{background:
   </div>
   <div class="sw-hero-art">
     <img src="Radar.png" alt="Radar-style shortwave monitoring graphic">
-    <div class="sw-radar-label"><strong>GLOBAL HF MONITOR</strong><span>SYDNEY • AUSTRALIA</span></div>
+    <div class="sw-radar-label"><strong>HF / SDR MONITORING GRID</strong><span>SYDNEY • AUSTRALIA • RX ONLY</span></div>
   </div>
 </section>
 
@@ -114,12 +160,12 @@ body{background:
 <section class="sw-section" id="launch">
   <div class="sw-head"><div><div class="kicker">Live SDR launch panel</div><h2>One-click listening presets</h2></div><p>Each card gives you the target, mode and the reason to try it. Copy the tuning preset, then open the receiver directory or related live service.</p></div>
   <div class="launch-grid">
-    <article class="launch-card mil"><small>USAF • HFGCS</small><h3>Primary global channel</h3><div class="tune"><strong>11175</strong><b>kHz USB</b></div><p>One of the core HFGCS voice channels. Listen for aircraft calls, ground stations and coded Emergency Action Messages.</p><div class="launch-tools"><button data-copy="11175 USB">Copy 11175 USB</button><a class="primary" href="https://kiwisdr.com/" target="_blank" rel="noopener">Open KiwiSDR →</a><a href="https://warwatchintel.com/intel" target="_blank" rel="noopener">Intel →</a></div></article>
-    <article class="launch-card mil"><small>USAF • HFGCS</small><h3>Lower-HF companion</h3><div class="tune"><strong>8992</strong><b>kHz USB</b></div><p>Useful alongside 11175, particularly as lower HF improves after dark. Keep both in the scan rather than relying on one channel.</p><div class="launch-tools"><button data-copy="8992 USB">Copy 8992 USB</button><a class="primary" href="https://kiwisdr.com/" target="_blank" rel="noopener">Open KiwiSDR →</a><a href="https://warwatchintel.com/intel" target="_blank" rel="noopener">Intel →</a></div></article>
-    <article class="launch-card air"><small>Aviation • Pacific</small><h3>Long-range aircraft voice</h3><div class="tune"><strong>8867</strong><b>kHz USB</b></div><p>A useful Asia-Pacific HF voice target. Aircraft and ground communications can be brief, so leave it open rather than expecting continuous audio.</p><div class="launch-tools"><button data-copy="8867 USB">Copy 8867 USB</button><a class="primary" href="https://kiwisdr.com/" target="_blank" rel="noopener">Open KiwiSDR →</a></div></article>
-    <article class="launch-card air"><small>VOLMET • Aviation weather</small><h3>Shannon VOLMET lower channel</h3><div class="tune"><strong>5505</strong><b>kHz USB</b></div><p>A structured aviation-weather target. It is useful for checking whether a European lower-HF path is making it through.</p><div class="launch-tools"><button data-copy="5505 USB">Copy 5505 USB</button><a class="primary" href="https://kiwisdr.com/" target="_blank" rel="noopener">Open KiwiSDR →</a></div></article>
-    <article class="launch-card air"><small>VOLMET • Aviation weather</small><h3>Shannon VOLMET mid-HF</h3><div class="tune"><strong>8957</strong><b>kHz USB</b></div><p>A higher Shannon VOLMET option and a good comparison against 5505 when daylight or greyline favours mid-HF.</p><div class="launch-tools"><button data-copy="8957 USB">Copy 8957 USB</button><a class="primary" href="https://kiwisdr.com/" target="_blank" rel="noopener">Open KiwiSDR →</a></div></article>
-    <article class="launch-card utility"><small>Broadcast • General</small><h3>International shortwave sweep</h3><div class="tune"><strong id="broadcastBand">9–15</strong><b>MHz AM</b></div><p>Use the suggested band as a fast way to find strong international broadcasters before hunting individual stations.</p><div class="launch-tools"><button data-copy="International broadcast AM">Copy note</button><a class="primary" href="https://kiwisdr.com/" target="_blank" rel="noopener">Open KiwiSDR →</a></div></article>
+    <article class="launch-card mil"><div class="launch-thumb"><img src="assets/img/sw-hfgcs-11175.svg" alt="Radar-style HFGCS 11175 military HF graphic"></div><div class="launch-body"><small>USAF • HFGCS</small><h3>Primary global channel</h3><div class="tune"><strong>11175</strong><b>kHz USB</b></div><p>One of the core HFGCS voice channels. Listen for aircraft calls, ground stations and coded Emergency Action Messages.</p><div class="launch-tools"><button data-copy="11175 USB">Copy 11175 USB</button><a class="primary" href="https://kiwisdr.com/" target="_blank" rel="noopener">Open KiwiSDR →</a><a href="https://warwatchintel.com/intel" target="_blank" rel="noopener">Intel →</a></div></div></article>
+    <article class="launch-card mil"><div class="launch-thumb"><img src="assets/img/sw-hfgcs-8992.svg" alt="Night operations HFGCS 8992 military HF graphic"></div><div class="launch-body"><small>USAF • HFGCS</small><h3>Lower-HF companion</h3><div class="tune"><strong>8992</strong><b>kHz USB</b></div><p>Useful alongside 11175, particularly as lower HF improves after dark. Keep both in the scan rather than relying on one channel.</p><div class="launch-tools"><button data-copy="8992 USB">Copy 8992 USB</button><a class="primary" href="https://kiwisdr.com/" target="_blank" rel="noopener">Open KiwiSDR →</a><a href="https://warwatchintel.com/intel" target="_blank" rel="noopener">Intel →</a></div></div></article>
+    <article class="launch-card air"><div class="launch-thumb"><img src="assets/img/sw-aviation-8867.svg" alt="Pacific aviation HF 8867 graphic"></div><div class="launch-body"><small>Aviation • Pacific</small><h3>Long-range aircraft voice</h3><div class="tune"><strong>8867</strong><b>kHz USB</b></div><p>A useful Asia-Pacific HF voice target. Aircraft and ground communications can be brief, so leave it open rather than expecting continuous audio.</p><div class="launch-tools"><button data-copy="8867 USB">Copy 8867 USB</button><a class="primary" href="https://kiwisdr.com/" target="_blank" rel="noopener">Open KiwiSDR →</a></div></div></article>
+    <article class="launch-card air"><div class="launch-thumb"><img src="assets/img/sw-volmet.svg" alt="Shannon VOLMET aviation weather graphic"></div><div class="launch-body"><small>VOLMET • Aviation weather</small><h3>Shannon VOLMET lower channel</h3><div class="tune"><strong>5505</strong><b>kHz USB</b></div><p>A structured aviation-weather target. It is useful for checking whether a European lower-HF path is making it through.</p><div class="launch-tools"><button data-copy="5505 USB">Copy 5505 USB</button><a class="primary" href="https://kiwisdr.com/" target="_blank" rel="noopener">Open KiwiSDR →</a></div></div></article>
+    <article class="launch-card air"><div class="launch-thumb"><img src="assets/img/sw-volmet.svg" alt="Shannon VOLMET mid-HF aviation weather graphic"></div><div class="launch-body"><small>VOLMET • Aviation weather</small><h3>Shannon VOLMET mid-HF</h3><div class="tune"><strong>8957</strong><b>kHz USB</b></div><p>A higher Shannon VOLMET option and a good comparison against 5505 when daylight or greyline favours mid-HF.</p><div class="launch-tools"><button data-copy="8957 USB">Copy 8957 USB</button><a class="primary" href="https://kiwisdr.com/" target="_blank" rel="noopener">Open KiwiSDR →</a></div></div></article>
+    <article class="launch-card utility"><div class="launch-thumb"><img src="assets/img/sw-broadcast.svg" alt="International shortwave broadcast sweep graphic"></div><div class="launch-body"><small>Broadcast • General</small><h3>International shortwave sweep</h3><div class="tune"><strong id="broadcastBand">9–15</strong><b>MHz AM</b></div><p>Use the suggested band as a fast way to find strong international broadcasters before hunting individual stations.</p><div class="launch-tools"><button data-copy="International broadcast AM">Copy note</button><a class="primary" href="https://kiwisdr.com/" target="_blank" rel="noopener">Open KiwiSDR →</a></div></div></article>
   </div>
   <p class="sw-note">Public SDRs are independently operated and may be full, offline or configured differently. If one receiver is poor, try another location before abandoning the frequency.</p>
 </section>
@@ -156,10 +202,10 @@ body{background:
 <section class="sw-section" id="receivers">
   <div class="sw-head"><div><div class="kicker">Global receiver network</div><h2>Listen from another part of the world</h2></div><p>The receiver location matters as much as the frequency. A signal inaudible from Sydney may be strong from Hawaii, New Zealand, North America or Europe.</p></div>
   <div class="receiver-grid">
-    <div class="receiver-card"><small>PACIFIC</small><strong>Hawaii / central Pacific</strong><span>Useful for Pacific military HF, aviation and paths between North America and Oceania.</span><a href="https://kiwisdr.com/" target="_blank" rel="noopener">Find Pacific SDR →</a></div>
-    <div class="receiver-card"><small>OCEANIA</small><strong>Australia / New Zealand</strong><span>Good comparison receivers for regional aviation, Pacific paths and local-to-regional HF.</span><a href="https://kiwisdr.com/" target="_blank" rel="noopener">Find Oceania SDR →</a></div>
-    <div class="receiver-card"><small>NORTH AMERICA</small><strong>USA / Canada</strong><span>Useful when monitoring U.S. military, utility and North American broadcast traffic.</span><a href="https://kiwisdr.com/" target="_blank" rel="noopener">Find North America SDR →</a></div>
-    <div class="receiver-card"><small>EUROPE</small><strong>UK / Ireland / Europe</strong><span>Best starting region for Shannon VOLMET, European broadcast and utility monitoring.</span><a href="https://kiwisdr.com/" target="_blank" rel="noopener">Find Europe SDR →</a></div>
+    <div class="receiver-card"><div class="receiver-thumb"><img src="assets/img/sw-receiver-network.svg" alt="Global SDR receiver network map graphic"></div><div class="receiver-body"><small>PACIFIC</small><strong>Hawaii / central Pacific</strong><span>Useful for Pacific military HF, aviation and paths between North America and Oceania.</span><a href="https://kiwisdr.com/" target="_blank" rel="noopener">Find Pacific SDR →</a></div></div>
+    <div class="receiver-card"><div class="receiver-thumb"><img src="assets/img/sw-receiver-network.svg" alt="Global SDR receiver network map graphic"></div><div class="receiver-body"><small>OCEANIA</small><strong>Australia / New Zealand</strong><span>Good comparison receivers for regional aviation, Pacific paths and local-to-regional HF.</span><a href="https://kiwisdr.com/" target="_blank" rel="noopener">Find Oceania SDR →</a></div></div>
+    <div class="receiver-card"><div class="receiver-thumb"><img src="assets/img/sw-receiver-network.svg" alt="Global SDR receiver network map graphic"></div><div class="receiver-body"><small>NORTH AMERICA</small><strong>USA / Canada</strong><span>Useful when monitoring U.S. military, utility and North American broadcast traffic.</span><a href="https://kiwisdr.com/" target="_blank" rel="noopener">Find North America SDR →</a></div></div>
+    <div class="receiver-card"><div class="receiver-thumb"><img src="assets/img/sw-receiver-network.svg" alt="Global SDR receiver network map graphic"></div><div class="receiver-body"><small>EUROPE</small><strong>UK / Ireland / Europe</strong><span>Best starting region for Shannon VOLMET, European broadcast and utility monitoring.</span><a href="https://kiwisdr.com/" target="_blank" rel="noopener">Find Europe SDR →</a></div></div>
   </div>
 </section>
 
