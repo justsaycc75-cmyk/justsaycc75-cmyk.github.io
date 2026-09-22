@@ -108,6 +108,24 @@ body{background:
 @media(max-width:900px){.sw-hero,.ops-grid{grid-template-columns:1fr}.sw-hero-art img{min-height:280px}.launch-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:620px){.launch-grid,.sw-status{grid-template-columns:1fr}.launch-thumb{height:180px}}
 
+
+/* Expanded tactical thumbnail system */
+.freq-card{padding:0;overflow:hidden}
+.freq-thumb{height:132px;border-bottom:1px solid #304239;background:#06100d;position:relative;overflow:hidden}
+.freq-thumb:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 48%,rgba(3,8,6,.58)),repeating-linear-gradient(0deg,transparent 0 4px,rgba(184,255,57,.02) 5px)}
+.freq-thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.freq-body{padding:16px 17px 17px}
+.freq-card:hover .freq-thumb img{filter:brightness(1.07)}
+.link-card{padding:0;overflow:hidden}
+.link-thumb{height:120px;border-bottom:1px solid #304239;background:#06100d;position:relative;overflow:hidden}
+.link-thumb img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .2s ease,filter .2s ease}
+.link-card:hover .link-thumb img{transform:scale(1.025);filter:brightness(1.07)}
+.link-body{padding:15px 17px 17px}
+.receiver-thumb{height:132px}
+.clock:before{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--sw-lime);box-shadow:0 0 9px var(--sw-lime);margin-right:7px;vertical-align:middle}
+.commentary{position:relative;overflow:hidden}
+.commentary:before{content:"";position:absolute;right:-65px;top:-65px;width:180px;height:180px;border:1px solid rgba(184,255,57,.12);border-radius:50%;box-shadow:0 0 0 34px rgba(184,255,57,.025),0 0 0 68px rgba(184,255,57,.018)}
+
 </style>
 </head>
 <body>
@@ -183,9 +201,9 @@ body{background:
 <section class="sw-section" id="hfgcs">
   <div class="sw-head"><div><div class="kicker">Military / government HF</div><h2>HFGCS voice frequencies</h2></div><p>Common U.S. High Frequency Global Communications System channels. You may hear routine aircraft calls, ground stations or coded Emergency Action Messages.</p></div>
   <div class="freq-grid">
-    <div class="freq-card"><div><span class="freq">11175</span><span class="mode">kHz USB</span></div><p>The most commonly monitored HFGCS frequency and a sensible first channel to try.</p><div class="tools"><button data-copy="11175 USB">Copy frequency</button><a href="https://kiwisdr.com/" target="_blank" rel="noopener">Open KiwiSDR →</a></div></div>
-    <div class="freq-card"><div><span class="freq">8992</span><span class="mode">kHz USB</span></div><p>Often useful after dark or when the lower HF path is stronger than 11175.</p><div class="tools"><button data-copy="8992 USB">Copy frequency</button><a href="https://warwatchintel.com/intel" target="_blank" rel="noopener">War Watch Intel →</a></div></div>
-    <div class="freq-card"><div><span class="freq">15016</span><span class="mode">kHz USB</span></div><p>A higher-frequency HFGCS channel that can be worth checking during daylight.</p><div class="tools"><button data-copy="15016 USB">Copy frequency</button><a href="https://kiwisdr.com/" target="_blank" rel="noopener">Open KiwiSDR →</a></div></div>
+    <div class="freq-card"><div class="freq-thumb"><img src="assets/img/sw-hfgcs-11175.svg" alt="HFGCS 11175 radar monitoring graphic"></div><div class="freq-body"><div><span class="freq">11175</span><span class="mode">kHz USB</span></div><p>The most commonly monitored HFGCS frequency and a sensible first channel to try.</p><div class="tools"><button data-copy="11175 USB">Copy frequency</button><a href="https://kiwisdr.com/" target="_blank" rel="noopener">Open KiwiSDR →</a></div></div></div>
+    <div class="freq-card"><div class="freq-thumb"><img src="assets/img/sw-hfgcs-8992.svg" alt="HFGCS 8992 night operations graphic"></div><div class="freq-body"><div><span class="freq">8992</span><span class="mode">kHz USB</span></div><p>Often useful after dark or when the lower HF path is stronger than 11175.</p><div class="tools"><button data-copy="8992 USB">Copy frequency</button><a href="https://warwatchintel.com/intel" target="_blank" rel="noopener">War Watch Intel →</a></div></div></div>
+    <div class="freq-card"><div class="freq-thumb"><img src="assets/img/sw-hfgcs-15016.svg" alt="HFGCS 15016 daylight operations graphic"></div><div class="freq-body"><div><span class="freq">15016</span><span class="mode">kHz USB</span></div><p>A higher-frequency HFGCS channel that can be worth checking during daylight.</p><div class="tools"><button data-copy="15016 USB">Copy frequency</button><a href="https://kiwisdr.com/" target="_blank" rel="noopener">Open KiwiSDR →</a></div></div></div>
   </div>
   <p class="sw-note">Monitoring public radio traffic does not confirm that an operation is underway. Increased traffic can reflect routine training, exercises, weather, rerouting or other normal activity.</p>
 </section>
@@ -193,19 +211,19 @@ body{background:
 <section class="sw-section" id="aviation">
   <div class="sw-head"><div><div class="kicker">Aircraft HF</div><h2>Long-range aviation voice</h2></div><p>HF aviation frequencies vary by route, region and time. These are useful examples to have ready when listening from Australia and the Pacific.</p></div>
   <div class="freq-grid">
-    <div class="freq-card"><div><span class="freq">5643</span><span class="mode">kHz USB</span></div><p>Lower HF aviation channel that can become more useful at night.</p><div class="tools"><button data-copy="5643 USB">Copy frequency</button><a href="https://kiwisdr.com/" target="_blank" rel="noopener">Find public SDR →</a></div></div>
-    <div class="freq-card"><div><span class="freq">8867</span><span class="mode">kHz USB</span></div><p>A familiar long-range aviation monitoring frequency in the Asia-Pacific region.</p><div class="tools"><button data-copy="8867 USB">Copy frequency</button><a href="https://kiwisdr.com/" target="_blank" rel="noopener">Find public SDR →</a></div></div>
-    <div class="freq-card"><div><span class="freq">11396</span><span class="mode">kHz USB</span></div><p>Higher HF aviation option that can work better in daylight.</p><div class="tools"><button data-copy="11396 USB">Copy frequency</button><a href="https://kiwisdr.com/" target="_blank" rel="noopener">Find public SDR →</a></div></div>
+    <div class="freq-card"><div class="freq-thumb"><img src="assets/img/sw-aviation-5643.svg" alt="Night aviation HF 5643 graphic"></div><div class="freq-body"><div><span class="freq">5643</span><span class="mode">kHz USB</span></div><p>Lower HF aviation channel that can become more useful at night.</p><div class="tools"><button data-copy="5643 USB">Copy frequency</button><a href="https://kiwisdr.com/" target="_blank" rel="noopener">Find public SDR →</a></div></div></div>
+    <div class="freq-card"><div class="freq-thumb"><img src="assets/img/sw-aviation-8867.svg" alt="Pacific aviation HF 8867 graphic"></div><div class="freq-body"><div><span class="freq">8867</span><span class="mode">kHz USB</span></div><p>A familiar long-range aviation monitoring frequency in the Asia-Pacific region.</p><div class="tools"><button data-copy="8867 USB">Copy frequency</button><a href="https://kiwisdr.com/" target="_blank" rel="noopener">Find public SDR →</a></div></div></div>
+    <div class="freq-card"><div class="freq-thumb"><img src="assets/img/sw-aviation-11396.svg" alt="Daylight aviation HF 11396 graphic"></div><div class="freq-body"><div><span class="freq">11396</span><span class="mode">kHz USB</span></div><p>Higher HF aviation option that can work better in daylight.</p><div class="tools"><button data-copy="11396 USB">Copy frequency</button><a href="https://kiwisdr.com/" target="_blank" rel="noopener">Find public SDR →</a></div></div></div>
   </div>
 </section>
 
 <section class="sw-section" id="receivers">
   <div class="sw-head"><div><div class="kicker">Global receiver network</div><h2>Listen from another part of the world</h2></div><p>The receiver location matters as much as the frequency. A signal inaudible from Sydney may be strong from Hawaii, New Zealand, North America or Europe.</p></div>
   <div class="receiver-grid">
-    <div class="receiver-card"><div class="receiver-thumb"><img src="assets/img/sw-receiver-network.svg" alt="Global SDR receiver network map graphic"></div><div class="receiver-body"><small>PACIFIC</small><strong>Hawaii / central Pacific</strong><span>Useful for Pacific military HF, aviation and paths between North America and Oceania.</span><a href="https://kiwisdr.com/" target="_blank" rel="noopener">Find Pacific SDR →</a></div></div>
-    <div class="receiver-card"><div class="receiver-thumb"><img src="assets/img/sw-receiver-network.svg" alt="Global SDR receiver network map graphic"></div><div class="receiver-body"><small>OCEANIA</small><strong>Australia / New Zealand</strong><span>Good comparison receivers for regional aviation, Pacific paths and local-to-regional HF.</span><a href="https://kiwisdr.com/" target="_blank" rel="noopener">Find Oceania SDR →</a></div></div>
-    <div class="receiver-card"><div class="receiver-thumb"><img src="assets/img/sw-receiver-network.svg" alt="Global SDR receiver network map graphic"></div><div class="receiver-body"><small>NORTH AMERICA</small><strong>USA / Canada</strong><span>Useful when monitoring U.S. military, utility and North American broadcast traffic.</span><a href="https://kiwisdr.com/" target="_blank" rel="noopener">Find North America SDR →</a></div></div>
-    <div class="receiver-card"><div class="receiver-thumb"><img src="assets/img/sw-receiver-network.svg" alt="Global SDR receiver network map graphic"></div><div class="receiver-body"><small>EUROPE</small><strong>UK / Ireland / Europe</strong><span>Best starting region for Shannon VOLMET, European broadcast and utility monitoring.</span><a href="https://kiwisdr.com/" target="_blank" rel="noopener">Find Europe SDR →</a></div></div>
+    <div class="receiver-card"><div class="receiver-thumb"><img src="assets/img/sw-receiver-pacific.svg" alt="Pacific SDR receiver path graphic"></div><div class="receiver-body"><small>PACIFIC</small><strong>Hawaii / central Pacific</strong><span>Useful for Pacific military HF, aviation and paths between North America and Oceania.</span><a href="https://kiwisdr.com/" target="_blank" rel="noopener">Find Pacific SDR →</a></div></div>
+    <div class="receiver-card"><div class="receiver-thumb"><img src="assets/img/sw-receiver-oceania.svg" alt="Australia and New Zealand SDR receiver path graphic"></div><div class="receiver-body"><small>OCEANIA</small><strong>Australia / New Zealand</strong><span>Good comparison receivers for regional aviation, Pacific paths and local-to-regional HF.</span><a href="https://kiwisdr.com/" target="_blank" rel="noopener">Find Oceania SDR →</a></div></div>
+    <div class="receiver-card"><div class="receiver-thumb"><img src="assets/img/sw-receiver-na.svg" alt="North America SDR receiver path graphic"></div><div class="receiver-body"><small>NORTH AMERICA</small><strong>USA / Canada</strong><span>Useful when monitoring U.S. military, utility and North American broadcast traffic.</span><a href="https://kiwisdr.com/" target="_blank" rel="noopener">Find North America SDR →</a></div></div>
+    <div class="receiver-card"><div class="receiver-thumb"><img src="assets/img/sw-receiver-europe.svg" alt="Europe SDR receiver path graphic"></div><div class="receiver-body"><small>EUROPE</small><strong>UK / Ireland / Europe</strong><span>Best starting region for Shannon VOLMET, European broadcast and utility monitoring.</span><a href="https://kiwisdr.com/" target="_blank" rel="noopener">Find Europe SDR →</a></div></div>
   </div>
 </section>
 
@@ -231,12 +249,12 @@ body{background:
 <section class="sw-section" id="resources">
   <div class="sw-head"><div><div class="kicker">Public links</div><h2>Useful live services</h2></div><p>These services are independent of this site and can be opened by any visitor.</p></div>
   <div class="link-grid">
-    <a class="link-card" href="https://kiwisdr.com/" target="_blank" rel="noopener"><small>Public SDR</small><strong>KiwiSDR directory</strong><span>Find HF receivers around the world and tune them in your browser.</span></a>
-    <a class="link-card" href="https://warwatchintel.com/intel" target="_blank" rel="noopener"><small>HF intelligence</small><strong>War Watch Intel</strong><span>HFGCS, EAM and aircraft-monitoring resources.</span></a>
-    <a class="link-card" href="https://sydney.rdio.online" target="_blank" rel="noopener"><small>Local radio</small><strong>NSW Public Safety RDIO</strong><span>Community scanner access for supported NSW services.</span></a>
-    <a class="link-card" href="https://www.abc.net.au/listen/live/sydney" target="_blank" rel="noopener"><small>Local information</small><strong>ABC Sydney live</strong><span>Useful local information source online and on radio.</span></a>
-    <a class="link-card" href="https://www.bom.gov.au/nsw/" target="_blank" rel="noopener"><small>Weather</small><strong>BOM NSW</strong><span>Official forecasts, warnings and weather information.</span></a>
-    <a class="link-card" href="https://www.nsw.gov.au/emergency/hazards-near-me-app" target="_blank" rel="noopener"><small>Emergency</small><strong>Hazards Near Me NSW</strong><span>Official NSW emergency information and warnings.</span></a>
+    <a class="link-card" href="https://kiwisdr.com/" target="_blank" rel="noopener"><div class="link-thumb"><img src="assets/img/sw-resource-kiwi.svg" alt="KiwiSDR public receiver directory graphic"></div><div class="link-body"><small>Public SDR</small><strong>KiwiSDR directory</strong><span>Find HF receivers around the world and tune them in your browser.</span></div></a>
+    <a class="link-card" href="https://warwatchintel.com/intel" target="_blank" rel="noopener"><div class="link-thumb"><img src="assets/img/sw-resource-warwatch.svg" alt="War Watch Intel HFGCS monitoring graphic"></div><div class="link-body"><small>HF intelligence</small><strong>War Watch Intel</strong><span>HFGCS, EAM and aircraft-monitoring resources.</span></div></a>
+    <a class="link-card" href="https://sydney.rdio.online" target="_blank" rel="noopener"><div class="link-thumb"><img src="assets/img/sw-resource-rdio.svg" alt="NSW Public Safety RDIO graphic"></div><div class="link-body"><small>Local radio</small><strong>NSW Public Safety RDIO</strong><span>Community scanner access for supported NSW services.</span></div></a>
+    <a class="link-card" href="https://www.abc.net.au/listen/live/sydney" target="_blank" rel="noopener"><div class="link-thumb"><img src="assets/img/sw-resource-abc.svg" alt="ABC Sydney local information graphic"></div><div class="link-body"><small>Local information</small><strong>ABC Sydney live</strong><span>Useful local information source online and on radio.</span></div></a>
+    <a class="link-card" href="https://www.bom.gov.au/places/nsw/" target="_blank" rel="noopener"><div class="link-thumb"><img src="assets/img/sw-resource-bom.svg" alt="BOM NSW weather and warnings graphic"></div><div class="link-body"><small>Weather</small><strong>BOM NSW</strong><span>Official forecasts, warnings and weather information.</span></div></a>
+    <a class="link-card" href="https://www.nsw.gov.au/emergency/hazards-near-me-app" target="_blank" rel="noopener"><div class="link-thumb"><img src="assets/img/sw-resource-hazards.svg" alt="Hazards Near Me NSW emergency information graphic"></div><div class="link-body"><small>Emergency</small><strong>Hazards Near Me NSW</strong><span>Official NSW emergency information and warnings.</span></div></a>
   </div>
 </section>
 
