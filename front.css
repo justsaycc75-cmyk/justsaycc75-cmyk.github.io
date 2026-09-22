@@ -205,3 +205,5 @@
 .matchup-centre small{display:block;margin-top:5px;color:#c7d0ca;font-size:.63rem;font-weight:800}
 @media(max-width:920px){.prelim-fresh-grid{grid-template-columns:1fr}.fresh-prelim-visual{height:330px}}
 @media(max-width:600px){.fresh-prelim-visual{height:260px}.panthers-knights-visual{padding:15px;grid-template-columns:1fr .72fr 1fr}.matchup-emblem{width:76px;height:76px;border-radius:20px;font-size:2.4rem}.matchup-team strong{font-size:.86rem}.matchup-team small{font-size:.52rem}.matchup-centre b{font-size:2.5rem}.matchup-centre em{font-size:.62rem}.fresh-prelim-tag{font-size:.6rem}}
+
+.panthers-knights-visual{padding:0!important;background:#080b09!important}.panthers-knights-visual>img,.roosters-prelim-visual>img{width:100%!important;height:100%!important;object-fit:cover!important;display:block!important}
