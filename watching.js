@@ -1,5 +1,43 @@
 (()=>{
   const shows={
+    'The Newsroom':{
+      url:'https://www.hbo.com/the-newsroom',
+      wiki:'The Newsroom (American TV series)',
+      summary:'Jeff Daniels leads a cable-news team trying to produce serious journalism while careers, relationships, corporate pressure and newsroom politics collide behind the scenes.',
+      source:'HBO',
+      direct:true
+    },
+    'Boardwalk Empire':{
+      url:'https://www.hbo.com/boardwalk-empire',
+      wiki:'Boardwalk Empire',
+      summary:'Atlantic City treasurer Nucky Thompson sits at the centre of politics, corruption and organised crime as Prohibition creates fortunes and a new generation of gangsters.',
+      source:'HBO',
+      direct:true
+    },
+    'The Bay':{
+      url:'https://www.youtube.com/results?search_query=The+Bay+ITV+official+trailer',
+      wiki:'The Bay (TV series)',
+      summary:'A police family-liaison officer in Morecambe becomes deeply involved in investigations where missing people, murder and complicated family secrets are tightly intertwined.',
+      source:'ITV / official trailer'
+    },
+    'Time':{
+      url:'https://www.youtube.com/results?search_query=Time+BBC+official+trailer+Sean+Bean',
+      wiki:'Time (2021 TV series)',
+      summary:'A hard-hitting prison drama about guilt, punishment and survival, following inmates and officers trapped inside a system where every decision can carry a heavy price.',
+      source:'BBC / official trailer'
+    },
+    'Rillington Place':{
+      url:'https://www.youtube.com/results?search_query=Rillington+Place+BBC+official+trailer',
+      wiki:'Rillington Place',
+      summary:'A bleak three-part true-crime drama about serial killer John Christie and the murders connected with 10 Rillington Place in post-war London.',
+      source:'BBC / official trailer'
+    },
+    'Baptiste':{
+      url:'https://www.youtube.com/results?search_query=Baptiste+BBC+official+trailer',
+      wiki:'Baptiste (TV series)',
+      summary:'Detective Julien Baptiste, from The Missing, takes on new disappearance cases that pull him into trafficking, organised crime and dangerous secrets across Europe.',
+      source:'BBC / official trailer'
+    },
     'Dept. Q':{
       video:'72hK6FUmm8o',
       summary:'A brilliant but abrasive Edinburgh detective is put in charge of a new cold-case unit and an unlikely team of investigators.',
