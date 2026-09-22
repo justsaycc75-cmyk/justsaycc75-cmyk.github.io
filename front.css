@@ -218,3 +218,19 @@
 .panthers-knights-visual>img{width:auto!important;max-width:100%!important;height:360px!important;max-height:100%!important;object-fit:contain!important;display:block!important;grid-column:auto!important}
 @media(max-width:920px){.panthers-knights-visual>img{height:330px!important}}
 @media(max-width:600px){.panthers-knights-visual>img{height:260px!important}}
+
+
+/* Upcoming fixture cards on homepage */
+.fixture-thumb .score-thumb-logos{min-height:86px;padding:10px;background:
+  radial-gradient(circle at 50% 10%,rgba(186,255,45,.09),transparent 48%),
+  linear-gradient(135deg,#18221b,#0b100d)}
+.fixture-thumb .score-thumb-logos img{width:62px;height:62px;max-width:62px}
+.fixture-thumb .score-thumb-logos strong{font-size:.78rem;letter-spacing:.12em;color:var(--lime)}
+.fixture-thumb>span{margin-top:10px;font-size:.86rem}
+.fixture-thumb>b{margin-top:4px;color:#c5cec8;font-size:.74rem}
+.homepage-fixture-note{margin:10px 0 2px;color:#aeb8b1;font-size:.8rem;line-height:1.5}
+.upcoming-grid{margin-bottom:6px}
+@media(max-width:560px){
+  .fixture-thumb .score-thumb-logos{min-height:72px}
+  .fixture-thumb .score-thumb-logos img{width:52px;height:52px;max-width:52px}
+}
