@@ -155,7 +155,7 @@
       source:'Official trailer / overview'
     },
     'Broadchurch':{
-      url:'https://www.youtube.com/results?search_query=Broadchurch+official+trailer+ITV',
+      search:'Broadchurch ITV David Tennant Olivia Colman official trailer',
       wiki:'Broadchurch',
       summary:'A child’s murder tears through a quiet Dorset town, forcing two detectives to dig into secrets, grief and suspicion as almost everyone becomes capable of hiding something.',
       source:'ITV / official trailer'
