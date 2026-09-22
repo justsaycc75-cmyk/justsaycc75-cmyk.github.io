@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<rect width="1200" height="675" fill="#07100e"/><g stroke="#82d7bd" stroke-opacity=".16" fill="none"><path d="M100 120c180 20 220 120 380 90s250-120 420-65 180 145 210 235"/><path d="M70 350c160-70 285-10 380 35s210 20 320-30 230-25 350 50"/></g>
+<g fill="none" stroke="#88f2c9" stroke-opacity=".55"><path d="M170 240c70-80 200-95 275 0"/><path d="M250 455c45-85 160-110 245-60"/><path d="M730 255c55-65 155-70 220-5"/></g>
+<circle cx="280" cy="255" r="14" fill="#b8ff39"/><circle cx="835" cy="265" r="10" fill="#66e5ff"/>
+<text x="650" y="400" fill="#eff8f2" font-family="Arial" font-size="70" font-weight="900">VOLMET</text><text x="654" y="452" fill="#b8ff39" font-family="Arial" font-size="30" font-weight="700">5505 / 8957 USB</text>
+<text x="70" y="620" fill="#82a294" font-family="Arial" font-size="22" font-weight="700" letter-spacing="4">AVIATION WEATHER • ATLANTIC</text></svg>
