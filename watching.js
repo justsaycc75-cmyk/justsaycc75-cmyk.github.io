@@ -22,6 +22,8 @@
     },
     'Time':{
       search:"Time BBC Sean Bean Stephen Graham official trailer",
+      video:'_YQ7_yIVtbU',
+      link:'https://www.youtube.com/watch?v=_YQ7_yIVtbU',
       wiki:'Time (2021 TV series)',
       summary:'A hard-hitting prison drama about guilt, punishment and survival, following inmates and officers trapped inside a system where every decision can carry a heavy price.',
       source:'BBC / official trailer'
@@ -34,6 +36,8 @@
     },
     'Baptiste':{
       search:"Baptiste BBC One Tchéky Karyo official trailer",
+      video:'zoy5vz0yN_Y',
+      link:'https://www.youtube.com/watch?v=zoy5vz0yN_Y',
       wiki:'Baptiste (TV series)',
       summary:'Detective Julien Baptiste, from The Missing, takes on new disappearance cases that pull him into trafficking, organised crime and dangerous secrets across Europe.',
       source:'BBC / official trailer'
@@ -269,7 +273,7 @@
       ? configuredSearch
       : `${title} ${info.source||''} official trailer`;
 
-    card.href=`https://www.youtube.com/results?search_query=${encodeURIComponent(safeSearch)}`;
+    card.href=info.link||`https://www.youtube.com/results?search_query=${encodeURIComponent(safeSearch)}`;
     card.target='_blank';
     card.rel='noopener';
     card.setAttribute('aria-label',`${title} — trailer and show search`);
