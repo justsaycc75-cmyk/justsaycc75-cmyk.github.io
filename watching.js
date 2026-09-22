@@ -33,7 +33,7 @@
       source:'BBC / official trailer'
     },
     'Baptiste':{
-      url:'https://www.youtube.com/results?search_query=Baptiste+BBC+official+trailer',
+      search:'Baptiste BBC One Tchéky Karyo official trailer',
       wiki:'Baptiste (TV series)',
       summary:'Detective Julien Baptiste, from The Missing, takes on new disappearance cases that pull him into trafficking, organised crime and dangerous secrets across Europe.',
       source:'BBC / official trailer'
@@ -244,7 +244,7 @@
     const info=shows[title];
     if(!info)return;
 
-    card.href=`https://www.youtube.com/results?search_query=${encodeURIComponent(title+' official trailer')}`;
+    card.href=`https://www.youtube.com/results?search_query=${encodeURIComponent(info.search || (title+' official trailer'))}`;
     card.target='_blank';
     card.rel='noopener';
     card.setAttribute('aria-label',`${title} — trailer and show search`);
