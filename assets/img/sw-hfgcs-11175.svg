@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<defs><radialGradient id="g"><stop stop-color="#173d2c"/><stop offset="1" stop-color="#050907"/></radialGradient><filter id="glow"><feGaussianBlur stdDeviation="8"/></filter></defs>
+<rect width="1200" height="675" fill="url(#g)"/><g stroke="#76ff9a" stroke-opacity=".18" fill="none"><circle cx="330" cy="340" r="90"/><circle cx="330" cy="340" r="180"/><circle cx="330" cy="340" r="270"/><path d="M60 340h540M330 70v540"/></g>
+<path d="M330 340L560 180" stroke="#aaff55" stroke-width="3"/><circle cx="560" cy="180" r="10" fill="#b8ff39"/><circle cx="560" cy="180" r="28" fill="#b8ff39" opacity=".18" filter="url(#glow)"/>
+<path d="M690 120c120 30 210 85 310 175M710 230c130 15 210 55 350 145" stroke="#67dfff" stroke-opacity=".5" fill="none" stroke-width="2"/>
+<g fill="#b8ff39"><circle cx="770" cy="210" r="5"/><circle cx="895" cy="292" r="5"/><circle cx="1040" cy="363" r="5"/></g>
+<text x="700" y="430" fill="#eaf6ed" font-family="Arial" font-size="76" font-weight="900">11175</text><text x="705" y="482" fill="#b8ff39" font-family="Arial" font-size="28" font-weight="700">kHz USB • HFGCS</text>
+<text x="70" y="620" fill="#85a690" font-family="Arial" font-size="22" font-weight="700" letter-spacing="4">GLOBAL HF COMMAND NETWORK</text></svg>
