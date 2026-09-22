@@ -220,8 +220,7 @@
       summary:'A Miami blood-spatter analyst leads a double life as a serial killer who targets other murderers, while trying to maintain the appearance of a normal family man.',
       source:'Showtime / Paramount+',
       direct:true
-    }
-,
+    },
     'Sharp Objects':{
       search:"Sharp Objects HBO Amy Adams official trailer",
       wiki:'Sharp Objects (miniseries)',
@@ -258,12 +257,19 @@
     }
   };
 
+  const normalise=s=>String(s||'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
+
   document.querySelectorAll('[data-watch]').forEach(card=>{
     const title=card.dataset.watch;
     const info=shows[title];
     if(!info)return;
 
-    card.href=`https://www.youtube.com/results?search_query=${encodeURIComponent(info.search || (title+' official trailer'))}`;
+    const configuredSearch=info.search||'';
+    const safeSearch=normalise(configuredSearch).includes(normalise(title))
+      ? configuredSearch
+      : `${title} ${info.source||''} official trailer`;
+
+    card.href=`https://www.youtube.com/results?search_query=${encodeURIComponent(safeSearch)}`;
     card.target='_blank';
     card.rel='noopener';
     card.setAttribute('aria-label',`${title} — trailer and show search`);
