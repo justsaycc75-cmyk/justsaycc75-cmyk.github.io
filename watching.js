@@ -93,6 +93,7 @@
       source:'Netflix'
     },
     'Dark Winds':{
+      search:'Dark Winds AMC official trailer Zahn McClarnon',
       video:'TcmY-9eeBIM',
       summary:'Two Navajo police officers investigate violent crimes in the 1970s American Southwest while confronting secrets, culture and their own beliefs.',
       source:'AMC+'
