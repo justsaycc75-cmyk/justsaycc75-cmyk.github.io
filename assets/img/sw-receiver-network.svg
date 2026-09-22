@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<rect width="1200" height="675" fill="#06100d"/><g stroke="#56d6a3" stroke-opacity=".16" fill="none"><ellipse cx="600" cy="330" rx="470" ry="230"/><ellipse cx="600" cy="330" rx="330" ry="230"/><path d="M130 330h940M600 100v460"/></g>
+<path d="M210 390Q440 170 640 350T1030 220" fill="none" stroke="#5ce1e6" stroke-opacity=".55" stroke-width="3"/>
+<g fill="#b8ff39"><circle cx="210" cy="390" r="9"/><circle cx="430" cy="240" r="9"/><circle cx="640" cy="350" r="9"/><circle cx="850" cy="265" r="9"/><circle cx="1030" cy="220" r="9"/></g>
+<text x="720" y="470" fill="#edf7f0" font-family="Arial" font-size="62" font-weight="900">SDR NETWORK</text><text x="722" y="516" fill="#5ce1e6" font-family="Arial" font-size="25" font-weight="700">GLOBAL RECEIVER PATHS</text>
+<text x="70" y="620" fill="#7f9b8a" font-family="Arial" font-size="22" font-weight="700" letter-spacing="4">PACIFIC • AMERICAS • EUROPE • OCEANIA</text></svg>
