@@ -244,10 +244,10 @@
     const info=shows[title];
     if(!info)return;
 
-    card.href=info.url || `https://www.youtube.com/watch?v=${info.video}`;
+    card.href=`https://www.youtube.com/results?search_query=${encodeURIComponent(title+' official trailer')}`;
     card.target='_blank';
     card.rel='noopener';
-    card.setAttribute('aria-label',`${title} — ${info.direct ? 'official show page' : 'official trailer / overview'}`);
+    card.setAttribute('aria-label',`${title} — trailer and show search`);
 
     const thumb=card.querySelector('.watch-thumb');
     if(thumb){
@@ -272,6 +272,6 @@
     if(p)p.textContent=info.summary;
 
     const small=card.querySelector('.watch-copy small');
-    if(small)small.textContent=`${info.direct ? 'Official show page' : 'Official trailer / overview'} — ${info.source} →`;
+    if(small)small.textContent=`Trailer / show search — ${info.source} →`;
   });
 })();
