@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<rect width="1200" height="675" fill="#090b09"/><g stroke="#91ff55" stroke-opacity=".14"><path d="M80 150h1040M80 250h1040M80 350h1040M80 450h1040M80 550h1040"/></g>
+<path d="M100 430c45-10 70-105 120-115s70 155 125 140 55-240 120-215 55 180 110 170 80-120 120-112 80 130 135 118 70-88 110-74 60 78 105 75" fill="none" stroke="#b8ff39" stroke-width="5"/>
+<circle cx="300" cy="240" r="130" fill="none" stroke="#5ce1e6" stroke-opacity=".3"/><path d="M300 110v260M170 240h260" stroke="#5ce1e6" stroke-opacity=".18"/>
+<text x="680" y="360" fill="#f2f7f2" font-family="Arial" font-size="72" font-weight="900">9–15 MHz</text><text x="685" y="412" fill="#b8ff39" font-family="Arial" font-size="28" font-weight="700">AM • BROADCAST SWEEP</text>
+<text x="70" y="620" fill="#78907e" font-family="Arial" font-size="22" font-weight="700" letter-spacing="4">INTERNATIONAL SHORTWAVE HUNT</text></svg>
