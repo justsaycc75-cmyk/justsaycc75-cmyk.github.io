@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#050908"/><stop offset="1" stop-color="#102018"/></linearGradient><filter id="g"><feGaussianBlur stdDeviation="9"/></filter></defs>
+<rect width="1200" height="675" fill="url(#bg)"/>
+<g stroke="#5ce1e6" stroke-opacity=".13" fill="none"><path d="M0 110h1200M0 220h1200M0 330h1200M0 440h1200M0 550h1200M150 0v675M300 0v675M450 0v675M600 0v675M750 0v675M900 0v675M1050 0v675"/></g>
+
+
+<ellipse cx="420" cy="335" rx="315" ry="190" fill="none" stroke="#5ce1e6" stroke-opacity=".25" stroke-width="2"/><ellipse cx="420" cy="335" rx="190" ry="190" fill="none" stroke="#5ce1e6" stroke-opacity=".2"/><path d="M105 335h630M420 145v380" stroke="#5ce1e6" stroke-opacity=".18"/><path d="M180 420Q350 210 535 350T850 230" fill="none" stroke="#5ce1e6" stroke-opacity=".55" stroke-width="3"/><g fill="#5ce1e6"><circle cx="180" cy="420" r="8"/><circle cx="390" cy="255" r="8"/><circle cx="535" cy="350" r="8"/><circle cx="725" cy="285" r="8"/></g>
+
+<rect x="650" y="155" width="430" height="250" rx="24" fill="#0a100d" stroke="#5ce1e6" stroke-opacity=".3"/>
+<text x="690" y="270" fill="#eef7f0" font-family="Arial" font-size="66" font-weight="900">PACIFIC</text>
+<text x="692" y="325" fill="#5ce1e6" font-family="Arial" font-size="28" font-weight="700">HAWAII / CENTRAL PACIFIC</text>
+<text x="72" y="620" fill="#789184" font-family="Arial" font-size="22" font-weight="700" letter-spacing="4">SYDNEY HF OPERATIONS DESK</text>
+</svg>
