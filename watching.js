@@ -33,7 +33,7 @@
       source:'BBC / official trailer'
     },
     'Baptiste':{
-      search:"The Newsroom HBO Jeff Daniels official trailer",
+      search:"Baptiste BBC One Tchéky Karyo official trailer",
       wiki:'Baptiste (TV series)',
       summary:'Detective Julien Baptiste, from The Missing, takes on new disappearance cases that pull him into trafficking, organised crime and dangerous secrets across Europe.',
       source:'BBC / official trailer'
@@ -101,7 +101,7 @@
       source:'Netflix'
     },
     'Dark Winds':{
-      search:"Boardwalk Empire HBO Steve Buscemi official trailer",
+      search:"Dark Winds AMC Zahn McClarnon official trailer",
       video:'TcmY-9eeBIM',
       summary:'Two Navajo police officers investigate violent crimes in the 1970s American Southwest while confronting secrets, culture and their own beliefs.',
       source:'AMC+'
@@ -173,7 +173,7 @@
       source:'Official trailer / overview'
     },
     'Broadchurch':{
-      search:"The Bay ITV Morecambe official trailer",
+      search:"Broadchurch ITV David Tennant Olivia Colman official trailer",
       wiki:'Broadchurch',
       summary:'A child’s murder tears through a quiet Dorset town, forcing two detectives to dig into secrets, grief and suspicion as almost everyone becomes capable of hiding something.',
       source:'ITV / official trailer'
@@ -230,7 +230,7 @@
       direct:true
     },
     'The Killing':{
-      search:"Time BBC Sean Bean Stephen Graham official trailer",
+      search:"The Killing AMC Mireille Enos Joel Kinnaman official trailer",
       wiki:'The Killing (American TV series)',
       summary:'Two Seattle detectives investigate a teenage girl’s murder in a brooding, long-form mystery where the case slowly exposes political, family and personal secrets.',
       source:'AMC / official trailer'
