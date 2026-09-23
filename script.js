@@ -269,30 +269,12 @@ function hash(s){let n=0;for(const c of s)n=(n*31+c.charCodeAt(0))>>>0;return n;
 /*
   Song rotation:
   - changes every 3 hours in Sydney
-  - every named song enters the rotation
-  - no song repeats until the whole pool has been used
-  - the same artist is kept out of consecutive slots where possible
+  - uses every properly named track in the full music library
+  - duplicate artist/track combinations are removed
+  - no song repeats until the entire pool has been used
+  - consecutive slots avoid the same artist where possible
   - the page automatically reloads when a new 3-hour slot begins
 */
-const directSongRotation=[
-  {artist:'Old Mervs',track:'Parched',id:'myBg9F3EyRs'},
-  {artist:'Teen Jesus and the Jean Teasers',track:'AHHHH!',id:'98V-utPJGv8'},
-  {artist:'Parquet Courts',track:'Stoned And Starving',id:'a5CvZTIoir8'},
-  {artist:'Arcadia',track:'El Diablo',id:'hqRBqT0iZKo'},
-  {artist:'Visage',track:'Fade To Grey',id:'UMPC8QJF6sI'},
-  {artist:'Talking Heads',track:'Life During Wartime',id:'alEjtNx0fTg'},
-  {artist:'INXS',track:"Don't Change",id:'sLm3Khusq_8'},
-  {artist:'Eliza & The Delusionals',track:'Just Exist',id:'tSyixJf9Yt8'},
-  {artist:'Spacey Jane',track:'Booster Seat',id:'XxKuwlnx58q'},
-  {artist:'Midnight Oil',track:'Beds Are Burning',id:'ejorQVy3m8E'},
-  {artist:'Spiderbait',track:'Black Betty',id:'ftbuDDWFHz4'},
-  {artist:'Hunters & Collectors',track:'Throw Your Arms Around Me',id:'5-hDK76bIps'},
-  {artist:'Devo',track:'Whip It',id:'IIEVqFB4WUo'},
-  {artist:'The B-52s',track:'Rock Lobster',id:'2uH5AhFh8UI'},
-  {artist:'The Church',track:'The Unguarded Moment',id:'Osz-GQbX37o'},
-  {artist:'Foo Fighters',track:'Everlong',id:'vLkBybsH73k'}
-];
-
 function seededShuffle(list,seed){
   const a=list.slice();
   let s=seed>>>0;
@@ -307,7 +289,46 @@ function seededShuffle(list,seed){
   return a;
 }
 
-const rotationOrder=seededShuffle(directSongRotation,0x51A7C0DE);
+function buildSongPool(){
+  const seen=new Set();
+  const pool=[];
+  regulars.forEach(entry=>{
+    (entry.tracks||[]).forEach((track,trackIndex)=>{
+      if(!track || /^(featured track|featured performance|search the latest clip)$/i.test(track.trim())) return;
+      const uniqueKey=(entry.artist+'|'+track).toLowerCase().replace(/\s+/g,' ').trim();
+      if(seen.has(uniqueKey)) return;
+      seen.add(uniqueKey);
+
+      const isDirectTrack=Boolean(entry.embed) && trackIndex===0;
+      pool.push({
+        artist:entry.artist,
+        track,
+        id:isDirectTrack?entry.embed:'',
+        url:isDirectTrack
+          ? 'https://www.youtube.com/watch?v='+entry.embed
+          : 'https://www.youtube.com/results?search_query='+encodeURIComponent(entry.artist+' '+track+' official')
+      });
+    });
+  });
+  return pool;
+}
+
+function spreadArtists(list){
+  const a=list.slice();
+  for(let i=1;i<a.length;i++){
+    if(a[i].artist!==a[i-1].artist) continue;
+    const swapAt=a.findIndex((x,j)=>j>i && x.artist!==a[i-1].artist && (j===a.length-1 || a[j+1]?.artist!==a[i].artist));
+    if(swapAt>i)[a[i],a[swapAt]]=[a[swapAt],a[i]];
+  }
+  if(a.length>2 && a[0].artist===a[a.length-1].artist){
+    const swapAt=a.findIndex((x,i)=>i>0 && i<a.length-1 && x.artist!==a[0].artist && a[i-1].artist!==a[a.length-1].artist && a[i+1].artist!==a[a.length-1].artist);
+    if(swapAt>0)[a[a.length-1],a[swapAt]]=[a[swapAt],a[a.length-1]];
+  }
+  return a;
+}
+
+const fullSongPool=buildSongPool();
+const rotationOrder=spreadArtists(seededShuffle(fullSongPool,0x51A7C0DE));
 
 function sydneySlotKey(){
   const parts=new Intl.DateTimeFormat('en-CA',{
@@ -324,11 +345,13 @@ function sydneySlotKey(){
 const currentSlot=sydneySlotKey();
 const songIndex=((currentSlot.serial%rotationOrder.length)+rotationOrder.length)%rotationOrder.length;
 const songPick=rotationOrder[songIndex];
-const artistPick={artist:songPick.artist,embed:songPick.id};
+const artistPick={artist:songPick.artist,embed:songPick.id||''};
 const trackPick=songPick.track;
 const key=currentSlot.key;
-const clipUrl='https://www.youtube.com/watch?v='+songPick.id;
-const artworkUrl='https://i.ytimg.com/vi/'+songPick.id+'/hqdefault.jpg';
+const clipUrl=songPick.url;
+const artworkUrl=songPick.id
+  ? 'https://i.ytimg.com/vi/'+songPick.id+'/hqdefault.jpg'
+  : 'assets/img/cassette.webp';
 
 setInterval(()=>{
   if(sydneySlotKey().key!==currentSlot.key)location.reload();
