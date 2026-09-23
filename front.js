@@ -1,7 +1,7 @@
 (()=>{
   const css=document.createElement('link');
   css.rel='stylesheet';
-  css.href='hero-polish.css';
+  css.href='hero-polish.css?v=20260924-audit';
   document.head.appendChild(css);
 })();
 
@@ -170,7 +170,7 @@
 
     <a href="hunter.html" class="front-photo-card"><img src="assets/img/hunter1.webp" alt="Hunter Valley"><span>Hunter Valley</span><em>Cellar doors + favourites</em></a>
 
-    <a href="sport.html" class="front-photo-card rail-graphic rail-sport rail-sport-teams">
+    <a href="sport-current.html" class="front-photo-card rail-graphic rail-sport rail-sport-teams">
       <div class="sport-card-copy">
         <small>SPORT</small>
         <b>ROOSTERS<br>&amp; NFL</b>

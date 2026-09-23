@@ -268,7 +268,7 @@ function hash(s){let n=0;for(const c of s)n=(n*31+c.charCodeAt(0))>>>0;return n;
 
 /*
   Fixed 200-song rotation:
-  - changes every 3 hours in Sydney
+  - changes every 8 hours in Sydney
   - all entries have a stored direct YouTube video ID
   - no search URLs, no external resolver, no placeholder tracks
   - every one of the 200 songs appears before the sequence repeats
@@ -1298,8 +1298,8 @@ function sydneySlotKey(){
   }).formatToParts(new Date()).reduce((o,p)=>(o[p.type]=p.value,o),{});
   const y=+parts.year,m=+parts.month,d=+parts.day,h=(+parts.hour)%24;
   return {
-    key:`${y}-${String(m).padStart(2,'0')}-${String(d).padStart(2,'0')}-${Math.floor(h/3)}`,
-    serial:Math.floor(Date.UTC(y,m-1,d,Math.floor(h/3)*3)/(3*60*60*1000))
+    key:`${y}-${String(m).padStart(2,'0')}-${String(d).padStart(2,'0')}-${Math.floor(h/8)}`,
+    serial:Math.floor(Date.UTC(y,m-1,d,Math.floor(h/8)*8)/(8*60*60*1000))
   };
 }
 

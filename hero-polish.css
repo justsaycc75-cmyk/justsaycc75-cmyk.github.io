@@ -101,3 +101,6 @@
 .hero-cassette img{
   border-bottom:0!important;
 }
+
+/* 2026-09-24 audit: keep homepage webcam centred on small screens */
+@media(max-width:760px){.hero-youtube{transform:none!important;margin-left:auto!important;margin-right:auto!important;justify-self:center!important}}
