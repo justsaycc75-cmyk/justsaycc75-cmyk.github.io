@@ -269,10 +269,10 @@ function hash(s){let n=0;for(const c of s)n=(n*31+c.charCodeAt(0))>>>0;return n;
 /*
   Song rotation:
   - changes every 3 hours in Sydney
-  - uses every properly named track in the full music library
-  - duplicate artist/track combinations are removed
-  - no song repeats until the entire pool has been used
-  - consecutive slots avoid the same artist where possible
+  - cycles through all 245 artists before an artist repeats
+  - each artist appears once per full cycle
+  - when an artist has several named tracks, later cycles move to the next track
+  - generic "Featured track" entries still participate via an artist-specific YouTube search
   - the page automatically reloads when a new 3-hour slot begins
 */
 function seededShuffle(list,seed){
@@ -289,46 +289,28 @@ function seededShuffle(list,seed){
   return a;
 }
 
-function buildSongPool(){
+function buildArtistPool(){
   const seen=new Set();
-  const pool=[];
-  regulars.forEach(entry=>{
-    (entry.tracks||[]).forEach((track,trackIndex)=>{
-      if(!track || /^(featured track|featured performance|search the latest clip)$/i.test(track.trim())) return;
-      const uniqueKey=(entry.artist+'|'+track).toLowerCase().replace(/\s+/g,' ').trim();
-      if(seen.has(uniqueKey)) return;
-      seen.add(uniqueKey);
-
-      const isDirectTrack=Boolean(entry.embed) && trackIndex===0;
-      pool.push({
-        artist:entry.artist,
-        track,
-        id:isDirectTrack?entry.embed:'',
-        url:isDirectTrack
-          ? 'https://www.youtube.com/watch?v='+entry.embed
-          : 'https://www.youtube.com/results?search_query='+encodeURIComponent(entry.artist+' '+track+' official')
-      });
-    });
+  return regulars.filter(entry=>{
+    const k=(entry.artist||'').trim().toLowerCase();
+    if(!k || seen.has(k)) return false;
+    seen.add(k);
+    return true;
   });
-  return pool;
 }
 
-function spreadArtists(list){
-  const a=list.slice();
-  for(let i=1;i<a.length;i++){
-    if(a[i].artist!==a[i-1].artist) continue;
-    const swapAt=a.findIndex((x,j)=>j>i && x.artist!==a[i-1].artist && (j===a.length-1 || a[j+1]?.artist!==a[i].artist));
-    if(swapAt>i)[a[i],a[swapAt]]=[a[swapAt],a[i]];
-  }
-  if(a.length>2 && a[0].artist===a[a.length-1].artist){
-    const swapAt=a.findIndex((x,i)=>i>0 && i<a.length-1 && x.artist!==a[0].artist && a[i-1].artist!==a[a.length-1].artist && a[i+1].artist!==a[a.length-1].artist);
-    if(swapAt>0)[a[a.length-1],a[swapAt]]=[a[swapAt],a[a.length-1]];
-  }
-  return a;
-}
+const artistPool=buildArtistPool();
+const rotationOrder=seededShuffle(artistPool,0x51A7C0DE);
 
-const fullSongPool=buildSongPool();
-const rotationOrder=spreadArtists(seededShuffle(fullSongPool,0x51A7C0DE));
+function pickTrackForArtist(entry,cycleNumber){
+  const named=(entry.tracks||[]).filter(track=>
+    track && !/^(featured track|featured performance|search the latest clip)$/i.test(track.trim())
+  );
+  if(named.length){
+    return named[Math.abs(cycleNumber)%named.length];
+  }
+  return 'Featured track';
+}
 
 function sydneySlotKey(){
   const parts=new Intl.DateTimeFormat('en-CA',{
@@ -343,14 +325,20 @@ function sydneySlotKey(){
 }
 
 const currentSlot=sydneySlotKey();
-const songIndex=((currentSlot.serial%rotationOrder.length)+rotationOrder.length)%rotationOrder.length;
-const songPick=rotationOrder[songIndex];
-const artistPick={artist:songPick.artist,embed:songPick.id||''};
-const trackPick=songPick.track;
+const artistIndex=((currentSlot.serial%rotationOrder.length)+rotationOrder.length)%rotationOrder.length;
+const cycleNumber=Math.floor(currentSlot.serial/rotationOrder.length);
+const artistEntry=rotationOrder[artistIndex];
+const trackPick=pickTrackForArtist(artistEntry,cycleNumber);
+const directTrack=(artistEntry.tracks||[])[0]===trackPick && Boolean(artistEntry.embed);
+const artistPick={artist:artistEntry.artist,embed:directTrack?artistEntry.embed:''};
 const key=currentSlot.key;
-const clipUrl=songPick.url;
-const artworkUrl=songPick.id
-  ? 'https://i.ytimg.com/vi/'+songPick.id+'/hqdefault.jpg'
+const clipUrl=directTrack
+  ? 'https://www.youtube.com/watch?v='+artistEntry.embed
+  : 'https://www.youtube.com/results?search_query='+encodeURIComponent(
+      artistEntry.artist+(trackPick==='Featured track'?'':' '+trackPick)+' official'
+    );
+const artworkUrl=directTrack
+  ? 'https://i.ytimg.com/vi/'+artistEntry.embed+'/hqdefault.jpg'
   : 'assets/img/cassette.webp';
 
 setInterval(()=>{
