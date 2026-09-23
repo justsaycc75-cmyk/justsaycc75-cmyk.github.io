@@ -1322,7 +1322,11 @@ document.querySelectorAll('[data-youtube]').forEach(e=>{
   e.rel='noopener';
   e.removeAttribute('aria-disabled');
   e.classList.remove('link-disabled');
-  e.textContent='Watch song on YouTube →';
+  // Only the dedicated text link gets a label. Do not overwrite
+  // artwork/video-link contents (which would remove their image).
+  if(e.classList.contains('text-link')){
+    e.textContent='Watch song on YouTube →';
+  }
 });
 
 document.querySelectorAll('[data-artist-image]').forEach(e=>{
