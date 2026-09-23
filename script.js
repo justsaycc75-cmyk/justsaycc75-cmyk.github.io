@@ -331,7 +331,7 @@ const trackPick=pickTrackForArtist(artistEntry,cycleNumber);
 const artistPick={artist:artistEntry.artist,embed:artistEntry.embed||''};
 const key=currentSlot.key;
 let resolvedTrack=trackPick;
-let resolvedVideoId=(artistEntry.embed||'').trim();
+let resolvedVideoId=((artistEntry.tracks||[])[0]===trackPick ? (artistEntry.embed||'') : '').trim();
 let clipUrl=resolvedVideoId?'https://www.youtube.com/watch?v='+resolvedVideoId:'';
 let artworkUrl=resolvedVideoId
   ? 'https://i.ytimg.com/vi/'+resolvedVideoId+'/hqdefault.jpg'
@@ -422,38 +422,7 @@ function scoreVideo(item,artist,requestedTrack){
 
 function cleanResolvedTitle(title,artist){
   let out=(title||'').replace(/\s*[\(\[]\s*(official[^\)\]]*|lyrics?|audio|video|hd|4k)[\)\]]\s*/ig,' ').trim();
-  const esc=artist.replace(/[.*+?^$()|[\]\\{}]/g,'\\const artistPick={artist:artistEntry.artist,embed:artistEntry.embed};
-const key=currentSlot.key;
-const clipUrl='https://www.youtube.com/watch?v='+artistEntry.embed;
-const artworkUrl='https://i.ytimg.com/vi/'+artistEntry.embed+'/hqdefault.jpg';
-
-setInterval(()=>{
-  if(sydneySlotKey().key!==currentSlot.key)location.reload();
-},60000);
-
-document.querySelectorAll('[data-daily-artist]').forEach(e=>e.textContent=artistPick.artist);
-document.querySelectorAll('[data-daily-track]').forEach(e=>e.textContent=trackPick);
-document.querySelectorAll('[data-youtube]').forEach(e=>{e.href=clipUrl;});
-
-document.querySelectorAll('[data-artist-image]').forEach(e=>{
-  e.src=artworkUrl;
-  e.alt=artistPick.artist+' — '+trackPick;
-  e.onerror=()=>{e.onerror=null;e.src='assets/img/cassette.webp';};
-});
-
-document.querySelectorAll('[data-video-frame]').forEach(frame=>{
-  frame.innerHTML=`
-    <a class="daily-video-poster" href="${clipUrl}" target="_blank" rel="noopener" aria-label="Watch ${artistPick.artist} — ${trackPick} on YouTube">
-      <img src="${artworkUrl}" alt="${artistPick.artist} — ${trackPick}" onerror="this.onerror=null;this.src='assets/img/cassette.webp'">
-      <span class="daily-video-shade"></span>
-      <span class="daily-video-play">▶</span>
-      <span class="daily-video-copy">
-        <small>WATCH ON YOUTUBE</small>
-        <strong>${artistPick.artist}</strong>
-        <em>${trackPick}</em>
-      </span>
-    </a>`;
-});');
+  const esc=artist.replace(/[.*+?^$()|[\]\\{}]/g,'\\$&');
   out=out.replace(new RegExp('^'+esc+'\\s*[-–—:]\\s*','i'),'').trim();
   return out||'Featured track';
 }
