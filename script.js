@@ -269,10 +269,9 @@ function hash(s){let n=0;for(const c of s)n=(n*31+c.charCodeAt(0))>>>0;return n;
 /*
   Song rotation:
   - changes every 3 hours in Sydney
-  - cycles through all 245 artists before an artist repeats
-  - each artist appears once per full cycle
-  - when an artist has several named tracks, later cycles move to the next track
-  - generic "Featured track" entries still participate via an artist-specific YouTube search
+  - NEVER serves a YouTube search-results URL
+  - only entries with a verified direct YouTube video ID can enter the live rotation
+  - artist/song/archive data can still contain the larger 245-artist library
   - the page automatically reloads when a new 3-hour slot begins
 */
 function seededShuffle(list,seed){
@@ -293,7 +292,13 @@ function buildArtistPool(){
   const seen=new Set();
   return regulars.filter(entry=>{
     const k=(entry.artist||'').trim().toLowerCase();
-    if(!k || seen.has(k)) return false;
+    const hasDirectVideo=Boolean(entry.embed) &&
+      /^[-_A-Za-z0-9]{6,}$/.test(entry.embed) &&
+      /youtube\.com\/watch\?v=/.test(entry.url||'');
+    const hasNamedTrack=(entry.tracks||[]).some(track=>
+      track && !/^(featured track|featured performance|search the latest clip)$/i.test(track.trim())
+    );
+    if(!k || seen.has(k) || !hasDirectVideo || !hasNamedTrack) return false;
     seen.add(k);
     return true;
   });
@@ -329,17 +334,10 @@ const artistIndex=((currentSlot.serial%rotationOrder.length)+rotationOrder.lengt
 const cycleNumber=Math.floor(currentSlot.serial/rotationOrder.length);
 const artistEntry=rotationOrder[artistIndex];
 const trackPick=pickTrackForArtist(artistEntry,cycleNumber);
-const directTrack=(artistEntry.tracks||[])[0]===trackPick && Boolean(artistEntry.embed);
-const artistPick={artist:artistEntry.artist,embed:directTrack?artistEntry.embed:''};
+const artistPick={artist:artistEntry.artist,embed:artistEntry.embed};
 const key=currentSlot.key;
-const clipUrl=directTrack
-  ? 'https://www.youtube.com/watch?v='+artistEntry.embed
-  : (artistEntry.url || 'https://www.youtube.com/results?search_query='+encodeURIComponent(
-      artistEntry.artist+(trackPick==='Featured track'?'':' '+trackPick)+' official'
-    ));
-const artworkUrl=directTrack
-  ? 'https://i.ytimg.com/vi/'+artistEntry.embed+'/hqdefault.jpg'
-  : 'assets/img/cassette.webp';
+const clipUrl='https://www.youtube.com/watch?v='+artistEntry.embed;
+const artworkUrl='https://i.ytimg.com/vi/'+artistEntry.embed+'/hqdefault.jpg';
 
 setInterval(()=>{
   if(sydneySlotKey().key!==currentSlot.key)location.reload();
