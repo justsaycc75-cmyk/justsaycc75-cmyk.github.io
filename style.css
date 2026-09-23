@@ -11,12 +11,20 @@
 @media(max-width:700px){.directory-layout{grid-template-columns:1fr}.directory-rail{display:grid;grid-template-columns:1fr 1fr}.directory-feature{grid-template-columns:1fr 1fr;grid-template-rows:230px 160px}.directory-photo.main{grid-column:1/3}.directory-photo div strong{font-size:.95rem}}
 @media(max-width:620px){nav{display:none}.story-grid,.watch-grid{grid-template-columns:1fr}.ticker-grid{grid-template-columns:1fr}.team-grid{grid-template-columns:1fr}.photo-grid{grid-template-columns:repeat(2,1fr)}h1{font-size:3rem}.hero{padding-top:24px}.hero-collage{grid-template-columns:1fr;grid-template-rows:auto}.cassette-card{grid-column:auto}.hero-tile{height:180px}.ribbon-grid{grid-template-columns:1fr 1fr}.ribbon-card{height:120px}.menu-btn{display:inline-block}nav{position:absolute;top:64px;left:0;right:0;background:#080a09;border-bottom:1px solid var(--line);padding:16px 22px;flex-direction:column}.menu-open nav{display:flex}.brand{font-size:.84rem}.nav{position:relative}.directory-rail{grid-template-columns:1fr}.directory-feature{display:block}.directory-photo{height:210px;margin-top:10px}.directory-photo.main{height:280px}.pillrow{grid-template-columns:repeat(2,minmax(0,1fr))}}
 
-.daily-video-poster{position:relative;display:block;width:100%;height:100%;min-height:100%;overflow:hidden;text-decoration:none;background:#080b09;color:#fff}
-.daily-video-poster>img{width:100%;height:100%;object-fit:cover;display:block}
-.daily-video-shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.08),rgba(0,0,0,.18) 45%,rgba(0,0,0,.8));}
-.daily-video-play{position:absolute;left:50%;top:46%;transform:translate(-50%,-50%);display:flex;align-items:center;justify-content:center;width:74px;height:74px;border-radius:50%;background:rgba(255,255,255,.92);color:#111;font-size:1.8rem;padding-left:4px;box-shadow:0 12px 32px rgba(0,0,0,.35)}
-.daily-video-copy{position:absolute;left:22px;right:22px;bottom:18px;display:block}
+.daily-video-poster{position:relative;display:block;width:100%;aspect-ratio:16/9;min-height:0;overflow:hidden;text-decoration:none;background:#080b09;color:#fff;border-radius:18px}
+.daily-video-poster>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 38%;display:block;transform:scale(1.01)}
+.daily-video-shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.04),rgba(0,0,0,.12) 42%,rgba(0,0,0,.82));}
+.daily-video-play{position:absolute;left:50%;top:48%;transform:translate(-50%,-50%);display:flex;align-items:center;justify-content:center;width:72px;height:72px;border-radius:50%;background:rgba(255,255,255,.93);color:#111;font-size:1.8rem;padding-left:4px;box-shadow:0 12px 32px rgba(0,0,0,.35)}
+.daily-video-copy{position:absolute;left:24px;right:24px;bottom:20px;display:block;max-width:72%}
 .daily-video-copy small{display:block;color:var(--lime);font-weight:900;letter-spacing:.12em;font-size:.68rem}
 .daily-video-copy strong{display:block;margin-top:4px;font-size:1.35rem;line-height:1.05}
 .daily-video-copy em{display:block;margin-top:4px;color:#d4ddd6;font-style:normal}
 .daily-video-poster:hover .daily-video-play{transform:translate(-50%,-50%) scale(1.06)}
+
+/* Daily song card: consistent framing across changing YouTube thumbnails */
+[data-video-frame]{aspect-ratio:16/9;min-height:0!important;overflow:hidden;border-radius:18px}
+[data-video-frame] .daily-video-poster{height:100%}
+@media(max-width:700px){
+  .daily-video-copy{left:16px;right:16px;bottom:14px;max-width:82%}
+  .daily-video-play{width:60px;height:60px;font-size:1.45rem}
+}
