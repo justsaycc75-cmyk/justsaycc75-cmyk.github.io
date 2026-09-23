@@ -1,0 +1,213 @@
+name: One-time site audit and safe fixes
+on:
+  push:
+    paths:
+      - '.github/workflows/site-audit-fix.yml'
+permissions:
+  contents: write
+jobs:
+  audit-fix:
+    if: github.event.head_commit.message == 'Add one-time site audit fixer'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Apply safe fixes
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+
+          # 1) Restore the requested eight-hour Sydney song rotation.
+          p = Path('script.js')
+          s = p.read_text(encoding='utf-8')
+          old = """    key:`${y}-${String(m).padStart(2,'0')}-${String(d).padStart(2,'0')}-${Math.floor(h/3)}`,
+              serial:Math.floor(Date.UTC(y,m-1,d,Math.floor(h/3)*3)/(3*60*60*1000))"""
+          new = """    key:`${y}-${String(m).padStart(2,'0')}-${String(d).padStart(2,'0')}-${Math.floor(h/8)}`,
+              serial:Math.floor(Date.UTC(y,m-1,d,Math.floor(h/8)*8)/(8*60*60*1000))"""
+          if old not in s:
+              raise SystemExit('Song rotation fragment not found; refusing unsafe edit')
+          s = s.replace(old, new, 1)
+          s = s.replace('changes every 3 hours in Sydney', 'changes every 8 hours in Sydney', 1)
+          p.write_text(s, encoding='utf-8')
+
+          # 2) Point the homepage Sport rail at the same current Sport page used by the main nav.
+          p = Path('front.js')
+          s = p.read_text(encoding='utf-8')
+          old = '<a href="sport.html" class="front-photo-card rail-graphic rail-sport rail-sport-teams">'
+          new = '<a href="sport-current.html" class="front-photo-card rail-graphic rail-sport rail-sport-teams">'
+          if old not in s:
+              raise SystemExit('Homepage Sport rail fragment not found; refusing unsafe edit')
+          s = s.replace(old, new, 1)
+          s = s.replace("css.href='hero-polish.css';", "css.href='hero-polish.css?v=20260924-audit';", 1)
+          p.write_text(s, encoding='utf-8')
+
+          # 3) Fix mobile cascade: the 980px rule was re-applying a right shift below 760px.
+          p = Path('hero-polish.css')
+          s = p.read_text(encoding='utf-8')
+          marker = '/* 2026-09-24 audit: keep homepage webcam centred on small screens */'
+          if marker not in s:
+              s += '\n' + marker + '\n@media(max-width:760px){.hero-youtube{transform:none!important;margin-left:auto!important;margin-right:auto!important;justify-self:center!important}}\n'
+          p.write_text(s, encoding='utf-8')
+
+          # 4) Cache-bust script.js everywhere and front.js on the homepage so fixes show promptly.
+          for p in Path('.').glob('*.html'):
+              s = p.read_text(encoding='utf-8')
+              s = re.sub(r'src="script\.js(?:\?[^\"]*)?"', 'src="script.js?v=20260924-audit"', s)
+              s = re.sub(r'src="front\.js(?:\?[^\"]*)?"', 'src="front.js?v=20260924-audit"', s)
+              p.write_text(s, encoding='utf-8')
+          PY
+
+      - name: Static systems audit
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from html.parser import HTMLParser
+          from urllib.parse import urlsplit, unquote
+          import re, os, json, subprocess, sys, datetime
+
+          root = Path('.').resolve()
+          html_files = sorted(Path('.').glob('*.html'))
+          css_files = sorted(Path('.').glob('*.css'))
+          js_files = sorted(Path('.').glob('*.js'))
+          void = {'area','base','br','col','embed','hr','img','input','link','meta','param','source','track','wbr'}
+
+          class P(HTMLParser):
+              def __init__(self):
+                  super().__init__(convert_charrefs=True)
+                  self.refs=[]; self.ids=[]; self.empty=[]; self.starts=0
+              def handle_starttag(self, tag, attrs):
+                  self.starts += 1
+                  d=dict(attrs)
+                  if 'id' in d: self.ids.append(d['id'])
+                  for k in ('href','src','poster'):
+                      if k in d:
+                          self.refs.append((tag,k,d[k]))
+                          if d[k] == '': self.empty.append((tag,k))
+
+          parsed={}
+          all_external=[]
+          missing=[]
+          bad_anchors=[]
+          duplicate_ids=[]
+          empty_refs=[]
+
+          for f in html_files:
+              p=P()
+              try:
+                  p.feed(f.read_text(encoding='utf-8'))
+                  p.close()
+              except Exception as e:
+                  missing.append((str(f),'HTML parse error',str(e)))
+                  continue
+              parsed[str(f)] = p
+              dup=sorted({x for x in p.ids if p.ids.count(x)>1})
+              if dup: duplicate_ids.append((str(f),dup))
+              if p.empty: empty_refs.append((str(f),p.empty))
+
+          def target_exists(page, raw):
+              if raw is None: return
+              raw=raw.strip()
+              if not raw or raw.startswith(('mailto:','tel:','javascript:','data:')): return
+              if raw.startswith(('http://','https://','//')):
+                  all_external.append(raw); return
+              u=urlsplit(raw)
+              path=unquote(u.path)
+              frag=u.fragment
+              if not path:
+                  if frag and frag not in parsed[str(page)].ids:
+                      bad_anchors.append((str(page),raw))
+                  return
+              target=(page.parent/path).resolve()
+              try: target.relative_to(root)
+              except ValueError:
+                  missing.append((str(page),raw,'escapes site root')); return
+              if path.endswith('/'):
+                  target=target/'index.html'
+              if not target.exists():
+                  missing.append((str(page),raw,str(target.relative_to(root))))
+                  return
+              if frag and target.suffix.lower()=='.html':
+                  tp=parsed.get(str(target.relative_to(root)))
+                  if tp and frag not in tp.ids:
+                      bad_anchors.append((str(page),raw))
+
+          for f in html_files:
+              p=parsed.get(str(f))
+              if not p: continue
+              for tag,k,raw in p.refs: target_exists(f, raw)
+
+          css_missing=[]
+          url_re=re.compile(r'url\(([^)]+)\)', re.I)
+          for f in css_files:
+              txt=f.read_text(encoding='utf-8')
+              for val in url_re.findall(txt):
+                  raw=val.strip().strip('"\'')
+                  if not raw or raw.startswith(('data:','http://','https://','//','#')): continue
+                  path=unquote(urlsplit(raw).path)
+                  t=(f.parent/path).resolve()
+                  if not t.exists(): css_missing.append((str(f),raw))
+
+          js_results=[]
+          for f in js_files:
+              cp=subprocess.run(['node','--check',str(f)],text=True,capture_output=True)
+              js_results.append((str(f),cp.returncode,cp.stderr.strip()))
+
+          # Count direct verified song records and calculate the current Sydney 8-hour slot song.
+          script=Path('script.js').read_text(encoding='utf-8')
+          block=script.split('const verifiedSongs=[',1)[1].split('];\nconst songRotation=',1)[0]
+          songs=re.findall(r'artist:\s*"([^"]*)",\s*\n\s*track:\s*"([^"]*)",\s*\n\s*videoId:\s*"([^"]+)"',block)
+          def seeded_shuffle(items, seed):
+              a=list(items); s=seed & 0xffffffff
+              def rnd():
+                  nonlocal s
+                  s=(s*1664525+1013904223)&0xffffffff
+                  return s/4294967296
+              for i in range(len(a)-1,0,-1):
+                  j=int(rnd()*(i+1)); a[i],a[j]=a[j],a[i]
+              return a
+          rot=seeded_shuffle(songs,0x20050319)
+          # This run is on 2026-09-24 Sydney time; slot 0 covers 00:00-07:59.
+          y,m,d,h=2026,9,24,5
+          epoch_ms=int(datetime.datetime(y,m,d,(h//8)*8,tzinfo=datetime.timezone.utc).timestamp()*1000)
+          serial=epoch_ms//(8*60*60*1000)
+          pick=rot[serial%len(rot)] if rot else ('','','')
+
+          print('=== SITE AUDIT ===')
+          print('HTML pages:',len(html_files),'CSS:',len(css_files),'JS:',len(js_files))
+          print('Missing local targets:',json.dumps(missing,ensure_ascii=False))
+          print('Bad local anchors:',json.dumps(bad_anchors,ensure_ascii=False))
+          print('Duplicate IDs:',json.dumps(duplicate_ids,ensure_ascii=False))
+          print('Empty href/src:',json.dumps(empty_refs,ensure_ascii=False))
+          print('Missing CSS assets:',json.dumps(css_missing,ensure_ascii=False))
+          print('JS syntax:',json.dumps(js_results,ensure_ascii=False))
+          print('External URL references:',len(set(all_external)))
+          print('Verified-song records:',len(songs))
+          print('Current 8-hour song:',json.dumps({'artist':pick[0],'track':pick[1],'videoId':pick[2],'url':'https://www.youtube.com/watch?v='+pick[2]},ensure_ascii=False))
+
+          failures=[]
+          if missing: failures.append('missing local targets')
+          if bad_anchors: failures.append('bad anchors')
+          if css_missing: failures.append('missing CSS assets')
+          if any(rc for _,rc,_ in js_results): failures.append('JavaScript syntax')
+          if failures:
+              print('AUDIT_WARNINGS:',', '.join(failures))
+          else:
+              print('STATIC_AUDIT_OK')
+          PY
+
+      - name: Commit safe fixes
+        shell: bash
+        run: |
+          if git diff --quiet; then
+            echo 'No repository changes required.'
+            exit 0
+          fi
+          git config user.name 'site-audit-bot'
+          git config user.email 'site-audit-bot@users.noreply.github.com'
+          git add script.js front.js hero-polish.css *.html
+          git commit -m 'Fix song timing, mobile webcam and current Sport route'
+          git push
