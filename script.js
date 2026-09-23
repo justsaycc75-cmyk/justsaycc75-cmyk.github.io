@@ -292,13 +292,7 @@ function buildArtistPool(){
   const seen=new Set();
   return regulars.filter(entry=>{
     const k=(entry.artist||'').trim().toLowerCase();
-    const hasDirectVideo=Boolean(entry.embed) &&
-      /^[-_A-Za-z0-9]{6,}$/.test(entry.embed) &&
-      /youtube\.com\/watch\?v=/.test(entry.url||'');
-    const hasNamedTrack=(entry.tracks||[]).some(track=>
-      track && !/^(featured track|featured performance|search the latest clip)$/i.test(track.trim())
-    );
-    if(!k || seen.has(k) || !hasDirectVideo || !hasNamedTrack) return false;
+    if(!k || seen.has(k)) return false;
     seen.add(k);
     return true;
   });
@@ -334,7 +328,101 @@ const artistIndex=((currentSlot.serial%rotationOrder.length)+rotationOrder.lengt
 const cycleNumber=Math.floor(currentSlot.serial/rotationOrder.length);
 const artistEntry=rotationOrder[artistIndex];
 const trackPick=pickTrackForArtist(artistEntry,cycleNumber);
-const artistPick={artist:artistEntry.artist,embed:artistEntry.embed};
+const artistPick={artist:artistEntry.artist,embed:artistEntry.embed||''};
+const key=currentSlot.key;
+let resolvedTrack=trackPick;
+let resolvedVideoId=(artistEntry.embed||'').trim();
+let clipUrl=resolvedVideoId?'https://www.youtube.com/watch?v='+resolvedVideoId:'';
+let artworkUrl=resolvedVideoId
+  ? 'https://i.ytimg.com/vi/'+resolvedVideoId+'/hqdefault.jpg'
+  : 'assets/img/cassette.webp';
+
+setInterval(()=>{
+  if(sydneySlotKey().key!==currentSlot.key)location.reload();
+},60000);
+
+function paintDailySong(){
+  document.querySelectorAll('[data-daily-artist]').forEach(e=>e.textContent=artistPick.artist);
+  document.querySelectorAll('[data-daily-track]').forEach(e=>e.textContent=resolvedTrack);
+
+  document.querySelectorAll('[data-youtube]').forEach(e=>{
+    if(clipUrl){
+      e.href=clipUrl;
+      e.target='_blank';
+      e.rel='noopener';
+      e.removeAttribute('aria-disabled');
+      e.classList.remove('link-disabled');
+      e.textContent='Watch song on YouTube →';
+    }else{
+      e.removeAttribute('href');
+      e.setAttribute('aria-disabled','true');
+      e.classList.add('link-disabled');
+      e.textContent='Finding direct song link…';
+    }
+  });
+
+  document.querySelectorAll('[data-artist-image]').forEach(e=>{
+    e.src=artworkUrl;
+    e.alt=artistPick.artist+' — '+resolvedTrack;
+    e.onerror=()=>{e.onerror=null;e.src='assets/img/cassette.webp';};
+  });
+
+  document.querySelectorAll('[data-video-frame]').forEach(frame=>{
+    if(clipUrl){
+      frame.innerHTML=`
+        <a class="daily-video-poster" href="${clipUrl}" target="_blank" rel="noopener" aria-label="Watch ${artistPick.artist} — ${resolvedTrack} on YouTube">
+          <img src="${artworkUrl}" alt="${artistPick.artist} — ${resolvedTrack}" onerror="this.onerror=null;this.src='assets/img/cassette.webp'">
+          <span class="daily-video-shade"></span>
+          <span class="daily-video-play">▶</span>
+          <span class="daily-video-copy">
+            <small>WATCH ON YOUTUBE</small>
+            <strong>${artistPick.artist}</strong>
+            <em>${resolvedTrack}</em>
+          </span>
+        </a>`;
+    }else{
+      frame.innerHTML=`
+        <div class="daily-video-poster" aria-live="polite">
+          <img src="assets/img/cassette.webp" alt="${artistPick.artist}">
+          <span class="daily-video-shade"></span>
+          <span class="daily-video-copy">
+            <small>DIRECT LINK LOADING</small>
+            <strong>${artistPick.artist}</strong>
+            <em>${resolvedTrack}</em>
+          </span>
+        </div>`;
+    }
+  });
+}
+
+function normaliseWords(s){
+  return (s||'').toLowerCase()
+    .normalize('NFKD').replace(/[\u0300-\u036f]/g,'')
+    .replace(/[^a-z0-9]+/g,' ').trim();
+}
+
+function scoreVideo(item,artist,requestedTrack){
+  const a=normaliseWords(artist);
+  const t=normaliseWords(requestedTrack);
+  const hay=normaliseWords((item.author||'')+' '+(item.title||''));
+  let score=0;
+  if(a && hay.includes(a))score+=50;
+  for(const token of a.split(' ').filter(x=>x.length>2)){
+    if(hay.includes(token))score+=6;
+  }
+  if(t && t!=='featured track'){
+    if(hay.includes(t))score+=40;
+    for(const token of t.split(' ').filter(x=>x.length>2)){
+      if(hay.includes(token))score+=4;
+    }
+  }
+  if(/official|topic|vevo/.test(hay))score+=4;
+  return score;
+}
+
+function cleanResolvedTitle(title,artist){
+  let out=(title||'').replace(/\s*[\(\[]\s*(official[^\)\]]*|lyrics?|audio|video|hd|4k)[\)\]]\s*/ig,' ').trim();
+  const esc=artist.replace(/[.*+?^$()|[\]\\{}]/g,'\\const artistPick={artist:artistEntry.artist,embed:artistEntry.embed};
 const key=currentSlot.key;
 const clipUrl='https://www.youtube.com/watch?v='+artistEntry.embed;
 const artworkUrl='https://i.ytimg.com/vi/'+artistEntry.embed+'/hqdefault.jpg';
@@ -365,7 +453,70 @@ document.querySelectorAll('[data-video-frame]').forEach(frame=>{
         <em>${trackPick}</em>
       </span>
     </a>`;
-});
+});');
+  out=out.replace(new RegExp('^'+esc+'\\s*[-–—:]\\s*','i'),'').trim();
+  return out||'Featured track';
+}
+
+const resolverInstances=[
+  'https://inv.nadeko.net',
+  'https://invidious.nerdvpn.de',
+  'https://yt.chocolatemoo53.com',
+  'https://invidious.tiekoetter.com'
+];
+
+async function resolveDirectVideo(artist,requestedTrack){
+  const cacheKey='mrp-direct-youtube-v3';
+  let cache={};
+  try{cache=JSON.parse(localStorage.getItem(cacheKey)||'{}');}catch(_){}
+  const id=normaliseWords(artist)+'|'+normaliseWords(requestedTrack);
+  if(cache[id]?.videoId)return cache[id];
+
+  const q=artist+' '+(requestedTrack==='Featured track'?'official music':requestedTrack+' official');
+  for(const base of resolverInstances){
+    try{
+      const controller=new AbortController();
+      const timeout=setTimeout(()=>controller.abort(),4500);
+      const r=await fetch(base+'/api/v1/search?q='+encodeURIComponent(q)+'&type=video',{signal:controller.signal,mode:'cors'});
+      clearTimeout(timeout);
+      if(!r.ok)continue;
+      const data=await r.json();
+      const videos=(Array.isArray(data)?data:[]).filter(x=>x&&x.videoId&&x.title);
+      if(!videos.length)continue;
+      videos.sort((a,b)=>scoreVideo(b,artist,requestedTrack)-scoreVideo(a,artist,requestedTrack));
+      const best=videos[0];
+      if(scoreVideo(best,artist,requestedTrack)<12)continue;
+      const result={
+        videoId:best.videoId,
+        title:requestedTrack==='Featured track'?cleanResolvedTitle(best.title,artist):requestedTrack
+      };
+      cache[id]=result;
+      try{localStorage.setItem(cacheKey,JSON.stringify(cache));}catch(_){}
+      return result;
+    }catch(_){}
+  }
+  return null;
+}
+
+paintDailySong();
+
+if(!resolvedVideoId){
+  resolveDirectVideo(artistPick.artist,trackPick).then(found=>{
+    if(!found){
+      document.querySelectorAll('[data-youtube]').forEach(e=>{
+        e.removeAttribute('href');
+        e.setAttribute('aria-disabled','true');
+        e.textContent='Direct song link unavailable';
+      });
+      return;
+    }
+    resolvedVideoId=found.videoId;
+    resolvedTrack=found.title||trackPick;
+    clipUrl='https://www.youtube.com/watch?v='+resolvedVideoId;
+    artworkUrl='https://i.ytimg.com/vi/'+resolvedVideoId+'/hqdefault.jpg';
+    paintDailySong();
+  });
+}
 
 const archivePick=archive[hash(key+'archive')%archive.length];
 document.querySelectorAll('[data-archive-img]').forEach(e=>{e.src=archivePick.img;e.alt=archivePick.title;});
