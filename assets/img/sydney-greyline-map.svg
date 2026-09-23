@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="640" viewBox="0 0 1600 640">
+<defs>
+  <linearGradient id="ocean" x2="1" y2="1"><stop stop-color="#07151d"/><stop offset="1" stop-color="#061018"/></linearGradient>
+  <linearGradient id="day" x2="1"><stop stop-color="#3d5d61" stop-opacity=".72"/><stop offset=".55" stop-color="#456c6d" stop-opacity=".52"/><stop offset="1" stop-color="#28464e" stop-opacity=".18"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="8"/></filter>
+</defs>
+<rect width="1600" height="640" fill="url(#ocean)"/>
+<g stroke="#183744" stroke-width="1" opacity=".65">
+  <path d="M0 80h1600M0 160h1600M0 240h1600M0 320h1600M0 400h1600M0 480h1600M0 560h1600"/>
+  <path d="M160 0v640M320 0v640M480 0v640M640 0v640M800 0v640M960 0v640M1120 0v640M1280 0v640M1440 0v640"/>
+</g>
+<!-- stylised land masses -->
+<g fill="#29424b" stroke="#61757b" stroke-width="2" opacity=".92">
+  <path d="M110 185l65-70 88-38 96 8 65 42 84 9 79 54-28 49-104 13-42 52-66 26-90-34-64 19-57-40-41-48z"/>
+  <path d="M470 333l80-33 58 19 25 58-30 74-11 111-42 64-45-65-20-87-34-70z"/>
+  <path d="M670 84l87-47 130 17 66 53 100 14 70 58-22 44-77 7-54 48-71-9-40 38-54-8-43-44-80-17-37-62z"/>
+  <path d="M830 319l54-31 74 9 58 44 18 49-51 20-20 42-76-4-42-28-30-47z"/>
+  <path d="M1045 418l72-44 79-6 47 39 39 2 42 36-18 52-72 16-41 59-95-15-67-69z"/>
+  <path d="M1300 160l65-55 109-15 70 48 30 66-44 57-82 8-47 47-68-20-50-69z"/>
+</g>
+<!-- daylight region -->
+<path d="M455 -20 C520 135 535 220 520 340 C506 455 520 548 598 675 L1110 675 C1045 518 1025 405 1042 290 C1057 183 1045 95 1000 -20Z" fill="url(#day)"/>
+<!-- terminator curves -->
+<path d="M510 -40 C575 115 590 223 574 342 C560 455 576 560 650 700" fill="none" stroke="#ffc15a" stroke-width="3"/>
+<path d="M1005 -35 C1062 108 1080 216 1067 337 C1054 459 1078 562 1147 694" fill="none" stroke="#ffc15a" stroke-width="3"/>
+<!-- paths -->
+<path d="M815 518 Q785 412 758 284" fill="none" stroke="#67e9e4" stroke-width="3" stroke-dasharray="8 10"/>
+<path d="M815 518 Q985 272 1135 93" fill="none" stroke="#ffb442" stroke-width="3" stroke-dasharray="9 12"/>
+<path d="M815 518 Q925 440 1010 378" fill="none" stroke="#67e9e4" stroke-width="2" stroke-dasharray="7 10"/>
+<!-- Sydney -->
+<circle cx="815" cy="518" r="25" fill="#ffb442" opacity=".16" filter="url(#glow)"/>
+<circle cx="815" cy="518" r="10" fill="#ffb442"/>
+<text x="835" y="505" fill="#eef7f1" font-family="Arial" font-size="24" font-weight="900">SYDNEY</text>
+<!-- legend -->
+<g transform="translate(18,574)" font-family="Arial" font-size="16" font-weight="700">
+<rect width="235" height="48" rx="10" fill="#071017" stroke="#2c4650"/>
+<rect x="16" y="16" width="12" height="12" rx="2" fill="#456b6e"/><text x="38" y="27" fill="#9cb3b8">DAY</text>
+<rect x="87" y="16" width="12" height="12" rx="2" fill="#ffb442"/><text x="109" y="27" fill="#9cb3b8">GREYLINE</text>
+<rect x="181" y="16" width="12" height="12" rx="2" fill="#07151d"/><text x="203" y="27" fill="#9cb3b8">NIGHT</text>
+</g>
+</svg>
