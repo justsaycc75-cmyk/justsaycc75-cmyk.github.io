@@ -1,213 +1,137 @@
-name: One-time site audit and safe fixes
+name: One-time external link and asset audit
 on:
   push:
     paths:
       - '.github/workflows/site-audit-fix.yml'
 permissions:
-  contents: write
+  contents: read
 jobs:
-  audit-fix:
-    if: github.event.head_commit.message == 'Add one-time site audit fixer'
+  external-audit:
+    if: github.event.head_commit.message == 'Run external site link audit'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-      - name: Apply safe fixes
-        shell: bash
-        run: |
-          python3 - <<'PY'
-          from pathlib import Path
-          import re
-
-          # 1) Restore the requested eight-hour Sydney song rotation.
-          p = Path('script.js')
-          s = p.read_text(encoding='utf-8')
-          old = """    key:`${y}-${String(m).padStart(2,'0')}-${String(d).padStart(2,'0')}-${Math.floor(h/3)}`,
-              serial:Math.floor(Date.UTC(y,m-1,d,Math.floor(h/3)*3)/(3*60*60*1000))"""
-          new = """    key:`${y}-${String(m).padStart(2,'0')}-${String(d).padStart(2,'0')}-${Math.floor(h/8)}`,
-              serial:Math.floor(Date.UTC(y,m-1,d,Math.floor(h/8)*8)/(8*60*60*1000))"""
-          if old not in s:
-              raise SystemExit('Song rotation fragment not found; refusing unsafe edit')
-          s = s.replace(old, new, 1)
-          s = s.replace('changes every 3 hours in Sydney', 'changes every 8 hours in Sydney', 1)
-          p.write_text(s, encoding='utf-8')
-
-          # 2) Point the homepage Sport rail at the same current Sport page used by the main nav.
-          p = Path('front.js')
-          s = p.read_text(encoding='utf-8')
-          old = '<a href="sport.html" class="front-photo-card rail-graphic rail-sport rail-sport-teams">'
-          new = '<a href="sport-current.html" class="front-photo-card rail-graphic rail-sport rail-sport-teams">'
-          if old not in s:
-              raise SystemExit('Homepage Sport rail fragment not found; refusing unsafe edit')
-          s = s.replace(old, new, 1)
-          s = s.replace("css.href='hero-polish.css';", "css.href='hero-polish.css?v=20260924-audit';", 1)
-          p.write_text(s, encoding='utf-8')
-
-          # 3) Fix mobile cascade: the 980px rule was re-applying a right shift below 760px.
-          p = Path('hero-polish.css')
-          s = p.read_text(encoding='utf-8')
-          marker = '/* 2026-09-24 audit: keep homepage webcam centred on small screens */'
-          if marker not in s:
-              s += '\n' + marker + '\n@media(max-width:760px){.hero-youtube{transform:none!important;margin-left:auto!important;margin-right:auto!important;justify-self:center!important}}\n'
-          p.write_text(s, encoding='utf-8')
-
-          # 4) Cache-bust script.js everywhere and front.js on the homepage so fixes show promptly.
-          for p in Path('.').glob('*.html'):
-              s = p.read_text(encoding='utf-8')
-              s = re.sub(r'src="script\.js(?:\?[^\"]*)?"', 'src="script.js?v=20260924-audit"', s)
-              s = re.sub(r'src="front\.js(?:\?[^\"]*)?"', 'src="front.js?v=20260924-audit"', s)
-              p.write_text(s, encoding='utf-8')
-          PY
-
-      - name: Static systems audit
+      - name: Check external links, YouTube IDs and image files
         shell: bash
         run: |
           python3 - <<'PY'
           from pathlib import Path
           from html.parser import HTMLParser
-          from urllib.parse import urlsplit, unquote
-          import re, os, json, subprocess, sys, datetime
-
-          root = Path('.').resolve()
-          html_files = sorted(Path('.').glob('*.html'))
-          css_files = sorted(Path('.').glob('*.css'))
-          js_files = sorted(Path('.').glob('*.js'))
-          void = {'area','base','br','col','embed','hr','img','input','link','meta','param','source','track','wbr'}
+          from urllib.parse import urlsplit, urlencode
+          from concurrent.futures import ThreadPoolExecutor, as_completed
+          import re, subprocess, json, urllib.request, urllib.error, socket
 
           class P(HTMLParser):
               def __init__(self):
-                  super().__init__(convert_charrefs=True)
-                  self.refs=[]; self.ids=[]; self.empty=[]; self.starts=0
-              def handle_starttag(self, tag, attrs):
-                  self.starts += 1
+                  super().__init__(); self.urls=[]; self.images=[]
+              def handle_starttag(self,tag,attrs):
                   d=dict(attrs)
-                  if 'id' in d: self.ids.append(d['id'])
                   for k in ('href','src','poster'):
-                      if k in d:
-                          self.refs.append((tag,k,d[k]))
-                          if d[k] == '': self.empty.append((tag,k))
+                      v=d.get(k,'')
+                      if v.startswith(('http://','https://')): self.urls.append(v)
+                  if tag=='img' and d.get('src'): self.images.append(d['src'])
 
-          parsed={}
-          all_external=[]
-          missing=[]
-          bad_anchors=[]
-          duplicate_ids=[]
-          empty_refs=[]
+          urls=set(); local_images=set()
+          for f in Path('.').glob('*.html'):
+              p=P(); p.feed(f.read_text(encoding='utf-8')); urls.update(p.urls)
+              for src in p.images:
+                  if not src.startswith(('http://','https://','data:')):
+                      local_images.add(src.split('?',1)[0].split('#',1)[0])
 
-          for f in html_files:
-              p=P()
-              try:
-                  p.feed(f.read_text(encoding='utf-8'))
-                  p.close()
-              except Exception as e:
-                  missing.append((str(f),'HTML parse error',str(e)))
+          # Add dynamically-created external links from front.js and watching.js.
+          for f in ('front.js','watching.js'):
+              txt=Path(f).read_text(encoding='utf-8')
+              urls.update(re.findall(r'https?://[^\s\"\'<>`]+',txt))
+
+          # Validate local image files are non-empty and recognized by `file`.
+          image_report=[]
+          for raw in sorted(local_images):
+              p=Path(raw)
+              if not p.exists():
+                  image_report.append((raw,'MISSING',''))
                   continue
-              parsed[str(f)] = p
-              dup=sorted({x for x in p.ids if p.ids.count(x)>1})
-              if dup: duplicate_ids.append((str(f),dup))
-              if p.empty: empty_refs.append((str(f),p.empty))
+              if p.stat().st_size==0:
+                  image_report.append((raw,'EMPTY',''))
+                  continue
+              cp=subprocess.run(['file','-b','--mime-type',str(p)],capture_output=True,text=True)
+              mime=cp.stdout.strip()
+              image_report.append((raw,'OK' if mime.startswith('image/') else 'BAD_TYPE',mime))
 
-          def target_exists(page, raw):
-              if raw is None: return
-              raw=raw.strip()
-              if not raw or raw.startswith(('mailto:','tel:','javascript:','data:')): return
-              if raw.startswith(('http://','https://','//')):
-                  all_external.append(raw); return
-              u=urlsplit(raw)
-              path=unquote(u.path)
-              frag=u.fragment
-              if not path:
-                  if frag and frag not in parsed[str(page)].ids:
-                      bad_anchors.append((str(page),raw))
-                  return
-              target=(page.parent/path).resolve()
-              try: target.relative_to(root)
-              except ValueError:
-                  missing.append((str(page),raw,'escapes site root')); return
-              if path.endswith('/'):
-                  target=target/'index.html'
-              if not target.exists():
-                  missing.append((str(page),raw,str(target.relative_to(root))))
-                  return
-              if frag and target.suffix.lower()=='.html':
-                  tp=parsed.get(str(target.relative_to(root)))
-                  if tp and frag not in tp.ids:
-                      bad_anchors.append((str(page),raw))
+          ua='Mozilla/5.0 (compatible; site-audit/1.0)'
+          def check_url(url):
+              # YouTube watch/embed URLs: oEmbed confirms a current public video where supported.
+              u=urlsplit(url)
+              vid=''
+              if 'youtube.com' in u.netloc:
+                  if u.path=='/watch':
+                      from urllib.parse import parse_qs
+                      vid=parse_qs(u.query).get('v',[''])[0]
+                  elif u.path.startswith('/embed/'):
+                      vid=u.path.split('/embed/',1)[1].split('/',1)[0]
+              elif 'youtu.be' in u.netloc:
+                  vid=u.path.strip('/').split('/',1)[0]
+              if vid:
+                  o='https://www.youtube.com/oembed?'+urlencode({'url':'https://www.youtube.com/watch?v='+vid,'format':'json'})
+                  req=urllib.request.Request(o,headers={'User-Agent':ua})
+                  try:
+                      with urllib.request.urlopen(req,timeout=12) as r:
+                          return url,r.status,'YOUTUBE_OK',vid
+                  except urllib.error.HTTPError as e:
+                      return url,e.code,'YOUTUBE_FAIL',vid
+                  except Exception as e:
+                      return url,0,'UNCERTAIN',str(e)[:90]
+              req=urllib.request.Request(url,headers={'User-Agent':ua},method='HEAD')
+              try:
+                  with urllib.request.urlopen(req,timeout=12) as r:
+                      return url,r.status,'OK',''
+              except urllib.error.HTTPError as e:
+                  if e.code in (403,405,429):
+                      # Many sites deliberately reject automated HEAD requests; GET is a better fallback.
+                      try:
+                          req2=urllib.request.Request(url,headers={'User-Agent':ua})
+                          with urllib.request.urlopen(req2,timeout=12) as r:
+                              return url,r.status,'OK_GET_FALLBACK',''
+                      except urllib.error.HTTPError as e2:
+                          return url,e2.code,'UNCERTAIN_BLOCKED',''
+                      except Exception as e2:
+                          return url,0,'UNCERTAIN',str(e2)[:90]
+                  return url,e.code,'FAIL',''
+              except Exception as e:
+                  return url,0,'UNCERTAIN',str(e)[:90]
 
-          for f in html_files:
-              p=parsed.get(str(f))
-              if not p: continue
-              for tag,k,raw in p.refs: target_exists(f, raw)
+          results=[]
+          with ThreadPoolExecutor(max_workers=12) as ex:
+              futs=[ex.submit(check_url,u) for u in sorted(urls)]
+              for fut in as_completed(futs): results.append(fut.result())
 
-          css_missing=[]
-          url_re=re.compile(r'url\(([^)]+)\)', re.I)
-          for f in css_files:
-              txt=f.read_text(encoding='utf-8')
-              for val in url_re.findall(txt):
-                  raw=val.strip().strip('"\'')
-                  if not raw or raw.startswith(('data:','http://','https://','//','#')): continue
-                  path=unquote(urlsplit(raw).path)
-                  t=(f.parent/path).resolve()
-                  if not t.exists(): css_missing.append((str(f),raw))
-
-          js_results=[]
-          for f in js_files:
-              cp=subprocess.run(['node','--check',str(f)],text=True,capture_output=True)
-              js_results.append((str(f),cp.returncode,cp.stderr.strip()))
-
-          # Count direct verified song records and calculate the current Sydney 8-hour slot song.
+          # Check all 200 direct song video IDs separately.
           script=Path('script.js').read_text(encoding='utf-8')
           block=script.split('const verifiedSongs=[',1)[1].split('];\nconst songRotation=',1)[0]
-          songs=re.findall(r'artist:\s*"([^"]*)",\s*\n\s*track:\s*"([^"]*)",\s*\n\s*videoId:\s*"([^"]+)"',block)
-          def seeded_shuffle(items, seed):
-              a=list(items); s=seed & 0xffffffff
-              def rnd():
-                  nonlocal s
-                  s=(s*1664525+1013904223)&0xffffffff
-                  return s/4294967296
-              for i in range(len(a)-1,0,-1):
-                  j=int(rnd()*(i+1)); a[i],a[j]=a[j],a[i]
-              return a
-          rot=seeded_shuffle(songs,0x20050319)
-          # This run is on 2026-09-24 Sydney time; slot 0 covers 00:00-07:59.
-          y,m,d,h=2026,9,24,5
-          epoch_ms=int(datetime.datetime(y,m,d,(h//8)*8,tzinfo=datetime.timezone.utc).timestamp()*1000)
-          serial=epoch_ms//(8*60*60*1000)
-          pick=rot[serial%len(rot)] if rot else ('','','')
+          song_ids=re.findall(r'videoId:\s*"([^"]+)"',block)
+          song_results=[]
+          def check_song(vid):
+              o='https://www.youtube.com/oembed?'+urlencode({'url':'https://www.youtube.com/watch?v='+vid,'format':'json'})
+              req=urllib.request.Request(o,headers={'User-Agent':ua})
+              try:
+                  with urllib.request.urlopen(req,timeout=12) as r: return vid,r.status,'OK'
+              except urllib.error.HTTPError as e: return vid,e.code,'FAIL'
+              except Exception as e: return vid,0,'UNCERTAIN'
+          with ThreadPoolExecutor(max_workers=8) as ex:
+              for r in ex.map(check_song,song_ids): song_results.append(r)
 
-          print('=== SITE AUDIT ===')
-          print('HTML pages:',len(html_files),'CSS:',len(css_files),'JS:',len(js_files))
-          print('Missing local targets:',json.dumps(missing,ensure_ascii=False))
-          print('Bad local anchors:',json.dumps(bad_anchors,ensure_ascii=False))
-          print('Duplicate IDs:',json.dumps(duplicate_ids,ensure_ascii=False))
-          print('Empty href/src:',json.dumps(empty_refs,ensure_ascii=False))
-          print('Missing CSS assets:',json.dumps(css_missing,ensure_ascii=False))
-          print('JS syntax:',json.dumps(js_results,ensure_ascii=False))
-          print('External URL references:',len(set(all_external)))
-          print('Verified-song records:',len(songs))
-          print('Current 8-hour song:',json.dumps({'artist':pick[0],'track':pick[1],'videoId':pick[2],'url':'https://www.youtube.com/watch?v='+pick[2]},ensure_ascii=False))
+          definite=[r for r in results if r[2] in ('FAIL','YOUTUBE_FAIL') and r[1] in (404,410)]
+          uncertain=[r for r in results if r[2].startswith('UNCERTAIN') or r[1]==0]
+          yt_bad=[r for r in song_results if r[2]=='FAIL']
+          yt_uncertain=[r for r in song_results if r[2]=='UNCERTAIN']
+          bad_images=[r for r in image_report if r[1] != 'OK']
 
-          failures=[]
-          if missing: failures.append('missing local targets')
-          if bad_anchors: failures.append('bad anchors')
-          if css_missing: failures.append('missing CSS assets')
-          if any(rc for _,rc,_ in js_results): failures.append('JavaScript syntax')
-          if failures:
-              print('AUDIT_WARNINGS:',', '.join(failures))
-          else:
-              print('STATIC_AUDIT_OK')
+          print('=== EXTERNAL / MEDIA AUDIT ===')
+          print('External URLs checked:',len(results))
+          print('Definite 404/410 links:',json.dumps(definite,ensure_ascii=False))
+          print('Blocked/timeout/uncertain external links:',len(uncertain))
+          if uncertain[:20]: print('Uncertain sample:',json.dumps(uncertain[:20],ensure_ascii=False))
+          print('Local images checked:',len(image_report),'bad:',json.dumps(bad_images,ensure_ascii=False))
+          print('Song YouTube IDs checked:',len(song_results))
+          print('Song IDs failing oEmbed:',json.dumps(yt_bad,ensure_ascii=False))
+          print('Song IDs uncertain:',len(yt_uncertain))
           PY
-
-      - name: Commit safe fixes
-        shell: bash
-        run: |
-          if git diff --quiet; then
-            echo 'No repository changes required.'
-            exit 0
-          fi
-          git config user.name 'site-audit-bot'
-          git config user.email 'site-audit-bot@users.noreply.github.com'
-          git add script.js front.js hero-polish.css *.html
-          git commit -m 'Fix song timing, mobile webcam and current Sport route'
-          git push
