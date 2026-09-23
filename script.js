@@ -268,11 +268,11 @@ function hash(s){let n=0;for(const c of s)n=(n*31+c.charCodeAt(0))>>>0;return n;
 
 /*
   Song rotation:
-  - changes every 8 hours in Sydney
+  - changes every 3 hours in Sydney
   - every named song enters the rotation
   - no song repeats until the whole pool has been used
   - the same artist is kept out of consecutive slots where possible
-  - the page automatically reloads when a new 8-hour slot begins
+  - the page automatically reloads when a new 3-hour slot begins
 */
 const directSongRotation=[
   {artist:'Old Mervs',track:'Parched',id:'myBg9F3EyRs'},
@@ -316,8 +316,8 @@ function sydneySlotKey(){
   }).formatToParts(new Date()).reduce((o,p)=>(o[p.type]=p.value,o),{});
   const y=+parts.year,m=+parts.month,d=+parts.day,h=(+parts.hour)%24;
   return {
-    key:`${y}-${String(m).padStart(2,'0')}-${String(d).padStart(2,'0')}-${Math.floor(h/8)}`,
-    serial:Math.floor(Date.UTC(y,m-1,d,Math.floor(h/8)*8)/(8*60*60*1000))
+    key:`${y}-${String(m).padStart(2,'0')}-${String(d).padStart(2,'0')}-${Math.floor(h/3)}`,
+    serial:Math.floor(Date.UTC(y,m-1,d,Math.floor(h/3)*3)/(3*60*60*1000))
   };
 }
 
