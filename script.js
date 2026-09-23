@@ -1308,7 +1308,7 @@ const songIndex=((currentSlot.serial%songRotation.length)+songRotation.length)%s
 const songPick=songRotation[songIndex];
 const key=currentSlot.key;
 const clipUrl='https://www.youtube.com/watch?v='+songPick.videoId;
-const artworkUrl='https://i.ytimg.com/vi/'+songPick.videoId+'/hqdefault.jpg';
+const artworkUrl='https://i.ytimg.com/vi/'+songPick.videoId+'/maxresdefault.jpg';
 
 setInterval(()=>{
   if(sydneySlotKey().key!==currentSlot.key)location.reload();
@@ -1328,13 +1328,13 @@ document.querySelectorAll('[data-youtube]').forEach(e=>{
 document.querySelectorAll('[data-artist-image]').forEach(e=>{
   e.src=artworkUrl;
   e.alt=songPick.artist+' — '+songPick.track;
-  e.onerror=()=>{e.onerror=null;e.src='assets/img/cassette.webp';};
+  e.onerror=()=>{if(!e.dataset.fallback){e.dataset.fallback='1';e.src='https://i.ytimg.com/vi/'+songPick.videoId+'/hqdefault.jpg';}else{e.onerror=null;e.src='assets/img/cassette.webp';}};
 });
 
 document.querySelectorAll('[data-video-frame]').forEach(frame=>{
   frame.innerHTML=`
     <a class="daily-video-poster" href="${clipUrl}" target="_blank" rel="noopener" aria-label="Watch ${songPick.artist} — ${songPick.track} on YouTube">
-      <img src="${artworkUrl}" alt="${songPick.artist} — ${songPick.track}" onerror="this.onerror=null;this.src='assets/img/cassette.webp'">
+      <img src="${artworkUrl}" alt="${songPick.artist} — ${songPick.track}" onerror="if(!this.dataset.fallback){this.dataset.fallback='1';this.src='https://i.ytimg.com/vi/${songPick.videoId}/hqdefault.jpg';}else{this.onerror=null;this.src='assets/img/cassette.webp';}">
       <span class="daily-video-shade"></span>
       <span class="daily-video-play">▶</span>
       <span class="daily-video-copy">
