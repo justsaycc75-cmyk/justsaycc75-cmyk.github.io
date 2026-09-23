@@ -267,12 +267,11 @@ function sydHour(){
 function hash(s){let n=0;for(const c of s)n=(n*31+c.charCodeAt(0))>>>0;return n;}
 
 /*
-  Song rotation:
+  Fixed 200-song rotation:
   - changes every 3 hours in Sydney
-  - NEVER serves a YouTube search-results URL
-  - only entries with a verified direct YouTube video ID can enter the live rotation
-  - artist/song/archive data can still contain the larger 245-artist library
-  - the page automatically reloads when a new 3-hour slot begins
+  - all entries have a stored direct YouTube video ID
+  - no search URLs, no external resolver, no placeholder tracks
+  - every one of the 200 songs appears before the sequence repeats
 */
 function seededShuffle(list,seed){
   const a=list.slice();
@@ -288,28 +287,1009 @@ function seededShuffle(list,seed){
   return a;
 }
 
-function buildArtistPool(){
-  const seen=new Set();
-  return regulars.filter(entry=>{
-    const k=(entry.artist||'').trim().toLowerCase();
-    if(!k || seen.has(k)) return false;
-    seen.add(k);
-    return true;
-  });
-}
-
-const artistPool=buildArtistPool();
-const rotationOrder=seededShuffle(artistPool,0x51A7C0DE);
-
-function pickTrackForArtist(entry,cycleNumber){
-  const named=(entry.tracks||[]).filter(track=>
-    track && !/^(featured track|featured performance|search the latest clip)$/i.test(track.trim())
-  );
-  if(named.length){
-    return named[Math.abs(cycleNumber)%named.length];
+const verifiedSongs=[
+  {
+    artist: "Fleetwood Mac",
+    track: "Gypsy",
+    videoId: "mwgg1Pu6cNg"
+  },
+  {
+    artist: "Fleetwood Mac",
+    track: "Everywhere",
+    videoId: "YF1R0hc5Q2I"
+  },
+  {
+    artist: "Fleetwood Mac",
+    track: "Landslide (Live)",
+    videoId: "WM7-PYtXtJM"
+  },
+  {
+    artist: "Fleetwood Mac",
+    track: "Seven Wonders",
+    videoId: "9b4F_ppjnKU"
+  },
+  {
+    artist: "Fleetwood Mac",
+    track: "Little Lies",
+    videoId: "uCGD9dT12C0"
+  },
+  {
+    artist: "Fleetwood Mac",
+    track: "Dreams",
+    videoId: "Y3ywicffOj4"
+  },
+  {
+    artist: "Fleetwood Mac",
+    track: "Silver Springs (Live)",
+    videoId: "eDwi-8n054s"
+  },
+  {
+    artist: "Fleetwood Mac",
+    track: "The Chain",
+    videoId: "kBYHwH1Vb-c"
+  },
+  {
+    artist: "The Killers",
+    track: "Mr. Brightside",
+    videoId: "gGdGFtwCNBE"
+  },
+  {
+    artist: "The Killers",
+    track: "Somebody Told Me",
+    videoId: "Y5fBdpreJiU"
+  },
+  {
+    artist: "The Killers",
+    track: "Human",
+    videoId: "RIZdjT1472Y"
+  },
+  {
+    artist: "The Killers",
+    track: "When You Were Young",
+    videoId: "ff0oWESdmH0"
+  },
+  {
+    artist: "The Killers",
+    track: "Read My Mind",
+    videoId: "zc8hbSM1zVo"
+  },
+  {
+    artist: "The Killers",
+    track: "Shot At The Night",
+    videoId: "X4YK-DEkvcw"
+  },
+  {
+    artist: "The Killers",
+    track: "All These Things That I've Done",
+    videoId: "sZTpLvsYYHw"
+  },
+  {
+    artist: "The Killers",
+    track: "Just Another Girl",
+    videoId: "3BwzP1laWkQ"
+  },
+  {
+    artist: "The Killers",
+    track: "The Man",
+    videoId: "w3xcybdis1k"
+  },
+  {
+    artist: "Arctic Monkeys",
+    track: "Do I Wanna Know?",
+    videoId: "bpOSxM0rNPM"
+  },
+  {
+    artist: "Arctic Monkeys",
+    track: "R U Mine?",
+    videoId: "VQH8ZTgna3Q"
+  },
+  {
+    artist: "Arctic Monkeys",
+    track: "Why'd You Only Call Me When You're High?",
+    videoId: "6366dxFf-Os"
+  },
+  {
+    artist: "Arctic Monkeys",
+    track: "Fluorescent Adolescent",
+    videoId: "ma9I9VBKPiw"
+  },
+  {
+    artist: "Arctic Monkeys",
+    track: "Arabella",
+    videoId: "Nj8r3qmOoZ8"
+  },
+  {
+    artist: "Arctic Monkeys",
+    track: "Snap Out Of It",
+    videoId: "H8tLS_NOWLs"
+  },
+  {
+    artist: "Aerosmith",
+    track: "I Don't Want to Miss a Thing",
+    videoId: "JkK8g6FMEXE"
+  },
+  {
+    artist: "Aerosmith",
+    track: "Crazy",
+    videoId: "NMNgbISmF4I"
+  },
+  {
+    artist: "Aerosmith",
+    track: "Cryin'",
+    videoId: "qfNmyxV2Ncw"
+  },
+  {
+    artist: "Aerosmith",
+    track: "Amazing",
+    videoId: "zSmOvYzSeaQ"
+  },
+  {
+    artist: "Aerosmith",
+    track: "Dream On",
+    videoId: "89dGC8de0CA"
+  },
+  {
+    artist: "Aerosmith",
+    track: "Hole In My Soul",
+    videoId: "HaC0s-FP-r4"
+  },
+  {
+    artist: "Aerosmith",
+    track: "Angel",
+    videoId: "CBTOGVb_cQg"
+  },
+  {
+    artist: "Aerosmith",
+    track: "Walk This Way",
+    videoId: "4B_UYYPb-Gk"
+  },
+  {
+    artist: "The Beatles",
+    track: "Don't Let Me Down",
+    videoId: "NCtzkaL2t_Y"
+  },
+  {
+    artist: "The Beatles",
+    track: "Hey Jude",
+    videoId: "A_MjCqQoLLA"
+  },
+  {
+    artist: "The Beatles",
+    track: "Here Comes The Sun",
+    videoId: "KQetemT1sWc"
+  },
+  {
+    artist: "The Beatles",
+    track: "Hello, Goodbye",
+    videoId: "rblYSKz_VnI"
+  },
+  {
+    artist: "The Beatles",
+    track: "Help!",
+    videoId: "2Q_ZzBGPdqE"
+  },
+  {
+    artist: "The Beatles",
+    track: "A Day In The Life",
+    videoId: "usNsCeOV4GM"
+  },
+  {
+    artist: "The Beatles",
+    track: "Come Together",
+    videoId: "45cYwDMibGo"
+  },
+  {
+    artist: "The Beatles",
+    track: "Something",
+    videoId: "UelDrZ1aFeY"
+  },
+  {
+    artist: "The Beatles",
+    track: "Penny Lane",
+    videoId: "S-rB0pHI9fU"
+  },
+  {
+    artist: "Foo Fighters",
+    track: "The Pretender",
+    videoId: "SBjQ9tuuTJQ"
+  },
+  {
+    artist: "Foo Fighters",
+    track: "Everlong",
+    videoId: "eBG7P-K-r1Y"
+  },
+  {
+    artist: "Foo Fighters",
+    track: "Best Of You",
+    videoId: "h_L4Rixya64"
+  },
+  {
+    artist: "Foo Fighters",
+    track: "Learn To Fly",
+    videoId: "1VQ_3sBZEm0"
+  },
+  {
+    artist: "Foo Fighters",
+    track: "Walk",
+    videoId: "4PkcfQtibmU"
+  },
+  {
+    artist: "Foo Fighters",
+    track: "All My Life",
+    videoId: "xQ04WbgI9rg"
+  },
+  {
+    artist: "Foo Fighters",
+    track: "My Hero",
+    videoId: "EqWRaAF6_WY"
+  },
+  {
+    artist: "Foo Fighters",
+    track: "Times Like These",
+    videoId: "rhzmNRtIp8k"
+  },
+  {
+    artist: "Foo Fighters",
+    track: "The Sky Is A Neighborhood",
+    videoId: "TRqiFPpw2fY"
+  },
+  {
+    artist: "Bob Dylan",
+    track: "Hurricane",
+    videoId: "bpZvg_FjL3Q"
+  },
+  {
+    artist: "Bob Dylan",
+    track: "Like a Rolling Stone",
+    videoId: "IwOfCgkyEj0"
+  },
+  {
+    artist: "Bob Dylan",
+    track: "Knockin' On Heaven's Door",
+    videoId: "rm9coqlk8fY"
+  },
+  {
+    artist: "Bob Dylan",
+    track: "Blowin' in the Wind",
+    videoId: "MMFj8uDubsE"
+  },
+  {
+    artist: "Bob Dylan",
+    track: "Tangled Up In Blue",
+    videoId: "YwSZvHqf9qM"
+  },
+  {
+    artist: "Bob Dylan",
+    track: "Things Have Changed",
+    videoId: "L9EKqQWPjyo"
+  },
+  {
+    artist: "Bob Dylan",
+    track: "The Times They Are A-Changin'",
+    videoId: "90WD_ats6eE"
+  },
+  {
+    artist: "Bob Dylan",
+    track: "Don't Think Twice, It's All Right",
+    videoId: "1iHhWh9FtsQ"
+  },
+  {
+    artist: "Bob Dylan",
+    track: "A Hard Rain's A-Gonna Fall",
+    videoId: "T5al0HmR4to"
+  },
+  {
+    artist: "Bob Dylan",
+    track: "Thunder On The Mountain",
+    videoId: "0RPkJeziNyI"
+  },
+  {
+    artist: "The Rolling Stones",
+    track: "Anybody Seen My Baby",
+    videoId: "BinwuzZVjnE"
+  },
+  {
+    artist: "The Rolling Stones",
+    track: "Angie",
+    videoId: "RcZn2-bGXqQ"
+  },
+  {
+    artist: "The Rolling Stones",
+    track: "Start Me Up",
+    videoId: "SGyOaCXr8Lw"
+  },
+  {
+    artist: "The Rolling Stones",
+    track: "Waiting On A Friend",
+    videoId: "MKLVmBOOqVU"
+  },
+  {
+    artist: "The Rolling Stones",
+    track: "Gimme Shelter (Live)",
+    videoId: "8kl6q_9qZOs"
+  },
+  {
+    artist: "The Rolling Stones",
+    track: "Angry",
+    videoId: "_mEC54eTuGw"
+  },
+  {
+    artist: "The Rolling Stones",
+    track: "Ride 'Em On Down",
+    videoId: "qEuV82GqQnE"
+  },
+  {
+    artist: "The Rolling Stones",
+    track: "She's So Cold",
+    videoId: "jo34VhfcetU"
+  },
+  {
+    artist: "Led Zeppelin",
+    track: "Whole Lotta Love",
+    videoId: "HQmmM_qwG4k"
+  },
+  {
+    artist: "Led Zeppelin",
+    track: "Kashmir (Celebration Day)",
+    videoId: "PD-MdiUm1_Y"
+  },
+  {
+    artist: "Led Zeppelin",
+    track: "Stairway To Heaven",
+    videoId: "QkF3oxziUI4"
+  },
+  {
+    artist: "Led Zeppelin",
+    track: "Immigrant Song (Live)",
+    videoId: "RlNhD0oS5pk"
+  },
+  {
+    artist: "Led Zeppelin",
+    track: "Black Dog (Live)",
+    videoId: "6tlSx0jkuLM"
+  },
+  {
+    artist: "Led Zeppelin",
+    track: "Going To California",
+    videoId: "nhVfuacsLDw"
+  },
+  {
+    artist: "Led Zeppelin",
+    track: "Ramble On",
+    videoId: "LzGBQerkvWs"
+  },
+  {
+    artist: "Bruce Springsteen",
+    track: "Dancing In the Dark",
+    videoId: "129kuDCQtHs"
+  },
+  {
+    artist: "Bruce Springsteen",
+    track: "Streets of Philadelphia",
+    videoId: "4z2DtNW79sQ"
+  },
+  {
+    artist: "Bruce Springsteen",
+    track: "Tougher Than the Rest",
+    videoId: "_91hNV6vuBY"
+  },
+  {
+    artist: "Bruce Springsteen",
+    track: "My Hometown (Live)",
+    videoId: "KZ3BJYx43y0"
+  },
+  {
+    artist: "Bruce Springsteen",
+    track: "Born in the U.S.A.",
+    videoId: "EPhWR4d3FJQ"
+  },
+  {
+    artist: "Bruce Springsteen",
+    track: "You Never Can Tell (Live)",
+    videoId: "L-Ds-FXGGQg"
+  },
+  {
+    artist: "Bruce Springsteen",
+    track: "I'm On Fire",
+    videoId: "lrpXArn3hII"
+  },
+  {
+    artist: "Bruce Springsteen",
+    track: "Born to Run",
+    videoId: "IxuThNgl3YA"
+  },
+  {
+    artist: "Bruce Springsteen",
+    track: "Glory Days",
+    videoId: "6vQpW9XRiyM"
+  },
+  {
+    artist: "Bruce Springsteen",
+    track: "Waitin' On A Sunny Day",
+    videoId: "TiCxqhu9cio"
+  },
+  {
+    artist: "Queen",
+    track: "Bohemian Rhapsody",
+    videoId: "fJ9rUzIMcZQ"
+  },
+  {
+    artist: "Queen",
+    track: "Don't Stop Me Now",
+    videoId: "HgzGwKwLmgM"
+  },
+  {
+    artist: "Queen",
+    track: "Another One Bites the Dust",
+    videoId: "rY0WxgSXdEE"
+  },
+  {
+    artist: "Queen",
+    track: "We Will Rock You",
+    videoId: "-tJYN-eG1zk"
+  },
+  {
+    artist: "Queen",
+    track: "I Want To Break Free",
+    videoId: "f4Mc-NYPHaQ"
+  },
+  {
+    artist: "Queen",
+    track: "Somebody To Love",
+    videoId: "kijpcUv-b8M"
+  },
+  {
+    artist: "Queen",
+    track: "Radio Ga Ga",
+    videoId: "azdwsXLmrHE"
+  },
+  {
+    artist: "Queen",
+    track: "Killer Queen",
+    videoId: "2ZBtPf7FOoM"
+  },
+  {
+    artist: "Queen",
+    track: "We Are The Champions",
+    videoId: "04854XqcfCY"
+  },
+  {
+    artist: "Queen",
+    track: "The Show Must Go On",
+    videoId: "t99KH0TR-J4"
+  },
+  {
+    artist: "Eagles",
+    track: "Hotel California (Live)",
+    videoId: "09839DpTctU"
+  },
+  {
+    artist: "Eagles",
+    track: "Lyin' Eyes",
+    videoId: "PqccEpqvwPY"
+  },
+  {
+    artist: "Eagles",
+    track: "Tequila Sunrise",
+    videoId: "bZxhQJC9hWk"
+  },
+  {
+    artist: "Eagles",
+    track: "I Can't Tell You Why",
+    videoId: "Odcn6qk94bs"
+  },
+  {
+    artist: "Eagles",
+    track: "Take It Easy",
+    videoId: "AaBw37-nWaY"
+  },
+  {
+    artist: "Eagles",
+    track: "Take It To The Limit",
+    videoId: "MxQXKO194XM"
+  },
+  {
+    artist: "Eagles",
+    track: "Desperado",
+    videoId: "FiPqUjLMuA8"
+  },
+  {
+    artist: "Eagles",
+    track: "In The City",
+    videoId: "J39LK_wDzKw"
+  },
+  {
+    artist: "Eagles",
+    track: "New Kid In Town",
+    videoId: "_fW2rw8SwoA"
+  },
+  {
+    artist: "U2",
+    track: "With Or Without You",
+    videoId: "XmSdTa9kaiQ"
+  },
+  {
+    artist: "U2",
+    track: "I Still Haven't Found What I'm Looking For",
+    videoId: "e3-5YC_oHjE"
+  },
+  {
+    artist: "U2",
+    track: "Beautiful Day",
+    videoId: "co6WMzDOh1o"
+  },
+  {
+    artist: "U2",
+    track: "One",
+    videoId: "ftjEcrrf7r0"
+  },
+  {
+    artist: "U2",
+    track: "Pride (In The Name Of Love)",
+    videoId: "LHcP4MWABGY"
+  },
+  {
+    artist: "U2",
+    track: "Ordinary Love (Live)",
+    videoId: "Fum3g86zUPc"
+  },
+  {
+    artist: "U2",
+    track: "Vertigo",
+    videoId: "98W9QuMq-2k"
+  },
+  {
+    artist: "U2",
+    track: "Where The Streets Have No Name",
+    videoId: "GzZWSrr5wFI"
+  },
+  {
+    artist: "U2",
+    track: "Sweetest Thing",
+    videoId: "5WybiA263bw"
+  },
+  {
+    artist: "U2",
+    track: "Sunday Bloody Sunday (Live)",
+    videoId: "EM4vblG6BVQ"
+  },
+  {
+    artist: "U2",
+    track: "Magnificent",
+    videoId: "Yi52HjJbwVQ"
+  },
+  {
+    artist: "Radiohead",
+    track: "Creep",
+    videoId: "XFkzRNyygfk"
+  },
+  {
+    artist: "Radiohead",
+    track: "No Surprises",
+    videoId: "u5CVsCnxyXg"
+  },
+  {
+    artist: "Radiohead",
+    track: "Karma Police",
+    videoId: "1uYWYWPc9HU"
+  },
+  {
+    artist: "Radiohead",
+    track: "High and Dry",
+    videoId: "7qFfFVSerQo"
+  },
+  {
+    artist: "Radiohead",
+    track: "Fake Plastic Trees",
+    videoId: "n5h0qHwNrHk"
+  },
+  {
+    artist: "Radiohead",
+    track: "Lotus Flower",
+    videoId: "cfOa1a8hYP8"
+  },
+  {
+    artist: "Radiohead",
+    track: "Daydreaming",
+    videoId: "TTAU7lLDZYU"
+  },
+  {
+    artist: "Radiohead",
+    track: "Street Spirit (Fade Out)",
+    videoId: "LCJblaUkkfc"
+  },
+  {
+    artist: "Radiohead",
+    track: "Jigsaw Falling Into Place",
+    videoId: "GoLJJRIWCLU"
+  },
+  {
+    artist: "Radiohead",
+    track: "House of Cards",
+    videoId: "8nTFjVm9sTQ"
+  },
+  {
+    artist: "Radiohead",
+    track: "Burn The Witch",
+    videoId: "yI2oS2hoL0k"
+  },
+  {
+    artist: "Oasis",
+    track: "Wonderwall",
+    videoId: "6hzrDeceEKc"
+  },
+  {
+    artist: "Oasis",
+    track: "Don't Look Back In Anger",
+    videoId: "r8OipmKFDeM"
+  },
+  {
+    artist: "Oasis",
+    track: "Stop Crying Your Heart Out",
+    videoId: "dhZUsNJ-LQU"
+  },
+  {
+    artist: "Oasis",
+    track: "Stand By Me",
+    videoId: "maTP315XZCQ"
+  },
+  {
+    artist: "Oasis",
+    track: "Champagne Supernova",
+    videoId: "tI-5uv4wryI"
+  },
+  {
+    artist: "Oasis",
+    track: "Whatever",
+    videoId: "EHfx9LXzxpw"
+  },
+  {
+    artist: "Oasis",
+    track: "Supersonic",
+    videoId: "BJKpUH2kJQg"
+  },
+  {
+    artist: "Oasis",
+    track: "Don't Go Away",
+    videoId: "Ab1nJg4RKw0"
+  },
+  {
+    artist: "Oasis",
+    track: "Live Forever",
+    videoId: "TDe1DqxwJoc"
+  },
+  {
+    artist: "The Police",
+    track: "Every Breath You Take",
+    videoId: "OMOGaugKpzs"
+  },
+  {
+    artist: "The Police",
+    track: "Roxanne",
+    videoId: "3T1c7GkzRQQ"
+  },
+  {
+    artist: "The Police",
+    track: "Message In A Bottle",
+    videoId: "MbXWrmQW-OE"
+  },
+  {
+    artist: "The Police",
+    track: "Every Little Thing She Does Is Magic",
+    videoId: "aENX1Sf3fgQ"
+  },
+  {
+    artist: "The Police",
+    track: "Walking On The Moon",
+    videoId: "zPwMdZOlPo8"
+  },
+  {
+    artist: "The Police",
+    track: "Don't Stand So Close To Me",
+    videoId: "KNIZofPB8ZM"
+  },
+  {
+    artist: "The Police",
+    track: "Wrapped Around Your Finger",
+    videoId: "svWINSRhQU0"
+  },
+  {
+    artist: "The Police",
+    track: "De Do Do Do, De Da Da Da",
+    videoId: "7v2GDbEmjGE"
+  },
+  {
+    artist: "The Police",
+    track: "So Lonely",
+    videoId: "MX6MvV8cbh8"
+  },
+  {
+    artist: "The Police",
+    track: "Can't Stand Losing You",
+    videoId: "nH0vjLwMyc4"
+  },
+  {
+    artist: "The Police",
+    track: "Spirits In The Material World",
+    videoId: "BHOevX4DlGk"
+  },
+  {
+    artist: "The Police",
+    track: "Synchronicity II",
+    videoId: "o5FPPoLqkCk"
+  },
+  {
+    artist: "Tame Impala",
+    track: "The Less I Know The Better",
+    videoId: "2SUwOgmvzK4"
+  },
+  {
+    artist: "Tame Impala",
+    track: "Let It Happen",
+    videoId: "pFptt7Cargc"
+  },
+  {
+    artist: "Tame Impala",
+    track: "Feels Like We Only Go Backwards",
+    videoId: "wycjnCCgUes"
+  },
+  {
+    artist: "Tame Impala",
+    track: "Borderline",
+    videoId: "2g5xkLqIElU"
+  },
+  {
+    artist: "Tame Impala",
+    track: "New Person, Same Old Mistakes",
+    videoId: "_9bw_VtMUGA"
+  },
+  {
+    artist: "Tame Impala",
+    track: "Dracula",
+    videoId: "xnP7qKxwzjg"
+  },
+  {
+    artist: "Tame Impala",
+    track: "Loser",
+    videoId: "s3a4OQR-10M"
+  },
+  {
+    artist: "Tame Impala",
+    track: "Eventually",
+    videoId: "GHe8kKO8uds"
+  },
+  {
+    artist: "Tame Impala",
+    track: "Mind Mischief",
+    videoId: "BgK_Er7WZVg"
+  },
+  {
+    artist: "Tame Impala",
+    track: "Is It True",
+    videoId: "KN8nJFLu1Rk"
+  },
+  {
+    artist: "Tame Impala",
+    track: "Lost in Yesterday",
+    videoId: "utCjuKDXQsE"
+  },
+  {
+    artist: "Tame Impala",
+    track: "Half Full Glass of Wine",
+    videoId: "zfcHq0hhFWg"
+  },
+  {
+    artist: "Tame Impala",
+    track: "One More Hour",
+    videoId: "Y0U6u2D8cMU"
+  },
+  {
+    artist: "Tame Impala",
+    track: "'Cause I'm A Man",
+    videoId: "hefh9dFnChY"
+  },
+  {
+    artist: "Tame Impala",
+    track: "Breathe Deeper",
+    videoId: "gs-MtItyOFc"
+  },
+  {
+    artist: "Tame Impala",
+    track: "Elephant",
+    videoId: "LnKUD_OztRE"
+  },
+  {
+    artist: "Depeche Mode",
+    track: "Enjoy the Silence",
+    videoId: "aGSKrC7dGcY"
+  },
+  {
+    artist: "Depeche Mode",
+    track: "Personal Jesus",
+    videoId: "u1xrNaTO1bI"
+  },
+  {
+    artist: "Depeche Mode",
+    track: "Never Let Me Down Again",
+    videoId: "snILjFUkk_A"
+  },
+  {
+    artist: "Depeche Mode",
+    track: "Policy of Truth",
+    videoId: "M2VBmHOYpV8"
+  },
+  {
+    artist: "Depeche Mode",
+    track: "Strangelove",
+    videoId: "JIrm0dHbCDU"
+  },
+  {
+    artist: "Depeche Mode",
+    track: "Just Can't Get Enough",
+    videoId: "_6FBfAQ-NDE"
+  },
+  {
+    artist: "Depeche Mode",
+    track: "Precious",
+    videoId: "8yn3ViE6mhY"
+  },
+  {
+    artist: "Depeche Mode",
+    track: "Everything Counts",
+    videoId: "1t-gK-9EIq4"
+  },
+  {
+    artist: "Depeche Mode",
+    track: "It's No Good",
+    videoId: "stpaq27-V70"
+  },
+  {
+    artist: "Depeche Mode",
+    track: "Heaven",
+    videoId: "Fy7FzXLin7o"
+  },
+  {
+    artist: "David Bowie",
+    track: "Heroes",
+    videoId: "lXgkuM2NhYI"
+  },
+  {
+    artist: "David Bowie",
+    track: "Lazarus",
+    videoId: "y-JqH1M4Ya8"
+  },
+  {
+    artist: "David Bowie",
+    track: "Blackstar",
+    videoId: "kszLwBaC4Sw"
+  },
+  {
+    artist: "David Bowie",
+    track: "Ashes To Ashes",
+    videoId: "CMThz7eQ6K0"
+  },
+  {
+    artist: "David Bowie",
+    track: "Valentine's Day",
+    videoId: "S4R8HTIgHUU"
+  },
+  {
+    artist: "David Bowie",
+    track: "The Stars (Are Out Tonight)",
+    videoId: "gH7dMBcg-gE"
+  },
+  {
+    artist: "David Bowie",
+    track: "Where Are We Now?",
+    videoId: "QWtsV50_-p4"
+  },
+  {
+    artist: "David Bowie",
+    track: "Rebel Rebel (Live)",
+    videoId: "eF551z9KlA8"
+  },
+  {
+    artist: "David Bowie",
+    track: "Blue Jean",
+    videoId: "LTYvjrM6djo"
+  },
+  {
+    artist: "David Bowie",
+    track: "Ziggy Stardust (Live)",
+    videoId: "G8sdsW93ThQ"
+  },
+  {
+    artist: "The Cure",
+    track: "Just Like Heaven",
+    videoId: "n3nPiBai66M"
+  },
+  {
+    artist: "The Cure",
+    track: "Friday I'm In Love",
+    videoId: "mGgMZpGYiy8"
+  },
+  {
+    artist: "The Cure",
+    track: "Boys Don't Cry",
+    videoId: "9GkVhgIeGJQ"
+  },
+  {
+    artist: "The Cure",
+    track: "Pictures Of You",
+    videoId: "UmFFTkjs-O0"
+  },
+  {
+    artist: "The Cure",
+    track: "Lullaby",
+    videoId: "ijxk-fgcg7c"
+  },
+  {
+    artist: "The Cure",
+    track: "Lovesong",
+    videoId: "ks_qOI0lzho"
+  },
+  {
+    artist: "The Cure",
+    track: "In Between Days",
+    videoId: "scif2vfg1ug"
+  },
+  {
+    artist: "The Cure",
+    track: "Close To Me",
+    videoId: "BjvfIJstWeg"
+  },
+  {
+    artist: "The Cure",
+    track: "A Forest",
+    videoId: "xik-y0xlpZ0"
+  },
+  {
+    artist: "Midnight Oil",
+    track: "Beds Are Burning",
+    videoId: "ejorQVy3m8E"
+  },
+  {
+    artist: "Midnight Oil",
+    track: "The Dead Heart",
+    videoId: "16bFBzx7I_0"
+  },
+  {
+    artist: "Midnight Oil",
+    track: "Blue Sky Mine",
+    videoId: "Ofrqm6-LCqs"
+  },
+  {
+    artist: "Midnight Oil",
+    track: "Forgotten Years",
+    videoId: "X9eap_cKLP4"
+  },
+  {
+    artist: "Midnight Oil",
+    track: "King Of The Mountain",
+    videoId: "OuC_k51NUqU"
+  },
+  {
+    artist: "Midnight Oil",
+    track: "Dreamworld",
+    videoId: "OcKcjpSWmm0"
+  },
+  {
+    artist: "Midnight Oil",
+    track: "Put Down That Weapon",
+    videoId: "XzEwCc4WVKs"
+  },
+  {
+    artist: "Midnight Oil",
+    track: "Power and the Passion",
+    videoId: "6pKPNnk-JhE"
+  },
+  {
+    artist: "Midnight Oil",
+    track: "Truganini",
+    videoId: "LcxdbZ5chcc"
   }
-  return 'Featured track';
-}
+];
+const songRotation=seededShuffle(verifiedSongs,0x20050319);
 
 function sydneySlotKey(){
   const parts=new Intl.DateTimeFormat('en-CA',{
@@ -324,168 +1304,46 @@ function sydneySlotKey(){
 }
 
 const currentSlot=sydneySlotKey();
-const artistIndex=((currentSlot.serial%rotationOrder.length)+rotationOrder.length)%rotationOrder.length;
-const cycleNumber=Math.floor(currentSlot.serial/rotationOrder.length);
-const artistEntry=rotationOrder[artistIndex];
-const trackPick=pickTrackForArtist(artistEntry,cycleNumber);
-const artistPick={artist:artistEntry.artist,embed:artistEntry.embed||''};
+const songIndex=((currentSlot.serial%songRotation.length)+songRotation.length)%songRotation.length;
+const songPick=songRotation[songIndex];
 const key=currentSlot.key;
-let resolvedTrack=trackPick;
-let resolvedVideoId=((artistEntry.tracks||[])[0]===trackPick ? (artistEntry.embed||'') : '').trim();
-let clipUrl=resolvedVideoId?'https://www.youtube.com/watch?v='+resolvedVideoId:'';
-let artworkUrl=resolvedVideoId
-  ? 'https://i.ytimg.com/vi/'+resolvedVideoId+'/hqdefault.jpg'
-  : 'assets/img/cassette.webp';
+const clipUrl='https://www.youtube.com/watch?v='+songPick.videoId;
+const artworkUrl='https://i.ytimg.com/vi/'+songPick.videoId+'/hqdefault.jpg';
 
 setInterval(()=>{
   if(sydneySlotKey().key!==currentSlot.key)location.reload();
 },60000);
 
-function paintDailySong(){
-  document.querySelectorAll('[data-daily-artist]').forEach(e=>e.textContent=artistPick.artist);
-  document.querySelectorAll('[data-daily-track]').forEach(e=>e.textContent=resolvedTrack);
+document.querySelectorAll('[data-daily-artist]').forEach(e=>e.textContent=songPick.artist);
+document.querySelectorAll('[data-daily-track]').forEach(e=>e.textContent=songPick.track);
+document.querySelectorAll('[data-youtube]').forEach(e=>{
+  e.href=clipUrl;
+  e.target='_blank';
+  e.rel='noopener';
+  e.removeAttribute('aria-disabled');
+  e.classList.remove('link-disabled');
+  e.textContent='Watch song on YouTube →';
+});
 
-  document.querySelectorAll('[data-youtube]').forEach(e=>{
-    if(clipUrl){
-      e.href=clipUrl;
-      e.target='_blank';
-      e.rel='noopener';
-      e.removeAttribute('aria-disabled');
-      e.classList.remove('link-disabled');
-      e.textContent='Watch song on YouTube →';
-    }else{
-      e.removeAttribute('href');
-      e.setAttribute('aria-disabled','true');
-      e.classList.add('link-disabled');
-      e.textContent='Finding direct song link…';
-    }
-  });
+document.querySelectorAll('[data-artist-image]').forEach(e=>{
+  e.src=artworkUrl;
+  e.alt=songPick.artist+' — '+songPick.track;
+  e.onerror=()=>{e.onerror=null;e.src='assets/img/cassette.webp';};
+});
 
-  document.querySelectorAll('[data-artist-image]').forEach(e=>{
-    e.src=artworkUrl;
-    e.alt=artistPick.artist+' — '+resolvedTrack;
-    e.onerror=()=>{e.onerror=null;e.src='assets/img/cassette.webp';};
-  });
-
-  document.querySelectorAll('[data-video-frame]').forEach(frame=>{
-    if(clipUrl){
-      frame.innerHTML=`
-        <a class="daily-video-poster" href="${clipUrl}" target="_blank" rel="noopener" aria-label="Watch ${artistPick.artist} — ${resolvedTrack} on YouTube">
-          <img src="${artworkUrl}" alt="${artistPick.artist} — ${resolvedTrack}" onerror="this.onerror=null;this.src='assets/img/cassette.webp'">
-          <span class="daily-video-shade"></span>
-          <span class="daily-video-play">▶</span>
-          <span class="daily-video-copy">
-            <small>WATCH ON YOUTUBE</small>
-            <strong>${artistPick.artist}</strong>
-            <em>${resolvedTrack}</em>
-          </span>
-        </a>`;
-    }else{
-      frame.innerHTML=`
-        <div class="daily-video-poster" aria-live="polite">
-          <img src="assets/img/cassette.webp" alt="${artistPick.artist}">
-          <span class="daily-video-shade"></span>
-          <span class="daily-video-copy">
-            <small>DIRECT LINK LOADING</small>
-            <strong>${artistPick.artist}</strong>
-            <em>${resolvedTrack}</em>
-          </span>
-        </div>`;
-    }
-  });
-}
-
-function normaliseWords(s){
-  return (s||'').toLowerCase()
-    .normalize('NFKD').replace(/[\u0300-\u036f]/g,'')
-    .replace(/[^a-z0-9]+/g,' ').trim();
-}
-
-function scoreVideo(item,artist,requestedTrack){
-  const a=normaliseWords(artist);
-  const t=normaliseWords(requestedTrack);
-  const hay=normaliseWords((item.author||'')+' '+(item.title||''));
-  let score=0;
-  if(a && hay.includes(a))score+=50;
-  for(const token of a.split(' ').filter(x=>x.length>2)){
-    if(hay.includes(token))score+=6;
-  }
-  if(t && t!=='featured track'){
-    if(hay.includes(t))score+=40;
-    for(const token of t.split(' ').filter(x=>x.length>2)){
-      if(hay.includes(token))score+=4;
-    }
-  }
-  if(/official|topic|vevo/.test(hay))score+=4;
-  return score;
-}
-
-function cleanResolvedTitle(title,artist){
-  let out=(title||'').replace(/\s*[\(\[]\s*(official[^\)\]]*|lyrics?|audio|video|hd|4k)[\)\]]\s*/ig,' ').trim();
-  const esc=artist.replace(/[.*+?^$()|[\]\\{}]/g,'\\$&');
-  out=out.replace(new RegExp('^'+esc+'\\s*[-–—:]\\s*','i'),'').trim();
-  return out||'Featured track';
-}
-
-const resolverInstances=[
-  'https://inv.nadeko.net',
-  'https://invidious.nerdvpn.de',
-  'https://yt.chocolatemoo53.com',
-  'https://invidious.tiekoetter.com'
-];
-
-async function resolveDirectVideo(artist,requestedTrack){
-  const cacheKey='mrp-direct-youtube-v3';
-  let cache={};
-  try{cache=JSON.parse(localStorage.getItem(cacheKey)||'{}');}catch(_){}
-  const id=normaliseWords(artist)+'|'+normaliseWords(requestedTrack);
-  if(cache[id]?.videoId)return cache[id];
-
-  const q=artist+' '+(requestedTrack==='Featured track'?'official music':requestedTrack+' official');
-  for(const base of resolverInstances){
-    try{
-      const controller=new AbortController();
-      const timeout=setTimeout(()=>controller.abort(),4500);
-      const r=await fetch(base+'/api/v1/search?q='+encodeURIComponent(q)+'&type=video',{signal:controller.signal,mode:'cors'});
-      clearTimeout(timeout);
-      if(!r.ok)continue;
-      const data=await r.json();
-      const videos=(Array.isArray(data)?data:[]).filter(x=>x&&x.videoId&&x.title);
-      if(!videos.length)continue;
-      videos.sort((a,b)=>scoreVideo(b,artist,requestedTrack)-scoreVideo(a,artist,requestedTrack));
-      const best=videos[0];
-      if(scoreVideo(best,artist,requestedTrack)<12)continue;
-      const result={
-        videoId:best.videoId,
-        title:requestedTrack==='Featured track'?cleanResolvedTitle(best.title,artist):requestedTrack
-      };
-      cache[id]=result;
-      try{localStorage.setItem(cacheKey,JSON.stringify(cache));}catch(_){}
-      return result;
-    }catch(_){}
-  }
-  return null;
-}
-
-paintDailySong();
-
-if(!resolvedVideoId){
-  resolveDirectVideo(artistPick.artist,trackPick).then(found=>{
-    if(!found){
-      document.querySelectorAll('[data-youtube]').forEach(e=>{
-        e.removeAttribute('href');
-        e.setAttribute('aria-disabled','true');
-        e.textContent='Direct song link unavailable';
-      });
-      return;
-    }
-    resolvedVideoId=found.videoId;
-    resolvedTrack=found.title||trackPick;
-    clipUrl='https://www.youtube.com/watch?v='+resolvedVideoId;
-    artworkUrl='https://i.ytimg.com/vi/'+resolvedVideoId+'/hqdefault.jpg';
-    paintDailySong();
-  });
-}
+document.querySelectorAll('[data-video-frame]').forEach(frame=>{
+  frame.innerHTML=`
+    <a class="daily-video-poster" href="${clipUrl}" target="_blank" rel="noopener" aria-label="Watch ${songPick.artist} — ${songPick.track} on YouTube">
+      <img src="${artworkUrl}" alt="${songPick.artist} — ${songPick.track}" onerror="this.onerror=null;this.src='assets/img/cassette.webp'">
+      <span class="daily-video-shade"></span>
+      <span class="daily-video-play">▶</span>
+      <span class="daily-video-copy">
+        <small>WATCH ON YOUTUBE</small>
+        <strong>${songPick.artist}</strong>
+        <em>${songPick.track}</em>
+      </span>
+    </a>`;
+});
 
 const archivePick=archive[hash(key+'archive')%archive.length];
 document.querySelectorAll('[data-archive-img]').forEach(e=>{e.src=archivePick.img;e.alt=archivePick.title;});
