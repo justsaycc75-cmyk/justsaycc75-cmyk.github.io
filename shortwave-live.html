@@ -37,7 +37,7 @@
   <div class="main-grid">
     <section class="panel panel-pad">
       <div class="map-title"><div><div class="section-label">Live solar terminator • updated each second</div><h2>Sydney greyline &amp; listening paths</h2></div><div class="mini-time" id="miniTime">—</div></div>
-      <div class="map-wrap"><img src="assets/img/sydney-greyline-map.svg" alt="Sydney greyline and listening path map"><div class="path-state"><small>SYDNEY PATH STATE</small><b id="pathState">—</b></div></div>
+      <div class="map-wrap"><img id="greylineMap" src="assets/img/sydney-greyline-map-day.svg" alt="Sydney greyline and listening path map"><div class="path-state"><small>SYDNEY PATH STATE</small><b id="pathState">—</b></div></div>
       <div class="bands-title">BANDS TO TRY FROM SYDNEY</div><div class="bands" id="bandCards"></div>
     </section>
 
@@ -104,6 +104,7 @@ function updateClocks(){
 function state(){
  const h=zoneHour('Australia/Sydney'), day=h>=7&&h<18;
  document.getElementById('pathState').textContent=day?'DAYLIGHT — HIGHER BANDS FAVOURED':'DARK — LOWER BANDS FAVOURED';
+ const mapEl=document.getElementById('greylineMap'); if(mapEl) mapEl.src=day?'assets/img/sydney-greyline-map-day.svg':'assets/img/sydney-greyline-map-night.svg';
  const bands=day?[['19m','15,100–15,800 kHz','BEST NOW'],['22m','13,570–13,870 kHz','BEST NOW'],['25m','11,600–12,100 kHz','TRY'],['31m','9,400–9,900 kHz','TRY']]:[['49m','5,900–6,200 kHz','BEST NOW'],['41m','7,200–7,600 kHz','BEST NOW'],['31m','9,400–9,900 kHz','TRY'],['25m','11,600–12,100 kHz','TRY']];
  document.getElementById('bandCards').innerHTML=bands.map((x,i)=>'<div class="band '+(i<2?'best':'')+'"><strong>'+x[0]+'</strong><span>'+x[1]+'</span><b>'+x[2]+'</b></div>').join('');
  document.getElementById('briefTitle').textContent=day?'Daylight paths are in play':'Night listening is in play';
