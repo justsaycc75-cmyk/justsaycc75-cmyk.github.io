@@ -395,7 +395,7 @@ const sportsFixtures=[
 const now=new Date();
 let visibleSports=sportsFixtures.filter(f=>new Date(f.start)>now);
 if(!visibleSports.length){
-  visibleSports=[{team:'Fixture refresh due',match:'Next games will appear here after the weekly refresh.',when:'',venue:'',start:'',url:'sport.html'}];
+  visibleSports=[{team:'Fixture refresh due',match:'Next games will appear here after the weekly refresh.',when:'',venue:'',start:'',url:'#home-sports-title'}];
 }
 let sportIndex=hash(key+'sport')%visibleSports.length;
 function renderSport(){
