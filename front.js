@@ -33,8 +33,14 @@
 
   const setImage=src=>{
     if(!src)return false;
-    img.onerror=()=>{img.onerror=null;img.src=fallback;};
-    img.src=src;
+    const posterImg=document.querySelector('[data-video-frame] .daily-video-poster img');
+    const apply=(target)=>{
+      if(!target)return;
+      target.onerror=()=>{target.onerror=null;target.src=fallback;};
+      target.src=src;
+    };
+    apply(img);
+    apply(posterImg);
     return true;
   };
 
@@ -43,7 +49,7 @@
   if(frame){
     const match=frame.src.match(/embed\/([^?&]+)/);
     if(match&&match[1]){
-      setImage(`https://i.ytimg.com/vi/${match[1]}/maxresdefault.jpg`);
+      setImage(`https://i.ytimg.com/vi/${match[1]}/hqdefault.jpg`);
       return;
     }
   }
@@ -51,7 +57,7 @@
   const ytHref=document.querySelector('[data-youtube]')?.href||'';
   const directMatch=ytHref.match(/[?&]v=([^&]+)/);
   if(directMatch&&directMatch[1]){
-    setImage(`https://i.ytimg.com/vi/${directMatch[1]}/maxresdefault.jpg`);
+    setImage(`https://i.ytimg.com/vi/${directMatch[1]}/hqdefault.jpg`);
     return;
   }
 
