@@ -1,0 +1,13 @@
+.explore-section{padding:58px 0 78px;background:linear-gradient(150deg,#101b30,#172a44);color:#f5f8ff}
+.explore-section .kicker{color:#fbb867}
+.explore-section h2{font-size:clamp(2rem,4vw,3.1rem);margin:.3rem 0 1rem}
+.explore-intro{max-width:810px;color:#d4dfed;font-size:1.05rem;line-height:1.65}
+.explore-note{max-width:810px;color:#b9c9da;font-size:.92rem;line-height:1.55;margin:0 0 2rem}
+.explore-group{margin:2.2rem 0 0}
+.explore-group h3{font-size:1.35rem;color:#ffc884;margin:0 0 .85rem}
+.explore-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,265px),1fr));gap:12px}
+.explore-card{display:flex;flex-direction:column;gap:.45rem;padding:1.15rem 1.2rem;border:1px solid #52647a;border-radius:12px;background:#20334d;color:#fff;text-decoration:none;min-height:112px;transition:transform .15s,border-color .15s,background .15s}
+.explore-card:hover,.explore-card:focus-visible{background:#29415d;border-color:#ffc884;transform:translateY(-2px)}
+.explore-card strong{font-size:1.05rem;color:#fff}
+.explore-card span{font-size:.91rem;color:#d5dfeb;line-height:1.45}
+.explore-card strong::after{content:' ↗';color:#ffc884}
