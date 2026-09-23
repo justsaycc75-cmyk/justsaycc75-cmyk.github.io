@@ -334,9 +334,9 @@ const artistPick={artist:artistEntry.artist,embed:directTrack?artistEntry.embed:
 const key=currentSlot.key;
 const clipUrl=directTrack
   ? 'https://www.youtube.com/watch?v='+artistEntry.embed
-  : 'https://www.youtube.com/results?search_query='+encodeURIComponent(
+  : (artistEntry.url || 'https://www.youtube.com/results?search_query='+encodeURIComponent(
       artistEntry.artist+(trackPick==='Featured track'?'':' '+trackPick)+' official'
-    );
+    ));
 const artworkUrl=directTrack
   ? 'https://i.ytimg.com/vi/'+artistEntry.embed+'/hqdefault.jpg'
   : 'assets/img/cassette.webp';
