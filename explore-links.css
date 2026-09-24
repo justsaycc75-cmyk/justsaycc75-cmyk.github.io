@@ -220,3 +220,9 @@
   .explore-group-head{align-items:flex-start}
   .explore-group-head .explore-icon{width:48px;height:48px;flex-basis:48px;border-radius:14px;font-size:.62rem}
 }
+
+.explore-original-live{--accent:#59c7ff;--accent-soft:rgba(89,199,255,.12)}
+.explore-wander{--accent:#ff8f63;--accent-soft:rgba(255,143,99,.12)}
+.explore-science{--accent:#b58cff;--accent-soft:rgba(181,140,255,.12)}
+.explore-history{--accent:#ffd05c;--accent-soft:rgba(255,208,92,.12)}
+.explore-music{--accent:#78e2bd;--accent-soft:rgba(120,226,189,.12)}
