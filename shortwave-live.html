@@ -166,7 +166,7 @@ function state(){
 async function noaa(){
  try{
   const res=await fetch('https://services.swpc.noaa.gov/products/noaa-planetary-k-index.json',{cache:'no-store'});
-  if(!res.ok)throw 0; const data=await res.json(); const row=data[data.length-1]; const kp=Number(row[1]);
+  if(!res.ok)throw 0; const data=await res.json(); const row=data[data.length-1]; const kp=Number(Array.isArray(row)?row[1]:row?.Kp); if(!Number.isFinite(kp))throw 0;
   let title='QUIET — GOOD',text='The geomagnetic field is calm. Long paths have a fair chance if darkness and band choice line up.';
   if(kp>=5){title='STORMY — DIFFICULT';text='Geomagnetic activity is elevated. Expect disturbed or fading HF paths.'}
   else if(kp>=3){title='ACTIVE — MIXED';text='Conditions are unsettled. Some paths may work well while others fade quickly.'}
