@@ -66,15 +66,15 @@
       <tv-mini-chart class="snapshot-chart" theme="dark" symbol="ASX:XJO"></tv-mini-chart>
       <b>Official S&amp;P/ASX 200 index</b><em>Open live chart →</em>
     </a>
-    <a class="snapshot-card us" href="https://www.tradingview.com/symbols/SPX/?exchange=SP" target="_blank" rel="noopener">
+    <a class="snapshot-card us" href="https://www.tradingview.com/symbols/SPX500USD/?exchange=OANDA" target="_blank" rel="noopener">
       <div class="snapshot-icon">US</div><small>United States</small><h3>S&amp;P 500</h3>
-      <tv-mini-chart class="snapshot-chart" theme="dark" symbol="SP:SPX"></tv-mini-chart>
-      <b>Official S&amp;P 500 index</b><em>Open live chart →</em>
+      <tv-mini-chart class="snapshot-chart" theme="dark" symbol="OANDA:SPX500USD"></tv-mini-chart>
+      <b>S&amp;P 500 live market proxy</b><em>Open live chart →</em>
     </a>
-    <a class="snapshot-card us" href="https://www.tradingview.com/symbols/NASDAQ-NDX/" target="_blank" rel="noopener">
+    <a class="snapshot-card us" href="https://www.tradingview.com/symbols/OANDA-NAS100USD/" target="_blank" rel="noopener">
       <div class="snapshot-icon">NQ</div><small>United States</small><h3>Nasdaq 100</h3>
-      <tv-mini-chart class="snapshot-chart" theme="dark" symbol="NASDAQ:NDX"></tv-mini-chart>
-      <b>Official Nasdaq-100 index</b><em>Open live chart →</em>
+      <tv-mini-chart class="snapshot-chart" theme="dark" symbol="OANDA:NAS100USD"></tv-mini-chart>
+      <b>Nasdaq 100 live market proxy</b><em>Open live chart →</em>
     </a>
     <a class="snapshot-card fx" href="https://www.tradingview.com/symbols/AUDUSD/?exchange=FX_IDC" target="_blank" rel="noopener">
       <div class="snapshot-icon">A$</div><small>Currency</small><h3>AUD / USD</h3>
@@ -107,9 +107,9 @@
       <div class="market-pulse-footer"><span>S&amp;P/ASX 200 • ASX:XJO</span><span>Live chart</span></div>
     </div>
     <div class="market-pulse-card">
-      <header><div><small>United States</small><strong>S&amp;P 500</strong></div><a href="https://www.tradingview.com/symbols/SPX/?exchange=SP" target="_blank" rel="noopener">Open →</a></header>
-      <tv-mini-chart class="market-mini-live" theme="dark" symbol="SP:SPX"></tv-mini-chart>
-      <div class="market-pulse-footer"><span>S&amp;P 500 • SP:SPX</span><span>Live chart</span></div>
+      <header><div><small>United States</small><strong>S&amp;P 500</strong></div><a href="https://www.tradingview.com/symbols/SPX500USD/?exchange=OANDA" target="_blank" rel="noopener">Open →</a></header>
+      <tv-mini-chart class="market-mini-live" theme="dark" symbol="OANDA:SPX500USD"></tv-mini-chart>
+      <div class="market-pulse-footer"><span>S&amp;P 500 proxy • OANDA:SPX500USD</span><span>Live chart</span></div>
     </div>
     <div class="market-pulse-card fx">
       <header><div><small>Currency</small><strong>AUD / USD</strong></div><a href="https://www.tradingview.com/symbols/AUDUSD/?exchange=FX_IDC" target="_blank" rel="noopener">Open →</a></header>
@@ -122,15 +122,15 @@
       <div class="market-pulse-footer"><span>Gold • OANDA:XAUUSD</span><span>Live spot</span></div>
     </div>
   </div>
-  <div class="market-note">Charts are supplied directly by TradingView from the selected market symbols. Exchange index data may be delayed according to TradingView’s data permissions, and closed markets will show the last available session rather than a decorative line.</div>
+  <div class="market-note">Charts are supplied directly by TradingView. Where TradingView restricts an official exchange index from embedded display, the page uses a live market proxy for that index so the graph still reflects real market movement. Closed markets show the last available session.</div>
 </div>
 
 <div class="market-panel"><div class="market-panel-head"><div><div class="kicker">Live market view</div><h2>What is moving now</h2></div><p>Momentum across the major markets.</p></div><div class="tv-overview"><tv-market-overview mode="market-movers"></tv-market-overview></div></div>
 
 <div class="market-links">
 <a class="market-link" href="https://www.tradingview.com/symbols/ASX-XJO/" target="_blank" rel="noopener"><small>Australia</small><strong>ASX 200 →</strong></a>
-<a class="market-link" href="https://www.tradingview.com/symbols/SPX/?exchange=SP" target="_blank" rel="noopener"><small>United States</small><strong>S&amp;P 500 →</strong></a>
-<a class="market-link" href="https://www.tradingview.com/symbols/NASDAQ-NDX/" target="_blank" rel="noopener"><small>United States</small><strong>Nasdaq 100 →</strong></a>
+<a class="market-link" href="https://www.tradingview.com/symbols/SPX500USD/?exchange=OANDA" target="_blank" rel="noopener"><small>United States</small><strong>S&amp;P 500 →</strong></a>
+<a class="market-link" href="https://www.tradingview.com/symbols/OANDA-NAS100USD/" target="_blank" rel="noopener"><small>United States</small><strong>Nasdaq 100 →</strong></a>
 <a class="market-link" href="https://www.tradingview.com/symbols/DJ-DJI/" target="_blank" rel="noopener"><small>United States</small><strong>Dow Jones →</strong></a>
 <a class="market-link" href="https://www.tradingview.com/symbols/TVC-UKX/" target="_blank" rel="noopener"><small>United Kingdom</small><strong>FTSE 100 →</strong></a>
 <a class="market-link" href="https://www.tradingview.com/symbols/TVC-NI225/" target="_blank" rel="noopener"><small>Japan</small><strong>Nikkei 225 →</strong></a>
