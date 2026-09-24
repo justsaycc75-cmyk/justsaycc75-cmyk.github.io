@@ -166,15 +166,15 @@
       </div>
     </a>
 
-    <a href="journeys.html" class="front-photo-card"><img src="assets/img/crown_sunset.webp" alt="Journeys and cruises"><span>Journeys</span><em>Cruises + side trips</em></a>
-
-    <a href="hunter.html" class="front-photo-card"><img src="assets/img/hunter1.webp" alt="Hunter Valley"><span>Hunter Valley</span><em>Cellar doors + favourites</em></a>
-
     <a href="sport-current.html" class="front-photo-card image-only-card sport-image-card" aria-label="Sport Central — NRL, NFL, EPL and Racing">
       <img src="Sport.png" alt="Sport Central — NRL, NFL, EPL and Racing">
     </a>
 
     <a href="racing.html" class="front-photo-card image-only-card"><img src="Punt.png" alt="Saturday on the Punt horse racing"></a>
+
+    <a href="journeys.html" class="front-photo-card"><img src="assets/img/crown_sunset.webp" alt="Journeys and cruises"><span>Journeys</span><em>Cruises + side trips</em></a>
+
+    <a href="hunter.html" class="front-photo-card"><img src="assets/img/hunter1.webp" alt="Hunter Valley"><span>Hunter Valley</span><em>Cellar doors + favourites</em></a>
 
 `;
 
