@@ -4,9 +4,7 @@
   padding:32px;
   border:1px solid #2f4136;
   border-radius:28px;
-  background:
-    radial-gradient(circle at 88% 8%,rgba(72,170,255,.10),transparent 24%),
-    linear-gradient(145deg,#0b120e 0%,#0a100c 62%,#08100d 100%);
+  background:linear-gradient(145deg,#0b120e,#09100c);
   box-shadow:0 22px 52px rgba(0,0,0,.22);
 }
 .receiver-section>h2{
@@ -44,20 +42,14 @@
   margin-top:28px;
 }
 .receiver-entry{
-  display:grid;
-  grid-template-rows:auto auto;
+  display:flex;
+  flex-direction:column;
   min-width:0;
   overflow:hidden;
   border:1px solid #314239;
   border-radius:22px;
   background:linear-gradient(180deg,#101713,#0a100c);
   box-shadow:0 16px 34px rgba(0,0,0,.18);
-  transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease;
-}
-.receiver-entry:hover{
-  transform:translateY(-3px);
-  border-color:#4e6657;
-  box-shadow:0 20px 40px rgba(0,0,0,.24);
 }
 .receiver-entry-main{
   padding:22px 22px 18px;
@@ -73,7 +65,7 @@
 .receiver-entry h3{
   margin:.2em 0 .22em;
   font-size:1.55rem;
-  line-height:1.04;
+  line-height:1.05;
 }
 .receiver-date{
   display:inline-flex;
@@ -135,42 +127,31 @@
   justify-content:center;
   width:calc(100% - 28px);
   aspect-ratio:16/10;
+  min-height:280px;
   margin:0 14px 14px;
   overflow:hidden;
   border:1px solid #46554d;
   border-radius:16px;
-  background:
-    radial-gradient(circle at 50% 42%,rgba(255,255,255,.08),transparent 34%),
-    linear-gradient(145deg,#171f1a 0%,#101612 55%,#0a0f0c 100%);
-  box-shadow:
-    inset 0 0 0 1px rgba(255,255,255,.035),
-    0 12px 24px rgba(0,0,0,.22);
+  background:linear-gradient(145deg,#d9dfdc,#b8c1bc);
 }
 .receiver-photo img{
-  display:block;
-  width:auto;
-  height:auto;
-  max-width:94%;
-  max-height:88%;
-  object-fit:contain;
-  object-position:center;
-  margin:auto;
-  padding:0;
-  box-sizing:border-box;
-  background:transparent;
-  filter:contrast(1.06) saturate(.96) drop-shadow(0 16px 18px rgba(0,0,0,.38));
-  transition:transform .2s ease,filter .2s ease;
+  display:block !important;
+  width:100% !important;
+  height:100% !important;
+  max-width:none !important;
+  max-height:none !important;
+  object-fit:contain !important;
+  object-position:center !important;
+  padding:16px !important;
+  box-sizing:border-box !important;
+  opacity:1 !important;
+  visibility:visible !important;
+  background:transparent !important;
+  filter:none !important;
+  transform:none !important;
 }
 .receiver-photo.cutout img{
-  mix-blend-mode:multiply;
-  filter:contrast(1.10) saturate(.92) drop-shadow(0 16px 18px rgba(0,0,0,.32));
-}
-.receiver-entry:hover .receiver-photo img{
-  transform:scale(1.015);
-  filter:contrast(1.08) saturate(1) drop-shadow(0 18px 20px rgba(0,0,0,.42));
-}
-.receiver-entry:hover .receiver-photo.cutout img{
-  filter:contrast(1.12) saturate(.95) drop-shadow(0 18px 20px rgba(0,0,0,.36));
+  mix-blend-mode:normal !important;
 }
 .receiver-photo-label{
   position:absolute;
@@ -178,95 +159,35 @@
   bottom:11px;
   z-index:2;
   padding:6px 9px;
-  border:1px solid #ffffff2b;
+  border:1px solid #ffffff38;
   border-radius:999px;
   background:#07100de8;
-  color:#f2f7f3;
+  color:#fff;
   font-size:.64rem;
   font-weight:900;
-  box-shadow:0 4px 12px rgba(0,0,0,.22);
-}
-.receiver-entry.featured{
-  grid-column:1/-1;
-  grid-template-columns:minmax(0,1.05fr) minmax(420px,.95fr);
-  grid-template-rows:1fr;
-  align-items:stretch;
-  border-color:#3e5a6a;
-  background:
-    radial-gradient(circle at 90% 12%,rgba(78,190,255,.13),transparent 30%),
-    linear-gradient(145deg,#0f1b23,#0a1217);
-}
-.receiver-entry.featured .receiver-entry-main{
-  padding:30px;
-}
-.receiver-entry.featured small{
-  color:#76d7ff;
-}
-.receiver-entry.featured h3{
-  font-size:clamp(2rem,3.4vw,2.9rem);
-}
-.receiver-entry.featured .receiver-entry-links a{
-  color:#8dddff;
-  border-color:#36515f;
-}
-.receiver-entry.featured .receiver-entry-links a:hover{
-  border-color:#76d7ff;
-  background:#0d1b22;
-}
-
-
-
-@media(max-width:980px){
-  .receiver-entry.featured{
-    grid-template-columns:1fr;
-    grid-template-rows:auto auto;
-  }
-  
 }
 @media(max-width:760px){
   .receiver-section{padding:22px}
   .receiver-list{grid-template-columns:1fr}
-  .receiver-entry.featured{grid-column:auto}
-  .receiver-entry-main,
-  .receiver-entry.featured .receiver-entry-main{padding:20px}
-  .receiver-photo,
-  
+  .receiver-entry-main{padding:20px}
+  .receiver-photo{
+    width:calc(100% - 24px);
+    min-height:220px;
+    margin:0 12px 12px;
+  }
 }
 @media(max-width:480px){
   .receiver-section{padding:16px}
   .receiver-entry{border-radius:18px}
-  .receiver-photo,
-  
-}@media(max-width:850px){.radio-hero,.radio-grid,.signal-strip,.intel-grid,.hobart-stories{grid-template-columns:1fr}.radio-points{grid-template-columns:1fr}.radio-photo{min-height:240px}.intel-feed{min-height:420px}}
-.shortwave-dashboard-card{grid-column:1/-1}.shortwave-dashboard-layout{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(320px,.75fr);gap:28px;align-items:start}.shortwave-dashboard-art{border:1px solid #314238;border-radius:20px;overflow:hidden;background:#07100b;box-shadow:0 18px 36px rgba(0,0,0,.28)}.shortwave-dashboard-art img{display:block;width:100%;height:auto;object-fit:cover}.shortwave-dashboard-copy .btn{margin-bottom:10px}@media(max-width:850px){.shortwave-dashboard-layout{grid-template-columns:1fr}.shortwave-dashboard-art{order:-1;max-width:620px;margin:0 auto;width:100%}}
-@media(max-width:980px){
-  .receiver-photo{
-    width:calc(100% - 28px);
-    aspect-ratio:16/10;
-    margin:0 14px 14px;
-  }
-  .receiver-photo img{
-    max-width:95%;
-    max-height:88%;
-  }
-}
-@media(max-width:760px){
-  .receiver-photo{
-    width:calc(100% - 24px);
-    margin:0 12px 12px;
-    aspect-ratio:16/10;
-  }
-  .receiver-photo img{
-    max-width:96%;
-    max-height:90%;
-  }
-}
-@media(max-width:480px){
   .receiver-photo{
     width:calc(100% - 20px);
+    min-height:190px;
     margin:0 10px 10px;
     border-radius:14px;
   }
+}@media(max-width:850px){.radio-hero,.radio-grid,.signal-strip,.intel-grid,.hobart-stories{grid-template-columns:1fr}.radio-points{grid-template-columns:1fr}.radio-photo{min-height:240px}.intel-feed{min-height:420px}}
+.shortwave-dashboard-card{grid-column:1/-1}.shortwave-dashboard-layout{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(320px,.75fr);gap:28px;align-items:start}.shortwave-dashboard-art{border:1px solid #314238;border-radius:20px;overflow:hidden;background:#07100b;box-shadow:0 18px 36px rgba(0,0,0,.28)}.shortwave-dashboard-art img{display:block;width:100%;height:auto;object-fit:cover}.shortwave-dashboard-copy .btn{margin-bottom:10px}@media(max-width:850px){.shortwave-dashboard-layout{grid-template-columns:1fr}.shortwave-dashboard-art{order:-1;max-width:620px;margin:0 auto;width:100%}}
+
 }
 </style></head><body><header class="topbar"><div class="wrap nav"><a class="brand" href="index.html">MY <b>RETIREMENT</b> PAGE</a><button class="menu-btn" data-menu-button aria-label="Open navigation">MENU</button><nav><a href="music.html">Music</a><a href="journeys.html">Journeys</a><a href="hunter.html">Hunter</a><a href="watching.html">Watching</a><a href="sport-current.html">Sport</a><a href="racing.html">The Punt</a><a href="radio.html">Radio</a><a href="markets.html">Markets</a></nav></div></header><main><section class="section"><div class="wrap"><div class="kicker">Signals</div><h1>Radio</h1>
 <div class="radio-hero"><div class="radio-hero-copy"><h2>Shortwave still matters.</h2><p>It is old-school radio with a modern purpose: part hobby, part curiosity and part backup plan. From Sydney, a simple receiver and antenna can bring in broadcasters, amateur stations, utility signals and voices from thousands of kilometres away.</p><p>And when the internet is overloaded, mobile coverage disappears or local power and communications are disrupted, radio can still be useful because receiving a signal does not depend on an app, subscription or nearby phone tower. It is not magic and conditions matter — but that independence is exactly why radio has never completely gone away.</p></div><a class="photo-link" href="https://www.icomamerica.com/lineup/products/IC-705/" target="_blank" rel="noopener"><div class="radio-photo"><img loading="lazy" decoding="async" src="Icom.png" alt="Icom IC-705 portable transceiver"></div><div class="photo-caption">Icom IC-705 — compact radio, very big listening window.</div></a></div>
