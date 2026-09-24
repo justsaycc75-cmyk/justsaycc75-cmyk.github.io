@@ -130,14 +130,22 @@
 }
 .receiver-photo{
   position:relative;
-  display:block;
+  display:flex;
+  align-items:center;
+  justify-content:center;
   width:calc(100% - 28px);
   aspect-ratio:16/10;
   margin:0 14px 14px;
   overflow:hidden;
-  border:1px solid #425149;
+  border:1px solid #46554d;
   border-radius:16px;
-  background:#0a100c;
+  background:
+    radial-gradient(circle at 50% 42%,rgba(255,255,255,.12),transparent 35%),
+    linear-gradient(145deg,#c7cfcb 0%,#9fa9a4 52%,#747f79 100%);
+  box-shadow:
+    inset 0 0 0 1px rgba(255,255,255,.16),
+    inset 0 -20px 45px rgba(0,0,0,.11),
+    0 12px 24px rgba(0,0,0,.22);
 }
 .receiver-photo img{
   display:block;
@@ -145,21 +153,22 @@
   height:100%;
   object-fit:contain;
   object-position:center;
-  background:linear-gradient(145deg,#dfe4e1,#c7cfca);
-  padding:10px;
   box-sizing:border-box;
-  transition:transform .25s ease,filter .25s ease;
+  padding:14px;
+  background:transparent;
+  filter:contrast(1.05) saturate(.96) drop-shadow(0 12px 14px rgba(0,0,0,.26));
+  transition:transform .2s ease,filter .2s ease;
 }
-.receiver-photo::after{
-  content:"";
-  position:absolute;
-  inset:0;
-  pointer-events:none;
-  background:linear-gradient(180deg,transparent 58%,rgba(0,0,0,.52) 100%);
+.receiver-photo.cutout img{
+  mix-blend-mode:multiply;
+  filter:contrast(1.09) saturate(.92) drop-shadow(0 12px 14px rgba(0,0,0,.24));
 }
 .receiver-entry:hover .receiver-photo img{
-  transform:scale(1.025);
-  filter:brightness(1.05);
+  transform:scale(1.018);
+  filter:contrast(1.08) saturate(1) drop-shadow(0 15px 16px rgba(0,0,0,.30));
+}
+.receiver-entry:hover .receiver-photo.cutout img{
+  filter:contrast(1.11) saturate(.95) drop-shadow(0 15px 16px rgba(0,0,0,.28));
 }
 .receiver-photo-label{
   position:absolute;
@@ -287,7 +296,7 @@
 </div><div class="hobart-links"><a href="https://www.abc.net.au/news/2018-12-18/sydney-hobart-yacht-race-tragedy-leaves-lasting-legacy/10625734" target="_blank" rel="noopener">ABC retrospective →</a><a href="https://www.abc.net.au/pm/archive/articles/2000/03/16/s111134.htm" target="_blank" rel="noopener">ABC radio-system inquest report →</a><a href="https://rolexcdn.cyca.com.au/race/1998/recap" target="_blank" rel="noopener">CYCA 1998 race recap →</a></div></div><section class="receiver-section" aria-labelledby="receiver-title">
   <div class="kicker">Classic listening desks</div>
   <h2 id="receiver-title">Receivers that made shortwave feel serious</h2>
-  <p>Ten receivers, arranged in chronological order, showing how serious listening moved from heavy analogue-era professional equipment through DSP and into wideband digital monitoring. The manufacture or introduction date is shown prominently on every entry.</p>
+  <p>Nine receivers, arranged in chronological order, showing how serious listening moved from heavy analogue-era professional equipment through DSP and into wideband digital monitoring. The manufacture or introduction date is shown prominently on every entry.</p>
 
   <div class="receiver-summary" aria-label="Receiver collection summary">
     <span>9 standout receivers</span>
@@ -305,8 +314,8 @@
         <p>The RF-590 belongs to the era when serious HF monitoring meant rack-width hardware, a high-intercept front end and controls designed for communications rooms rather than hobby desks. Harris documentation from 1983 covers the RF-590, while the closely related RF-590A family remained in production into the 2000s.</p>
         <div class="receiver-entry-links"><a href="https://www.onallbands.com/replacing-the-memory-backup-battery-in-a-harris-rf-590-receiver/" target="_blank" rel="noopener">RF-590 article and photographs →</a></div>
       </div>
-      <a class="receiver-photo" href="https://www.onallbands.com/replacing-the-memory-backup-battery-in-a-harris-rf-590-receiver/" target="_blank" rel="noopener" aria-label="Open Harris RF-590 article">
-        <img loading="lazy" decoding="async" src="https://www.onallbands.com/wp-content/uploads/2019/08/1-1.jpg" alt="Harris RF-590 communications receiver front panel">
+      <a class="receiver-photo cutout" href="https://www.onallbands.com/replacing-the-memory-backup-battery-in-a-harris-rf-590-receiver/" target="_blank" rel="noopener" aria-label="Open Harris RF-590 article">
+        <img loading="lazy" decoding="async" src="https://static-data2.manualslib.com/product-images/344/697787/harris-rf-590a-receiver.jpg" alt="Harris RF-590 series professional HF communications receiver">
         <span class="receiver-photo-label">Harris RF-590</span>
       </a>
     </article>
@@ -335,7 +344,7 @@
         <p>The WJ-8711 series began in 1991, with the WJ-8711A version appearing in late 1993. It brought serious DSP filtering, remote-control capability and professional monitoring performance into a receiver that became a benchmark for surveillance and government installations.</p>
         <div class="receiver-entry-links"><a href="https://www.manualslib.com/manual/1149005/Watkins-Johnson-Wj-8711a.html" target="_blank" rel="noopener">WJ-8711A technical data →</a></div>
       </div>
-      <a class="receiver-photo" href="https://www.manualslib.com/manual/1149005/Watkins-Johnson-Wj-8711a.html" target="_blank" rel="noopener">
+      <a class="receiver-photo cutout" href="https://www.manualslib.com/manual/1149005/Watkins-Johnson-Wj-8711a.html" target="_blank" rel="noopener">
         <img loading="lazy" decoding="async" src="https://static-data2.manualslib.com/product-images/0ca/1149005/watkins-johnson-wj-8711a-receiver.jpg" alt="Watkins-Johnson WJ-8711A digital HF receiver">
         <span class="receiver-photo-label">Watkins-Johnson WJ-8711A</span>
       </a>
@@ -350,7 +359,7 @@
         <p>JRC completed the NRD-545 in 1997 and produced it for almost a decade. It was one of the important early DSP communications receivers, replacing banks of conventional analogue filters with digital processing and becoming a flagship set for serious shortwave listeners.</p>
         <div class="receiver-entry-links"><a href="https://www.jrc.co.jp/casestudy/column/11" target="_blank" rel="noopener">JRC history →</a><a href="https://rigpix.com/jrc/jrc_nrd545.htm" target="_blank" rel="noopener">NRD-545 specifications →</a></div>
       </div>
-      <a class="receiver-photo" href="https://rigpix.com/jrc/jrc_nrd545.htm" target="_blank" rel="noopener">
+      <a class="receiver-photo cutout" href="https://rigpix.com/jrc/jrc_nrd545.htm" target="_blank" rel="noopener">
         <img loading="lazy" decoding="async" src="https://static-data2.manualslib.com/product-images/6ad/896193/jrc-nrd-545-receiver.jpg" alt="JRC NRD-545 DSP communications receiver">
         <span class="receiver-photo-label">JRC NRD-545</span>
       </a>
@@ -365,8 +374,8 @@
         <p>The R8B represented the mature end of Drake’s classic tabletop receiver line. Strong-signal handling, synchronous AM, selectable filtering and superb ergonomics made it one of the receivers people kept long after newer technology appeared.</p>
         <div class="receiver-entry-links"><a href="https://www.rigpix.com/drake/r8b.htm" target="_blank" rel="noopener">R8B specifications →</a></div>
       </div>
-      <a class="receiver-photo" href="https://www.rigpix.com/drake/r8b.htm" target="_blank" rel="noopener">
-        <img loading="lazy" decoding="async" src="https://i.ebayimg.com/images/g/BXkAAeSwU1por1cE/s-l1200.jpg" onerror="this.onerror=null;this.src='https://i.ebayimg.com/images/g/C48AAeSwykRor1cE/s-l1200.jpg'" alt="Drake R8B communications receiver">
+      <a class="receiver-photo cutout" href="https://www.rigpix.com/drake/r8b.htm" target="_blank" rel="noopener">
+        <img loading="lazy" decoding="async" src="https://www.universal-radio.com/catalog/commrxvr/0082.jpg" alt="Drake R8B communications receiver front panel">
         <span class="receiver-photo-label">Drake R8B</span>
       </a>
     </article>
@@ -382,8 +391,8 @@
         <p>The IC-R75 brought broad HF and 6-metre coverage, computer control and optional DSP into a compact tabletop receiver. It stayed in production for an unusually long run, which says plenty about how well the basic design worked.</p>
         <div class="receiver-entry-links"><a href="https://www.icom.co.jp/lineup/products/IC-R75/" target="_blank" rel="noopener">Icom specifications →</a></div>
       </div>
-      <a class="receiver-photo" href="https://www.icom.co.jp/lineup/products/IC-R75/" target="_blank" rel="noopener">
-        <img loading="lazy" decoding="async" src="https://www.universal-radio.com/used/U380lrg.jpg" onerror="this.onerror=null;this.src='https://auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0504/users/2324a6b256107309c2dbc480fbf7ec3bfed1802b/i-img1200x900-1713914658yxddh3170202.jpg'" alt="Icom IC-R75 communications receiver">
+      <a class="receiver-photo cutout" href="https://www.icom.co.jp/lineup/products/IC-R75/" target="_blank" rel="noopener">
+        <img loading="lazy" decoding="async" src="https://www.universal-radio.com/catalog/commrxvr/0175.jpg" alt="Icom IC-R75 communications receiver front panel">
         <span class="receiver-photo-label">Icom IC-R75</span>
       </a>
     </article>
@@ -412,7 +421,7 @@
         <p>Icom launched the IC-R9500 in 2006 as the company’s ultimate desktop monitoring receiver. It combines wideband coverage, dual DSP, five roofing filters, a spectrum scope and professional-grade strong-signal performance in a huge 20-kilogram chassis.</p>
         <div class="receiver-entry-links"><a href="https://www.icom-australia.com/lineup/products/IC-R9500/" target="_blank" rel="noopener">Icom Australia specifications →</a></div>
       </div>
-      <a class="receiver-photo" href="https://www.icom-australia.com/lineup/products/IC-R9500/" target="_blank" rel="noopener">
+      <a class="receiver-photo cutout" href="https://www.icom-australia.com/lineup/products/IC-R9500/" target="_blank" rel="noopener">
         <img loading="lazy" decoding="async" src="https://www.gccomm.com.au/cdn/shop/files/2000x1500r9500_1.png?v=1753438272&width=1946" alt="Icom IC-R9500 professional communications receiver">
         <span class="receiver-photo-label">Icom IC-R9500</span>
       </a>
