@@ -170,18 +170,8 @@
 
     <a href="hunter.html" class="front-photo-card"><img src="assets/img/hunter1.webp" alt="Hunter Valley"><span>Hunter Valley</span><em>Cellar doors + favourites</em></a>
 
-    <a href="sport-current.html" class="front-photo-card rail-graphic rail-sport rail-sport-teams">
-      <div class="sport-card-copy">
-        <small>SPORT</small>
-        <b>ROOSTERS<br>&amp; NFL</b>
-      </div>
-      <div class="rail-team-logos" aria-label="Sydney Roosters, New York Giants, Seattle Seahawks and Green Bay Packers">
-        <span class="team-logo-tile"><img src="https://cdn.freebiesupply.com/logos/large/2x/sydney-roosters-1-logo-png-transparent.png" alt="Sydney Roosters"></span>
-        <span class="team-logo-tile"><img src="https://static.www.nfl.com/t_q-best/league/api/clubs/logos/NYG" alt="New York Giants"></span>
-        <span class="team-logo-tile"><img src="https://static.www.nfl.com/t_q-best/league/api/clubs/logos/SEA" alt="Seattle Seahawks"></span>
-        <span class="team-logo-tile"><img src="https://static.www.nfl.com/t_q-best/league/api/clubs/logos/GB" alt="Green Bay Packers"></span>
-      </div>
-      <em>Teams + upcoming games</em>
+    <a href="sport-current.html" class="front-photo-card image-only-card sport-image-card" aria-label="Sport Central — NRL, NFL, EPL and Racing">
+      <img src="Sport.png" alt="Sport Central — NRL, NFL, EPL and Racing">
     </a>
 
     <a href="racing.html" class="front-photo-card image-only-card"><img src="Punt.png" alt="Saturday on the Punt horse racing"></a>
@@ -211,7 +201,7 @@
       .rail-sport-teams:hover{transform:translateY(-2px);border-color:var(--lime)!important;box-shadow:0 14px 28px rgba(0,0,0,.28)}
       .rail-sport-teams:hover .team-logo-tile{box-shadow:0 7px 18px rgba(0,0,0,.38)}
 
-      .front-photo-card.image-only-card{height:170px;padding:0!important;background:#07100b}
+      .front-photo-card.image-only-card{height:170px;padding:0!important;background:#07100b}.front-photo-card.sport-image-card{height:195px!important;background:#07100b!important;border-color:#31513a!important}.front-photo-card.sport-image-card img{object-fit:contain!important;background:#07100b!important;padding:0!important}
       .front-photo-card.image-only-card:after{display:none!important}
       .front-photo-card.image-only-card img{width:100%!important;height:100%!important;object-fit:cover!important;object-position:center!important;display:block}
       .front-photo-card.image-only-card[href="radio.html"] img{object-fit:contain!important;background:#07100b;padding:4px!important}
