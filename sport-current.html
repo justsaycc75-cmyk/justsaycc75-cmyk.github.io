@@ -126,6 +126,44 @@
 }
 
 .grand-final-feature-grid{margin-bottom:24px}.grand-final-feature .home-sport-copy{padding-top:22px}.grand-final-feature .roosters-result-badge{flex-wrap:wrap}.grand-final-feature .roosters-result-badge span{color:#aaff22}
+
+/* Keep NFL result wording contained inside each thumbnail */
+.nfl-result-thumb{
+  min-height:148px;
+  display:flex;
+  flex-direction:column;
+}
+.nfl-result-thumb>span{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  min-height:2.45em;
+  margin-top:7px;
+  padding:0 4px;
+  font-size:.70rem;
+  line-height:1.16;
+  font-weight:900;
+  text-align:center;
+  overflow-wrap:break-word;
+  word-break:normal;
+}
+.nfl-result-thumb>b{
+  margin-top:auto;
+  padding-top:4px;
+  font-size:.66rem;
+  line-height:1.15;
+}
+@media(max-width:980px){
+  .nfl-result-thumb>span{font-size:.69rem}
+}
+@media(max-width:720px){
+  .nfl-result-thumb{min-height:142px}
+  .nfl-result-thumb>span{font-size:.68rem}
+}
+@media(max-width:480px){
+  .nfl-result-thumb{min-height:138px}
+  .nfl-result-thumb>span{font-size:.72rem}
+}
 </style></head><body><header class="topbar"><div class="wrap nav"><a class="brand" href="index.html">MY <b>RETIREMENT</b> PAGE</a><button class="menu-btn" data-menu-button aria-label="Open navigation">MENU</button><nav><a href="music.html">Music</a><a href="journeys.html">Journeys</a><a href="hunter.html">Hunter</a><a href="watching.html">Watching</a><a href="sport-current.html">Sport</a><a href="radio.html">Radio</a><a href="markets.html">Markets</a></nav></div></header><main><section class="section"><div class="wrap"><div class="sport-intro"><div class="kicker">NRL + NFL + EPL</div><h1>Sport</h1><p class="tag">Results, coming fixtures and the clubs we follow.</p></div></div></section><section class="section home-sports-now" aria-labelledby="home-sports-title">
   <div class="wrap">
     <div class="home-sports-head">
