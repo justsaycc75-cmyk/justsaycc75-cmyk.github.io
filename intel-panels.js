@@ -7,24 +7,34 @@
       return url.protocol === 'https:' ? url.href : null;
     } catch { return null; }
   };
-  function setText(selector, key, value) {
-    const element = document.querySelector(`[data-intel-${selector}="${key}"]`);
-    if (element && typeof value === 'string') element.textContent = value;
-  }
   function update(key, item) {
     if (!item || typeof item !== 'object') return;
-    for (const field of ['label', 'title', 'deck', 'heading', 'caption']) setText(field, key, item[field]);
-    const paragraphs = document.querySelectorAll(`[data-intel-paragraph="${key}"]`);
-    if (Array.isArray(item.paragraphs)) item.paragraphs.slice(0, 2).forEach((value, i) => {
-      if (paragraphs[i] && typeof value === 'string') paragraphs[i].textContent = value;
-    });
-    const source = document.querySelector(`[data-intel-source="${key}"]`);
+    const feed = document.querySelector(`[data-intel-feed="${key}"]`);
+    if (feed && Array.isArray(item.entries)) {
+      const entries = item.entries.filter(entry => entry && typeof entry.date === 'string' && typeof entry.headline === 'string' && typeof entry.summary === 'string');
+      if (entries.length) {
+        feed.replaceChildren(...entries.slice(0, 12).map(entry => {
+          const li = document.createElement('li');
+          li.className = 'intel-feed-item';
+          const time = document.createElement('time');
+          time.dateTime = entry.date;
+          time.textContent = entry.dateLabel || entry.date;
+          const heading = document.createElement('h3');
+          heading.textContent = entry.headline;
+          const summary = document.createElement('p');
+          summary.textContent = entry.summary;
+          li.append(time, heading, summary);
+          return li;
+        }));
+      }
+    }
     const visual = document.querySelector(`[data-intel-image-link="${key}"]`);
     const image = document.querySelector(`[data-intel-image="${key}"]`);
-    if (source && safeUrl(item.sourceUrl)) source.href = safeUrl(item.sourceUrl);
+    const caption = document.querySelector(`[data-intel-caption="${key}"]`);
     if (visual && safeUrl(item.imageHref)) visual.href = safeUrl(item.imageHref);
     if (image && safeUrl(item.imageUrl)) image.src = safeUrl(item.imageUrl);
     if (image && typeof item.imageAlt === 'string') image.alt = item.imageAlt;
+    if (caption && typeof item.caption === 'string') caption.textContent = item.caption;
   }
   async function refresh() {
     lastCheck = Date.now();
@@ -34,7 +44,7 @@
       const data = await response.json();
       update('warwatch', data.warwatch);
       update('skyglass', data.skyglass);
-    } catch { /* Keep the last sourced cards visible when offline. */ }
+    } catch { /* Keep the last verified commentary visible when offline. */ }
   }
   refresh();
   setInterval(refresh, interval);
