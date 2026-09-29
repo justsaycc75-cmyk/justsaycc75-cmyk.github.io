@@ -1,34 +1,34 @@
 {
   "warwatch": {
-    "label": "HFGCS · 02:26 UTC · 29 SEP",
-    "title": "Coded radio message logged",
-    "deck": "War Watch Intel’s watch floor lists an Emergency Action Message preamble, 564UTJ, at 02:26 UTC.",
-    "heading": "What was heard",
-    "paragraphs": [
-      "The watch floor records 564UTJ at 02:26 UTC on 29 September, credited to SailawayDebstaAU. It reports a 30-character message. The preceding 56RG2X header was logged three times on 28 September, from 20:49 to 22:10 UTC.",
-      "The coded content does not disclose the message’s purpose. For listeners, the useful next step is to compare the log with live reception and aircraft activity, without treating the code itself as proof of an operation."
-    ],
-    "sourceUrl": "https://warwatchintel.com/intel/eams",
     "imageUrl": "War1.png",
-    "imageHref": "https://warwatchintel.com/intel/eams",
-    "imageAlt": "War Watch Intel profile thumbnail linking to its EAM log",
-    "caption": "564UTJ · 02:26 UTC, 29 Sep · 30 characters. Open War Watch’s source log.",
-    "sourceAt": "2026-09-29T02:26:00Z"
+    "imageHref": "https://x.com/WarWatchIntel",
+    "imageAlt": "War Watch Intel profile thumbnail",
+    "caption": "Shortwave and military aircraft reports. Tap the thumbnail for the source account.",
+    "entries": [
+      {
+        "id": "2099882195347177568",
+        "date": "2026-09-15",
+        "dateLabel": "15 SEP 2026",
+        "headline": "EAM header reported",
+        "summary": "War Watch Intel posted the header code K774XT in its HFGCS monitoring feed. The code alone does not reveal the message’s purpose.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2099882195347177568"
+      }
+    ]
   },
   "skyglass": {
-    "label": "SKYGLASS · 29 SEP",
-    "title": "P-8 takes off near Nakagusuku",
-    "deck": "A P-8 maritime patrol aircraft was reported taking off near Nakagusuku, Japan.",
-    "heading": "P-8 departure near Nakagusuku",
-    "paragraphs": [
-      "SkyGlass reported a U.S.-registered P-8 taking off near Nakagusuku. The P-8 is a maritime patrol aircraft used for surveillance, reconnaissance and anti-submarine work. A departure alert identifies movement; it does not establish the aircraft’s mission.",
-      "The alert identifies an aircraft type and location, but does not confirm its destination or tasking."
-    ],
-    "sourceUrl": "https://x.com/SkyGlass12/status/2104220086428995952",
     "imageUrl": "Skyglass.png",
-    "imageHref": "https://x.com/SkyGlass12/status/2104220086428995952",
-    "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail showing its flight tracking display",
-    "caption": "SkyGlass profile thumbnail. Open the reported P-8 departure alert.",
-    "sourceAt": "2026-09-29"
+    "imageHref": "https://x.com/SkyGlass12",
+    "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
+    "caption": "Military aircraft movement reports. Tap the thumbnail for the source account.",
+    "entries": [
+      {
+        "id": "2104467876396572953",
+        "date": "2026-09-28",
+        "dateLabel": "28 SEP 2026",
+        "headline": "P-8 departure near Saundatti",
+        "summary": "SkyGlass reported an Indian-registered military P-8 off the ground near Saundatti, India. The alert identifies a tracked departure, without confirming its mission or destination.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2104467876396572953"
+      }
+    ]
   }
 }
