@@ -297,6 +297,17 @@
 .skyglass-feature .intel-visual-caption strong{color:var(--lime)}
 @media(max-width:900px){.intel-shell{grid-template-columns:1fr}.intel-shell .intel-visual{grid-column:1;grid-row:1}.intel-shell .intel-story{grid-column:1;grid-row:2}.intel-story{padding:10px 6px}.intel-visual img{max-height:480px}}
 
+.intel-shell .intel-commentary{padding:25px 26px;background:#030804;border:1px solid #294a20;border-radius:18px;color:#baff4a;min-height:300px}
+.intel-commentary-head{display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid #345427;padding-bottom:13px;font-size:.72rem;font-weight:900;letter-spacing:.13em;color:#8ee92d}
+.intel-commentary h2{font-size:clamp(1.5rem,2.2vw,2.1rem);color:#d7ff9a;margin:19px 0 13px}
+.intel-feed{list-style:none;margin:0;padding:0;max-height:500px;overflow:auto;scrollbar-color:#72bc2e #071008}
+.intel-feed-item{padding:18px 0 20px;border-top:1px solid #29451e}
+.intel-feed-item:first-child{border-top:0}
+.intel-feed-item time{color:#92e539;font-size:.76rem;font-weight:900;letter-spacing:.1em}
+.intel-feed-item h3{color:#d0ff77;margin:7px 0;font-size:1.28rem;line-height:1.25}
+.intel-feed-item p{color:#b9ee7d;margin:0;line-height:1.6;font-size:1rem}
+@media(max-width:620px){.intel-shell .intel-commentary{padding:20px 18px}.intel-commentary-head{font-size:.64rem}}
+
 /* Full club history and great victories on homepage */
 .home-club-history{padding-top:18px}
 .home-club-history>.wrap{border-top:1px solid #26352d;padding-top:34px}
