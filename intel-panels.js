@@ -1,12 +1,6 @@
 (() => {
   const interval = 3 * 60 * 60 * 1000;
   let lastCheck = 0;
-  const safeUrl = (value) => {
-    try {
-      const url = new URL(value, location.href);
-      return url.protocol === 'https:' ? url.href : null;
-    } catch { return null; }
-  };
   function update(key, item) {
     if (!item || typeof item !== 'object') return;
     const feed = document.querySelector(`[data-intel-feed="${key}"]`);
@@ -28,11 +22,9 @@
         }));
       }
     }
-    const visual = document.querySelector(`[data-intel-image-link="${key}"]`);
     const image = document.querySelector(`[data-intel-image="${key}"]`);
     const caption = document.querySelector(`[data-intel-caption="${key}"]`);
-    if (visual && safeUrl(item.imageHref)) visual.href = safeUrl(item.imageHref);
-    if (image && safeUrl(item.imageUrl)) image.src = safeUrl(item.imageUrl);
+    if (image && typeof item.imageUrl === 'string' && /^[A-Za-z0-9._/-]+$/.test(item.imageUrl)) image.src = item.imageUrl;
     if (image && typeof item.imageAlt === 'string') image.alt = item.imageAlt;
     if (caption && typeof item.caption === 'string') caption.textContent = item.caption;
   }
