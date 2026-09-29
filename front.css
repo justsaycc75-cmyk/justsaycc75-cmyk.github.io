@@ -270,6 +270,9 @@
 .war-watch-feed-label{color:#7ee7ff;font-size:.78rem;font-weight:900;letter-spacing:.1em;margin:2px 0 14px}
 #war-watch-timeline{min-height:510px;max-width:100%;overflow:hidden}
 #war-watch-timeline iframe{max-width:100%!important}
+.war-watch-direct{min-height:510px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:16px;padding:26px;color:#fff;text-decoration:none;background:radial-gradient(circle at center,rgba(25,108,134,.28),transparent 65%),repeating-linear-gradient(0deg,transparent 0 25px,rgba(105,220,255,.07) 26px 27px)}
+.war-watch-direct strong{font-size:clamp(1.4rem,2.5vw,2rem);line-height:1.15;max-width:18ch}
+.war-watch-direct span{color:#aeeaff;line-height:1.5;max-width:30ch}
 .war-watch-feed-fallback{font-size:.85rem;line-height:1.4;color:#aabcb9;margin:10px 0 0}
 .war-watch-feed-fallback a{color:var(--lime)}
 @media(max-width:900px){.war-watch-feed{min-height:560px}#war-watch-timeline{min-height:470px}}
