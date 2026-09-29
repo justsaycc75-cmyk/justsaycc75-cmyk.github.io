@@ -66,6 +66,14 @@
         "headline": "E3TF departure near Asan",
         "summary": "SkyGlass reported an E3TF aircraft off the ground near Asan, South Korea. The alert records the tracked departure without confirming its destination or mission.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2104437934040498664"
+      },
+      {
+        "id": "2104324360894836929",
+        "date": "2026-09-27",
+        "dateLabel": "27 SEP 2026 · UTC",
+        "headline": "New Zealand P-8 reported at Marton",
+        "summary": "SkyGlass reported the New Zealand-registered P-8 PDN04 on the ground at Marton, New Zealand. The alert records its tracked location and status without confirming a mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2104324360894836929"
       }
     ]
   }
