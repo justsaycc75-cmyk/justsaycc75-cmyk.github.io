@@ -276,7 +276,9 @@
 .war-watch-feed-fallback{font-size:.85rem;line-height:1.4;color:#aabcb9;margin:10px 0 0}
 .war-watch-feed-fallback a{color:var(--lime)}
 @media(max-width:900px){.war-watch-feed{min-height:560px}#war-watch-timeline{min-height:470px}}
-.intel-shell{grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);align-items:stretch}
+.intel-shell{grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);align-items:stretch}
+.intel-shell .intel-visual{grid-column:1;grid-row:1}
+.intel-shell .intel-story{grid-column:2;grid-row:1}
 .intel-story{padding:14px 10px 16px;min-width:0}
 .intel-story h2{margin:.18em 0 .28em;font-size:clamp(2rem,3.1vw,3.15rem);line-height:1.04;letter-spacing:-.03em}
 .intel-deck{font-size:1.16rem;line-height:1.4;color:#ecf4ee;margin:0 0 20px}
@@ -293,7 +295,7 @@
 .intel-play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:74px;height:74px;border-radius:50%;display:grid;place-items:center;color:#fff;background:#061017d9;border:1px solid #ffffff88;font-size:1.5rem}
 .intel-visual-caption{display:flex;flex-direction:column;gap:6px;padding:15px 18px;color:#cbd5d0;line-height:1.35;background:#071014}
 .skyglass-feature .intel-visual-caption strong{color:var(--lime)}
-@media(max-width:900px){.intel-shell{grid-template-columns:1fr}.intel-story{padding:10px 6px}.intel-visual img{max-height:480px}}
+@media(max-width:900px){.intel-shell{grid-template-columns:1fr}.intel-shell .intel-visual{grid-column:1;grid-row:1}.intel-shell .intel-story{grid-column:1;grid-row:2}.intel-story{padding:10px 6px}.intel-visual img{max-height:480px}}
 
 /* Full club history and great victories on homepage */
 .home-club-history{padding-top:18px}
