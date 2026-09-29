@@ -1,0 +1,34 @@
+{
+  "warwatch": {
+    "label": "HFGCS · 02:26 UTC · 29 SEP",
+    "title": "Coded radio message logged",
+    "deck": "War Watch Intel’s watch floor lists an Emergency Action Message preamble, 564UTJ, at 02:26 UTC.",
+    "heading": "What was heard",
+    "paragraphs": [
+      "The watch floor logged the six-character header 564UTJ. It also lists earlier repeated headers, including 56RG2X. These are public monitoring entries for HFGCS radio traffic.",
+      "The coded content does not disclose the message’s purpose. For listeners, the useful next step is to compare the log with live reception and aircraft activity, without treating the code itself as proof of an operation."
+    ],
+    "sourceUrl": "https://warwatchintel.com/intel/eams",
+    "imageUrl": "https://i.ytimg.com/vi/lQQi7b-U2YA/maxresdefault.jpg",
+    "imageHref": "https://www.youtube.com/watch?v=lQQi7b-U2YA",
+    "imageAlt": "War Watch Intel live stream preview",
+    "caption": "Follow the live radio and aircraft coverage.",
+    "sourceAt": "2026-09-29T02:26:00Z"
+  },
+  "skyglass": {
+    "label": "SKYGLASS · 29 SEP",
+    "title": "P-8 takes off near Nakagusuku",
+    "deck": "A P-8 maritime patrol aircraft was reported taking off near Nakagusuku, Japan.",
+    "heading": "P-8 departure near Nakagusuku",
+    "paragraphs": [
+      "SkyGlass reported a U.S.-registered P-8 taking off near Nakagusuku. The P-8 is a maritime patrol aircraft used for surveillance, reconnaissance and anti-submarine work. A departure alert identifies movement; it does not establish the aircraft’s mission.",
+      "The alert identifies an aircraft type and location, but does not confirm its destination or tasking."
+    ],
+    "sourceUrl": "https://x.com/SkyGlass12/status/2104220086428995952",
+    "imageUrl": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/1907/5599286/1000w_q95.jpg",
+    "imageHref": "https://x.com/SkyGlass12/status/2104220086428995952",
+    "imageAlt": "U.S. Navy P-8A Poseidon on a flight line; illustrative aircraft photograph",
+    "caption": "Illustrative U.S. Navy photo by Lt. Cmdr. Alan Johnson / DVIDS. This is not the aircraft in the alert.",
+    "sourceAt": "2026-09-29"
+  }
+}
