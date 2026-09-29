@@ -290,7 +290,7 @@
 .intel-actions a{padding:10px 13px;border:1px solid #34505b;border-radius:999px;color:var(--lime);font-weight:800;text-decoration:none;background:#0a100e}
 .intel-actions a:hover{border-color:#70dcff;color:#fff}
 .intel-visual{margin:0;min-width:0;overflow:hidden;border:1px solid #2c6c82;border-radius:18px;background:#05090b;display:flex;flex-direction:column}
-.intel-visual>a{display:flex;position:relative;align-items:center;justify-content:center;min-height:0;flex:1;background:#05090b}
+.intel-visual>.intel-image-frame{display:flex;position:relative;align-items:center;justify-content:center;min-height:0;flex:1;background:#05090b}
 .intel-visual img{display:block;width:100%;max-height:560px;aspect-ratio:16/9;object-fit:contain}
 .intel-play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:74px;height:74px;border-radius:50%;display:grid;place-items:center;color:#fff;background:#061017d9;border:1px solid #ffffff88;font-size:1.5rem}
 .intel-visual-caption{display:flex;flex-direction:column;gap:6px;padding:15px 18px;color:#cbd5d0;line-height:1.35;background:#071014}
