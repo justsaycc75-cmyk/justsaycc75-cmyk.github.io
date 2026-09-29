@@ -60,6 +60,14 @@
         "headline": "P-8 departure near Saundatti",
         "summary": "SkyGlass reported an Indian-registered military P-8 off the ground near Saundatti, India. The alert identifies a tracked departure, without confirming its mission or destination.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2104467876396572953"
+      },
+      {
+        "id": "2104437934040498664",
+        "date": "2026-09-28",
+        "dateLabel": "28 SEP 2026 · UTC",
+        "headline": "E3TF departure near Asan",
+        "summary": "SkyGlass reported an E3TF aircraft off the ground near Asan, South Korea. The alert records the tracked departure without confirming its destination or mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2104437934040498664"
       }
     ]
   }
