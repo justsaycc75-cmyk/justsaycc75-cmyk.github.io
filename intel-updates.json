@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2104949405866463430",
+        "date": "2026-09-29",
+        "dateLabel": "29 SEP 2026 · UTC",
+        "headline": "USAF transport and reconnaissance activity",
+        "summary": "War Watch Intel reported multiple U.S. Air Force transport aircraft and one reconnaissance aircraft airborne over the United States, along with one coded radio broadcast heard during the day. The post did not identify the aircraft or broadcast code.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2104949405866463430"
+      },
+      {
+        "id": "2104934302337122582",
+        "date": "2026-09-29",
+        "dateLabel": "29 SEP 2026 · UTC",
+        "headline": "US command and surveillance aircraft tracked",
+        "summary": "War Watch Intel reported U.S. military surveillance and command aircraft airborne over the continental United States, two NATO radar aircraft detected, and one coded Air Force broadcast heard. No aircraft identities or purpose were confirmed.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2104934302337122582"
+      },
+      {
+        "id": "2104927548199063728",
+        "date": "2026-09-29",
+        "dateLabel": "29 SEP 2026 · UTC",
+        "headline": "Tu-95MS crash reported in Amur",
+        "summary": "War Watch Intel reported that a Russian Tu-95MS bomber crashed during takeoff in Amur on a training flight and described the aircraft as a total loss. The visible post did not state a cause.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2104927548199063728"
+      },
+      {
+        "id": "2104922048094965893",
+        "date": "2026-09-29",
+        "dateLabel": "29 SEP 2026 · UTC",
+        "headline": "Transport and surveillance aircraft tracked",
+        "summary": "War Watch Intel reported U.S. military transport and surveillance aircraft airborne over the continental United States and the North Sea, plus one coded Air Force radio broadcast heard. No aircraft identities or broadcast code were given.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2104922048094965893"
+      },
+      {
+        "id": "2104918272701313264",
+        "date": "2026-09-29",
+        "dateLabel": "29 SEP 2026 · UTC",
+        "headline": "Navy carrier landing incident relayed",
+        "summary": "War Watch Intel relayed an AP report that two U.S. Navy aviators ejected during a carrier landing off Virginia and four sailors were injured. The post attributed the report to AP via @reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2104918272701313264"
+      },
+      {
         "id": "2099882195347177568",
         "date": "2026-09-15",
         "dateLabel": "15 SEP 2026",
@@ -20,60 +60,100 @@
     "caption": "Military aircraft movement reports.",
     "entries": [
       {
-        "id": "2104658792239464720",
+        "id": "2104952335835312352",
+        "date": "2026-09-29",
+        "dateLabel": "29 SEP 2026 · UTC",
+        "headline": "NATO02 E3TF reported at Albacete",
+        "summary": "SkyGlass reported NATO02, an E3TF aircraft, on the ground at Albacete, Spain. The alert identifies its registration as Luxembourg; it does not confirm why it was there.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2104952335835312352"
+      },
+      {
+        "id": "2104950845963956675",
+        "date": "2026-09-29",
+        "dateLabel": "29 SEP 2026 · UTC",
+        "headline": "P-8 reported at Oak Grove",
+        "summary": "SkyGlass reported a P-8 on the ground at Oak Grove, South Carolina. The alert gives the tracked type and location but does not confirm its operator, mission, or reason for landing.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2104950845963956675"
+      },
+      {
+        "id": "2104944147610099867",
+        "date": "2026-09-29",
+        "dateLabel": "29 SEP 2026 · UTC",
+        "headline": "B-1 reported at Highworth",
+        "summary": "SkyGlass reported a B-1 on the ground at Highworth, United Kingdom. The alert gives its tracked type and location but does not establish when it arrived or why it was there.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2104944147610099867"
+      },
+      {
+        "id": "2104943304131395876",
+        "date": "2026-09-29",
+        "dateLabel": "29 SEP 2026 · UTC",
+        "headline": "P-8 departure at Orange Park",
+        "summary": "SkyGlass reported a P-8 off the ground at Orange Park, Florida. The alert gives the tracked type and departure status but does not confirm a mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2104943304131395876"
+      },
+      {
+        "id": "2104844280674021879",
+        "date": "2026-09-29",
+        "dateLabel": "29 SEP 2026 · UTC",
+        "headline": "MRNR06 P-8 reported at Burton",
+        "summary": "SkyGlass reported P-8 callsign MRNR06 on the ground at Burton, Australia. The alert records the tracked location and status without confirming a mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2104844280674021879"
+      },
+      {
+        "id": "2104836333294202972",
+        "date": "2026-09-29",
+        "dateLabel": "29 SEP 2026 · UTC",
+        "headline": "ASY169 P-8 departure at Motobu",
+        "summary": "SkyGlass reported P-8 callsign ASY169 off the ground at Motobu, Japan. The alert records a departure but does not confirm a destination or mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2104836333294202972"
+      },
+      {
+        "id": "2104833809539621352",
+        "date": "2026-09-29",
+        "dateLabel": "29 SEP 2026 · UTC",
+        "headline": "P-3 departure at Kaohsiung",
+        "summary": "SkyGlass reported a P-3 off the ground at Kaohsiung, Taiwan. The alert records the tracked type and departure status without confirming its operator, destination, or mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2104833809539621352"
+      },
+      {
+        "id": "2104765027110551985",
+        "date": "2026-09-29",
+        "dateLabel": "29 SEP 2026 · UTC",
+        "headline": "Earlier P-3 alert at Kaohsiung",
+        "summary": "SkyGlass issued an earlier separate alert for a P-3 off the ground at Kaohsiung, Taiwan. With no callsign shown, the post does not establish whether it was the same aircraft as a later alert.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2104765027110551985"
+      },
+      {
+        "id": "2104748270329221468",
+        "date": "2026-09-29",
+        "dateLabel": "29 SEP 2026 · UTC",
+        "headline": "P-8 departure at Nakagusuku",
+        "summary": "SkyGlass reported a P-8 off the ground at Nakagusuku, Japan. The alert records the tracked type and departure status without confirming its operator, destination, or mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2104748270329221468"
+      },
+      {
+        "id": "2104727004742303923",
+        "date": "2026-09-29",
+        "dateLabel": "29 SEP 2026 · UTC",
+        "headline": "P-8 departure in Florida",
+        "summary": "SkyGlass reported a P-8 off the ground at Bellair-Meadowbrook Terrace, Florida. The alert records the tracked type and departure status without confirming a mission or destination.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2104727004742303923"
+      },
+      {
+        "id": "2104697342305734908",
         "date": "2026-09-28",
         "dateLabel": "28 SEP 2026 · UTC",
-        "headline": "P-8 reported on ground in Florida",
-        "summary": "SkyGlass reported a U.S.-registered military P-8 on the ground at Orange Park, Florida. The alert describes its tracked status; it does not establish a mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2104658792239464720"
+        "headline": "E-6 departure near Midwest City",
+        "summary": "SkyGlass reported an E-6 off the ground at Midwest City, Oklahoma. The alert records the tracked type and departure status without confirming its destination or tasking.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2104697342305734908"
       },
       {
-        "id": "2104611598241349687",
+        "id": "2104676449969938586",
         "date": "2026-09-28",
         "dateLabel": "28 SEP 2026 · UTC",
-        "headline": "P-8 departure near Port Hueneme",
-        "summary": "SkyGlass reported a U.S.-registered military P-8 off the ground near Port Hueneme, California. Its destination and tasking were not confirmed in the alert.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2104611598241349687"
-      },
-      {
-        "id": "2104593114472026142",
-        "date": "2026-09-28",
-        "dateLabel": "28 SEP 2026 · UTC",
-        "headline": "P-3 departure near Port Hueneme",
-        "summary": "SkyGlass reported a U.S. military P-3 off the ground near Port Hueneme, California. The tracked departure does not by itself show where it was headed.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2104593114472026142"
-      },
-      {
-        "id": "2104520342584643688",
-        "date": "2026-09-28",
-        "dateLabel": "28 SEP 2026 · UTC",
-        "headline": "Portuguese P-3 departs Beja",
-        "summary": "SkyGlass reported a Portuguese-registered military P-3 Orion off the ground at Beja, Portugal. The post identifies the aircraft and departure, without confirming its mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2104520342584643688"
-      },
-      {
-        "id": "2104467876396572953",
-        "date": "2026-09-28",
-        "dateLabel": "28 SEP 2026",
-        "headline": "P-8 departure near Saundatti",
-        "summary": "SkyGlass reported an Indian-registered military P-8 off the ground near Saundatti, India. The alert identifies a tracked departure, without confirming its mission or destination.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2104467876396572953"
-      },
-      {
-        "id": "2104437934040498664",
-        "date": "2026-09-28",
-        "dateLabel": "28 SEP 2026 · UTC",
-        "headline": "E3TF departure near Asan",
-        "summary": "SkyGlass reported an E3TF aircraft off the ground near Asan, South Korea. The alert records the tracked departure without confirming its destination or mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2104437934040498664"
-      },
-      {
-        "id": "2104324360894836929",
-        "date": "2026-09-27",
-        "dateLabel": "27 SEP 2026 · UTC",
-        "headline": "New Zealand P-8 reported at Marton",
-        "summary": "SkyGlass reported the New Zealand-registered P-8 PDN04 on the ground at Marton, New Zealand. The alert records its tracked location and status without confirming a mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2104324360894836929"
+        "headline": "GRYHK11 E-2 departure at Norfolk",
+        "summary": "SkyGlass reported E-2 callsign GRYHK11 off the ground at Norfolk, Virginia. The alert records the departure without confirming a destination or mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2104676449969938586"
       }
     ]
   }
