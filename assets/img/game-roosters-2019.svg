@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="ROOSTERS 14–8 RAIDERS, 2019 GRAND FINAL">
+<defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#0a151c"/><stop offset="1" stop-color="#18232b"/></linearGradient><pattern id="p" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#ffffff" opacity=".045"/></pattern></defs>
+<rect width="960" height="540" fill="url(#g)"/><rect width="960" height="540" fill="url(#p)"/><path d="M0 0H18V540H0Z" fill="#cf172f"/><path d="M942 0H960V540H942Z" fill="#377453"/>
+<text x="480" y="91" text-anchor="middle" fill="#aac1ca" font-family="Arial,sans-serif" font-size="28" font-weight="bold" letter-spacing="6">2019 GRAND FINAL</text>
+<text x="480" y="203" text-anchor="middle" fill="#f3f6f3" font-family="Arial,sans-serif" font-size="42" font-weight="bold" letter-spacing="3">ROOSTERS  v  RAIDERS</text>
+<text x="480" y="351" text-anchor="middle" fill="#a8f06a" font-family="Arial,sans-serif" font-size="100" font-weight="900">14–8</text>
+<path d="M170 401H790" stroke="#4d666a"/><text x="480" y="469" text-anchor="middle" fill="#d7e4e3" font-family="Arial,sans-serif" font-size="23" font-weight="bold" letter-spacing="4">WATCH MATCH FOOTAGE  ▶</text></svg>
