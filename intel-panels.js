@@ -3,7 +3,7 @@
   let lastCheck = 0;
   const safeUrl = (value) => {
     try {
-      const url = new URL(value);
+      const url = new URL(value, location.href);
       return url.protocol === 'https:' ? url.href : null;
     } catch { return null; }
   };
