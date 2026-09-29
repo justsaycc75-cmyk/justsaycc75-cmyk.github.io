@@ -4,9 +4,9 @@
 <rect width="960" height="540" fill="url(#bg)"/><rect width="960" height="540" fill="url(#grid)"/>
 <circle cx="826" cy="93" r="8" fill="#ff795e"/><text x="800" y="100" text-anchor="end" fill="#bfe9e3" font-family="Arial,sans-serif" font-size="21" letter-spacing="4">RADIO WATCH</text>
 <text x="60" y="91" fill="#71d4e2" font-family="Arial,sans-serif" font-size="24" font-weight="700" letter-spacing="6">SHORTWAVE / HFGCS</text>
-<text x="60" y="184" fill="#f2f7ed" font-family="Arial,sans-serif" font-size="62" font-weight="800">CODED MESSAGE</text>
-<text x="60" y="234" fill="#a8c1c2" font-family="Arial,sans-serif" font-size="27">Emergency Action Message log</text>
+<text x="60" y="174" fill="#f2f7ed" font-family="Arial,sans-serif" font-size="58" font-weight="800">564UTJ</text><text x="60" y="218" fill="#a9e8e0" font-family="Arial,sans-serif" font-size="25" font-weight="700">29 SEP · 02:26 UTC · 30 CHARACTERS</text>
+<text x="60" y="268" fill="#a8c1c2" font-family="Arial,sans-serif" font-size="24">Emergency Action Message preamble</text>
 <path d="M0 358H80l14-18 9 39 12-87 13 129 14-62h35l10-29 12 58 13-30h85l10-28 14 56 12-42h115l9-17 10 38 12-106 14 169 16-72h63l11-30 13 58 10-28h92l11-15 10 31 12-67 16 102 15-51h116" fill="none" stroke="url(#wave)" stroke-width="5" stroke-linejoin="round"/>
 <path d="M0 358H960" stroke="#5b8991" opacity=".4"/>
-<rect x="60" y="449" width="310" height="49" rx="9" fill="#143c44" stroke="#68c8cf" opacity=".95"/><text x="81" y="480" fill="#d4f5e8" font-family="Arial,sans-serif" font-size="19" font-weight="700" letter-spacing="2">VIEW SOURCE LOG →</text>
+<rect x="60" y="449" width="365" height="49" rx="9" fill="#143c44" stroke="#68c8cf" opacity=".95"/><text x="81" y="480" fill="#d4f5e8" font-family="Arial,sans-serif" font-size="19" font-weight="700" letter-spacing="2">OPEN WAR WATCH LOG →</text>
 </svg>
