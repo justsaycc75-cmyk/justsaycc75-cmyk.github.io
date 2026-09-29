@@ -6,14 +6,17 @@
   const refresh = () => {
     if (!window.twttr?.widgets?.createTimeline) return;
     const next = document.createElement('div');
+    target.appendChild(next);
     window.twttr.widgets.createTimeline(
       { sourceType: 'profile', screenName: 'WarWatchIntel' },
       next,
       { theme: 'dark', chrome: 'noheader nofooter noborders transparent', tweetLimit: 3, height: 510, dnt: true }
     ).then((timeline) => {
       if (timeline) target.replaceChildren(next);
+      else next.remove();
     }).catch(() => {
       // Keep the last working posts and the direct X link if the widget fails.
+      next.remove();
     });
   };
 
