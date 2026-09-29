@@ -22,6 +22,38 @@
     "caption": "Military aircraft movement reports. Tap the thumbnail for the source account.",
     "entries": [
       {
+        "id": "2104658792239464720",
+        "date": "2026-09-28",
+        "dateLabel": "28 SEP 2026 · UTC",
+        "headline": "P-8 reported on ground in Florida",
+        "summary": "SkyGlass reported a U.S.-registered military P-8 on the ground at Orange Park, Florida. The alert describes its tracked status; it does not establish a mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2104658792239464720"
+      },
+      {
+        "id": "2104611598241349687",
+        "date": "2026-09-28",
+        "dateLabel": "28 SEP 2026 · UTC",
+        "headline": "P-8 departure near Port Hueneme",
+        "summary": "SkyGlass reported a U.S.-registered military P-8 off the ground near Port Hueneme, California. Its destination and tasking were not confirmed in the alert.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2104611598241349687"
+      },
+      {
+        "id": "2104593114472026142",
+        "date": "2026-09-28",
+        "dateLabel": "28 SEP 2026 · UTC",
+        "headline": "P-3 departure near Port Hueneme",
+        "summary": "SkyGlass reported a U.S. military P-3 off the ground near Port Hueneme, California. The tracked departure does not by itself show where it was headed.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2104593114472026142"
+      },
+      {
+        "id": "2104520342584643688",
+        "date": "2026-09-28",
+        "dateLabel": "28 SEP 2026 · UTC",
+        "headline": "Portuguese P-3 departs Beja",
+        "summary": "SkyGlass reported a Portuguese-registered military P-3 Orion off the ground at Beja, Portugal. The post identifies the aircraft and departure, without confirming its mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2104520342584643688"
+      },
+      {
         "id": "2104467876396572953",
         "date": "2026-09-28",
         "dateLabel": "28 SEP 2026",
