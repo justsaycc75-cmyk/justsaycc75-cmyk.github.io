@@ -5,14 +5,14 @@
     "deck": "War Watch Intel’s watch floor lists an Emergency Action Message preamble, 564UTJ, at 02:26 UTC.",
     "heading": "What was heard",
     "paragraphs": [
-      "The watch floor logged the six-character header 564UTJ. It also lists earlier repeated headers, including 56RG2X. These are public monitoring entries for HFGCS radio traffic.",
+      "The watch floor records 564UTJ at 02:26 UTC on 29 September, credited to SailawayDebstaAU. It reports a 30-character message. The preceding 56RG2X header was logged three times on 28 September, from 20:49 to 22:10 UTC.",
       "The coded content does not disclose the message’s purpose. For listeners, the useful next step is to compare the log with live reception and aircraft activity, without treating the code itself as proof of an operation."
     ],
     "sourceUrl": "https://warwatchintel.com/intel/eams",
     "imageUrl": "assets/img/hfgcs-watch.svg",
     "imageHref": "https://warwatchintel.com/intel/eams",
     "imageAlt": "Shortwave watch graphic linking to the War Watch Intel EAM log",
-    "caption": "Open the public EAM log for the latest recorded radio traffic.",
+    "caption": "564UTJ · 02:26 UTC, 29 Sep · 30 characters. Logged by SailawayDebstaAU. Open the source for the full sequence.",
     "sourceAt": "2026-09-29T02:26:00Z"
   },
   "skyglass": {
