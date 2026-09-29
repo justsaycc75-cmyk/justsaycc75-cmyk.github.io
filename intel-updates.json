@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2104994711756779562",
+        "date": "2026-09-29",
+        "dateLabel": "29 SEP 2026 · UTC",
+        "headline": "Coded radio traffic spike reported",
+        "summary": "War Watch Intel reported four coded U.S. military radio transmissions in one hour and said activity across nine global regions was nearly seven times its normal level. The post did not disclose message contents.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2104994711756779562"
+      },
+      {
+        "id": "2104979609783533798",
+        "date": "2026-09-29",
+        "dateLabel": "29 SEP 2026 · UTC",
+        "headline": "Transport and command aircraft active",
+        "summary": "War Watch Intel reported multiple U.S. Air Force transport aircraft and a nuclear command aircraft airborne over the United States, along with one coded Air Force broadcast. The update also repeated its earlier Tu-95MS crash report.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2104979609783533798"
+      },
+      {
+        "id": "2104964506266873941",
+        "date": "2026-09-29",
+        "dateLabel": "29 SEP 2026 · UTC",
+        "headline": "Bomber and military aircraft tracked",
+        "summary": "War Watch Intel reported a U.S. Air Force bomber, multiple transport aircraft and one reconnaissance aircraft airborne over the United States, with several senior-support military aircraft observed near Washington, D.C. The post did not identify the aircraft.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2104964506266873941"
+      },
+      {
         "id": "2104949405866463430",
         "date": "2026-09-29",
         "dateLabel": "29 SEP 2026 · UTC",
@@ -45,6 +69,14 @@
         "sourceUrl": "https://x.com/WarWatchIntel/status/2104918272701313264"
       },
       {
+        "id": "2104858782308200927",
+        "date": "2026-09-29",
+        "dateLabel": "29 SEP 2026 · UTC",
+        "headline": "USAF aircraft and coded traffic reported",
+        "summary": "War Watch Intel reported multiple U.S. Air Force surveillance and transport aircraft airborne over the United States and Europe, with coded radio traffic detected earlier that day. The post did not identify the aircraft or message content.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2104858782308200927"
+      },
+      {
         "id": "2099882195347177568",
         "date": "2026-09-15",
         "dateLabel": "15 SEP 2026",
@@ -59,6 +91,62 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2104992440893538518",
+        "date": "2026-09-29",
+        "dateLabel": "29 SEP 2026 · UTC",
+        "headline": "P-8 reported at Orange Park",
+        "summary": "SkyGlass reported a P-8 on the ground at Orange Park, Florida. The alert gives no callsign and does not confirm its mission or reason for landing.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2104992440893538518"
+      },
+      {
+        "id": "2104991803283755264",
+        "date": "2026-09-29",
+        "dateLabel": "29 SEP 2026 · UTC",
+        "headline": "Separate P-8 ground alert at Orange Park",
+        "summary": "A separate SkyGlass alert also reported a P-8 on the ground at Orange Park, Florida. With no callsign shown, the posts do not establish whether they concern the same aircraft.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2104991803283755264"
+      },
+      {
+        "id": "2104991166735217117",
+        "date": "2026-09-29",
+        "dateLabel": "29 SEP 2026 · UTC",
+        "headline": "P-8 departure at Cape Canaveral",
+        "summary": "SkyGlass reported a P-8 off the ground at Cape Canaveral, United States. The alert records the tracked type and departure status without confirming a destination or mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2104991166735217117"
+      },
+      {
+        "id": "2104990741827063865",
+        "date": "2026-09-29",
+        "dateLabel": "29 SEP 2026 · UTC",
+        "headline": "P-8 departure at Abu Dhabi",
+        "summary": "SkyGlass reported a P-8 off the ground at Abu Dhabi, United Arab Emirates. The alert gives no callsign and does not confirm its operator, destination or purpose.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2104990741827063865"
+      },
+      {
+        "id": "2104970578142663047",
+        "date": "2026-09-29",
+        "dateLabel": "29 SEP 2026 · UTC",
+        "headline": "EAGLE31 E-2 reported at Port Hueneme",
+        "summary": "SkyGlass reported E-2 callsign EAGLE31 on the ground at Port Hueneme, California. The alert records the tracked location and status without confirming a mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2104970578142663047"
+      },
+      {
+        "id": "2104959047023649050",
+        "date": "2026-09-29",
+        "dateLabel": "29 SEP 2026 · UTC",
+        "headline": "B-52 departure near Minden",
+        "summary": "SkyGlass reported a B-52 off the ground at Minden, Louisiana. The alert records the tracked type and departure status without confirming its destination or tasking.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2104959047023649050"
+      },
+      {
+        "id": "2104956088541978958",
+        "date": "2026-09-29",
+        "dateLabel": "29 SEP 2026 · UTC",
+        "headline": "RFR7049 P-8 departure at Plainfield",
+        "summary": "SkyGlass reported P-8 callsign RFR7049 off the ground at Plainfield, Indiana. The alert identifies UK registration but does not confirm its destination or mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2104956088541978958"
+      },
       {
         "id": "2104952335835312352",
         "date": "2026-09-29",
@@ -92,68 +180,12 @@
         "sourceUrl": "https://x.com/SkyGlass12/status/2104943304131395876"
       },
       {
-        "id": "2104844280674021879",
+        "id": "2104941803820437563",
         "date": "2026-09-29",
         "dateLabel": "29 SEP 2026 · UTC",
-        "headline": "MRNR06 P-8 reported at Burton",
-        "summary": "SkyGlass reported P-8 callsign MRNR06 on the ground at Burton, Australia. The alert records the tracked location and status without confirming a mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2104844280674021879"
-      },
-      {
-        "id": "2104836333294202972",
-        "date": "2026-09-29",
-        "dateLabel": "29 SEP 2026 · UTC",
-        "headline": "ASY169 P-8 departure at Motobu",
-        "summary": "SkyGlass reported P-8 callsign ASY169 off the ground at Motobu, Japan. The alert records a departure but does not confirm a destination or mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2104836333294202972"
-      },
-      {
-        "id": "2104833809539621352",
-        "date": "2026-09-29",
-        "dateLabel": "29 SEP 2026 · UTC",
-        "headline": "P-3 departure at Kaohsiung",
-        "summary": "SkyGlass reported a P-3 off the ground at Kaohsiung, Taiwan. The alert records the tracked type and departure status without confirming its operator, destination, or mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2104833809539621352"
-      },
-      {
-        "id": "2104765027110551985",
-        "date": "2026-09-29",
-        "dateLabel": "29 SEP 2026 · UTC",
-        "headline": "Earlier P-3 alert at Kaohsiung",
-        "summary": "SkyGlass issued an earlier separate alert for a P-3 off the ground at Kaohsiung, Taiwan. With no callsign shown, the post does not establish whether it was the same aircraft as a later alert.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2104765027110551985"
-      },
-      {
-        "id": "2104748270329221468",
-        "date": "2026-09-29",
-        "dateLabel": "29 SEP 2026 · UTC",
-        "headline": "P-8 departure at Nakagusuku",
-        "summary": "SkyGlass reported a P-8 off the ground at Nakagusuku, Japan. The alert records the tracked type and departure status without confirming its operator, destination, or mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2104748270329221468"
-      },
-      {
-        "id": "2104727004742303923",
-        "date": "2026-09-29",
-        "dateLabel": "29 SEP 2026 · UTC",
-        "headline": "P-8 departure in Florida",
-        "summary": "SkyGlass reported a P-8 off the ground at Bellair-Meadowbrook Terrace, Florida. The alert records the tracked type and departure status without confirming a mission or destination.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2104727004742303923"
-      },
-      {
-        "id": "2104697342305734908",
-        "date": "2026-09-28",
-        "dateLabel": "28 SEP 2026 · UTC",
-        "headline": "E-6 departure near Midwest City",
-        "summary": "SkyGlass reported an E-6 off the ground at Midwest City, Oklahoma. The alert records the tracked type and departure status without confirming its destination or tasking.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2104697342305734908"
-      },
-      {
-        "id": "2104676449969938586",
-        "date": "2026-09-28",
-        "dateLabel": "28 SEP 2026 · UTC",
-        "headline": "GRYHK11 E-2 departure at Norfolk",
-        "summary": "SkyGlass reported E-2 callsign GRYHK11 off the ground at Norfolk, Virginia. The alert records the departure without confirming a destination or mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2104676449969938586"
+        "headline": "P-8 departure at Bellair-Meadowbrook",
+        "summary": "SkyGlass reported a P-8 off the ground at Bellair-Meadowbrook Terrace, Florida. The alert records the tracked type and departure status without confirming a destination or mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2104941803820437563"
       }
     ]
   }
