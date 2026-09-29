@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+<title id="title">HFGCS shortwave watch graphic</title><desc id="desc">Stylised shortwave spectrum and Emergency Action Message log marker</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#06121b"/><stop offset="1" stop-color="#123543"/></linearGradient><linearGradient id="wave"><stop stop-color="#3dd5df"/><stop offset=".52" stop-color="#b7f477"/><stop offset="1" stop-color="#3dd5df"/></linearGradient><pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M60 0H0V60" fill="none" stroke="#54a4b0" opacity=".12"/></pattern></defs>
+<rect width="960" height="540" fill="url(#bg)"/><rect width="960" height="540" fill="url(#grid)"/>
+<circle cx="826" cy="93" r="8" fill="#ff795e"/><text x="800" y="100" text-anchor="end" fill="#bfe9e3" font-family="Arial,sans-serif" font-size="21" letter-spacing="4">RADIO WATCH</text>
+<text x="60" y="91" fill="#71d4e2" font-family="Arial,sans-serif" font-size="24" font-weight="700" letter-spacing="6">SHORTWAVE / HFGCS</text>
+<text x="60" y="184" fill="#f2f7ed" font-family="Arial,sans-serif" font-size="62" font-weight="800">CODED MESSAGE</text>
+<text x="60" y="234" fill="#a8c1c2" font-family="Arial,sans-serif" font-size="27">Emergency Action Message log</text>
+<path d="M0 358H80l14-18 9 39 12-87 13 129 14-62h35l10-29 12 58 13-30h85l10-28 14 56 12-42h115l9-17 10 38 12-106 14 169 16-72h63l11-30 13 58 10-28h92l11-15 10 31 12-67 16 102 15-51h116" fill="none" stroke="url(#wave)" stroke-width="5" stroke-linejoin="round"/>
+<path d="M0 358H960" stroke="#5b8991" opacity=".4"/>
+<rect x="60" y="449" width="310" height="49" rx="9" fill="#143c44" stroke="#68c8cf" opacity=".95"/><text x="81" y="480" fill="#d4f5e8" font-family="Arial,sans-serif" font-size="19" font-weight="700" letter-spacing="2">VIEW SOURCE LOG →</text>
+</svg>
