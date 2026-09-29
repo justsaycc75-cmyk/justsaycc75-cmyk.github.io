@@ -9,10 +9,10 @@
       "The coded content does not disclose the message’s purpose. For listeners, the useful next step is to compare the log with live reception and aircraft activity, without treating the code itself as proof of an operation."
     ],
     "sourceUrl": "https://warwatchintel.com/intel/eams",
-    "imageUrl": "https://i.ytimg.com/vi/lQQi7b-U2YA/hqdefault.jpg",
-    "imageHref": "https://www.youtube.com/watch?v=lQQi7b-U2YA",
-    "imageAlt": "War Watch Intel live stream preview",
-    "caption": "Follow the live radio and aircraft coverage.",
+    "imageUrl": "assets/img/hfgcs-watch.svg",
+    "imageHref": "https://warwatchintel.com/intel/eams",
+    "imageAlt": "Shortwave watch graphic linking to the War Watch Intel EAM log",
+    "caption": "Open the public EAM log for the latest recorded radio traffic.",
     "sourceAt": "2026-09-29T02:26:00Z"
   },
   "skyglass": {
