@@ -1,9 +1,8 @@
 {
   "warwatch": {
     "imageUrl": "War1.png",
-    "imageHref": "https://x.com/WarWatchIntel",
     "imageAlt": "War Watch Intel profile thumbnail",
-    "caption": "Shortwave and military aircraft reports. Tap the thumbnail for the source account.",
+    "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
         "id": "2099882195347177568",
@@ -17,9 +16,8 @@
   },
   "skyglass": {
     "imageUrl": "Skyglass.png",
-    "imageHref": "https://x.com/SkyGlass12",
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
-    "caption": "Military aircraft movement reports. Tap the thumbnail for the source account.",
+    "caption": "Military aircraft movement reports.",
     "entries": [
       {
         "id": "2104658792239464720",
