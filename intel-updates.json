@@ -5,6 +5,38 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2105130638261019133",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEP 2026 · UTC",
+        "headline": "Nuclear command and transport aircraft reported",
+        "summary": "War Watch Intel reported a U.S. Air Force nuclear command aircraft, three heavy transport aircraft and one reconnaissance aircraft airborne over the United States, and described activity as elevated. The post did not identify callsigns or purpose.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105130638261019133"
+      },
+      {
+        "id": "2105119373039976946",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEP 2026 · UTC",
+        "headline": "North Korea mine-blast report relayed",
+        "summary": "War Watch Intel relayed a Reuters report saying North Korea warned South Korea of consequences for shifting blame for a mine blast. This was attributed third-party reporting, not a firsthand operational update.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105119373039976946"
+      },
+      {
+        "id": "2105115536451350847",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEP 2026 · UTC",
+        "headline": "USAF transports and command aircraft reported",
+        "summary": "War Watch Intel reported multiple large U.S. Air Force transport aircraft and a nuclear command aircraft over the continental United States, and described activity as elevated. No callsigns or purpose were given.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105115536451350847"
+      },
+      {
+        "id": "2105100433819578384",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEP 2026 · UTC",
+        "headline": "Gulf and Iran air activity elevated",
+        "summary": "War Watch Intel reported U.S. military air activity near the Gulf and Iran at about four times its usual level, and also noted multiple U.S. Air Force surveillance and transport aircraft airborne. The visible post did not confirm their missions.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105100433819578384"
+      },
+      {
         "id": "2105086904408379801",
         "date": "2026-09-30",
         "dateLabel": "30 SEP 2026 · UTC",
@@ -67,38 +99,6 @@
         "headline": "SAM218 C-32A sighting relayed",
         "summary": "War Watch Intel relayed a sighting identifying Boeing C-32A callsign SAM218 with hex code ADFEBA. The post credited TruthSeekr60 for the sighting and a Planespotters image; it did not state the aircraft’s location or purpose.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2105021467855380882"
-      },
-      {
-        "id": "2105013668068900878",
-        "date": "2026-09-29",
-        "dateLabel": "29 SEP 2026 · UTC",
-        "headline": "GRIFF01 E-4B sighting relayed",
-        "summary": "War Watch Intel relayed a sighting identifying Boeing 747 E-4B callsign GRIFF01 with hex code ADFEB3. The post credited TruthSeekr60 for the sighting and a Planespotters image; it did not give a location or mission.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105013668068900878"
-      },
-      {
-        "id": "2105009813776142395",
-        "date": "2026-09-29",
-        "dateLabel": "29 SEP 2026 · UTC",
-        "headline": "Baltic activity and coded broadcasts reported",
-        "summary": "War Watch Intel reported large U.S. Air Force transport and surveillance aircraft airborne over the continental United States, Baltic air activity at nearly four times its normal level, and four coded military radio broadcasts. It did not identify the aircraft or disclose message contents.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105009813776142395"
-      },
-      {
-        "id": "2104994711756779562",
-        "date": "2026-09-29",
-        "dateLabel": "29 SEP 2026 · UTC",
-        "headline": "Coded radio traffic spike reported",
-        "summary": "War Watch Intel reported four coded U.S. military radio transmissions in one hour and said activity across nine global regions was nearly seven times its normal level. The post did not disclose message contents.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2104994711756779562"
-      },
-      {
-        "id": "2104979609783533798",
-        "date": "2026-09-29",
-        "dateLabel": "29 SEP 2026 · UTC",
-        "headline": "Transport and command aircraft active",
-        "summary": "War Watch Intel reported multiple U.S. Air Force transport aircraft and a nuclear command aircraft airborne over the United States, along with one coded Air Force broadcast. The update also repeated its earlier Tu-95MS crash report.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2104979609783533798"
       }
     ]
   },
@@ -107,6 +107,14 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2105117051836563827",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEP 2026 · UTC",
+        "headline": "P-8 reported on the ground at Burton",
+        "summary": "SkyGlass reported a P-8 on the ground at Burton, Australia. The alert shows the label TRDT but does not confirm the aircraft’s mission, destination or reason for being there.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105117051836563827"
+      },
       {
         "id": "2105088158832439506",
         "date": "2026-09-30",
@@ -194,14 +202,6 @@
         "headline": "P-8 departure at Cape Canaveral",
         "summary": "SkyGlass reported a P-8 off the ground at Cape Canaveral, United States. The alert records the tracked type and departure status without confirming a destination or mission.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2104991166735217117"
-      },
-      {
-        "id": "2104990741827063865",
-        "date": "2026-09-29",
-        "dateLabel": "29 SEP 2026 · UTC",
-        "headline": "P-8 departure at Abu Dhabi",
-        "summary": "SkyGlass reported a P-8 off the ground at Abu Dhabi, United Arab Emirates. The alert gives no callsign and does not confirm its operator, destination or purpose.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2104990741827063865"
       }
     ]
   }
