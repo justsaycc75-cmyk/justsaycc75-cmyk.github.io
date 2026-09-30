@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2105357071503823305",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEPT 2026 · UTC",
+        "headline": "Five USAF transports and Customs aircraft reported",
+        "summary": "War Watch Intel reported five U.S. Air Force heavy transport aircraft airborne over the United States alongside a U.S. Customs surveillance aircraft. It characterised the activity as unusually high for the hour but did not identify any mission.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105357071503823305"
+      },
+      {
+        "id": "2105341967802540268",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEPT 2026 · UTC",
+        "headline": "USAF surveillance plane and six transports reported",
+        "summary": "War Watch Intel reported a U.S. Air Force surveillance aircraft and six military transport aircraft airborne over the United States. It said no coded broadcasts had been detected during that hour.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105341967802540268"
+      },
+      {
+        "id": "2105326863321100313",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEPT 2026 · UTC",
+        "headline": "USAF surveillance and command aircraft reported",
+        "summary": "War Watch Intel reported a U.S. Air Force surveillance aircraft and a nuclear command jet airborne over the United States alongside multiple cargo transports. It said no coded radio broadcasts had been detected during that hour.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105326863321100313"
+      },
+      {
         "id": "2105315688801841622",
         "date": "2026-09-30",
         "dateLabel": "30 SEP 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "Transports and radar aircraft reported airborne",
         "summary": "War Watch Intel reported five U.S. Air Force transport aircraft and a NATO radar aircraft airborne. It also said a surveillance aircraft had been spotted over the North Sea earlier; no missions were confirmed.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2105206034859958594"
-      },
-      {
-        "id": "2105190934426066952",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEP 2026 · UTC",
-        "headline": "Six USAF transports and no coded broadcasts reported",
-        "summary": "War Watch Intel reported six U.S. Air Force transport aircraft airborne, including one near the Persian Gulf and another near Korea and Japan. It said no coded radio broadcasts had been detected during that hour.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105190934426066952"
-      },
-      {
-        "id": "2105178519521075280",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEP 2026 · UTC",
-        "headline": "USAF transports and surveillance aircraft reported",
-        "summary": "War Watch Intel reported four U.S. Air Force cargo aircraft airborne over the continental United States and North Sea, and said a surveillance aircraft had been spotted earlier. The post did not identify their missions.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105178519521075280"
-      },
-      {
-        "id": "2105174743200473116",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEP 2026 · UTC",
-        "headline": "Guardian Ukraine briefing relayed",
-        "summary": "War Watch Intel relayed a Guardian Ukraine war briefing saying NATO had condemned Moscow’s nuclear rhetoric as strikes on Kyiv intensified. The post credited @Robertchester; this was third-party reporting.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105174743200473116"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2105354704096039305",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEPT 2026 · UTC",
+        "headline": "P-8 reported on the ground at Orange Park",
+        "summary": "SkyGlass posted an alert showing a P-8 on the ground at Orange Park, Florida, United States. Its mission and reason for being there were not confirmed.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105354704096039305"
+      },
+      {
+        "id": "2105351879177785494",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEPT 2026 · UTC",
+        "headline": "P-8 reported off the ground at Fruit Cove",
+        "summary": "SkyGlass posted an alert showing a P-8 off the ground at Fruit Cove, Florida, United States. The alert did not confirm its destination or mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105351879177785494"
+      },
+      {
+        "id": "2105345198934929709",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEPT 2026 · UTC",
+        "headline": "P-8 reported off the ground at Orange Park",
+        "summary": "SkyGlass posted an alert showing a P-8 off the ground at Orange Park, Florida, United States. The alert did not confirm its destination or mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105345198934929709"
+      },
+      {
+        "id": "2105339003801067736",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEPT 2026 · UTC",
+        "headline": "Another P-8 departure alert at Orange Park",
+        "summary": "SkyGlass posted a separate P-8 off-ground alert at Orange Park, Florida, United States. The post did not establish whether it concerned the same aircraft as its later Orange Park alert.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105339003801067736"
+      },
       {
         "id": "2105315460770082997",
         "date": "2026-09-30",
@@ -170,38 +202,6 @@
         "headline": "F/A-XX contract report shared",
         "summary": "SkyGlass shared a linked Defence Blog report saying Boeing had beaten Northrop Grumman for a U.S. Navy F/A-XX fighter contract. This was third-party reporting, not a live aircraft movement alert.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2105206455099854945"
-      },
-      {
-        "id": "2105206455095660883",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEP 2026 · UTC",
-        "headline": "Super Hornet production report shared",
-        "summary": "SkyGlass shared a linked Defence Blog report saying the U.S. Navy was paying Boeing to plan the shutdown of F/A-18E/F and EA-18G production lines. This was third-party reporting, not a live aircraft movement alert.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105206455095660883"
-      },
-      {
-        "id": "2105206455083192470",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEP 2026 · UTC",
-        "headline": "Boeing F/A-XX analysis shared",
-        "summary": "SkyGlass shared a linked Breaking Defense analysis of what Boeing’s F/A-XX contract win could mean for the company and its future work. This was third-party analysis, not a live aircraft movement alert.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105206455083192470"
-      },
-      {
-        "id": "2105178571698270285",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEP 2026 · UTC",
-        "headline": "GURNY01 P-8 departure at Lossiemouth",
-        "summary": "SkyGlass reported P-8 callsign GURNY01 off the ground at Lossiemouth, United Kingdom. The alert did not confirm its destination or mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105178571698270285"
-      },
-      {
-        "id": "2105158401999139300",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEP 2026 · UTC",
-        "headline": "E3TF departure at Urasoe",
-        "summary": "SkyGlass reported an E3TF aircraft off the ground at Urasoe, Japan. The alert did not show a callsign or confirm its destination or mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105158401999139300"
       }
     ]
   }
