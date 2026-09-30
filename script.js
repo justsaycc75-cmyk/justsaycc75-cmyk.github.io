@@ -1192,7 +1192,7 @@ const verifiedSongs=[
     artist: "David Bowie",
     track: "Blue Jean",
     videoId: "NZnryZ5rDbs",
-    posterUrl: "assets/img/blue-jean-rhino.jpg",
+    posterUrl: "assets/img/blue-jean-rhino.jpg?v=20260930",
     posterCredit: "Rhino"
   },
   {
