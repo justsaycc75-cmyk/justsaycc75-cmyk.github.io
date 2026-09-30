@@ -19,86 +19,9 @@
 })();
 
 (()=>{
-  const img=document.querySelector('[data-artist-image]');
+  // The shared rotation script owns the current song and its image fallback.
   const visual=document.querySelector('.artist-visual');
-  if(!img)return;
-
-  const artist=(document.querySelector('[data-daily-artist]')?.textContent||'').trim();
-  const track=(document.querySelector('[data-daily-track]')?.textContent||'').trim();
-  const fallback='assets/img/cassette.webp';
-
   if(visual)visual.style.display='none';
-  img.alt=track?`${artist} — ${track}`:artist;
-  img.loading='eager';
-
-  const setImage=src=>{
-    if(!src)return false;
-    const posterImg=document.querySelector('[data-video-frame] .daily-video-poster img');
-    const apply=(target)=>{
-      if(!target)return;
-      target.onerror=()=>{target.onerror=null;target.src=fallback;};
-      target.src=src;
-    };
-    apply(img);
-    apply(posterImg);
-    return true;
-  };
-
-  // Prefer the exact YouTube thumbnail when today's song has an embedded/direct clip.
-  const frame=document.querySelector('[data-video-frame] iframe');
-  if(frame){
-    const match=frame.src.match(/embed\/([^?&]+)/);
-    if(match&&match[1]){
-      setImage(`https://i.ytimg.com/vi/${match[1]}/hqdefault.jpg`);
-      return;
-    }
-  }
-
-  const ytHref=document.querySelector('[data-youtube]')?.href||'';
-  const directMatch=ytHref.match(/[?&]v=([^&]+)/);
-  if(directMatch&&directMatch[1]){
-    setImage(`https://i.ytimg.com/vi/${directMatch[1]}/hqdefault.jpg`);
-    return;
-  }
-
-  // Otherwise use an artist image. The cassette artwork remains the guaranteed fallback.
-  const wikiPages={
-    'The Buoys':'The Buoys (band)',
-    'Teen Jesus and the Jean Teasers':'Teen Jesus and the Jean Teasers',
-    'The Brian Jonestown Massacre':'The Brian Jonestown Massacre',
-    'V Spy V Spy':'Spy vs Spy (Australian band)',
-    'Machine Gun Fellatio':'Machine Gun Fellatio',
-    'Ed Kuepper':'Ed Kuepper',
-    'Mental As Anything':'Mental As Anything',
-    'POND':'Pond (Australian band)',
-    'Models':'Models (band)',
-    'Visage':'Visage (band)',
-    'Talking Heads':'Talking Heads',
-    'The Church':'The Church (band)',
-    'Simple Minds':'Simple Minds',
-    'RocKwiz':'RocKwiz',
-    'Parquet Courts':'Parquet Courts',
-    'Tony Joe White':'Tony Joe White',
-    'King Stingray':'King Stingray',
-    'Arcadia':'Arcadia (band)',
-    'INXS':'INXS',
-    'Midnight Oil':'Midnight Oil',
-    'Cold Chisel':'Cold Chisel',
-    'Hunters & Collectors':'Hunters & Collectors',
-    'The Saints':'The Saints (Australian band)',
-    'The Go-Betweens':'The Go-Betweens',
-    'Nick Cave & The Bad Seeds':'Nick Cave and the Bad Seeds'
-  };
-
-  setImage(fallback);
-  const page=wikiPages[artist]||artist;
-  fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(page)}`)
-    .then(r=>r.ok?r.json():Promise.reject())
-    .then(d=>{
-      const src=d?.thumbnail?.source||d?.originalimage?.source;
-      if(src)setImage(src);
-    })
-    .catch(()=>{});
 })();
 
 (()=>{
