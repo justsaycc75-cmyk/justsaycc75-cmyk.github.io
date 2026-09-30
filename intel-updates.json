@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2105266449715453963",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEP 2026 · UTC",
+        "headline": "US aircraft and NATO radar activity reported",
+        "summary": "War Watch Intel reported six U.S. military cargo and surveillance aircraft airborne and NATO radar activity over the North Sea. The post also mentioned a reported Dubai–Tel Aviv flight diversion; the visible text did not identify the military aircraft’s missions.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105266449715453963"
+      },
+      {
+        "id": "2105251347075305831",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEP 2026 · UTC",
+        "headline": "Taiwan-area air activity reported elevated",
+        "summary": "War Watch Intel reported air activity near Taiwan at nearly four times its usual level. It also reported a commercial flight diversion to Saudi Arabia following a cockpit incident; no link between the two events was stated.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105251347075305831"
+      },
+      {
+        "id": "2105236241339883794",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEP 2026 · UTC",
+        "headline": "Pacific transports and North Sea radar aircraft reported",
+        "summary": "War Watch Intel reported multiple U.S. military transport aircraft over the Pacific region, a NATO radar aircraft over the North Sea, and a surveillance aircraft near the Middle East. The post did not confirm their missions.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105236241339883794"
+      },
+      {
         "id": "2105221137244278917",
         "date": "2026-09-30",
         "dateLabel": "30 SEP 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "Nuclear command and transport aircraft reported",
         "summary": "War Watch Intel reported a U.S. Air Force nuclear command aircraft, three heavy transport aircraft and one reconnaissance aircraft airborne over the United States, and described activity as elevated. The post did not identify callsigns or purpose.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2105130638261019133"
-      },
-      {
-        "id": "2105119373039976946",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEP 2026 · UTC",
-        "headline": "North Korea mine-blast report relayed",
-        "summary": "War Watch Intel relayed a Reuters report saying North Korea warned South Korea of consequences for shifting blame for a mine blast. This was attributed third-party reporting, not a firsthand operational update.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105119373039976946"
-      },
-      {
-        "id": "2105115536451350847",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEP 2026 · UTC",
-        "headline": "USAF transports and command aircraft reported",
-        "summary": "War Watch Intel reported multiple large U.S. Air Force transport aircraft and a nuclear command aircraft over the continental United States, and described activity as elevated. No callsigns or purpose were given.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105115536451350847"
-      },
-      {
-        "id": "2105100433819578384",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEP 2026 · UTC",
-        "headline": "Gulf and Iran air activity elevated",
-        "summary": "War Watch Intel reported U.S. military air activity near the Gulf and Iran at about four times its usual level, and also noted multiple U.S. Air Force surveillance and transport aircraft airborne. The visible post did not confirm their missions.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105100433819578384"
       }
     ]
   },
@@ -107,6 +107,22 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2105269399783461143",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEP 2026 · UTC",
+        "headline": "NATO02 E3TF departure at Albacete",
+        "summary": "SkyGlass reported E3TF callsign NATO02 off the ground at Albacete, Spain. The alert did not confirm its destination or mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105269399783461143"
+      },
+      {
+        "id": "2105243471862702368",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEP 2026 · UTC",
+        "headline": "BOE36 E737 departure at Lossiemouth",
+        "summary": "SkyGlass reported E737 callsign BOE36 off the ground at Lossiemouth, United Kingdom. The alert did not establish its operator, destination or mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105243471862702368"
+      },
       {
         "id": "2105206455116734690",
         "date": "2026-09-30",
@@ -186,22 +202,6 @@
         "headline": "P-8 departure at Oak Harbor",
         "summary": "SkyGlass reported a P-8 off the ground at Oak Harbor, United States. The alert gives no callsign and does not confirm the aircraft’s destination or mission.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2105088158832439506"
-      },
-      {
-        "id": "2105085535685403127",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEP 2026 · UTC",
-        "headline": "F/A-XX contract report shared",
-        "summary": "SkyGlass shared a linked Breaking Defense report stating that Boeing had won the U.S. Navy’s F/A-XX next-generation fighter competition. This was third-party reporting, not a live aircraft movement alert.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105085535685403127"
-      },
-      {
-        "id": "2105085535681187941",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEP 2026 · UTC",
-        "headline": "Second F/A-XX contract report shared",
-        "summary": "SkyGlass separately shared a linked Aviationist report about Boeing being awarded a contract to develop the U.S. Navy’s F/A-XX fighter. This was third-party reporting, not a live aircraft movement alert.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105085535681187941"
       }
     ]
   }
