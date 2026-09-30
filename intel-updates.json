@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2105402379419984383",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEP 2026 · UTC",
+        "headline": "Transports, radio traffic and regional air activity reported",
+        "summary": "War Watch Intel reported multiple large transport aircraft airborne over the United States, a rise in coded military radio broadcasts near Iran, and air activity near Korea and Japan at nearly 4.5 times its usual level. It did not identify a connection between these observations.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105402379419984383"
+      },
+      {
+        "id": "2105392451598922102",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEP 2026 · UTC",
+        "headline": "Iraq mission report relayed",
+        "summary": "War Watch Intel relayed a Stars and Stripes report, credited to @reagan0965, saying the United States had ended its military mission in Iraq. This was attributed third-party reporting, not an observation made by the account.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105392451598922102"
+      },
+      {
+        "id": "2105388677488619934",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEP 2026 · UTC",
+        "headline": "USAF transports and elevated regional air activity reported",
+        "summary": "War Watch Intel reported six U.S. Air Force transport aircraft airborne over the continental United States, with air activity near Korea and Japan at nearly five times its usual level and in the Baltic region at more than three times usual.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105388677488619934"
+      },
+      {
+        "id": "2105384884122378406",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEP 2026 · UTC",
+        "headline": "UK airbase incident report relayed",
+        "summary": "War Watch Intel relayed an Insider Paper report, credited to @reagan0965, that the UK prime minister had described “strong indications” of Iranian involvement in an airbase incident. This was attributed third-party reporting.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105384884122378406"
+      },
+      {
+        "id": "2105379152593392069",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEP 2026 · UTC",
+        "headline": "C-40B callsign SAM951 sighting relayed",
+        "summary": "War Watch Intel relayed a sighting credited to @reagan0965 of a U.S. Air Force C-40B, callsign SAM951, hex AE11F6 and registration 01-0041. The post identified the 89th Airlift Wing at Andrews Air Force Base but did not state the aircraft’s current location or mission.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105379152593392069"
+      },
+      {
         "id": "2105357071503823305",
         "date": "2026-09-30",
         "dateLabel": "30 SEPT 2026 · UTC",
@@ -59,46 +99,6 @@
         "headline": "Four transports and two NATO radar aircraft reported",
         "summary": "War Watch Intel reported four U.S. Air Force transport aircraft and two NATO radar aircraft airborne, with one of each over the North Sea. It also noted a surveillance aircraft spotted earlier, without confirming any mission.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2105281552007475511"
-      },
-      {
-        "id": "2105266449715453963",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEP 2026 · UTC",
-        "headline": "US aircraft and NATO radar activity reported",
-        "summary": "War Watch Intel reported six U.S. military cargo and surveillance aircraft airborne and NATO radar activity over the North Sea. The post also mentioned a reported Dubai–Tel Aviv flight diversion; the visible text did not identify the military aircraft’s missions.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105266449715453963"
-      },
-      {
-        "id": "2105251347075305831",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEP 2026 · UTC",
-        "headline": "Taiwan-area air activity reported elevated",
-        "summary": "War Watch Intel reported air activity near Taiwan at nearly four times its usual level. It also reported a commercial flight diversion to Saudi Arabia following a cockpit incident; no link between the two events was stated.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105251347075305831"
-      },
-      {
-        "id": "2105236241339883794",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEP 2026 · UTC",
-        "headline": "Pacific transports and North Sea radar aircraft reported",
-        "summary": "War Watch Intel reported multiple U.S. military transport aircraft over the Pacific region, a NATO radar aircraft over the North Sea, and a surveillance aircraft near the Middle East. The post did not confirm their missions.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105236241339883794"
-      },
-      {
-        "id": "2105221137244278917",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEP 2026 · UTC",
-        "headline": "West Pacific activity reported above normal",
-        "summary": "War Watch Intel reported military air activity near Taiwan at about 3.4 times its usual level, five heavy transport aircraft airborne, and a U.S. surveillance aircraft over the North Sea. Its post did not identify their missions.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105221137244278917"
-      },
-      {
-        "id": "2105206034859958594",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEP 2026 · UTC",
-        "headline": "Transports and radar aircraft reported airborne",
-        "summary": "War Watch Intel reported five U.S. Air Force transport aircraft and a NATO radar aircraft airborne. It also said a surveillance aircraft had been spotted over the North Sea earlier; no missions were confirmed.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105206034859958594"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2105409729027518852",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEP 2026 · UTC",
+        "headline": "E-6 departure alert at Moore",
+        "summary": "SkyGlass posted an alert showing an E-6 off the ground at Moore, Oklahoma, United States. The alert did not establish its destination or mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105409729027518852"
+      },
+      {
+        "id": "2105405982054461907",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEP 2026 · UTC",
+        "headline": "B-1 on-ground alert at Highworth",
+        "summary": "SkyGlass posted an alert listing a B-1 on the ground at Highworth, Great Britain. The post did not independently establish the precise site or reason for its presence.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105405982054461907"
+      },
+      {
+        "id": "2105404312734073131",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEP 2026 · UTC",
+        "headline": "P-8 departure alert at Varsoli",
+        "summary": "SkyGlass posted an alert showing a P-8 off the ground at Varsoli, India. Its destination and mission were not confirmed.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105404312734073131"
+      },
+      {
+        "id": "2105390627101737164",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEP 2026 · UTC",
+        "headline": "E-2 on-ground alert at Shiloh",
+        "summary": "SkyGlass posted an alert listing an E-2, callsign STLJW21, on the ground at Shiloh, Illinois, United States. Its mission and reason for being there were not confirmed.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105390627101737164"
+      },
       {
         "id": "2105354704096039305",
         "date": "2026-09-30",
@@ -170,38 +202,6 @@
         "headline": "B-52 departure near Red Chute",
         "summary": "SkyGlass reported a B-52 off the ground near Red Chute, Louisiana, United States. The alert did not confirm the aircraft’s destination or mission.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2105310198143324648"
-      },
-      {
-        "id": "2105269399783461143",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEP 2026 · UTC",
-        "headline": "NATO02 E3TF departure at Albacete",
-        "summary": "SkyGlass reported E3TF callsign NATO02 off the ground at Albacete, Spain. The alert did not confirm its destination or mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105269399783461143"
-      },
-      {
-        "id": "2105243471862702368",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEP 2026 · UTC",
-        "headline": "BOE36 E737 departure at Lossiemouth",
-        "summary": "SkyGlass reported E737 callsign BOE36 off the ground at Lossiemouth, United Kingdom. The alert did not establish its operator, destination or mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105243471862702368"
-      },
-      {
-        "id": "2105206455116734690",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEP 2026 · UTC",
-        "headline": "F-16 identification system report shared",
-        "summary": "SkyGlass shared a linked Defence Blog report about clearance for BAE Systems’ AN/APX-127(V)1 identification system for F-16 aircraft. This was third-party reporting, not a live aircraft movement alert.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105206455116734690"
-      },
-      {
-        "id": "2105206455099854945",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEP 2026 · UTC",
-        "headline": "F/A-XX contract report shared",
-        "summary": "SkyGlass shared a linked Defence Blog report saying Boeing had beaten Northrop Grumman for a U.S. Navy F/A-XX fighter contract. This was third-party reporting, not a live aircraft movement alert.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105206455099854945"
       }
     ]
   }
