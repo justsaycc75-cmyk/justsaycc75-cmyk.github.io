@@ -1329,16 +1329,26 @@ document.querySelectorAll('[data-youtube]').forEach(e=>{
   }
 });
 
+function setSongArtwork(img){
+  const choices=[artworkUrl,'https://i.ytimg.com/vi/'+songPick.videoId+'/hqdefault.jpg','assets/img/cassette.webp'];
+  let choice=0;
+  const next=()=>{if(choice<choices.length-1)img.src=choices[++choice];};
+  // YouTube sometimes returns a tiny grey placeholder with HTTP 200 for a missing
+  // max-resolution image, so an error handler alone does not catch it.
+  img.onload=()=>{if(choice<choices.length-1 && img.naturalWidth<=120)next();};
+  img.onerror=next;
+  img.src=choices[choice];
+}
+
 document.querySelectorAll('[data-artist-image]').forEach(e=>{
-  e.src=artworkUrl;
   e.alt=songPick.artist+' — '+songPick.track;
-  e.onerror=()=>{if(!e.dataset.fallback){e.dataset.fallback='1';e.src='https://i.ytimg.com/vi/'+songPick.videoId+'/hqdefault.jpg';}else{e.onerror=null;e.src='assets/img/cassette.webp';}};
+  setSongArtwork(e);
 });
 
 document.querySelectorAll('[data-video-frame]').forEach(frame=>{
   frame.innerHTML=`
     <a class="daily-video-poster" href="${clipUrl}" target="_blank" rel="noopener" aria-label="Watch ${songPick.artist} — ${songPick.track} on YouTube">
-      <img src="${artworkUrl}" alt="${songPick.artist} — ${songPick.track}" onerror="if(!this.dataset.fallback){this.dataset.fallback='1';this.src='https://i.ytimg.com/vi/${songPick.videoId}/hqdefault.jpg';}else{this.onerror=null;this.src='assets/img/cassette.webp';}">
+      <img alt="${songPick.artist} — ${songPick.track}">
       <span class="daily-video-shade"></span>
       <span class="daily-video-play">▶</span>
       <span class="daily-video-copy">
@@ -1347,6 +1357,7 @@ document.querySelectorAll('[data-video-frame]').forEach(frame=>{
         <em>${songPick.track}</em>
       </span>
     </a>`;
+  setSongArtwork(frame.querySelector('.daily-video-poster img'));
 });
 
 const archivePick=archive[hash(key+'archive')%archive.length];
