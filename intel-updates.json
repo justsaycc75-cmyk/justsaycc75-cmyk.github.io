@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2105221137244278917",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEP 2026 · UTC",
+        "headline": "West Pacific activity reported above normal",
+        "summary": "War Watch Intel reported military air activity near Taiwan at about 3.4 times its usual level, five heavy transport aircraft airborne, and a U.S. surveillance aircraft over the North Sea. Its post did not identify their missions.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105221137244278917"
+      },
+      {
+        "id": "2105206034859958594",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEP 2026 · UTC",
+        "headline": "Transports and radar aircraft reported airborne",
+        "summary": "War Watch Intel reported five U.S. Air Force transport aircraft and a NATO radar aircraft airborne. It also said a surveillance aircraft had been spotted over the North Sea earlier; no missions were confirmed.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105206034859958594"
+      },
+      {
+        "id": "2105190934426066952",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEP 2026 · UTC",
+        "headline": "Six USAF transports and no coded broadcasts reported",
+        "summary": "War Watch Intel reported six U.S. Air Force transport aircraft airborne, including one near the Persian Gulf and another near Korea and Japan. It said no coded radio broadcasts had been detected during that hour.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105190934426066952"
+      },
+      {
         "id": "2105178519521075280",
         "date": "2026-09-30",
         "dateLabel": "30 SEP 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "Gulf and Iran air activity elevated",
         "summary": "War Watch Intel reported U.S. military air activity near the Gulf and Iran at about four times its usual level, and also noted multiple U.S. Air Force surveillance and transport aircraft airborne. The visible post did not confirm their missions.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2105100433819578384"
-      },
-      {
-        "id": "2105086904408379801",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEP 2026 · UTC",
-        "headline": "Military air activity above normal",
-        "summary": "War Watch Intel reported multiple large military transport aircraft airborne over the United States, along with radar aircraft and command jets, and said activity was well above normal for that time of night. The post did not identify the aircraft or their purpose.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105086904408379801"
-      },
-      {
-        "id": "2105083130482680254",
-        "date": "2026-09-29",
-        "dateLabel": "29 SEP 2026 · UTC",
-        "headline": "P4-SKN Boeing 777 sighting relayed",
-        "summary": "War Watch Intel relayed a sighting identifying an Equatorial Guinea government Boeing 777-200LR, registration P4-SKN and hex code 48448C. The post credited @reagan0965 and a Planespotters image; it did not give a location or purpose.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105083130482680254"
-      },
-      {
-        "id": "2105079351616078109",
-        "date": "2026-09-29",
-        "dateLabel": "29 SEP 2026 · UTC",
-        "headline": "Syrian security report relayed",
-        "summary": "War Watch Intel relayed a Jerusalem Post report stating that Syrian Internal Security Forces had disrupted a Hezbollah cell allegedly planning sabotage. The post credited @reagan0965; this was attributed third-party reporting, not a firsthand operational update.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105079351616078109"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2105206455116734690",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEP 2026 · UTC",
+        "headline": "F-16 identification system report shared",
+        "summary": "SkyGlass shared a linked Defence Blog report about clearance for BAE Systems’ AN/APX-127(V)1 identification system for F-16 aircraft. This was third-party reporting, not a live aircraft movement alert.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105206455116734690"
+      },
+      {
+        "id": "2105206455099854945",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEP 2026 · UTC",
+        "headline": "F/A-XX contract report shared",
+        "summary": "SkyGlass shared a linked Defence Blog report saying Boeing had beaten Northrop Grumman for a U.S. Navy F/A-XX fighter contract. This was third-party reporting, not a live aircraft movement alert.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105206455099854945"
+      },
+      {
+        "id": "2105206455095660883",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEP 2026 · UTC",
+        "headline": "Super Hornet production report shared",
+        "summary": "SkyGlass shared a linked Defence Blog report saying the U.S. Navy was paying Boeing to plan the shutdown of F/A-18E/F and EA-18G production lines. This was third-party reporting, not a live aircraft movement alert.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105206455095660883"
+      },
+      {
+        "id": "2105206455083192470",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEP 2026 · UTC",
+        "headline": "Boeing F/A-XX analysis shared",
+        "summary": "SkyGlass shared a linked Breaking Defense analysis of what Boeing’s F/A-XX contract win could mean for the company and its future work. This was third-party analysis, not a live aircraft movement alert.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105206455083192470"
+      },
       {
         "id": "2105178571698270285",
         "date": "2026-09-30",
@@ -170,38 +202,6 @@
         "headline": "Second F/A-XX contract report shared",
         "summary": "SkyGlass separately shared a linked Aviationist report about Boeing being awarded a contract to develop the U.S. Navy’s F/A-XX fighter. This was third-party reporting, not a live aircraft movement alert.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2105085535681187941"
-      },
-      {
-        "id": "2105071563225612469",
-        "date": "2026-09-29",
-        "dateLabel": "29 SEP 2026 · UTC",
-        "headline": "RFR7049 P-8 departure at Alness",
-        "summary": "SkyGlass reported P-8 callsign RFR7049 off the ground at Alness, United Kingdom. The alert records the callsign, aircraft type and departure status without confirming its destination or mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105071563225612469"
-      },
-      {
-        "id": "2105040598348542087",
-        "date": "2026-09-29",
-        "dateLabel": "29 SEP 2026 · UTC",
-        "headline": "SNTRY60 E3TF departure at Midwest City",
-        "summary": "SkyGlass reported E3TF callsign SNTRY60 off the ground at Midwest City, Oklahoma. The alert records the callsign, aircraft type and departure status without confirming its destination or mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105040598348542087"
-      },
-      {
-        "id": "2105025148629762542",
-        "date": "2026-09-29",
-        "dateLabel": "29 SEP 2026 · UTC",
-        "headline": "P-8 departure at Perumbakkam",
-        "summary": "SkyGlass reported a P-8 off the ground at Perumbakkam, India. The alert gives no callsign and does not confirm the aircraft’s destination or mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105025148629762542"
-      },
-      {
-        "id": "2105025082590380114",
-        "date": "2026-09-29",
-        "dateLabel": "29 SEP 2026 · UTC",
-        "headline": "Geran-4 drone report shared",
-        "summary": "SkyGlass shared a linked TWZ report about Russia’s Geran-4 jet-powered attack drones and the challenge they pose to Ukrainian air defences. This was a link to third-party reporting, not a live aircraft alert.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105025082590380114"
       }
     ]
   }
