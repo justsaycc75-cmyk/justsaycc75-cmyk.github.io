@@ -1192,7 +1192,8 @@ const verifiedSongs=[
     artist: "David Bowie",
     track: "Blue Jean",
     videoId: "NZnryZ5rDbs",
-    posterUrl: "https://www.rhino.com/sites/g/files/g2000012691/files/styles/article_image/public/2024-09/C57p4vZWgAAmgb_.jpg?itok=p3YKXQQk"
+    posterUrl: "assets/img/blue-jean-rhino.jpg",
+    posterCredit: "Rhino"
   },
   {
     artist: "David Bowie",
@@ -1354,7 +1355,7 @@ document.querySelectorAll('[data-video-frame]').forEach(frame=>{
       <span class="daily-video-shade"></span>
       <span class="daily-video-play">▶</span>
       <span class="daily-video-copy">
-        <small>WATCH ON YOUTUBE</small>
+        <small>WATCH ON YOUTUBE${songPick.posterCredit?" · STILL: "+songPick.posterCredit:""}</small>
         <strong>${songPick.artist}</strong>
         <em>${songPick.track}</em>
       </span>
