@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2105178519521075280",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEP 2026 · UTC",
+        "headline": "USAF transports and surveillance aircraft reported",
+        "summary": "War Watch Intel reported four U.S. Air Force cargo aircraft airborne over the continental United States and North Sea, and said a surveillance aircraft had been spotted earlier. The post did not identify their missions.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105178519521075280"
+      },
+      {
+        "id": "2105174743200473116",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEP 2026 · UTC",
+        "headline": "Guardian Ukraine briefing relayed",
+        "summary": "War Watch Intel relayed a Guardian Ukraine war briefing saying NATO had condemned Moscow’s nuclear rhetoric as strikes on Kyiv intensified. The post credited @Robertchester; this was third-party reporting.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105174743200473116"
+      },
+      {
+        "id": "2105168452008784116",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEP 2026 · UTC",
+        "headline": "CBS Iran ceasefire report relayed",
+        "summary": "War Watch Intel relayed a CBS report saying Tehran expected a U.S. response to a ceasefire proposal that President Trump had rejected. The post credited @Robertchester; this was third-party reporting.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105168452008784116"
+      },
+      {
+        "id": "2105164675805479123",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEP 2026 · UTC",
+        "headline": "USAF transport and surveillance activity reported",
+        "summary": "War Watch Intel reported multiple U.S. Air Force transport aircraft and one surveillance aircraft airborne over the United States, describing activity as busier than usual. It did not identify callsigns or missions.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105164675805479123"
+      },
+      {
+        "id": "2105160798007972285",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEP 2026 · UTC",
+        "headline": "Russian bomber crash report relayed",
+        "summary": "War Watch Intel relayed an Independent report saying six people had died after a Russian bomber crashed during a training exercise. The post credited @Robertchester; this was third-party reporting.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105160798007972285"
+      },
+      {
         "id": "2105130638261019133",
         "date": "2026-09-30",
         "dateLabel": "30 SEP 2026 · UTC",
@@ -59,46 +99,6 @@
         "headline": "Syrian security report relayed",
         "summary": "War Watch Intel relayed a Jerusalem Post report stating that Syrian Internal Security Forces had disrupted a Hezbollah cell allegedly planning sabotage. The post credited @reagan0965; this was attributed third-party reporting, not a firsthand operational update.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2105079351616078109"
-      },
-      {
-        "id": "2105075386312704010",
-        "date": "2026-09-29",
-        "dateLabel": "29 SEP 2026 · UTC",
-        "headline": "E-6B Mercury sighting relayed",
-        "summary": "War Watch Intel relayed a sighting identifying a Boeing E-6B Mercury with hex code AE041C and registration 164410; no callsign was shown. The post credited @reagan0965 and a Planespotters image, without giving a location or purpose.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105075386312704010"
-      },
-      {
-        "id": "2105070227486568510",
-        "date": "2026-09-29",
-        "dateLabel": "29 SEP 2026 · UTC",
-        "headline": "US transports and coded broadcasts reported",
-        "summary": "War Watch Intel reported multiple U.S. military transport and command aircraft airborne over the United States, including a nuclear command aircraft, plus four coded radio broadcasts heard that day. It said the most recent broadcast was about five hours earlier but did not disclose message contents.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105070227486568510"
-      },
-      {
-        "id": "2105040021270970426",
-        "date": "2026-09-29",
-        "dateLabel": "29 SEP 2026 · UTC",
-        "headline": "Gulf and Iran air activity elevated",
-        "summary": "War Watch Intel reported air activity near the Gulf and Iran at nearly three times its usual level. The update also noted multiple U.S. Air Force transport aircraft and a nuclear command aircraft airborne, without identifying their purpose.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105040021270970426"
-      },
-      {
-        "id": "2105025240229171483",
-        "date": "2026-09-29",
-        "dateLabel": "29 SEP 2026 · UTC",
-        "headline": "Command aircraft and coded traffic reported",
-        "summary": "War Watch Intel reported U.S. Air Force surveillance and nuclear command aircraft airborne over the United States, plus four coded radio broadcasts heard earlier that day. It gave 17:22 UTC as the latest broadcast time but did not disclose message contents.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105025240229171483"
-      },
-      {
-        "id": "2105021467855380882",
-        "date": "2026-09-29",
-        "dateLabel": "29 SEP 2026 · UTC",
-        "headline": "SAM218 C-32A sighting relayed",
-        "summary": "War Watch Intel relayed a sighting identifying Boeing C-32A callsign SAM218 with hex code ADFEBA. The post credited TruthSeekr60 for the sighting and a Planespotters image; it did not state the aircraft’s location or purpose.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105021467855380882"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2105178571698270285",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEP 2026 · UTC",
+        "headline": "GURNY01 P-8 departure at Lossiemouth",
+        "summary": "SkyGlass reported P-8 callsign GURNY01 off the ground at Lossiemouth, United Kingdom. The alert did not confirm its destination or mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105178571698270285"
+      },
+      {
+        "id": "2105158401999139300",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEP 2026 · UTC",
+        "headline": "E3TF departure at Urasoe",
+        "summary": "SkyGlass reported an E3TF aircraft off the ground at Urasoe, Japan. The alert did not show a callsign or confirm its destination or mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105158401999139300"
+      },
+      {
+        "id": "2105155378648391986",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEP 2026 · UTC",
+        "headline": "P-8 departure near Narasingapuram",
+        "summary": "SkyGlass reported a P-8 off the ground near Narasingapuram, India. The alert did not show a callsign or confirm its destination or mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105155378648391986"
+      },
+      {
+        "id": "2105145792759468245",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEP 2026 · UTC",
+        "headline": "F/A-XX rendering report shared",
+        "summary": "SkyGlass shared a linked TWZ article about Boeing’s F/A-XX fighter rendering. This was third-party reporting, not a live aircraft movement alert.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105145792759468245"
+      },
       {
         "id": "2105117051836563827",
         "date": "2026-09-30",
@@ -170,38 +202,6 @@
         "headline": "Geran-4 drone report shared",
         "summary": "SkyGlass shared a linked TWZ report about Russia’s Geran-4 jet-powered attack drones and the challenge they pose to Ukrainian air defences. This was a link to third-party reporting, not a live aircraft alert.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2105025082590380114"
-      },
-      {
-        "id": "2105025082582004079",
-        "date": "2026-09-29",
-        "dateLabel": "29 SEP 2026 · UTC",
-        "headline": "F-47 production report shared",
-        "summary": "SkyGlass shared a linked TWZ report about Boeing’s St. Louis facility and the U.S. Air Force F-47 production program. This was third-party reporting, not a live aircraft movement alert.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105025082582004079"
-      },
-      {
-        "id": "2104992440893538518",
-        "date": "2026-09-29",
-        "dateLabel": "29 SEP 2026 · UTC",
-        "headline": "P-8 reported at Orange Park",
-        "summary": "SkyGlass reported a P-8 on the ground at Orange Park, Florida. The alert gives no callsign and does not confirm its mission or reason for landing.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2104992440893538518"
-      },
-      {
-        "id": "2104991803283755264",
-        "date": "2026-09-29",
-        "dateLabel": "29 SEP 2026 · UTC",
-        "headline": "Separate P-8 ground alert at Orange Park",
-        "summary": "A separate SkyGlass alert also reported a P-8 on the ground at Orange Park, Florida. With no callsign shown, the posts do not establish whether they concern the same aircraft.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2104991803283755264"
-      },
-      {
-        "id": "2104991166735217117",
-        "date": "2026-09-29",
-        "dateLabel": "29 SEP 2026 · UTC",
-        "headline": "P-8 departure at Cape Canaveral",
-        "summary": "SkyGlass reported a P-8 off the ground at Cape Canaveral, United States. The alert records the tracked type and departure status without confirming a destination or mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2104991166735217117"
       }
     ]
   }
