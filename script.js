@@ -1331,13 +1331,14 @@ document.querySelectorAll('[data-youtube]').forEach(e=>{
 });
 
 function setSongArtwork(img){
-  const choices=[artworkUrl,'https://i.ytimg.com/vi/'+songPick.videoId+'/hqdefault.jpg',...(songPick.posterUrl?[songPick.posterUrl]:[]),'assets/img/cassette.webp'];
+  const choices=[...(songPick.posterUrl?[songPick.posterUrl]:[]),artworkUrl,'https://i.ytimg.com/vi/'+songPick.videoId+'/hqdefault.jpg','assets/img/cassette.webp'];
   let choice=0;
   const next=()=>{if(choice<choices.length-1)img.src=choices[++choice];};
   // YouTube sometimes returns a tiny grey placeholder with HTTP 200 for a missing
   // max-resolution image, so an error handler alone does not catch it.
   img.onload=()=>{if(choice<choices.length-1 && img.naturalWidth<=120)next();};
   img.onerror=next;
+  img.referrerPolicy='no-referrer';
   img.src=choices[choice];
 }
 
