@@ -1191,7 +1191,8 @@ const verifiedSongs=[
   {
     artist: "David Bowie",
     track: "Blue Jean",
-    videoId: "NZnryZ5rDbs"
+    videoId: "NZnryZ5rDbs",
+    posterUrl: "https://www.rhino.com/sites/g/files/g2000012691/files/styles/article_image/public/2024-09/C57p4vZWgAAmgb_.jpg?itok=p3YKXQQk"
   },
   {
     artist: "David Bowie",
@@ -1330,7 +1331,7 @@ document.querySelectorAll('[data-youtube]').forEach(e=>{
 });
 
 function setSongArtwork(img){
-  const choices=[artworkUrl,'https://i.ytimg.com/vi/'+songPick.videoId+'/hqdefault.jpg','assets/img/cassette.webp'];
+  const choices=[artworkUrl,'https://i.ytimg.com/vi/'+songPick.videoId+'/hqdefault.jpg',...(songPick.posterUrl?[songPick.posterUrl]:[]),'assets/img/cassette.webp'];
   let choice=0;
   const next=()=>{if(choice<choices.length-1)img.src=choices[++choice];};
   // YouTube sometimes returns a tiny grey placeholder with HTTP 200 for a missing
