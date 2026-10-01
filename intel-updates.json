@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2105587507396046992",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "BBC report on Putin’s Ukraine war stance relayed",
+        "summary": "War Watch Intel relayed a BBC report saying Vladimir Putin showed no signs of stopping the war and was doubling down on Ukraine. This was attributed news reporting.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105587507396046992"
+      },
+      {
+        "id": "2105583617581666429",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "Four transports and two North Sea surveillance jets reported",
+        "summary": "War Watch Intel reported four U.S. Air Force transport aircraft and two surveillance aircraft airborne, including two surveillance jets over the North Sea. The post did not identify their missions.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105583617581666429"
+      },
+      {
+        "id": "2105578338324447283",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "Ukraine power-grid attack report relayed",
+        "summary": "War Watch Intel relayed a Guardian report about Russian attacks on Ukraine’s power grid, reporting seven people killed and describing it as the largest energy attack in months. These were claims from the cited news report.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105578338324447283"
+      },
+      {
+        "id": "2105568515843318135",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "Six transports and an earlier fighter emergency squawk reported",
+        "summary": "War Watch Intel reported six U.S. Air Force transport aircraft airborne, including one over the North Sea. It also mentioned a fighter jet’s emergency squawk earlier that day, without confirming the cause or a link to the transports.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105568515843318135"
+      },
+      {
+        "id": "2105553412741886440",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "Heavy-lift transports and radio monitoring reported",
+        "summary": "War Watch Intel reported six U.S. Air Force heavy-lift transport aircraft airborne and no coded radio broadcasts in the preceding hour. It also mentioned an earlier fighter jet emergency squawk without identifying its cause.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105553412741886440"
+      },
+      {
         "id": "2105538309099290986",
         "date": "2026-10-01",
         "dateLabel": "01 OCT 2026 · UTC",
@@ -59,46 +99,6 @@
         "headline": "Four coded broadcasts and six transports reported",
         "summary": "War Watch Intel reported four coded U.S. Air Force radio broadcasts heard that day and six military transport aircraft airborne, including one near Korea and Japan.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2105447691207512490"
-      },
-      {
-        "id": "2105438509616050279",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEP 2026 · UTC",
-        "headline": "AFRICOM strike report relayed",
-        "summary": "War Watch Intel relayed an AFRICOM report, credited to @reagan0965, about U.S. strikes targeting al-Shabaab. The visible post did not give the strikes’ location or date.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105438509616050279"
-      },
-      {
-        "id": "2105434735728030092",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEP 2026 · UTC",
-        "headline": "Coded broadcasts and reconnaissance aircraft reported",
-        "summary": "War Watch Intel reported four coded U.S. Air Force radio broadcasts heard that day and multiple transport and surveillance aircraft airborne over the United States, including two reconnaissance aircraft.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105434735728030092"
-      },
-      {
-        "id": "2105417484467613966",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEP 2026 · UTC",
-        "headline": "Transport aircraft and a coded broadcast reported",
-        "summary": "War Watch Intel reported four U.S. Air Force transport aircraft and two specialised military jets airborne over the United States, with one coded radio broadcast heard in the preceding hour.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105417484467613966"
-      },
-      {
-        "id": "2105402379419984383",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEP 2026 · UTC",
-        "headline": "Transports, radio traffic and regional air activity reported",
-        "summary": "War Watch Intel reported multiple large transport aircraft airborne over the United States, a rise in coded military radio broadcasts near Iran, and air activity near Korea and Japan at nearly 4.5 times its usual level. It did not identify a connection between these observations.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105402379419984383"
-      },
-      {
-        "id": "2105392451598922102",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEP 2026 · UTC",
-        "headline": "Iraq mission report relayed",
-        "summary": "War Watch Intel relayed a Stars and Stripes report, credited to @reagan0965, saying the United States had ended its military mission in Iraq. This was attributed third-party reporting, not an observation made by the account.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105392451598922102"
       }
     ]
   },
@@ -107,6 +107,30 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2105568697221783994",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "Russia drone-missile development report shared",
+        "summary": "SkyGlass shared a Defence Blog report about Rostec’s claims concerning jet-powered strike drones S-71M, S-71K and Dan-T, intended to perform cruise-missile tasks at lower cost. The post did not verify their performance.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105568697221783994"
+      },
+      {
+        "id": "2105568697100190112",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "Neros attack-drone order report shared",
+        "summary": "SkyGlass shared a Defence Blog report saying the Pentagon had ordered 14,000 attack drones from California-based Neros. This was a linked news report.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105568697100190112"
+      },
+      {
+        "id": "2105565586193272946",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "P-8 departure alert at Haenam",
+        "summary": "SkyGlass posted an alert showing a P-8 off the ground at Haenam, South Korea. The alert did not identify a callsign or confirm its destination or mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105565586193272946"
+      },
       {
         "id": "2105517028048015468",
         "date": "2026-10-01",
@@ -178,30 +202,6 @@
         "headline": "P-8 departure alert at Orange Park",
         "summary": "SkyGlass posted an alert showing a P-8 off the ground at Orange Park, Florida, United States. Its destination and mission were not confirmed.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2105437917950709825"
-      },
-      {
-        "id": "2105427108973388093",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEP 2026 · UTC",
-        "headline": "ASY173 P-8 on-ground alert at Marton",
-        "summary": "SkyGlass posted an alert listing a P-8, callsign ASY173, on the ground at Marton, New Zealand. Its mission and reason for being there were not confirmed.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105427108973388093"
-      },
-      {
-        "id": "2105409729027518852",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEP 2026 · UTC",
-        "headline": "E-6 departure alert at Moore",
-        "summary": "SkyGlass posted an alert showing an E-6 off the ground at Moore, Oklahoma, United States. The alert did not establish its destination or mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105409729027518852"
-      },
-      {
-        "id": "2105405982054461907",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEP 2026 · UTC",
-        "headline": "B-1 on-ground alert at Highworth",
-        "summary": "SkyGlass posted an alert listing a B-1 on the ground at Highworth, Great Britain. The post did not independently establish the precise site or reason for its presence.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105405982054461907"
       }
     ]
   }
