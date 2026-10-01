@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" role="img" aria-labelledby="title">
+  <title id="title">Shortwave antenna under a glowing night sky</title>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#071b24"/><stop offset=".55" stop-color="#123b36"/><stop offset="1" stop-color="#06100e"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#b5fc70" stop-opacity=".42"/><stop offset=".55" stop-color="#61c586" stop-opacity=".14"/><stop offset="1" stop-color="#61c586" stop-opacity="0"/></radialGradient>
+    <linearGradient id="horizon" x2="0" y2="1"><stop stop-color="#729c59"/><stop offset="1" stop-color="#0a261c"/></linearGradient>
+    <pattern id="grain" width="37" height="31" patternUnits="userSpaceOnUse"><circle cx="5" cy="7" r=".8" fill="#e0ffe0" opacity=".35"/><circle cx="27" cy="22" r=".65" fill="#d6ecff" opacity=".25"/></pattern>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h900v420H0z"/><path fill="url(#grain)" d="M0 0h900v350H0z"/>
+  <circle cx="593" cy="145" r="250" fill="url(#glow)"/>
+  <path d="M0 315Q165 275 280 302t225-7q165-46 395 10v115H0Z" fill="#0b231e"/>
+  <path d="M0 351q177-48 328-17t270-15q147-43 302-8v109H0Z" fill="url(#horizon)" opacity=".44"/>
+  <path d="M0 371q160-18 258 5t247-4q169-28 395 0v48H0Z" fill="#030e0b"/>
+  <g fill="none" stroke="#a6f7aa" opacity=".27"><circle cx="292" cy="176" r="94"/><circle cx="292" cy="176" r="143"/><circle cx="292" cy="176" r="194"/><path d="M292 176h306" stroke-dasharray="7 12"/></g>
+  <g stroke="#c8f9c5" stroke-width="3" fill="none" opacity=".77"><path d="M292 345V92l-43 253m43-253 43 253M262 262h60m-67 35h74m-88 48h102M292 92l-110 41M292 92l122 42"/><path d="M248 122h89m-70 96h50" stroke-width="2"/></g>
+  <g fill="#d5ff96"><circle cx="292" cy="92" r="7"/><circle cx="182" cy="133" r="3"/><circle cx="414" cy="134" r="3"/></g>
+  <path d="M450 270h61l17-21 15 44 24-92 21 125 17-55h47l16-30 14 30h92" fill="none" stroke="#b9ff4c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity=".91"/>
+  <path d="M449 271h324" stroke="#b9ff4c" stroke-width="1" opacity=".23"/>
+  <g fill="#e7ffcf"><circle cx="676" cy="80" r="2"/><circle cx="751" cy="145" r="2"/><circle cx="506" cy="75" r="1.5"/><circle cx="84" cy="74" r="1.5"/></g>
+</svg>
