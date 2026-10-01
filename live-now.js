@@ -72,11 +72,11 @@
           ? `If the sky is clear, watch for a bright point moving steadily overhead. This pass is predicted to peak near ${Math.round(elevation)}°.`
           : 'If the sky is clear, watch for a bright point moving steadily across Sydney’s sky.';
       }
-      issTime.textContent = 'Prediction: Pollux/CelesTrak · check NASA for changes';
+      issTime.textContent = 'Prediction: Pollux/CelesTrak · check Sydney pass list for changes';
     } catch (_) {
       issValue.textContent = 'Find the next visible pass';
-      issDetail.textContent = 'Look for a bright point moving steadily across the sky. The prediction is unavailable here; check NASA for sightings.';
-      issTime.textContent = 'Prediction unavailable — check NASA';
+      issDetail.textContent = 'Look for a bright point moving steadily across the sky. The prediction is unavailable here; check the Sydney pass list.';
+      issTime.textContent = 'Prediction unavailable — check Sydney pass list';
     }
   }
 
