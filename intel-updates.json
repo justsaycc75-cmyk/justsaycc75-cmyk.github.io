@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2105628929427976490",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "Surveillance and transport activity over North Sea and US reported",
+        "summary": "War Watch Intel reported U.S. Air Force surveillance and transport aircraft airborne over the North Sea and the United States. It described multiple surveillance jets as conducting reconnaissance operations without identifying specific missions.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105628929427976490"
+      },
+      {
+        "id": "2105613826188034404",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "Transport aircraft and North Sea surveillance reported",
+        "summary": "War Watch Intel reported six U.S. Air Force transport aircraft airborne and mentioned two surveillance aircraft over the North Sea. It said no coded radio broadcasts were detected during that hour.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105613826188034404"
+      },
+      {
+        "id": "2105598723203944867",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "Elevated North Sea aircraft activity reported",
+        "summary": "War Watch Intel described U.S. Air Force surveillance and transport activity over the North Sea as unusually high. It also reported six military jets airborne across the Atlantic region, without identifying their missions.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105598723203944867"
+      },
+      {
         "id": "2105587507396046992",
         "date": "2026-10-01",
         "dateLabel": "01 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "Transports and command aircraft reported airborne",
         "summary": "War Watch Intel reported four large U.S. Air Force transport aircraft airborne over the United States, alongside an airborne command-and-control jet and a nuclear communications aircraft. The post did not identify their missions.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2105493000621043915"
-      },
-      {
-        "id": "2105477896324121053",
-        "date": "2026-10-01",
-        "dateLabel": "01 OCT 2026 · UTC",
-        "headline": "Transports and radar aircraft reported over the US",
-        "summary": "War Watch Intel reported multiple large U.S. Air Force transport aircraft and an airborne radar aircraft over the continental United States. It described the activity as routine.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105477896324121053"
-      },
-      {
-        "id": "2105462791939244177",
-        "date": "2026-10-01",
-        "dateLabel": "01 OCT 2026 · UTC",
-        "headline": "Six transports and an F-16 emergency squawk reported",
-        "summary": "War Watch Intel reported six U.S. Air Force transport aircraft airborne over the United States and near Korea. It also mentioned an F-16 broadcasting an emergency squawk earlier that day, without confirming the cause or a link to the transports.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105462791939244177"
-      },
-      {
-        "id": "2105447691207512490",
-        "date": "2026-10-01",
-        "dateLabel": "01 OCT 2026 · UTC",
-        "headline": "Four coded broadcasts and six transports reported",
-        "summary": "War Watch Intel reported four coded U.S. Air Force radio broadcasts heard that day and six military transport aircraft airborne, including one near Korea and Japan.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105447691207512490"
       }
     ]
   },
@@ -107,6 +107,30 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2105634451409576250",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "P-8 on-ground alert at Orange Park",
+        "summary": "SkyGlass posted an alert listing a P-8 on the ground at Orange Park, Florida, United States. The alert did not identify a callsign or confirm its mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105634451409576250"
+      },
+      {
+        "id": "2105629833753497962",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "Separate P-8 on-ground alert at Orange Park",
+        "summary": "SkyGlass posted another alert listing a P-8 on the ground at Orange Park, Florida, United States. The post did not establish whether it concerned the same aircraft as the later Orange Park alert.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105629833753497962"
+      },
+      {
+        "id": "2105629393246699798",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "F-15EX electronic warfare kit report shared",
+        "summary": "SkyGlass shared a Defence Blog report saying the U.S. Air Force was acquiring 40 electronic warfare kits from BAE Systems for its F-15EX fleet. This was a linked news report.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105629393246699798"
+      },
       {
         "id": "2105568697221783994",
         "date": "2026-10-01",
@@ -178,30 +202,6 @@
         "headline": "Q9 on-ground alert at Adelanto",
         "summary": "SkyGlass posted an alert listing a Q9 aircraft on the ground at Adelanto, California, United States. The post described it as a civilian-classified General Atomics aircraft; its purpose was not confirmed.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2105458912203853897"
-      },
-      {
-        "id": "2105447903028220242",
-        "date": "2026-10-01",
-        "dateLabel": "01 OCT 2026 · UTC",
-        "headline": "Autonomous Warfare Command report shared",
-        "summary": "SkyGlass shared a DefenseScoop report about a new U.S. Autonomous Warfare Command intended to integrate military drone operations. This was a linked news report.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105447903028220242"
-      },
-      {
-        "id": "2105447903024042357",
-        "date": "2026-10-01",
-        "dateLabel": "01 OCT 2026 · UTC",
-        "headline": "Belgian F-16 delivery report shared",
-        "summary": "SkyGlass shared a report from The Aviationist saying Belgium was preparing to deliver its first three F-16AM/BM jets to Ukraine after delays. The post described preparations, rather than a completed delivery.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105447903024042357"
-      },
-      {
-        "id": "2105437917950709825",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEP 2026 · UTC",
-        "headline": "P-8 departure alert at Orange Park",
-        "summary": "SkyGlass posted an alert showing a P-8 off the ground at Orange Park, Florida, United States. Its destination and mission were not confirmed.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105437917950709825"
       }
     ]
   }
