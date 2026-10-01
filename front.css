@@ -363,3 +363,21 @@
 
 @media(max-width:760px){.webcam-stack{transform:none}.live-webcam-heading{font-size:1.05rem;margin-bottom:8px}}
 @media(max-width:980px) and (min-width:761px){.webcam-stack{max-width:760px;margin-left:auto;margin-right:0;transform:translateX(28px)}}
+/* Compact live readings beneath the Sydney webcam. */
+.front-main .live-now{margin:8px 0 4px;padding:20px;border:1px solid #304537;border-radius:22px;background:radial-gradient(circle at 93% 0,rgba(170,255,34,.08),transparent 32%),linear-gradient(145deg,#0b1510,#0a100c)}
+.live-now-head{display:flex;align-items:end;justify-content:space-between;gap:16px;margin-bottom:15px}
+.live-now-head h2{font-size:clamp(1.65rem,3vw,2.2rem);line-height:1;margin:.15em 0 0;color:#f2f6ef}
+.live-now-head p{margin:0;color:#aebeb1;font-size:.82rem;text-align:right}
+.live-now-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.live-now-card{position:relative;min-width:0;min-height:190px;display:flex;flex-direction:column;padding:17px 16px 15px;border:1px solid #35473b;border-radius:16px;background:linear-gradient(155deg,#111e15,#0a110d);overflow:hidden}
+.live-now-card:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 92% 7%,rgba(170,255,34,.11),transparent 35%);pointer-events:none}
+.live-now-card>*{position:relative;z-index:1}
+.live-now-card small{display:block;max-width:calc(100% - 31px);color:var(--orange);font-size:.68rem;font-weight:900;letter-spacing:.10em;text-transform:uppercase}
+.live-now-card strong{display:block;margin:16px 0 0;color:var(--lime);font-size:clamp(1rem,1.7vw,1.25rem);line-height:1.2;overflow-wrap:anywhere}
+.live-now-card p{margin:7px 0 0;color:#c4d0c6;font-size:.79rem;line-height:1.4}
+.live-now-meta{margin:12px 0 8px;color:#9aa99d;font-size:.68rem;line-height:1.35}
+.live-now-card a{margin-top:auto;color:#e6f4db;font-size:.78rem;font-weight:800;text-decoration:none;width:max-content;max-width:100%;border-bottom:1px solid #829f72;padding-bottom:3px}
+.live-now-card a:hover,.live-now-card a:focus-visible{color:var(--lime);border-color:var(--lime)}
+.live-now-icon{position:absolute;right:13px;top:11px;width:30px;height:30px;display:grid;place-items:center;border:1px solid #4c674d;border-radius:50%;color:var(--lime);font-size:1.05rem;font-weight:900}
+.live-now-warning .live-now-icon{color:#ffd17e;border-color:#746044}.live-now-iss .live-now-icon{color:#a9dfff;border-color:#3e6270}
+@media(max-width:760px){.live-now-grid{grid-template-columns:1fr}.live-now-card{min-height:0}.live-now-head{align-items:start}.live-now-head p{max-width:160px}.front-main .live-now{padding:16px}}
