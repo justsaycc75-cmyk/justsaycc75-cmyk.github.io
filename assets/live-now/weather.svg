@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" role="img" aria-labelledby="title">
+  <title id="title">Illustrated storm clouds and rain over a coastal city</title>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#111b25"/><stop offset=".6" stop-color="#263d43"/><stop offset="1" stop-color="#7b5133"/></linearGradient>
+    <linearGradient id="sea" x2="0" y2="1"><stop stop-color="#224952"/><stop offset="1" stop-color="#08171c"/></linearGradient>
+    <radialGradient id="light"><stop stop-color="#ffc986" stop-opacity=".55"/><stop offset="1" stop-color="#ffc986" stop-opacity="0"/></radialGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="13"/></filter>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h900v420H0z"/>
+  <ellipse cx="594" cy="298" rx="330" ry="135" fill="url(#light)"/>
+  <path d="M0 81q88-48 171-17 51-44 113-13 52-22 108 20 86-31 150 13 94-19 151 38 87-13 207 35V0H0Z" fill="#101d26"/>
+  <path d="M0 151q94-55 169-10 58-43 119 1 81-36 139 7 89-23 148 16 79-25 148 19 95-15 177 41v-89q-136-48-228-18-67-54-148-12-63-54-147-18-81-52-162-13-100-46-215 31Z" fill="#1c3038" opacity=".9"/>
+  <path d="M400 175q85-41 169 4 34-39 80-5 59-25 109 23 65-13 116 32l26 29H389Z" fill="#233943"/>
+  <g stroke="#98c3cb" stroke-width="3" opacity=".45" stroke-linecap="round"><path d="m438 230-21 72m70-68-23 81m77-65-18 68m85-76-21 74m76-65-18 57m72-53-18 57m75-53-21 73"/></g>
+  <g stroke="#d0e5e2" stroke-width="2" opacity=".25" stroke-linecap="round"><path d="m389 248-13 46m188-48-12 52m131-37-14 50m145-45-14 46"/></g>
+  <path d="M574 180l-22 70h30l-27 67 70-96h-32l28-41Z" fill="#ffcb82" opacity=".76" filter="url(#soft)"/>
+  <path d="M574 180l-22 70h30l-27 67 70-96h-32l28-41Z" fill="#ffdc9b" opacity=".88"/>
+  <path d="M0 322q150-15 308 3t313-8q139-22 279 0v103H0Z" fill="url(#sea)"/>
+  <path d="M0 352q96-12 176-6 111 12 176-3 130-16 233 4 170 21 315 1" fill="none" stroke="#8eb4ab" stroke-width="2" opacity=".24"/>
+  <path d="M0 326h67v-38h27v38h17v-71h26v71h18v-51h23v51h19v-85h26v85h16v-46h28v46h22v-57h28v57h19v-34h28v34h18v-55h24v55h23v-39h22v39h38v94H0Z" fill="#0b1e22"/>
+  <path d="M55 326q40-56 80 0m-80 0q39-23 80 0M162 326q23-40 47 0m-47 0q25-11 47 0" fill="none" stroke="#627b76" stroke-width="3" opacity=".5"/>
+</svg>
