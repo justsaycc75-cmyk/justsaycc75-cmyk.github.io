@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2105768722354917498",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "BRTHR22 aircraft sighting reported",
+        "summary": "War Watch Intel reported a sighting with callsign BRTHR22 and hex code AE5848, crediting reagan0965. The post did not identify an aircraft type, location or mission.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105768722354917498"
+      },
+      {
+        "id": "2105764947292508347",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "Command aircraft and one coded radio broadcast reported",
+        "summary": "War Watch Intel reported military transport and command aircraft airborne over the continental United States, including nuclear command-and-control aircraft. It also said one coded radio broadcast was heard during that hour, without identifying its content or linking it to the flights.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105764947292508347"
+      },
+      {
+        "id": "2105761170795733199",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "War Watch shares Middle East carrier deployment report",
+        "summary": "War Watch Intel shared an AP report that a third aircraft carrier and thousands of troops were heading to the Middle East while Trump weighed new Iran strikes, crediting @reagan0965. The post relays the report rather than independently confirming the movements.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105761170795733199"
+      },
+      {
+        "id": "2105757398711390270",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "BADGR33 NC-135 sighting reported",
+        "summary": "War Watch Intel reported a Boeing NC-135 with callsign BADGR33, hex code AE01D9 and registration 62-4133, crediting reagan0965. The post did not identify its location or mission.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105757398711390270"
+      },
+      {
+        "id": "2105753542229127591",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "War Watch shares Putin statement on Kaliningrad",
+        "summary": "War Watch Intel shared an Insider Paper report that Putin said all weapons were on the agenda if Kaliningrad was attacked, crediting @reagan0965. The post relays a reported statement and does not establish an impending operation.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105753542229127591"
+      },
+      {
         "id": "2105723418356203758",
         "date": "2026-10-01",
         "dateLabel": "01 OCT 2026 · UTC",
@@ -59,46 +99,6 @@
         "headline": "Transports, a nuclear command jet and regional air activity reported",
         "summary": "War Watch Intel reported multiple large U.S. military transports airborne over the continental United States alongside a nuclear command jet. It described air activity near Korea and Japan as nearly four times its usual level, without establishing a connection.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2105659015111807411"
-      },
-      {
-        "id": "2105643909330206784",
-        "date": "2026-10-01",
-        "dateLabel": "01 OCT 2026 · UTC",
-        "headline": "Six military aircraft and elevated regional activity reported",
-        "summary": "War Watch Intel reported six major U.S. military aircraft airborne, including surveillance and transport aircraft over the North Sea and the United States. It also described activity near Korea and Japan as nearly 3.3 times normal.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105643909330206784"
-      },
-      {
-        "id": "2105628929427976490",
-        "date": "2026-10-01",
-        "dateLabel": "01 OCT 2026 · UTC",
-        "headline": "Surveillance and transport activity over North Sea and US reported",
-        "summary": "War Watch Intel reported U.S. Air Force surveillance and transport aircraft airborne over the North Sea and the United States. It described multiple surveillance jets as conducting reconnaissance operations without identifying specific missions.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105628929427976490"
-      },
-      {
-        "id": "2105613826188034404",
-        "date": "2026-10-01",
-        "dateLabel": "01 OCT 2026 · UTC",
-        "headline": "Transport aircraft and North Sea surveillance reported",
-        "summary": "War Watch Intel reported six U.S. Air Force transport aircraft airborne and mentioned two surveillance aircraft over the North Sea. It said no coded radio broadcasts were detected during that hour.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105613826188034404"
-      },
-      {
-        "id": "2105598723203944867",
-        "date": "2026-10-01",
-        "dateLabel": "01 OCT 2026 · UTC",
-        "headline": "Elevated North Sea aircraft activity reported",
-        "summary": "War Watch Intel described U.S. Air Force surveillance and transport activity over the North Sea as unusually high. It also reported six military jets airborne across the Atlantic region, without identifying their missions.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105598723203944867"
-      },
-      {
-        "id": "2105587507396046992",
-        "date": "2026-10-01",
-        "dateLabel": "01 OCT 2026 · UTC",
-        "headline": "BBC report on Putin’s Ukraine war stance relayed",
-        "summary": "War Watch Intel relayed a BBC report saying Vladimir Putin showed no signs of stopping the war and was doubling down on Ukraine. This was attributed news reporting.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105587507396046992"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2105769230645809487",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "New E-6 departure alert at Midwest City",
+        "summary": "SkyGlass issued an OFF Ground alert for a US-registered E-6 at Midwest City, Oklahoma. The post discusses general communication roles but does not confirm the flight's mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105769230645809487"
+      },
+      {
+        "id": "2105763136250736707",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "DEPOT11 E-2 departure alert at Coronado",
+        "summary": "SkyGlass issued an OFF Ground alert for DEPOT11, identified as a US-registered E-2, near Coronado, United States. The alert reports departure status without confirming its destination or mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105763136250736707"
+      },
+      {
+        "id": "2105760892973416458",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "P-8 ground alert at Oak Harbor",
+        "summary": "SkyGlass reported a US military P-8 on the ground near Oak Harbor, Washington. The alert gives aircraft type and ground status without confirming its mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105760892973416458"
+      },
+      {
+        "id": "2105757813532205090",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "New P-8 departure alert at Orange Park",
+        "summary": "SkyGlass issued an OFF Ground alert for a US military-operated P-8 at Orange Park, Florida. The alert does not identify a callsign or confirm its destination or mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105757813532205090"
+      },
       {
         "id": "2105725088116920627",
         "date": "2026-10-01",
@@ -170,38 +202,6 @@
         "headline": "B-52 departure alert at Red Chute",
         "summary": "SkyGlass posted an alert showing a B-52 off the ground at Red Chute, Louisiana, United States. The alert displayed the callsign field as 00000000; its destination and mission were not confirmed.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2105671183865626712"
-      },
-      {
-        "id": "2105634451409576250",
-        "date": "2026-10-01",
-        "dateLabel": "01 OCT 2026 · UTC",
-        "headline": "P-8 on-ground alert at Orange Park",
-        "summary": "SkyGlass posted an alert listing a P-8 on the ground at Orange Park, Florida, United States. The alert did not identify a callsign or confirm its mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105634451409576250"
-      },
-      {
-        "id": "2105629833753497962",
-        "date": "2026-10-01",
-        "dateLabel": "01 OCT 2026 · UTC",
-        "headline": "Separate P-8 on-ground alert at Orange Park",
-        "summary": "SkyGlass posted another alert listing a P-8 on the ground at Orange Park, Florida, United States. The post did not establish whether it concerned the same aircraft as the later Orange Park alert.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105629833753497962"
-      },
-      {
-        "id": "2105629393246699798",
-        "date": "2026-10-01",
-        "dateLabel": "01 OCT 2026 · UTC",
-        "headline": "F-15EX electronic warfare kit report shared",
-        "summary": "SkyGlass shared a Defence Blog report saying the U.S. Air Force was acquiring 40 electronic warfare kits from BAE Systems for its F-15EX fleet. This was a linked news report.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105629393246699798"
-      },
-      {
-        "id": "2105568697221783994",
-        "date": "2026-10-01",
-        "dateLabel": "01 OCT 2026 · UTC",
-        "headline": "Russia drone-missile development report shared",
-        "summary": "SkyGlass shared a Defence Blog report about Rostec’s claims concerning jet-powered strike drones S-71M, S-71K and Dan-T, intended to perform cruise-missile tasks at lower cost. The post did not verify their performance.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105568697221783994"
       }
     ]
   }
