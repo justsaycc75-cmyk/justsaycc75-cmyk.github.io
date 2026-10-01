@@ -378,6 +378,8 @@
 .live-now-card p{margin:7px 0 0;color:#c4d0c6;font-size:.79rem;line-height:1.4}
 .live-now-meta{margin:12px 0 8px;color:#9aa99d;font-size:.68rem;line-height:1.35}
 .live-now-card a{margin-top:auto;color:#e6f4db;font-size:.78rem;font-weight:800;text-decoration:none;width:max-content;max-width:100%;border-bottom:1px solid #829f72;padding-bottom:3px}
+.live-now-links{display:flex;align-items:center;flex-wrap:wrap;gap:7px 14px;margin-top:auto}
+.live-now-links a{margin-top:0}
 .live-now-card a:hover,.live-now-card a:focus-visible{color:var(--lime);border-color:var(--lime)}
 .live-now-icon{position:absolute;right:13px;top:11px;width:30px;height:30px;display:grid;place-items:center;border:1px solid #4c674d;border-radius:50%;color:var(--lime);font-size:1.05rem;font-weight:900}
 .live-now-warning .live-now-icon{color:#ffd17e;border-color:#746044}.live-now-iss .live-now-icon{color:#a9dfff;border-color:#3e6270}
