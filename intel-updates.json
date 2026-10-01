@@ -5,6 +5,38 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2105447691207512490",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "Four coded broadcasts and six transports reported",
+        "summary": "War Watch Intel reported four coded U.S. Air Force radio broadcasts heard that day and six military transport aircraft airborne, including one near Korea and Japan.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105447691207512490"
+      },
+      {
+        "id": "2105438509616050279",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEP 2026 · UTC",
+        "headline": "AFRICOM strike report relayed",
+        "summary": "War Watch Intel relayed an AFRICOM report, credited to @reagan0965, about U.S. strikes targeting al-Shabaab. The visible post did not give the strikes’ location or date.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105438509616050279"
+      },
+      {
+        "id": "2105434735728030092",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEP 2026 · UTC",
+        "headline": "Coded broadcasts and reconnaissance aircraft reported",
+        "summary": "War Watch Intel reported four coded U.S. Air Force radio broadcasts heard that day and multiple transport and surveillance aircraft airborne over the United States, including two reconnaissance aircraft.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105434735728030092"
+      },
+      {
+        "id": "2105417484467613966",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEP 2026 · UTC",
+        "headline": "Transport aircraft and a coded broadcast reported",
+        "summary": "War Watch Intel reported four U.S. Air Force transport aircraft and two specialised military jets airborne over the United States, with one coded radio broadcast heard in the preceding hour.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105417484467613966"
+      },
+      {
         "id": "2105402379419984383",
         "date": "2026-09-30",
         "dateLabel": "30 SEP 2026 · UTC",
@@ -67,38 +99,6 @@
         "headline": "USAF surveillance and command aircraft reported",
         "summary": "War Watch Intel reported a U.S. Air Force surveillance aircraft and a nuclear command jet airborne over the United States alongside multiple cargo transports. It said no coded radio broadcasts had been detected during that hour.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2105326863321100313"
-      },
-      {
-        "id": "2105315688801841622",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEP 2026 · UTC",
-        "headline": "F-16 emergency squawk sighting relayed",
-        "summary": "War Watch Intel relayed a sighting credited to JackUSAF identifying an F-16 with hex code AE4980 broadcasting squawk 7700. The post did not give a location or confirm the cause of the emergency code.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105315688801841622"
-      },
-      {
-        "id": "2105311759825301873",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEP 2026 · UTC",
-        "headline": "USAF transports and surveillance aircraft reported",
-        "summary": "War Watch Intel reported six U.S. Air Force transport aircraft airborne over the continental United States and a surveillance aircraft spotted earlier. It separately mentioned reports of a cockpit incident on a Middle East flight; the visible post did not identify a connection.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105311759825301873"
-      },
-      {
-        "id": "2105296657537536021",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEP 2026 · UTC",
-        "headline": "Three surveillance aircraft reported airborne",
-        "summary": "War Watch Intel reported three military surveillance aircraft airborne over the United States and North Sea. It separately relayed a reported Middle East flight diversion to Saudi Arabia after a cockpit incident; no connection to the military aircraft was stated.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105296657537536021"
-      },
-      {
-        "id": "2105281552007475511",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEP 2026 · UTC",
-        "headline": "Four transports and two NATO radar aircraft reported",
-        "summary": "War Watch Intel reported four U.S. Air Force transport aircraft and two NATO radar aircraft airborne, with one of each over the North Sea. It also noted a surveillance aircraft spotted earlier, without confirming any mission.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105281552007475511"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2105447903028220242",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "Autonomous Warfare Command report shared",
+        "summary": "SkyGlass shared a DefenseScoop report about a new U.S. Autonomous Warfare Command intended to integrate military drone operations. This was a linked news report.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105447903028220242"
+      },
+      {
+        "id": "2105447903024042357",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "Belgian F-16 delivery report shared",
+        "summary": "SkyGlass shared a report from The Aviationist saying Belgium was preparing to deliver its first three F-16AM/BM jets to Ukraine after delays. The post described preparations, rather than a completed delivery.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105447903024042357"
+      },
+      {
+        "id": "2105437917950709825",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEP 2026 · UTC",
+        "headline": "P-8 departure alert at Orange Park",
+        "summary": "SkyGlass posted an alert showing a P-8 off the ground at Orange Park, Florida, United States. Its destination and mission were not confirmed.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105437917950709825"
+      },
+      {
+        "id": "2105427108973388093",
+        "date": "2026-09-30",
+        "dateLabel": "30 SEP 2026 · UTC",
+        "headline": "ASY173 P-8 on-ground alert at Marton",
+        "summary": "SkyGlass posted an alert listing a P-8, callsign ASY173, on the ground at Marton, New Zealand. Its mission and reason for being there were not confirmed.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105427108973388093"
+      },
       {
         "id": "2105409729027518852",
         "date": "2026-09-30",
@@ -170,38 +202,6 @@
         "headline": "Another P-8 departure alert at Orange Park",
         "summary": "SkyGlass posted a separate P-8 off-ground alert at Orange Park, Florida, United States. The post did not establish whether it concerned the same aircraft as its later Orange Park alert.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2105339003801067736"
-      },
-      {
-        "id": "2105315460770082997",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEP 2026 · UTC",
-        "headline": "P-8 reported on the ground at Lexington Park",
-        "summary": "SkyGlass reported a P-8 on the ground at Lexington Park, Maryland, United States. The alert did not show a callsign or confirm the aircraft’s mission or reason for being there.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105315460770082997"
-      },
-      {
-        "id": "2105314625814249748",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEP 2026 · UTC",
-        "headline": "P-3 departure at Port Hueneme",
-        "summary": "SkyGlass reported a P-3 off the ground at Port Hueneme, United States. The alert did not show a callsign or confirm its destination or mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105314625814249748"
-      },
-      {
-        "id": "2105311922383921477",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEP 2026 · UTC",
-        "headline": "P-8 departure at Chetwayi",
-        "summary": "SkyGlass reported a P-8 off the ground at Chetwayi, with the location marked IN in the alert. The post’s expanded prose conflicts on the place name, so no broader location or mission is inferred.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105311922383921477"
-      },
-      {
-        "id": "2105310198143324648",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEP 2026 · UTC",
-        "headline": "B-52 departure near Red Chute",
-        "summary": "SkyGlass reported a B-52 off the ground near Red Chute, Louisiana, United States. The alert did not confirm the aircraft’s destination or mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105310198143324648"
       }
     ]
   }
