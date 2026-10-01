@@ -38,11 +38,15 @@
       if (kp < 0 || kp > 9) throw new Error('Invalid Kp value');
       const level = kp >= 5 ? 'geomagnetic storm' : kp >= 4 ? 'active' : kp >= 3 ? 'unsettled' : 'quiet';
       kpValue.textContent = `Kp ${kp.toFixed(1)} · ${level}`;
-      kpDetail.textContent = 'Global geomagnetic activity; check the Australian HF map for local conditions.';
+      kpDetail.textContent = kp >= 5
+        ? 'A geomagnetic storm can unsettle long-distance HF paths. Check the Australian map before chasing a distant signal.'
+        : kp >= 3
+          ? 'Magnetic activity is elevated. Distant listening paths may shift as conditions change.'
+          : 'The magnetic field is calm, though daylight, frequency and the path still decide what your radio will hear.';
       kpTime.textContent = `NOAA reading · ${sydneyTime.format(observed)}`;
     } catch (_) {
       kpValue.textContent = 'Check radio conditions';
-      kpDetail.textContent = 'The latest reading is unavailable here. Open the Australian HF map.';
+      kpDetail.textContent = 'The magnetic field can reshape a distant signal. The latest reading is unavailable here; open the Australian HF map.';
       kpTime.textContent = 'Live reading unavailable';
     }
   }
@@ -59,19 +63,19 @@
       const next = data.passes.find(pass => pass.visible && Date.parse(pass.visible_start || pass.rise?.time) > Date.now());
       if (!next) {
         issValue.textContent = 'No visible pass listed';
-        issDetail.textContent = 'None predicted over Sydney in the next 10 days.';
+        issDetail.textContent = 'The station still circles overhead, but no visible Sydney pass is predicted in the next 10 days.';
       } else {
         const start = new Date(next.visible_start || next.rise.time);
         issValue.textContent = sydneyTime.format(start);
         const elevation = Number(next.culmination?.elevation_deg);
         issDetail.textContent = Number.isFinite(elevation)
-          ? `Next predicted visible pass · peaks near ${Math.round(elevation)}° above the horizon.`
-          : 'Next predicted visible pass over Sydney.';
+          ? `If the sky is clear, watch for a bright point moving steadily overhead. This pass is predicted to peak near ${Math.round(elevation)}°.`
+          : 'If the sky is clear, watch for a bright point moving steadily across Sydney’s sky.';
       }
       issTime.textContent = 'Prediction: Pollux/CelesTrak · check NASA for changes';
     } catch (_) {
       issValue.textContent = 'Find the next visible pass';
-      issDetail.textContent = 'The pass prediction is unavailable here. NASA has the latest sightings.';
+      issDetail.textContent = 'Look for a bright point moving steadily across the sky. The prediction is unavailable here; check NASA for sightings.';
       issTime.textContent = 'Prediction unavailable — check NASA';
     }
   }
