@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2105493000621043915",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "Transports and command aircraft reported airborne",
+        "summary": "War Watch Intel reported four large U.S. Air Force transport aircraft airborne over the United States, alongside an airborne command-and-control jet and a nuclear communications aircraft. The post did not identify their missions.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105493000621043915"
+      },
+      {
+        "id": "2105477896324121053",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "Transports and radar aircraft reported over the US",
+        "summary": "War Watch Intel reported multiple large U.S. Air Force transport aircraft and an airborne radar aircraft over the continental United States. It described the activity as routine.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105477896324121053"
+      },
+      {
+        "id": "2105462791939244177",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "Six transports and an F-16 emergency squawk reported",
+        "summary": "War Watch Intel reported six U.S. Air Force transport aircraft airborne over the United States and near Korea. It also mentioned an F-16 broadcasting an emergency squawk earlier that day, without confirming the cause or a link to the transports.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105462791939244177"
+      },
+      {
         "id": "2105447691207512490",
         "date": "2026-10-01",
         "dateLabel": "01 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "C-40B callsign SAM951 sighting relayed",
         "summary": "War Watch Intel relayed a sighting credited to @reagan0965 of a U.S. Air Force C-40B, callsign SAM951, hex AE11F6 and registration 01-0041. The post identified the 89th Airlift Wing at Andrews Air Force Base but did not state the aircraft’s current location or mission.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2105379152593392069"
-      },
-      {
-        "id": "2105357071503823305",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEPT 2026 · UTC",
-        "headline": "Five USAF transports and Customs aircraft reported",
-        "summary": "War Watch Intel reported five U.S. Air Force heavy transport aircraft airborne over the United States alongside a U.S. Customs surveillance aircraft. It characterised the activity as unusually high for the hour but did not identify any mission.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105357071503823305"
-      },
-      {
-        "id": "2105341967802540268",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEPT 2026 · UTC",
-        "headline": "USAF surveillance plane and six transports reported",
-        "summary": "War Watch Intel reported a U.S. Air Force surveillance aircraft and six military transport aircraft airborne over the United States. It said no coded broadcasts had been detected during that hour.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105341967802540268"
-      },
-      {
-        "id": "2105326863321100313",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEPT 2026 · UTC",
-        "headline": "USAF surveillance and command aircraft reported",
-        "summary": "War Watch Intel reported a U.S. Air Force surveillance aircraft and a nuclear command jet airborne over the United States alongside multiple cargo transports. It said no coded radio broadcasts had been detected during that hour.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105326863321100313"
       }
     ]
   },
@@ -107,6 +107,30 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2105497468628566210",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "GURNY01 P-8 departure alert at Elgin",
+        "summary": "SkyGlass posted an alert showing a P-8, callsign GURNY01, off the ground at Elgin, Great Britain. Its destination and mission were not confirmed.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105497468628566210"
+      },
+      {
+        "id": "2105493855390793967",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "P-3 departure alert at Kaohsiung",
+        "summary": "SkyGlass posted an alert showing a P-3 off the ground at Kaohsiung, Taiwan. The alert did not identify a callsign or confirm its destination or mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105493855390793967"
+      },
+      {
+        "id": "2105458912203853897",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "Q9 on-ground alert at Adelanto",
+        "summary": "SkyGlass posted an alert listing a Q9 aircraft on the ground at Adelanto, California, United States. The post described it as a civilian-classified General Atomics aircraft; its purpose was not confirmed.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105458912203853897"
+      },
       {
         "id": "2105447903028220242",
         "date": "2026-10-01",
@@ -178,30 +202,6 @@
         "headline": "P-8 reported on the ground at Orange Park",
         "summary": "SkyGlass posted an alert showing a P-8 on the ground at Orange Park, Florida, United States. Its mission and reason for being there were not confirmed.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2105354704096039305"
-      },
-      {
-        "id": "2105351879177785494",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEPT 2026 · UTC",
-        "headline": "P-8 reported off the ground at Fruit Cove",
-        "summary": "SkyGlass posted an alert showing a P-8 off the ground at Fruit Cove, Florida, United States. The alert did not confirm its destination or mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105351879177785494"
-      },
-      {
-        "id": "2105345198934929709",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEPT 2026 · UTC",
-        "headline": "P-8 reported off the ground at Orange Park",
-        "summary": "SkyGlass posted an alert showing a P-8 off the ground at Orange Park, Florida, United States. The alert did not confirm its destination or mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105345198934929709"
-      },
-      {
-        "id": "2105339003801067736",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEPT 2026 · UTC",
-        "headline": "Another P-8 departure alert at Orange Park",
-        "summary": "SkyGlass posted a separate P-8 off-ground alert at Orange Park, Florida, United States. The post did not establish whether it concerned the same aircraft as its later Orange Park alert.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105339003801067736"
       }
     ]
   }
