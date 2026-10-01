@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2105674119727452611",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "Two nuclear command jets and military transports reported",
+        "summary": "War Watch Intel reported two nuclear command-and-control jets airborne over the United States alongside multiple large military transport aircraft. The post did not identify their missions.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105674119727452611"
+      },
+      {
+        "id": "2105659015111807411",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "Transports, a nuclear command jet and regional air activity reported",
+        "summary": "War Watch Intel reported multiple large U.S. military transports airborne over the continental United States alongside a nuclear command jet. It described air activity near Korea and Japan as nearly four times its usual level, without establishing a connection.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105659015111807411"
+      },
+      {
+        "id": "2105643909330206784",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "Six military aircraft and elevated regional activity reported",
+        "summary": "War Watch Intel reported six major U.S. military aircraft airborne, including surveillance and transport aircraft over the North Sea and the United States. It also described activity near Korea and Japan as nearly 3.3 times normal.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105643909330206784"
+      },
+      {
         "id": "2105628929427976490",
         "date": "2026-10-01",
         "dateLabel": "01 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "Six transports reported; no coded broadcasts that hour",
         "summary": "War Watch Intel reported six U.S. Air Force transport aircraft airborne and no coded radio broadcasts heard during that hour. It also referred to a broadcast the previous day.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2105538309099290986"
-      },
-      {
-        "id": "2105523213027479829",
-        "date": "2026-10-01",
-        "dateLabel": "01 OCT 2026 · UTC",
-        "headline": "Transports and North Sea surveillance aircraft reported",
-        "summary": "War Watch Intel reported five U.S. Air Force transport aircraft airborne, alongside a surveillance aircraft over the North Sea. It said no coded radio broadcasts were detected during that hour.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105523213027479829"
-      },
-      {
-        "id": "2105508104804667849",
-        "date": "2026-10-01",
-        "dateLabel": "01 OCT 2026 · UTC",
-        "headline": "Five transports and a surveillance aircraft reported",
-        "summary": "War Watch Intel reported five large U.S. Air Force transport aircraft airborne over the United States, plus a surveillance aircraft. It described activity as about normal and said no coded radio broadcasts were detected in the preceding hour.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105508104804667849"
-      },
-      {
-        "id": "2105493000621043915",
-        "date": "2026-10-01",
-        "dateLabel": "01 OCT 2026 · UTC",
-        "headline": "Transports and command aircraft reported airborne",
-        "summary": "War Watch Intel reported four large U.S. Air Force transport aircraft airborne over the United States, alongside an airborne command-and-control jet and a nuclear communications aircraft. The post did not identify their missions.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105493000621043915"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2105676603732697132",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "P-8 departure alert at Nimaparha",
+        "summary": "SkyGlass posted an alert showing a P-8 off the ground at Nimaparha, India. The alert did not identify a callsign or confirm its destination or mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105676603732697132"
+      },
+      {
+        "id": "2105675772216143959",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "P-8 departure alert at Iqaluit",
+        "summary": "SkyGlass posted an alert showing a P-8 off the ground at Iqaluit, Canada. The alert did not identify a callsign or confirm its destination or mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105675772216143959"
+      },
+      {
+        "id": "2105673683838583253",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "P-8 departure alert at Orange Park",
+        "summary": "SkyGlass posted an alert showing a P-8 off the ground at Orange Park, Florida, United States. The alert did not identify a callsign or confirm its destination or mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105673683838583253"
+      },
+      {
+        "id": "2105671183865626712",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "B-52 departure alert at Red Chute",
+        "summary": "SkyGlass posted an alert showing a B-52 off the ground at Red Chute, Louisiana, United States. The alert displayed the callsign field as 00000000; its destination and mission were not confirmed.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105671183865626712"
+      },
       {
         "id": "2105634451409576250",
         "date": "2026-10-01",
@@ -170,38 +202,6 @@
         "headline": "P-8 departure alert at Avilala",
         "summary": "SkyGlass posted an alert showing a P-8 off the ground at Avilala, India. The alert did not identify a callsign or confirm its destination or mission.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2105511033502629936"
-      },
-      {
-        "id": "2105510424783311088",
-        "date": "2026-10-01",
-        "dateLabel": "01 OCT 2026 · UTC",
-        "headline": "CI132 P-8 departure alert at Gijang",
-        "summary": "SkyGlass posted an alert showing a P-8, callsign CI132, off the ground at Gijang, South Korea. Its destination and mission were not confirmed.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105510424783311088"
-      },
-      {
-        "id": "2105497468628566210",
-        "date": "2026-10-01",
-        "dateLabel": "01 OCT 2026 · UTC",
-        "headline": "GURNY01 P-8 departure alert at Elgin",
-        "summary": "SkyGlass posted an alert showing a P-8, callsign GURNY01, off the ground at Elgin, Great Britain. Its destination and mission were not confirmed.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105497468628566210"
-      },
-      {
-        "id": "2105493855390793967",
-        "date": "2026-10-01",
-        "dateLabel": "01 OCT 2026 · UTC",
-        "headline": "P-3 departure alert at Kaohsiung",
-        "summary": "SkyGlass posted an alert showing a P-3 off the ground at Kaohsiung, Taiwan. The alert did not identify a callsign or confirm its destination or mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105493855390793967"
-      },
-      {
-        "id": "2105458912203853897",
-        "date": "2026-10-01",
-        "dateLabel": "01 OCT 2026 · UTC",
-        "headline": "Q9 on-ground alert at Adelanto",
-        "summary": "SkyGlass posted an alert listing a Q9 aircraft on the ground at Adelanto, California, United States. The post described it as a civilian-classified General Atomics aircraft; its purpose was not confirmed.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105458912203853897"
       }
     ]
   }
