@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2105538309099290986",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "Six transports reported; no coded broadcasts that hour",
+        "summary": "War Watch Intel reported six U.S. Air Force transport aircraft airborne and no coded radio broadcasts heard during that hour. It also referred to a broadcast the previous day.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105538309099290986"
+      },
+      {
+        "id": "2105523213027479829",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "Transports and North Sea surveillance aircraft reported",
+        "summary": "War Watch Intel reported five U.S. Air Force transport aircraft airborne, alongside a surveillance aircraft over the North Sea. It said no coded radio broadcasts were detected during that hour.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105523213027479829"
+      },
+      {
+        "id": "2105508104804667849",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "Five transports and a surveillance aircraft reported",
+        "summary": "War Watch Intel reported five large U.S. Air Force transport aircraft airborne over the United States, plus a surveillance aircraft. It described activity as about normal and said no coded radio broadcasts were detected in the preceding hour.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105508104804667849"
+      },
+      {
         "id": "2105493000621043915",
         "date": "2026-10-01",
         "dateLabel": "01 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "Iraq mission report relayed",
         "summary": "War Watch Intel relayed a Stars and Stripes report, credited to @reagan0965, saying the United States had ended its military mission in Iraq. This was attributed third-party reporting, not an observation made by the account.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2105392451598922102"
-      },
-      {
-        "id": "2105388677488619934",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEP 2026 · UTC",
-        "headline": "USAF transports and elevated regional air activity reported",
-        "summary": "War Watch Intel reported six U.S. Air Force transport aircraft airborne over the continental United States, with air activity near Korea and Japan at nearly five times its usual level and in the Baltic region at more than three times usual.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105388677488619934"
-      },
-      {
-        "id": "2105384884122378406",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEP 2026 · UTC",
-        "headline": "UK airbase incident report relayed",
-        "summary": "War Watch Intel relayed an Insider Paper report, credited to @reagan0965, that the UK prime minister had described “strong indications” of Iranian involvement in an airbase incident. This was attributed third-party reporting.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105384884122378406"
-      },
-      {
-        "id": "2105379152593392069",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEP 2026 · UTC",
-        "headline": "C-40B callsign SAM951 sighting relayed",
-        "summary": "War Watch Intel relayed a sighting credited to @reagan0965 of a U.S. Air Force C-40B, callsign SAM951, hex AE11F6 and registration 01-0041. The post identified the 89th Airlift Wing at Andrews Air Force Base but did not state the aircraft’s current location or mission.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105379152593392069"
       }
     ]
   },
@@ -107,6 +107,30 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2105517028048015468",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "P-8 departure alert at Peddikuppam",
+        "summary": "SkyGlass posted an alert showing a P-8 off the ground at Peddikuppam, India. The alert did not identify a callsign or confirm its destination or mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105517028048015468"
+      },
+      {
+        "id": "2105511033502629936",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "P-8 departure alert at Avilala",
+        "summary": "SkyGlass posted an alert showing a P-8 off the ground at Avilala, India. The alert did not identify a callsign or confirm its destination or mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105511033502629936"
+      },
+      {
+        "id": "2105510424783311088",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "CI132 P-8 departure alert at Gijang",
+        "summary": "SkyGlass posted an alert showing a P-8, callsign CI132, off the ground at Gijang, South Korea. Its destination and mission were not confirmed.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105510424783311088"
+      },
       {
         "id": "2105497468628566210",
         "date": "2026-10-01",
@@ -178,30 +202,6 @@
         "headline": "B-1 on-ground alert at Highworth",
         "summary": "SkyGlass posted an alert listing a B-1 on the ground at Highworth, Great Britain. The post did not independently establish the precise site or reason for its presence.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2105405982054461907"
-      },
-      {
-        "id": "2105404312734073131",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEP 2026 · UTC",
-        "headline": "P-8 departure alert at Varsoli",
-        "summary": "SkyGlass posted an alert showing a P-8 off the ground at Varsoli, India. Its destination and mission were not confirmed.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105404312734073131"
-      },
-      {
-        "id": "2105390627101737164",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEP 2026 · UTC",
-        "headline": "E-2 on-ground alert at Shiloh",
-        "summary": "SkyGlass posted an alert listing an E-2, callsign STLJW21, on the ground at Shiloh, Illinois, United States. Its mission and reason for being there were not confirmed.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105390627101737164"
-      },
-      {
-        "id": "2105354704096039305",
-        "date": "2026-09-30",
-        "dateLabel": "30 SEPT 2026 · UTC",
-        "headline": "P-8 reported on the ground at Orange Park",
-        "summary": "SkyGlass posted an alert showing a P-8 on the ground at Orange Park, Florida, United States. Its mission and reason for being there were not confirmed.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105354704096039305"
       }
     ]
   }
