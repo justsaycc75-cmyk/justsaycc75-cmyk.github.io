@@ -373,7 +373,8 @@
 .live-now-card:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 92% 7%,rgba(170,255,34,.11),transparent 35%);pointer-events:none}
 .live-now-card>*{position:relative;z-index:1}
 .live-now-card small{display:block;max-width:calc(100% - 31px);color:var(--orange);font-size:.68rem;font-weight:900;letter-spacing:.10em;text-transform:uppercase}
-.live-now-card strong{display:block;margin:16px 0 0;color:var(--lime);font-size:clamp(1rem,1.7vw,1.25rem);line-height:1.2;overflow-wrap:anywhere}
+.live-now-image{display:block;width:100%;height:132px;margin:13px 0 0;object-fit:cover;object-position:center;border:1px solid #3e574a;border-radius:11px;background:#07120f}
+.live-now-card strong{display:block;margin:12px 0 0;color:var(--lime);font-size:clamp(1rem,1.7vw,1.25rem);line-height:1.2;overflow-wrap:anywhere}
 .live-now-card p{margin:7px 0 0;color:#c4d0c6;font-size:.79rem;line-height:1.4}
 .live-now-meta{margin:12px 0 8px;color:#9aa99d;font-size:.68rem;line-height:1.35}
 .live-now-card a{margin-top:auto;color:#e6f4db;font-size:.78rem;font-weight:800;text-decoration:none;width:max-content;max-width:100%;border-bottom:1px solid #829f72;padding-bottom:3px}
