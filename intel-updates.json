@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2105814027075043724",
+        "date": "2026-10-02",
+        "dateLabel": "02 OCT 2026 · UTC",
+        "headline": "War Watch relays Mi-8 crash report near Voronezh",
+        "summary": "War Watch Intel relayed an OSINTtechnical report that a Russian Mi-8 helicopter crashed during a mission over Voronezh with no survivors, crediting @reagan0965. The post does not independently confirm the crash or provide a casualty count.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105814027075043724"
+      },
+      {
+        "id": "2105810051327754695",
+        "date": "2026-10-02",
+        "dateLabel": "02 OCT 2026 · UTC",
+        "headline": "Six US Air Force transports reported airborne",
+        "summary": "War Watch Intel reported six US Air Force transport aircraft airborne over the continental United States, describing the number as above its usual level for that hour. The post did not identify their missions.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105810051327754695"
+      },
+      {
+        "id": "2105804123140415734",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "Baltic Sea NATO security initiative report shared",
+        "summary": "War Watch Intel shared a report that Marines would support a NATO security initiative in the Baltic Sea, crediting @reagan0965. The post did not identify the units, deployment schedule or detailed tasks.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105804123140415734"
+      },
+      {
+        "id": "2105798928645919170",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "SAM582 C-40B sighting reported",
+        "summary": "War Watch Intel reported a Boeing C-40B with callsign SAM582, hex code AE11F8 and registration 02-0042, identifying it with the US Air Force 89th Airlift Wing and crediting reagan0965. The post did not specify its current location or mission.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105798928645919170"
+      },
+      {
+        "id": "2105794949430087767",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "Five heavy transports and three coded broadcasts reported",
+        "summary": "War Watch Intel reported five US Air Force heavy transport aircraft airborne and three coded US Air Force radio broadcasts heard that day. It placed the latest broadcast about 1.5 hours before the post, without identifying its content or linking it to the flights.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105794949430087767"
+      },
+      {
         "id": "2105768722354917498",
         "date": "2026-10-01",
         "dateLabel": "01 OCT 2026 · UTC",
@@ -59,46 +99,6 @@
         "headline": "US aircraft, UK activity and jamming near Qatar reported",
         "summary": "War Watch Intel reported six US military transport and surveillance aircraft airborne over the United States, UK activity near MOD Boscombe Down, and jamming experienced by an RAF transport near Qatar. The post did not identify the aircraft missions or the source of the jamming.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2105719427152978434"
-      },
-      {
-        "id": "2105714608862371956",
-        "date": "2026-10-01",
-        "dateLabel": "01 OCT 2026 · UTC",
-        "headline": "War Watch shares amphibious vehicle logistics report",
-        "summary": "War Watch Intel shared a JPost report that Ukraine carried out its first logistics mission using an amphibious unmanned ground vehicle, crediting @timharkness9152. The post does not specify the mission location or further operational details.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105714608862371956"
-      },
-      {
-        "id": "2105708316194189683",
-        "date": "2026-10-01",
-        "dateLabel": "01 OCT 2026 · UTC",
-        "headline": "War Watch shares autonomous warfare command report",
-        "summary": "War Watch Intel shared a Military Times report that Hegseth announced a new four-star command for autonomous warfare, crediting @timharkness9152. The post does not describe the command's structure or implementation timetable.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105708316194189683"
-      },
-      {
-        "id": "2105704326421188708",
-        "date": "2026-10-01",
-        "dateLabel": "01 OCT 2026 · UTC",
-        "headline": "US transports, radar aircraft and Qatar tanker departures reported",
-        "summary": "War Watch Intel reported US Air Force transport and radar aircraft airborne over the United States, UK military activity near a testing facility, and refuelling tankers departing Qatar. The post did not establish a connection between these movements or identify their missions.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105704326421188708"
-      },
-      {
-        "id": "2105674119727452611",
-        "date": "2026-10-01",
-        "dateLabel": "01 OCT 2026 · UTC",
-        "headline": "Two nuclear command jets and military transports reported",
-        "summary": "War Watch Intel reported two nuclear command-and-control jets airborne over the United States alongside multiple large military transport aircraft. The post did not identify their missions.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105674119727452611"
-      },
-      {
-        "id": "2105659015111807411",
-        "date": "2026-10-01",
-        "dateLabel": "01 OCT 2026 · UTC",
-        "headline": "Transports, a nuclear command jet and regional air activity reported",
-        "summary": "War Watch Intel reported multiple large U.S. military transports airborne over the continental United States alongside a nuclear command jet. It described air activity near Korea and Japan as nearly four times its usual level, without establishing a connection.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105659015111807411"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2105809576243191823",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "P-8 departure alert near Kadambuttur",
+        "summary": "SkyGlass issued an OFF Ground alert for an Indian military-operated P-8 near Kadambuttur, India. The alert did not identify a callsign or confirm the flight's destination or mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105809576243191823"
+      },
+      {
+        "id": "2105807969505984566",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "TRDT2 P-8 ground alert near Burton",
+        "summary": "SkyGlass reported TRDT2, an Australia-registered military P-8, on the ground near Burton, Australia. The alert did not confirm its mission or operational purpose.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105807969505984566"
+      },
+      {
+        "id": "2105807596066144502",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "UAV15 MQ-9 ground alert near Ridgecrest",
+        "summary": "SkyGlass reported UAV15, identified as a US-registered MQ-9 Reaper, on the ground near Ridgecrest, California. The post did not confirm a specific mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105807596066144502"
+      },
+      {
+        "id": "2105807576369660059",
+        "date": "2026-10-01",
+        "dateLabel": "01 OCT 2026 · UTC",
+        "headline": "TRDT P-8 ground alert near Burton",
+        "summary": "SkyGlass reported TRDT, an Australia-registered military P-8, on the ground near Burton, Australia. This is a separate post from the TRDT2 alert; the post does not confirm the aircraft's mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105807576369660059"
+      },
       {
         "id": "2105769230645809487",
         "date": "2026-10-01",
@@ -170,38 +202,6 @@
         "headline": "E-6 departure alert at Midwest City",
         "summary": "SkyGlass issued an OFF Ground alert for a US military E-6 at Midwest City, Oklahoma. The post describes general strategic communication roles but does not confirm the purpose of this flight.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2105717524687917499"
-      },
-      {
-        "id": "2105676603732697132",
-        "date": "2026-10-01",
-        "dateLabel": "01 OCT 2026 · UTC",
-        "headline": "P-8 departure alert at Nimaparha",
-        "summary": "SkyGlass posted an alert showing a P-8 off the ground at Nimaparha, India. The alert did not identify a callsign or confirm its destination or mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105676603732697132"
-      },
-      {
-        "id": "2105675772216143959",
-        "date": "2026-10-01",
-        "dateLabel": "01 OCT 2026 · UTC",
-        "headline": "P-8 departure alert at Iqaluit",
-        "summary": "SkyGlass posted an alert showing a P-8 off the ground at Iqaluit, Canada. The alert did not identify a callsign or confirm its destination or mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105675772216143959"
-      },
-      {
-        "id": "2105673683838583253",
-        "date": "2026-10-01",
-        "dateLabel": "01 OCT 2026 · UTC",
-        "headline": "P-8 departure alert at Orange Park",
-        "summary": "SkyGlass posted an alert showing a P-8 off the ground at Orange Park, Florida, United States. The alert did not identify a callsign or confirm its destination or mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105673683838583253"
-      },
-      {
-        "id": "2105671183865626712",
-        "date": "2026-10-01",
-        "dateLabel": "01 OCT 2026 · UTC",
-        "headline": "B-52 departure alert at Red Chute",
-        "summary": "SkyGlass posted an alert showing a B-52 off the ground at Red Chute, Louisiana, United States. The alert displayed the callsign field as 00000000; its destination and mission were not confirmed.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105671183865626712"
       }
     ]
   }
