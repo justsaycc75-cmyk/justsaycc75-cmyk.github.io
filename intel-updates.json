@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2105991286482174416",
+        "date": "2026-10-02",
+        "dateLabel": "02 OCT 2026 · UTC",
+        "headline": "Elevated Black Sea air activity reported",
+        "summary": "War Watch Intel described military air activity in the Black Sea region as nearly five times its normal level and reported multiple US military transport and surveillance aircraft airborne there. The post did not identify callsigns, routes or missions.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105991286482174416"
+      },
+      {
+        "id": "2105976182176944309",
+        "date": "2026-10-02",
+        "dateLabel": "02 OCT 2026 · UTC",
+        "headline": "Baltic surveillance flight and transport activity reported",
+        "summary": "War Watch Intel reported a US Air Force surveillance aircraft operating over the Baltic and multiple military transport aircraft airborne across Europe and North America. The visible post did not identify their callsigns, destinations or missions.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105976182176944309"
+      },
+      {
+        "id": "2105961080950346085",
+        "date": "2026-10-02",
+        "dateLabel": "02 OCT 2026 · UTC",
+        "headline": "Six transports across North America and North Sea reported",
+        "summary": "War Watch Intel reported six US Air Force transport aircraft airborne across North America and the North Sea, and a surveillance aircraft spotted over the continental United States earlier that day. The post did not identify the flights' missions.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105961080950346085"
+      },
+      {
         "id": "2105945977567817874",
         "date": "2026-10-02",
         "dateLabel": "02 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "Six transports, surveillance aircraft and radio monitoring reported",
         "summary": "War Watch Intel reported six US Air Force transport aircraft and a surveillance aircraft airborne over the United States. It also reported no coded radio broadcasts detected during the hour preceding the post.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2105840257962783070"
-      },
-      {
-        "id": "2105825605019127829",
-        "date": "2026-10-02",
-        "dateLabel": "02 OCT 2026 · UTC",
-        "headline": "Transport and nuclear command aircraft activity reported",
-        "summary": "War Watch Intel reported multiple US Air Force transport aircraft and nuclear command jets airborne over the United States, and a surveillance aircraft spotted earlier that day near the Atlantic.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105825605019127829"
-      },
-      {
-        "id": "2105821617062355056",
-        "date": "2026-10-02",
-        "dateLabel": "02 OCT 2026 · UTC",
-        "headline": "War Watch relays report of attack into western Russia",
-        "summary": "War Watch Intel relayed a report credited to @reagan0965 describing an ongoing Ukrainian drone and missile attack into western Russia and claiming hundreds of drones in the area. The visible post did not provide a complete account of targets or outcomes.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105821617062355056"
-      },
-      {
-        "id": "2105814027075043724",
-        "date": "2026-10-02",
-        "dateLabel": "02 OCT 2026 · UTC",
-        "headline": "War Watch relays Mi-8 crash report near Voronezh",
-        "summary": "War Watch Intel relayed an OSINTtechnical report that a Russian Mi-8 helicopter crashed during a mission over Voronezh with no survivors, crediting @reagan0965. The post does not independently confirm the crash or provide a casualty count.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105814027075043724"
       }
     ]
   },
@@ -107,6 +107,30 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2105974310481371571",
+        "date": "2026-10-02",
+        "dateLabel": "02 OCT 2026 · UTC",
+        "headline": "P8 departure alert at Masdar City",
+        "summary": "SkyGlass issued an OFF Ground alert for a US-registered aircraft labeled P8 at Masdar City, United Arab Emirates. The post described the registration as commercial and suggested a P-8 Poseidon identification; its destination and mission were not confirmed.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105974310481371571"
+      },
+      {
+        "id": "2105967961789890589",
+        "date": "2026-10-02",
+        "dateLabel": "02 OCT 2026 · UTC",
+        "headline": "P-3 departure alert at Kaohsiung",
+        "summary": "SkyGlass issued an OFF Ground alert for a Taiwan-registered military P-3 Orion at Kaohsiung, Taiwan. The post reported a departure without confirming a callsign, destination or mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105967961789890589"
+      },
+      {
+        "id": "2105966623374889470",
+        "date": "2026-10-02",
+        "dateLabel": "02 OCT 2026 · UTC",
+        "headline": "LOBO01 P-3 departure alert at Beja",
+        "summary": "SkyGlass issued an OFF Ground alert for LOBO01, a Portuguese-registered military P-3, at Beja, Portugal. The post reported detection after takeoff but did not confirm its destination or mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2105966623374889470"
+      },
       {
         "id": "2105935082229727710",
         "date": "2026-10-02",
@@ -178,30 +202,6 @@
         "headline": "UAV15 MQ-9 ground alert near Ridgecrest",
         "summary": "SkyGlass reported UAV15, identified as a US-registered MQ-9 Reaper, on the ground near Ridgecrest, California. The post did not confirm a specific mission.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2105807596066144502"
-      },
-      {
-        "id": "2105807576369660059",
-        "date": "2026-10-01",
-        "dateLabel": "01 OCT 2026 · UTC",
-        "headline": "TRDT P-8 ground alert near Burton",
-        "summary": "SkyGlass reported TRDT, an Australia-registered military P-8, on the ground near Burton, Australia. This is a separate post from the TRDT2 alert; the post does not confirm the aircraft's mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105807576369660059"
-      },
-      {
-        "id": "2105769230645809487",
-        "date": "2026-10-01",
-        "dateLabel": "01 OCT 2026 · UTC",
-        "headline": "New E-6 departure alert at Midwest City",
-        "summary": "SkyGlass issued an OFF Ground alert for a US-registered E-6 at Midwest City, Oklahoma. The post discusses general communication roles but does not confirm the flight's mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105769230645809487"
-      },
-      {
-        "id": "2105763136250736707",
-        "date": "2026-10-01",
-        "dateLabel": "01 OCT 2026 · UTC",
-        "headline": "DEPOT11 E-2 departure alert at Coronado",
-        "summary": "SkyGlass issued an OFF Ground alert for DEPOT11, identified as a US-registered E-2, near Coronado, United States. The alert reports departure status without confirming its destination or mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105763136250736707"
       }
     ]
   }
