@@ -5,6 +5,38 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2105900857375997998",
+        "date": "2026-10-02",
+        "dateLabel": "02 OCT 2026 · UTC",
+        "headline": "Presidential aircraft and military transport activity reported",
+        "summary": "War Watch Intel reported a presidential aircraft airborne over the United States, six military transport aircraft active over the North Sea and elsewhere, and a surveillance aircraft sighting. The visible post did not identify callsigns or destinations.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105900857375997998"
+      },
+      {
+        "id": "2105894051501273379",
+        "date": "2026-10-02",
+        "dateLabel": "02 OCT 2026 · UTC",
+        "headline": "War Watch shares Reuters report of Putin warning",
+        "summary": "War Watch Intel shared a Reuters report that Putin described the world as being in a dangerous moment and warned the West against escalation, crediting @Robertchester-j5b. The post relays a reported statement rather than an observed military operation.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105894051501273379"
+      },
+      {
+        "id": "2105885565790875688",
+        "date": "2026-10-02",
+        "dateLabel": "02 OCT 2026 · UTC",
+        "headline": "US transports, surveillance sighting and drone attack reported",
+        "summary": "War Watch Intel reported multiple US military transport aircraft airborne over the continental United States and a US surveillance aircraft spotted near Europe. It also described a Ukrainian drone attack into western Russia as ongoing at the time of the post, without detailing targets or outcomes.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105885565790875688"
+      },
+      {
+        "id": "2105870461921800338",
+        "date": "2026-10-02",
+        "dateLabel": "02 OCT 2026 · UTC",
+        "headline": "Six US transports and earlier surveillance sighting reported",
+        "summary": "War Watch Intel reported six US Air Force transport aircraft airborne over the United States and an earlier surveillance aircraft sighting. It described activity as normal that night without identifying callsigns, destinations or missions.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2105870461921800338"
+      },
+      {
         "id": "2105855359403364765",
         "date": "2026-10-02",
         "dateLabel": "02 OCT 2026 · UTC",
@@ -67,38 +99,6 @@
         "headline": "SAM582 C-40B sighting reported",
         "summary": "War Watch Intel reported a Boeing C-40B with callsign SAM582, hex code AE11F8 and registration 02-0042, identifying it with the US Air Force 89th Airlift Wing and crediting reagan0965. The post did not specify its current location or mission.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2105798928645919170"
-      },
-      {
-        "id": "2105794949430087767",
-        "date": "2026-10-01",
-        "dateLabel": "01 OCT 2026 · UTC",
-        "headline": "Five heavy transports and three coded broadcasts reported",
-        "summary": "War Watch Intel reported five US Air Force heavy transport aircraft airborne and three coded US Air Force radio broadcasts heard that day. It placed the latest broadcast about 1.5 hours before the post, without identifying its content or linking it to the flights.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105794949430087767"
-      },
-      {
-        "id": "2105768722354917498",
-        "date": "2026-10-01",
-        "dateLabel": "01 OCT 2026 · UTC",
-        "headline": "BRTHR22 aircraft sighting reported",
-        "summary": "War Watch Intel reported a sighting with callsign BRTHR22 and hex code AE5848, crediting reagan0965. The post did not identify an aircraft type, location or mission.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105768722354917498"
-      },
-      {
-        "id": "2105764947292508347",
-        "date": "2026-10-01",
-        "dateLabel": "01 OCT 2026 · UTC",
-        "headline": "Command aircraft and one coded radio broadcast reported",
-        "summary": "War Watch Intel reported military transport and command aircraft airborne over the continental United States, including nuclear command-and-control aircraft. It also said one coded radio broadcast was heard during that hour, without identifying its content or linking it to the flights.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105764947292508347"
-      },
-      {
-        "id": "2105761170795733199",
-        "date": "2026-10-01",
-        "dateLabel": "01 OCT 2026 · UTC",
-        "headline": "War Watch shares Middle East carrier deployment report",
-        "summary": "War Watch Intel shared an AP report that a third aircraft carrier and thousands of troops were heading to the Middle East while Trump weighed new Iran strikes, crediting @reagan0965. The post relays the report rather than independently confirming the movements.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105761170795733199"
       }
     ]
   },
