@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2106127375100514698",
+        "date": "2026-10-02",
+        "dateLabel": "02 OCT 2026 · UTC",
+        "headline": "Transport flights and three coded broadcasts reported",
+        "summary": "War Watch Intel reported multiple US Air Force transport aircraft and a surveillance aircraft airborne over the United States, with three coded radio broadcasts heard that day. The post did not identify the messages' content or connect them to a specific operation.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106127375100514698"
+      },
+      {
+        "id": "2106116048734789851",
+        "date": "2026-10-02",
+        "dateLabel": "02 OCT 2026 · UTC",
+        "headline": "Five transports, command jet and two coded broadcasts reported",
+        "summary": "War Watch Intel reported five US Air Force cargo transport aircraft airborne over the United States alongside a nuclear command-and-control jet. It also reported two coded Air Force radio broadcasts, without identifying their content or establishing a connection with the flights.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106116048734789851"
+      },
+      {
+        "id": "2106112023402545532",
+        "date": "2026-10-02",
+        "dateLabel": "02 OCT 2026 · UTC",
+        "headline": "War Watch shares report of Kyiv embassy contingency plans",
+        "summary": "War Watch Intel shared a Guardian report that Western nations were preparing contingency plans to relocate their embassies from Kyiv if the security situation worsened, crediting @reagan0965. The post described conditional planning rather than a confirmed relocation.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106112023402545532"
+      },
+      {
+        "id": "2106100194307706942",
+        "date": "2026-10-02",
+        "dateLabel": "02 OCT 2026 · UTC",
+        "headline": "Two coded broadcasts and increased regional air activity reported",
+        "summary": "War Watch Intel reported two coded US Air Force radio broadcasts heard so far that day and described transport and surveillance aircraft activity over the United States, Gulf region and Baltic as increased. It did not identify the messages' content, aircraft missions or a specific operation.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106100194307706942"
+      },
+      {
+        "id": "2106096316686250437",
+        "date": "2026-10-02",
+        "dateLabel": "02 OCT 2026 · UTC",
+        "headline": "VENUS70 C-32A sighting reported",
+        "summary": "War Watch Intel reported a sighting of Boeing C-32A VENUS70, registration 98-0001 and hex code ADFEB7, crediting reagan0965. The visible post did not specify its location, route or mission.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106096316686250437"
+      },
+      {
         "id": "2106085846168281298",
         "date": "2026-10-02",
         "dateLabel": "02 OCT 2026 · UTC",
@@ -59,46 +99,6 @@
         "headline": "War Watch shares report on jet-powered drones and interceptors",
         "summary": "War Watch Intel shared an Associated Press report describing jet-powered drones outpacing Ukrainian defenses while manufacturers worked on new interceptors, crediting @hawkeye_cny. The post relays the report without providing an independent assessment of drone or interceptor performance.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2106026236334027140"
-      },
-      {
-        "id": "2106021493654048963",
-        "date": "2026-10-02",
-        "dateLabel": "02 OCT 2026 · UTC",
-        "headline": "US and Baltic transport activity and Alaska sighting reported",
-        "summary": "War Watch Intel reported six US Air Force transport aircraft airborne over the United States and Baltic region, and a surveillance aircraft sighting near Alaska. It described activity as normal and reported no coded broadcasts during the preceding hour.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106021493654048963"
-      },
-      {
-        "id": "2106006391043379232",
-        "date": "2026-10-02",
-        "dateLabel": "02 OCT 2026 · UTC",
-        "headline": "Six cargo aircraft and no coded alerts reported",
-        "summary": "War Watch Intel reported six US Air Force cargo aircraft airborne, with three over the North Sea and three over the continental United States. It also reported an earlier surveillance aircraft sighting and no coded alerts during the preceding hour.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106006391043379232"
-      },
-      {
-        "id": "2105991286482174416",
-        "date": "2026-10-02",
-        "dateLabel": "02 OCT 2026 · UTC",
-        "headline": "Elevated Black Sea air activity reported",
-        "summary": "War Watch Intel described military air activity in the Black Sea region as nearly five times its normal level and reported multiple US military transport and surveillance aircraft airborne there. The post did not identify callsigns, routes or missions.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105991286482174416"
-      },
-      {
-        "id": "2105976182176944309",
-        "date": "2026-10-02",
-        "dateLabel": "02 OCT 2026 · UTC",
-        "headline": "Baltic surveillance flight and transport activity reported",
-        "summary": "War Watch Intel reported a US Air Force surveillance aircraft operating over the Baltic and multiple military transport aircraft airborne across Europe and North America. The visible post did not identify their callsigns, destinations or missions.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105976182176944309"
-      },
-      {
-        "id": "2105961080950346085",
-        "date": "2026-10-02",
-        "dateLabel": "02 OCT 2026 · UTC",
-        "headline": "Six transports across North America and North Sea reported",
-        "summary": "War Watch Intel reported six US Air Force transport aircraft airborne across North America and the North Sea, and a surveillance aircraft spotted over the continental United States earlier that day. The post did not identify the flights' missions.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2105961080950346085"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2106125122767667406",
+        "date": "2026-10-02",
+        "dateLabel": "02 OCT 2026 · UTC",
+        "headline": "P-8 ground alert at Oak Harbor",
+        "summary": "SkyGlass issued an ON Ground alert for a US-registered Boeing P-8 Poseidon at Oak Harbor, Washington. No callsign was supplied, and the post did not confirm a specific mission or reason for the aircraft's ground status.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2106125122767667406"
+      },
+      {
+        "id": "2106112236590694597",
+        "date": "2026-10-02",
+        "dateLabel": "02 OCT 2026 · UTC",
+        "headline": "SkyGlass shares report on Otto Aerospace and MQ-9 successor search",
+        "summary": "SkyGlass shared a War Zone article describing Otto Aerospace as a contender in the search for an MQ-9 Reaper successor and highlighting its Celera 500L design. The post relayed the article rather than announcing a confirmed replacement selection.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2106112236590694597"
+      },
+      {
+        "id": "2106112236489945207",
+        "date": "2026-10-02",
+        "dateLabel": "02 OCT 2026 · UTC",
+        "headline": "SkyGlass shares report of Taiwan's first F-16 Block 70 arrivals",
+        "summary": "SkyGlass shared a War Zone report that Taiwan's first two F-16 Block 70 fighters had arrived. The visible post did not supply delivery dates or further details, and its account was presented through the linked news report.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2106112236489945207"
+      },
+      {
+        "id": "2106112236456489417",
+        "date": "2026-10-02",
+        "dateLabel": "02 OCT 2026 · UTC",
+        "headline": "SkyGlass shares report of Taiwan receiving new F-16 pair",
+        "summary": "SkyGlass shared a Breaking Defense report that Taiwan had received its first pair of new F-16 fighter jets after years of delay. The post relayed the report without providing an independent confirmation or additional delivery details.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2106112236456489417"
+      },
       {
         "id": "2106078381150253243",
         "date": "2026-10-02",
@@ -170,38 +202,6 @@
         "headline": "P-8 departure alert at Burela de Cabo",
         "summary": "SkyGlass issued an OFF Ground alert for a US military P-8 at Burela de Cabo, Spain. Its callsign field contained placeholder characters; the post did not confirm the aircraft's destination or mission.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2106002740367200759"
-      },
-      {
-        "id": "2105974310481371571",
-        "date": "2026-10-02",
-        "dateLabel": "02 OCT 2026 · UTC",
-        "headline": "P8 departure alert at Masdar City",
-        "summary": "SkyGlass issued an OFF Ground alert for a US-registered aircraft labeled P8 at Masdar City, United Arab Emirates. The post described the registration as commercial and suggested a P-8 Poseidon identification; its destination and mission were not confirmed.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105974310481371571"
-      },
-      {
-        "id": "2105967961789890589",
-        "date": "2026-10-02",
-        "dateLabel": "02 OCT 2026 · UTC",
-        "headline": "P-3 departure alert at Kaohsiung",
-        "summary": "SkyGlass issued an OFF Ground alert for a Taiwan-registered military P-3 Orion at Kaohsiung, Taiwan. The post reported a departure without confirming a callsign, destination or mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105967961789890589"
-      },
-      {
-        "id": "2105966623374889470",
-        "date": "2026-10-02",
-        "dateLabel": "02 OCT 2026 · UTC",
-        "headline": "LOBO01 P-3 departure alert at Beja",
-        "summary": "SkyGlass issued an OFF Ground alert for LOBO01, a Portuguese-registered military P-3, at Beja, Portugal. The post reported detection after takeoff but did not confirm its destination or mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105966623374889470"
-      },
-      {
-        "id": "2105935082229727710",
-        "date": "2026-10-02",
-        "dateLabel": "02 OCT 2026 · UTC",
-        "headline": "E3TF ground alert at Midwest City",
-        "summary": "SkyGlass issued an ON Ground alert for a US military aircraft labeled E3TF at Midwest City, Oklahoma. The post described an airborne warning and control aircraft but did not confirm the reason for its ground status.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2105935082229727710"
       }
     ]
   }
