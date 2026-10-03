@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2106353893542154605",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "Six US transports and command, surveillance and Russian jet sightings reported",
+        "summary": "War Watch Intel reported six US Air Force transport aircraft airborne over the United States. It also reported sightings of a nuclear command aircraft, a surveillance aircraft and a Russian government jet, without identifying their missions or establishing a connection between them.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106353893542154605"
+      },
+      {
+        "id": "2106338793741582492",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "Six transports over the US and North Sea; no coded broadcasts reported",
+        "summary": "War Watch Intel reported six US military transport aircraft airborne over the United States and North Sea, plus sightings of a Russian Il-96 and a US surveillance aircraft. It reported no coded US Air Force broadcasts detected during that hour.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106338793741582492"
+      },
+      {
+        "id": "2106323690975625704",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "North Sea and UK transport activity described as above usual levels",
+        "summary": "War Watch Intel reported multiple US military transport aircraft airborne over the North Sea and United Kingdom, alongside a surveillance aircraft over the United States. It described activity as busier than usual for that hour without identifying aircraft callsigns or missions.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106323690975625704"
+      },
+      {
         "id": "2106308590579441745",
         "date": "2026-10-03",
         "dateLabel": "03 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "Suspected missile launch, US flights and Hormuz attacks reported",
         "summary": "War Watch Intel reported a suspected North Korean ballistic missile launch, US military transport and command aircraft airborne over the United States, and continuing tanker attacks in the Strait of Hormuz. The post did not identify aircraft callsigns or establish a connection between these reports.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2106217710958866942"
-      },
-      {
-        "id": "2106202605449851310",
-        "date": "2026-10-03",
-        "dateLabel": "03 OCT 2026 · UTC",
-        "headline": "Suspected North Korean missile launch and US aircraft reported",
-        "summary": "War Watch Intel reported that North Korea had launched a suspected ballistic missile and that US military transport and command aircraft were airborne over the continental United States. The post did not identify the missile type, aircraft missions or a connection between the events.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106202605449851310"
-      },
-      {
-        "id": "2106194862538183067",
-        "date": "2026-10-03",
-        "dateLabel": "03 OCT 2026 · UTC",
-        "headline": "War Watch shares report on FlyDubai co-pilot restrictions",
-        "summary": "War Watch Intel shared an Associated Press report alleging that a FlyDubai co-pilot involved in a near-crash had previously been barred from flying by Oman over extremism concerns, crediting @reagan0965. The visible post did not name the pilot or provide supporting details.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106194862538183067"
-      },
-      {
-        "id": "2106188030637727816",
-        "date": "2026-10-03",
-        "dateLabel": "03 OCT 2026 · UTC",
-        "headline": "Cargo flights, command jet and elevated Gulf activity reported",
-        "summary": "War Watch Intel reported multiple cargo aircraft airborne over the United States alongside a nuclear command jet. It described Gulf region activity as elevated following tanker attacks near Oman and reported a North Korean ballistic missile test, without identifying specific missions or independently confirming the events.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106188030637727816"
       }
     ]
   },
@@ -107,6 +107,22 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2106352641668264442",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "P-8 departure alert at Orange Park",
+        "summary": "SkyGlass issued an OFF Ground alert for a US military P-8 Poseidon at Orange Park, Florida. No callsign was supplied, and the post did not confirm the aircraft's destination or specific mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2106352641668264442"
+      },
+      {
+        "id": "2106337409671582053",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "BP42R P-8 departure alert at Manavalakurichi",
+        "summary": "SkyGlass issued an OFF Ground alert for BP42R, described as an Indian military P-8 Poseidon, at Manavalakurichi, India. The post reported a departure without confirming its destination or mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2106337409671582053"
+      },
       {
         "id": "2106243584504512741",
         "date": "2026-10-03",
@@ -186,22 +202,6 @@
         "headline": "New P-8 ground alert at Oak Harbor",
         "summary": "SkyGlass issued another ON Ground alert for a US military P-8 at Oak Harbor, Washington. This separately dated post did not supply a callsign or confirm the reason for the aircraft's ground status or a specific mission.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2106144679779590483"
-      },
-      {
-        "id": "2106125122767667406",
-        "date": "2026-10-02",
-        "dateLabel": "02 OCT 2026 · UTC",
-        "headline": "P-8 ground alert at Oak Harbor",
-        "summary": "SkyGlass issued an ON Ground alert for a US-registered Boeing P-8 Poseidon at Oak Harbor, Washington. No callsign was supplied, and the post did not confirm a specific mission or reason for the aircraft's ground status.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2106125122767667406"
-      },
-      {
-        "id": "2106112236590694597",
-        "date": "2026-10-02",
-        "dateLabel": "02 OCT 2026 · UTC",
-        "headline": "SkyGlass shares report on Otto Aerospace and MQ-9 successor search",
-        "summary": "SkyGlass shared a War Zone article describing Otto Aerospace as a contender in the search for an MQ-9 Reaper successor and highlighting its Celera 500L design. The post relayed the article rather than announcing a confirmed replacement selection.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2106112236590694597"
       }
     ]
   }
