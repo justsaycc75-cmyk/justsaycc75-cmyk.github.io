@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2106429152890855716",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "Six transports and elevated Baltic activity reported",
+        "summary": "War Watch Intel reported six US Air Force heavy transport aircraft airborne over the United States, alongside surveillance aircraft and a Russian aircraft sighting. It described the Baltic region as busier than usual with coded radio traffic, without identifying the messages' content or confirming a connection between the sightings.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106429152890855716"
+      },
+      {
+        "id": "2106414048111653240",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "Five US transports and one North Sea transport reported",
+        "summary": "War Watch Intel reported five US Air Force transport aircraft airborne over the United States and one over the North Sea. It also reported sightings of a Russian surveillance aircraft and a US Navy reconnaissance jet that day, without identifying their locations or missions.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106414048111653240"
+      },
+      {
         "id": "2106398946780180559",
         "date": "2026-10-03",
         "dateLabel": "03 OCT 2026 · UTC",
@@ -83,22 +99,6 @@
         "headline": "War Watch relays Putin visit and embassy evacuation statement",
         "summary": "War Watch Intel relayed a report of a Putin visit to a Russian region and a statement attributed to Ukraine's foreign minister that an embassy was not planning an evacuation, crediting @Robertchester-j5b. The visible post did not identify the embassy or a clear news source.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2106273101247897702"
-      },
-      {
-        "id": "2106266809427009584",
-        "date": "2026-10-03",
-        "dateLabel": "03 OCT 2026 · UTC",
-        "headline": "War Watch shares report of new Ukrainian drone interceptors",
-        "summary": "War Watch Intel shared an Independent report that Zelensky had unveiled new drone interceptors, with hundreds in production, crediting @Robertchester-j5b. The visible post did not identify the interceptor models or provide a production timetable.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106266809427009584"
-      },
-      {
-        "id": "2106263019047051305",
-        "date": "2026-10-03",
-        "dateLabel": "03 OCT 2026 · UTC",
-        "headline": "US transport, surveillance and command aircraft reported",
-        "summary": "War Watch Intel reported multiple US military transport aircraft airborne over the United States alongside a surveillance aircraft and a nuclear command aircraft. It also reported a North Korean ballistic missile launch earlier that day, without establishing a connection with the flights.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106263019047051305"
       }
     ]
   },
@@ -107,6 +107,14 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2106408243387875616",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "P-8 departure alert at Smyrna",
+        "summary": "SkyGlass issued an OFF Ground alert for a US-registered military P-8 Poseidon at Smyrna, United States. No callsign was supplied, and the post did not confirm the aircraft's destination or specific mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2106408243387875616"
+      },
       {
         "id": "2106372079083778083",
         "date": "2026-10-03",
@@ -194,14 +202,6 @@
         "headline": "P-8 departure alert at Nakijin",
         "summary": "SkyGlass issued an OFF Ground alert for a US military P-8 at Nakijin, Japan. No callsign was supplied, and the post did not confirm the aircraft's destination or mission.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2106177961313321136"
-      },
-      {
-        "id": "2106172637785276436",
-        "date": "2026-10-03",
-        "dateLabel": "03 OCT 2026 · UTC",
-        "headline": "SkyGlass shares report of Super Hornet submarine kill marking",
-        "summary": "SkyGlass shared an Aviationist report describing a VFA-41 F/A-18F Super Hornet returning from Operation Epic Fury with a submarine kill marking. Its commentary attributed the marking to an Iranian submarine engagement from USS Abraham Lincoln; the post relayed the report rather than providing independent confirmation.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2106172637785276436"
       }
     ]
   }
