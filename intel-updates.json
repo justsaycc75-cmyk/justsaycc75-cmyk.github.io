@@ -5,6 +5,38 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2106266809427009584",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "War Watch shares report of new Ukrainian drone interceptors",
+        "summary": "War Watch Intel shared an Independent report that Zelensky had unveiled new drone interceptors, with hundreds in production, crediting @Robertchester-j5b. The visible post did not identify the interceptor models or provide a production timetable.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106266809427009584"
+      },
+      {
+        "id": "2106263019047051305",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "US transport, surveillance and command aircraft reported",
+        "summary": "War Watch Intel reported multiple US military transport aircraft airborne over the United States alongside a surveillance aircraft and a nuclear command aircraft. It also reported a North Korean ballistic missile launch earlier that day, without establishing a connection with the flights.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106263019047051305"
+      },
+      {
+        "id": "2106247918067892628",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "War Watch reports missile test confirmation and elevated US air activity",
+        "summary": "War Watch Intel reported a North Korean ballistic missile launch and attributed confirmation of the test to Japan's Defense Ministry. It also described US military transport and surveillance activity as elevated; the visible post did not specify aircraft missions or a complete operating area.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106247918067892628"
+      },
+      {
+        "id": "2106232815226356137",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "Six US transports and wider military developments reported",
+        "summary": "War Watch Intel reported six US Air Force transport aircraft airborne over and near the United States. The same post reported a North Korean ballistic missile launch and Ukrainian drone strikes deep into Russia, without identifying specific aircraft missions or independently substantiating those events.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106232815226356137"
+      },
+      {
         "id": "2106217710958866942",
         "date": "2026-10-03",
         "dateLabel": "03 OCT 2026 · UTC",
@@ -67,38 +99,6 @@
         "headline": "RC-135S Cobra Ball sighting reported",
         "summary": "War Watch Intel reported a sighting of a Boeing RC-135S Cobra Ball, registration 61-2663 and hex code AE01D6, with no callsign supplied. It credited reagan0965 but did not specify the aircraft's location, route or mission.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2106170665883611257"
-      },
-      {
-        "id": "2106166862069330328",
-        "date": "2026-10-02",
-        "dateLabel": "02 OCT 2026 · UTC",
-        "headline": "War Watch shares report of tanker struck near Oman",
-        "summary": "War Watch Intel shared a report attributed to UKMTO that an oil tanker was struck by a projectile while transiting the Strait of Hormuz, approximately four nautical miles east of Oman, crediting @reagan0965. The visible post did not give a complete incident date or identify who fired the projectile.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106166862069330328"
-      },
-      {
-        "id": "2106162865245696127",
-        "date": "2026-10-02",
-        "dateLabel": "02 OCT 2026 · UTC",
-        "headline": "CNV4794 C-40A Clipper sighting reported",
-        "summary": "War Watch Intel reported a sighting of Boeing C-40A Clipper CNV4794, identified with the US Navy Air Logistics Office, registration 165831 and hex code AE04D9. It credited reagan0965 without specifying the aircraft's location, route or mission.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106162865245696127"
-      },
-      {
-        "id": "2106127375100514698",
-        "date": "2026-10-02",
-        "dateLabel": "02 OCT 2026 · UTC",
-        "headline": "Transport flights and three coded broadcasts reported",
-        "summary": "War Watch Intel reported multiple US Air Force transport aircraft and a surveillance aircraft airborne over the United States, with three coded radio broadcasts heard that day. The post did not identify the messages' content or connect them to a specific operation.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106127375100514698"
-      },
-      {
-        "id": "2106116048734789851",
-        "date": "2026-10-02",
-        "dateLabel": "02 OCT 2026 · UTC",
-        "headline": "Five transports, command jet and two coded broadcasts reported",
-        "summary": "War Watch Intel reported five US Air Force cargo transport aircraft airborne over the United States alongside a nuclear command-and-control jet. It also reported two coded Air Force radio broadcasts, without identifying their content or establishing a connection with the flights.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106116048734789851"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2106243584504512741",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "E6 departure alert at Midwest City",
+        "summary": "SkyGlass issued an OFF Ground alert for a US military aircraft labeled E6 at Midwest City, Oklahoma. No callsign was supplied, and the post did not confirm the flight's destination or specific mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2106243584504512741"
+      },
+      {
+        "id": "2106243199354163257",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "BP42R P-8 departure alert near Uthukkottai",
+        "summary": "SkyGlass issued an OFF Ground alert for BP42R, described as an Indian military P-8, near Uthukkottai, India. The post reported detection after takeoff without confirming its destination or mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2106243199354163257"
+      },
+      {
+        "id": "2106233001713475691",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "SkyGlass shares report of Finland's first F-35 arrival",
+        "summary": "SkyGlass shared a MilitaryLeak report on Finland and Lockheed Martin celebrating the arrival of the first Finnish F-35. Its accompanying commentary said Finland had welcomed its first two F-35A fighters; the post did not provide independent confirmation or delivery dates.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2106233001713475691"
+      },
+      {
+        "id": "2106233001705099511",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "SkyGlass shares report on C-390 industrialization plans in India",
+        "summary": "SkyGlass shared a MilitaryLeak report that Embraer and Mahindra Group were advancing plans to industrialize the C-390 Millennium in India. The visible post described manufacturing and support plans rather than a completed production facility or confirmed aircraft delivery.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2106233001705099511"
+      },
       {
         "id": "2106222755586744660",
         "date": "2026-10-03",
@@ -170,38 +202,6 @@
         "headline": "SkyGlass shares report on Otto Aerospace and MQ-9 successor search",
         "summary": "SkyGlass shared a War Zone article describing Otto Aerospace as a contender in the search for an MQ-9 Reaper successor and highlighting its Celera 500L design. The post relayed the article rather than announcing a confirmed replacement selection.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2106112236590694597"
-      },
-      {
-        "id": "2106112236489945207",
-        "date": "2026-10-02",
-        "dateLabel": "02 OCT 2026 · UTC",
-        "headline": "SkyGlass shares report of Taiwan's first F-16 Block 70 arrivals",
-        "summary": "SkyGlass shared a War Zone report that Taiwan's first two F-16 Block 70 fighters had arrived. The visible post did not supply delivery dates or further details, and its account was presented through the linked news report.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2106112236489945207"
-      },
-      {
-        "id": "2106112236456489417",
-        "date": "2026-10-02",
-        "dateLabel": "02 OCT 2026 · UTC",
-        "headline": "SkyGlass shares report of Taiwan receiving new F-16 pair",
-        "summary": "SkyGlass shared a Breaking Defense report that Taiwan had received its first pair of new F-16 fighter jets after years of delay. The post relayed the report without providing an independent confirmation or additional delivery details.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2106112236456489417"
-      },
-      {
-        "id": "2106078381150253243",
-        "date": "2026-10-02",
-        "dateLabel": "02 OCT 2026 · UTC",
-        "headline": "P-8 ground alert at Anchorage",
-        "summary": "SkyGlass issued an ON Ground alert for a US military P-8 at Anchorage, Alaska. No callsign was supplied, and the post did not confirm the aircraft's mission or reason for being on the ground.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2106078381150253243"
-      },
-      {
-        "id": "2106075062084202890",
-        "date": "2026-10-02",
-        "dateLabel": "02 OCT 2026 · UTC",
-        "headline": "P-8 ground alert near Reykjanesbaer",
-        "summary": "SkyGlass issued an ON Ground alert for a US military P-8 near Reykjanesbaer, Iceland. The post reported ground status without supplying a callsign or confirming the aircraft's mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2106075062084202890"
       }
     ]
   }
