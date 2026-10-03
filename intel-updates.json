@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2106217710958866942",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "Suspected missile launch, US flights and Hormuz attacks reported",
+        "summary": "War Watch Intel reported a suspected North Korean ballistic missile launch, US military transport and command aircraft airborne over the United States, and continuing tanker attacks in the Strait of Hormuz. The post did not identify aircraft callsigns or establish a connection between these reports.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106217710958866942"
+      },
+      {
+        "id": "2106202605449851310",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "Suspected North Korean missile launch and US aircraft reported",
+        "summary": "War Watch Intel reported that North Korea had launched a suspected ballistic missile and that US military transport and command aircraft were airborne over the continental United States. The post did not identify the missile type, aircraft missions or a connection between the events.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106202605449851310"
+      },
+      {
+        "id": "2106194862538183067",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "War Watch shares report on FlyDubai co-pilot restrictions",
+        "summary": "War Watch Intel shared an Associated Press report alleging that a FlyDubai co-pilot involved in a near-crash had previously been barred from flying by Oman over extremism concerns, crediting @reagan0965. The visible post did not name the pilot or provide supporting details.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106194862538183067"
+      },
+      {
+        "id": "2106188030637727816",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "Cargo flights, command jet and elevated Gulf activity reported",
+        "summary": "War Watch Intel reported multiple cargo aircraft airborne over the United States alongside a nuclear command jet. It described Gulf region activity as elevated following tanker attacks near Oman and reported a North Korean ballistic missile test, without identifying specific missions or independently confirming the events.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106188030637727816"
+      },
+      {
+        "id": "2106184189993218078",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "RSD420 Il-96 sighting reported",
+        "summary": "War Watch Intel reported a sighting of Ilyushin Il-96 RSD420, identified with Russia's Special Detachment, registration RA-96019 and hex code 157713. It credited reagan0965 without specifying the aircraft's location, route or mission.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106184189993218078"
+      },
+      {
         "id": "2106178214435459509",
         "date": "2026-10-03",
         "dateLabel": "03 OCT 2026 · UTC",
@@ -59,46 +99,6 @@
         "headline": "Five transports, command jet and two coded broadcasts reported",
         "summary": "War Watch Intel reported five US Air Force cargo transport aircraft airborne over the United States alongside a nuclear command-and-control jet. It also reported two coded Air Force radio broadcasts, without identifying their content or establishing a connection with the flights.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2106116048734789851"
-      },
-      {
-        "id": "2106112023402545532",
-        "date": "2026-10-02",
-        "dateLabel": "02 OCT 2026 · UTC",
-        "headline": "War Watch shares report of Kyiv embassy contingency plans",
-        "summary": "War Watch Intel shared a Guardian report that Western nations were preparing contingency plans to relocate their embassies from Kyiv if the security situation worsened, crediting @reagan0965. The post described conditional planning rather than a confirmed relocation.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106112023402545532"
-      },
-      {
-        "id": "2106100194307706942",
-        "date": "2026-10-02",
-        "dateLabel": "02 OCT 2026 · UTC",
-        "headline": "Two coded broadcasts and increased regional air activity reported",
-        "summary": "War Watch Intel reported two coded US Air Force radio broadcasts heard so far that day and described transport and surveillance aircraft activity over the United States, Gulf region and Baltic as increased. It did not identify the messages' content, aircraft missions or a specific operation.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106100194307706942"
-      },
-      {
-        "id": "2106096316686250437",
-        "date": "2026-10-02",
-        "dateLabel": "02 OCT 2026 · UTC",
-        "headline": "VENUS70 C-32A sighting reported",
-        "summary": "War Watch Intel reported a sighting of Boeing C-32A VENUS70, registration 98-0001 and hex code ADFEB7, crediting reagan0965. The visible post did not specify its location, route or mission.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106096316686250437"
-      },
-      {
-        "id": "2106085846168281298",
-        "date": "2026-10-02",
-        "dateLabel": "02 OCT 2026 · UTC",
-        "headline": "War Watch shares report of sanctions on alleged Hamas finance network",
-        "summary": "War Watch Intel shared an Insider Paper report that the United States sanctioned an alleged Hamas finance network, including two France-based charities, crediting @reagan0965. The visible post did not name the organizations or provide details of the allegations.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106085846168281298"
-      },
-      {
-        "id": "2106081903820394919",
-        "date": "2026-10-02",
-        "dateLabel": "02 OCT 2026 · UTC",
-        "headline": "Five heavy transports and earlier coded broadcast reported",
-        "summary": "War Watch Intel reported five US Air Force heavy transport aircraft airborne over the continental United States alongside a surveillance aircraft. It also reported one coded radio broadcast heard earlier that day, without identifying its content or linking it to the flights.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106081903820394919"
       }
     ]
   },
@@ -107,6 +107,30 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2106222755586744660",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "E-6 ground alert at Bellevue",
+        "summary": "SkyGlass issued an ON Ground alert for a US military E-6 TACAMO aircraft at Bellevue, Nebraska. No callsign was supplied, and the post did not confirm a specific mission or reason for its ground status.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2106222755586744660"
+      },
+      {
+        "id": "2106221783938425059",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "P-8 departure alert at Hakuromachi",
+        "summary": "SkyGlass issued an OFF Ground alert for a US-registered military P-8 Poseidon at Hakuromachi, Japan. Its callsign field contained 00000000; the post did not confirm the aircraft's destination or mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2106221783938425059"
+      },
+      {
+        "id": "2106194328750006486",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "ASY169 P-8 departure alert at Maeda",
+        "summary": "SkyGlass issued an OFF Ground alert for ASY169, described as a Royal Australian Air Force P-8 Poseidon, at Maeda, Japan. The post reported a departure without confirming its destination or specific mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2106194328750006486"
+      },
       {
         "id": "2106177961313321136",
         "date": "2026-10-03",
@@ -178,30 +202,6 @@
         "headline": "P-8 ground alert near Reykjanesbaer",
         "summary": "SkyGlass issued an ON Ground alert for a US military P-8 near Reykjanesbaer, Iceland. The post reported ground status without supplying a callsign or confirming the aircraft's mission.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2106075062084202890"
-      },
-      {
-        "id": "2106072792378532246",
-        "date": "2026-10-02",
-        "dateLabel": "02 OCT 2026 · UTC",
-        "headline": "SCWTP32 E-2 departure alert near Norfolk",
-        "summary": "SkyGlass issued an OFF Ground alert for SCWTP32, a US-registered military E-2, near Norfolk, Virginia. The post reported a departure without confirming its destination or mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2106072792378532246"
-      },
-      {
-        "id": "2106069060299477120",
-        "date": "2026-10-02",
-        "dateLabel": "02 OCT 2026 · UTC",
-        "headline": "P-8 ground alert at Plainfield",
-        "summary": "SkyGlass issued an ON Ground alert for a US military P-8 at Plainfield, Indiana. No callsign was supplied, and the post did not confirm the reason for its ground status or a specific mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2106069060299477120"
-      },
-      {
-        "id": "2106024152092078212",
-        "date": "2026-10-02",
-        "dateLabel": "02 OCT 2026 · UTC",
-        "headline": "APACHE E3CF departure alert at Penaflor",
-        "summary": "SkyGlass issued an OFF Ground alert for APACHE, an aircraft labeled E3CF, at Penaflor, Chile. The post described a UK-registered military E-3C warning and control aircraft but did not confirm the flight's destination or mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2106024152092078212"
       }
     ]
   }
