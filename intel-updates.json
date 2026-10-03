@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2106519771151740963",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "Six transports and continuing coded broadcasts reported",
+        "summary": "War Watch Intel reported six transport aircraft airborne over the United States and continuing coded US Air Force radio broadcasts. It described activity as above normal that day, without identifying the messages' content or establishing a connection with the flights.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106519771151740963"
+      },
+      {
+        "id": "2106504668008386767",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "Six US Air Force transports; activity described as above normal",
+        "summary": "War Watch Intel reported six US Air Force transport aircraft airborne over the United States. It described the number as well above normal for that time of day, without identifying callsigns, routes or missions.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106504668008386767"
+      },
+      {
+        "id": "2106489566555185526",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "Six transports and multiple surveillance aircraft reported",
+        "summary": "War Watch Intel reported six large US Air Force transport aircraft airborne over the United States, alongside multiple surveillance aircraft sightings credited to reagan0965. The post did not identify specific missions or establish a connection between the flights.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106489566555185526"
+      },
+      {
         "id": "2106474461847245032",
         "date": "2026-10-03",
         "dateLabel": "03 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "Six transports and Russian aircraft near US airspace reported",
         "summary": "War Watch Intel reported six US Air Force transport aircraft airborne over the continental United States. It also reported sightings of a nuclear command jet, a surveillance aircraft and a Russian government aircraft near US airspace, without giving precise locations or confirming their missions.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2106368993757958216"
-      },
-      {
-        "id": "2106353893542154605",
-        "date": "2026-10-03",
-        "dateLabel": "03 OCT 2026 · UTC",
-        "headline": "Six US transports and command, surveillance and Russian jet sightings reported",
-        "summary": "War Watch Intel reported six US Air Force transport aircraft airborne over the United States. It also reported sightings of a nuclear command aircraft, a surveillance aircraft and a Russian government jet, without identifying their missions or establishing a connection between them.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106353893542154605"
-      },
-      {
-        "id": "2106338793741582492",
-        "date": "2026-10-03",
-        "dateLabel": "03 OCT 2026 · UTC",
-        "headline": "Six transports over the US and North Sea; no coded broadcasts reported",
-        "summary": "War Watch Intel reported six US military transport aircraft airborne over the United States and North Sea, plus sightings of a Russian Il-96 and a US surveillance aircraft. It reported no coded US Air Force broadcasts detected during that hour.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106338793741582492"
-      },
-      {
-        "id": "2106323690975625704",
-        "date": "2026-10-03",
-        "dateLabel": "03 OCT 2026 · UTC",
-        "headline": "North Sea and UK transport activity described as above usual levels",
-        "summary": "War Watch Intel reported multiple US military transport aircraft airborne over the North Sea and United Kingdom, alongside a surveillance aircraft over the United States. It described activity as busier than usual for that hour without identifying aircraft callsigns or missions.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106323690975625704"
       }
     ]
   },
@@ -107,6 +107,14 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2106495526589899126",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "E-6 departure alert near Chesapeake Ranch Estates",
+        "summary": "SkyGlass issued an OFF Ground alert for a US military E-6 TACAMO aircraft near Chesapeake Ranch Estates, United States. No callsign was supplied, and the post did not confirm the aircraft's destination or specific mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2106495526589899126"
+      },
       {
         "id": "2106474567900221499",
         "date": "2026-10-03",
@@ -194,14 +202,6 @@
         "headline": "SkyGlass shares report of Finland's first F-35 arrival",
         "summary": "SkyGlass shared a MilitaryLeak report on Finland and Lockheed Martin celebrating the arrival of the first Finnish F-35. Its accompanying commentary said Finland had welcomed its first two F-35A fighters; the post did not provide independent confirmation or delivery dates.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2106233001713475691"
-      },
-      {
-        "id": "2106233001705099511",
-        "date": "2026-10-03",
-        "dateLabel": "03 OCT 2026 · UTC",
-        "headline": "SkyGlass shares report on C-390 industrialization plans in India",
-        "summary": "SkyGlass shared a MilitaryLeak report that Embraer and Mahindra Group were advancing plans to industrialize the C-390 Millennium in India. The visible post described manufacturing and support plans rather than a completed production facility or confirmed aircraft delivery.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2106233001705099511"
       }
     ]
   }
