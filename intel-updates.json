@@ -5,6 +5,38 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2106308590579441745",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "Surveillance flight, six transports and no coded broadcasts reported",
+        "summary": "War Watch Intel reported a US Air Force surveillance aircraft airborne, six military transport jets in the air, and a Russian aircraft sighting over the Middle East. It reported no coded radio broadcasts detected during that hour, without identifying aircraft missions or linking the sightings.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106308590579441745"
+      },
+      {
+        "id": "2106293488518099419",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "Six transports across the US, North Sea and eastern Mediterranean reported",
+        "summary": "War Watch Intel reported a US Air Force surveillance aircraft airborne and six military transport aircraft detected across the United States, North Sea and eastern Mediterranean during the preceding hour. The post did not identify callsigns, routes or missions.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106293488518099419"
+      },
+      {
+        "id": "2106278386301641137",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "Transport, surveillance and nuclear command aircraft reported",
+        "summary": "War Watch Intel reported a US Air Force surveillance aircraft airborne, multiple military transport flights and a nuclear command jet detection. It also reported sightings of a Navy transport and a Russian Il-96, without specifying their locations or missions.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106278386301641137"
+      },
+      {
+        "id": "2106273101247897702",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "War Watch relays Putin visit and embassy evacuation statement",
+        "summary": "War Watch Intel relayed a report of a Putin visit to a Russian region and a statement attributed to Ukraine's foreign minister that an embassy was not planning an evacuation, crediting @Robertchester-j5b. The visible post did not identify the embassy or a clear news source.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106273101247897702"
+      },
+      {
         "id": "2106266809427009584",
         "date": "2026-10-03",
         "dateLabel": "03 OCT 2026 · UTC",
@@ -67,38 +99,6 @@
         "headline": "Cargo flights, command jet and elevated Gulf activity reported",
         "summary": "War Watch Intel reported multiple cargo aircraft airborne over the United States alongside a nuclear command jet. It described Gulf region activity as elevated following tanker attacks near Oman and reported a North Korean ballistic missile test, without identifying specific missions or independently confirming the events.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2106188030637727816"
-      },
-      {
-        "id": "2106184189993218078",
-        "date": "2026-10-03",
-        "dateLabel": "03 OCT 2026 · UTC",
-        "headline": "RSD420 Il-96 sighting reported",
-        "summary": "War Watch Intel reported a sighting of Ilyushin Il-96 RSD420, identified with Russia's Special Detachment, registration RA-96019 and hex code 157713. It credited reagan0965 without specifying the aircraft's location, route or mission.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106184189993218078"
-      },
-      {
-        "id": "2106178214435459509",
-        "date": "2026-10-03",
-        "dateLabel": "03 OCT 2026 · UTC",
-        "headline": "War Watch relays report of two tankers attacked in Hormuz",
-        "summary": "War Watch Intel relayed a report attributed to UKMTO alleging that Iranian forces attacked two tankers in the Strait of Hormuz. It said one tanker caught fire and no crew were injured, crediting @reagan0965. The post did not independently establish responsibility for the reported attacks.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106178214435459509"
-      },
-      {
-        "id": "2106174438819447133",
-        "date": "2026-10-03",
-        "dateLabel": "03 OCT 2026 · UTC",
-        "headline": "Command jet, six transports and four coded broadcasts reported",
-        "summary": "War Watch Intel reported a US Air Force nuclear command-and-control jet airborne over the continental United States alongside six heavy transport aircraft. It reported four coded radio broadcasts that day, with the latest at 21:14 Zulu, without identifying their content or linking them to the flights.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106174438819447133"
-      },
-      {
-        "id": "2106170665883611257",
-        "date": "2026-10-02",
-        "dateLabel": "02 OCT 2026 · UTC",
-        "headline": "RC-135S Cobra Ball sighting reported",
-        "summary": "War Watch Intel reported a sighting of a Boeing RC-135S Cobra Ball, registration 61-2663 and hex code AE01D6, with no callsign supplied. It credited reagan0965 but did not specify the aircraft's location, route or mission.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106170665883611257"
       }
     ]
   },
