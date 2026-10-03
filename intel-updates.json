@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2106178214435459509",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "War Watch relays report of two tankers attacked in Hormuz",
+        "summary": "War Watch Intel relayed a report attributed to UKMTO alleging that Iranian forces attacked two tankers in the Strait of Hormuz. It said one tanker caught fire and no crew were injured, crediting @reagan0965. The post did not independently establish responsibility for the reported attacks.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106178214435459509"
+      },
+      {
+        "id": "2106174438819447133",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "Command jet, six transports and four coded broadcasts reported",
+        "summary": "War Watch Intel reported a US Air Force nuclear command-and-control jet airborne over the continental United States alongside six heavy transport aircraft. It reported four coded radio broadcasts that day, with the latest at 21:14 Zulu, without identifying their content or linking them to the flights.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106174438819447133"
+      },
+      {
+        "id": "2106170665883611257",
+        "date": "2026-10-02",
+        "dateLabel": "02 OCT 2026 · UTC",
+        "headline": "RC-135S Cobra Ball sighting reported",
+        "summary": "War Watch Intel reported a sighting of a Boeing RC-135S Cobra Ball, registration 61-2663 and hex code AE01D6, with no callsign supplied. It credited reagan0965 but did not specify the aircraft's location, route or mission.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106170665883611257"
+      },
+      {
+        "id": "2106166862069330328",
+        "date": "2026-10-02",
+        "dateLabel": "02 OCT 2026 · UTC",
+        "headline": "War Watch shares report of tanker struck near Oman",
+        "summary": "War Watch Intel shared a report attributed to UKMTO that an oil tanker was struck by a projectile while transiting the Strait of Hormuz, approximately four nautical miles east of Oman, crediting @reagan0965. The visible post did not give a complete incident date or identify who fired the projectile.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106166862069330328"
+      },
+      {
+        "id": "2106162865245696127",
+        "date": "2026-10-02",
+        "dateLabel": "02 OCT 2026 · UTC",
+        "headline": "CNV4794 C-40A Clipper sighting reported",
+        "summary": "War Watch Intel reported a sighting of Boeing C-40A Clipper CNV4794, identified with the US Navy Air Logistics Office, registration 165831 and hex code AE04D9. It credited reagan0965 without specifying the aircraft's location, route or mission.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106162865245696127"
+      },
+      {
         "id": "2106127375100514698",
         "date": "2026-10-02",
         "dateLabel": "02 OCT 2026 · UTC",
@@ -59,46 +99,6 @@
         "headline": "Five heavy transports and earlier coded broadcast reported",
         "summary": "War Watch Intel reported five US Air Force heavy transport aircraft airborne over the continental United States alongside a surveillance aircraft. It also reported one coded radio broadcast heard earlier that day, without identifying its content or linking it to the flights.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2106081903820394919"
-      },
-      {
-        "id": "2106066829286183390",
-        "date": "2026-10-02",
-        "dateLabel": "02 OCT 2026 · UTC",
-        "headline": "US aircraft and elevated Baltic air activity reported",
-        "summary": "War Watch Intel reported US military transport aircraft and a surveillance aircraft airborne over the continental United States. It described Baltic air activity as nearly three times normal levels without identifying the aircraft, routes or missions behind that comparison.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106066829286183390"
-      },
-      {
-        "id": "2106051698242289847",
-        "date": "2026-10-02",
-        "dateLabel": "02 OCT 2026 · UTC",
-        "headline": "Transport flights, surveillance aircraft and coded broadcast reported",
-        "summary": "War Watch Intel reported multiple large US Air Force transport aircraft and a surveillance aircraft airborne over the continental United States. It referred to one coded radio broadcast earlier that day but did not identify its content or establish a connection with the flights.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106051698242289847"
-      },
-      {
-        "id": "2106036594868183311",
-        "date": "2026-10-02",
-        "dateLabel": "02 OCT 2026 · UTC",
-        "headline": "Five transports, command jet and coded broadcast reported",
-        "summary": "War Watch Intel reported five US Air Force transport aircraft airborne over the continental United States alongside a nuclear command-and-control jet. It also reported one coded radio broadcast heard during that hour, without identifying its content or linking it to the flights.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106036594868183311"
-      },
-      {
-        "id": "2106032740302831682",
-        "date": "2026-10-02",
-        "dateLabel": "02 OCT 2026 · UTC",
-        "headline": "War Watch shares report of hazard pay increases",
-        "summary": "War Watch Intel shared a Pentagon News report describing increases to two hazard pay allowances for the first time in nearly a quarter century, crediting @Hawkeye_CNY. The visible post did not give the allowance names, rates or effective dates.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106032740302831682"
-      },
-      {
-        "id": "2106026236334027140",
-        "date": "2026-10-02",
-        "dateLabel": "02 OCT 2026 · UTC",
-        "headline": "War Watch shares report on jet-powered drones and interceptors",
-        "summary": "War Watch Intel shared an Associated Press report describing jet-powered drones outpacing Ukrainian defenses while manufacturers worked on new interceptors, crediting @hawkeye_cny. The post relays the report without providing an independent assessment of drone or interceptor performance.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106026236334027140"
       }
     ]
   },
@@ -107,6 +107,30 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2106177961313321136",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "P-8 departure alert at Nakijin",
+        "summary": "SkyGlass issued an OFF Ground alert for a US military P-8 at Nakijin, Japan. No callsign was supplied, and the post did not confirm the aircraft's destination or mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2106177961313321136"
+      },
+      {
+        "id": "2106172637785276436",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "SkyGlass shares report of Super Hornet submarine kill marking",
+        "summary": "SkyGlass shared an Aviationist report describing a VFA-41 F/A-18F Super Hornet returning from Operation Epic Fury with a submarine kill marking. Its commentary attributed the marking to an Iranian submarine engagement from USS Abraham Lincoln; the post relayed the report rather than providing independent confirmation.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2106172637785276436"
+      },
+      {
+        "id": "2106144679779590483",
+        "date": "2026-10-02",
+        "dateLabel": "02 OCT 2026 · UTC",
+        "headline": "New P-8 ground alert at Oak Harbor",
+        "summary": "SkyGlass issued another ON Ground alert for a US military P-8 at Oak Harbor, Washington. This separately dated post did not supply a callsign or confirm the reason for the aircraft's ground status or a specific mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2106144679779590483"
+      },
       {
         "id": "2106125122767667406",
         "date": "2026-10-02",
@@ -178,30 +202,6 @@
         "headline": "APACHE E3CF departure alert at Penaflor",
         "summary": "SkyGlass issued an OFF Ground alert for APACHE, an aircraft labeled E3CF, at Penaflor, Chile. The post described a UK-registered military E-3C warning and control aircraft but did not confirm the flight's destination or mission.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2106024152092078212"
-      },
-      {
-        "id": "2106019865878261957",
-        "date": "2026-10-02",
-        "dateLabel": "02 OCT 2026 · UTC",
-        "headline": "VVBH341 P-3 departure alert at Lexington Park",
-        "summary": "SkyGlass issued an OFF Ground alert for VVBH341, a US-registered military P-3 Orion, at Lexington Park, Maryland. The post reported a departure without confirming its destination or mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2106019865878261957"
-      },
-      {
-        "id": "2106013762423525629",
-        "date": "2026-10-02",
-        "dateLabel": "02 OCT 2026 · UTC",
-        "headline": "New P-8 ground alert at Orange Park",
-        "summary": "SkyGlass issued an ON Ground alert for a US-registered military P-8 Poseidon at Orange Park, Florida. This separately dated alert did not supply a callsign or confirm the reason for the aircraft's ground status.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2106013762423525629"
-      },
-      {
-        "id": "2106002740367200759",
-        "date": "2026-10-02",
-        "dateLabel": "02 OCT 2026 · UTC",
-        "headline": "P-8 departure alert at Burela de Cabo",
-        "summary": "SkyGlass issued an OFF Ground alert for a US military P-8 at Burela de Cabo, Spain. Its callsign field contained placeholder characters; the post did not confirm the aircraft's destination or mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2106002740367200759"
       }
     ]
   }
