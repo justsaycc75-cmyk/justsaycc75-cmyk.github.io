@@ -5,6 +5,38 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2106474461847245032",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "Transport, bomber and surveillance aircraft; six broadcasts reported",
+        "summary": "War Watch Intel reported multiple large US Air Force transport aircraft airborne over the United States, alongside a bomber and two surveillance aircraft. It also reported a Russian transport sighting and six coded radio broadcasts; the visible post did not identify the messages' content or confirm a connection with the aircraft.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106474461847245032"
+      },
+      {
+        "id": "2106470452814020746",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "War Watch shares USS Ted Stevens commissioning report",
+        "summary": "War Watch Intel shared a report, citing the US Navy and crediting @jackhoricon, that USS Ted Stevens (DDG 128), a Flight III Arleigh Burke-class guided missile destroyer, was scheduled to be commissioned on 3 October. The visible post did not confirm completion or identify the ceremony's location.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106470452814020746"
+      },
+      {
+        "id": "2106459359504908544",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "Six US transports and a Russian government aircraft reported",
+        "summary": "War Watch Intel reported six US Air Force heavy transport aircraft airborne over the continental United States and a Russian government aircraft sighting. It described the activity as routine and reported no recent coded broadcasts; the visible post did not specify the full reporting interval.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106459359504908544"
+      },
+      {
+        "id": "2106444255900086359",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "Six US transports and elevated Baltic airspace activity reported",
+        "summary": "War Watch Intel reported six US military transport aircraft airborne over the United States and described Baltic airspace as about three times busier than normal. It also reported a US surveillance aircraft and a Russian transport jet sighting, without a complete location or mission description in the visible post.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106444255900086359"
+      },
+      {
         "id": "2106429152890855716",
         "date": "2026-10-03",
         "dateLabel": "03 OCT 2026 · UTC",
@@ -67,38 +99,6 @@
         "headline": "North Sea and UK transport activity described as above usual levels",
         "summary": "War Watch Intel reported multiple US military transport aircraft airborne over the North Sea and United Kingdom, alongside a surveillance aircraft over the United States. It described activity as busier than usual for that hour without identifying aircraft callsigns or missions.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2106323690975625704"
-      },
-      {
-        "id": "2106308590579441745",
-        "date": "2026-10-03",
-        "dateLabel": "03 OCT 2026 · UTC",
-        "headline": "Surveillance flight, six transports and no coded broadcasts reported",
-        "summary": "War Watch Intel reported a US Air Force surveillance aircraft airborne, six military transport jets in the air, and a Russian aircraft sighting over the Middle East. It reported no coded radio broadcasts detected during that hour, without identifying aircraft missions or linking the sightings.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106308590579441745"
-      },
-      {
-        "id": "2106293488518099419",
-        "date": "2026-10-03",
-        "dateLabel": "03 OCT 2026 · UTC",
-        "headline": "Six transports across the US, North Sea and eastern Mediterranean reported",
-        "summary": "War Watch Intel reported a US Air Force surveillance aircraft airborne and six military transport aircraft detected across the United States, North Sea and eastern Mediterranean during the preceding hour. The post did not identify callsigns, routes or missions.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106293488518099419"
-      },
-      {
-        "id": "2106278386301641137",
-        "date": "2026-10-03",
-        "dateLabel": "03 OCT 2026 · UTC",
-        "headline": "Transport, surveillance and nuclear command aircraft reported",
-        "summary": "War Watch Intel reported a US Air Force surveillance aircraft airborne, multiple military transport flights and a nuclear command jet detection. It also reported sightings of a Navy transport and a Russian Il-96, without specifying their locations or missions.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106278386301641137"
-      },
-      {
-        "id": "2106273101247897702",
-        "date": "2026-10-03",
-        "dateLabel": "03 OCT 2026 · UTC",
-        "headline": "War Watch relays Putin visit and embassy evacuation statement",
-        "summary": "War Watch Intel relayed a report of a Putin visit to a Russian region and a statement attributed to Ukraine's foreign minister that an embassy was not planning an evacuation, crediting @Robertchester-j5b. The visible post did not identify the embassy or a clear news source.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106273101247897702"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2106474567900221499",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "SkyGlass shares YFQ-48 first-flight report",
+        "summary": "SkyGlass shared an Aviationist report that Northrop Grumman's YFQ-48 Talon Blue had made its first autonomous flight, relating it to the Collaborative Combat Aircraft program. The post relayed the report without providing independent confirmation or a flight date.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2106474567900221499"
+      },
+      {
+        "id": "2106474567803834866",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "SkyGlass shares Talon Blue autonomous-flight report",
+        "summary": "SkyGlass shared a Defence Blog report that Northrop Grumman's YFQ-48A Talon Blue had completed its first fully autonomous flight. Its commentary described the aircraft as a drone wingman for the US Air Force; the post did not provide independent confirmation or a flight date.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2106474567803834866"
+      },
+      {
+        "id": "2106461769270993140",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "B-52 departure alert near Barstow Heights",
+        "summary": "SkyGlass issued an OFF Ground alert for a US Air Force B-52 near Barstow Heights, California. Its callsign field contained 00000000; the post did not confirm the aircraft's destination or specific mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2106461769270993140"
+      },
+      {
+        "id": "2106447439007731757",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "P-8 departure alert at Forres",
+        "summary": "SkyGlass issued an OFF Ground alert for a UK-registered military P-8 at Forres, United Kingdom. Its callsign field contained @@@@@@@@; the post did not confirm the aircraft's destination or specific mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2106447439007731757"
+      },
       {
         "id": "2106408243387875616",
         "date": "2026-10-03",
@@ -170,38 +202,6 @@
         "headline": "SkyGlass shares report on C-390 industrialization plans in India",
         "summary": "SkyGlass shared a MilitaryLeak report that Embraer and Mahindra Group were advancing plans to industrialize the C-390 Millennium in India. The visible post described manufacturing and support plans rather than a completed production facility or confirmed aircraft delivery.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2106233001705099511"
-      },
-      {
-        "id": "2106222755586744660",
-        "date": "2026-10-03",
-        "dateLabel": "03 OCT 2026 · UTC",
-        "headline": "E-6 ground alert at Bellevue",
-        "summary": "SkyGlass issued an ON Ground alert for a US military E-6 TACAMO aircraft at Bellevue, Nebraska. No callsign was supplied, and the post did not confirm a specific mission or reason for its ground status.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2106222755586744660"
-      },
-      {
-        "id": "2106221783938425059",
-        "date": "2026-10-03",
-        "dateLabel": "03 OCT 2026 · UTC",
-        "headline": "P-8 departure alert at Hakuromachi",
-        "summary": "SkyGlass issued an OFF Ground alert for a US-registered military P-8 Poseidon at Hakuromachi, Japan. Its callsign field contained 00000000; the post did not confirm the aircraft's destination or mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2106221783938425059"
-      },
-      {
-        "id": "2106194328750006486",
-        "date": "2026-10-03",
-        "dateLabel": "03 OCT 2026 · UTC",
-        "headline": "ASY169 P-8 departure alert at Maeda",
-        "summary": "SkyGlass issued an OFF Ground alert for ASY169, described as a Royal Australian Air Force P-8 Poseidon, at Maeda, Japan. The post reported a departure without confirming its destination or specific mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2106194328750006486"
-      },
-      {
-        "id": "2106177961313321136",
-        "date": "2026-10-03",
-        "dateLabel": "03 OCT 2026 · UTC",
-        "headline": "P-8 departure alert at Nakijin",
-        "summary": "SkyGlass issued an OFF Ground alert for a US military P-8 at Nakijin, Japan. No callsign was supplied, and the post did not confirm the aircraft's destination or mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2106177961313321136"
       }
     ]
   }
