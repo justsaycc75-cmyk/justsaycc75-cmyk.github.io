@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2106398946780180559",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "Six transports and two coded broadcasts reported",
+        "summary": "War Watch Intel reported six US Air Force transport aircraft airborne over the continental United States and two coded radio broadcasts heard during the preceding hour. It described activity as busier than usual for that time of day, without identifying the messages' content or linking them to the flights.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106398946780180559"
+      },
+      {
+        "id": "2106384095710220476",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "Five cargo aircraft and elevated activity reported",
+        "summary": "War Watch Intel reported five US military cargo aircraft airborne over the continental United States, alongside surveillance aircraft and a Russian jet sighting earlier that day. It described activity as above normal without identifying callsigns, missions or a connection between the sightings.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106384095710220476"
+      },
+      {
+        "id": "2106368993757958216",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "Six transports and Russian aircraft near US airspace reported",
+        "summary": "War Watch Intel reported six US Air Force transport aircraft airborne over the continental United States. It also reported sightings of a nuclear command jet, a surveillance aircraft and a Russian government aircraft near US airspace, without giving precise locations or confirming their missions.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106368993757958216"
+      },
+      {
         "id": "2106353893542154605",
         "date": "2026-10-03",
         "dateLabel": "03 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "US transport, surveillance and command aircraft reported",
         "summary": "War Watch Intel reported multiple US military transport aircraft airborne over the United States alongside a surveillance aircraft and a nuclear command aircraft. It also reported a North Korean ballistic missile launch earlier that day, without establishing a connection with the flights.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2106263019047051305"
-      },
-      {
-        "id": "2106247918067892628",
-        "date": "2026-10-03",
-        "dateLabel": "03 OCT 2026 · UTC",
-        "headline": "War Watch reports missile test confirmation and elevated US air activity",
-        "summary": "War Watch Intel reported a North Korean ballistic missile launch and attributed confirmation of the test to Japan's Defense Ministry. It also described US military transport and surveillance activity as elevated; the visible post did not specify aircraft missions or a complete operating area.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106247918067892628"
-      },
-      {
-        "id": "2106232815226356137",
-        "date": "2026-10-03",
-        "dateLabel": "03 OCT 2026 · UTC",
-        "headline": "Six US transports and wider military developments reported",
-        "summary": "War Watch Intel reported six US Air Force transport aircraft airborne over and near the United States. The same post reported a North Korean ballistic missile launch and Ukrainian drone strikes deep into Russia, without identifying specific aircraft missions or independently substantiating those events.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106232815226356137"
-      },
-      {
-        "id": "2106217710958866942",
-        "date": "2026-10-03",
-        "dateLabel": "03 OCT 2026 · UTC",
-        "headline": "Suspected missile launch, US flights and Hormuz attacks reported",
-        "summary": "War Watch Intel reported a suspected North Korean ballistic missile launch, US military transport and command aircraft airborne over the United States, and continuing tanker attacks in the Strait of Hormuz. The post did not identify aircraft callsigns or establish a connection between these reports.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106217710958866942"
       }
     ]
   },
@@ -107,6 +107,14 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2106372079083778083",
+        "date": "2026-10-03",
+        "dateLabel": "03 OCT 2026 · UTC",
+        "headline": "P-8 departure alert near Kottaikadu",
+        "summary": "SkyGlass issued an OFF Ground alert for an Indian military P-8 near Kottaikadu, India. No callsign was supplied, and the post did not confirm the flight's destination or specific mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2106372079083778083"
+      },
       {
         "id": "2106352641668264442",
         "date": "2026-10-03",
@@ -194,14 +202,6 @@
         "headline": "SkyGlass shares report of Super Hornet submarine kill marking",
         "summary": "SkyGlass shared an Aviationist report describing a VFA-41 F/A-18F Super Hornet returning from Operation Epic Fury with a submarine kill marking. Its commentary attributed the marking to an Iranian submarine engagement from USS Abraham Lincoln; the post relayed the report rather than providing independent confirmation.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2106172637785276436"
-      },
-      {
-        "id": "2106144679779590483",
-        "date": "2026-10-02",
-        "dateLabel": "02 OCT 2026 · UTC",
-        "headline": "New P-8 ground alert at Oak Harbor",
-        "summary": "SkyGlass issued another ON Ground alert for a US military P-8 at Oak Harbor, Washington. This separately dated post did not supply a callsign or confirm the reason for the aircraft's ground status or a specific mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2106144679779590483"
       }
     ]
   }
