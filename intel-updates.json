@@ -5,6 +5,38 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2106610393766408304",
+        "date": "2026-10-04",
+        "dateLabel": "04 OCT 2026 · UTC",
+        "headline": "Six transports and two earlier coded broadcasts reported",
+        "summary": "War Watch Intel reported six US Air Force transport aircraft airborne simultaneously, including one over the North Sea. It also reported two coded US Air Force radio broadcasts heard earlier that day, without identifying the messages' content or linking them to the aircraft.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106610393766408304"
+      },
+      {
+        "id": "2106595286428570071",
+        "date": "2026-10-04",
+        "dateLabel": "04 OCT 2026 · UTC",
+        "headline": "US and North Sea transports, surveillance flight and two broadcasts reported",
+        "summary": "War Watch Intel reported six US Air Force transport aircraft airborne over the continental United States and North Sea, plus a surveillance aircraft over the continental United States. It also reported two coded US Air Force radio broadcasts heard earlier that day; no specific missions or connection between the detections were confirmed.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106595286428570071"
+      },
+      {
+        "id": "2106581921366983019",
+        "date": "2026-10-04",
+        "dateLabel": "04 OCT 2026 · UTC",
+        "headline": "Six US transports and elevated UK and North Sea activity reported",
+        "summary": "War Watch Intel reported six US Air Force transport aircraft airborne over the United States and described military air activity over the United Kingdom and North Sea as busier than usual. It also reported two coded US Air Force radio broadcasts; the visible post did not specify the full reporting interval.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106581921366983019"
+      },
+      {
+        "id": "2106577998203732371",
+        "date": "2026-10-04",
+        "dateLabel": "04 OCT 2026 · UTC",
+        "headline": "War Watch relays Coast Guard debris-field report off Nantucket",
+        "summary": "War Watch Intel relayed a report, credited to @charlottewilliams922, that the Coast Guard had confirmed finding a debris field off Nantucket, Massachusetts, on Saturday night. The post did not identify the debris' origin or provide details of the incident.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106577998203732371"
+      },
+      {
         "id": "2106565081429323822",
         "date": "2026-10-04",
         "dateLabel": "04 OCT 2026 · UTC",
@@ -67,38 +99,6 @@
         "headline": "Transport, bomber and surveillance aircraft; six broadcasts reported",
         "summary": "War Watch Intel reported multiple large US Air Force transport aircraft airborne over the United States, alongside a bomber and two surveillance aircraft. It also reported a Russian transport sighting and six coded radio broadcasts; the visible post did not identify the messages' content or confirm a connection with the aircraft.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2106474461847245032"
-      },
-      {
-        "id": "2106470452814020746",
-        "date": "2026-10-03",
-        "dateLabel": "03 OCT 2026 · UTC",
-        "headline": "War Watch shares USS Ted Stevens commissioning report",
-        "summary": "War Watch Intel shared a report, citing the US Navy and crediting @jackhoricon, that USS Ted Stevens (DDG 128), a Flight III Arleigh Burke-class guided missile destroyer, was scheduled to be commissioned on 3 October. The visible post did not confirm completion or identify the ceremony's location.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106470452814020746"
-      },
-      {
-        "id": "2106459359504908544",
-        "date": "2026-10-03",
-        "dateLabel": "03 OCT 2026 · UTC",
-        "headline": "Six US transports and a Russian government aircraft reported",
-        "summary": "War Watch Intel reported six US Air Force heavy transport aircraft airborne over the continental United States and a Russian government aircraft sighting. It described the activity as routine and reported no recent coded broadcasts; the visible post did not specify the full reporting interval.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106459359504908544"
-      },
-      {
-        "id": "2106444255900086359",
-        "date": "2026-10-03",
-        "dateLabel": "03 OCT 2026 · UTC",
-        "headline": "Six US transports and elevated Baltic airspace activity reported",
-        "summary": "War Watch Intel reported six US military transport aircraft airborne over the United States and described Baltic airspace as about three times busier than normal. It also reported a US surveillance aircraft and a Russian transport jet sighting, without a complete location or mission description in the visible post.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106444255900086359"
-      },
-      {
-        "id": "2106429152890855716",
-        "date": "2026-10-03",
-        "dateLabel": "03 OCT 2026 · UTC",
-        "headline": "Six transports and elevated Baltic activity reported",
-        "summary": "War Watch Intel reported six US Air Force heavy transport aircraft airborne over the United States, alongside surveillance aircraft and a Russian aircraft sighting. It described the Baltic region as busier than usual with coded radio traffic, without identifying the messages' content or confirming a connection between the sightings.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106429152890855716"
       }
     ]
   },
