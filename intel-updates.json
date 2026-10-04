@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2106746197457220019",
+        "date": "2026-10-04",
+        "dateLabel": "04 OCT 2026 · UTC",
+        "headline": "Six transports, North Sea surveillance sighting and Russian aircraft reported",
+        "summary": "War Watch Intel reported six US military transport aircraft airborne over the United States and Europe, a surveillance aircraft near the North Sea and Russian aircraft over Europe. The post did not identify specific missions or establish a connection between the sightings.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106746197457220019"
+      },
+      {
+        "id": "2106731094179459184",
+        "date": "2026-10-04",
+        "dateLabel": "04 OCT 2026 · UTC",
+        "headline": "Six US cargo aircraft and Russian transport jet reported",
+        "summary": "War Watch Intel reported six US military cargo aircraft airborne over the Atlantic and North America, with a Russian transport jet also tracked nearby. The post did not specify the Russian aircraft's precise location or confirm any connection between the flights.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106731094179459184"
+      },
+      {
+        "id": "2106715990209744913",
+        "date": "2026-10-04",
+        "dateLabel": "04 OCT 2026 · UTC",
+        "headline": "Six Air Force transports and Navy surveillance aircraft over Atlantic reported",
+        "summary": "War Watch Intel reported six US Air Force transport aircraft airborne simultaneously, a US Navy surveillance aircraft over the Atlantic and Russian aircraft near Europe. The post did not identify their specific missions.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106715990209744913"
+      },
+      {
         "id": "2106700889671037047",
         "date": "2026-10-04",
         "dateLabel": "04 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "Six transports and two earlier coded broadcasts reported",
         "summary": "War Watch Intel reported six US Air Force transport aircraft airborne simultaneously, including one over the North Sea. It also reported two coded US Air Force radio broadcasts heard earlier that day, without identifying the messages' content or linking them to the aircraft.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2106610393766408304"
-      },
-      {
-        "id": "2106595286428570071",
-        "date": "2026-10-04",
-        "dateLabel": "04 OCT 2026 · UTC",
-        "headline": "US and North Sea transports, surveillance flight and two broadcasts reported",
-        "summary": "War Watch Intel reported six US Air Force transport aircraft airborne over the continental United States and North Sea, plus a surveillance aircraft over the continental United States. It also reported two coded US Air Force radio broadcasts heard earlier that day; no specific missions or connection between the detections were confirmed.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106595286428570071"
-      },
-      {
-        "id": "2106581921366983019",
-        "date": "2026-10-04",
-        "dateLabel": "04 OCT 2026 · UTC",
-        "headline": "Six US transports and elevated UK and North Sea activity reported",
-        "summary": "War Watch Intel reported six US Air Force transport aircraft airborne over the United States and described military air activity over the United Kingdom and North Sea as busier than usual. It also reported two coded US Air Force radio broadcasts; the visible post did not specify the full reporting interval.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106581921366983019"
-      },
-      {
-        "id": "2106577998203732371",
-        "date": "2026-10-04",
-        "dateLabel": "04 OCT 2026 · UTC",
-        "headline": "War Watch relays Coast Guard debris-field report off Nantucket",
-        "summary": "War Watch Intel relayed a report, credited to @charlottewilliams922, that the Coast Guard had confirmed finding a debris field off Nantucket, Massachusetts, on Saturday night. The post did not identify the debris' origin or provide details of the incident.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106577998203732371"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2106738793327870060",
+        "date": "2026-10-04",
+        "dateLabel": "04 OCT 2026 · UTC",
+        "headline": "P-8 departure alert near Karambakkudi",
+        "summary": "SkyGlass issued an OFF Ground alert for an Indian military P-8 near Karambakkudi, India. No callsign was supplied, and the post did not confirm the aircraft's destination or specific mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2106738793327870060"
+      },
+      {
+        "id": "2106717026542661963",
+        "date": "2026-10-04",
+        "dateLabel": "04 OCT 2026 · UTC",
+        "headline": "P-8 departure alert at Reykjanesbaer",
+        "summary": "SkyGlass issued an OFF Ground alert for a US-registered military P-8 at Reykjanesbaer, Iceland. No callsign was supplied, and the post did not confirm the aircraft's destination or specific mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2106717026542661963"
+      },
+      {
+        "id": "2106716158598455734",
+        "date": "2026-10-04",
+        "dateLabel": "04 OCT 2026 · UTC",
+        "headline": "SkyGlass shares Navy F-35 mission-planning redesign report",
+        "summary": "SkyGlass shared a Defence Blog report that the US Navy was seeking help to redesign F-35 mission-planning software used for sortie preparation and tactical data loading. The post described a proposed redesign without confirming a completed upgrade.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2106716158598455734"
+      },
+      {
+        "id": "2106716158594330655",
+        "date": "2026-10-04",
+        "dateLabel": "04 OCT 2026 · UTC",
+        "headline": "SkyGlass shares Taiwan F-16C Block 70 delivery report",
+        "summary": "SkyGlass shared an Aviationist report that Taiwan had received its first two new-build F-16C Block 70 fighters after delays. The post relayed the report without providing independent confirmation or a delivery date.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2106716158594330655"
+      },
       {
         "id": "2106689789885899140",
         "date": "2026-10-04",
@@ -170,38 +202,6 @@
         "headline": "P-8 departure alert at Forres",
         "summary": "SkyGlass issued an OFF Ground alert for a UK-registered military P-8 at Forres, United Kingdom. Its callsign field contained @@@@@@@@; the post did not confirm the aircraft's destination or specific mission.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2106447439007731757"
-      },
-      {
-        "id": "2106408243387875616",
-        "date": "2026-10-03",
-        "dateLabel": "03 OCT 2026 · UTC",
-        "headline": "P-8 departure alert at Smyrna",
-        "summary": "SkyGlass issued an OFF Ground alert for a US-registered military P-8 Poseidon at Smyrna, United States. No callsign was supplied, and the post did not confirm the aircraft's destination or specific mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2106408243387875616"
-      },
-      {
-        "id": "2106372079083778083",
-        "date": "2026-10-03",
-        "dateLabel": "03 OCT 2026 · UTC",
-        "headline": "P-8 departure alert near Kottaikadu",
-        "summary": "SkyGlass issued an OFF Ground alert for an Indian military P-8 near Kottaikadu, India. No callsign was supplied, and the post did not confirm the flight's destination or specific mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2106372079083778083"
-      },
-      {
-        "id": "2106352641668264442",
-        "date": "2026-10-03",
-        "dateLabel": "03 OCT 2026 · UTC",
-        "headline": "P-8 departure alert at Orange Park",
-        "summary": "SkyGlass issued an OFF Ground alert for a US military P-8 Poseidon at Orange Park, Florida. No callsign was supplied, and the post did not confirm the aircraft's destination or specific mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2106352641668264442"
-      },
-      {
-        "id": "2106337409671582053",
-        "date": "2026-10-03",
-        "dateLabel": "03 OCT 2026 · UTC",
-        "headline": "BP42R P-8 departure alert at Manavalakurichi",
-        "summary": "SkyGlass issued an OFF Ground alert for BP42R, described as an Indian military P-8 Poseidon, at Manavalakurichi, India. The post reported a departure without confirming its destination or mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2106337409671582053"
       }
     ]
   }
