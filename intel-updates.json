@@ -5,6 +5,38 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2106565081429323822",
+        "date": "2026-10-04",
+        "dateLabel": "04 OCT 2026 · UTC",
+        "headline": "US transport and surveillance flights; continuing coded radio activity reported",
+        "summary": "War Watch Intel reported multiple Air Force transport aircraft and a surveillance jet airborne over the United States alongside an aircraft it described as Air Force One. It also reported continuing coded radio activity elsewhere, without identifying the messages' content or linking them to the flights.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106565081429323822"
+      },
+      {
+        "id": "2106549977690345808",
+        "date": "2026-10-04",
+        "dateLabel": "04 OCT 2026 · UTC",
+        "headline": "North Sea transport activity and elevated civilian traffic reported",
+        "summary": "War Watch Intel described US military transport activity over the North Sea as unusually high and civilian air traffic in the region as about six times normal levels. It also reported surveillance and command aircraft sightings, without identifying their missions in the visible post.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106549977690345808"
+      },
+      {
+        "id": "2106543674846801950",
+        "date": "2026-10-04",
+        "dateLabel": "04 OCT 2026 · UTC",
+        "headline": "War Watch relays reports of a Ukrainian drone raid into Russia",
+        "summary": "War Watch Intel relayed an OSINTtechnical report of a Ukrainian drone raid into Russia on Saturday night, crediting @reagan0965. The post attributed the estimate of several hundred active drones to local channels rather than presenting an independently confirmed count.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106543674846801950"
+      },
+      {
+        "id": "2106534873343180834",
+        "date": "2026-10-04",
+        "dateLabel": "04 OCT 2026 · UTC",
+        "headline": "North Sea and UK transports; elevated air activity reported",
+        "summary": "War Watch Intel reported multiple large US military transport aircraft airborne over the North Sea and United Kingdom. It described regional air activity as nearly five times the normal rate, without identifying the aircraft's routes or missions.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106534873343180834"
+      },
+      {
         "id": "2106519771151740963",
         "date": "2026-10-03",
         "dateLabel": "03 OCT 2026 · UTC",
@@ -67,38 +99,6 @@
         "headline": "Six transports and elevated Baltic activity reported",
         "summary": "War Watch Intel reported six US Air Force heavy transport aircraft airborne over the United States, alongside surveillance aircraft and a Russian aircraft sighting. It described the Baltic region as busier than usual with coded radio traffic, without identifying the messages' content or confirming a connection between the sightings.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2106429152890855716"
-      },
-      {
-        "id": "2106414048111653240",
-        "date": "2026-10-03",
-        "dateLabel": "03 OCT 2026 · UTC",
-        "headline": "Five US transports and one North Sea transport reported",
-        "summary": "War Watch Intel reported five US Air Force transport aircraft airborne over the United States and one over the North Sea. It also reported sightings of a Russian surveillance aircraft and a US Navy reconnaissance jet that day, without identifying their locations or missions.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106414048111653240"
-      },
-      {
-        "id": "2106398946780180559",
-        "date": "2026-10-03",
-        "dateLabel": "03 OCT 2026 · UTC",
-        "headline": "Six transports and two coded broadcasts reported",
-        "summary": "War Watch Intel reported six US Air Force transport aircraft airborne over the continental United States and two coded radio broadcasts heard during the preceding hour. It described activity as busier than usual for that time of day, without identifying the messages' content or linking them to the flights.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106398946780180559"
-      },
-      {
-        "id": "2106384095710220476",
-        "date": "2026-10-03",
-        "dateLabel": "03 OCT 2026 · UTC",
-        "headline": "Five cargo aircraft and elevated activity reported",
-        "summary": "War Watch Intel reported five US military cargo aircraft airborne over the continental United States, alongside surveillance aircraft and a Russian jet sighting earlier that day. It described activity as above normal without identifying callsigns, missions or a connection between the sightings.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106384095710220476"
-      },
-      {
-        "id": "2106368993757958216",
-        "date": "2026-10-03",
-        "dateLabel": "03 OCT 2026 · UTC",
-        "headline": "Six transports and Russian aircraft near US airspace reported",
-        "summary": "War Watch Intel reported six US Air Force transport aircraft airborne over the continental United States. It also reported sightings of a nuclear command jet, a surveillance aircraft and a Russian government aircraft near US airspace, without giving precise locations or confirming their missions.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106368993757958216"
       }
     ]
   },
@@ -107,6 +107,22 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2106535357260898451",
+        "date": "2026-10-04",
+        "dateLabel": "04 OCT 2026 · UTC",
+        "headline": "P-8 departure alert near Uruma",
+        "summary": "SkyGlass issued an OFF Ground alert for a US-registered military P-8 near Uruma, Japan. No callsign was supplied, and the post did not confirm the aircraft's destination or specific mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2106535357260898451"
+      },
+      {
+        "id": "2106534772767908160",
+        "date": "2026-10-04",
+        "dateLabel": "04 OCT 2026 · UTC",
+        "headline": "BFLO35 P-8 ground alert at Darwin",
+        "summary": "SkyGlass issued an ON Ground alert for BFLO35, described as an Australian military P-8, at Darwin, Australia. The post reported the aircraft's ground status without confirming a specific mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2106534772767908160"
+      },
       {
         "id": "2106495526589899126",
         "date": "2026-10-03",
@@ -186,22 +202,6 @@
         "headline": "E6 departure alert at Midwest City",
         "summary": "SkyGlass issued an OFF Ground alert for a US military aircraft labeled E6 at Midwest City, Oklahoma. No callsign was supplied, and the post did not confirm the flight's destination or specific mission.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2106243584504512741"
-      },
-      {
-        "id": "2106243199354163257",
-        "date": "2026-10-03",
-        "dateLabel": "03 OCT 2026 · UTC",
-        "headline": "BP42R P-8 departure alert near Uthukkottai",
-        "summary": "SkyGlass issued an OFF Ground alert for BP42R, described as an Indian military P-8, near Uthukkottai, India. The post reported detection after takeoff without confirming its destination or mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2106243199354163257"
-      },
-      {
-        "id": "2106233001713475691",
-        "date": "2026-10-03",
-        "dateLabel": "03 OCT 2026 · UTC",
-        "headline": "SkyGlass shares report of Finland's first F-35 arrival",
-        "summary": "SkyGlass shared a MilitaryLeak report on Finland and Lockheed Martin celebrating the arrival of the first Finnish F-35. Its accompanying commentary said Finland had welcomed its first two F-35A fighters; the post did not provide independent confirmation or delivery dates.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2106233001713475691"
       }
     ]
   }
