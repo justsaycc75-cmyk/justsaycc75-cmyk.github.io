@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2106791508653334653",
+        "date": "2026-10-04",
+        "dateLabel": "04 OCT 2026 · UTC",
+        "headline": "Six heavy transports, Russian jet near North America and surveillance activity reported",
+        "summary": "War Watch Intel reported six US Air Force heavy-lift transport aircraft airborne over the continental United States and a Russian jet near North America. It described surveillance aircraft activity as elevated without identifying specific missions or connecting the sightings.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106791508653334653"
+      },
+      {
+        "id": "2106776405295890694",
+        "date": "2026-10-04",
+        "dateLabel": "04 OCT 2026 · UTC",
+        "headline": "Six transports over US and additional surveillance and command sightings reported",
+        "summary": "War Watch Intel reported six US Air Force transport aircraft airborne over the United States. It also reported a Russian aircraft and multiple US surveillance and command aircraft sighted that day, without identifying their specific missions.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106776405295890694"
+      },
+      {
+        "id": "2106761301548466260",
+        "date": "2026-10-04",
+        "dateLabel": "04 OCT 2026 · UTC",
+        "headline": "Five US transports and one North Sea transport; no recent coded broadcasts reported",
+        "summary": "War Watch Intel reported five US Air Force transport aircraft airborne over the United States, another over the North Sea and a Russian aircraft near Europe. It reported no coded broadcasts in the preceding hour; the post did not identify the flights' missions.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106761301548466260"
+      },
+      {
         "id": "2106746197457220019",
         "date": "2026-10-04",
         "dateLabel": "04 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "Six transports, UK surveillance sighting and Russian aircraft near Alaska reported",
         "summary": "War Watch Intel reported six large US military transport aircraft airborne over North America and the North Sea. It also reported a US Air Force surveillance aircraft near the United Kingdom and Russian aircraft near Alaska, without confirming their missions or a connection between the sightings.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2106655577916965342"
-      },
-      {
-        "id": "2106640597800951838",
-        "date": "2026-10-04",
-        "dateLabel": "04 OCT 2026 · UTC",
-        "headline": "Six transports, Navy surveillance aircraft and two command jets reported",
-        "summary": "War Watch Intel reported six US Air Force transport aircraft airborne, including one over the North Sea. It also reported a US Navy surveillance aircraft and two nuclear command aircraft detected that day, without identifying their specific missions.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106640597800951838"
-      },
-      {
-        "id": "2106625495995425249",
-        "date": "2026-10-04",
-        "dateLabel": "04 OCT 2026 · UTC",
-        "headline": "US transports and command aircraft; Russian aircraft near US airspace reported",
-        "summary": "War Watch Intel reported multiple US Air Force transport aircraft and a nuclear command aircraft airborne over the continental United States. It also reported a Russian special-purpose aircraft sighted earlier near US airspace, without identifying its precise location or linking the sightings.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106625495995425249"
-      },
-      {
-        "id": "2106610393766408304",
-        "date": "2026-10-04",
-        "dateLabel": "04 OCT 2026 · UTC",
-        "headline": "Six transports and two earlier coded broadcasts reported",
-        "summary": "War Watch Intel reported six US Air Force transport aircraft airborne simultaneously, including one over the North Sea. It also reported two coded US Air Force radio broadcasts heard earlier that day, without identifying the messages' content or linking them to the aircraft.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106610393766408304"
       }
     ]
   },
