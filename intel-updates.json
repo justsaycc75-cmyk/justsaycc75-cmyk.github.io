@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2106882128059252937",
+        "date": "2026-10-04",
+        "dateLabel": "04 OCT 2026 · UTC",
+        "headline": "Six transports over US and one recent coded broadcast reported",
+        "summary": "War Watch Intel reported six US Air Force transport aircraft airborne over the continental United States and one coded US Air Force radio broadcast heard in the preceding hour. It described the activity level as routine without giving message content or specific flight missions.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106882128059252937"
+      },
+      {
+        "id": "2106874630598266948",
+        "date": "2026-10-04",
+        "dateLabel": "04 OCT 2026 · UTC",
+        "headline": "E-6 Mercury sighting with aircraft hex AE9F86",
+        "summary": "War Watch Intel reported a Boeing E-6 Mercury sighting credited to reagan0965, identifying aircraft hex AE9F86 and no callsign. The visible post did not specify a location or mission.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106874630598266948"
+      },
+      {
+        "id": "2106870854789341190",
+        "date": "2026-10-04",
+        "dateLabel": "04 OCT 2026 · UTC",
+        "headline": "War Watch relays report of B-1 withdrawal from England",
+        "summary": "War Watch Intel relayed a report credited to @reagan0965 that the United States had rushed to withdraw 12 B-1 bombers from a base in southern England after commanders received new intelligence. The visible text was incomplete and did not identify the intelligence, base or withdrawal date.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106870854789341190"
+      },
+      {
+        "id": "2106867025620476256",
+        "date": "2026-10-04",
+        "dateLabel": "04 OCT 2026 · UTC",
+        "headline": "Six transports and multiple recent coded broadcasts reported",
+        "summary": "War Watch Intel reported six US Air Force transport aircraft airborne and multiple coded military radio broadcasts heard in the preceding hour. The post did not identify the aircraft locations, missions or message content.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106867025620476256"
+      },
+      {
+        "id": "2106851921935880399",
+        "date": "2026-10-04",
+        "dateLabel": "04 OCT 2026 · UTC",
+        "headline": "Transports across Atlantic and North America; Russian jet over Massachusetts reported",
+        "summary": "War Watch Intel reported six US Air Force transport aircraft airborne across the Atlantic and North America and a Russian government jet over Massachusetts. It mentioned Coast Guard search-and-rescue activity but did not establish a connection to the Russian aircraft.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106851921935880399"
+      },
+      {
         "id": "2106836818989637666",
         "date": "2026-10-04",
         "dateLabel": "04 OCT 2026 · UTC",
@@ -59,46 +99,6 @@
         "headline": "Five US transports and one North Sea transport; no recent coded broadcasts reported",
         "summary": "War Watch Intel reported five US Air Force transport aircraft airborne over the United States, another over the North Sea and a Russian aircraft near Europe. It reported no coded broadcasts in the preceding hour; the post did not identify the flights' missions.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2106761301548466260"
-      },
-      {
-        "id": "2106746197457220019",
-        "date": "2026-10-04",
-        "dateLabel": "04 OCT 2026 · UTC",
-        "headline": "Six transports, North Sea surveillance sighting and Russian aircraft reported",
-        "summary": "War Watch Intel reported six US military transport aircraft airborne over the United States and Europe, a surveillance aircraft near the North Sea and Russian aircraft over Europe. The post did not identify specific missions or establish a connection between the sightings.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106746197457220019"
-      },
-      {
-        "id": "2106731094179459184",
-        "date": "2026-10-04",
-        "dateLabel": "04 OCT 2026 · UTC",
-        "headline": "Six US cargo aircraft and Russian transport jet reported",
-        "summary": "War Watch Intel reported six US military cargo aircraft airborne over the Atlantic and North America, with a Russian transport jet also tracked nearby. The post did not specify the Russian aircraft's precise location or confirm any connection between the flights.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106731094179459184"
-      },
-      {
-        "id": "2106715990209744913",
-        "date": "2026-10-04",
-        "dateLabel": "04 OCT 2026 · UTC",
-        "headline": "Six Air Force transports and Navy surveillance aircraft over Atlantic reported",
-        "summary": "War Watch Intel reported six US Air Force transport aircraft airborne simultaneously, a US Navy surveillance aircraft over the Atlantic and Russian aircraft near Europe. The post did not identify their specific missions.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106715990209744913"
-      },
-      {
-        "id": "2106700889671037047",
-        "date": "2026-10-04",
-        "dateLabel": "04 OCT 2026 · UTC",
-        "headline": "Six transports, Navy surveillance aircraft and Russian government jet reported",
-        "summary": "War Watch Intel reported six US Air Force heavy transport aircraft airborne, including one over the North Sea. It also reported sightings of a US Navy surveillance aircraft and a Russian government jet that day, without identifying their specific missions.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106700889671037047"
-      },
-      {
-        "id": "2106685784782684631",
-        "date": "2026-10-04",
-        "dateLabel": "04 OCT 2026 · UTC",
-        "headline": "Six transports across North America and Europe reported",
-        "summary": "War Watch Intel reported six US military transport aircraft airborne over North America and Europe, a Russian aircraft near US airspace and continuing surveillance aircraft activity it described as routine. The post did not establish a connection between the sightings.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106685784782684631"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2106867084424511727",
+        "date": "2026-10-04",
+        "dateLabel": "04 OCT 2026 · UTC",
+        "headline": "PDN01 P-8 ground alert at Marton",
+        "summary": "SkyGlass issued an ON Ground alert for PDN01, described as a New Zealand-registered military P-8, at Marton, New Zealand. The post reported ground status without confirming a specific mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2106867084424511727"
+      },
+      {
+        "id": "2106864321951080509",
+        "date": "2026-10-04",
+        "dateLabel": "04 OCT 2026 · UTC",
+        "headline": "E-6 airborne alert at Hickam Field",
+        "summary": "SkyGlass issued an OFF Ground alert for a US military E-6 TACAMO aircraft at Hickam Field, Hawaii. No callsign was supplied, and the post did not confirm a destination or specific mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2106864321951080509"
+      },
+      {
+        "id": "2106862740786561075",
+        "date": "2026-10-04",
+        "dateLabel": "04 OCT 2026 · UTC",
+        "headline": "BFLO21 P-8 landing alert near Darwin",
+        "summary": "SkyGlass issued an ON Ground alert for BFLO21, described as an Australian military P-8 Poseidon, near Darwin, Australia. The post described a landing without confirming a specific mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2106862740786561075"
+      },
+      {
+        "id": "2106853237005426982",
+        "date": "2026-10-04",
+        "dateLabel": "04 OCT 2026 · UTC",
+        "headline": "PDN04 P-8 ground alert at Marton",
+        "summary": "SkyGlass issued an ON Ground alert for PDN04, described as a New Zealand-registered military P-8, at Marton, New Zealand. The post did not confirm a specific mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2106853237005426982"
+      },
       {
         "id": "2106810677864108046",
         "date": "2026-10-04",
@@ -170,38 +202,6 @@
         "headline": "BFLO35 P-8 ground alert at Darwin",
         "summary": "SkyGlass issued an ON Ground alert for BFLO35, described as an Australian military P-8, at Darwin, Australia. The post reported the aircraft's ground status without confirming a specific mission.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2106534772767908160"
-      },
-      {
-        "id": "2106495526589899126",
-        "date": "2026-10-03",
-        "dateLabel": "03 OCT 2026 · UTC",
-        "headline": "E-6 departure alert near Chesapeake Ranch Estates",
-        "summary": "SkyGlass issued an OFF Ground alert for a US military E-6 TACAMO aircraft near Chesapeake Ranch Estates, United States. No callsign was supplied, and the post did not confirm the aircraft's destination or specific mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2106495526589899126"
-      },
-      {
-        "id": "2106474567900221499",
-        "date": "2026-10-03",
-        "dateLabel": "03 OCT 2026 · UTC",
-        "headline": "SkyGlass shares YFQ-48 first-flight report",
-        "summary": "SkyGlass shared an Aviationist report that Northrop Grumman's YFQ-48 Talon Blue had made its first autonomous flight, relating it to the Collaborative Combat Aircraft program. The post relayed the report without providing independent confirmation or a flight date.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2106474567900221499"
-      },
-      {
-        "id": "2106474567803834866",
-        "date": "2026-10-03",
-        "dateLabel": "03 OCT 2026 · UTC",
-        "headline": "SkyGlass shares Talon Blue autonomous-flight report",
-        "summary": "SkyGlass shared a Defence Blog report that Northrop Grumman's YFQ-48A Talon Blue had completed its first fully autonomous flight. Its commentary described the aircraft as a drone wingman for the US Air Force; the post did not provide independent confirmation or a flight date.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2106474567803834866"
-      },
-      {
-        "id": "2106461769270993140",
-        "date": "2026-10-03",
-        "dateLabel": "03 OCT 2026 · UTC",
-        "headline": "B-52 departure alert near Barstow Heights",
-        "summary": "SkyGlass issued an OFF Ground alert for a US Air Force B-52 near Barstow Heights, California. Its callsign field contained 00000000; the post did not confirm the aircraft's destination or specific mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2106461769270993140"
       }
     ]
   }
