@@ -5,6 +5,38 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2106836818989637666",
+        "date": "2026-10-04",
+        "dateLabel": "04 OCT 2026 · UTC",
+        "headline": "Six US cargo and command aircraft; Russian transport and drone attacks reported",
+        "summary": "War Watch Intel reported six US military cargo and command aircraft airborne over the continental United States and a Russian government transport aircraft nearby. It also described Ukrainian drone attacks into Russia as intensifying, without identifying specific targets or linking the aircraft sightings to the attacks.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106836818989637666"
+      },
+      {
+        "id": "2106821715820982604",
+        "date": "2026-10-04",
+        "dateLabel": "04 OCT 2026 · UTC",
+        "headline": "Six transports over US and Russian government jet near US airspace reported",
+        "summary": "War Watch Intel reported six US Air Force transport aircraft airborne over the United States and a Russian government jet near US airspace. It described continuing radio activity as routine without identifying the flights' missions or radio-message content.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106821715820982604"
+      },
+      {
+        "id": "2106810451241603552",
+        "date": "2026-10-04",
+        "dateLabel": "04 OCT 2026 · UTC",
+        "headline": "War Watch relays air-ambulance search off Nantucket",
+        "summary": "War Watch Intel relayed a report credited to @charlottewilliams922 that the US Coast Guard was conducting a search and rescue for a Gulfstream G100 air ambulance off Nantucket, Massachusetts. The visible post did not provide an outcome or details about those aboard.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106810451241603552"
+      },
+      {
+        "id": "2106806612316852289",
+        "date": "2026-10-04",
+        "dateLabel": "04 OCT 2026 · UTC",
+        "headline": "Six transports, surveillance aircraft and two coded broadcasts reported",
+        "summary": "War Watch Intel reported six US Air Force transport aircraft airborne over the United States, a surveillance aircraft sighting and two coded military radio broadcasts heard that day. It said the latest broadcast was early that morning without giving an exact time or message content.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106806612316852289"
+      },
+      {
         "id": "2106791508653334653",
         "date": "2026-10-04",
         "dateLabel": "04 OCT 2026 · UTC",
@@ -67,38 +99,6 @@
         "headline": "Six transports across North America and Europe reported",
         "summary": "War Watch Intel reported six US military transport aircraft airborne over North America and Europe, a Russian aircraft near US airspace and continuing surveillance aircraft activity it described as routine. The post did not establish a connection between the sightings.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2106685784782684631"
-      },
-      {
-        "id": "2106680832341512386",
-        "date": "2026-10-04",
-        "dateLabel": "04 OCT 2026 · UTC",
-        "headline": "War Watch shares report of Merz visit and Ukraine drone deal",
-        "summary": "War Watch Intel relayed a report attributed to Reuters that Merz had arrived in Ukraine to finalise a drone deal and release aid, crediting @Robertchester-j5b. The post did not specify the agreement's terms or the amount of aid.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106680832341512386"
-      },
-      {
-        "id": "2106674540600299747",
-        "date": "2026-10-04",
-        "dateLabel": "04 OCT 2026 · UTC",
-        "headline": "War Watch relays Zelensky statement on Russian refineries",
-        "summary": "War Watch Intel shared a report attributed to Reuters that Zelensky said Ukraine would target Russian refineries in response to Moscow's new air-strike doctrine, crediting @Robertchester-j5b. The post relayed a stated intention rather than confirming a new attack.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106674540600299747"
-      },
-      {
-        "id": "2106670679403724998",
-        "date": "2026-10-04",
-        "dateLabel": "04 OCT 2026 · UTC",
-        "headline": "Six cargo aircraft, command and surveillance sightings reported",
-        "summary": "War Watch Intel reported six US military cargo aircraft airborne simultaneously, including one over the North Sea and another in the Gulf region. It also reported a nuclear command aircraft and a surveillance aircraft; the visible post did not identify their missions.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106670679403724998"
-      },
-      {
-        "id": "2106655577916965342",
-        "date": "2026-10-04",
-        "dateLabel": "04 OCT 2026 · UTC",
-        "headline": "Six transports, UK surveillance sighting and Russian aircraft near Alaska reported",
-        "summary": "War Watch Intel reported six large US military transport aircraft airborne over North America and the North Sea. It also reported a US Air Force surveillance aircraft near the United Kingdom and Russian aircraft near Alaska, without confirming their missions or a connection between the sightings.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106655577916965342"
       }
     ]
   },
@@ -107,6 +107,14 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2106810677864108046",
+        "date": "2026-10-04",
+        "dateLabel": "04 OCT 2026 · UTC",
+        "headline": "P-8 alert near Grand Falls",
+        "summary": "SkyGlass posted an OFF Ground alert for a US military P-8 Poseidon near Grand Falls, with the location code CA and no callsign. The accompanying text described the aircraft as at ground, so the post's ground-status descriptions were inconsistent; no specific mission was confirmed.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2106810677864108046"
+      },
       {
         "id": "2106738793327870060",
         "date": "2026-10-04",
@@ -194,14 +202,6 @@
         "headline": "B-52 departure alert near Barstow Heights",
         "summary": "SkyGlass issued an OFF Ground alert for a US Air Force B-52 near Barstow Heights, California. Its callsign field contained 00000000; the post did not confirm the aircraft's destination or specific mission.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2106461769270993140"
-      },
-      {
-        "id": "2106447439007731757",
-        "date": "2026-10-03",
-        "dateLabel": "03 OCT 2026 · UTC",
-        "headline": "P-8 departure alert at Forres",
-        "summary": "SkyGlass issued an OFF Ground alert for a UK-registered military P-8 at Forres, United Kingdom. Its callsign field contained @@@@@@@@; the post did not confirm the aircraft's destination or specific mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2106447439007731757"
       }
     ]
   }
