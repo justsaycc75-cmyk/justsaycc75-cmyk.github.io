@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2106972752720617713",
+        "date": "2026-10-05",
+        "dateLabel": "05 OCT 2026 · UTC",
+        "headline": "War Watch reports bomber withdrawal from southern England",
+        "summary": "War Watch Intel reported that the US Air Force had withdrawn all bombers from southern England after intelligence warned of an Iran-backed plot targeting the base. The post did not name the base, give a withdrawal date or provide independent confirmation of the reported plot.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106972752720617713"
+      },
+      {
+        "id": "2106957643831038237",
+        "date": "2026-10-05",
+        "dateLabel": "05 OCT 2026 · UTC",
+        "headline": "War Watch relays reports of B-1 withdrawal from UK base",
+        "summary": "War Watch Intel relayed reports that the US Air Force had removed all B-1 bombers from a UK base following intelligence about an Iran-backed plot against the installation. The visible post also mentioned large military transport aircraft but gave no complete flight details.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106957643831038237"
+      },
+      {
+        "id": "2106942542298206655",
+        "date": "2026-10-05",
+        "dateLabel": "05 OCT 2026 · UTC",
+        "headline": "B-1 withdrawal claim and North Sea transports reported",
+        "summary": "War Watch Intel reported a B-1 bomber withdrawal from England following intelligence about an Iran-backed plot against the base. It also reported multiple transport aircraft airborne over the North Sea, without establishing a connection between those flights and the reported withdrawal.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106942542298206655"
+      },
+      {
         "id": "2106927437275689363",
         "date": "2026-10-05",
         "dateLabel": "05 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "Transports across Atlantic and North America; Russian jet over Massachusetts reported",
         "summary": "War Watch Intel reported six US Air Force transport aircraft airborne across the Atlantic and North America and a Russian government jet over Massachusetts. It mentioned Coast Guard search-and-rescue activity but did not establish a connection to the Russian aircraft.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2106851921935880399"
-      },
-      {
-        "id": "2106836818989637666",
-        "date": "2026-10-04",
-        "dateLabel": "04 OCT 2026 · UTC",
-        "headline": "Six US cargo and command aircraft; Russian transport and drone attacks reported",
-        "summary": "War Watch Intel reported six US military cargo and command aircraft airborne over the continental United States and a Russian government transport aircraft nearby. It also described Ukrainian drone attacks into Russia as intensifying, without identifying specific targets or linking the aircraft sightings to the attacks.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106836818989637666"
-      },
-      {
-        "id": "2106821715820982604",
-        "date": "2026-10-04",
-        "dateLabel": "04 OCT 2026 · UTC",
-        "headline": "Six transports over US and Russian government jet near US airspace reported",
-        "summary": "War Watch Intel reported six US Air Force transport aircraft airborne over the United States and a Russian government jet near US airspace. It described continuing radio activity as routine without identifying the flights' missions or radio-message content.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106821715820982604"
-      },
-      {
-        "id": "2106810451241603552",
-        "date": "2026-10-04",
-        "dateLabel": "04 OCT 2026 · UTC",
-        "headline": "War Watch relays air-ambulance search off Nantucket",
-        "summary": "War Watch Intel relayed a report credited to @charlottewilliams922 that the US Coast Guard was conducting a search and rescue for a Gulfstream G100 air ambulance off Nantucket, Massachusetts. The visible post did not provide an outcome or details about those aboard.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106810451241603552"
       }
     ]
   },
@@ -107,6 +107,22 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2106972642917945630",
+        "date": "2026-10-05",
+        "dateLabel": "05 OCT 2026 · UTC",
+        "headline": "P-8 departure alert at Uthukkottai",
+        "summary": "SkyGlass issued an OFF Ground alert for an Indian-registered military P-8 at Uthukkottai, India. No callsign was supplied, and the post did not confirm the aircraft's destination or specific mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2106972642917945630"
+      },
+      {
+        "id": "2106957147334402483",
+        "date": "2026-10-05",
+        "dateLabel": "05 OCT 2026 · UTC",
+        "headline": "CI151 P-8 airborne alert at Ulsan",
+        "summary": "SkyGlass issued an OFF Ground alert labelled CI151 for a South Korean military P-8 Poseidon at Ulsan, South Korea. The post did not confirm the aircraft's destination or specific mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2106957147334402483"
+      },
       {
         "id": "2106897864433496239",
         "date": "2026-10-05",
@@ -186,22 +202,6 @@
         "headline": "SkyGlass shares Taiwan F-16C Block 70 delivery report",
         "summary": "SkyGlass shared an Aviationist report that Taiwan had received its first two new-build F-16C Block 70 fighters after delays. The post relayed the report without providing independent confirmation or a delivery date.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2106716158594330655"
-      },
-      {
-        "id": "2106689789885899140",
-        "date": "2026-10-04",
-        "dateLabel": "04 OCT 2026 · UTC",
-        "headline": "P-8 departure alert near Muzayri'",
-        "summary": "SkyGlass issued an OFF Ground alert for a US military P-8 near Muzayri', United Arab Emirates. No callsign was supplied, and the post did not confirm the aircraft's destination or specific mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2106689789885899140"
-      },
-      {
-        "id": "2106535357260898451",
-        "date": "2026-10-04",
-        "dateLabel": "04 OCT 2026 · UTC",
-        "headline": "P-8 departure alert near Uruma",
-        "summary": "SkyGlass issued an OFF Ground alert for a US-registered military P-8 near Uruma, Japan. No callsign was supplied, and the post did not confirm the aircraft's destination or specific mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2106535357260898451"
       }
     ]
   }
