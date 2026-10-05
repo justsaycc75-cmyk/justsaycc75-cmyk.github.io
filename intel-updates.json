@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2107108674745352207",
+        "date": "2026-10-05",
+        "dateLabel": "05 OCT 2026 · UTC",
+        "headline": "North Sea surveillance aircraft, US transports and coded broadcasts reported",
+        "summary": "War Watch Intel reported a US Air Force surveillance aircraft over the North Sea, three heavy transport aircraft over the United States and an airborne nuclear command aircraft. It also reported two coded radio broadcasts heard that day, without providing their content or identifying specific flight missions.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107108674745352207"
+      },
+      {
+        "id": "2107097877004616079",
+        "date": "2026-10-05",
+        "dateLabel": "05 OCT 2026 · UTC",
+        "headline": "War Watch relays German intelligence warning on Russia",
+        "summary": "War Watch Intel relayed an Insider Paper report that Germany's foreign intelligence chief warned of an escalating shadow war with Russia. The post credited @reagan0965 and did not provide the warning's full details or independent confirmation.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107097877004616079"
+      },
+      {
+        "id": "2107094103838089312",
+        "date": "2026-10-05",
+        "dateLabel": "05 OCT 2026 · UTC",
+        "headline": "North Sea surveillance aircraft and one recent coded broadcast reported",
+        "summary": "War Watch Intel reported a US Air Force surveillance aircraft over the North Sea, four military transport aircraft airborne and one coded radio broadcast detected in the preceding hour. The post did not give the message content or specific flight missions.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107094103838089312"
+      },
+      {
+        "id": "2107090328758988883",
+        "date": "2026-10-05",
+        "dateLabel": "05 OCT 2026 · UTC",
+        "headline": "HFGCS message header QHOIH6 reported",
+        "summary": "War Watch Intel reported an Emergency Action Message header or preamble with code QHOIH6, tagged HFGCS. The post did not provide the message's full content or meaning; its displayed observation time had no stated timezone.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107090328758988883"
+      },
+      {
+        "id": "2107086517705286133",
+        "date": "2026-10-05",
+        "dateLabel": "05 OCT 2026 · UTC",
+        "headline": "War Watch relays German intelligence warning on Chinese technology",
+        "summary": "War Watch Intel relayed an Insider Paper report that a German intelligence service warned of risks from Chinese technology. The post credited @reagan0965 without identifying particular products or giving the warning's full details.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107086517705286133"
+      },
+      {
         "id": "2107063362555146323",
         "date": "2026-10-05",
         "dateLabel": "05 OCT 2026 · UTC",
@@ -59,46 +99,6 @@
         "headline": "War Watch reports bomber withdrawal from southern England",
         "summary": "War Watch Intel reported that the US Air Force had withdrawn all bombers from southern England after intelligence warned of an Iran-backed plot targeting the base. The post did not name the base, give a withdrawal date or provide independent confirmation of the reported plot.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2106972752720617713"
-      },
-      {
-        "id": "2106957643831038237",
-        "date": "2026-10-05",
-        "dateLabel": "05 OCT 2026 · UTC",
-        "headline": "War Watch relays reports of B-1 withdrawal from UK base",
-        "summary": "War Watch Intel relayed reports that the US Air Force had removed all B-1 bombers from a UK base following intelligence about an Iran-backed plot against the installation. The visible post also mentioned large military transport aircraft but gave no complete flight details.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106957643831038237"
-      },
-      {
-        "id": "2106942542298206655",
-        "date": "2026-10-05",
-        "dateLabel": "05 OCT 2026 · UTC",
-        "headline": "B-1 withdrawal claim and North Sea transports reported",
-        "summary": "War Watch Intel reported a B-1 bomber withdrawal from England following intelligence about an Iran-backed plot against the base. It also reported multiple transport aircraft airborne over the North Sea, without establishing a connection between those flights and the reported withdrawal.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106942542298206655"
-      },
-      {
-        "id": "2106927437275689363",
-        "date": "2026-10-05",
-        "dateLabel": "05 OCT 2026 · UTC",
-        "headline": "Six transports and elevated Eastern Mediterranean air activity reported",
-        "summary": "War Watch Intel reported six US military transport aircraft airborne across the Atlantic and North America. It described Eastern Mediterranean air activity as nearly three times normal and mentioned a US bomber withdrawal, without identifying a comparison period or providing full withdrawal details.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106927437275689363"
-      },
-      {
-        "id": "2106914145022943444",
-        "date": "2026-10-05",
-        "dateLabel": "05 OCT 2026 · UTC",
-        "headline": "Six heavy transports over US; bomber withdrawal from England reported",
-        "summary": "War Watch Intel reported six US Air Force heavy transport aircraft airborne over the United States. Separately, it relayed a claim that US bombers were withdrawn from England after intelligence about an Iran-backed plot; the visible post did not provide the plot's details or a withdrawal date.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106914145022943444"
-      },
-      {
-        "id": "2106910370912735311",
-        "date": "2026-10-05",
-        "dateLabel": "05 OCT 2026 · UTC",
-        "headline": "RIZZY67 RC-135S Cobra Ball sighting reported",
-        "summary": "War Watch Intel reported a Boeing RC-135S Cobra Ball sighting credited to reagan0965, with callsign RIZZY67, aircraft hex AE01D6 and registration 61-2663. The post did not specify its location or mission.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106910370912735311"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2107109196797759831",
+        "date": "2026-10-05",
+        "dateLabel": "05 OCT 2026 · UTC",
+        "headline": "APACHE E-3 departure alert at Buin",
+        "summary": "SkyGlass issued an OFF Ground alert for APACHE, an E3CF airborne warning and control aircraft, at Buin, Chile. The post described its registration as United Kingdom, but did not confirm an operator, destination or specific mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107109196797759831"
+      },
+      {
+        "id": "2107103313581801758",
+        "date": "2026-10-05",
+        "dateLabel": "05 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert at Orange Park",
+        "summary": "SkyGlass issued an OFF Ground alert for a US military P-8 at Orange Park, Florida. No callsign was supplied, and the post did not confirm a destination or specific mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107103313581801758"
+      },
+      {
+        "id": "2107101899774152849",
+        "date": "2026-10-05",
+        "dateLabel": "05 OCT 2026 · UTC",
+        "headline": "P-8 ground alert at Orange Park",
+        "summary": "SkyGlass issued an ON Ground alert for a US military P-8 Poseidon at Orange Park, Florida. No callsign was supplied, and the post did not confirm a specific mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107101899774152849"
+      },
+      {
+        "id": "2107100489967968272",
+        "date": "2026-10-05",
+        "dateLabel": "05 OCT 2026 · UTC",
+        "headline": "P-8 departure alert at Isle of Lewis",
+        "summary": "SkyGlass issued an OFF Ground alert for a UK-registered military P-8 at Isle of Lewis, United Kingdom. No callsign was supplied, and the post did not confirm a destination or specific mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107100489967968272"
+      },
       {
         "id": "2107066047467516111",
         "date": "2026-10-05",
@@ -170,38 +202,6 @@
         "headline": "E-3 AWACS ground alert near Lochem",
         "summary": "SkyGlass issued an ON Ground alert for a Luxembourg-registered military E-3 TF AWACS aircraft near Lochem, Netherlands. No callsign was supplied, and the post did not confirm a specific mission or maintenance activity.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2106997495905546588"
-      },
-      {
-        "id": "2106972642917945630",
-        "date": "2026-10-05",
-        "dateLabel": "05 OCT 2026 · UTC",
-        "headline": "P-8 departure alert at Uthukkottai",
-        "summary": "SkyGlass issued an OFF Ground alert for an Indian-registered military P-8 at Uthukkottai, India. No callsign was supplied, and the post did not confirm the aircraft's destination or specific mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2106972642917945630"
-      },
-      {
-        "id": "2106957147334402483",
-        "date": "2026-10-05",
-        "dateLabel": "05 OCT 2026 · UTC",
-        "headline": "CI151 P-8 airborne alert at Ulsan",
-        "summary": "SkyGlass issued an OFF Ground alert labelled CI151 for a South Korean military P-8 Poseidon at Ulsan, South Korea. The post did not confirm the aircraft's destination or specific mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2106957147334402483"
-      },
-      {
-        "id": "2106897864433496239",
-        "date": "2026-10-05",
-        "dateLabel": "05 OCT 2026 · UTC",
-        "headline": "ASY169 P-8 landing alert at Misawa",
-        "summary": "SkyGlass issued an ON Ground alert for ASY169, described as an Australian-registered military P-8, at Misawa, Japan. The post reported a recent landing without confirming a specific mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2106897864433496239"
-      },
-      {
-        "id": "2106867084424511727",
-        "date": "2026-10-04",
-        "dateLabel": "04 OCT 2026 · UTC",
-        "headline": "PDN01 P-8 ground alert at Marton",
-        "summary": "SkyGlass issued an ON Ground alert for PDN01, described as a New Zealand-registered military P-8, at Marton, New Zealand. The post reported ground status without confirming a specific mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2106867084424511727"
       }
     ]
   }
