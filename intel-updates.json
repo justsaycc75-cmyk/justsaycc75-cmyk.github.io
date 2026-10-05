@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2107153860951265281",
+        "date": "2026-10-05",
+        "dateLabel": "05 OCT 2026 · UTC",
+        "headline": "Five US cargo aircraft and radar jet airborne reported",
+        "summary": "War Watch Intel reported five US Air Force cargo aircraft airborne over the continental United States, along with an airborne radar aircraft and multiple intelligence aircraft sighted that day. The post did not identify callsigns or specific missions.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107153860951265281"
+      },
+      {
+        "id": "2107138885188792395",
+        "date": "2026-10-05",
+        "dateLabel": "05 OCT 2026 · UTC",
+        "headline": "Four US transports and radar surveillance aircraft reported",
+        "summary": "War Watch Intel reported four US military transport aircraft and a radar surveillance aircraft airborne over the United States. It also described surveillance aircraft monitoring from domestic bases, without naming the bases, aircraft identities or specific missions.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107138885188792395"
+      },
+      {
+        "id": "2107123780392825128",
+        "date": "2026-10-05",
+        "dateLabel": "05 OCT 2026 · UTC",
+        "headline": "Four transports over US and two earlier coded broadcasts reported",
+        "summary": "War Watch Intel reported four transport aircraft and a surveillance aircraft airborne over the United States. It also reported two coded US Air Force radio broadcasts heard earlier that day, without giving their contents or identifying a connection to the flights.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107123780392825128"
+      },
+      {
         "id": "2107108674745352207",
         "date": "2026-10-05",
         "dateLabel": "05 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "Six transports and increased air activity near Black Sea and Korea reported",
         "summary": "War Watch Intel reported six military transport aircraft airborne simultaneously and increased air activity near the Black Sea and Korea. It also relayed a claim that US bombers had been withdrawn from England after intelligence about an Iran threat, without establishing a connection to the reported flights.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2107018054689321087"
-      },
-      {
-        "id": "2107002952443392420",
-        "date": "2026-10-05",
-        "dateLabel": "05 OCT 2026 · UTC",
-        "headline": "US transports and surveillance aircraft; Eastern Mediterranean activity reported",
-        "summary": "War Watch Intel reported multiple US Air Force transport aircraft airborne and surveillance aircraft sightings. It described Eastern Mediterranean military activity as 2.6 times normal, without identifying the comparison period or specific aircraft missions.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107002952443392420"
-      },
-      {
-        "id": "2106987849379680758",
-        "date": "2026-10-05",
-        "dateLabel": "05 OCT 2026 · UTC",
-        "headline": "Six US transports, including one near Korea and Japan, reported",
-        "summary": "War Watch Intel reported six US Air Force transport aircraft airborne simultaneously, including one near Korea and Japan. It also reported sightings of a surveillance aircraft, a nuclear command aircraft and a presidential aircraft, without identifying their specific missions or passengers.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106987849379680758"
-      },
-      {
-        "id": "2106972752720617713",
-        "date": "2026-10-05",
-        "dateLabel": "05 OCT 2026 · UTC",
-        "headline": "War Watch reports bomber withdrawal from southern England",
-        "summary": "War Watch Intel reported that the US Air Force had withdrawn all bombers from southern England after intelligence warned of an Iran-backed plot targeting the base. The post did not name the base, give a withdrawal date or provide independent confirmation of the reported plot.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106972752720617713"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2107151900365697289",
+        "date": "2026-10-05",
+        "dateLabel": "05 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert near Mundgod",
+        "summary": "SkyGlass issued an OFF Ground alert for an Indian-registered military P-8 near Mundgod, India. No callsign was supplied, and the post did not confirm a destination or specific mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107151900365697289"
+      },
+      {
+        "id": "2107146985853641181",
+        "date": "2026-10-05",
+        "dateLabel": "05 OCT 2026 · UTC",
+        "headline": "DEPOT11 E-2 airborne alert near Coronado",
+        "summary": "SkyGlass issued an OFF Ground alert for DEPOT11 near Coronado, United States, describing the aircraft as a US Navy E-2 Hawkeye. The post did not confirm a destination, deployment or specific mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107146985853641181"
+      },
+      {
+        "id": "2107144501718389204",
+        "date": "2026-10-05",
+        "dateLabel": "05 OCT 2026 · UTC",
+        "headline": "NATO02 AWACS ground alert at Albacete",
+        "summary": "SkyGlass issued an ON Ground alert for NATO02 at Albacete, Spain, describing it as a Luxembourg-registered E-3 AWACS aircraft. The post did not confirm a specific mission or the reason for its ground status.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107144501718389204"
+      },
+      {
+        "id": "2107140147712037160",
+        "date": "2026-10-05",
+        "dateLabel": "05 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert at Port Hueneme",
+        "summary": "SkyGlass issued an OFF Ground alert for a US military P-8 at Port Hueneme, United States. No callsign was supplied, and the post did not confirm a destination or specific mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107140147712037160"
+      },
       {
         "id": "2107109196797759831",
         "date": "2026-10-05",
@@ -170,38 +202,6 @@
         "headline": "P-8 departure alert at Lossiemouth with placeholder callsign",
         "summary": "SkyGlass issued an OFF Ground alert for a UK-registered military P-8 Poseidon at Lossiemouth, United Kingdom. The callsign field showed only @ symbols; the post did not confirm the aircraft's identity, destination or specific mission.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2107037626213585355"
-      },
-      {
-        "id": "2107018160721330302",
-        "date": "2026-10-05",
-        "dateLabel": "05 OCT 2026 · UTC",
-        "headline": "SkyGlass shares B-52 IRIS satellite communications upgrade report",
-        "summary": "SkyGlass shared a Defence Blog report about an IRIS satellite communications system for the B-52 Stratofortress, described as supporting command and control beyond line of sight. The post did not provide a rollout date or independent confirmation of the reported upgrade.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107018160721330302"
-      },
-      {
-        "id": "2107018160662519917",
-        "date": "2026-10-05",
-        "dateLabel": "05 OCT 2026 · UTC",
-        "headline": "SkyGlass shares Montana Air Guard C-130J transition report",
-        "summary": "SkyGlass shared a Defence Blog report that the Montana Air National Guard's 120th Airlift Wing had flown its last C-130H Hercules mission and was transitioning to the C-130J Super Hercules. The post did not give the final mission's date.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107018160662519917"
-      },
-      {
-        "id": "2107018160654168478",
-        "date": "2026-10-05",
-        "dateLabel": "05 OCT 2026 · UTC",
-        "headline": "SkyGlass shares USS Ronald Reagan MQ-25 tanker readiness report",
-        "summary": "SkyGlass shared a Defence Blog report describing USS Ronald Reagan as the second US Navy carrier equipped to operate the MQ-25A Stingray drone tanker. The post did not confirm a deployment or an operational flight from the carrier.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107018160654168478"
-      },
-      {
-        "id": "2106997495905546588",
-        "date": "2026-10-05",
-        "dateLabel": "05 OCT 2026 · UTC",
-        "headline": "E-3 AWACS ground alert near Lochem",
-        "summary": "SkyGlass issued an ON Ground alert for a Luxembourg-registered military E-3 TF AWACS aircraft near Lochem, Netherlands. No callsign was supplied, and the post did not confirm a specific mission or maintenance activity.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2106997495905546588"
       }
     ]
   }
