@@ -21,7 +21,9 @@
       date.textContent = story.dateLabel;
       date.dateTime = story.publishedDate;
       card.querySelectorAll('[data-nfl-news-link]').forEach(link => { link.href = story.sourceUrl; });
-      // Logos and story images are contained, so faces and lettering cannot be cropped off.
+      // Keep the full photograph visible, including the player’s face and key action.
+      const credit = card.querySelector('[data-nfl-news-credit]');
+      if (credit) credit.textContent = story.imageCredit || '';
       const img = card.querySelector('[data-nfl-news-image]');
       if (story.imageUrl && /^https:\/\//.test(story.imageUrl)) {
         img.src = story.imageUrl;
