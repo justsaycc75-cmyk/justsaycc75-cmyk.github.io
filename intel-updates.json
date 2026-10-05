@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2107063362555146323",
+        "date": "2026-10-05",
+        "dateLabel": "05 OCT 2026 · UTC",
+        "headline": "Atlantic and North Sea transports; heightened Black Sea air activity reported",
+        "summary": "War Watch Intel described US military transport activity over the Atlantic and North Sea as unusually high and Black Sea air activity as nearly four times normal. It also mentioned multiple surveillance aircraft, without identifying the comparison period or specific missions.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107063362555146323"
+      },
+      {
+        "id": "2107048260045025771",
+        "date": "2026-10-05",
+        "dateLabel": "05 OCT 2026 · UTC",
+        "headline": "Six transports over North Sea and Baltic reported",
+        "summary": "War Watch Intel reported six US Air Force transport aircraft airborne over the North Sea and Baltic. It described air activity near the Black Sea as nearly three times normal, without specifying a comparison period or the aircraft's missions.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107048260045025771"
+      },
+      {
+        "id": "2107033157593629048",
+        "date": "2026-10-05",
+        "dateLabel": "05 OCT 2026 · UTC",
+        "headline": "Six simultaneous transports and increased Black Sea air activity reported",
+        "summary": "War Watch Intel reported six US military transport aircraft airborne simultaneously and increased air activity in the Black Sea region. It also mentioned a recent US bomber withdrawal from England; the visible post did not give complete details or establish a connection to the flights.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107033157593629048"
+      },
+      {
         "id": "2107018054689321087",
         "date": "2026-10-05",
         "dateLabel": "05 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "RIZZY67 RC-135S Cobra Ball sighting reported",
         "summary": "War Watch Intel reported a Boeing RC-135S Cobra Ball sighting credited to reagan0965, with callsign RIZZY67, aircraft hex AE01D6 and registration 61-2663. The post did not specify its location or mission.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2106910370912735311"
-      },
-      {
-        "id": "2106902646049177611",
-        "date": "2026-10-05",
-        "dateLabel": "05 OCT 2026 · UTC",
-        "headline": "SAM103 C-37B sighting reported",
-        "summary": "War Watch Intel reported a Gulfstream C-37B sighting credited to reagan0965, identifying callsign SAM103, aircraft hex AE206D and the US Air Force's 89th Airlift Wing at Andrews Air Force Base. The post did not specify the aircraft's observed location or mission.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106902646049177611"
-      },
-      {
-        "id": "2106882128059252937",
-        "date": "2026-10-04",
-        "dateLabel": "04 OCT 2026 · UTC",
-        "headline": "Six transports over US and one recent coded broadcast reported",
-        "summary": "War Watch Intel reported six US Air Force transport aircraft airborne over the continental United States and one coded US Air Force radio broadcast heard in the preceding hour. It described the activity level as routine without giving message content or specific flight missions.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106882128059252937"
-      },
-      {
-        "id": "2106874630598266948",
-        "date": "2026-10-04",
-        "dateLabel": "04 OCT 2026 · UTC",
-        "headline": "E-6 Mercury sighting with aircraft hex AE9F86",
-        "summary": "War Watch Intel reported a Boeing E-6 Mercury sighting credited to reagan0965, identifying aircraft hex AE9F86 and no callsign. The visible post did not specify a location or mission.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106874630598266948"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2107066047467516111",
+        "date": "2026-10-05",
+        "dateLabel": "05 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert near Fort St. John",
+        "summary": "SkyGlass issued an OFF Ground alert for a US military P-8 near Fort St. John, Canada. No callsign was supplied, and the post did not confirm a destination or specific mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107066047467516111"
+      },
+      {
+        "id": "2107049403328368655",
+        "date": "2026-10-05",
+        "dateLabel": "05 OCT 2026 · UTC",
+        "headline": "P-8 departure alert at Lossiemouth",
+        "summary": "SkyGlass issued an OFF Ground alert for a UK-registered military P-8 at Lossiemouth, United Kingdom. No callsign was supplied, and the post did not confirm a destination or specific mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107049403328368655"
+      },
+      {
+        "id": "2107039026289029246",
+        "date": "2026-10-05",
+        "dateLabel": "05 OCT 2026 · UTC",
+        "headline": "Australian P-8 ground alert at Misawa",
+        "summary": "SkyGlass issued an ON Ground alert for an Australian-registered military P-8 Poseidon at Misawa, Japan. No callsign was supplied, and the post did not confirm a specific mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107039026289029246"
+      },
+      {
+        "id": "2107037626213585355",
+        "date": "2026-10-05",
+        "dateLabel": "05 OCT 2026 · UTC",
+        "headline": "P-8 departure alert at Lossiemouth with placeholder callsign",
+        "summary": "SkyGlass issued an OFF Ground alert for a UK-registered military P-8 Poseidon at Lossiemouth, United Kingdom. The callsign field showed only @ symbols; the post did not confirm the aircraft's identity, destination or specific mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107037626213585355"
+      },
       {
         "id": "2107018160721330302",
         "date": "2026-10-05",
@@ -170,38 +202,6 @@
         "headline": "PDN01 P-8 ground alert at Marton",
         "summary": "SkyGlass issued an ON Ground alert for PDN01, described as a New Zealand-registered military P-8, at Marton, New Zealand. The post reported ground status without confirming a specific mission.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2106867084424511727"
-      },
-      {
-        "id": "2106864321951080509",
-        "date": "2026-10-04",
-        "dateLabel": "04 OCT 2026 · UTC",
-        "headline": "E-6 airborne alert at Hickam Field",
-        "summary": "SkyGlass issued an OFF Ground alert for a US military E-6 TACAMO aircraft at Hickam Field, Hawaii. No callsign was supplied, and the post did not confirm a destination or specific mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2106864321951080509"
-      },
-      {
-        "id": "2106862740786561075",
-        "date": "2026-10-04",
-        "dateLabel": "04 OCT 2026 · UTC",
-        "headline": "BFLO21 P-8 landing alert near Darwin",
-        "summary": "SkyGlass issued an ON Ground alert for BFLO21, described as an Australian military P-8 Poseidon, near Darwin, Australia. The post described a landing without confirming a specific mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2106862740786561075"
-      },
-      {
-        "id": "2106853237005426982",
-        "date": "2026-10-04",
-        "dateLabel": "04 OCT 2026 · UTC",
-        "headline": "PDN04 P-8 ground alert at Marton",
-        "summary": "SkyGlass issued an ON Ground alert for PDN04, described as a New Zealand-registered military P-8, at Marton, New Zealand. The post did not confirm a specific mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2106853237005426982"
-      },
-      {
-        "id": "2106810677864108046",
-        "date": "2026-10-04",
-        "dateLabel": "04 OCT 2026 · UTC",
-        "headline": "P-8 alert near Grand Falls",
-        "summary": "SkyGlass posted an OFF Ground alert for a US military P-8 Poseidon near Grand Falls, with the location code CA and no callsign. The accompanying text described the aircraft as at ground, so the post's ground-status descriptions were inconsistent; no specific mission was confirmed.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2106810677864108046"
       }
     ]
   }
