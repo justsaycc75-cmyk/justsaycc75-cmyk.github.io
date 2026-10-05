@@ -89,7 +89,7 @@
   <section class="tuner">
     <div class="tuner-title"><div class="radio-icon">◔</div><div><div class="section-label">Public web receivers • any listed public frequency</div><div class="serif" style="font-size:1.35rem">Live frequency tuner</div></div></div>
     <div class="tuner-controls">
-      <div class="control"><label>FREQUENCY</label><input id="freqInput" type="number" value="11175"><span style="position:relative;float:right;margin-top:-29px;margin-right:10px;color:#87a3ac;font-size:.65rem">kHz</span></div>
+      <div class="control"><label>FREQUENCY</label><input id="freqInput" type="number" min="1" max="30000" step="any" value="11175" aria-label="Frequency in kilohertz"><span style="position:relative;float:right;margin-top:-29px;margin-right:10px;color:#87a3ac;font-size:.65rem">kHz</span></div>
       <div class="control"><label>MODE</label><select id="modeInput"><option>USB</option><option>AM</option><option>LSB</option></select></div>
       <div class="control"><label>RECEIVER</label><select id="receiverInput"><option value="twente">Twente — wideband Europe</option><option value="vk5">VK5ARG — South Australia</option><option value="na5b">NA5B — eastern USA</option></select></div>
       <button class="open-btn" id="openSelected">OPEN SELECTED SDR →</button>
@@ -108,9 +108,9 @@
       <div class="freq-card"><small>MILITARY • HFGCS</small><strong>8,992 kHz USB</strong><p>Lower-frequency U.S. military HFGCS companion to 11,175 kHz. Often improves as a propagation path moves into darkness. Expect the same style of coded messages, station calls and aircraft checks.</p><a href="http://websdr.ewi.utwente.nl:8901/?tune=8992usb" target="_blank" rel="noopener">Listen to military HFGCS via Twente →</a></div>
       <div class="freq-card"><small>MILITARY • HFGCS</small><strong>15,016 kHz USB</strong><p>Higher U.S. military HFGCS channel used when daylight supports 15 MHz propagation. It may be silent for long stretches, then carry a short coded message or aircraft/ground-station call.</p><a href="http://websdr.ewi.utwente.nl:8901/?tune=15016usb" target="_blank" rel="noopener">Listen to military HFGCS via Twente →</a></div>
       <div class="freq-card"><small>MILITARY • HFGCS</small><strong>4,724 kHz USB</strong><p>Low-band U.S. military HFGCS frequency for fully dark paths. Most useful late at night, with more atmospheric noise. Listen for brief coded voice traffic, callsigns and radio checks.</p><a href="http://websdr.ewi.utwente.nl:8901/?tune=4724usb" target="_blank" rel="noopener">Listen to military HFGCS via Twente →</a></div>
-      <div class="freq-card"><small>MARINE WEATHER • BoM</small><strong>6,507 kHz USB</strong><p>VMC Charleville is an Australian Bureau of Meteorology marine-weather voice service. It carries scheduled coastal and high-seas forecasts and warnings for vessels around eastern Australian waters.</p><a href="http://kiwisdr.areg.org.au:8075/" target="_blank" rel="noopener">Listen for BoM marine weather →</a></div>
-      <div class="freq-card"><small>MARINE WEATHER • BoM</small><strong>6,230 kHz USB</strong><p>VMW Wiluna is the Bureau of Meteorology voice service for western and north-western Australian waters. Expect scheduled marine forecasts, observations and weather warnings.</p><a href="http://kiwisdr.areg.org.au:8075/" target="_blank" rel="noopener">Listen for BoM marine weather →</a></div>
-      <div class="freq-card"><small>TIME / PROPAGATION CHECK</small><strong>10,000 kHz AM</strong><p>WWV in Colorado and WWVH in Hawaii transmit precise time and frequency standards. Listen for second ticks, tones and spoken UTC announcements; from Sydney, WWVH is often the more practical path.</p><a href="http://na5b.com:8901/" target="_blank" rel="noopener">Listen for WWV / WWVH time signals →</a></div>
+      <div class="freq-card"><small>MARINE WEATHER • BoM</small><strong>6,507 kHz USB</strong><p>VMC Charleville is an Australian Bureau of Meteorology marine-weather voice service. It carries scheduled coastal and high-seas forecasts and warnings for vessels around eastern Australian waters.</p><a href="http://kiwisdr.areg.org.au:8075/?f=6507usb" target="_blank" rel="noopener">Listen for BoM marine weather →</a></div>
+      <div class="freq-card"><small>MARINE WEATHER • BoM</small><strong>6,230 kHz USB</strong><p>VMW Wiluna is the Bureau of Meteorology voice service for western and north-western Australian waters. Expect scheduled marine forecasts, observations and weather warnings.</p><a href="http://kiwisdr.areg.org.au:8075/?f=6230usb" target="_blank" rel="noopener">Listen for BoM marine weather →</a></div>
+      <div class="freq-card"><small>TIME / PROPAGATION CHECK</small><strong>10,000 kHz AM</strong><p>WWV in Colorado and WWVH in Hawaii transmit precise time and frequency standards. Listen for second ticks, tones and spoken UTC announcements; from Sydney, WWVH is often the more practical path.</p><a href="http://na5b.com:8901/?tune=10000am" target="_blank" rel="noopener">Listen for WWV / WWVH time signals →</a></div>
       <div class="freq-card"><small>INTERNATIONAL BROADCAST</small><strong>9,700 kHz AM</strong><p>RNZ Pacific carries New Zealand news, current affairs, sport and Pacific regional programming. It is a comparatively easy broadcast target from Sydney, but its frequency changes with the UTC schedule and season.</p><a href="https://www.rnz.co.nz/international/listen" target="_blank" rel="noopener">Check the current RNZ Pacific schedule →</a></div>
     </div></section>
 
@@ -164,7 +164,7 @@ function state(){
   ['9,700','AM','RNZ Pacific','INTERNATIONAL BROADCAST','New Zealand/Pacific news and regional programming; frequency changes with the UTC schedule.','https://www.rnz.co.nz/international/listen'],
   ['2,182','USB','Maritime distress voice','MARITIME EMERGENCY','International MF distress, urgency and calling frequency. Normally silent; monitor only.','http://kiwisdr.areg.org.au:8075/']
  ];
- document.getElementById('rankGrid').innerHTML=ranks.map((r,i)=>{const cls=r[3].includes('EMERGENCY')?'emergency':r[3].includes('BROADCAST')?'broadcast':r[3].includes('MARINE')?'marine':'military';return '<a class="rank rank-link" href="'+r[5]+'" target="_blank" rel="noopener" aria-label="Open '+r[2]+' '+r[0]+' kHz '+r[1]+'"><span class="num">0'+(i+1)+'</span><strong>'+r[0]+' <small>kHz '+r[1]+'</small></strong><div>'+r[2]+'</div><span class="role-badge '+cls+'">'+r[3]+'</span><p>'+r[4]+'</p><div class="dots">'+(i===4?'●●●●○':'●●●●●')+'</div><span class="rank-open">OPEN →</span></a>'}).join('');
+ document.getElementById('rankGrid').innerHTML=ranks.map((r,i)=>{const cls=r[3].includes('EMERGENCY')?'emergency':r[3].includes('BROADCAST')?'broadcast':r[3].includes('MARINE')?'marine':'military';return '<a class="rank rank-link" href="'+receiverUrl(r[5],r[0].replace(/,/g,''),r[1])+'" target="_blank" rel="noopener" aria-label="Open '+r[2]+' '+r[0]+' kHz '+r[1]+'"><span class="num">0'+(i+1)+'</span><strong>'+r[0]+' <small>kHz '+r[1]+'</small></strong><div>'+r[2]+'</div><span class="role-badge '+cls+'">'+r[3]+'</span><p>'+r[4]+'</p><div class="dots">'+(i===4?'●●●●○':'●●●●●')+'</div><span class="rank-open">OPEN →</span></a>'}).join('');
 }
 async function noaa(){
  try{
@@ -177,10 +177,18 @@ async function noaa(){
   document.getElementById('noaaState').textContent='NOAA SPACE WEATHER CONNECTED';document.getElementById('snapshotState').textContent='Current snapshot loaded';
  }catch(e){document.getElementById('propTitle').textContent='LOCAL GUIDE ACTIVE';document.getElementById('propText').textContent='NOAA snapshot unavailable. Greyline and band guidance remain active.';document.getElementById('noaaState').textContent='NOAA TEMPORARILY UNAVAILABLE';document.getElementById('snapshotState').textContent='Using local propagation guide';}
 }
+function receiverUrl(base,frequency,mode){
+ const url=new URL(base),tuning=String(frequency)+mode.toLowerCase();
+ if(url.hostname==='kiwisdr.areg.org.au')url.searchParams.set('f',tuning);
+ else if(url.hostname==='websdr.ewi.utwente.nl'||url.hostname==='na5b.com')url.searchParams.set('tune',tuning);
+ return url.href;
+}
 document.getElementById('openSelected').addEventListener('click',()=>{
- const f=document.getElementById('freqInput').value||11175,m=document.getElementById('modeInput').value.toLowerCase(),r=document.getElementById('receiverInput').value;
- const urls={twente:'http://websdr.ewi.utwente.nl:8901/?tune='+encodeURIComponent(f+m),vk5:'http://kiwisdr.areg.org.au:8075/',na5b:'http://na5b.com:8901/'};
- window.open(urls[r],'_blank','noopener');
+ const input=document.getElementById('freqInput');
+ if(!input.value||!input.reportValidity())return;
+ const mode=document.getElementById('modeInput').value,receiver=document.getElementById('receiverInput').value;
+ const receivers={twente:'http://websdr.ewi.utwente.nl:8901/',vk5:'http://kiwisdr.areg.org.au:8075/',na5b:'http://na5b.com:8901/'};
+ window.open(receiverUrl(receivers[receiver],input.value,mode),'_blank','noopener');
 });
 updateClocks();state();noaa();setInterval(updateClocks,1000);setInterval(state,60000);setInterval(noaa,300000);
 })();
