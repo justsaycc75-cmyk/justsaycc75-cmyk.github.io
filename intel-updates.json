@@ -5,6 +5,38 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2106927437275689363",
+        "date": "2026-10-05",
+        "dateLabel": "05 OCT 2026 · UTC",
+        "headline": "Six transports and elevated Eastern Mediterranean air activity reported",
+        "summary": "War Watch Intel reported six US military transport aircraft airborne across the Atlantic and North America. It described Eastern Mediterranean air activity as nearly three times normal and mentioned a US bomber withdrawal, without identifying a comparison period or providing full withdrawal details.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106927437275689363"
+      },
+      {
+        "id": "2106914145022943444",
+        "date": "2026-10-05",
+        "dateLabel": "05 OCT 2026 · UTC",
+        "headline": "Six heavy transports over US; bomber withdrawal from England reported",
+        "summary": "War Watch Intel reported six US Air Force heavy transport aircraft airborne over the United States. Separately, it relayed a claim that US bombers were withdrawn from England after intelligence about an Iran-backed plot; the visible post did not provide the plot's details or a withdrawal date.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106914145022943444"
+      },
+      {
+        "id": "2106910370912735311",
+        "date": "2026-10-05",
+        "dateLabel": "05 OCT 2026 · UTC",
+        "headline": "RIZZY67 RC-135S Cobra Ball sighting reported",
+        "summary": "War Watch Intel reported a Boeing RC-135S Cobra Ball sighting credited to reagan0965, with callsign RIZZY67, aircraft hex AE01D6 and registration 61-2663. The post did not specify its location or mission.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106910370912735311"
+      },
+      {
+        "id": "2106902646049177611",
+        "date": "2026-10-05",
+        "dateLabel": "05 OCT 2026 · UTC",
+        "headline": "SAM103 C-37B sighting reported",
+        "summary": "War Watch Intel reported a Gulfstream C-37B sighting credited to reagan0965, identifying callsign SAM103, aircraft hex AE206D and the US Air Force's 89th Airlift Wing at Andrews Air Force Base. The post did not specify the aircraft's observed location or mission.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2106902646049177611"
+      },
+      {
         "id": "2106882128059252937",
         "date": "2026-10-04",
         "dateLabel": "04 OCT 2026 · UTC",
@@ -67,38 +99,6 @@
         "headline": "War Watch relays air-ambulance search off Nantucket",
         "summary": "War Watch Intel relayed a report credited to @charlottewilliams922 that the US Coast Guard was conducting a search and rescue for a Gulfstream G100 air ambulance off Nantucket, Massachusetts. The visible post did not provide an outcome or details about those aboard.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2106810451241603552"
-      },
-      {
-        "id": "2106806612316852289",
-        "date": "2026-10-04",
-        "dateLabel": "04 OCT 2026 · UTC",
-        "headline": "Six transports, surveillance aircraft and two coded broadcasts reported",
-        "summary": "War Watch Intel reported six US Air Force transport aircraft airborne over the United States, a surveillance aircraft sighting and two coded military radio broadcasts heard that day. It said the latest broadcast was early that morning without giving an exact time or message content.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106806612316852289"
-      },
-      {
-        "id": "2106791508653334653",
-        "date": "2026-10-04",
-        "dateLabel": "04 OCT 2026 · UTC",
-        "headline": "Six heavy transports, Russian jet near North America and surveillance activity reported",
-        "summary": "War Watch Intel reported six US Air Force heavy-lift transport aircraft airborne over the continental United States and a Russian jet near North America. It described surveillance aircraft activity as elevated without identifying specific missions or connecting the sightings.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106791508653334653"
-      },
-      {
-        "id": "2106776405295890694",
-        "date": "2026-10-04",
-        "dateLabel": "04 OCT 2026 · UTC",
-        "headline": "Six transports over US and additional surveillance and command sightings reported",
-        "summary": "War Watch Intel reported six US Air Force transport aircraft airborne over the United States. It also reported a Russian aircraft and multiple US surveillance and command aircraft sighted that day, without identifying their specific missions.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106776405295890694"
-      },
-      {
-        "id": "2106761301548466260",
-        "date": "2026-10-04",
-        "dateLabel": "04 OCT 2026 · UTC",
-        "headline": "Five US transports and one North Sea transport; no recent coded broadcasts reported",
-        "summary": "War Watch Intel reported five US Air Force transport aircraft airborne over the United States, another over the North Sea and a Russian aircraft near Europe. It reported no coded broadcasts in the preceding hour; the post did not identify the flights' missions.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2106761301548466260"
       }
     ]
   },
@@ -107,6 +107,14 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2106897864433496239",
+        "date": "2026-10-05",
+        "dateLabel": "05 OCT 2026 · UTC",
+        "headline": "ASY169 P-8 landing alert at Misawa",
+        "summary": "SkyGlass issued an ON Ground alert for ASY169, described as an Australian-registered military P-8, at Misawa, Japan. The post reported a recent landing without confirming a specific mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2106897864433496239"
+      },
       {
         "id": "2106867084424511727",
         "date": "2026-10-04",
@@ -194,14 +202,6 @@
         "headline": "P-8 departure alert near Uruma",
         "summary": "SkyGlass issued an OFF Ground alert for a US-registered military P-8 near Uruma, Japan. No callsign was supplied, and the post did not confirm the aircraft's destination or specific mission.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2106535357260898451"
-      },
-      {
-        "id": "2106534772767908160",
-        "date": "2026-10-04",
-        "dateLabel": "04 OCT 2026 · UTC",
-        "headline": "BFLO35 P-8 ground alert at Darwin",
-        "summary": "SkyGlass issued an ON Ground alert for BFLO35, described as an Australian military P-8, at Darwin, Australia. The post reported the aircraft's ground status without confirming a specific mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2106534772767908160"
       }
     ]
   }
