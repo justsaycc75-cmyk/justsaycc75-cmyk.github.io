@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2107335103047188924",
+        "date": "2026-10-06",
+        "dateLabel": "06 OCT 2026 · UTC",
+        "headline": "US military transports and busy UK/North Sea activity reported",
+        "summary": "War Watch Intel reported multiple large US military transport aircraft over the continental United States and described activity near the United Kingdom and North Sea as unusually busy. The post gives no aircraft count or comparison baseline for the latter activity.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107335103047188924"
+      },
+      {
+        "id": "2107319996711948466",
+        "date": "2026-10-06",
+        "dateLabel": "06 OCT 2026 · UTC",
+        "headline": "Six US transports airborne; earlier helicopter emergency noted",
+        "summary": "War Watch Intel reported six US Air Force heavy transport aircraft airborne over the United States. It also repeated the report of a Navy helicopter transmitting an emergency code over the Red Sea near Saudi Arabia.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107319996711948466"
+      },
+      {
+        "id": "2107304894558335369",
+        "date": "2026-10-06",
+        "dateLabel": "06 OCT 2026 · UTC",
+        "headline": "US transport, surveillance and nuclear command aircraft reported",
+        "summary": "War Watch Intel described military aircraft activity over the continental United States as elevated, reporting multiple transport aircraft and a surveillance aircraft airborne alongside a nuclear command jet.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107304894558335369"
+      },
+      {
         "id": "2107289791263883409",
         "date": "2026-10-06",
         "dateLabel": "06 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "Three US transports, bomber and command aircraft reported airborne",
         "summary": "War Watch Intel reported three large US Air Force transport aircraft and a bomber airborne over the United States, alongside surveillance and nuclear command jets. It also reported two coded US Air Force radio broadcasts earlier that day.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2107214408849981455"
-      },
-      {
-        "id": "2107203084401201221",
-        "date": "2026-10-05",
-        "dateLabel": "05 OCT 2026 · UTC",
-        "headline": "War Watch relays Russian laboratory quarantine report",
-        "summary": "War Watch Intel relayed an Insider Paper report that a Russian laboratory worker's death prompted fears of plague exposure and the quarantine of nearly 200 people. The post credited @reagan0965 without giving a location or independent confirmation of the reported exposure.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107203084401201221"
-      },
-      {
-        "id": "2107199171455279424",
-        "date": "2026-10-05",
-        "dateLabel": "05 OCT 2026 · UTC",
-        "headline": "Four US cargo jets and nuclear command aircraft reported airborne",
-        "summary": "War Watch Intel reported multiple US Air Force transport and surveillance aircraft airborne over the United States, including four large cargo jets and a nuclear command aircraft. The post did not identify callsigns or specific missions.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107199171455279424"
-      },
-      {
-        "id": "2107188639327289485",
-        "date": "2026-10-05",
-        "dateLabel": "05 OCT 2026 · UTC",
-        "headline": "War Watch relays suspicious-note report on AJET 4180",
-        "summary": "War Watch Intel relayed a Faytuks report that a note alleging explosive material had been found aboard AJET 4180, a passenger flight from Ankara to Şanlıurfa. The post did not confirm that explosives were present or describe the flight's subsequent outcome.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107188639327289485"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2107338466929283291",
+        "date": "2026-10-06",
+        "dateLabel": "06 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert at Port Lincoln",
+        "summary": "SkyGlass posted an OFF Ground alert for an Australian-registered military P-8 at Port Lincoln, Australia. The callsign was shown as NA; no destination or specific mission was established.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107338466929283291"
+      },
+      {
+        "id": "2107335698810347816",
+        "date": "2026-10-06",
+        "dateLabel": "06 OCT 2026 · UTC",
+        "headline": "P-8 BFLO42 on-ground alert at Burton",
+        "summary": "SkyGlass posted an ON Ground alert for Australian military P-8 aircraft BFLO42 near Burton, Australia. Its ground status does not establish what activity preceded the alert.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107335698810347816"
+      },
+      {
+        "id": "2107335311436943391",
+        "date": "2026-10-06",
+        "dateLabel": "06 OCT 2026 · UTC",
+        "headline": "P-8 on-ground alert at Oak Harbor",
+        "summary": "SkyGlass posted an ON Ground alert for a US-registered military P-8 at Oak Harbor, Washington. The callsign was shown as NA; the alert does not confirm an operational purpose.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107335311436943391"
+      },
+      {
+        "id": "2107330581075722610",
+        "date": "2026-10-06",
+        "dateLabel": "06 OCT 2026 · UTC",
+        "headline": "Indian P-8 airborne alert near Tiruvallur",
+        "summary": "SkyGlass posted an OFF Ground alert for an Indian military P-8 near Tiruvallur, India. The callsign was shown as NA; no destination or specific mission was established.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107330581075722610"
+      },
       {
         "id": "2107295190520152259",
         "date": "2026-10-06",
@@ -170,38 +202,6 @@
         "headline": "P-8 on-ground alert at Hickam Field",
         "summary": "SkyGlass posted an ON Ground alert for a US-registered Boeing P-8 Poseidon at Hickam Field, Hawaii. The callsign was shown as NA; the alert does not establish a mission or deployment purpose.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2107218115209671080"
-      },
-      {
-        "id": "2107199425554632740",
-        "date": "2026-10-05",
-        "dateLabel": "05 OCT 2026 · UTC",
-        "headline": "SkyGlass shares MQ-9B disaster-relief communications demonstration report",
-        "summary": "SkyGlass shared a Soldier Systems Daily report that GA-ASI and SoftBank had demonstrated a communications system on the MQ-9B aimed at supporting disaster relief connectivity. The post did not give the demonstration's date or confirm use in an actual disaster response.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107199425554632740"
-      },
-      {
-        "id": "2107199425382601109",
-        "date": "2026-10-05",
-        "dateLabel": "05 OCT 2026 · UTC",
-        "headline": "SkyGlass shares autonomous drone wingman first-flight report",
-        "summary": "SkyGlass shared a Breaking Defense report about Northrop Grumman's self-funded autonomous drone wingman completing its first flight, identifying the aircraft as YFQ-48A. The post did not provide the flight's date or independent confirmation.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107199425382601109"
-      },
-      {
-        "id": "2107187551693894025",
-        "date": "2026-10-05",
-        "dateLabel": "05 OCT 2026 · UTC",
-        "headline": "E-6 airborne alert near Suisun",
-        "summary": "SkyGlass issued an OFF Ground alert for a US military E-6 near Suisun, California. No callsign was supplied, and the post did not confirm a destination or specific mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107187551693894025"
-      },
-      {
-        "id": "2107168983975600392",
-        "date": "2026-10-05",
-        "dateLabel": "05 OCT 2026 · UTC",
-        "headline": "B-52 airborne alert near Midwest City",
-        "summary": "SkyGlass issued an OFF Ground alert for a US military B-52 near Midwest City, Oklahoma. The callsign field showed 00000000; the post did not confirm the aircraft's identity, destination or specific mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107168983975600392"
       }
     ]
   }
