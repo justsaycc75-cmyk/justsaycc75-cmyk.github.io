@@ -285,9 +285,14 @@
       img.loading='lazy';
       img.decoding='async';
       img.referrerPolicy='no-referrer';
+      const fallback=thumb.querySelector('span');
+      img.onload=()=>{ if(fallback)fallback.hidden=true; };
+      img.onerror=()=>{
+        if(fallback)fallback.hidden=false;
+        img.remove();
+      };
       if(info.video){
         img.src=`https://i.ytimg.com/vi/${info.video}/hqdefault.jpg`;
-        img.onerror=()=>{ img.remove(); };
         thumb.prepend(img);
       }else if(info.wiki){
         fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(info.wiki)}`)
