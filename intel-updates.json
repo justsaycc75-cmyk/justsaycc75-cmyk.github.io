@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2107471029987676627",
+        "date": "2026-10-06",
+        "dateLabel": "06 OCT 2026 · UTC",
+        "headline": "Four coded broadcasts and US military aircraft activity reported",
+        "summary": "War Watch Intel reported four coded US Air Force radio broadcasts within the preceding hour, with multiple transport and surveillance aircraft airborne over the United States. The post does not provide the broadcast contents.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107471029987676627"
+      },
+      {
+        "id": "2107455924507910176",
+        "date": "2026-10-06",
+        "dateLabel": "06 OCT 2026 · UTC",
+        "headline": "Six military transports and nuclear command aircraft reported airborne",
+        "summary": "War Watch Intel reported six military transport aircraft and a nuclear command aircraft airborne over the United States. It described the transport count as above the usual level for that hour without providing the comparison baseline.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107455924507910176"
+      },
+      {
+        "id": "2107440822442406396",
+        "date": "2026-10-06",
+        "dateLabel": "06 OCT 2026 · UTC",
+        "headline": "Six US transports over North Atlantic and US reported",
+        "summary": "War Watch Intel reported six US Air Force transport aircraft airborne over the North Atlantic and United States. It also reported a surveillance aircraft and two nuclear command aircraft seen during the preceding few hours.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107440822442406396"
+      },
+      {
         "id": "2107425722964869183",
         "date": "2026-10-06",
         "dateLabel": "06 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "US military transports and busy UK/North Sea activity reported",
         "summary": "War Watch Intel reported multiple large US military transport aircraft over the continental United States and described activity near the United Kingdom and North Sea as unusually busy. The post gives no aircraft count or comparison baseline for the latter activity.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2107335103047188924"
-      },
-      {
-        "id": "2107319996711948466",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "Six US transports airborne; earlier helicopter emergency noted",
-        "summary": "War Watch Intel reported six US Air Force heavy transport aircraft airborne over the United States. It also repeated the report of a Navy helicopter transmitting an emergency code over the Red Sea near Saudi Arabia.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107319996711948466"
-      },
-      {
-        "id": "2107304894558335369",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "US transport, surveillance and nuclear command aircraft reported",
-        "summary": "War Watch Intel described military aircraft activity over the continental United States as elevated, reporting multiple transport aircraft and a surveillance aircraft airborne alongside a nuclear command jet.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107304894558335369"
-      },
-      {
-        "id": "2107289791263883409",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "Bombers, surveillance aircraft and transports reported over US",
-        "summary": "War Watch Intel reported multiple US Air Force bombers, surveillance aircraft and transport jets airborne over the continental United States. Its update also referred to Middle East tensions and the earlier Navy helicopter emergency report near Saudi Arabia.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107289791263883409"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2107476126771597717",
+        "date": "2026-10-06",
+        "dateLabel": "06 OCT 2026 · UTC",
+        "headline": "P-3 AFP68 airborne alert near Qrendi",
+        "summary": "SkyGlass posted an OFF Ground alert for Portuguese-registered military P-3 AFP68 near Qrendi, Malta. The alert does not establish its destination or specific mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107476126771597717"
+      },
+      {
+        "id": "2107474463432335399",
+        "date": "2026-10-06",
+        "dateLabel": "06 OCT 2026 · UTC",
+        "headline": "E-6 airborne alert near Bellevue, Iowa",
+        "summary": "SkyGlass posted an OFF Ground alert for a US military E-6 near Bellevue, Iowa, with the callsign shown as NA. The aircraft type is associated with strategic communications, but the alert does not confirm its operational task.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107474463432335399"
+      },
+      {
+        "id": "2107468188900364711",
+        "date": "2026-10-06",
+        "dateLabel": "06 OCT 2026 · UTC",
+        "headline": "UK P-8 airborne alert near Thurso",
+        "summary": "SkyGlass posted an OFF Ground alert for a UK-registered military P-8 near Thurso, United Kingdom. The callsign was shown as NA; no destination or specific mission was established.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107468188900364711"
+      },
+      {
+        "id": "2107467357987762551",
+        "date": "2026-10-06",
+        "dateLabel": "06 OCT 2026 · UTC",
+        "headline": "US P-8 airborne alert at Orange Park",
+        "summary": "SkyGlass posted an OFF Ground alert for a US military P-8 at Orange Park, Florida. The callsign was shown as NA; the alert does not confirm its destination or operational purpose.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107467357987762551"
+      },
       {
         "id": "2107429302740349098",
         "date": "2026-10-06",
@@ -170,38 +202,6 @@
         "headline": "P-8 airborne alert at Port Lincoln",
         "summary": "SkyGlass posted an OFF Ground alert for an Australian-registered military P-8 at Port Lincoln, Australia. The callsign was shown as NA; no destination or specific mission was established.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2107338466929283291"
-      },
-      {
-        "id": "2107335698810347816",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "P-8 BFLO42 on-ground alert at Burton",
-        "summary": "SkyGlass posted an ON Ground alert for Australian military P-8 aircraft BFLO42 near Burton, Australia. Its ground status does not establish what activity preceded the alert.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107335698810347816"
-      },
-      {
-        "id": "2107335311436943391",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "P-8 on-ground alert at Oak Harbor",
-        "summary": "SkyGlass posted an ON Ground alert for a US-registered military P-8 at Oak Harbor, Washington. The callsign was shown as NA; the alert does not confirm an operational purpose.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107335311436943391"
-      },
-      {
-        "id": "2107330581075722610",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "Indian P-8 airborne alert near Tiruvallur",
-        "summary": "SkyGlass posted an OFF Ground alert for an Indian military P-8 near Tiruvallur, India. The callsign was shown as NA; no destination or specific mission was established.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107330581075722610"
-      },
-      {
-        "id": "2107295190520152259",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "P-8 BLKT02 on-ground alert at Burton",
-        "summary": "SkyGlass posted an ON Ground alert for an Australian military P-8 Poseidon with callsign BLKT02 at Burton, Australia. The alert does not establish the aircraft's mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107295190520152259"
       }
     ]
   }
