@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2107612068652175761",
+        "date": "2026-10-06",
+        "dateLabel": "06 OCT 2026 · UTC",
+        "headline": "War Watch relays report of Riyadh explosion and halted air traffic",
+        "summary": "War Watch Intel relayed an OSINTWarfare-attributed report that an explosion was heard in Riyadh following a reported Ansar Allah ballistic-missile attack and that air traffic had been halted. The post does not independently confirm the incident.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107612068652175761"
+      },
+      {
+        "id": "2107608294814548202",
+        "date": "2026-10-06",
+        "dateLabel": "06 OCT 2026 · UTC",
+        "headline": "Coded broadcasts and six heavy transports reported",
+        "summary": "War Watch Intel reported coded US Air Force radio broadcasts at nearly three times normal across nine regions worldwide and six heavy transport aircraft airborne. The visible post is truncated before completing the transport-location detail and does not provide its comparison baseline.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107608294814548202"
+      },
+      {
+        "id": "2107604508448641278",
+        "date": "2026-10-06",
+        "dateLabel": "06 OCT 2026 · UTC",
+        "headline": "War Watch relays Newsmax report on NATO planning",
+        "summary": "War Watch Intel relayed a Newsmax report that NATO was preparing a plan intended to cripple Russian forces in the event of an attack. The post does not provide the plan details or independent confirmation.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107604508448641278"
+      },
+      {
+        "id": "2107591856145998161",
+        "date": "2026-10-06",
+        "dateLabel": "06 OCT 2026 · UTC",
+        "headline": "US command jet, cargo aircraft and one coded broadcast reported",
+        "summary": "War Watch Intel reported a US Air Force nuclear command aircraft and multiple cargo aircraft airborne over the United States, one coded radio broadcast during the preceding hour, and continuing activity near UK military bases.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107591856145998161"
+      },
+      {
+        "id": "2107586900726825278",
+        "date": "2026-10-06",
+        "dateLabel": "06 OCT 2026 · UTC",
+        "headline": "War Watch relays US Embassy health alert concerning Irkutsk",
+        "summary": "War Watch Intel relayed a report that the US Embassy in Moscow issued a health alert concerning a suspected pneumonic-plague case in Russia's Irkutsk region. The visible post is truncated after referring to a laboratory and does not provide further details.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107586900726825278"
+      },
+      {
         "id": "2107561648164585567",
         "date": "2026-10-06",
         "dateLabel": "06 OCT 2026 · UTC",
@@ -59,46 +99,6 @@
         "headline": "Four coded broadcasts and US military aircraft activity reported",
         "summary": "War Watch Intel reported four coded US Air Force radio broadcasts within the preceding hour, with multiple transport and surveillance aircraft airborne over the United States. The post does not provide the broadcast contents.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2107471029987676627"
-      },
-      {
-        "id": "2107455924507910176",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "Six military transports and nuclear command aircraft reported airborne",
-        "summary": "War Watch Intel reported six military transport aircraft and a nuclear command aircraft airborne over the United States. It described the transport count as above the usual level for that hour without providing the comparison baseline.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107455924507910176"
-      },
-      {
-        "id": "2107440822442406396",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "Six US transports over North Atlantic and US reported",
-        "summary": "War Watch Intel reported six US Air Force transport aircraft airborne over the North Atlantic and United States. It also reported a surveillance aircraft and two nuclear command aircraft seen during the preceding few hours.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107440822442406396"
-      },
-      {
-        "id": "2107425722964869183",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "Six US transports and earlier command-aircraft sightings reported",
-        "summary": "War Watch Intel reported six US Air Force transport aircraft airborne over the United States and North Sea. It also reported two nuclear command aircraft seen earlier near the US East Coast.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107425722964869183"
-      },
-      {
-        "id": "2107410614402404786",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "US transports and command aircraft reported; no significant coded traffic",
-        "summary": "War Watch Intel reported multiple US Air Force transport aircraft airborne over the North Sea and United States, along with a nuclear command-and-control aircraft. It said no significant coded broadcasts had been detected that day.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107410614402404786"
-      },
-      {
-        "id": "2107395512072626457",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "US transports and surveillance aircraft reported over UK and North Sea",
-        "summary": "War Watch Intel reported multiple US Air Force transport aircraft and a surveillance aircraft airborne over the United Kingdom and North Sea. It identified several as large strategic-airlift cargo aircraft.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107395512072626457"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2107608920399163712",
+        "date": "2026-10-06",
+        "dateLabel": "06 OCT 2026 · UTC",
+        "headline": "P-8 MRNR02 on-ground alert at Burton",
+        "summary": "SkyGlass posted an ON Ground alert for Australian-registered military P-8 MRNR02 at Burton, Australia. The alert does not establish its preceding activity or operational purpose.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107608920399163712"
+      },
+      {
+        "id": "2107607707721015727",
+        "date": "2026-10-06",
+        "dateLabel": "06 OCT 2026 · UTC",
+        "headline": "South Korean P-8 airborne alert at Ulsan",
+        "summary": "SkyGlass posted an OFF Ground alert for a South Korean-registered military P-8 at Ulsan, South Korea. The callsign was shown as NA; the alert does not establish its destination or operational purpose.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107607707721015727"
+      },
+      {
+        "id": "2107592394321375382",
+        "date": "2026-10-06",
+        "dateLabel": "06 OCT 2026 · UTC",
+        "headline": "P-8 BLKT25 on-ground alert at Darwin",
+        "summary": "SkyGlass posted an ON Ground alert for Australian military P-8 BLKT25 at Darwin, Australia. The alert does not establish its preceding activity or operational purpose.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107592394321375382"
+      },
+      {
+        "id": "2107578054373470320",
+        "date": "2026-10-06",
+        "dateLabel": "06 OCT 2026 · UTC",
+        "headline": "US E-6 airborne alert at Suisun",
+        "summary": "SkyGlass posted an OFF Ground alert for a US military E-6 at Suisun, California. The callsign was shown as NA; the alert does not establish its destination or operational task.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107578054373470320"
+      },
       {
         "id": "2107561829136232492",
         "date": "2026-10-06",
@@ -170,38 +202,6 @@
         "headline": "US P-8 airborne alert near Lexington Park",
         "summary": "SkyGlass posted an OFF Ground alert for a US military P-8 near Lexington Park, Maryland. The callsign was shown as NA; the alert does not establish its destination or operational purpose.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2107514593144680628"
-      },
-      {
-        "id": "2107476126771597717",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "P-3 AFP68 airborne alert near Qrendi",
-        "summary": "SkyGlass posted an OFF Ground alert for Portuguese-registered military P-3 AFP68 near Qrendi, Malta. The alert does not establish its destination or specific mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107476126771597717"
-      },
-      {
-        "id": "2107474463432335399",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "E-6 airborne alert near Bellevue, Iowa",
-        "summary": "SkyGlass posted an OFF Ground alert for a US military E-6 near Bellevue, Iowa, with the callsign shown as NA. The aircraft type is associated with strategic communications, but the alert does not confirm its operational task.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107474463432335399"
-      },
-      {
-        "id": "2107468188900364711",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "UK P-8 airborne alert near Thurso",
-        "summary": "SkyGlass posted an OFF Ground alert for a UK-registered military P-8 near Thurso, United Kingdom. The callsign was shown as NA; no destination or specific mission was established.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107468188900364711"
-      },
-      {
-        "id": "2107467357987762551",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "US P-8 airborne alert at Orange Park",
-        "summary": "SkyGlass posted an OFF Ground alert for a US military P-8 at Orange Park, Florida. The callsign was shown as NA; the alert does not confirm its destination or operational purpose.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107467357987762551"
       }
     ]
   }
