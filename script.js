@@ -267,11 +267,11 @@ function sydHour(){
 function hash(s){let n=0;for(const c of s)n=(n*31+c.charCodeAt(0))>>>0;return n;}
 
 /*
-  Fixed 200-song rotation:
+  Curated clip rotation:
   - changes every 3 hours in Sydney
-  - all entries have a stored direct YouTube video ID
-  - no search URLs, no external resolver, no placeholder tracks
-  - every one of the 200 songs appears before the sequence repeats
+  - each clip has a direct YouTube video ID and matching thumbnail
+  - every clip appears once per cycle
+  - single-clip artists are spaced through the cycle for steady variety
 */
 function seededShuffle(list,seed){
   const a=list.slice();
@@ -1291,7 +1291,473 @@ const verifiedSongs=[
     videoId: "LcxdbZ5chcc"
   }
 ];
-const songRotation=seededShuffle(verifiedSongs,0x20050319);
+const extraVerifiedSongs=[
+  {
+    "artist": "Visage",
+    "track": "Fade To Grey",
+    "videoId": "UMPC8QJF6sI"
+  },
+  {
+    "artist": "Talking Heads",
+    "track": "Life During Wartime",
+    "videoId": "alEjtNx0fTg"
+  },
+  {
+    "artist": "The Church",
+    "track": "The Unguarded Moment",
+    "videoId": "qQvr2eF5zMM"
+  },
+  {
+    "artist": "Cold Chisel",
+    "track": "Bow River",
+    "videoId": "y2by810nulE"
+  },
+  {
+    "artist": "The Buoys",
+    "track": "I Want You",
+    "videoId": "V_dE4IDkOaw"
+  },
+  {
+    "artist": "Machine Gun Fellatio",
+    "track": "Rollercoaster",
+    "videoId": "yhPFmWPeWuo"
+  },
+  {
+    "artist": "V Spy V Spy",
+    "track": "Clarity of Mind",
+    "videoId": "iM2YaO3I1N0"
+  },
+  {
+    "artist": "Ed Kuepper",
+    "track": "When There’s This Party",
+    "videoId": "8pvOc3NutCU"
+  },
+  {
+    "artist": "Mental As Anything",
+    "track": "Mr Natural",
+    "videoId": "VYnDDuTNtqE"
+  },
+  {
+    "artist": "POND",
+    "track": "America’s Cup",
+    "videoId": "DPOgiy8M2dI"
+  },
+  {
+    "artist": "Models",
+    "track": "King of Kings",
+    "videoId": "HV7fYbQIXSM"
+  },
+  {
+    "artist": "Simple Minds",
+    "track": "Love Song",
+    "videoId": "W_H7QykJ53g"
+  },
+  {
+    "artist": "Hunters & Collectors",
+    "track": "Throw Your Arms Around Me",
+    "videoId": "5-hDK76bIps"
+  },
+  {
+    "artist": "Spiderbait",
+    "track": "Black Betty",
+    "videoId": "nU1VfYYKMDk"
+  },
+  {
+    "artist": "Tubeway Army",
+    "track": "Are Friends Electric?",
+    "videoId": "1snv-0jCiWY"
+  },
+  {
+    "artist": "Kasabian",
+    "track": "Club Foot",
+    "videoId": "lk5iMgG-WJI"
+  },
+  {
+    "artist": "The B-52s",
+    "track": "Rock Lobster",
+    "videoId": "n4QSYx4wVQg"
+  },
+  {
+    "artist": "Died Pretty",
+    "track": "D.C.",
+    "videoId": "1xFYkhVayTY"
+  },
+  {
+    "artist": "Devo",
+    "track": "Whip It",
+    "videoId": "j_QLzthSkfM"
+  },
+  {
+    "artist": "INXS",
+    "track": "Don’t Change",
+    "videoId": "sLm3Khusq_8"
+  },
+  {
+    "artist": "Alex Lloyd",
+    "track": "Amazing",
+    "videoId": "mJPDJRLxHek"
+  },
+  {
+    "artist": "Do-Ré-Mi",
+    "track": "Man Overboard",
+    "videoId": "bDO5KwDBgy8"
+  },
+  {
+    "artist": "The The",
+    "track": "Uncertain Smile",
+    "videoId": "5bErFXjUGvQ"
+  },
+  {
+    "artist": "Spacey Jane",
+    "track": "Booster Seat",
+    "videoId": "XxKuwlnx58g"
+  },
+  {
+    "artist": "Prince",
+    "track": "Purple Rain",
+    "videoId": "bm03wqLY3Nc"
+  },
+  {
+    "artist": "AC/DC",
+    "track": "Thunderstruck",
+    "videoId": "v2AC41dglnM"
+  },
+  {
+    "artist": "Neil Young",
+    "track": "Heart of Gold",
+    "videoId": "WZn9QZykx10"
+  },
+  {
+    "artist": "The Velvet Underground",
+    "track": "Sunday Morning",
+    "videoId": "Xhbyj8pqUao"
+  },
+  {
+    "artist": "The Saints",
+    "track": "(I’m) Stranded",
+    "videoId": "MpMwMDqOprc"
+  },
+  {
+    "artist": "New Order",
+    "track": "Blue Monday",
+    "videoId": "9GMjH1nR0ds"
+  },
+  {
+    "artist": "R.E.M.",
+    "track": "Losing My Religion",
+    "videoId": "xwtdhWltSIg"
+  },
+  {
+    "artist": "The Clash",
+    "track": "London Calling",
+    "videoId": "EfK-WX2pa8c"
+  },
+  {
+    "artist": "Echo & The Bunnymen",
+    "track": "The Killing Moon",
+    "videoId": "LWz0JC7afNQ"
+  },
+  {
+    "artist": "The Go-Betweens",
+    "track": "Streets of Your Town",
+    "videoId": "8M_P_xX9Cmw"
+  },
+  {
+    "artist": "Nick Cave & The Bad Seeds",
+    "track": "Red Right Hand",
+    "videoId": "RrxePKps87k"
+  },
+  {
+    "artist": "Hoodoo Gurus",
+    "track": "What’s My Scene",
+    "videoId": "K2vjGGEnE6U"
+  },
+  {
+    "artist": "Joy Division",
+    "track": "Love Will Tear Us Apart",
+    "videoId": "zuuObGsB0No"
+  },
+  {
+    "artist": "The Smiths",
+    "track": "This Charming Man",
+    "videoId": "cJRP3LRcUFg"
+  },
+  {
+    "artist": "Radio Birdman",
+    "track": "Aloha Steve & Danno",
+    "videoId": "PlhZjzkQ2l4"
+  },
+  {
+    "artist": "The Triffids",
+    "track": "Wide Open Road",
+    "videoId": "CiLlRXUU3DE"
+  },
+  {
+    "artist": "The Psychedelic Furs",
+    "track": "Love My Way",
+    "videoId": "LGD9i718kBU"
+  },
+  {
+    "artist": "The Jam",
+    "track": "Town Called Malice",
+    "videoId": "YfpRm-p7qlY"
+  },
+  {
+    "artist": "Elvis Costello & The Attractions",
+    "track": "Pump It Up",
+    "videoId": "3Y71iDvCYXA"
+  },
+  {
+    "artist": "The Stranglers",
+    "track": "Golden Brown",
+    "videoId": "7KIHvuMl4Kk"
+  },
+  {
+    "artist": "Lou Reed",
+    "track": "Walk on the Wild Side",
+    "videoId": "oG6fayQBm9w"
+  },
+  {
+    "artist": "Iggy Pop",
+    "track": "Lust for Life",
+    "videoId": "jQvUBf5l7Vw"
+  },
+  {
+    "artist": "The Doors",
+    "track": "Riders on the Storm",
+    "videoId": "W1hn1pF-ilQ"
+  },
+  {
+    "artist": "The Replacements",
+    "track": "Alex Chilton",
+    "videoId": "ftTOEJfzdq0"
+  },
+  {
+    "artist": "Pixies",
+    "track": "Where Is My Mind?",
+    "videoId": "OJ62RzJkYUo"
+  },
+  {
+    "artist": "The Stone Roses",
+    "track": "Fools Gold",
+    "videoId": "NSD11dnphg0"
+  },
+  {
+    "artist": "The Jesus and Mary Chain",
+    "track": "Just Like Honey",
+    "videoId": "7EgB__YratE"
+  },
+  {
+    "artist": "The Charlatans",
+    "track": "The Only One I Know",
+    "videoId": "0RJwW77Lsj8"
+  },
+  {
+    "artist": "Franz Ferdinand",
+    "track": "Take Me Out",
+    "videoId": "Ijk4j-r7qPA"
+  },
+  {
+    "artist": "Vampire Weekend",
+    "track": "A-Punk",
+    "videoId": "_XC2mqcMMGQ"
+  },
+  {
+    "artist": "The National",
+    "track": "Bloodbuzz Ohio",
+    "videoId": "yfySK7CLEEg"
+  },
+  {
+    "artist": "Interpol",
+    "track": "Obstacle 1",
+    "videoId": "OC5zHACynR4"
+  },
+  {
+    "artist": "The Strokes",
+    "track": "Last Nite",
+    "videoId": "TOypSnKFHrE"
+  },
+  {
+    "artist": "Arcade Fire",
+    "track": "Wake Up",
+    "videoId": "sJRPPUr1yic"
+  },
+  {
+    "artist": "Blur",
+    "track": "Song 2",
+    "videoId": "SSbBvKaM6sk"
+  },
+  {
+    "artist": "Pulp",
+    "track": "Common People",
+    "videoId": "yuTMWgOduFM"
+  },
+  {
+    "artist": "Suede",
+    "track": "Animal Nitrate",
+    "videoId": "i7mEB2wnDLQ"
+  },
+  {
+    "artist": "The Verve",
+    "track": "Bitter Sweet Symphony",
+    "videoId": "1lyu1KKwC74"
+  },
+  {
+    "artist": "The Kinks",
+    "track": "You Really Got Me",
+    "videoId": "_dHK6hLNTAI"
+  },
+  {
+    "artist": "The Who",
+    "track": "Baba O’Riley",
+    "videoId": "gY5rztWa1TM"
+  },
+  {
+    "artist": "Dire Straits",
+    "track": "Sultans of Swing",
+    "videoId": "h0ffIJ7ZO4U"
+  },
+  {
+    "artist": "XTC",
+    "track": "Making Plans for Nigel",
+    "videoId": "n-X3Wy-svIY"
+  },
+  {
+    "artist": "Squeeze",
+    "track": "Cool for Cats",
+    "videoId": "uJ2cEc_TCH8"
+  },
+  {
+    "artist": "Split Enz",
+    "track": "I Got You",
+    "videoId": "wiqBlKnb91A"
+  },
+  {
+    "artist": "Crowded House",
+    "track": "Don’t Dream It’s Over",
+    "videoId": "J9gKyRmic20"
+  },
+  {
+    "artist": "Icehouse",
+    "track": "Great Southern Land",
+    "videoId": "YWHcQPR2S-U"
+  },
+  {
+    "artist": "Australian Crawl",
+    "track": "Reckless",
+    "videoId": "yEPp5gJaCXM"
+  },
+  {
+    "artist": "The Angels",
+    "track": "Am I Ever Gonna See Your Face Again",
+    "videoId": "W0u4smTIaRc"
+  },
+  {
+    "artist": "Paul Kelly",
+    "track": "To Her Door",
+    "videoId": "P6FF3-SWwsE"
+  },
+  {
+    "artist": "The Sunnyboys",
+    "track": "Alone With You",
+    "videoId": "FRazvQ8Pai0"
+  },
+  {
+    "artist": "The Cruel Sea",
+    "track": "The Honeymoon Is Over",
+    "videoId": "6WXeH3PRBUc"
+  },
+  {
+    "artist": "You Am I",
+    "track": "Berlin Chair",
+    "videoId": "Nwsyr5gAEuM"
+  },
+  {
+    "artist": "Powderfinger",
+    "track": "These Days",
+    "videoId": "7XaSm9-r_4U"
+  },
+  {
+    "artist": "The Whitlams",
+    "track": "No Aphrodisiac",
+    "videoId": "8qi7SlM1eDk"
+  },
+  {
+    "artist": "Something for Kate",
+    "track": "Monsters",
+    "videoId": "j9fTc5dxUdk"
+  },
+  {
+    "artist": "The Black Keys",
+    "track": "Lonely Boy",
+    "videoId": "a_426RiwST8"
+  },
+  {
+    "artist": "The War on Drugs",
+    "track": "Red Eyes",
+    "videoId": "1LmX5c7HoUw"
+  },
+  {
+    "artist": "The White Stripes",
+    "track": "Seven Nation Army",
+    "videoId": "0J2QdDbelmY"
+  },
+  {
+    "artist": "Primal Scream",
+    "track": "Loaded",
+    "videoId": "Y3ixEzKA4k0"
+  },
+  {
+    "artist": "The Dandy Warhols",
+    "track": "Bohemian Like You",
+    "videoId": "CU3mc0yvRNk"
+  },
+  {
+    "artist": "Spiritualized",
+    "track": "Ladies and Gentlemen We Are Floating in Space",
+    "videoId": "-UGbOqadHb0"
+  },
+  {
+    "artist": "The Waterboys",
+    "track": "The Whole of the Moon",
+    "videoId": "sBW8Vnp8BzU"
+  },
+  {
+    "artist": "Tears for Fears",
+    "track": "Everybody Wants to Rule the World",
+    "videoId": "aGCdLKXNF3w"
+  }
+];
+
+function spreadSongRotation(established,newcomers){
+  const establishedOrder=seededShuffle(established,0x20050319);
+  const newcomerOrder=seededShuffle(newcomers,0x20261007);
+  const total=establishedOrder.length+newcomerOrder.length;
+  const order=[];
+  let establishedIndex=0,newcomerIndex=0;
+  for(let slot=0;slot<total;slot++){
+    const newcomersDue=Math.floor((slot+1)*newcomerOrder.length/total);
+    order.push(newcomerIndex<newcomersDue
+      ? newcomerOrder[newcomerIndex++]
+      : establishedOrder[establishedIndex++]);
+  }
+  // Swap a later clip into any adjacent repeat without dropping a song.
+  for(let i=1;i<order.length;i++){
+    if(order[i].artist!==order[i-1].artist)continue;
+    const repeatedArtist=order[i].artist;
+    const next=order.findIndex((song,j)=>j>i
+      && song.artist!==repeatedArtist
+      && (i+1>=order.length || song.artist!==order[i+1].artist)
+      && order[j-1].artist!==repeatedArtist
+      && (j+1>=order.length || order[j+1].artist!==repeatedArtist));
+    if(next!==-1)[order[i],order[next]]=[order[next],order[i]];
+  }
+  return order;
+}
+const songRotation=spreadSongRotation(verifiedSongs,extraVerifiedSongs);
+document.querySelectorAll('[data-rotation-summary]').forEach(e=>{
+  e.textContent=`The daily clip draws from ${new Set(songRotation.map(song=>song.artist)).size} artists and ${songRotation.length} direct videos. It changes every three hours in Sydney; every clip plays once before the sequence repeats.`;
+});
 
 function sydneySlotKey(){
   const parts=new Intl.DateTimeFormat('en-CA',{
