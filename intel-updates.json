@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2107561648164585567",
+        "date": "2026-10-06",
+        "dateLabel": "06 OCT 2026 · UTC",
+        "headline": "Korea and Japan air activity reported at 3.2 times normal",
+        "summary": "War Watch Intel reported military air activity near Korea and Japan at nearly 3.2 times normal and multiple transport and surveillance aircraft airborne over the United States. The visible post is truncated before completing a further reference to a US Navy helicopter.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107561648164585567"
+      },
+      {
+        "id": "2107546544580763875",
+        "date": "2026-10-06",
+        "dateLabel": "06 OCT 2026 · UTC",
+        "headline": "US transports and elevated Korea-Japan air activity reported",
+        "summary": "War Watch Intel reported US military transport aircraft airborne over the continental United States and air activity near Korea and Japan at nearly three times the usual level. The post does not provide the comparison baseline.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107546544580763875"
+      },
+      {
+        "id": "2107531442519457833",
+        "date": "2026-10-06",
+        "dateLabel": "06 OCT 2026 · UTC",
+        "headline": "US command, cargo and bomber activity reported",
+        "summary": "War Watch Intel reported a nuclear command aircraft, three cargo aircraft and a bomber airborne over the continental United States. It also described air activity in the Korea-Japan region as nearly three times usual without providing the comparison baseline.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107531442519457833"
+      },
+      {
         "id": "2107516337698345178",
         "date": "2026-10-06",
         "dateLabel": "06 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "US transports and surveillance aircraft reported over UK and North Sea",
         "summary": "War Watch Intel reported multiple US Air Force transport aircraft and a surveillance aircraft airborne over the United Kingdom and North Sea. It identified several as large strategic-airlift cargo aircraft.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2107395512072626457"
-      },
-      {
-        "id": "2107380409767985483",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "Helicopter emergency report repeated; five transports airborne",
-        "summary": "War Watch Intel repeated the report that a US Navy helicopter transmitted an emergency code over the Red Sea near Saudi Arabia, saying its status remained unclear. It also reported five large military transport aircraft airborne.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107380409767985483"
-      },
-      {
-        "id": "2107365304938504697",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "Six US cargo aircraft reported across Atlantic and UK areas",
-        "summary": "War Watch Intel described US military transport activity as unusually high and reported six large cargo aircraft airborne, including several over the Atlantic and United Kingdom. Its visible post also claimed elevated air activity near Taiwan but did not show the full comparison details.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107365304938504697"
-      },
-      {
-        "id": "2107361392458162358",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "War Watch relays Al Jazeera report from Russian-occupied Oleshky",
-        "summary": "War Watch Intel relayed an Al Jazeera-attributed report that people in Russian-occupied Oleshky face hunger, drones and landmines. The visible post does not provide further detail or independent confirmation.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107361392458162358"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2107561829136232492",
+        "date": "2026-10-06",
+        "dateLabel": "06 OCT 2026 · UTC",
+        "headline": "SkyGlass shares report on BAE F-35 electronic-warfare order",
+        "summary": "SkyGlass shared a Defence Blog report that BAE Systems received an order from Lockheed Martin to supply electronic-warfare systems for F-35 production Lots 20 through 22. The post does not state the order value or delivery schedule.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107561829136232492"
+      },
+      {
+        "id": "2107561829119488261",
+        "date": "2026-10-06",
+        "dateLabel": "06 OCT 2026 · UTC",
+        "headline": "SkyGlass shares report on first F-16 Block 72 flight",
+        "summary": "SkyGlass shared a The War Zone report that the first F-16 Block 72 completed its maiden flight and identified Morocco as the launch customer. The post does not provide further flight details.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107561829119488261"
+      },
+      {
+        "id": "2107560961108238488",
+        "date": "2026-10-06",
+        "dateLabel": "06 OCT 2026 · UTC",
+        "headline": "B-52 airborne alert at Midwest City",
+        "summary": "SkyGlass posted an OFF Ground alert for a US Air Force B-52 at Midwest City, Oklahoma, with the displayed identifier 00000000. The alert does not establish its destination or operational purpose.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107560961108238488"
+      },
+      {
+        "id": "2107552324830806323",
+        "date": "2026-10-06",
+        "dateLabel": "06 OCT 2026 · UTC",
+        "headline": "E-6 airborne alert at Midwest City",
+        "summary": "SkyGlass posted an OFF Ground alert for a US military E-6 at Midwest City, Oklahoma. The callsign was shown as NA; the alert does not establish its destination or operational task.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107552324830806323"
+      },
       {
         "id": "2107521124250620391",
         "date": "2026-10-06",
@@ -170,38 +202,6 @@
         "headline": "US P-8 airborne alert at Orange Park",
         "summary": "SkyGlass posted an OFF Ground alert for a US military P-8 at Orange Park, Florida. The callsign was shown as NA; the alert does not confirm its destination or operational purpose.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2107467357987762551"
-      },
-      {
-        "id": "2107429302740349098",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "P-8 MRNR01 on-ground alert at Burton",
-        "summary": "SkyGlass posted an ON Ground alert for Australian-registered military P-8 MRNR01 at Burton, Australia. The alert does not establish its preceding activity or mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107429302740349098"
-      },
-      {
-        "id": "2107403597155582274",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "NATO03 E-3 on-ground alert at Geilenkirchen",
-        "summary": "SkyGlass posted an ON Ground alert for NATO03, a Luxembourg-registered military E-3 Sentry, at Geilenkirchen, Germany. The ground alert does not establish a specific mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107403597155582274"
-      },
-      {
-        "id": "2107399631642452244",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "UK P-8 airborne alert at Lossiemouth",
-        "summary": "SkyGlass posted an OFF Ground alert for a UK-registered military P-8 at Lossiemouth, United Kingdom. The callsign appeared as @@@@@@@@; the alert does not confirm its destination or operational purpose.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107399631642452244"
-      },
-      {
-        "id": "2107383040108286413",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "P-8 BFLO42 airborne alert at Wynyard",
-        "summary": "SkyGlass posted an OFF Ground alert for Australian military P-8 Poseidon BFLO42 at Wynyard, Australia. The alert does not establish its destination or mission.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107383040108286413"
       }
     ]
   }
