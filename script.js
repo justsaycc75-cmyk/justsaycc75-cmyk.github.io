@@ -1726,9 +1726,313 @@ const extraVerifiedSongs=[
     "artist": "Tears for Fears",
     "track": "Everybody Wants to Rule the World",
     "videoId": "aGCdLKXNF3w"
+  },
+  {
+    "artist": "Sunsick Daisy",
+    "track": "Yonder Young Wonder",
+    "videoId": "nG1WDaGnPhw"
+  },
+  {
+    "artist": "Old Mervs",
+    "track": "Old Friend",
+    "videoId": "labK3UMBik0"
+  },
+  {
+    "artist": "Teen Jesus and the Jean Teasers",
+    "track": "AHHHH!",
+    "videoId": "98V-utPJGv8"
+  },
+  {
+    "artist": "Parquet Courts",
+    "track": "Freebird II",
+    "videoId": "jHfOqqQ1DLQ"
+  },
+  {
+    "artist": "Tony Joe White",
+    "track": "Bubba Jones",
+    "videoId": "s3zTHtaxt6M"
+  },
+  {
+    "artist": "King Stingray",
+    "track": "Let's Go",
+    "videoId": "nEiiCnIAwkg"
+  },
+  {
+    "artist": "Arcadia",
+    "track": "The Flame",
+    "videoId": "sed7pWnaroc"
+  },
+  {
+    "artist": "RocKwiz",
+    "track": "What You Want (Vika and Linda Bull)",
+    "videoId": "xqbEfFSi6gs"
+  },
+  {
+    "artist": "Pink Floyd",
+    "track": "Wish You Were Here",
+    "videoId": "K6qj09OHvjw"
+  },
+  {
+    "artist": "Duran Duran",
+    "track": "Girls on Film",
+    "videoId": "KCjMZMxNr-0"
+  },
+  {
+    "artist": "Radio Free Alice",
+    "track": "Johnny",
+    "videoId": "g0nG5-NHoqU"
+  },
+  {
+    "artist": "Dumbhead",
+    "track": "White Knuckles",
+    "videoId": "6Ty2ivrSz-w"
+  },
+  {
+    "artist": "The Belair Lip Bombs",
+    "track": "Gimme Gimme",
+    "videoId": "zHKlKvF4YZI"
+  },
+  {
+    "artist": "Floodlights",
+    "track": "Nullarbor",
+    "videoId": "8vQMClMZQtk"
+  },
+  {
+    "artist": "Eliza & The Delusionals",
+    "track": "YOU",
+    "videoId": "QlzB1Eq0vAE"
+  },
+  {
+    "artist": "Body Type",
+    "track": "Sick Bag",
+    "videoId": "l2MduGsNATk"
+  },
+  {
+    "artist": "EXEK",
+    "track": "Several Souvenirs",
+    "videoId": "jDQ-p0gXyPk"
+  },
+  {
+    "artist": "Inanna Indigo",
+    "track": "Honey",
+    "videoId": "3CGMf4QCu1M"
+  },
+  {
+    "artist": "Snake Mountain",
+    "track": "Veins",
+    "videoId": "BW6PilEer5s"
+  },
+  {
+    "artist": "MACËY",
+    "track": "Nihilistic by Design",
+    "videoId": "MAoUdNY5goc"
+  },
+  {
+    "artist": "Pacific Avenue",
+    "track": "Strawberry Daydream",
+    "videoId": "EnrpgI3TDdc"
+  },
+  {
+    "artist": "Newport",
+    "track": "Fickle (5:35pm at the beach)",
+    "videoId": "KcXBCftlnnM"
+  },
+  {
+    "artist": "Yes Boone",
+    "track": "All I Really Want",
+    "videoId": "b14kdOtAcYE"
+  },
+  {
+    "artist": "Glycereens",
+    "track": "Ride It Out",
+    "videoId": "8uYiRM618ec"
+  },
+  {
+    "artist": "The Cars",
+    "track": "Hello Again",
+    "videoId": "KXpJ0bM5zbM"
+  },
+  {
+    "artist": "Blondie",
+    "track": "Atomic",
+    "videoId": "O_WLw_0DFQQ"
+  },
+  {
+    "artist": "Siouxsie and the Banshees",
+    "track": "Stargazer",
+    "videoId": "NLCTm0gvqMU"
+  },
+  {
+    "artist": "The Pretenders",
+    "track": "Kid",
+    "videoId": "a9K14_By3zM"
+  },
+  {
+    "artist": "Roxy Music",
+    "track": "More Than This",
+    "videoId": "kOnde5c7OG8"
+  },
+  {
+    "artist": "Bryan Ferry",
+    "track": "Slave To Love",
+    "videoId": "UH1CMCtV4to"
+  },
+  {
+    "artist": "Peter Gabriel",
+    "track": "Sledgehammer",
+    "videoId": "OJWJE0x7T4Q"
+  },
+  {
+    "artist": "Magazine",
+    "track": "The Light Pours Out Of Me",
+    "videoId": "OFGA2HbCa0A"
+  },
+  {
+    "artist": "Gang of Four",
+    "track": "Is It Love",
+    "videoId": "xQOJ6Va03B0"
+  },
+  {
+    "artist": "The Human League",
+    "track": "Don't You Want Me",
+    "videoId": "uPudE8nDog0"
+  },
+  {
+    "artist": "Orchestral Manoeuvres in the Dark",
+    "track": "If You Leave",
+    "videoId": "EPmTGFg06zA"
+  },
+  {
+    "artist": "The Specials",
+    "track": "What I Like Most About You Is Your Girlfriend",
+    "videoId": "hi_uV6ojDSs"
+  },
+  {
+    "artist": "Madness",
+    "track": "Baggy Trousers",
+    "videoId": "Dc3AovUZgvo"
+  },
+  {
+    "artist": "The Style Council",
+    "track": "Speak Like A Child",
+    "videoId": "ZlCCva6rr-s"
+  },
+  {
+    "artist": "Joe Jackson",
+    "track": "Steppin' Out",
+    "videoId": "PJwt2dxx9yg"
+  },
+  {
+    "artist": "The Undertones",
+    "track": "Teenage Kicks",
+    "videoId": "PinCg7IGqHg"
+  },
+  {
+    "artist": "Buzzcocks",
+    "track": "What Do I Get?",
+    "videoId": "iMXR7w76VZU"
+  },
+  {
+    "artist": "Patti Smith",
+    "track": "Summer Cannibals",
+    "videoId": "vBJtS3IhwCY"
+  },
+  {
+    "artist": "Ramones",
+    "track": "I Wanna Be Sedated",
+    "videoId": "bm51ihfi1p4"
+  },
+  {
+    "artist": "Public Image Ltd",
+    "track": "This Is Not A Love Song",
+    "videoId": "Az_GCJnXAI0"
+  },
+  {
+    "artist": "Killing Joke",
+    "track": "Sanity",
+    "videoId": "v5MftVtnU_k"
+  },
+  {
+    "artist": "Bauhaus",
+    "track": "She's In Parties",
+    "videoId": "Qxqq5vahHKk"
+  },
+  {
+    "artist": "The Sisters of Mercy",
+    "track": "Lucretia My Reflection",
+    "videoId": "aC-enyY6W8I"
+  },
+  {
+    "artist": "The Cult",
+    "track": "She Sells Sanctuary",
+    "videoId": "ZCOSPtyZAPA"
+  },
+  {
+    "artist": "Love and Rockets",
+    "track": "So Alive",
+    "videoId": "-L41MhFPU9s"
+  },
+  {
+    "artist": "Cocteau Twins",
+    "track": "Heaven Or Las Vegas",
+    "videoId": "6KnYw4EwYGc"
+  },
+  {
+    "artist": "The Fall",
+    "track": "Hit The North",
+    "videoId": "v5zav2yrC7M"
+  },
+  {
+    "artist": "Crime & The City Solution",
+    "track": "Rose Blue",
+    "videoId": "lQlzYAM2RtQ"
+  },
+  {
+    "artist": "Rowland S. Howard",
+    "track": "The Golden Age Of Bloodshed",
+    "videoId": "0wOaboANKiY"
+  },
+  {
+    "artist": "Beasts of Bourbon",
+    "track": "Just Right",
+    "videoId": "_KO3lFH1BAU"
+  },
+  {
+    "artist": "The Scientists",
+    "track": "Outsider",
+    "videoId": "JM27yG9UqSw"
+  },
+  {
+    "artist": "The Moodists",
+    "track": "Double Life",
+    "videoId": "WKljMtFtSyE"
+  },
+  {
+    "artist": "The Apartments",
+    "track": "Death Would Be My Best Career Move",
+    "videoId": "X0gvGzHw6QQ"
+  },
+  {
+    "artist": "The Celibate Rifles",
+    "track": "Kent's Theme",
+    "videoId": "F4TVIAmOvUI"
+  },
+  {
+    "artist": "The Lime Spiders",
+    "track": "Cherry Red",
+    "videoId": "YXYbwqSEBMk"
+  },
+  {
+    "artist": "The Moffs",
+    "track": "The Traveller",
+    "videoId": "1lyuW3nD7v0"
+  },
+  {
+    "artist": "Underground Lovers",
+    "track": "Every Sign",
+    "videoId": "yJGqpwm8p24"
   }
 ];
-
 const songCatalog=[...verifiedSongs,...extraVerifiedSongs];
 const songsByArtist=new Map();
 for(const song of songCatalog){
