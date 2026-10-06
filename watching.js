@@ -1,5 +1,47 @@
 (()=>{
   const shows={
+    'The Bourne Supremacy':{
+      video:'Y-HqyyfBbSo',
+      link:'https://www.youtube.com/watch?v=Y-HqyyfBbSo',
+      poster:'assets/img/watching/bourne-supremacy.png',
+      summary:'After being framed for a botched CIA operation, Jason Bourne is forced out of hiding. Matt Damon returns for a fast, tense chase through Europe as he pursues the truth about his past.',
+      source:'Rotten Tomatoes Classic Trailers'
+    },
+    'Sicario: Day of the Soldado':{
+      video:'sIMChzE_aCo',
+      link:'https://www.youtube.com/watch?v=sIMChzE_aCo',
+      poster:'assets/img/watching/sicario.png',
+      summary:'Federal agent Matt Graver and operative Alejandro Gillick are drawn back to the US–Mexico border when a covert operation against the cartels spirals beyond their control.',
+      source:'Sony Pictures'
+    },
+    'Nurse Jackie':{
+      video:'DwtsxI8CXlQ',
+      link:'https://www.youtube.com/watch?v=DwtsxI8CXlQ',
+      poster:'assets/img/watching/nurse-jackie.png',
+      summary:'Edie Falco plays a sharp, rule-bending emergency nurse who can handle almost any crisis at work while concealing an addiction and a dangerously complicated private life.',
+      source:'Showtime'
+    },
+    'The Pacific':{
+      video:'e99B80crU3E',
+      link:'https://www.youtube.com/watch?v=e99B80crU3E',
+      poster:'assets/img/watching/the-pacific.png',
+      summary:'This ten-part World War II drama follows three US Marines through the Pacific campaign, from Guadalcanal to Okinawa, and the difficult return home.',
+      source:'HBO'
+    },
+    'Playing Gracie Darling':{
+      video:'5dZeguYLgIU',
+      link:'https://www.youtube.com/watch?v=5dZeguYLgIU',
+      poster:'assets/img/watching/gracie-darling.png',
+      summary:'Twenty-seven years after her best friend vanished during a séance, Joni returns to a small town when another girl disappears in eerily similar circumstances.',
+      source:'Paramount+ Australia'
+    },
+    'Californication':{
+      video:'gQ7yaQhXJAI',
+      link:'https://www.youtube.com/watch?v=gQ7yaQhXJAI',
+      poster:'assets/img/watching/californication.png',
+      summary:'David Duchovny plays Hank Moody, a novelist struggling with work, fatherhood and his feelings for his former partner while repeatedly giving in to temptation in Los Angeles.',
+      source:'Showtime'
+    },
     'The Newsroom':{
       search:"The Newsroom HBO Jeff Daniels official trailer",
       wiki:'The Newsroom (American TV series)',
@@ -291,7 +333,11 @@
         if(fallback)fallback.hidden=false;
         img.remove();
       };
-      if(info.video){
+      if(info.poster){
+        img.classList.add('promo-image');
+        img.src=info.poster;
+        thumb.prepend(img);
+      }else if(info.video){
         img.src=`https://i.ytimg.com/vi/${info.video}/hqdefault.jpg`;
         thumb.prepend(img);
       }else if(info.wiki){
