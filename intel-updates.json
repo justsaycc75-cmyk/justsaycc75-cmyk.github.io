@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2107380409767985483",
+        "date": "2026-10-06",
+        "dateLabel": "06 OCT 2026 · UTC",
+        "headline": "Helicopter emergency report repeated; five transports airborne",
+        "summary": "War Watch Intel repeated the report that a US Navy helicopter transmitted an emergency code over the Red Sea near Saudi Arabia, saying its status remained unclear. It also reported five large military transport aircraft airborne.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107380409767985483"
+      },
+      {
+        "id": "2107365304938504697",
+        "date": "2026-10-06",
+        "dateLabel": "06 OCT 2026 · UTC",
+        "headline": "Six US cargo aircraft reported across Atlantic and UK areas",
+        "summary": "War Watch Intel described US military transport activity as unusually high and reported six large cargo aircraft airborne, including several over the Atlantic and United Kingdom. Its visible post also claimed elevated air activity near Taiwan but did not show the full comparison details.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107365304938504697"
+      },
+      {
+        "id": "2107361392458162358",
+        "date": "2026-10-06",
+        "dateLabel": "06 OCT 2026 · UTC",
+        "headline": "War Watch relays Al Jazeera report from Russian-occupied Oleshky",
+        "summary": "War Watch Intel relayed an Al Jazeera-attributed report that people in Russian-occupied Oleshky face hunger, drones and landmines. The visible post does not provide further detail or independent confirmation.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107361392458162358"
+      },
+      {
+        "id": "2107355068802404409",
+        "date": "2026-10-06",
+        "dateLabel": "06 OCT 2026 · UTC",
+        "headline": "War Watch relays warning concerning UK drone factories",
+        "summary": "War Watch Intel relayed an Al Jazeera-attributed report that a Kremlin adviser warned UK drone factories could face attacks. The post records the reported warning; it does not establish that any attack occurred.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107355068802404409"
+      },
+      {
+        "id": "2107350203544089043",
+        "date": "2026-10-06",
+        "dateLabel": "06 OCT 2026 · UTC",
+        "headline": "US transports, helicopter emergency and Eastern Mediterranean activity reported",
+        "summary": "War Watch Intel reported multiple US Air Force transport aircraft airborne over the United States, repeated the Navy helicopter emergency-code report near Saudi Arabia, and claimed Eastern Mediterranean air activity was 2.6 times normal. The post does not state the comparison baseline.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107350203544089043"
+      },
+      {
         "id": "2107335103047188924",
         "date": "2026-10-06",
         "dateLabel": "06 OCT 2026 · UTC",
@@ -59,46 +99,6 @@
         "headline": "War Watch relays CENTCOM vessel-redirection claim",
         "summary": "War Watch Intel relayed a report credited to @reagan0965 that CENTCOM said it had redirected a 130th commercial vessel while enforcing a naval blockade of Iranian ports. The entry records the claim in War Watch's post; it does not independently confirm the interception.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2107254678467572215"
-      },
-      {
-        "id": "2107248386353021248",
-        "date": "2026-10-05",
-        "dateLabel": "05 OCT 2026 · UTC",
-        "headline": "War Watch relays Seahawk emergency-code report",
-        "summary": "War Watch Intel relayed a report credited to @reagan0965 that a US Navy MH-60R Seahawk helicopter transmitted emergency transponder code 7700 over the Red Sea near Yanbu, Saudi Arabia. The visible post does not establish the emergency's cause or outcome.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107248386353021248"
-      },
-      {
-        "id": "2107244480369742217",
-        "date": "2026-10-05",
-        "dateLabel": "05 OCT 2026 · UTC",
-        "headline": "Reconnaissance and transport activity with elevated radio traffic",
-        "summary": "War Watch Intel reported US Air Force reconnaissance and transport aircraft activity across multiple regions and elevated coded radio traffic worldwide. The post does not identify individual flights or explain the broadcasts.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107244480369742217"
-      },
-      {
-        "id": "2107229375951192345",
-        "date": "2026-10-05",
-        "dateLabel": "05 OCT 2026 · UTC",
-        "headline": "Airborne US transports and three reported radio broadcasts",
-        "summary": "War Watch Intel reported transport aircraft and a surveillance aircraft airborne over the continental United States. It said three coded radio broadcasts had been heard that day, with the latest at 21:50 Zulu.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107229375951192345"
-      },
-      {
-        "id": "2107221242986012743",
-        "date": "2026-10-05",
-        "dateLabel": "05 OCT 2026 · UTC",
-        "headline": "War Watch relays AFP report of explosions in Saudi capital",
-        "summary": "War Watch Intel posted an AFP-attributed report that two loud explosions were heard in the Saudi capital. The post does not establish their cause or any casualties.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107221242986012743"
-      },
-      {
-        "id": "2107214408849981455",
-        "date": "2026-10-05",
-        "dateLabel": "05 OCT 2026 · UTC",
-        "headline": "Three US transports, bomber and command aircraft reported airborne",
-        "summary": "War Watch Intel reported three large US Air Force transport aircraft and a bomber airborne over the United States, alongside surveillance and nuclear command jets. It also reported two coded US Air Force radio broadcasts earlier that day.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107214408849981455"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2107383040108286413",
+        "date": "2026-10-06",
+        "dateLabel": "06 OCT 2026 · UTC",
+        "headline": "P-8 BFLO42 airborne alert at Wynyard",
+        "summary": "SkyGlass posted an OFF Ground alert for Australian military P-8 Poseidon BFLO42 at Wynyard, Australia. The alert does not establish its destination or mission.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107383040108286413"
+      },
+      {
+        "id": "2107380686759862563",
+        "date": "2026-10-06",
+        "dateLabel": "06 OCT 2026 · UTC",
+        "headline": "SkyGlass shares report on Buntar Aerospace funding",
+        "summary": "SkyGlass shared a Defence Blog report that Ukrainian reconnaissance-drone maker Buntar Aerospace raised $16 million. The post says the funding is intended to scale drone production and battlefield-AI work.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107380686759862563"
+      },
+      {
+        "id": "2107380686751400341",
+        "date": "2026-10-06",
+        "dateLabel": "06 OCT 2026 · UTC",
+        "headline": "SkyGlass shares report on MICRO-D laser-pod orders",
+        "summary": "SkyGlass shared a Defence Blog report that a Rafael-linked company received initial orders for its MICRO-D laser-designation pod for unmanned aircraft. The post presents the report's description of the system; it does not independently verify deployment.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107380686751400341"
+      },
+      {
+        "id": "2107370411855917522",
+        "date": "2026-10-06",
+        "dateLabel": "06 OCT 2026 · UTC",
+        "headline": "P-8 MRNR01 airborne alert at Golden Grove",
+        "summary": "SkyGlass posted an OFF Ground alert for Australian military P-8 Poseidon MRNR01 at Golden Grove, Australia. The alert does not establish its destination or operational purpose.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107370411855917522"
+      },
       {
         "id": "2107338466929283291",
         "date": "2026-10-06",
@@ -170,38 +202,6 @@
         "headline": "P-8 airborne alert at Port Hueneme",
         "summary": "SkyGlass posted an OFF Ground alert for a US-registered military P-8 at Port Hueneme, United States. The callsign was shown as NA; the alert does not confirm an operational purpose.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2107255490988179857"
-      },
-      {
-        "id": "2107248201661087892",
-        "date": "2026-10-05",
-        "dateLabel": "05 OCT 2026 · UTC",
-        "headline": "Boeing 737 CNV5406 airborne alert at Lentini",
-        "summary": "SkyGlass posted an OFF Ground alert for a Boeing 737 with callsign CNV5406 at Lentini, Italy, describing it as US-registered military aircraft. Its destination, passengers and operational purpose are not established by the alert.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107248201661087892"
-      },
-      {
-        "id": "2107233389317152847",
-        "date": "2026-10-05",
-        "dateLabel": "05 OCT 2026 · UTC",
-        "headline": "P-8 BFLO41 on-ground alert at Burton",
-        "summary": "SkyGlass posted an ON Ground alert for a P-8 with callsign BFLO41 at Burton, Australia, describing it as Australian-registered military aircraft. The alert does not confirm a mission or the reason for its ground status.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107233389317152847"
-      },
-      {
-        "id": "2107226406694371777",
-        "date": "2026-10-05",
-        "dateLabel": "05 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Al Sajaah",
-        "summary": "SkyGlass posted an OFF Ground alert for a US military P-8 at Al Sajaah, United Arab Emirates. The callsign appeared as @@@@@@@@; the alert does not establish a destination or operational purpose.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107226406694371777"
-      },
-      {
-        "id": "2107218115209671080",
-        "date": "2026-10-05",
-        "dateLabel": "05 OCT 2026 · UTC",
-        "headline": "P-8 on-ground alert at Hickam Field",
-        "summary": "SkyGlass posted an ON Ground alert for a US-registered Boeing P-8 Poseidon at Hickam Field, Hawaii. The callsign was shown as NA; the alert does not establish a mission or deployment purpose.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107218115209671080"
       }
     ]
   }
