@@ -2031,6 +2031,381 @@ const extraVerifiedSongs=[
     "artist": "Underground Lovers",
     "track": "Every Sign",
     "videoId": "yJGqpwm8p24"
+  },
+  {
+    "artist": "The Fauves",
+    "track": "Bathe",
+    "videoId": "leWU5V20WAU"
+  },
+  {
+    "artist": "Even",
+    "track": "Retribution",
+    "videoId": "ltW6kGDSASw"
+  },
+  {
+    "artist": "The Drones",
+    "track": "Jezebel",
+    "videoId": "MvfV56fzY_g"
+  },
+  {
+    "artist": "Dirty Three",
+    "track": "Love Changes Everything I",
+    "videoId": "YyRWtJ--C5Q"
+  },
+  {
+    "artist": "The Sleepy Jackson",
+    "track": "God Lead Your Soul",
+    "videoId": "8AUq6Y9GWR8"
+  },
+  {
+    "artist": "Augie March",
+    "track": "One Crowded Hour",
+    "videoId": "LejMbZjZUvk"
+  },
+  {
+    "artist": "The Panics",
+    "track": "Majesty",
+    "videoId": "O0NspQucpdc"
+  },
+  {
+    "artist": "Youth Group",
+    "track": "Cusp",
+    "videoId": "zvJ--wcuiOE"
+  },
+  {
+    "artist": "British India",
+    "track": "Blinded",
+    "videoId": "RRNUJfA4pcU"
+  },
+  {
+    "artist": "DMA’S",
+    "track": "Silver",
+    "videoId": "JcBrDDjoGfw"
+  },
+  {
+    "artist": "Rolling Blackouts Coastal Fever",
+    "track": "Tidal River",
+    "videoId": "SQKzzGiZ6Gg"
+  },
+  {
+    "artist": "The Teskey Brothers",
+    "track": "I Get Up",
+    "videoId": "R5fjHGtvPl8"
+  },
+  {
+    "artist": "King Gizzard & The Lizard Wizard",
+    "track": "Planet B",
+    "videoId": "qtTi_uyYynA"
+  },
+  {
+    "artist": "The Vines",
+    "track": "Ride",
+    "videoId": "KL_dI3GtB4o"
+  },
+  {
+    "artist": "Jet",
+    "track": "Are You Gonna Be My Girl",
+    "videoId": "tuK6n2Lkza0"
+  },
+  {
+    "artist": "Silverchair",
+    "track": "Freak",
+    "videoId": "8KHwuOtcALQ"
+  },
+  {
+    "artist": "Regurgitator",
+    "track": "Black Bugs",
+    "videoId": "NCA7--Qcp78"
+  },
+  {
+    "artist": "Grinspoon",
+    "track": "Repeat",
+    "videoId": "p1Q4wVPaqMU"
+  },
+  {
+    "artist": "Jebediah",
+    "track": "Jerks of Attention",
+    "videoId": "FZsUoW4xUBA"
+  },
+  {
+    "artist": "Magic Dirt",
+    "track": "Ice",
+    "videoId": "Zn6AxRrFH0s"
+  },
+  {
+    "artist": "Custard",
+    "track": "Girls Like That (Don't Go For Guys Like Us)",
+    "videoId": "3ii6GyifD4E"
+  },
+  {
+    "artist": "The Living End",
+    "track": "Tabloid Magazine",
+    "videoId": "h2kNa8xNOwo"
+  },
+  {
+    "artist": "The Superjesus",
+    "track": "Gravity",
+    "videoId": "pC-gAD-0-OY"
+  },
+  {
+    "artist": "Baby Animals",
+    "track": "One Word",
+    "videoId": "vtvyXXV6NGU"
+  },
+  {
+    "artist": "Divinyls",
+    "track": "I Touch Myself",
+    "videoId": "wv-34w8kGPM"
+  },
+  {
+    "artist": "Boom Crash Opera",
+    "track": "Onion Skin",
+    "videoId": "-YCxgv2kFR8"
+  },
+  {
+    "artist": "Machinations",
+    "track": "No Say In It",
+    "videoId": "rr7gTee_pgI"
+  },
+  {
+    "artist": "The Reels",
+    "track": "Prefab Heart",
+    "videoId": "O7qE6gWnRCA"
+  },
+  {
+    "artist": "Jo Jo Zep & The Falcons",
+    "track": "Hit And Run",
+    "videoId": "vd-DgFWIuPM"
+  },
+  {
+    "artist": "Dragon",
+    "track": "Rain",
+    "videoId": "WuSCiJofGhk"
+  },
+  {
+    "artist": "Skyhooks",
+    "track": "Living in the 70's",
+    "videoId": "cLUtKKoMetM"
+  },
+  {
+    "artist": "Mondo Rock",
+    "track": "Come Said The Boy",
+    "videoId": "Tu1GLEh3wO4"
+  },
+  {
+    "artist": "The Black Sorrows",
+    "track": "Never Let Me Go",
+    "videoId": "VLQmwMhj4GA"
+  },
+  {
+    "artist": "The Badloves",
+    "track": "Green Limousine",
+    "videoId": "Jot_FEzh6Tc"
+  },
+  {
+    "artist": "Grant Lee Buffalo",
+    "track": "Homespun",
+    "videoId": "e9YpMGDB27U"
+  },
+  {
+    "artist": "Wilco",
+    "track": "Outtasite (Outta Mind)",
+    "videoId": "YcaGlJGijj0"
+  },
+  {
+    "artist": "The Decemberists",
+    "track": "16 Military Wives",
+    "videoId": "E7fzUGR8ZH4"
+  },
+  {
+    "artist": "Spoon",
+    "track": "Don't You Evah",
+    "videoId": "w4tdqBuCxlE"
+  },
+  {
+    "artist": "Modest Mouse",
+    "track": "Dashboard",
+    "videoId": "penvn9VL32Y"
+  },
+  {
+    "artist": "Death Cab for Cutie",
+    "track": "You Are A Tourist",
+    "videoId": "qkk5wViJo-I"
+  },
+  {
+    "artist": "The Shins",
+    "track": "New Slang",
+    "videoId": "zYwCmcB0XMw"
+  },
+  {
+    "artist": "Belle and Sebastian",
+    "track": "Perfect Couples",
+    "videoId": "VdkoZLdEz_U"
+  },
+  {
+    "artist": "Teenage Fanclub",
+    "track": "Day In The Sun",
+    "videoId": "D6d_Fh91X5Y"
+  },
+  {
+    "artist": "Slowdive",
+    "track": "Alison",
+    "videoId": "jkM3M3zGcGE"
+  },
+  {
+    "artist": "My Bloody Valentine",
+    "track": "Feed Me With Your Kiss",
+    "videoId": "9rxE0Mr_U8U"
+  },
+  {
+    "artist": "Editors",
+    "track": "Call It In",
+    "videoId": "IV_pGLNQ3q4"
+  },
+  {
+    "artist": "Foals",
+    "track": "Exits",
+    "videoId": "V6YMCjpfH0c"
+  },
+  {
+    "artist": "The Last Shadow Puppets",
+    "track": "Aviation",
+    "videoId": "Fd1Xc6-6VVg"
+  },
+  {
+    "artist": "The Libertines",
+    "track": "Don't Look Back Into The Sun",
+    "videoId": "jLYsIESNtUc"
+  },
+  {
+    "artist": "The Beat",
+    "track": "Mirror in the Bathroom",
+    "videoId": "iFbwOhV137Q"
+  },
+  {
+    "artist": "Graham Parker",
+    "track": "Local Girls",
+    "videoId": "4C2SkcC3TXc"
+  },
+  {
+    "artist": "Wire",
+    "track": "Outdoor Miner",
+    "videoId": "jrwNkcVZOs4"
+  },
+  {
+    "artist": "Television",
+    "track": "Marquee Moon",
+    "videoId": "g4myghLPLZc"
+  },
+  {
+    "artist": "Richard Hell & The Voidoids",
+    "track": "Blank Generation",
+    "videoId": "zr38FooIId0"
+  },
+  {
+    "artist": "The Damned",
+    "track": "New Rose",
+    "videoId": "6olrtHmM3kI"
+  },
+  {
+    "artist": "The Mission",
+    "track": "Wasteland",
+    "videoId": "SQhjT0B9ZBU"
+  },
+  {
+    "artist": "The Chameleons",
+    "track": "Swamp Thing",
+    "videoId": "lYNHjmnlZbA"
+  },
+  {
+    "artist": "The Sound",
+    "track": "Winning",
+    "videoId": "v49GaP6i7RA"
+  },
+  {
+    "artist": "The Birthday Party",
+    "track": "Nick the Stripper",
+    "videoId": "3WO7_Zn_iKU"
+  },
+  {
+    "artist": "Laughing Clowns",
+    "track": "Holy Joe",
+    "videoId": "5245KLDF5-I"
+  },
+  {
+    "artist": "Bluebottle Kiss",
+    "track": "Ounce of Your Cruelty",
+    "videoId": "q1AgZCacLDk"
+  },
+  {
+    "artist": "The Stems",
+    "track": "At First Sight",
+    "videoId": "uZCyWhd92WU"
+  },
+  {
+    "artist": "The Clouds",
+    "track": "Hieronymus",
+    "videoId": "iP0kgrzZW5A"
+  },
+  {
+    "artist": "Ride",
+    "track": "Vapour Trail",
+    "videoId": "dRQwGc4qBk0"
+  },
+  {
+    "artist": "The Sports",
+    "track": "Who Listens to the Radio?",
+    "videoId": "Rd-oYM88niQ"
+  },
+  {
+    "artist": "Deepend & Last Call",
+    "track": "Pocketful of Sunshine",
+    "videoId": "9RQoWmtaFyo"
+  },
+  {
+    "artist": "The Brian Jonestown Massacre",
+    "track": "Going To Hell",
+    "videoId": "oxdcJbmpv9E"
+  },
+  {
+    "artist": "Jack Green",
+    "track": "This Is Japan",
+    "videoId": "iYdGxa5A1sk"
+  },
+  {
+    "artist": "Absent Friends",
+    "track": "I Don't Want To Be With Nobody But You",
+    "videoId": "LVKryHukcZ4"
+  },
+  {
+    "artist": "Tumbleweed",
+    "track": "Sundial",
+    "videoId": "zR7HOPsPabg"
+  },
+  {
+    "artist": "Mi-Sex",
+    "track": "Computer Games",
+    "videoId": "gsHYSs_qgmU"
+  },
+  {
+    "artist": "The Slims",
+    "track": "Crooks",
+    "videoId": "CJbDNM616CY"
+  },
+  {
+    "artist": "Polly",
+    "track": "Doubt",
+    "videoId": "xSdwawug8FU"
+  },
+  {
+    "artist": "Lazy Haze",
+    "track": "Old Town (Live)",
+    "videoId": "P-qRGRIUVL8"
+  },
+  {
+    "artist": "Flowers",
+    "track": "We Can Get Together",
+    "videoId": "PUgkxLTMY3s"
   }
 ];
 const songCatalog=[...verifiedSongs,...extraVerifiedSongs];
