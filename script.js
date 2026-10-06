@@ -270,8 +270,8 @@ function hash(s){let n=0;for(const c of s)n=(n*31+c.charCodeAt(0))>>>0;return n;
   Curated clip rotation:
   - changes every 3 hours in Sydney
   - each clip has a direct YouTube video ID and matching thumbnail
-  - every clip appears once per cycle
-  - single-clip artists are spaced through the cycle for steady variety
+  - every artist appears once before the artist cycle repeats
+  - each artist’s own songs rotate before its clips repeat
 */
 function seededShuffle(list,seed){
   const a=list.slice();
@@ -1729,34 +1729,18 @@ const extraVerifiedSongs=[
   }
 ];
 
-function spreadSongRotation(established,newcomers){
-  const establishedOrder=seededShuffle(established,0x20050319);
-  const newcomerOrder=seededShuffle(newcomers,0x20261007);
-  const total=establishedOrder.length+newcomerOrder.length;
-  const order=[];
-  let establishedIndex=0,newcomerIndex=0;
-  for(let slot=0;slot<total;slot++){
-    const newcomersDue=Math.floor((slot+1)*newcomerOrder.length/total);
-    order.push(newcomerIndex<newcomersDue
-      ? newcomerOrder[newcomerIndex++]
-      : establishedOrder[establishedIndex++]);
-  }
-  // Swap a later clip into any adjacent repeat without dropping a song.
-  for(let i=1;i<order.length;i++){
-    if(order[i].artist!==order[i-1].artist)continue;
-    const repeatedArtist=order[i].artist;
-    const next=order.findIndex((song,j)=>j>i
-      && song.artist!==repeatedArtist
-      && (i+1>=order.length || song.artist!==order[i+1].artist)
-      && order[j-1].artist!==repeatedArtist
-      && (j+1>=order.length || order[j+1].artist!==repeatedArtist));
-    if(next!==-1)[order[i],order[next]]=[order[next],order[i]];
-  }
-  return order;
+const songCatalog=[...verifiedSongs,...extraVerifiedSongs];
+const songsByArtist=new Map();
+for(const song of songCatalog){
+  if(!songsByArtist.has(song.artist))songsByArtist.set(song.artist,[]);
+  songsByArtist.get(song.artist).push(song);
 }
-const songRotation=spreadSongRotation(verifiedSongs,extraVerifiedSongs);
+const artistOrder=seededShuffle([...songsByArtist.keys()],0x20261007);
+for(const [artist,songs] of songsByArtist){
+  songsByArtist.set(artist,seededShuffle(songs,hash(artist)));
+}
 document.querySelectorAll('[data-rotation-summary]').forEach(e=>{
-  e.textContent=`The daily clip draws from ${new Set(songRotation.map(song=>song.artist)).size} artists and ${songRotation.length} direct videos. It changes every three hours in Sydney; every clip plays once before the sequence repeats.`;
+  e.textContent=`The daily clip draws from ${artistOrder.length} artists and ${songCatalog.length} direct videos. It changes every three hours in Sydney; each artist appears once before the artist cycle repeats.`;
 });
 
 function sydneySlotKey(){
@@ -1772,8 +1756,11 @@ function sydneySlotKey(){
 }
 
 const currentSlot=sydneySlotKey();
-const songIndex=((currentSlot.serial%songRotation.length)+songRotation.length)%songRotation.length;
-const songPick=songRotation[songIndex];
+const artistIndex=((currentSlot.serial%artistOrder.length)+artistOrder.length)%artistOrder.length;
+const artist=artistOrder[artistIndex];
+const artistCycle=Math.floor(currentSlot.serial/artistOrder.length);
+const artistSongs=songsByArtist.get(artist);
+const songPick=artistSongs[((artistCycle%artistSongs.length)+artistSongs.length)%artistSongs.length];
 const key=currentSlot.key;
 const clipUrl='https://www.youtube.com/watch?v='+songPick.videoId;
 const artworkUrl='https://i.ytimg.com/vi/'+songPick.videoId+'/maxresdefault.jpg';
