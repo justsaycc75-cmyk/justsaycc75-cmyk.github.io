@@ -2419,7 +2419,7 @@ for(const [artist,songs] of songsByArtist){
   songsByArtist.set(artist,seededShuffle(songs,hash(artist)));
 }
 document.querySelectorAll('[data-rotation-summary]').forEach(e=>{
-  e.textContent=`The daily clip draws from ${artistOrder.length} artists and ${songCatalog.length} direct videos. It changes every three hours in Sydney; each artist appears once before the artist cycle repeats.`;
+  e.textContent=`The featured clip draws from ${artistOrder.length} artists and ${songCatalog.length} direct videos. It changes every three hours in Sydney; each artist appears once before the artist cycle repeats.`;
 });
 
 function sydneySlotKey(){
