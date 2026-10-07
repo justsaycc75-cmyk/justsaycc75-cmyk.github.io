@@ -1,5 +1,19 @@
 (()=>{
   const shows={
+    'Top of the Lake':{
+      video:'TujPm45jhLw',
+      link:'https://www.youtube.com/watch?v=TujPm45jhLw',
+      poster:'https://www.transmissionfilms.com.au/uploads/_images/57490f8c75acb5491901321715bf4d040a1a0742.jpg',
+      summary:'In a remote New Zealand town, Detective Robin Griffin investigates the disappearance of 12-year-old Tui. Jane Campion’s mystery layers the search with family secrets, power and a haunting alpine landscape.',
+      source:'Transmission Films'
+    },
+    'No Country for Old Men':{
+      video:'A0oNrgumrlE',
+      link:'https://www.youtube.com/watch?v=A0oNrgumrlE',
+      poster:'https://www.miramax.com/assets/no_country_for_old_men_scrubbed_150406.jpg',
+      summary:'A hunter pockets cash from a drug deal gone wrong in West Texas, drawing a relentless killer into pursuit while an ageing sheriff tries to understand the violence left behind.',
+      source:'Miramax'
+    },
     'The Bourne Supremacy':{
       video:'Y-HqyyfBbSo',
       link:'https://www.youtube.com/watch?v=Y-HqyyfBbSo',
