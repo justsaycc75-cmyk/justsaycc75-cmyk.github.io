@@ -246,3 +246,64 @@
     });
   });
 })();
+
+/* Front-page travel photo, webcam, and random site picker */
+(()=>{
+  const frame=document.querySelector('.hero-photo-feature');
+  if(frame){
+    const slides=[
+      {src:'assets/img/crown_sunset.webp',alt:'Cruise ship at sunset',title:'Sunset at sea',href:'journeys.html',link:'Explore our journeys →',position:'center 48%'},
+      {src:'assets/img/hunter1.webp',alt:'Hunter Valley scenery',title:'Hunter Valley afternoons',href:'hunter.html',link:'Explore the Hunter →',position:'center 48%'},
+      {src:'assets/img/nz.webp',alt:'New Zealand cruise scenery',title:'Across the Tasman',href:'journeys.html',link:'Explore our journeys →',position:'center 50%'},
+      {src:'assets/img/dunedin.webp',alt:'Dunedin in New Zealand',title:'A day in Dunedin',href:'journeys.html',link:'Explore our journeys →',position:'center 48%'}
+    ];
+    const img=frame.querySelector('[data-hero-photo]');
+    const title=frame.querySelector('[data-hero-title]');
+    const link=frame.querySelector('[data-hero-link]');
+    let current=0,timer;
+    const show=index=>{
+      current=(index+slides.length)%slides.length;
+      const slide=slides[current];
+      img.src=slide.src;img.alt=slide.alt;img.style.objectPosition=slide.position;
+      title.textContent=slide.title;link.href=slide.href;link.textContent=slide.link;
+    };
+    const start=()=>{
+      if(timer||window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+      timer=window.setInterval(()=>show(current+1),8000);
+    };
+    const stop=()=>{if(timer){window.clearInterval(timer);timer=undefined;}};
+    frame.querySelector('[data-hero-prev]')?.addEventListener('click',()=>show(current-1));
+    frame.querySelector('[data-hero-next]')?.addEventListener('click',()=>show(current+1));
+    frame.addEventListener('mouseenter',stop);
+    frame.addEventListener('mouseleave',start);
+    frame.addEventListener('focusin',stop);
+    frame.addEventListener('focusout',event=>{if(!frame.contains(event.relatedTarget))start();});
+    document.addEventListener('visibilitychange',()=>{if(document.hidden)stop();else start();});
+    start();
+  }
+  const webcam=document.querySelector('[data-webcam]');
+  const launch=webcam?.querySelector('.webcam-launch');
+  launch?.addEventListener('click',()=>{
+    const iframe=document.createElement('iframe');
+    iframe.src='https://www.youtube.com/embed/5uZa3-RMFos?autoplay=1&mute=1&playsinline=1&rel=0';
+    iframe.title='Live Sydney Harbour Web Cam';
+    iframe.allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+    iframe.allowFullscreen=true;
+    webcam.replaceChildren(iframe);
+  });
+  const surprise=document.querySelector('[data-surprise]');
+  if(surprise){
+    const links=[...document.querySelectorAll('.explore-section .explore-card[href]')]
+      .filter(a=>/^https?:/.test(a.href));
+    let previous='';
+    surprise.addEventListener('click',()=>{
+      if(!links.length)return;
+      let candidates=links.filter(a=>a.href!==previous);
+      if(!candidates.length)candidates=links;
+      const pick=candidates[Math.floor(Math.random()*candidates.length)];
+      previous=pick.href;
+      surprise.href=pick.href;
+      surprise.setAttribute('aria-label',`Surprise me: open ${pick.querySelector('strong')?.textContent||'a website'} in a new tab`);
+    });
+  }
+})();
