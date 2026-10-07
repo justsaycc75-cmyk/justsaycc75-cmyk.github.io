@@ -449,3 +449,7 @@
 .hero-media-grid .live-webcam-heading{text-align:left;margin:0 0 8px}
 @media(max-width:900px){.hero-media-grid{grid-template-columns:1fr;gap:19px}.hero-media-grid .hero-photo-feature{aspect-ratio:16/9}}
 @media(max-width:480px){.front-main .hero h1{font-size:clamp(2.5rem,11vw,3.4rem)}}
+
+/* Keep the webcam image level with the rotating travel photo. */
+.hero-media-grid .webcam-stack{position:relative}
+.front-main .hero .hero-media-grid .live-webcam-heading{position:absolute;z-index:3;top:14px;left:14px;max-width:calc(100% - 28px);margin:0;padding:7px 11px;border:1px solid #ffffff66;border-radius:999px;background:#09251dbd;color:#fff;font-size:.84rem;line-height:1.2;text-align:left;text-shadow:0 1px 8px #0008}
