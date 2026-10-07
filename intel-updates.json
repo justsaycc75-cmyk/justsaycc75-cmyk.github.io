@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2107698149041078594",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "Six US heavy transports reported airborne",
+        "summary": "War Watch reported six US Air Force heavy transport aircraft airborne over the United States, about twice the account’s stated typical number for that time of day.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107698149041078594"
+      },
+      {
+        "id": "2107694372254814531",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "War Watch relays report on Russia–Ukraine war",
+        "summary": "The account relayed a report attributed to @Robertchester-j5b saying Trump described the Russia–Ukraine war as nearing an end.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107694372254814531"
+      },
+      {
+        "id": "2107687864393765200",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "War Watch relays CNBC report on nuclear-weapons ban",
+        "summary": "The account shared a CNBC-attributed report saying a neighbour of Russia backed a push to lift a nuclear-weapons ban; the post did not clearly identify the country.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107687864393765200"
+      },
+      {
+        "id": "2107682347625660543",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "Nine coded broadcasts reported during the day",
+        "summary": "War Watch reported nine coded US Air Force radio broadcasts during the day, including one in the preceding hour, alongside a nuclear command aircraft and six military transports airborne over the United States.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107682347625660543"
+      },
+      {
+        "id": "2107667245857992714",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "Six coded broadcasts reported in one hour",
+        "summary": "War Watch reported six coded US Air Force radio broadcasts in the preceding hour, with six military transports and a nuclear command aircraft airborne over the continental United States.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107667245857992714"
+      },
+      {
         "id": "2107652145709195394",
         "date": "2026-10-07",
         "dateLabel": "07 OCT 2026 · UTC",
@@ -59,46 +99,6 @@
         "headline": "Coded broadcasts and six heavy transports reported",
         "summary": "War Watch Intel reported coded US Air Force radio broadcasts at nearly three times normal across nine regions worldwide and six heavy transport aircraft airborne. The visible post is truncated before completing the transport-location detail and does not provide its comparison baseline.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2107608294814548202"
-      },
-      {
-        "id": "2107604508448641278",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "War Watch relays Newsmax report on NATO planning",
-        "summary": "War Watch Intel relayed a Newsmax report that NATO was preparing a plan intended to cripple Russian forces in the event of an attack. The post does not provide the plan details or independent confirmation.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107604508448641278"
-      },
-      {
-        "id": "2107591856145998161",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "US command jet, cargo aircraft and one coded broadcast reported",
-        "summary": "War Watch Intel reported a US Air Force nuclear command aircraft and multiple cargo aircraft airborne over the United States, one coded radio broadcast during the preceding hour, and continuing activity near UK military bases.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107591856145998161"
-      },
-      {
-        "id": "2107586900726825278",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "War Watch relays US Embassy health alert concerning Irkutsk",
-        "summary": "War Watch Intel relayed a report that the US Embassy in Moscow issued a health alert concerning a suspected pneumonic-plague case in Russia's Irkutsk region. The visible post is truncated after referring to a laboratory and does not provide further details.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107586900726825278"
-      },
-      {
-        "id": "2107561648164585567",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "Korea and Japan air activity reported at 3.2 times normal",
-        "summary": "War Watch Intel reported military air activity near Korea and Japan at nearly 3.2 times normal and multiple transport and surveillance aircraft airborne over the United States. The visible post is truncated before completing a further reference to a US Navy helicopter.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107561648164585567"
-      },
-      {
-        "id": "2107546544580763875",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "US transports and elevated Korea-Japan air activity reported",
-        "summary": "War Watch Intel reported US military transport aircraft airborne over the continental United States and air activity near Korea and Japan at nearly three times the usual level. The post does not provide the comparison baseline.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107546544580763875"
       }
     ]
   },
@@ -107,6 +107,22 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2107699763638423709",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert near Thiruthani",
+        "summary": "SkyGlass posted an OFF Ground alert for an aircraft labelled P8 near Thiruthani, India.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107699763638423709"
+      },
+      {
+        "id": "2107698380306571288",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert near Hakuromachi",
+        "summary": "SkyGlass posted an OFF Ground alert for an aircraft labelled P8 near Hakuromachi, Japan, using the identifier 00000000.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107698380306571288"
+      },
       {
         "id": "2107653740215832598",
         "date": "2026-10-07",
@@ -186,22 +202,6 @@
         "headline": "SkyGlass shares report on first F-16 Block 72 flight",
         "summary": "SkyGlass shared a The War Zone report that the first F-16 Block 72 completed its maiden flight and identified Morocco as the launch customer. The post does not provide further flight details.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2107561829119488261"
-      },
-      {
-        "id": "2107560961108238488",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "B-52 airborne alert at Midwest City",
-        "summary": "SkyGlass posted an OFF Ground alert for a US Air Force B-52 at Midwest City, Oklahoma, with the displayed identifier 00000000. The alert does not establish its destination or operational purpose.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107560961108238488"
-      },
-      {
-        "id": "2107552324830806323",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "E-6 airborne alert at Midwest City",
-        "summary": "SkyGlass posted an OFF Ground alert for a US military E-6 at Midwest City, Oklahoma. The callsign was shown as NA; the alert does not establish its destination or operational task.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107552324830806323"
       }
     ]
   }
