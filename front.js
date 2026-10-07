@@ -281,35 +281,69 @@
       {src:"assets/img/nz.webp",alt:"Cliffs viewed from a New Zealand cruise ship",title:"Across the Tasman",href:"journeys.html#nz2023",link:"Explore our journeys →",position:"center 50%"},
       {src:"assets/img/sea-days-10.webp",alt:"Seafood buffet on board",title:"The seafood spread",href:"journeys.html#shipboard-moments",link:"See more sea-day photos →",position:"center 50%"},
       {src:"assets/img/milford-sound-13.webp",alt:"Distant waterfall in a green valley",title:"A waterfall in the distance",href:"journeys.html#milford-sound",link:"See the Milford Sound gallery →",position:"center 50%"},
-      {src:"assets/img/sea-days-12.webp",alt:"Dessert buffet with fruit and cakes",title:"Desserts and fruit",href:"journeys.html#shipboard-moments",link:"See more sea-day photos →",position:"center 50%"}
+      {src:"assets/img/sea-days-12.webp",alt:"Dessert buffet with fruit and cakes",title:"Desserts and fruit",href:"journeys.html#shipboard-moments",link:"See more sea-day photos →",position:"center 50%"},
+      {src:"assets/img/sea-days-04.webp",alt:"A menu on board",title:"Dinner at sea",href:"journeys.html#shipboard-moments",link:"See more sea-day photos →",position:"center 50%"},
+      {src:"assets/img/sea-days-09.webp?v=20261008-fix",alt:"Shellfish served on board",title:"A seafood dinner",href:"journeys.html#shipboard-moments",link:"See more sea-day photos →",position:"center 50%"},
+      {src:"assets/img/sea-days-11.webp",alt:"Buffet spread on board",title:"The buffet on board",href:"journeys.html#shipboard-moments",link:"See more sea-day photos →",position:"center 50%"},
+      {src:"assets/img/sea-days-13.webp",alt:"Cheese and dessert display",title:"A treat after dinner",href:"journeys.html#shipboard-moments",link:"See more sea-day photos →",position:"center 50%"}
     ];
+    // The homepage gallery grows the deck automatically as new photos are added.
+    const photoName=src=>decodeURIComponent(new URL(src,location.href).pathname.split('/').pop()).toLowerCase();
+    const seen=new Set(slides.map(slide=>photoName(slide.src)));
+    document.querySelectorAll('.holiday-snap-grid img[src]').forEach(photo=>{
+      const src=photo.getAttribute('src'),name=photoName(src);
+      if(seen.has(name))return;
+      seen.add(name);
+      const alt=photo.alt&&!/^holiday (photo|snap)$/i.test(photo.alt)?photo.alt:'A photo from our travels';
+      slides.push({src,alt,title:alt==='A photo from our travels'?'From our travels':alt,href:'#holiday-snaps',link:'See our holiday snaps →',position:'center 50%'});
+    });
     const img=frame.querySelector('[data-hero-photo]');
     const title=frame.querySelector('[data-hero-title]');
     const link=frame.querySelector('[data-hero-link]');
-    let current=0,timer;
-    const storageKey='retirement-hero-photo-index';
-    const remember=()=>{try{sessionStorage.setItem(storageKey,String(current));}catch(_){/* Storage may be unavailable. */}};
-    let initial=Math.floor(Date.now()/600000)%slides.length;
-    try{const last=sessionStorage.getItem(storageKey);if(last!==null&&Number.isInteger(Number(last)))initial=(Number(last)+1)%slides.length;}catch(_){/* Use the time-based starting photo. */}
-    const show=index=>{
-      current=(index+slides.length)%slides.length;
-      const slide=slides[current];
+    const count=frame.querySelector('.hero-photo-caption small');
+    if(count)count.textContent=`From our camera roll · ${slides.length} photos`;
+    const storageKey='retirement-hero-photo-deck-v2';
+    const fingerprint=slides.map(slide=>slide.src).join('|');
+    let order=slides.map((_,index)=>index),current=0,timer;
+    const shuffle=previous=>{
+      for(let i=order.length-1;i>0;i--){
+        const j=Math.floor(Math.random()*(i+1));
+        [order[i],order[j]]=[order[j],order[i]];
+      }
+      if(order.length>1&&order[0]===previous)[order[0],order[1]]=[order[1],order[0]];
+    };
+    let saved;
+    try{saved=JSON.parse(sessionStorage.getItem(storageKey)||'null');}catch(_){/* Storage may be unavailable. */}
+    if(saved?.fingerprint===fingerprint&&Array.isArray(saved.order)&&saved.order.length===slides.length&&new Set(saved.order).size===slides.length&&saved.order.every(i=>Number.isInteger(i)&&i>=0&&i<slides.length)){
+      order=saved.order;
+      current=Number.isInteger(saved.position)&&saved.position>=0&&saved.position<order.length?saved.position+1:0;
+      if(current===order.length){shuffle(order[order.length-1]);current=0;}
+    }else shuffle();
+    const remember=()=>{try{sessionStorage.setItem(storageKey,JSON.stringify({fingerprint,order,position:current}));}catch(_){/* Storage may be unavailable. */}};
+    const show=()=>{
+      const slide=slides[order[current]];
       img.src=slide.src;img.alt=slide.alt;img.style.objectPosition=slide.position;
       title.textContent=slide.title;link.href=slide.href;link.textContent=slide.link;
       remember();
-      const upcoming=new Image();upcoming.src=slides[(current+1)%slides.length].src;
+      const upcoming=new Image();upcoming.src=slides[order[(current+1)%order.length]].src;
     };
+    const next=()=>{
+      if(current===order.length-1){shuffle(order[current]);current=0;}
+      else current++;
+      show();
+    };
+    const previous=()=>{current=(current-1+order.length)%order.length;show();};
     const start=()=>{
       if(timer||window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;
-      timer=window.setInterval(()=>show(current+1),8000);
+      timer=window.setInterval(next,8000);
     };
     const stop=()=>{if(timer){window.clearInterval(timer);timer=undefined;}};
-    frame.querySelector('[data-hero-prev]')?.addEventListener('click',()=>show(current-1));
-    frame.querySelector('[data-hero-next]')?.addEventListener('click',()=>show(current+1));
+    frame.querySelector('[data-hero-prev]')?.addEventListener('click',previous);
+    frame.querySelector('[data-hero-next]')?.addEventListener('click',next);
     frame.addEventListener('focusin',stop);
     frame.addEventListener('focusout',event=>{if(!frame.contains(event.relatedTarget))start();});
     document.addEventListener('visibilitychange',()=>{if(document.hidden)stop();else start();});
-    show(initial);
+    show();
     start();
   }
   const webcam=document.querySelector('[data-webcam]');
