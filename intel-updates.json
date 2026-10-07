@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2107878688087744612",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "US transports, drones and command aircraft reported",
+        "summary": "War Watch reported US military transport aircraft, surveillance drones and a nuclear command aircraft airborne over the continental United States, with coded US Air Force radio broadcasts detected several times during the day. The visible post is truncated after that point.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107878688087744612"
+      },
+      {
+        "id": "2107863584445276569",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "Six major US military aircraft reported airborne",
+        "summary": "War Watch reported six major US military aircraft over the continental United States, including a nuclear command aircraft and a surveillance aircraft the account described as monitoring missile activity.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107863584445276569"
+      },
+      {
+        "id": "2107848479598858371",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "Five US transports and command aircraft reported",
+        "summary": "War Watch reported five US Air Force transport aircraft and a nuclear command-and-control aircraft airborne over the United States, with no coded radio broadcasts detected during the preceding hour.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107848479598858371"
+      },
+      {
         "id": "2107833378326098153",
         "date": "2026-10-07",
         "dateLabel": "07 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "Missile attack and six US cargo aircraft reported",
         "summary": "War Watch reported a renewed missile attack on Ukraine involving hypersonic weapons and six US military cargo aircraft airborne over the Atlantic and surrounding region.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2107727657823506878"
-      },
-      {
-        "id": "2107712554050912477",
-        "date": "2026-10-07",
-        "dateLabel": "07 OCT 2026 · UTC",
-        "headline": "Elevated US military flights reported over eastern Mediterranean",
-        "summary": "War Watch reported overnight strikes exchanged by Ukraine and Russia and US military flight activity over the eastern Mediterranean at nearly four times its stated normal level, including multiple transport and command aircraft.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107712554050912477"
-      },
-      {
-        "id": "2107698149041078594",
-        "date": "2026-10-07",
-        "dateLabel": "07 OCT 2026 · UTC",
-        "headline": "Six US heavy transports reported airborne",
-        "summary": "War Watch reported six US Air Force heavy transport aircraft airborne over the United States, about twice the account’s stated typical number for that time of day.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107698149041078594"
-      },
-      {
-        "id": "2107694372254814531",
-        "date": "2026-10-07",
-        "dateLabel": "07 OCT 2026 · UTC",
-        "headline": "War Watch relays report on Russia–Ukraine war",
-        "summary": "The account relayed a report attributed to @Robertchester-j5b saying Trump described the Russia–Ukraine war as nearing an end.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107694372254814531"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2107876281006080204",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert at Greenwood",
+        "summary": "SkyGlass posted an OFF Ground alert for a military aircraft labelled P8 at Greenwood, CA. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107876281006080204"
+      },
+      {
+        "id": "2107872875822621173",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "E-6 airborne alert near Bellevue",
+        "summary": "SkyGlass posted an OFF Ground alert for a US military aircraft labelled E6 near Bellevue, Nebraska. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107872875822621173"
+      },
+      {
+        "id": "2107871603887386651",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "E3TF NATO02 on-ground alert at Albacete",
+        "summary": "SkyGlass posted an ON Ground alert for military aircraft NATO02, labelled E3TF, at Albacete, Spain.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107871603887386651"
+      },
+      {
+        "id": "2107869930787901704",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "P-8 SCORE76 on-ground alert near Lexington Park",
+        "summary": "SkyGlass posted an ON Ground alert for US Navy P-8 SCORE76 near Lexington Park, Maryland.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107869930787901704"
+      },
       {
         "id": "2107837929041105113",
         "date": "2026-10-07",
@@ -170,38 +202,6 @@
         "headline": "P-8 airborne alert near Hakuromachi",
         "summary": "SkyGlass posted an OFF Ground alert for an aircraft labelled P8 near Hakuromachi, Japan, using the identifier 00000000.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2107698380306571288"
-      },
-      {
-        "id": "2107653740215832598",
-        "date": "2026-10-07",
-        "dateLabel": "07 OCT 2026 · UTC",
-        "headline": "US P-8 airborne alert near Ninohe",
-        "summary": "SkyGlass posted an OFF Ground alert for a US-registered military P-8 near Ninohe, Japan. The callsign was shown as NA; the alert does not establish its destination or operational purpose.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107653740215832598"
-      },
-      {
-        "id": "2107642820106367101",
-        "date": "2026-10-07",
-        "dateLabel": "07 OCT 2026 · UTC",
-        "headline": "P-8 ASY169 on-ground alert at Misawa",
-        "summary": "SkyGlass posted an ON Ground alert for Australian military P-8 ASY169 at Misawa, Japan. The alert does not establish its preceding activity or operational purpose.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107642820106367101"
-      },
-      {
-        "id": "2107632332748316875",
-        "date": "2026-10-07",
-        "dateLabel": "07 OCT 2026 · UTC",
-        "headline": "US P-8 airborne alert at Ishikawa",
-        "summary": "SkyGlass posted an OFF Ground alert for a US military P-8 at Ishikawa, Japan. The callsign was shown as NA; the alert does not establish its destination or operational purpose.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107632332748316875"
-      },
-      {
-        "id": "2107622124248519150",
-        "date": "2026-10-07",
-        "dateLabel": "07 OCT 2026 · UTC",
-        "headline": "SkyGlass shares report on L-39 Skyfox counter-drone upgrade",
-        "summary": "SkyGlass shared a The Aviationist report that Aero Vodochody and Thales are equipping the L-39 Skyfox with a 70 mm laser-guided rocket pod for counter-drone use. The post does not state the test or deployment status.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107622124248519150"
       }
     ]
   }
