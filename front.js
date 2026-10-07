@@ -252,20 +252,43 @@
   const frame=document.querySelector('.hero-photo-feature');
   if(frame){
     const slides=[
-      {src:'assets/img/crown_sunset.webp',alt:'Cruise ship at sunset',title:'Sunset at sea',href:'journeys.html',link:'Explore our journeys →',position:'center 48%'},
-      {src:'assets/img/hunter1.webp',alt:'Hunter Valley scenery',title:'Hunter Valley afternoons',href:'hunter.html',link:'Explore the Hunter →',position:'center 48%'},
-      {src:'assets/img/nz.webp',alt:'New Zealand cruise scenery',title:'Across the Tasman',href:'journeys.html',link:'Explore our journeys →',position:'center 50%'},
-      {src:'assets/img/dunedin.webp',alt:'Dunedin in New Zealand',title:'A day in Dunedin',href:'journeys.html',link:'Explore our journeys →',position:'center 48%'}
+      {src:"assets/img/crown_sunset.webp",alt:"Sunset from the ship",title:"Sunset at sea",href:"journeys.html",link:"Explore our journeys →",position:"center 48%"},
+      {src:"assets/img/milford-sound-01.webp",alt:"Waterfall on a Fiordland cliff",title:"Waterfalls in Fiordland",href:"journeys.html#milford-sound",link:"See the Milford Sound gallery →",position:"center 50%"},
+      {src:"assets/img/hunter1.webp",alt:"Hunter Valley scenery",title:"Hunter Valley afternoons",href:"hunter.html",link:"Explore the Hunter →",position:"center 48%"},
+      {src:"assets/img/milford-sound-02.webp",alt:"Cloudy mountains across Milford Sound",title:"Into the sound",href:"journeys.html#milford-sound",link:"See the Milford Sound gallery →",position:"center 50%"},
+      {src:"assets/img/milford-sound-03.webp",alt:"Mountain peak from the cruise ship",title:"Mountains from the deck",href:"journeys.html#milford-sound",link:"See the Milford Sound gallery →",position:"center 50%"},
+      {src:"assets/img/moreton.webp",alt:"Moreton Island cruise memory",title:"Moreton Island memories",href:"journeys.html#moreton",link:"Explore our journeys →",position:"center 50%"},
+      {src:"assets/img/milford-sound-04.webp",alt:"Clouds low over the water",title:"Weather over the fjord",href:"journeys.html#milford-sound",link:"See the Milford Sound gallery →",position:"center 50%"},
+      {src:"assets/img/milford-sound-05.webp",alt:"Cruise ship pool deck with mountains beyond",title:"A view from the pool deck",href:"journeys.html#milford-sound",link:"See the Milford Sound gallery →",position:"center 50%"},
+      {src:"assets/img/dunedin.webp",alt:"Dunedin harbour landscape",title:"A day in Dunedin",href:"journeys.html",link:"Explore our journeys →",position:"center 48%"},
+      {src:"assets/img/milford-sound-06.webp",alt:"Green islands in Milford Sound",title:"Islands in the sound",href:"journeys.html#milford-sound",link:"See the Milford Sound gallery →",position:"center 50%"},
+      {src:"assets/img/milford-sound-07.webp",alt:"Waterfalls beyond the ship",title:"Waterfalls from the ship",href:"journeys.html#milford-sound",link:"See the Milford Sound gallery →",position:"center 50%"},
+      {src:"assets/img/hunter2.webp",alt:"Hunter Valley travel photo",title:"Another Hunter Valley stop",href:"hunter.html",link:"Explore the Hunter →",position:"center 50%"},
+      {src:"assets/img/milford-sound-08.webp",alt:"Misty Fiordland mountains and snow",title:"Clouds and snow",href:"journeys.html#milford-sound",link:"See the Milford Sound gallery →",position:"center 50%"},
+      {src:"assets/img/milford-sound-09.webp",alt:"Walking along the cruise ship side deck",title:"Walking the side deck",href:"journeys.html#milford-sound",link:"See the Milford Sound gallery →",position:"center 50%"},
+      {src:"assets/img/mystery_ship.webp",alt:"Cruise ship near Mystery Island",title:"A ship on the horizon",href:"journeys.html#mystery",link:"Explore our journeys →",position:"center 50%"},
+      {src:"assets/img/milford-sound-10.webp",alt:"Steep hillside and landslide scar",title:"The steep hillsides",href:"journeys.html#milford-sound",link:"See the Milford Sound gallery →",position:"center 50%"},
+      {src:"assets/img/milford-sound-11.webp",alt:"Watching the fjord from the ship railing",title:"Watching from the rail",href:"journeys.html#milford-sound",link:"See the Milford Sound gallery →",position:"center 50%"},
+      {src:"assets/img/darling.webp",alt:"Darling Harbour travel memory",title:"A Sydney long weekend",href:"journeys.html#darling",link:"Explore our journeys →",position:"center 50%"},
+      {src:"assets/img/milford-sound-12.webp",alt:"Cruise ship upper deck in Milford Sound",title:"The upper deck view",href:"journeys.html#milford-sound",link:"See the Milford Sound gallery →",position:"center 50%"},
+      {src:"assets/img/nz.webp",alt:"Cliffs viewed from a New Zealand cruise ship",title:"Across the Tasman",href:"journeys.html#nz2023",link:"Explore our journeys →",position:"center 50%"},
+      {src:"assets/img/milford-sound-13.webp",alt:"Distant waterfall in a green valley",title:"A waterfall in the distance",href:"journeys.html#milford-sound",link:"See the Milford Sound gallery →",position:"center 50%"}
     ];
     const img=frame.querySelector('[data-hero-photo]');
     const title=frame.querySelector('[data-hero-title]');
     const link=frame.querySelector('[data-hero-link]');
     let current=0,timer;
+    const storageKey='retirement-hero-photo-index';
+    const remember=()=>{try{sessionStorage.setItem(storageKey,String(current));}catch(_){/* Storage may be unavailable. */}};
+    let initial=Math.floor(Date.now()/600000)%slides.length;
+    try{const last=sessionStorage.getItem(storageKey);if(last!==null&&Number.isInteger(Number(last)))initial=(Number(last)+1)%slides.length;}catch(_){/* Use the time-based starting photo. */}
     const show=index=>{
       current=(index+slides.length)%slides.length;
       const slide=slides[current];
       img.src=slide.src;img.alt=slide.alt;img.style.objectPosition=slide.position;
       title.textContent=slide.title;link.href=slide.href;link.textContent=slide.link;
+      remember();
+      const upcoming=new Image();upcoming.src=slides[(current+1)%slides.length].src;
     };
     const start=()=>{
       if(timer||window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;
@@ -274,11 +297,10 @@
     const stop=()=>{if(timer){window.clearInterval(timer);timer=undefined;}};
     frame.querySelector('[data-hero-prev]')?.addEventListener('click',()=>show(current-1));
     frame.querySelector('[data-hero-next]')?.addEventListener('click',()=>show(current+1));
-    frame.addEventListener('mouseenter',stop);
-    frame.addEventListener('mouseleave',start);
     frame.addEventListener('focusin',stop);
     frame.addEventListener('focusout',event=>{if(!frame.contains(event.relatedTarget))start();});
     document.addEventListener('visibilitychange',()=>{if(document.hidden)stop();else start();});
+    show(initial);
     start();
   }
   const webcam=document.querySelector('[data-webcam]');
