@@ -5,6 +5,38 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2107969309561499700",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "US transports, command aircraft and coded broadcasts reported",
+        "summary": "War Watch reported multiple US Air Force transport aircraft and a nuclear command aircraft airborne over the continental United States, with 20 coded military radio broadcasts heard during the day and the most recent two hours earlier.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107969309561499700"
+      },
+      {
+        "id": "2107954204220281285",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "Command aircraft, heavy transports and 20 broadcasts reported",
+        "summary": "War Watch reported nuclear command aircraft and multiple heavy transport aircraft airborne over the United States, alongside 20 coded US Air Force radio broadcasts during the day.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107954204220281285"
+      },
+      {
+        "id": "2107943037787615316",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "Gulfstream V FAZE21 reported airborne",
+        "summary": "War Watch reported Gulfstream V registration 19-1587 using callsign FAZE21 and hex AE17CD, attributing the sighting to reagan0965 and the photograph to Westleigh Bushell via Planespotters.net.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107943037787615316"
+      },
+      {
+        "id": "2107939101240369558",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "Four transports, command aircraft and coded broadcasts reported",
+        "summary": "War Watch reported four US Air Force transport aircraft and a nuclear command aircraft airborne over the continental United States, with 20 coded radio broadcasts heard during the day and none during the preceding hour.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107939101240369558"
+      },
+      {
         "id": "2107923997958541404",
         "date": "2026-10-07",
         "dateLabel": "07 OCT 2026 · UTC",
@@ -67,38 +99,6 @@
         "headline": "Six US transports and renewed Ukraine strikes reported",
         "summary": "War Watch reported six US Air Force transport aircraft over the United States, a nuclear command-and-control aircraft spotted earlier, and Ukrainian reports of fresh missile strikes on major cities.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2107833378326098153"
-      },
-      {
-        "id": "2107818274880671752",
-        "date": "2026-10-07",
-        "dateLabel": "07 OCT 2026 · UTC",
-        "headline": "Six heavy transports and specialist aircraft reported",
-        "summary": "War Watch reported six US Air Force heavy transport aircraft over the North Atlantic and continental United States, with a nuclear command aircraft and special reconnaissance aircraft spotted earlier. The visible post is truncated after that point.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107818274880671752"
-      },
-      {
-        "id": "2107803170910953688",
-        "date": "2026-10-07",
-        "dateLabel": "07 OCT 2026 · UTC",
-        "headline": "Elevated Black Sea air activity reported",
-        "summary": "War Watch reported military air activity over the Black Sea at nearly three times its stated normal level, alongside a US Air Force nuclear command aircraft and several transport aircraft airborne during the day.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107803170910953688"
-      },
-      {
-        "id": "2107788067994042734",
-        "date": "2026-10-07",
-        "dateLabel": "07 OCT 2026 · UTC",
-        "headline": "Transport, command and coded-radio activity reported",
-        "summary": "War Watch reported multiple US military transport and command aircraft across the Atlantic and North Sea and 11 coded US Air Force radio broadcasts during the day.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107788067994042734"
-      },
-      {
-        "id": "2107772964733100376",
-        "date": "2026-10-07",
-        "dateLabel": "07 OCT 2026 · UTC",
-        "headline": "Heavy US transport activity reported near North Sea and Baltic",
-        "summary": "War Watch reported multiple US Air Force heavy-lift cargo aircraft over the North Sea and Baltic and characterised the activity as unusually high amid tensions concerning Ukraine.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107772964733100376"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2107972300758720834",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "E-6 airborne alert at Elk City",
+        "summary": "SkyGlass posted an OFF Ground alert for a US military aircraft labelled E6 at Elk City, Oklahoma. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107972300758720834"
+      },
+      {
+        "id": "2107960980239962559",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert at Tiruvallur",
+        "summary": "SkyGlass posted an OFF Ground alert for an Indian military aircraft labelled P8 at Tiruvallur, India. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107960980239962559"
+      },
+      {
+        "id": "2107957520467722345",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "P-8 CI123 airborne alert at Gijang",
+        "summary": "SkyGlass posted an OFF Ground alert for South Korean military P-8 CI123 at Gijang, South Korea.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107957520467722345"
+      },
+      {
+        "id": "2107957121002148168",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "P-8 BLKT27 on-ground alert at Darwin",
+        "summary": "SkyGlass posted an ON Ground alert for Australian military P-8 BLKT27 at Darwin, Australia.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107957121002148168"
+      },
       {
         "id": "2107924168134041632",
         "date": "2026-10-07",
@@ -170,38 +202,6 @@
         "headline": "P-8 airborne alert near Orange Park",
         "summary": "SkyGlass posted an OFF Ground alert for a US military aircraft labelled P8 near Orange Park, Florida. The callsign was shown as NA.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2107837304182047095"
-      },
-      {
-        "id": "2107834791131242875",
-        "date": "2026-10-07",
-        "dateLabel": "07 OCT 2026 · UTC",
-        "headline": "E-6 airborne alert near Suisun",
-        "summary": "SkyGlass posted an OFF Ground alert for a US military aircraft labelled E6 near Suisun, California. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107834791131242875"
-      },
-      {
-        "id": "2107834590391865613",
-        "date": "2026-10-07",
-        "dateLabel": "07 OCT 2026 · UTC",
-        "headline": "Earlier P-8 airborne alert near Orange Park",
-        "summary": "SkyGlass posted an earlier OFF Ground alert for a US military aircraft labelled P8 near Orange Park, Florida. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107834590391865613"
-      },
-      {
-        "id": "2107774604152275276",
-        "date": "2026-10-07",
-        "dateLabel": "07 OCT 2026 · UTC",
-        "headline": "P-8 THNDR01 airborne alert at Lossiemouth",
-        "summary": "SkyGlass posted an OFF Ground alert for UK-registered military P-8 THNDR01 at Lossiemouth, United Kingdom.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107774604152275276"
-      },
-      {
-        "id": "2107716221458149566",
-        "date": "2026-10-07",
-        "dateLabel": "07 OCT 2026 · UTC",
-        "headline": "Second P-8 airborne alert near Thiruthani",
-        "summary": "SkyGlass posted another OFF Ground alert for an aircraft labelled P8 near Thiruthani, India. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107716221458149566"
       }
     ]
   }
