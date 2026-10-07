@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2107833378326098153",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "Six US transports and renewed Ukraine strikes reported",
+        "summary": "War Watch reported six US Air Force transport aircraft over the United States, a nuclear command-and-control aircraft spotted earlier, and Ukrainian reports of fresh missile strikes on major cities.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107833378326098153"
+      },
+      {
+        "id": "2107818274880671752",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "Six heavy transports and specialist aircraft reported",
+        "summary": "War Watch reported six US Air Force heavy transport aircraft over the North Atlantic and continental United States, with a nuclear command aircraft and special reconnaissance aircraft spotted earlier. The visible post is truncated after that point.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107818274880671752"
+      },
+      {
+        "id": "2107803170910953688",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "Elevated Black Sea air activity reported",
+        "summary": "War Watch reported military air activity over the Black Sea at nearly three times its stated normal level, alongside a US Air Force nuclear command aircraft and several transport aircraft airborne during the day.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107803170910953688"
+      },
+      {
         "id": "2107788067994042734",
         "date": "2026-10-07",
         "dateLabel": "07 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "War Watch relays report on Russia–Ukraine war",
         "summary": "The account relayed a report attributed to @Robertchester-j5b saying Trump described the Russia–Ukraine war as nearing an end.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2107694372254814531"
-      },
-      {
-        "id": "2107687864393765200",
-        "date": "2026-10-07",
-        "dateLabel": "07 OCT 2026 · UTC",
-        "headline": "War Watch relays CNBC report on nuclear-weapons ban",
-        "summary": "The account shared a CNBC-attributed report saying a neighbour of Russia backed a push to lift a nuclear-weapons ban; the post did not clearly identify the country.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107687864393765200"
-      },
-      {
-        "id": "2107682347625660543",
-        "date": "2026-10-07",
-        "dateLabel": "07 OCT 2026 · UTC",
-        "headline": "Nine coded broadcasts reported during the day",
-        "summary": "War Watch reported nine coded US Air Force radio broadcasts during the day, including one in the preceding hour, alongside a nuclear command aircraft and six military transports airborne over the United States.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107682347625660543"
-      },
-      {
-        "id": "2107667245857992714",
-        "date": "2026-10-07",
-        "dateLabel": "07 OCT 2026 · UTC",
-        "headline": "Six coded broadcasts reported in one hour",
-        "summary": "War Watch reported six coded US Air Force radio broadcasts in the preceding hour, with six military transports and a nuclear command aircraft airborne over the continental United States.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107667245857992714"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2107837929041105113",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert near Lacy-Lakeview",
+        "summary": "SkyGlass posted an OFF Ground alert for a US military aircraft labelled P8 near Lacy-Lakeview, Texas. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107837929041105113"
+      },
+      {
+        "id": "2107837304182047095",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert near Orange Park",
+        "summary": "SkyGlass posted an OFF Ground alert for a US military aircraft labelled P8 near Orange Park, Florida. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107837304182047095"
+      },
+      {
+        "id": "2107834791131242875",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "E-6 airborne alert near Suisun",
+        "summary": "SkyGlass posted an OFF Ground alert for a US military aircraft labelled E6 near Suisun, California. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107834791131242875"
+      },
+      {
+        "id": "2107834590391865613",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "Earlier P-8 airborne alert near Orange Park",
+        "summary": "SkyGlass posted an earlier OFF Ground alert for a US military aircraft labelled P8 near Orange Park, Florida. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107834590391865613"
+      },
       {
         "id": "2107774604152275276",
         "date": "2026-10-07",
@@ -170,38 +202,6 @@
         "headline": "SkyGlass shares report on L-39 Skyfox counter-drone upgrade",
         "summary": "SkyGlass shared a The Aviationist report that Aero Vodochody and Thales are equipping the L-39 Skyfox with a 70 mm laser-guided rocket pod for counter-drone use. The post does not state the test or deployment status.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2107622124248519150"
-      },
-      {
-        "id": "2107608920399163712",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "P-8 MRNR02 on-ground alert at Burton",
-        "summary": "SkyGlass posted an ON Ground alert for Australian-registered military P-8 MRNR02 at Burton, Australia. The alert does not establish its preceding activity or operational purpose.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107608920399163712"
-      },
-      {
-        "id": "2107607707721015727",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "South Korean P-8 airborne alert at Ulsan",
-        "summary": "SkyGlass posted an OFF Ground alert for a South Korean-registered military P-8 at Ulsan, South Korea. The callsign was shown as NA; the alert does not establish its destination or operational purpose.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107607707721015727"
-      },
-      {
-        "id": "2107592394321375382",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "P-8 BLKT25 on-ground alert at Darwin",
-        "summary": "SkyGlass posted an ON Ground alert for Australian military P-8 BLKT25 at Darwin, Australia. The alert does not establish its preceding activity or operational purpose.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107592394321375382"
-      },
-      {
-        "id": "2107578054373470320",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "US E-6 airborne alert at Suisun",
-        "summary": "SkyGlass posted an OFF Ground alert for a US military E-6 at Suisun, California. The callsign was shown as NA; the alert does not establish its destination or operational task.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107578054373470320"
       }
     ]
   }
