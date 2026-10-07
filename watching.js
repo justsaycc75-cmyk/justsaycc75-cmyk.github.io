@@ -1,5 +1,32 @@
 (()=>{
   const shows={
+    'Wind River':{
+      video:'W7V9Fsll5qM',
+      link:'https://www.youtube.com/watch?v=W7V9Fsll5qM',
+      poster:'https://resizing.flixster.com/MJKyzlmQwD2_ONEzzBX1K2KdiTU%3D/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzEwZjNjZGYzLTYwMjItNDAzNC1hMjg4LTM3NWUxZGY5ZTgwMy53ZWJw',
+      summary:'A tracker discovers a young woman’s body on a snowy Wyoming reservation and helps a rookie FBI agent investigate. Taylor Sheridan’s crime thriller follows the case through brutal weather and a tight-knit community.',
+      source:'Voltage Pictures'
+    },
+    'Fleabag':{
+      video:'I5Uv6cb9YRs',
+      link:'https://www.youtube.com/watch?v=I5Uv6cb9YRs',
+      poster:'https://www.impawards.com/tv/posters/fleabag_xlg.jpg',
+      summary:'Phoebe Waller-Bridge’s London café owner uses sharp jokes, bad decisions and frank asides to the camera while dealing with grief, family and relationships. Funny, painfully honest and often surprising.',
+      source:'Prime Video'
+    },
+    'Pulling':{
+      link:'https://www.comedy.co.uk/tv/pulling/videos/40/a_quiet_night/',
+      poster:'https://m.media-amazon.com/images/M/MV5BNTViMzgyOWEtMGY0My00OTU3LWIwZGMtODZiMDA3OTk1ODE2XkEyXkFqcGc%40._V1_.jpg',
+      summary:'After calling off her wedding, Donna moves in with two single friends. Sharon Horgan’s BBC comedy follows the trio through messy dating, disastrous nights out and friendship that survives both.',
+      source:'British Comedy Guide clip'
+    },
+    'Blackadder':{
+      video:'nPk43lZPkTI',
+      link:'https://www.youtube.com/watch?v=nPk43lZPkTI',
+      poster:'https://image.tmdb.org/t/p/original/p7LiSTuvSHmevRSs9S7kEzEBhBX.jpg',
+      summary:'Rowan Atkinson plays generations of Edmund Blackadder across four periods of British history, with Baldrick usually close behind. Schemes, insults and hopeless superiors make this a sharp comedy classic.',
+      source:'BBC Studios'
+    },
     'Top of the Lake':{
       video:'TujPm45jhLw',
       link:'https://www.youtube.com/watch?v=TujPm45jhLw',
