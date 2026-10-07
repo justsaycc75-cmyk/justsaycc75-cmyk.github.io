@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2107652145709195394",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "Five US transports and command aircraft reported airborne",
+        "summary": "War Watch Intel reported five US Air Force transport aircraft and a nuclear command-and-control aircraft airborne over the United States. It described the activity as heavier than normal without providing the comparison baseline.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107652145709195394"
+      },
+      {
+        "id": "2107642775982272832",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "War Watch relays missile-attack report concerning three Ukrainian locations",
+        "summary": "War Watch Intel relayed a @reagan0965 report that Kyiv, Dnipro and Trypillia came under missile attack involving Iskander-M and Hwasong-11A ballistic missiles. The visible post is truncated before completing the reported weapon details and does not independently confirm the attack.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107642775982272832"
+      },
+      {
+        "id": "2107639000554934570",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "Two coded broadcasts and elevated Taiwan-area activity reported",
+        "summary": "War Watch Intel reported two coded US Air Force radio broadcasts during the preceding hour, aircraft activity near Taiwan at nearly three times normal, and multiple high-priority military aircraft airborne over the United States. The post does not provide the comparison baseline or broadcast contents.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107639000554934570"
+      },
+      {
+        "id": "2107635056164425895",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "War Watch relays report of Ukrainian drone activity over western Russia",
+        "summary": "War Watch Intel relayed a @reagan0965 report that a Ukrainian drone raid was under way over western Russia and cited local Russian channels. The visible post is truncated before completing the reported movement details and does not independently confirm the activity.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107635056164425895"
+      },
+      {
+        "id": "2107623397265997977",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "Six US transports and elevated coded-radio activity reported",
+        "summary": "War Watch Intel reported six US Air Force transport aircraft airborne over the continental United States and coded radio broadcasts averaging seven per hour that day. It described the activity as above normal but the visible post is truncated before completing a reference to Middle East tensions.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107623397265997977"
+      },
+      {
         "id": "2107612068652175761",
         "date": "2026-10-06",
         "dateLabel": "06 OCT 2026 · UTC",
@@ -59,46 +99,6 @@
         "headline": "US transports and elevated Korea-Japan air activity reported",
         "summary": "War Watch Intel reported US military transport aircraft airborne over the continental United States and air activity near Korea and Japan at nearly three times the usual level. The post does not provide the comparison baseline.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2107546544580763875"
-      },
-      {
-        "id": "2107531442519457833",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "US command, cargo and bomber activity reported",
-        "summary": "War Watch Intel reported a nuclear command aircraft, three cargo aircraft and a bomber airborne over the continental United States. It also described air activity in the Korea-Japan region as nearly three times usual without providing the comparison baseline.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107531442519457833"
-      },
-      {
-        "id": "2107516337698345178",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "Korea and Japan air activity and six coded broadcasts reported",
-        "summary": "War Watch Intel reported US Air Force traffic near Korea and Japan at 2.5 times normal levels and six coded radio broadcasts across US skies during the preceding hour. The post does not provide the comparison baseline or broadcast contents.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107516337698345178"
-      },
-      {
-        "id": "2107501233665606031",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "Coded broadcasts reported at nearly six times normal across nine regions",
-        "summary": "War Watch Intel reported US Air Force coded radio broadcasts at nearly six times normal across nine global regions, naming the Middle East, Europe and Asia-Pacific. The visible post is truncated before completing a further reference to nuclear command activity.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107501233665606031"
-      },
-      {
-        "id": "2107486135978979474",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "US military activity reported across five regions",
-        "summary": "War Watch Intel reported increased US military activity across five regions, including the continental United States, with nuclear command aircraft and transport aircraft airborne and coded radio broadcasts ongoing. The post does not state its comparison baseline.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107486135978979474"
-      },
-      {
-        "id": "2107471029987676627",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "Four coded broadcasts and US military aircraft activity reported",
-        "summary": "War Watch Intel reported four coded US Air Force radio broadcasts within the preceding hour, with multiple transport and surveillance aircraft airborne over the United States. The post does not provide the broadcast contents.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107471029987676627"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2107653740215832598",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "US P-8 airborne alert near Ninohe",
+        "summary": "SkyGlass posted an OFF Ground alert for a US-registered military P-8 near Ninohe, Japan. The callsign was shown as NA; the alert does not establish its destination or operational purpose.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107653740215832598"
+      },
+      {
+        "id": "2107642820106367101",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "P-8 ASY169 on-ground alert at Misawa",
+        "summary": "SkyGlass posted an ON Ground alert for Australian military P-8 ASY169 at Misawa, Japan. The alert does not establish its preceding activity or operational purpose.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107642820106367101"
+      },
+      {
+        "id": "2107632332748316875",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "US P-8 airborne alert at Ishikawa",
+        "summary": "SkyGlass posted an OFF Ground alert for a US military P-8 at Ishikawa, Japan. The callsign was shown as NA; the alert does not establish its destination or operational purpose.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107632332748316875"
+      },
+      {
+        "id": "2107622124248519150",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "SkyGlass shares report on L-39 Skyfox counter-drone upgrade",
+        "summary": "SkyGlass shared a The Aviationist report that Aero Vodochody and Thales are equipping the L-39 Skyfox with a 70 mm laser-guided rocket pod for counter-drone use. The post does not state the test or deployment status.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107622124248519150"
+      },
       {
         "id": "2107608920399163712",
         "date": "2026-10-06",
@@ -170,38 +202,6 @@
         "headline": "E-6 airborne alert at Midwest City",
         "summary": "SkyGlass posted an OFF Ground alert for a US military E-6 at Midwest City, Oklahoma. The callsign was shown as NA; the alert does not establish its destination or operational task.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2107552324830806323"
-      },
-      {
-        "id": "2107521124250620391",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "US P-8 on-ground alert at Oak Harbor",
-        "summary": "SkyGlass posted an ON Ground alert for a US-registered military P-8 at Oak Harbor, Washington. The alert does not establish its preceding activity or operational purpose.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107521124250620391"
-      },
-      {
-        "id": "2107518594233827480",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "US P-8 airborne alert near Summerfield",
-        "summary": "SkyGlass posted an OFF Ground alert for a US military P-8 near Summerfield, North Carolina. The callsign was shown as NA; the alert does not establish its destination or operational purpose.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107518594233827480"
-      },
-      {
-        "id": "2107516091635224898",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "US P-3 airborne alert at Port Hueneme",
-        "summary": "SkyGlass posted an OFF Ground alert for a US-registered military P-3 at Port Hueneme, United States. The callsign was shown as NA; the alert does not establish its destination or operational purpose.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107516091635224898"
-      },
-      {
-        "id": "2107514593144680628",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "US P-8 airborne alert near Lexington Park",
-        "summary": "SkyGlass posted an OFF Ground alert for a US military P-8 near Lexington Park, Maryland. The callsign was shown as NA; the alert does not establish its destination or operational purpose.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107514593144680628"
       }
     ]
   }
