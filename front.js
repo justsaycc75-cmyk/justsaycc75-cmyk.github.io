@@ -253,26 +253,35 @@
   if(frame){
     const slides=[
       {src:"assets/img/crown_sunset.webp",alt:"Sunset from the ship",title:"Sunset at sea",href:"journeys.html",link:"Explore our journeys →",position:"center 48%"},
+      {src:"assets/img/sea-days-03.webp",alt:"A live band performing on board",title:"An evening show at sea",href:"journeys.html#shipboard-moments",link:"See more sea-day photos →",position:"center 50%"},
       {src:"assets/img/milford-sound-01.webp",alt:"Waterfall on a Fiordland cliff",title:"Waterfalls in Fiordland",href:"journeys.html#milford-sound",link:"See the Milford Sound gallery →",position:"center 50%"},
       {src:"assets/img/hunter1.webp",alt:"Hunter Valley scenery",title:"Hunter Valley afternoons",href:"hunter.html",link:"Explore the Hunter →",position:"center 48%"},
+      {src:"assets/img/sea-days-05.webp",alt:"Sunset seen from a cruise balcony",title:"Sunset from the balcony",href:"journeys.html#shipboard-moments",link:"See more sea-day photos →",position:"center 50%"},
       {src:"assets/img/milford-sound-02.webp",alt:"Cloudy mountains across Milford Sound",title:"Into the sound",href:"journeys.html#milford-sound",link:"See the Milford Sound gallery →",position:"center 50%"},
       {src:"assets/img/milford-sound-03.webp",alt:"Mountain peak from the cruise ship",title:"Mountains from the deck",href:"journeys.html#milford-sound",link:"See the Milford Sound gallery →",position:"center 50%"},
       {src:"assets/img/moreton.webp",alt:"Moreton Island cruise memory",title:"Moreton Island memories",href:"journeys.html#moreton",link:"Explore our journeys →",position:"center 50%"},
+      {src:"assets/img/sea-days-01.webp",alt:"Chocolate dessert served at dinner",title:"Dessert after dinner",href:"journeys.html#shipboard-moments",link:"See more sea-day photos →",position:"center 50%"},
       {src:"assets/img/milford-sound-04.webp",alt:"Clouds low over the water",title:"Weather over the fjord",href:"journeys.html#milford-sound",link:"See the Milford Sound gallery →",position:"center 50%"},
       {src:"assets/img/milford-sound-05.webp",alt:"Cruise ship pool deck with mountains beyond",title:"A view from the pool deck",href:"journeys.html#milford-sound",link:"See the Milford Sound gallery →",position:"center 50%"},
       {src:"assets/img/dunedin.webp",alt:"Dunedin harbour landscape",title:"A day in Dunedin",href:"journeys.html",link:"Explore our journeys →",position:"center 48%"},
+      {src:"assets/img/sea-days-06.webp",alt:"Orange sun setting over the water",title:"Sun on the horizon",href:"journeys.html#shipboard-moments",link:"See more sea-day photos →",position:"center 50%"},
       {src:"assets/img/milford-sound-06.webp",alt:"Green islands in Milford Sound",title:"Islands in the sound",href:"journeys.html#milford-sound",link:"See the Milford Sound gallery →",position:"center 50%"},
       {src:"assets/img/milford-sound-07.webp",alt:"Waterfalls beyond the ship",title:"Waterfalls from the ship",href:"journeys.html#milford-sound",link:"See the Milford Sound gallery →",position:"center 50%"},
       {src:"assets/img/hunter2.webp",alt:"Hunter Valley travel photo",title:"Another Hunter Valley stop",href:"hunter.html",link:"Explore the Hunter →",position:"center 50%"},
+      {src:"assets/img/sea-days-08.webp",alt:"Cruise ship seen from the coast",title:"A ship off the coast",href:"journeys.html#shipboard-moments",link:"See more sea-day photos →",position:"center 50%"},
       {src:"assets/img/milford-sound-08.webp",alt:"Misty Fiordland mountains and snow",title:"Clouds and snow",href:"journeys.html#milford-sound",link:"See the Milford Sound gallery →",position:"center 50%"},
       {src:"assets/img/milford-sound-09.webp",alt:"Walking along the cruise ship side deck",title:"Walking the side deck",href:"journeys.html#milford-sound",link:"See the Milford Sound gallery →",position:"center 50%"},
       {src:"assets/img/mystery_ship.webp",alt:"Cruise ship near Mystery Island",title:"A ship on the horizon",href:"journeys.html#mystery",link:"Explore our journeys →",position:"center 50%"},
+      {src:"assets/img/sea-days-02.webp",alt:"Plated dinner at sea",title:"Dinner on board",href:"journeys.html#shipboard-moments",link:"See more sea-day photos →",position:"center 50%"},
       {src:"assets/img/milford-sound-10.webp",alt:"Steep hillside and landslide scar",title:"The steep hillsides",href:"journeys.html#milford-sound",link:"See the Milford Sound gallery →",position:"center 50%"},
       {src:"assets/img/milford-sound-11.webp",alt:"Watching the fjord from the ship railing",title:"Watching from the rail",href:"journeys.html#milford-sound",link:"See the Milford Sound gallery →",position:"center 50%"},
       {src:"assets/img/darling.webp",alt:"Darling Harbour travel memory",title:"A Sydney long weekend",href:"journeys.html#darling",link:"Explore our journeys →",position:"center 50%"},
+      {src:"assets/img/sea-days-07.webp",alt:"Last light across open water",title:"Last light on the water",href:"journeys.html#shipboard-moments",link:"See more sea-day photos →",position:"center 50%"},
       {src:"assets/img/milford-sound-12.webp",alt:"Cruise ship upper deck in Milford Sound",title:"The upper deck view",href:"journeys.html#milford-sound",link:"See the Milford Sound gallery →",position:"center 50%"},
       {src:"assets/img/nz.webp",alt:"Cliffs viewed from a New Zealand cruise ship",title:"Across the Tasman",href:"journeys.html#nz2023",link:"Explore our journeys →",position:"center 50%"},
-      {src:"assets/img/milford-sound-13.webp",alt:"Distant waterfall in a green valley",title:"A waterfall in the distance",href:"journeys.html#milford-sound",link:"See the Milford Sound gallery →",position:"center 50%"}
+      {src:"assets/img/sea-days-10.webp",alt:"Seafood buffet on board",title:"The seafood spread",href:"journeys.html#shipboard-moments",link:"See more sea-day photos →",position:"center 50%"},
+      {src:"assets/img/milford-sound-13.webp",alt:"Distant waterfall in a green valley",title:"A waterfall in the distance",href:"journeys.html#milford-sound",link:"See the Milford Sound gallery →",position:"center 50%"},
+      {src:"assets/img/sea-days-12.webp",alt:"Dessert buffet with fruit and cakes",title:"Desserts and fruit",href:"journeys.html#shipboard-moments",link:"See more sea-day photos →",position:"center 50%"}
     ];
     const img=frame.querySelector('[data-hero-photo]');
     const title=frame.querySelector('[data-hero-title]');
