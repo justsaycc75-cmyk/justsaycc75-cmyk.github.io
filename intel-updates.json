@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2107742759935160580",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "Nuclear command aircraft reported over the North Sea",
+        "summary": "War Watch reported a US Air Force nuclear command aircraft over the North Sea and separately cited missile attacks on Ukraine and Yemen and drone strikes inside Russia.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107742759935160580"
+      },
+      {
+        "id": "2107727657823506878",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "Missile attack and six US cargo aircraft reported",
+        "summary": "War Watch reported a renewed missile attack on Ukraine involving hypersonic weapons and six US military cargo aircraft airborne over the Atlantic and surrounding region.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107727657823506878"
+      },
+      {
+        "id": "2107712554050912477",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "Elevated US military flights reported over eastern Mediterranean",
+        "summary": "War Watch reported overnight strikes exchanged by Ukraine and Russia and US military flight activity over the eastern Mediterranean at nearly four times its stated normal level, including multiple transport and command aircraft.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107712554050912477"
+      },
+      {
         "id": "2107698149041078594",
         "date": "2026-10-07",
         "dateLabel": "07 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "War Watch relays report of Ukrainian drone activity over western Russia",
         "summary": "War Watch Intel relayed a @reagan0965 report that a Ukrainian drone raid was under way over western Russia and cited local Russian channels. The visible post is truncated before completing the reported movement details and does not independently confirm the activity.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2107635056164425895"
-      },
-      {
-        "id": "2107623397265997977",
-        "date": "2026-10-07",
-        "dateLabel": "07 OCT 2026 · UTC",
-        "headline": "Six US transports and elevated coded-radio activity reported",
-        "summary": "War Watch Intel reported six US Air Force transport aircraft airborne over the continental United States and coded radio broadcasts averaging seven per hour that day. It described the activity as above normal but the visible post is truncated before completing a reference to Middle East tensions.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107623397265997977"
-      },
-      {
-        "id": "2107612068652175761",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "War Watch relays report of Riyadh explosion and halted air traffic",
-        "summary": "War Watch Intel relayed an OSINTWarfare-attributed report that an explosion was heard in Riyadh following a reported Ansar Allah ballistic-missile attack and that air traffic had been halted. The post does not independently confirm the incident.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107612068652175761"
-      },
-      {
-        "id": "2107608294814548202",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "Coded broadcasts and six heavy transports reported",
-        "summary": "War Watch Intel reported coded US Air Force radio broadcasts at nearly three times normal across nine regions worldwide and six heavy transport aircraft airborne. The visible post is truncated before completing the transport-location detail and does not provide its comparison baseline.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107608294814548202"
       }
     ]
   },
@@ -107,6 +107,14 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2107716221458149566",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "Second P-8 airborne alert near Thiruthani",
+        "summary": "SkyGlass posted another OFF Ground alert for an aircraft labelled P8 near Thiruthani, India. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107716221458149566"
+      },
       {
         "id": "2107699763638423709",
         "date": "2026-10-07",
@@ -194,14 +202,6 @@
         "headline": "SkyGlass shares report on BAE F-35 electronic-warfare order",
         "summary": "SkyGlass shared a Defence Blog report that BAE Systems received an order from Lockheed Martin to supply electronic-warfare systems for F-35 production Lots 20 through 22. The post does not state the order value or delivery schedule.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2107561829136232492"
-      },
-      {
-        "id": "2107561829119488261",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "SkyGlass shares report on first F-16 Block 72 flight",
-        "summary": "SkyGlass shared a The War Zone report that the first F-16 Block 72 completed its maiden flight and identified Morocco as the launch customer. The post does not provide further flight details.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107561829119488261"
       }
     ]
   }
