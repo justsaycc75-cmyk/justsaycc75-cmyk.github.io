@@ -9,16 +9,16 @@
     },
     'Fleabag':{
       video:'I5Uv6cb9YRs',
-      link:'https://www.youtube.com/watch?v=I5Uv6cb9YRs',
+      link:'https://www.rottentomatoes.com/tv/fleabag/videos/nOiKsMqImdod',
       poster:'https://image.tmdb.org/t/p/original/aYerWmuhrulEW2mYWgE9OxhWD8c.jpg',
       summary:'Phoebe Waller-Bridge’s London café owner uses sharp jokes, bad decisions and frank asides to the camera while dealing with grief, family and relationships. Funny, painfully honest and often surprising.',
-      source:'Prime Video'
+      source:'Rotten Tomatoes — Season 2 trailer'
     },
     'Pulling':{
-      link:'https://www.comedy.co.uk/tv/pulling/videos/40/a_quiet_night/',
+      link:'https://tv.apple.com/au/show/pulling/umc.cmc.1lg24l6gzdthau8yaza1ohxuq',
       poster:'https://m.media-amazon.com/images/M/MV5BNTViMzgyOWEtMGY0My00OTU3LWIwZGMtODZiMDA3OTk1ODE2XkEyXkFqcGc%40._V1_.jpg',
       summary:'After calling off her wedding, Donna moves in with two single friends. Sharon Horgan’s BBC comedy follows the trio through messy dating, disastrous nights out and friendship that survives both.',
-      source:'British Comedy Guide clip'
+      source:'Apple TV Australia — show and episodes'
     },
     'Blackadder':{
       video:'nPk43lZPkTI',
