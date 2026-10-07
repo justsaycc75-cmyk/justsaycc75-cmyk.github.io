@@ -5,6 +5,38 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2107788067994042734",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "Transport, command and coded-radio activity reported",
+        "summary": "War Watch reported multiple US military transport and command aircraft across the Atlantic and North Sea and 11 coded US Air Force radio broadcasts during the day.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107788067994042734"
+      },
+      {
+        "id": "2107772964733100376",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "Heavy US transport activity reported near North Sea and Baltic",
+        "summary": "War Watch reported multiple US Air Force heavy-lift cargo aircraft over the North Sea and Baltic and characterised the activity as unusually high amid tensions concerning Ukraine.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107772964733100376"
+      },
+      {
+        "id": "2107762976686006603",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "War Watch relays BBC Live casualty report",
+        "summary": "The account relayed a BBC Live-attributed report saying five people, including three children, were killed and 38 were wounded in one strike. The visible post did not identify the location.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107762976686006603"
+      },
+      {
+        "id": "2107757862961250749",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "US surveillance aircraft and coded broadcasts reported",
+        "summary": "War Watch reported a US Air Force surveillance aircraft over the Baltic, multiple transport aircraft across Europe and 11 coded radio broadcasts during the day. The visible post is truncated after referring to tensions concerning Ukraine.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2107757862961250749"
+      },
+      {
         "id": "2107742759935160580",
         "date": "2026-10-07",
         "dateLabel": "07 OCT 2026 · UTC",
@@ -67,38 +99,6 @@
         "headline": "Six coded broadcasts reported in one hour",
         "summary": "War Watch reported six coded US Air Force radio broadcasts in the preceding hour, with six military transports and a nuclear command aircraft airborne over the continental United States.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2107667245857992714"
-      },
-      {
-        "id": "2107652145709195394",
-        "date": "2026-10-07",
-        "dateLabel": "07 OCT 2026 · UTC",
-        "headline": "Five US transports and command aircraft reported airborne",
-        "summary": "War Watch Intel reported five US Air Force transport aircraft and a nuclear command-and-control aircraft airborne over the United States. It described the activity as heavier than normal without providing the comparison baseline.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107652145709195394"
-      },
-      {
-        "id": "2107642775982272832",
-        "date": "2026-10-07",
-        "dateLabel": "07 OCT 2026 · UTC",
-        "headline": "War Watch relays missile-attack report concerning three Ukrainian locations",
-        "summary": "War Watch Intel relayed a @reagan0965 report that Kyiv, Dnipro and Trypillia came under missile attack involving Iskander-M and Hwasong-11A ballistic missiles. The visible post is truncated before completing the reported weapon details and does not independently confirm the attack.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107642775982272832"
-      },
-      {
-        "id": "2107639000554934570",
-        "date": "2026-10-07",
-        "dateLabel": "07 OCT 2026 · UTC",
-        "headline": "Two coded broadcasts and elevated Taiwan-area activity reported",
-        "summary": "War Watch Intel reported two coded US Air Force radio broadcasts during the preceding hour, aircraft activity near Taiwan at nearly three times normal, and multiple high-priority military aircraft airborne over the United States. The post does not provide the comparison baseline or broadcast contents.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107639000554934570"
-      },
-      {
-        "id": "2107635056164425895",
-        "date": "2026-10-07",
-        "dateLabel": "07 OCT 2026 · UTC",
-        "headline": "War Watch relays report of Ukrainian drone activity over western Russia",
-        "summary": "War Watch Intel relayed a @reagan0965 report that a Ukrainian drone raid was under way over western Russia and cited local Russian channels. The visible post is truncated before completing the reported movement details and does not independently confirm the activity.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107635056164425895"
       }
     ]
   },
@@ -107,6 +107,14 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2107774604152275276",
+        "date": "2026-10-07",
+        "dateLabel": "07 OCT 2026 · UTC",
+        "headline": "P-8 THNDR01 airborne alert at Lossiemouth",
+        "summary": "SkyGlass posted an OFF Ground alert for UK-registered military P-8 THNDR01 at Lossiemouth, United Kingdom.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107774604152275276"
+      },
       {
         "id": "2107716221458149566",
         "date": "2026-10-07",
@@ -194,14 +202,6 @@
         "headline": "US E-6 airborne alert at Suisun",
         "summary": "SkyGlass posted an OFF Ground alert for a US military E-6 at Suisun, California. The callsign was shown as NA; the alert does not establish its destination or operational task.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2107578054373470320"
-      },
-      {
-        "id": "2107561829136232492",
-        "date": "2026-10-06",
-        "dateLabel": "06 OCT 2026 · UTC",
-        "headline": "SkyGlass shares report on BAE F-35 electronic-warfare order",
-        "summary": "SkyGlass shared a Defence Blog report that BAE Systems received an order from Lockheed Martin to supply electronic-warfare systems for F-35 production Lots 20 through 22. The post does not state the order value or delivery schedule.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107561829136232492"
       }
     ]
   }
