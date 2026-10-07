@@ -22,11 +22,11 @@
       source:'Showtime'
     },
     'The Pacific':{
-      video:'e99B80crU3E',
-      link:'https://www.youtube.com/watch?v=e99B80crU3E',
+      video:'Q1fXW-dU1Cc',
+      link:'https://www.youtube.com/watch?v=Q1fXW-dU1Cc',
       poster:'assets/img/watching/the-pacific.png',
       summary:'This ten-part World War II drama follows three US Marines through the Pacific campaign, from Guadalcanal to Okinawa, and the difficult return home.',
-      source:'HBO'
+      source:'Warner Bros. Entertainment'
     },
     'Playing Gracie Darling':{
       video:'5dZeguYLgIU',
