@@ -10,7 +10,7 @@
     'Fleabag':{
       video:'I5Uv6cb9YRs',
       link:'https://www.youtube.com/watch?v=I5Uv6cb9YRs',
-      poster:'https://www.impawards.com/tv/posters/fleabag_xlg.jpg',
+      poster:'https://image.tmdb.org/t/p/original/aYerWmuhrulEW2mYWgE9OxhWD8c.jpg',
       summary:'Phoebe Waller-Bridge’s London café owner uses sharp jokes, bad decisions and frank asides to the camera while dealing with grief, family and relationships. Funny, painfully honest and often surprising.',
       source:'Prime Video'
     },
