@@ -9,3 +9,4 @@
 
 .visual-watch-card[data-watch="Top of the Lake"]{--promo-position:50% 0%}
 .visual-watch-card[data-watch="No Country for Old Men"]{--promo-position:50% 50%}
+.visual-watch-card[data-watch="Top of the Lake"] .watch-thumb:after{background:linear-gradient(to bottom,transparent 76%,#0b0e0c 100%),linear-gradient(90deg,transparent 55%,rgba(5,7,6,.35))}
