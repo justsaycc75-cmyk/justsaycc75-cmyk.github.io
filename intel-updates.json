@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2108241046454866176",
+        "date": "2026-10-08",
+        "dateLabel": "08 OCT 2026 · UTC",
+        "headline": "US transports, airborne radar and elevated Baltic activity reported",
+        "summary": "War Watch reported multiple large US military transport aircraft and an airborne radar aircraft over the continental United States, while Baltic-region air activity was nearly three times its stated normal level.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108241046454866176"
+      },
+      {
+        "id": "2108225942120263916",
+        "date": "2026-10-08",
+        "dateLabel": "08 OCT 2026 · UTC",
+        "headline": "Six US strategic aircraft and coded broadcast reported",
+        "summary": "War Watch reported six US Air Force strategic aircraft over the continental United States: a nuclear command aircraft, two surveillance aircraft and three cargo aircraft. It also reported one coded broadcast during the preceding hour.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108225942120263916"
+      },
+      {
+        "id": "2108210837168992375",
+        "date": "2026-10-08",
+        "dateLabel": "08 OCT 2026 · UTC",
+        "headline": "US cargo and radar-surveillance aircraft reported",
+        "summary": "War Watch reported multiple US Air Force cargo aircraft and a radar-surveillance aircraft over the continental United States, amid rising tensions involving Ukraine and the Middle East.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108210837168992375"
+      },
+      {
         "id": "2108199756568596609",
         "date": "2026-10-08",
         "dateLabel": "08 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "date": "2026-10-08",
         "dateLabel": "08 OCT 2026 · UTC",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2108120344225530156"
-      },
-      {
-        "id": "2108105238519402626",
-        "date": "2026-10-08",
-        "dateLabel": "08 OCT 2026 · UTC",
-        "headline": "US transports and elevated Eastern Mediterranean activity reported",
-        "summary": "War Watch reported multiple US Air Force transport aircraft over the Eastern Mediterranean, where it said air activity was nearly three times its stated normal level, alongside a NATO airborne radar aircraft over the North Sea.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108105238519402626"
-      },
-      {
-        "id": "2108090135187263713",
-        "date": "2026-10-08",
-        "dateLabel": "08 OCT 2026 · UTC",
-        "headline": "Six US transports and additional Ramstein cargo flights reported",
-        "summary": "War Watch reported six US Air Force transport aircraft over the North Sea and United States, with additional cargo flights detected near Ramstein, Germany, during the preceding hour.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108090135187263713"
-      },
-      {
-        "id": "2108075031750156573",
-        "date": "2026-10-08",
-        "dateLabel": "08 OCT 2026 · UTC",
-        "headline": "US transports and surveillance aircraft remain airborne",
-        "summary": "War Watch reported US Air Force transport aircraft and a surveillance aircraft airborne over the continental United States, with no coded radio broadcasts during the preceding hour and the most recent nine hours earlier.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108075031750156573"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2108248415943508066",
+        "date": "2026-10-08",
+        "dateLabel": "08 OCT 2026 · UTC",
+        "headline": "P-3 LOBO11 airborne alert at Beja",
+        "summary": "SkyGlass posted an OFF Ground alert for Portuguese-registered military P-3 aircraft LOBO11 at Beja, Portugal.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108248415943508066"
+      },
+      {
+        "id": "2108245643508478306",
+        "date": "2026-10-08",
+        "dateLabel": "08 OCT 2026 · UTC",
+        "headline": "E-6 airborne alert at Midwest City",
+        "summary": "SkyGlass posted an OFF Ground alert for a US military aircraft labelled E6 at Midwest City, Oklahoma. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108245643508478306"
+      },
+      {
+        "id": "2108244381991870972",
+        "date": "2026-10-08",
+        "dateLabel": "08 OCT 2026 · UTC",
+        "headline": "E-2 GRYHK06 airborne alert at Norfolk",
+        "summary": "SkyGlass posted an OFF Ground alert for US military E-2 aircraft GRYHK06 at Norfolk, Virginia.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108244381991870972"
+      },
+      {
+        "id": "2108227916471443568",
+        "date": "2026-10-08",
+        "dateLabel": "08 OCT 2026 · UTC",
+        "headline": "E-6 airborne alert at La Vista",
+        "summary": "SkyGlass posted an OFF Ground alert for a US-registered military aircraft labelled E6 at La Vista, Nebraska. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108227916471443568"
+      },
       {
         "id": "2108196983504576561",
         "date": "2026-10-08",
@@ -170,38 +202,6 @@
         "headline": "SkyGlass shares report on China’s drone-warfare preparations",
         "summary": "SkyGlass shared a Defence Blog report saying China’s military was adapting its tactics for drone-centred conflict based on lessons from the war in Ukraine.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2108105335693066621"
-      },
-      {
-        "id": "2108104257928892602",
-        "date": "2026-10-08",
-        "dateLabel": "08 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Tiruvallur",
-        "summary": "SkyGlass posted an OFF Ground alert for an Indian Navy aircraft labelled P8 at Tiruvallur, India. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108104257928892602"
-      },
-      {
-        "id": "2108103263631429753",
-        "date": "2026-10-08",
-        "dateLabel": "08 OCT 2026 · UTC",
-        "headline": "E3TF NATO03 on-ground alert at Geilenkirchen",
-        "summary": "SkyGlass posted an ON Ground alert for Luxembourg-registered NATO E3TF aircraft NATO03 at Geilenkirchen, Germany.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108103263631429753"
-      },
-      {
-        "id": "2108099083420189171",
-        "date": "2026-10-08",
-        "dateLabel": "08 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Kattivakkam",
-        "summary": "SkyGlass posted an OFF Ground alert for an Indian military aircraft labelled P8 at Kattivakkam, India. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108099083420189171"
-      },
-      {
-        "id": "2108059550972567764",
-        "date": "2026-10-08",
-        "dateLabel": "08 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Uthukkottai",
-        "summary": "SkyGlass posted an OFF Ground alert for an Indian military aircraft labelled P8 at Uthukkottai, India. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108059550972567764"
       }
     ]
   }
