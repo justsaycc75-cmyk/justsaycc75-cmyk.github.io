@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2108059936294883831",
+        "date": "2026-10-08",
+        "dateLabel": "08 OCT 2026 · UTC",
+        "headline": "US transports and specialist aircraft reported amid Ukraine strikes",
+        "summary": "War Watch reported multiple US Air Force transport aircraft, a surveillance aircraft and an airborne radar aircraft over the United States, alongside Ukrainian strikes on Russian infrastructure.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108059936294883831"
+      },
+      {
+        "id": "2108044825031225659",
+        "date": "2026-10-08",
+        "dateLabel": "08 OCT 2026 · UTC",
+        "headline": "Five transports and airborne radar aircraft reported",
+        "summary": "War Watch reported five US Air Force transport aircraft and an airborne radar aircraft flying over the United States.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108044825031225659"
+      },
+      {
+        "id": "2108029720679813319",
+        "date": "2026-10-08",
+        "dateLabel": "08 OCT 2026 · UTC",
+        "headline": "Four transports and heightened Pentagon readiness reported",
+        "summary": "War Watch reported four US Air Force transport aircraft and an airborne radar aircraft operating over the United States, alongside evidence it described as heightened Pentagon readiness. The visible post is truncated after referring to a potential development.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108029720679813319"
+      },
+      {
         "id": "2108017785292927212",
         "date": "2026-10-08",
         "dateLabel": "08 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "Four transports, command aircraft and coded broadcasts reported",
         "summary": "War Watch reported four US Air Force transport aircraft and a nuclear command aircraft airborne over the continental United States, with 20 coded radio broadcasts heard during the day and none during the preceding hour.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2107939101240369558"
-      },
-      {
-        "id": "2107923997958541404",
-        "date": "2026-10-07",
-        "dateLabel": "07 OCT 2026 · UTC",
-        "headline": "Four coded broadcasts and six specialist aircraft reported",
-        "summary": "War Watch reported four coded US Air Force radio broadcasts during the preceding hour and six specialised military aircraft airborne over the United States, including a nuclear command aircraft and a surveillance aircraft.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107923997958541404"
-      },
-      {
-        "id": "2107918879733301622",
-        "date": "2026-10-07",
-        "dateLabel": "07 OCT 2026 · UTC",
-        "headline": "USAF MC-130J reported flying circuits near King’s Lynn",
-        "summary": "War Watch reported US Air Force MC-130J-30 Commando II registration 13-5786 flying circuits east of King’s Lynn after departing RAF Mildenhall, attributing the sighting to alexgreen1767.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107918879733301622"
-      },
-      {
-        "id": "2107908895423217928",
-        "date": "2026-10-07",
-        "dateLabel": "07 OCT 2026 · UTC",
-        "headline": "US transports and elevated Baltic activity reported",
-        "summary": "War Watch reported multiple US Air Force transport and surveillance aircraft over the continental United States, Baltic-region air activity at four times its stated normal level, and one coded radio broadcast. The visible post is truncated after that point.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107908895423217928"
       }
     ]
   },
@@ -107,6 +107,30 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2108059550972567764",
+        "date": "2026-10-08",
+        "dateLabel": "08 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert at Uthukkottai",
+        "summary": "SkyGlass posted an OFF Ground alert for an Indian military aircraft labelled P8 at Uthukkottai, India. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108059550972567764"
+      },
+      {
+        "id": "2108040083311833199",
+        "date": "2026-10-08",
+        "dateLabel": "08 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert at Kalghatgi",
+        "summary": "SkyGlass posted an OFF Ground alert for an Indian military aircraft labelled P8 at Kalghatgi, India. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108040083311833199"
+      },
+      {
+        "id": "2108023170301145331",
+        "date": "2026-10-08",
+        "dateLabel": "08 OCT 2026 · UTC",
+        "headline": "P-3 airborne alert at Tainan",
+        "summary": "SkyGlass posted an OFF Ground alert for a Taiwanese military aircraft labelled P3 at Tainan, Taiwan. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108023170301145331"
+      },
       {
         "id": "2108009865058673091",
         "date": "2026-10-08",
@@ -178,30 +202,6 @@
         "headline": "SkyGlass shares report on proposed Mach 4 SR-71 modification",
         "summary": "SkyGlass shared a The War Zone report discussing whether an SR-71 Blackbird could be modified with modern engine technology to reach Mach 4. The post presents the idea as speculative.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2107924168134041632"
-      },
-      {
-        "id": "2107889960288125075",
-        "date": "2026-10-07",
-        "dateLabel": "07 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Port Hueneme",
-        "summary": "SkyGlass posted an OFF Ground alert for a US-registered military aircraft labelled P8 at Port Hueneme, United States. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107889960288125075"
-      },
-      {
-        "id": "2107876281006080204",
-        "date": "2026-10-07",
-        "dateLabel": "07 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Greenwood",
-        "summary": "SkyGlass posted an OFF Ground alert for a military aircraft labelled P8 at Greenwood, CA. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107876281006080204"
-      },
-      {
-        "id": "2107872875822621173",
-        "date": "2026-10-07",
-        "dateLabel": "07 OCT 2026 · UTC",
-        "headline": "E-6 airborne alert near Bellevue",
-        "summary": "SkyGlass posted an OFF Ground alert for a US military aircraft labelled E6 near Bellevue, Nebraska. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107872875822621173"
       }
     ]
   }
