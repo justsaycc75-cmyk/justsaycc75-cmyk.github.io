@@ -5,6 +5,38 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2108150425199243486",
+        "headline": "US transports over North America and North Sea reported",
+        "summary": "War Watch reported multiple large US Air Force transport aircraft over North America and the North Sea, alongside a report that the Pentagon was preparing for a potential conflict with Iran.",
+        "date": "2026-10-08",
+        "dateLabel": "08 OCT 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108150425199243486"
+      },
+      {
+        "id": "2108137589622423691",
+        "headline": "Six US transports through Ramstein reported",
+        "summary": "War Watch reported six US Air Force transport aircraft moving through Ramstein Air Base, Germany, during the preceding few hours, amid reports of Ukrainian strikes on Russian targets.",
+        "date": "2026-10-08",
+        "dateLabel": "08 OCT 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108137589622423691"
+      },
+      {
+        "id": "2108133807043850418",
+        "headline": "Explosions reported in Bandar Abbas",
+        "summary": "War Watch reported extremely powerful explosions in Bandar Abbas between 0900 and 0910 local time, or 0530Z to 0540Z, attributing the report to weslester6474.",
+        "date": "2026-10-08",
+        "dateLabel": "08 OCT 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108133807043850418"
+      },
+      {
+        "id": "2108120344225530156",
+        "headline": "US transports over the United States and Europe reported",
+        "summary": "War Watch reported multiple US Air Force transport aircraft airborne over the United States and Europe, with several near Ramstein Air Base during active military operations.",
+        "date": "2026-10-08",
+        "dateLabel": "08 OCT 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108120344225530156"
+      },
+      {
         "id": "2108105238519402626",
         "date": "2026-10-08",
         "dateLabel": "08 OCT 2026 · UTC",
@@ -67,38 +99,6 @@
         "headline": "War Watch shares TWZ report on B-1B shelter concerns",
         "summary": "War Watch shared a The War Zone report saying a B-1B’s sudden departure from a United Kingdom airbase highlighted limited investment in aircraft shelters, crediting reagan0965 for the item.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2108014009341350216"
-      },
-      {
-        "id": "2108010237315682707",
-        "date": "2026-10-08",
-        "dateLabel": "08 OCT 2026 · UTC",
-        "headline": "Boeing C-40B SAM233 reported airborne",
-        "summary": "War Watch reported Boeing C-40B registration 01-0041 using callsign SAM233 and hex AE11F6, attributing the sighting to reagan0965 and the photograph to Westley_SJU via Planespotters.net.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108010237315682707"
-      },
-      {
-        "id": "2108006458583355685",
-        "date": "2026-10-08",
-        "dateLabel": "08 OCT 2026 · UTC",
-        "headline": "War Watch shares report on carrier group valor award",
-        "summary": "War Watch shared a Stars and Stripes report that the Abraham Lincoln Carrier Strike Group received the US military’s highest unit-level award for valor in battle, crediting reagan0965 for the item.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108006458583355685"
-      },
-      {
-        "id": "2108002684288573715",
-        "date": "2026-10-08",
-        "dateLabel": "08 OCT 2026 · UTC",
-        "headline": "Six transports, command aircraft and surveillance flight reported",
-        "summary": "War Watch reported six US Air Force transport aircraft and a nuclear command aircraft airborne over the United States, along with a US surveillance aircraft heading toward Scotland from Bangor.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108002684288573715"
-      },
-      {
-        "id": "2107969309561499700",
-        "date": "2026-10-07",
-        "dateLabel": "07 OCT 2026 · UTC",
-        "headline": "US transports, command aircraft and coded broadcasts reported",
-        "summary": "War Watch reported multiple US Air Force transport aircraft and a nuclear command aircraft airborne over the continental United States, with 20 coded military radio broadcasts heard during the day and the most recent two hours earlier.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107969309561499700"
       }
     ]
   },
@@ -107,6 +107,30 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2108138944550355143",
+        "headline": "E737 BOE31 on-ground alert at Lossiemouth",
+        "summary": "SkyGlass posted an ON Ground alert for UK-registered military E737 aircraft BOE31 at Lossiemouth, United Kingdom.",
+        "date": "2026-10-08",
+        "dateLabel": "08 OCT 2026 · UTC",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108138944550355143"
+      },
+      {
+        "id": "2108136773523996960",
+        "headline": "P-8 airborne alert at Lossiemouth",
+        "summary": "SkyGlass posted an OFF Ground alert for a UK-registered military P-8 aircraft at Lossiemouth, United Kingdom. The callsign was shown as @@@@@@@@.",
+        "date": "2026-10-08",
+        "dateLabel": "08 OCT 2026 · UTC",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108136773523996960"
+      },
+      {
+        "id": "2108121087645045178",
+        "headline": "P-8 AB29S airborne alert at Arakkonam",
+        "summary": "SkyGlass posted an OFF Ground alert for Indian military P-8 aircraft AB29S at Arakkonam, India.",
+        "date": "2026-10-08",
+        "dateLabel": "08 OCT 2026 · UTC",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108121087645045178"
+      },
       {
         "id": "2108105335693066621",
         "date": "2026-10-08",
@@ -178,30 +202,6 @@
         "headline": "P-8 BLKT70 on-ground alert at Burton",
         "summary": "SkyGlass posted an ON Ground alert for Australian military P-8 BLKT70 at Burton, Australia.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2108009254057652324"
-      },
-      {
-        "id": "2108008451653702063",
-        "date": "2026-10-08",
-        "dateLabel": "08 OCT 2026 · UTC",
-        "headline": "P-8 PDN04 on-ground alert at Marton",
-        "summary": "SkyGlass posted an ON Ground alert for New Zealand military P-8 PDN04 at Marton, New Zealand.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108008451653702063"
-      },
-      {
-        "id": "2107994079678107890",
-        "date": "2026-10-08",
-        "dateLabel": "08 OCT 2026 · UTC",
-        "headline": "P-8 CI131 airborne alert at Gijang",
-        "summary": "SkyGlass posted an OFF Ground alert for South Korean military P-8 CI131 at Gijang, South Korea.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107994079678107890"
-      },
-      {
-        "id": "2107972300758720834",
-        "date": "2026-10-07",
-        "dateLabel": "07 OCT 2026 · UTC",
-        "headline": "E-6 airborne alert at Elk City",
-        "summary": "SkyGlass posted an OFF Ground alert for a US military aircraft labelled E6 at Elk City, Oklahoma. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107972300758720834"
       }
     ]
   }
