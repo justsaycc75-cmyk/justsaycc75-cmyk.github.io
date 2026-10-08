@@ -1,3 +1,27 @@
+
+(()=>{
+  const clocks=[...document.querySelectorAll('[data-world-zone]')];
+  if(!clocks.length)return;
+  const formats=new Map();
+  const format=zone=>{
+    if(!formats.has(zone))formats.set(zone,{
+      time:new Intl.DateTimeFormat('en-AU',{timeZone:zone,hour:'2-digit',minute:'2-digit',hourCycle:'h23'}),
+      date:new Intl.DateTimeFormat('en-AU',{timeZone:zone,weekday:'short',day:'numeric',month:'short'})
+    });
+    return formats.get(zone);
+  };
+  const update=()=>{
+    const now=new Date();
+    clocks.forEach(clock=>{
+      const zone=clock.dataset.worldZone,display=format(zone);
+      clock.querySelector('strong').textContent=display.time.format(now);
+      clock.querySelector('small').textContent=display.date.format(now);
+    });
+  };
+  update();
+  window.setInterval(update,30000);
+  document.addEventListener('visibilitychange',()=>{if(!document.hidden)update();});
+})();
 (()=>{
   const css=document.createElement('link');
   css.rel='stylesheet';
