@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2108017785292927212",
+        "date": "2026-10-08",
+        "dateLabel": "08 OCT 2026 · UTC",
+        "headline": "Pentagon preparations and increased US activity reported",
+        "summary": "War Watch reported that the Pentagon had directed US Central Command to prepare for possible large-scale combat with Iran as US military activity increased over the continental United States.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108017785292927212"
+      },
+      {
+        "id": "2108014009341350216",
+        "date": "2026-10-08",
+        "dateLabel": "08 OCT 2026 · UTC",
+        "headline": "War Watch shares TWZ report on B-1B shelter concerns",
+        "summary": "War Watch shared a The War Zone report saying a B-1B’s sudden departure from a United Kingdom airbase highlighted limited investment in aircraft shelters, crediting reagan0965 for the item.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108014009341350216"
+      },
+      {
+        "id": "2108010237315682707",
+        "date": "2026-10-08",
+        "dateLabel": "08 OCT 2026 · UTC",
+        "headline": "Boeing C-40B SAM233 reported airborne",
+        "summary": "War Watch reported Boeing C-40B registration 01-0041 using callsign SAM233 and hex AE11F6, attributing the sighting to reagan0965 and the photograph to Westley_SJU via Planespotters.net.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108010237315682707"
+      },
+      {
+        "id": "2108006458583355685",
+        "date": "2026-10-08",
+        "dateLabel": "08 OCT 2026 · UTC",
+        "headline": "War Watch shares report on carrier group valor award",
+        "summary": "War Watch shared a Stars and Stripes report that the Abraham Lincoln Carrier Strike Group received the US military’s highest unit-level award for valor in battle, crediting reagan0965 for the item.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108006458583355685"
+      },
+      {
+        "id": "2108002684288573715",
+        "date": "2026-10-08",
+        "dateLabel": "08 OCT 2026 · UTC",
+        "headline": "Six transports, command aircraft and surveillance flight reported",
+        "summary": "War Watch reported six US Air Force transport aircraft and a nuclear command aircraft airborne over the United States, along with a US surveillance aircraft heading toward Scotland from Bangor.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108002684288573715"
+      },
+      {
         "id": "2107969309561499700",
         "date": "2026-10-07",
         "dateLabel": "07 OCT 2026 · UTC",
@@ -59,46 +99,6 @@
         "headline": "US transports and elevated Baltic activity reported",
         "summary": "War Watch reported multiple US Air Force transport and surveillance aircraft over the continental United States, Baltic-region air activity at four times its stated normal level, and one coded radio broadcast. The visible post is truncated after that point.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2107908895423217928"
-      },
-      {
-        "id": "2107893793630416959",
-        "date": "2026-10-07",
-        "dateLabel": "07 OCT 2026 · UTC",
-        "headline": "Six US military aircraft reported airborne",
-        "summary": "War Watch reported six significant US military aircraft airborne over the continental United States, including a bomber and a reconnaissance aircraft.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107893793630416959"
-      },
-      {
-        "id": "2107878688087744612",
-        "date": "2026-10-07",
-        "dateLabel": "07 OCT 2026 · UTC",
-        "headline": "US transports, drones and command aircraft reported",
-        "summary": "War Watch reported US military transport aircraft, surveillance drones and a nuclear command aircraft airborne over the continental United States, with coded US Air Force radio broadcasts detected several times during the day. The visible post is truncated after that point.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107878688087744612"
-      },
-      {
-        "id": "2107863584445276569",
-        "date": "2026-10-07",
-        "dateLabel": "07 OCT 2026 · UTC",
-        "headline": "Six major US military aircraft reported airborne",
-        "summary": "War Watch reported six major US military aircraft over the continental United States, including a nuclear command aircraft and a surveillance aircraft the account described as monitoring missile activity.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107863584445276569"
-      },
-      {
-        "id": "2107848479598858371",
-        "date": "2026-10-07",
-        "dateLabel": "07 OCT 2026 · UTC",
-        "headline": "Five US transports and command aircraft reported",
-        "summary": "War Watch reported five US Air Force transport aircraft and a nuclear command-and-control aircraft airborne over the United States, with no coded radio broadcasts detected during the preceding hour.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107848479598858371"
-      },
-      {
-        "id": "2107833378326098153",
-        "date": "2026-10-07",
-        "dateLabel": "07 OCT 2026 · UTC",
-        "headline": "Six US transports and renewed Ukraine strikes reported",
-        "summary": "War Watch reported six US Air Force transport aircraft over the United States, a nuclear command-and-control aircraft spotted earlier, and Ukrainian reports of fresh missile strikes on major cities.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2107833378326098153"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2108009865058673091",
+        "date": "2026-10-08",
+        "dateLabel": "08 OCT 2026 · UTC",
+        "headline": "P-8 KIW470 on-ground alert at Marton",
+        "summary": "SkyGlass posted an ON Ground alert for New Zealand military P-8 KIW470 at Marton, New Zealand.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108009865058673091"
+      },
+      {
+        "id": "2108009254057652324",
+        "date": "2026-10-08",
+        "dateLabel": "08 OCT 2026 · UTC",
+        "headline": "P-8 BLKT70 on-ground alert at Burton",
+        "summary": "SkyGlass posted an ON Ground alert for Australian military P-8 BLKT70 at Burton, Australia.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108009254057652324"
+      },
+      {
+        "id": "2108008451653702063",
+        "date": "2026-10-08",
+        "dateLabel": "08 OCT 2026 · UTC",
+        "headline": "P-8 PDN04 on-ground alert at Marton",
+        "summary": "SkyGlass posted an ON Ground alert for New Zealand military P-8 PDN04 at Marton, New Zealand.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108008451653702063"
+      },
+      {
+        "id": "2107994079678107890",
+        "date": "2026-10-08",
+        "dateLabel": "08 OCT 2026 · UTC",
+        "headline": "P-8 CI131 airborne alert at Gijang",
+        "summary": "SkyGlass posted an OFF Ground alert for South Korean military P-8 CI131 at Gijang, South Korea.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2107994079678107890"
+      },
       {
         "id": "2107972300758720834",
         "date": "2026-10-07",
@@ -170,38 +202,6 @@
         "headline": "E-6 airborne alert near Bellevue",
         "summary": "SkyGlass posted an OFF Ground alert for a US military aircraft labelled E6 near Bellevue, Nebraska. The callsign was shown as NA.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2107872875822621173"
-      },
-      {
-        "id": "2107871603887386651",
-        "date": "2026-10-07",
-        "dateLabel": "07 OCT 2026 · UTC",
-        "headline": "E3TF NATO02 on-ground alert at Albacete",
-        "summary": "SkyGlass posted an ON Ground alert for military aircraft NATO02, labelled E3TF, at Albacete, Spain.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107871603887386651"
-      },
-      {
-        "id": "2107869930787901704",
-        "date": "2026-10-07",
-        "dateLabel": "07 OCT 2026 · UTC",
-        "headline": "P-8 SCORE76 on-ground alert near Lexington Park",
-        "summary": "SkyGlass posted an ON Ground alert for US Navy P-8 SCORE76 near Lexington Park, Maryland.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107869930787901704"
-      },
-      {
-        "id": "2107837929041105113",
-        "date": "2026-10-07",
-        "dateLabel": "07 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert near Lacy-Lakeview",
-        "summary": "SkyGlass posted an OFF Ground alert for a US military aircraft labelled P8 near Lacy-Lakeview, Texas. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107837929041105113"
-      },
-      {
-        "id": "2107837304182047095",
-        "date": "2026-10-07",
-        "dateLabel": "07 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert near Orange Park",
-        "summary": "SkyGlass posted an OFF Ground alert for a US military aircraft labelled P8 near Orange Park, Florida. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2107837304182047095"
       }
     ]
   }
