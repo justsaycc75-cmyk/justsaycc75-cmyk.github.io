@@ -464,8 +464,8 @@
 .world-clock{min-width:0;padding:9px 8px 8px;border:1px solid #2e4838;border-radius:12px;background:#102019;text-align:center;line-height:1.2}
 .world-clock-home{border-color:#81c850;background:#193a25}
 .world-clock span{display:block;overflow:hidden;color:#b9d1bc;font-size:.6rem;font-weight:800;letter-spacing:.07em;white-space:nowrap;text-overflow:ellipsis}
-.world-clock strong{display:block;margin:4px 0 1px;color:#fff;font-size:1.3rem;font-variant-numeric:tabular-nums;letter-spacing:.02em}
-.world-clock-home strong{color:#b7f45e}
+.world-clock strong{display:block;margin:4px 0 1px;color:#f5d58b;font-size:1.3rem;font-variant-numeric:tabular-nums;letter-spacing:.02em}
+.world-clock-home strong{color:#ffe7a8}
 .world-clock small{display:block;color:#a7baaa;font-size:.66rem;white-space:nowrap}
 @media(max-width:1000px){.world-times-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
 @media(max-width:650px){.world-times-inner{padding:11px 14px}.world-times-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}.world-clock{padding:8px 5px}.world-clock strong{font-size:1.14rem}.world-clock span{font-size:.54rem}}
