@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2108199756568596609",
+        "date": "2026-10-08",
+        "dateLabel": "08 OCT 2026 · UTC",
+        "headline": "War Watch shares Reuters report on deadly eastern Ukraine strike",
+        "summary": "War Watch shared a Reuters report that a Russian bomb killed 33 people on a street in an eastern Ukrainian stronghold, attributing the item to Robertchester-j5b.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108199756568596609"
+      },
+      {
+        "id": "2108195736009461828",
+        "date": "2026-10-08",
+        "dateLabel": "08 OCT 2026 · UTC",
+        "headline": "US transports and airborne radar aircraft reported",
+        "summary": "War Watch reported multiple US Air Force transport aircraft and an airborne radar aircraft over the United States, with no coded radio alerts detected during the preceding hour.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108195736009461828"
+      },
+      {
+        "id": "2108191811902599253",
+        "date": "2026-10-08",
+        "dateLabel": "08 OCT 2026 · UTC",
+        "headline": "War Watch shares Guardian report on deadly bus attack",
+        "summary": "War Watch shared a Guardian report that a Russian attack on a bus killed 30 people near the front line in Ukraine, attributing the item to Robertchester-j5b.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108191811902599253"
+      },
+      {
+        "id": "2108180631708447134",
+        "date": "2026-10-08",
+        "dateLabel": "08 OCT 2026 · UTC",
+        "headline": "US transports, command aircraft and elevated Black Sea activity reported",
+        "summary": "War Watch reported four US Air Force transport aircraft and a nuclear command aircraft airborne over the continental United States, while Black Sea military air activity was nearly three times its stated normal level.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108180631708447134"
+      },
+      {
+        "id": "2108169553322651892",
+        "date": "2026-10-08",
+        "dateLabel": "08 OCT 2026 · UTC",
+        "headline": "War Watch shares reports of Royal Navy sailor arrest",
+        "summary": "War Watch shared Sky News and BBC reports that a junior-ranking Royal Navy sailor had been arrested over alleged spying for Russia, attributing the item to Robertchester-j5b.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108169553322651892"
+      },
+      {
         "id": "2108150425199243486",
         "headline": "US transports over North America and North Sea reported",
         "summary": "War Watch reported multiple large US Air Force transport aircraft over North America and the North Sea, alongside a report that the Pentagon was preparing for a potential conflict with Iran.",
@@ -59,46 +99,6 @@
         "headline": "US transports and surveillance aircraft remain airborne",
         "summary": "War Watch reported US Air Force transport aircraft and a surveillance aircraft airborne over the continental United States, with no coded radio broadcasts during the preceding hour and the most recent nine hours earlier.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2108075031750156573"
-      },
-      {
-        "id": "2108059936294883831",
-        "date": "2026-10-08",
-        "dateLabel": "08 OCT 2026 · UTC",
-        "headline": "US transports and specialist aircraft reported amid Ukraine strikes",
-        "summary": "War Watch reported multiple US Air Force transport aircraft, a surveillance aircraft and an airborne radar aircraft over the United States, alongside Ukrainian strikes on Russian infrastructure.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108059936294883831"
-      },
-      {
-        "id": "2108044825031225659",
-        "date": "2026-10-08",
-        "dateLabel": "08 OCT 2026 · UTC",
-        "headline": "Five transports and airborne radar aircraft reported",
-        "summary": "War Watch reported five US Air Force transport aircraft and an airborne radar aircraft flying over the United States.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108044825031225659"
-      },
-      {
-        "id": "2108029720679813319",
-        "date": "2026-10-08",
-        "dateLabel": "08 OCT 2026 · UTC",
-        "headline": "Four transports and heightened Pentagon readiness reported",
-        "summary": "War Watch reported four US Air Force transport aircraft and an airborne radar aircraft operating over the United States, alongside evidence it described as heightened Pentagon readiness. The visible post is truncated after referring to a potential development.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108029720679813319"
-      },
-      {
-        "id": "2108017785292927212",
-        "date": "2026-10-08",
-        "dateLabel": "08 OCT 2026 · UTC",
-        "headline": "Pentagon preparations and increased US activity reported",
-        "summary": "War Watch reported that the Pentagon had directed US Central Command to prepare for possible large-scale combat with Iran as US military activity increased over the continental United States.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108017785292927212"
-      },
-      {
-        "id": "2108014009341350216",
-        "date": "2026-10-08",
-        "dateLabel": "08 OCT 2026 · UTC",
-        "headline": "War Watch shares TWZ report on B-1B shelter concerns",
-        "summary": "War Watch shared a The War Zone report saying a B-1B’s sudden departure from a United Kingdom airbase highlighted limited investment in aircraft shelters, crediting reagan0965 for the item.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108014009341350216"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2108196983504576561",
+        "date": "2026-10-08",
+        "dateLabel": "08 OCT 2026 · UTC",
+        "headline": "P-8 on-ground alert at Orange Park",
+        "summary": "SkyGlass posted an ON Ground alert for a US military P-8 aircraft at Orange Park, Florida. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108196983504576561"
+      },
+      {
+        "id": "2108195719672738256",
+        "date": "2026-10-08",
+        "dateLabel": "08 OCT 2026 · UTC",
+        "headline": "E3TF NATO03 on-ground alert at Gangelt",
+        "summary": "SkyGlass posted an ON Ground alert for Luxembourg-registered E3TF aircraft NATO03 at Gangelt, Germany.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108195719672738256"
+      },
+      {
+        "id": "2108195312195993929",
+        "date": "2026-10-08",
+        "dateLabel": "08 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert at Lossiemouth",
+        "summary": "SkyGlass posted an OFF Ground alert for a UK-registered military P-8 aircraft at Lossiemouth, United Kingdom. The callsign was shown as @@@@@@@@.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108195312195993929"
+      },
+      {
+        "id": "2108190379572937088",
+        "date": "2026-10-08",
+        "dateLabel": "08 OCT 2026 · UTC",
+        "headline": "E3TF SHUCK80 airborne alert at Midwest City",
+        "summary": "SkyGlass posted an OFF Ground alert for US-registered military E3TF aircraft SHUCK80 at Midwest City, Oklahoma.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108190379572937088"
+      },
       {
         "id": "2108138944550355143",
         "headline": "E737 BOE31 on-ground alert at Lossiemouth",
@@ -170,38 +202,6 @@
         "headline": "P-8 airborne alert at Uthukkottai",
         "summary": "SkyGlass posted an OFF Ground alert for an Indian military aircraft labelled P8 at Uthukkottai, India. The callsign was shown as NA.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2108059550972567764"
-      },
-      {
-        "id": "2108040083311833199",
-        "date": "2026-10-08",
-        "dateLabel": "08 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Kalghatgi",
-        "summary": "SkyGlass posted an OFF Ground alert for an Indian military aircraft labelled P8 at Kalghatgi, India. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108040083311833199"
-      },
-      {
-        "id": "2108023170301145331",
-        "date": "2026-10-08",
-        "dateLabel": "08 OCT 2026 · UTC",
-        "headline": "P-3 airborne alert at Tainan",
-        "summary": "SkyGlass posted an OFF Ground alert for a Taiwanese military aircraft labelled P3 at Tainan, Taiwan. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108023170301145331"
-      },
-      {
-        "id": "2108009865058673091",
-        "date": "2026-10-08",
-        "dateLabel": "08 OCT 2026 · UTC",
-        "headline": "P-8 KIW470 on-ground alert at Marton",
-        "summary": "SkyGlass posted an ON Ground alert for New Zealand military P-8 KIW470 at Marton, New Zealand.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108009865058673091"
-      },
-      {
-        "id": "2108009254057652324",
-        "date": "2026-10-08",
-        "dateLabel": "08 OCT 2026 · UTC",
-        "headline": "P-8 BLKT70 on-ground alert at Burton",
-        "summary": "SkyGlass posted an ON Ground alert for Australian military P-8 BLKT70 at Burton, Australia.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108009254057652324"
       }
     ]
   }
