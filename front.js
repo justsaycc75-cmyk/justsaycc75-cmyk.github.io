@@ -295,7 +295,7 @@
       if(seen.has(name))return;
       seen.add(name);
       const alt=photo.alt&&!/^holiday (photo|snap)$/i.test(photo.alt)?photo.alt:'A photo from our travels';
-      slides.push({src,alt,title:alt==='A photo from our travels'?'From our travels':alt,href:'#holiday-snaps',link:'See our holiday snaps →',position:'center 50%'});
+      slides.push({src,alt,title:alt==='A photo from our travels'?'From our travels':alt,href:'#holiday-snaps',link:'See our holiday snaps →',position:'center 50%',fit:photo.dataset.heroFit||'cover'});
     });
     const img=frame.querySelector('[data-hero-photo]');
     const title=frame.querySelector('[data-hero-title]');
@@ -322,7 +322,7 @@
     const remember=()=>{try{sessionStorage.setItem(storageKey,JSON.stringify({fingerprint,order,position:current}));}catch(_){/* Storage may be unavailable. */}};
     const show=()=>{
       const slide=slides[order[current]];
-      img.src=slide.src;img.alt=slide.alt;img.style.objectPosition=slide.position;
+      img.src=slide.src;img.alt=slide.alt;img.style.objectPosition=slide.position;img.style.objectFit=slide.fit||'cover';
       title.textContent=slide.title;link.href=slide.href;link.textContent=slide.link;
       remember();
       const upcoming=new Image();upcoming.src=slides[order[(current+1)%order.length]].src;
