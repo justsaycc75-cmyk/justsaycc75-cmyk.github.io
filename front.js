@@ -320,9 +320,14 @@
       if(current===order.length){shuffle(order[order.length-1]);current=0;}
     }else shuffle();
     const remember=()=>{try{sessionStorage.setItem(storageKey,JSON.stringify({fingerprint,order,position:current}));}catch(_){/* Storage may be unavailable. */}};
+    const preservePortrait=()=>{
+      if(img.naturalWidth&&img.naturalHeight&&img.naturalWidth/img.naturalHeight<1.1&&img.style.objectFit==='cover')img.style.objectFit='contain';
+    };
+    img.addEventListener('load',preservePortrait);
     const show=()=>{
       const slide=slides[order[current]];
       img.src=slide.src;img.alt=slide.alt;img.style.objectPosition=slide.position;img.style.objectFit=slide.fit||'cover';
+      preservePortrait();
       title.textContent=slide.title;link.href=slide.href;link.textContent=slide.link;
       remember();
       const upcoming=new Image();upcoming.src=slides[order[(current+1)%order.length]].src;
