@@ -98,7 +98,7 @@
   </section>
 
   <section class="ranking">
-    <div class="rank-head"><div><div class="section-label">Automatic Sydney ranking</div><h2>Best buttons to try right now</h2></div><span>Based on darkness + Kp + frequency</span></div>
+    <div class="rank-head"><div><div class="section-label">Automatic Sydney ranking</div><h2>Best buttons to try right now</h2></div><span>Sydney day/night + station schedules</span></div>
     <div class="rank-grid" id="rankGrid"></div>
   </section>
 
@@ -108,10 +108,10 @@
       <div class="freq-card"><small>MILITARY • HFGCS</small><strong>8,992 kHz USB</strong><p>Lower-frequency U.S. military HFGCS companion to 11,175 kHz. Often improves as a propagation path moves into darkness. Expect the same style of coded messages, station calls and aircraft checks.</p><a href="http://websdr.ewi.utwente.nl:8901/?tune=8992usb" target="_blank" rel="noopener">Listen to military HFGCS via Twente →</a></div>
       <div class="freq-card"><small>MILITARY • HFGCS</small><strong>15,016 kHz USB</strong><p>Higher U.S. military HFGCS channel used when daylight supports 15 MHz propagation. It may be silent for long stretches, then carry a short coded message or aircraft/ground-station call.</p><a href="http://websdr.ewi.utwente.nl:8901/?tune=15016usb" target="_blank" rel="noopener">Listen to military HFGCS via Twente →</a></div>
       <div class="freq-card"><small>MILITARY • HFGCS</small><strong>4,724 kHz USB</strong><p>Low-band U.S. military HFGCS frequency for fully dark paths. Most useful late at night, with more atmospheric noise. Listen for brief coded voice traffic, callsigns and radio checks.</p><a href="http://websdr.ewi.utwente.nl:8901/?tune=4724usb" target="_blank" rel="noopener">Listen to military HFGCS via Twente →</a></div>
-      <div class="freq-card"><small>MARINE WEATHER • BoM</small><strong>6,507 kHz USB</strong><p>VMC Charleville is an Australian Bureau of Meteorology marine-weather voice service. It carries scheduled coastal and high-seas forecasts and warnings for vessels around eastern Australian waters.</p><a href="http://kiwisdr.areg.org.au:8075/?f=6507usb" target="_blank" rel="noopener">Listen for BoM marine weather →</a></div>
-      <div class="freq-card"><small>MARINE WEATHER • BoM</small><strong>6,230 kHz USB</strong><p>VMW Wiluna is the Bureau of Meteorology voice service for western and north-western Australian waters. Expect scheduled marine forecasts, observations and weather warnings.</p><a href="http://kiwisdr.areg.org.au:8075/?f=6230usb" target="_blank" rel="noopener">Listen for BoM marine weather →</a></div>
+      <div class="freq-card"><small>MARINE WEATHER • BoM</small><strong>6,507 kHz USB</strong><p>VMC Charleville carries scheduled coastal and high-seas forecasts and warnings for eastern Australian waters. This frequency operates 18:00–07:00 AEST (19:00–08:00 Sydney daylight-saving time); 8,176 and 12,365 kHz USB are all-hours alternatives.</p><a href="http://kiwisdr.areg.org.au:8075/?f=6507usb" target="_blank" rel="noopener">Listen for BoM marine weather →</a></div>
+      <div class="freq-card"><small>MARINE WEATHER • BoM</small><strong>6,230 kHz USB</strong><p>VMW Wiluna carries scheduled marine forecasts, observations and warnings for western and north-western Australian waters. This frequency operates 18:00–07:00 AWST; 8,113 and 12,362 kHz USB are all-hours alternatives.</p><a href="http://kiwisdr.areg.org.au:8075/?f=6230usb" target="_blank" rel="noopener">Listen for BoM marine weather →</a></div>
       <div class="freq-card"><small>TIME / PROPAGATION CHECK</small><strong>10,000 kHz AM</strong><p>WWV in Colorado and WWVH in Hawaii transmit precise time and frequency standards. Listen for second ticks, tones and spoken UTC announcements; from Sydney, WWVH is often the more practical path.</p><a href="http://na5b.com:8901/?tune=10000am" target="_blank" rel="noopener">Listen for WWV / WWVH time signals →</a></div>
-      <div class="freq-card"><small>INTERNATIONAL BROADCAST</small><strong>9,700 kHz AM</strong><p>RNZ Pacific carries New Zealand news, current affairs, sport and Pacific regional programming. It is a comparatively easy broadcast target from Sydney, but its frequency changes with the UTC schedule and season.</p><a href="https://www.rnz.co.nz/international/listen" target="_blank" rel="noopener">Check the current RNZ Pacific schedule →</a></div>
+      <div class="freq-card"><small>INTERNATIONAL BROADCAST</small><strong>RNZ Pacific • current AM schedule</strong><p>RNZ Pacific carries New Zealand news, current affairs, sport and Pacific regional programming. Its frequency changes with UTC time and season; check the official schedule before tuning.</p><a href="https://www.rnz.co.nz/international/listen" target="_blank" rel="noopener">Check the current RNZ Pacific schedule →</a></div>
     </div></section>
 
     <section class="panel local-listen"><div class="section-label">Aviation + marine guard + NSW live audio</div><h2 class="serif">Emergency &amp; local listening desk</h2><div class="cards">
@@ -142,29 +142,43 @@ function updateClocks(){
 }
 function state(){
  const h=zoneHour('Australia/Sydney'), day=h>=7&&h<18;
+ // BoM uses standard time year-round, independently of Sydney daylight saving.
+ // Source: https://www.bom.gov.au/marine/radio-sat/voice-services.shtml
+ const vmcNight=phase(zoneHour('Australia/Brisbane'))==='NIGHT';
+ const vmwNight=phase(zoneHour('Australia/Perth'))==='NIGHT';
+ const vmc=vmcNight?'6,507':'4,426',vmw=vmwNight?'6,230':'8,113';
+ const vmcInfo='Eastern Australian marine forecasts and warnings. '+(vmcNight?'18:00–07:00':'07:00–18:00')+' AEST allocation.';
+ const vmwInfo='Western Australian marine forecasts and warnings. '+(vmwNight?'18:00–07:00 AWST allocation.':'All-hours allocation.');
  document.getElementById('pathState').textContent=day?'DAYLIGHT — HIGHER BANDS FAVOURED':'DARK — LOWER BANDS FAVOURED';
  const mapWrap=document.getElementById('greylineMapWrap'); if(mapWrap){mapWrap.classList.toggle('day',day);mapWrap.classList.toggle('night',!day);}
  const bands=day?[['19m','15,100–15,800 kHz','BEST NOW'],['22m','13,570–13,870 kHz','BEST NOW'],['25m','11,600–12,100 kHz','TRY'],['31m','9,400–9,900 kHz','TRY']]:[['49m','5,900–6,200 kHz','BEST NOW'],['41m','7,200–7,600 kHz','BEST NOW'],['31m','9,400–9,900 kHz','TRY'],['25m','11,600–12,100 kHz','TRY']];
  document.getElementById('bandCards').innerHTML=bands.map((x,i)=>'<div class="band '+(i<2?'best':'')+'"><strong>'+x[0]+'</strong><span>'+x[1]+'</span><b>'+x[2]+'</b></div>').join('');
  document.getElementById('briefTitle').textContent=day?'Daylight paths are in play':'Night listening is in play';
- document.getElementById('startHere').textContent=day?'12,365 kHz USB':'6,230 kHz USB';
- document.getElementById('startText').textContent=day?' — VMC Charleville. Higher all-hours marine weather allocation for eastern waters.':' — VMW Wiluna. Bureau of Meteorology marine weather voice service for western Australia.';
- document.getElementById('backups').textContent=day?'6,230 kHz USB VMW Wiluna • 6,507 kHz USB VMC Charleville':'6,507 kHz USB VMC Charleville • 8,176 kHz USB VMC Charleville';
+ document.getElementById('startHere').textContent=day?'12,365 kHz USB':vmw+' kHz USB';
+ document.getElementById('startText').textContent=day?' — VMC Charleville. Higher all-hours marine weather allocation for eastern waters.':' — VMW Wiluna. '+vmwInfo;
+ document.getElementById('backups').textContent=day?vmw+' kHz USB VMW Wiluna • '+vmc+' kHz USB VMC Charleville':vmc+' kHz USB VMC Charleville • 8,176 kHz USB VMC Charleville';
  document.getElementById('expectText').textContent=day?'Sydney is in daylight, so 19m and 22m deserve the first attempt. Higher frequencies often carry farther while the path is sunlit.':'Sydney is in darkness, so 49m and 41m should be steadier starting points. Lower frequencies usually improve as the path darkens.';
  const ranks=day?[
   ['12,365','USB','VMC Charleville','MARINE WEATHER','Bureau of Meteorology high-band marine forecast service for eastern Australian waters.','http://kiwisdr.areg.org.au:8075/'],
-  ['6,230','USB','VMW Wiluna','MARINE WEATHER','Bureau of Meteorology marine forecast and warning service for western Australia.','http://kiwisdr.areg.org.au:8075/'],
-  ['6,507','USB','VMC Charleville','MARINE WEATHER','Bureau of Meteorology marine forecast service for eastern Australia.','http://kiwisdr.areg.org.au:8075/'],
+  [vmw,'USB','VMW Wiluna','MARINE WEATHER',vmwInfo,'http://kiwisdr.areg.org.au:8075/'],
+  [vmc,'USB','VMC Charleville','MARINE WEATHER',vmcInfo,'http://kiwisdr.areg.org.au:8075/'],
   ['8,176','USB','VMC Charleville','MARINE WEATHER','All-hours Australian marine-weather voice allocation.','http://kiwisdr.areg.org.au:8075/'],
-  ['9,700','AM','RNZ Pacific','INTERNATIONAL BROADCAST','New Zealand/Pacific news and regional programming; frequency changes with the UTC schedule.','https://www.rnz.co.nz/international/listen']
+  [null,'AM','RNZ Pacific','INTERNATIONAL BROADCAST','New Zealand/Pacific news and regional programming. Check the current UTC schedule before choosing a frequency.','https://www.rnz.co.nz/international/listen']
  ]:[
-  ['6,230','USB','VMW Wiluna','MARINE WEATHER','Bureau of Meteorology marine forecast and warning service for western Australia.','http://kiwisdr.areg.org.au:8075/'],
-  ['6,507','USB','VMC Charleville','MARINE WEATHER','Bureau of Meteorology marine forecast service for eastern Australia.','http://kiwisdr.areg.org.au:8075/'],
+  [vmw,'USB','VMW Wiluna','MARINE WEATHER',vmwInfo,'http://kiwisdr.areg.org.au:8075/'],
+  [vmc,'USB','VMC Charleville','MARINE WEATHER',vmcInfo,'http://kiwisdr.areg.org.au:8075/'],
   ['8,176','USB','VMC Charleville','MARINE WEATHER','All-hours Australian marine-weather voice allocation.','http://kiwisdr.areg.org.au:8075/'],
-  ['9,700','AM','RNZ Pacific','INTERNATIONAL BROADCAST','New Zealand/Pacific news and regional programming; frequency changes with the UTC schedule.','https://www.rnz.co.nz/international/listen'],
+  [null,'AM','RNZ Pacific','INTERNATIONAL BROADCAST','New Zealand/Pacific news and regional programming. Check the current UTC schedule before choosing a frequency.','https://www.rnz.co.nz/international/listen'],
   ['2,182','USB','Maritime distress voice','MARITIME EMERGENCY','International MF distress, urgency and calling frequency. Normally silent; monitor only.','http://kiwisdr.areg.org.au:8075/']
  ];
- document.getElementById('rankGrid').innerHTML=ranks.map((r,i)=>{const cls=r[3].includes('EMERGENCY')?'emergency':r[3].includes('BROADCAST')?'broadcast':r[3].includes('MARINE')?'marine':'military';return '<a class="rank rank-link" href="'+receiverUrl(r[5],r[0].replace(/,/g,''),r[1])+'" target="_blank" rel="noopener" aria-label="Open '+r[2]+' '+r[0]+' kHz '+r[1]+'"><span class="num">0'+(i+1)+'</span><strong>'+r[0]+' <small>kHz '+r[1]+'</small></strong><div>'+r[2]+'</div><span class="role-badge '+cls+'">'+r[3]+'</span><p>'+r[4]+'</p><div class="dots">'+(i===4?'●●●●○':'●●●●●')+'</div><span class="rank-open">OPEN →</span></a>'}).join('');
+ document.getElementById('rankGrid').innerHTML=ranks.map((r,i)=>{
+  const cls=r[3].includes('EMERGENCY')?'emergency':r[3].includes('BROADCAST')?'broadcast':r[3].includes('MARINE')?'marine':'military';
+  const hasFrequency=r[0]!==null;
+  const href=hasFrequency?receiverUrl(r[5],r[0].replace(/,/g,''),r[1]):r[5];
+  const label=hasFrequency?r[0]+' kHz '+r[1]:'current UTC schedule';
+  const heading=hasFrequency?r[0]+' <small>kHz '+r[1]+'</small>':'UTC schedule <small>'+r[1]+'</small>';
+  return '<a class="rank rank-link" href="'+href+'" target="_blank" rel="noopener" aria-label="Open '+r[2]+' '+label+'"><span class="num">0'+(i+1)+'</span><strong>'+heading+'</strong><div>'+r[2]+'</div><span class="role-badge '+cls+'">'+r[3]+'</span><p>'+r[4]+'</p><div class="dots">'+(i===4?'●●●●○':'●●●●●')+'</div><span class="rank-open">'+(hasFrequency?'OPEN':'CHECK SCHEDULE')+' →</span></a>';
+ }).join('');
 }
 async function noaa(){
  try{
