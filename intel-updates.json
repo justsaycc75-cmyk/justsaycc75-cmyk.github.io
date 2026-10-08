@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2108332897996308646",
+        "date": "2026-10-08",
+        "dateLabel": "08 OCT 2026 · UTC",
+        "headline": "Coded US Air Force broadcasts reported at nearly 3.6 times normal",
+        "summary": "War Watch reported coded US Air Force radio broadcasts at nearly 3.6 times its stated normal level across nine regions worldwide, spanning Korea to the North Sea, during the preceding hour.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108332897996308646"
+      },
+      {
+        "id": "2108329125165375920",
+        "date": "2026-10-08",
+        "dateLabel": "08 OCT 2026 · UTC",
+        "headline": "Beechcraft JANET09 reported airborne",
+        "summary": "War Watch reported a 2021 US Air Force Beechcraft Super King Air 350 using callsign JANET09 and hex ADCE1A, attributing the sighting to reagan0965 and the photograph to G. Najberg via Planespotters.net.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108329125165375920"
+      },
+      {
+        "id": "2108321559475622008",
+        "date": "2026-10-08",
+        "dateLabel": "08 OCT 2026 · UTC",
+        "headline": "JANET10 reported airborne",
+        "summary": "War Watch reported an aircraft using callsign JANET10 and hex AC96DF, attributing the sighting to reagan0965 and the photograph to Julian Martin via Planespotters.net.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108321559475622008"
+      },
+      {
+        "id": "2108316562218262766",
+        "date": "2026-10-08",
+        "dateLabel": "08 OCT 2026 · UTC",
+        "headline": "US command aircraft, heavy transports and 14 coded broadcasts reported",
+        "summary": "War Watch reported a US Air Force nuclear command aircraft and multiple heavy transport aircraft over the United States, alongside 14 coded radio broadcasts during the day. The visible post is truncated after referring to the Gulf and Korea regions.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108316562218262766"
+      },
+      {
+        "id": "2108307984166072696",
+        "date": "2026-10-08",
+        "dateLabel": "08 OCT 2026 · UTC",
+        "headline": "RC-135V OLIVE48 reported airborne",
+        "summary": "War Watch reported Boeing RC-135V Rivet Joint registration 64-14848 using callsign OLIVE48 and hex AE01C3, attributing the sighting to reagan0965 and the photograph to Werner Verbogt via Planespotters.net.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108307984166072696"
+      },
+      {
         "id": "2108290365430042897",
         "date": "2026-10-08",
         "dateLabel": "08 OCT 2026 · UTC",
@@ -59,46 +99,6 @@
         "headline": "Six US strategic aircraft and coded broadcast reported",
         "summary": "War Watch reported six US Air Force strategic aircraft over the continental United States: a nuclear command aircraft, two surveillance aircraft and three cargo aircraft. It also reported one coded broadcast during the preceding hour.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2108225942120263916"
-      },
-      {
-        "id": "2108210837168992375",
-        "date": "2026-10-08",
-        "dateLabel": "08 OCT 2026 · UTC",
-        "headline": "US cargo and radar-surveillance aircraft reported",
-        "summary": "War Watch reported multiple US Air Force cargo aircraft and a radar-surveillance aircraft over the continental United States, amid rising tensions involving Ukraine and the Middle East.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108210837168992375"
-      },
-      {
-        "id": "2108199756568596609",
-        "date": "2026-10-08",
-        "dateLabel": "08 OCT 2026 · UTC",
-        "headline": "War Watch shares Reuters report on deadly eastern Ukraine strike",
-        "summary": "War Watch shared a Reuters report that a Russian bomb killed 33 people on a street in an eastern Ukrainian stronghold, attributing the item to Robertchester-j5b.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108199756568596609"
-      },
-      {
-        "id": "2108195736009461828",
-        "date": "2026-10-08",
-        "dateLabel": "08 OCT 2026 · UTC",
-        "headline": "US transports and airborne radar aircraft reported",
-        "summary": "War Watch reported multiple US Air Force transport aircraft and an airborne radar aircraft over the United States, with no coded radio alerts detected during the preceding hour.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108195736009461828"
-      },
-      {
-        "id": "2108191811902599253",
-        "date": "2026-10-08",
-        "dateLabel": "08 OCT 2026 · UTC",
-        "headline": "War Watch shares Guardian report on deadly bus attack",
-        "summary": "War Watch shared a Guardian report that a Russian attack on a bus killed 30 people near the front line in Ukraine, attributing the item to Robertchester-j5b.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108191811902599253"
-      },
-      {
-        "id": "2108180631708447134",
-        "date": "2026-10-08",
-        "dateLabel": "08 OCT 2026 · UTC",
-        "headline": "US transports, command aircraft and elevated Black Sea activity reported",
-        "summary": "War Watch reported four US Air Force transport aircraft and a nuclear command aircraft airborne over the continental United States, while Black Sea military air activity was nearly three times its stated normal level.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108180631708447134"
       }
     ]
   },
@@ -107,6 +107,30 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2108309028312907908",
+        "date": "2026-10-08",
+        "dateLabel": "08 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert at Orange Park",
+        "summary": "SkyGlass posted an OFF Ground alert for a US-registered military P-8 aircraft at Orange Park, Florida. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108309028312907908"
+      },
+      {
+        "id": "2108308010132984306",
+        "date": "2026-10-08",
+        "dateLabel": "08 OCT 2026 · UTC",
+        "headline": "E-6 airborne alert at Suisun",
+        "summary": "SkyGlass posted an OFF Ground alert for a US military aircraft labelled E6 at Suisun, California. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108308010132984306"
+      },
+      {
+        "id": "2108301580994777115",
+        "date": "2026-10-08",
+        "dateLabel": "08 OCT 2026 · UTC",
+        "headline": "P-8 PDN01 on-ground alert at Marton",
+        "summary": "SkyGlass posted an ON Ground alert for New Zealand-registered military P-8 aircraft PDN01 at Marton, New Zealand.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108301580994777115"
+      },
       {
         "id": "2108286587670773761",
         "date": "2026-10-08",
@@ -178,30 +202,6 @@
         "headline": "P-8 on-ground alert at Orange Park",
         "summary": "SkyGlass posted an ON Ground alert for a US military P-8 aircraft at Orange Park, Florida. The callsign was shown as NA.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2108196983504576561"
-      },
-      {
-        "id": "2108195719672738256",
-        "date": "2026-10-08",
-        "dateLabel": "08 OCT 2026 · UTC",
-        "headline": "E3TF NATO03 on-ground alert at Gangelt",
-        "summary": "SkyGlass posted an ON Ground alert for Luxembourg-registered E3TF aircraft NATO03 at Gangelt, Germany.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108195719672738256"
-      },
-      {
-        "id": "2108195312195993929",
-        "date": "2026-10-08",
-        "dateLabel": "08 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Lossiemouth",
-        "summary": "SkyGlass posted an OFF Ground alert for a UK-registered military P-8 aircraft at Lossiemouth, United Kingdom. The callsign was shown as @@@@@@@@.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108195312195993929"
-      },
-      {
-        "id": "2108190379572937088",
-        "date": "2026-10-08",
-        "dateLabel": "08 OCT 2026 · UTC",
-        "headline": "E3TF SHUCK80 airborne alert at Midwest City",
-        "summary": "SkyGlass posted an OFF Ground alert for US-registered military E3TF aircraft SHUCK80 at Midwest City, Oklahoma.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108190379572937088"
       }
     ]
   }
