@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2108512911278723441",
+        "date": "2026-10-09",
+        "dateLabel": "09 OCT 2026 · UTC",
+        "headline": "US transports over North America and North Sea reported",
+        "summary": "War Watch reported six US military transport aircraft over North America and the North Sea, and repeated a report that air traffic had been suspended in Kuwait amid regional tensions.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108512911278723441"
+      },
+      {
+        "id": "2108497800568705067",
+        "date": "2026-10-09",
+        "dateLabel": "09 OCT 2026 · UTC",
+        "headline": "US transports and five coded broadcasts reported",
+        "summary": "War Watch reported multiple US Air Force transport aircraft over the North Sea and five coded radio broadcasts during the day. The visible post is truncated after referring to regional tensions and reports of explosions near the Strait of Hormuz.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108497800568705067"
+      },
+      {
+        "id": "2108482696674435270",
+        "date": "2026-10-09",
+        "dateLabel": "09 OCT 2026 · UTC",
+        "headline": "US transports, surveillance aircraft and NATO radar jet reported",
+        "summary": "War Watch reported multiple large US military transport aircraft over the United States during the preceding hour, alongside a surveillance aircraft near the North Sea and a NATO radar aircraft.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108482696674435270"
+      },
+      {
         "id": "2108467595288387759",
         "date": "2026-10-09",
         "dateLabel": "09 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "Explosions near Strait of Hormuz and US military activity reported",
         "summary": "War Watch reported heavy explosions in the southern Strait of Hormuz, US military transport aircraft active over the continental United States and coded US Air Force radio traffic.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2108377194271473956"
-      },
-      {
-        "id": "2108373423646728630",
-        "date": "2026-10-09",
-        "dateLabel": "09 OCT 2026 · UTC",
-        "headline": "C-17A MCFAMC reported airborne",
-        "summary": "War Watch reported Boeing C-17A Globemaster registration 08-8197 using callsign MCFAMC and hex AE2FA9, attributing the sighting to reagan0965 and the photograph to Luca Knopp via Planespotters.net.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108373423646728630"
-      },
-      {
-        "id": "2108365871949254688",
-        "date": "2026-10-09",
-        "dateLabel": "09 OCT 2026 · UTC",
-        "headline": "TC-135W OLIVE27 reported airborne",
-        "summary": "War Watch reported Boeing TC-135W registration 62-4127 using callsign OLIVE27 and hex AE1254, attributing the sighting to reagan0965 and the photograph to Alon Varshaver via Planespotters.net.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108365871949254688"
-      },
-      {
-        "id": "2108361871115833513",
-        "date": "2026-10-09",
-        "dateLabel": "09 OCT 2026 · UTC",
-        "headline": "Eastern Mediterranean activity reported near three times normal",
-        "summary": "War Watch reported military air activity in the Eastern Mediterranean at nearly three times its stated normal level, alongside multiple US transport aircraft over the United States.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108361871115833513"
       }
     ]
   },
@@ -107,6 +107,14 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2108508825913262278",
+        "date": "2026-10-09",
+        "dateLabel": "09 OCT 2026 · UTC",
+        "headline": "P-3 LOBO01 airborne alert at Vidigueira",
+        "summary": "SkyGlass posted an OFF Ground alert for Portuguese military P-3 aircraft LOBO01 at Vidigueira, Portugal.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108508825913262278"
+      },
       {
         "id": "2108455018919497739",
         "date": "2026-10-09",
@@ -194,14 +202,6 @@
         "headline": "SkyGlass shares report on X-BAT drone development",
         "summary": "SkyGlass shared a The War Zone report that the US Navy was accelerating development of the X-BAT vertical-takeoff-and-landing fighter drone toward flight testing and operational readiness.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2108286587670773761"
-      },
-      {
-        "id": "2108286587628880009",
-        "date": "2026-10-08",
-        "dateLabel": "08 OCT 2026 · UTC",
-        "headline": "SkyGlass shares report on AERIE counter-drone prototype",
-        "summary": "SkyGlass shared an Army Technology report that Rheinmetall and Praetorian Aeronautics had delivered the AERIE autonomous counter-drone prototype.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108286587628880009"
       }
     ]
   }
