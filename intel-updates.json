@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2108558212936933501",
+        "date": "2026-10-09",
+        "dateLabel": "09 OCT 2026 · UTC",
+        "headline": "Six US Air Force transports and Kuwait suspension reported",
+        "summary": "War Watch reported six US Air Force transport aircraft airborne, with multiple large cargo aircraft spotted during the preceding hour, and repeated that air traffic had been suspended in Kuwait.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108558212936933501"
+      },
+      {
+        "id": "2108543111064355025",
+        "date": "2026-10-09",
+        "dateLabel": "09 OCT 2026 · UTC",
+        "headline": "US transports over North Sea and Atlantic reported",
+        "summary": "War Watch reported multiple large US Air Force transport aircraft over the North Sea and across the Atlantic, along with five coded radio broadcasts heard earlier in the day.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108543111064355025"
+      },
+      {
+        "id": "2108528008084541803",
+        "date": "2026-10-09",
+        "dateLabel": "09 OCT 2026 · UTC",
+        "headline": "Six US transports over North Sea and US reported",
+        "summary": "War Watch reported six US Air Force transport aircraft airborne, including two large cargo aircraft over the North Sea and three over the continental United States.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108528008084541803"
+      },
+      {
         "id": "2108512911278723441",
         "date": "2026-10-09",
         "dateLabel": "09 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "US transports, surveillance aircraft and coded broadcasts reported",
         "summary": "War Watch reported multiple US Air Force transport aircraft and a surveillance aircraft over the United States, two coded radio broadcasts during the day and elevated activity over the Eastern Mediterranean and North Sea.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2108394811547889941"
-      },
-      {
-        "id": "2108390855216148502",
-        "date": "2026-10-09",
-        "dateLabel": "09 OCT 2026 · UTC",
-        "headline": "Air traffic suspension in Kuwait reported",
-        "summary": "War Watch relayed a report, attributed to “ww3 monitor” and @gamermodeflex, that air traffic had been suspended in Kuwait.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108390855216148502"
-      },
-      {
-        "id": "2108380973121356191",
-        "date": "2026-10-09",
-        "dateLabel": "09 OCT 2026 · UTC",
-        "headline": "Gulfstream FAZE31 reported airborne",
-        "summary": "War Watch reported Gulfstream 5 registration 19-5591 using callsign FAZE31 and hex AE1436, attributing the sighting to reagan0965 and the photograph to CJMoeser via Planespotters.net.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108380973121356191"
-      },
-      {
-        "id": "2108377194271473956",
-        "date": "2026-10-09",
-        "dateLabel": "09 OCT 2026 · UTC",
-        "headline": "Explosions near Strait of Hormuz and US military activity reported",
-        "summary": "War Watch reported heavy explosions in the southern Strait of Hormuz, US military transport aircraft active over the continental United States and coded US Air Force radio traffic.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108377194271473956"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2108562154760602056",
+        "date": "2026-10-09",
+        "dateLabel": "09 OCT 2026 · UTC",
+        "headline": "P-8 on-ground alert at Orange Park",
+        "summary": "SkyGlass posted an ON Ground alert for a US military P-8 aircraft at Orange Park, Florida. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108562154760602056"
+      },
+      {
+        "id": "2108559927115473050",
+        "date": "2026-10-09",
+        "dateLabel": "09 OCT 2026 · UTC",
+        "headline": "P-8 on-ground alert at Orange Park",
+        "summary": "SkyGlass posted an ON Ground alert for a US military P-8 aircraft at Orange Park, Florida. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108559927115473050"
+      },
+      {
+        "id": "2108557880102199502",
+        "date": "2026-10-09",
+        "dateLabel": "09 OCT 2026 · UTC",
+        "headline": "E-6 airborne alert at Bellevue",
+        "summary": "SkyGlass posted an OFF Ground alert for a US military aircraft labelled E6 at Bellevue, Nebraska. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108557880102199502"
+      },
+      {
+        "id": "2108556253874069608",
+        "date": "2026-10-09",
+        "dateLabel": "09 OCT 2026 · UTC",
+        "headline": "E-2 GRYHK03 on-ground alert at Norfolk",
+        "summary": "SkyGlass posted an ON Ground alert for US-registered E-2 aircraft GRYHK03 at Norfolk, Virginia.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108556253874069608"
+      },
       {
         "id": "2108508825913262278",
         "date": "2026-10-09",
@@ -170,38 +202,6 @@
         "headline": "SkyGlass shares report on possible KC-10 second life",
         "summary": "SkyGlass shared a The War Zone report that retired KC-10 Extender tankers could receive a second life with an unidentified North African operator.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2108346945035006185"
-      },
-      {
-        "id": "2108309028312907908",
-        "date": "2026-10-08",
-        "dateLabel": "08 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Orange Park",
-        "summary": "SkyGlass posted an OFF Ground alert for a US-registered military P-8 aircraft at Orange Park, Florida. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108309028312907908"
-      },
-      {
-        "id": "2108308010132984306",
-        "date": "2026-10-08",
-        "dateLabel": "08 OCT 2026 · UTC",
-        "headline": "E-6 airborne alert at Suisun",
-        "summary": "SkyGlass posted an OFF Ground alert for a US military aircraft labelled E6 at Suisun, California. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108308010132984306"
-      },
-      {
-        "id": "2108301580994777115",
-        "date": "2026-10-08",
-        "dateLabel": "08 OCT 2026 · UTC",
-        "headline": "P-8 PDN01 on-ground alert at Marton",
-        "summary": "SkyGlass posted an ON Ground alert for New Zealand-registered military P-8 aircraft PDN01 at Marton, New Zealand.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108301580994777115"
-      },
-      {
-        "id": "2108286587670773761",
-        "date": "2026-10-08",
-        "dateLabel": "08 OCT 2026 · UTC",
-        "headline": "SkyGlass shares report on X-BAT drone development",
-        "summary": "SkyGlass shared a The War Zone report that the US Navy was accelerating development of the X-BAT vertical-takeoff-and-landing fighter drone toward flight testing and operational readiness.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108286587670773761"
       }
     ]
   }
