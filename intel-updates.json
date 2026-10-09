@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2108652287451181180",
+        "date": "2026-10-09",
+        "dateLabel": "09 OCT 2026 · UTC",
+        "headline": "US surveillance, command and transport aircraft reported",
+        "summary": "War Watch reported a US Air Force surveillance aircraft, nuclear command aircraft and multiple heavy transport aircraft over the continental United States. It also stated that Kuwait had suspended air traffic following the Panama earthquake.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108652287451181180"
+      },
+      {
+        "id": "2108648511956824553",
+        "date": "2026-10-09",
+        "dateLabel": "09 OCT 2026 · UTC",
+        "headline": "War Watch relays report on USS Arizona disinterment",
+        "summary": "War Watch relayed a Stars and Stripes report that hundreds of USS Arizona families were expected for a 7 December disinterment of unidentified Second World War personnel, crediting @reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108648511956824553"
+      },
+      {
+        "id": "2108642067366768831",
+        "date": "2026-10-09",
+        "dateLabel": "09 OCT 2026 · UTC",
+        "headline": "Damage in Penonomé after reported magnitude-7.6 earthquake",
+        "summary": "War Watch relayed an OSINTdefender report that footage showed significant building damage in Penonomé, Panama, after a reported magnitude-7.6 earthquake, crediting @reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108642067366768831"
+      },
+      {
+        "id": "2108633728708686155",
+        "date": "2026-10-09",
+        "dateLabel": "09 OCT 2026 · UTC",
+        "headline": "US cargo aircraft, coded broadcasts and Kuwait suspension reported",
+        "summary": "War Watch reported multiple US military cargo aircraft airborne, including large transports, coded US Air Force radio broadcasts earlier in the day and suspended air traffic in Kuwait.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108633728708686155"
+      },
+      {
+        "id": "2108618624449585242",
+        "date": "2026-10-09",
+        "dateLabel": "09 OCT 2026 · UTC",
+        "headline": "Elevated US transport and Baltic military flight activity reported",
+        "summary": "War Watch reported unusually active US Air Force transport aircraft over the United States and military flight activity in the Baltic region at nearly three times its stated normal level.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108618624449585242"
+      },
+      {
         "id": "2108603521713008757",
         "date": "2026-10-09",
         "dateLabel": "09 OCT 2026 · UTC",
@@ -59,46 +99,6 @@
         "headline": "US transports over North America and North Sea reported",
         "summary": "War Watch reported six US military transport aircraft over North America and the North Sea, and repeated a report that air traffic had been suspended in Kuwait amid regional tensions.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2108512911278723441"
-      },
-      {
-        "id": "2108497800568705067",
-        "date": "2026-10-09",
-        "dateLabel": "09 OCT 2026 · UTC",
-        "headline": "US transports and five coded broadcasts reported",
-        "summary": "War Watch reported multiple US Air Force transport aircraft over the North Sea and five coded radio broadcasts during the day. The visible post is truncated after referring to regional tensions and reports of explosions near the Strait of Hormuz.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108497800568705067"
-      },
-      {
-        "id": "2108482696674435270",
-        "date": "2026-10-09",
-        "dateLabel": "09 OCT 2026 · UTC",
-        "headline": "US transports, surveillance aircraft and NATO radar jet reported",
-        "summary": "War Watch reported multiple large US military transport aircraft over the United States during the preceding hour, alongside a surveillance aircraft near the North Sea and a NATO radar aircraft.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108482696674435270"
-      },
-      {
-        "id": "2108467595288387759",
-        "date": "2026-10-09",
-        "dateLabel": "09 OCT 2026 · UTC",
-        "headline": "Six US transports and NATO radar aircraft reported",
-        "summary": "War Watch reported six US military transport aircraft over the United States and mentioned a NATO radar aircraft. The visible post is truncated after saying activity had risen sharply and referring to multiple large cargo aircraft.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108467595288387759"
-      },
-      {
-        "id": "2108452488915357804",
-        "date": "2026-10-09",
-        "dateLabel": "09 OCT 2026 · UTC",
-        "headline": "Five coded broadcasts and US strategic aircraft reported",
-        "summary": "War Watch reported five coded US Air Force radio broadcasts during the day and multiple heavy transport aircraft over the United States, including a surveillance aircraft and a nuclear command aircraft.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108452488915357804"
-      },
-      {
-        "id": "2108437384664625513",
-        "date": "2026-10-09",
-        "dateLabel": "09 OCT 2026 · UTC",
-        "headline": "US military aircraft over North Sea and five coded broadcasts reported",
-        "summary": "War Watch reported multiple US military transport aircraft over the North Sea alongside surveillance and command aircraft, plus five coded US Air Force radio broadcasts during the day.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108437384664625513"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2108653957480419386",
+        "date": "2026-10-09",
+        "dateLabel": "09 OCT 2026 · UTC",
+        "headline": "P-8 KRC081 on-ground alert at Marton",
+        "summary": "SkyGlass posted an ON Ground alert for New Zealand-registered military P-8 aircraft KRC081 at Marton, New Zealand.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108653957480419386"
+      },
+      {
+        "id": "2108648960399171795",
+        "date": "2026-10-09",
+        "dateLabel": "09 OCT 2026 · UTC",
+        "headline": "SkyGlass shares report on possible KC-10 transfer",
+        "summary": "SkyGlass shared a The Aviationist report that the United States was exploring the transfer of surplus KC-10 Extender tankers to an undisclosed North African partner.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108648960399171795"
+      },
+      {
+        "id": "2108648662444212462",
+        "date": "2026-10-09",
+        "dateLabel": "09 OCT 2026 · UTC",
+        "headline": "E-2 GRYHK07 airborne alert at Norfolk",
+        "summary": "SkyGlass posted an OFF Ground alert for US military E-2 aircraft GRYHK07 at Norfolk, Virginia.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108648662444212462"
+      },
+      {
+        "id": "2108645164168126740",
+        "date": "2026-10-09",
+        "dateLabel": "09 OCT 2026 · UTC",
+        "headline": "E-6 airborne alert at Suisun",
+        "summary": "SkyGlass posted an OFF Ground alert for a US military aircraft labelled E6 at Suisun, California. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108645164168126740"
+      },
       {
         "id": "2108597210317242508",
         "date": "2026-10-09",
@@ -170,38 +202,6 @@
         "headline": "E-2 GRYHK03 on-ground alert at Norfolk",
         "summary": "SkyGlass posted an ON Ground alert for US-registered E-2 aircraft GRYHK03 at Norfolk, Virginia.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2108556253874069608"
-      },
-      {
-        "id": "2108508825913262278",
-        "date": "2026-10-09",
-        "dateLabel": "09 OCT 2026 · UTC",
-        "headline": "P-3 LOBO01 airborne alert at Vidigueira",
-        "summary": "SkyGlass posted an OFF Ground alert for Portuguese military P-3 aircraft LOBO01 at Vidigueira, Portugal.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108508825913262278"
-      },
-      {
-        "id": "2108455018919497739",
-        "date": "2026-10-09",
-        "dateLabel": "09 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Kadambuttur",
-        "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Kadambuttur, India. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108455018919497739"
-      },
-      {
-        "id": "2108454227664097504",
-        "date": "2026-10-09",
-        "dateLabel": "09 OCT 2026 · UTC",
-        "headline": "E-3 NATO40 on-ground alert at Geilenkirchen",
-        "summary": "SkyGlass posted an ON Ground alert for Luxembourg-registered E3TF aircraft NATO40 at Geilenkirchen, Germany.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108454227664097504"
-      },
-      {
-        "id": "2108428874421768688",
-        "date": "2026-10-09",
-        "dateLabel": "09 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Thiruthani",
-        "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Thiruthani, India. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108428874421768688"
       }
     ]
   }
