@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2108467595288387759",
+        "date": "2026-10-09",
+        "dateLabel": "09 OCT 2026 · UTC",
+        "headline": "Six US transports and NATO radar aircraft reported",
+        "summary": "War Watch reported six US military transport aircraft over the United States and mentioned a NATO radar aircraft. The visible post is truncated after saying activity had risen sharply and referring to multiple large cargo aircraft.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108467595288387759"
+      },
+      {
+        "id": "2108452488915357804",
+        "date": "2026-10-09",
+        "dateLabel": "09 OCT 2026 · UTC",
+        "headline": "Five coded broadcasts and US strategic aircraft reported",
+        "summary": "War Watch reported five coded US Air Force radio broadcasts during the day and multiple heavy transport aircraft over the United States, including a surveillance aircraft and a nuclear command aircraft.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108452488915357804"
+      },
+      {
+        "id": "2108437384664625513",
+        "date": "2026-10-09",
+        "dateLabel": "09 OCT 2026 · UTC",
+        "headline": "US military aircraft over North Sea and five coded broadcasts reported",
+        "summary": "War Watch reported multiple US military transport aircraft over the North Sea alongside surveillance and command aircraft, plus five coded US Air Force radio broadcasts during the day.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108437384664625513"
+      },
+      {
         "id": "2108422282515300814",
         "date": "2026-10-09",
         "dateLabel": "09 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "Eastern Mediterranean activity reported near three times normal",
         "summary": "War Watch reported military air activity in the Eastern Mediterranean at nearly three times its stated normal level, alongside multiple US transport aircraft over the United States.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2108361871115833513"
-      },
-      {
-        "id": "2108332897996308646",
-        "date": "2026-10-08",
-        "dateLabel": "08 OCT 2026 · UTC",
-        "headline": "Coded US Air Force broadcasts reported at nearly 3.6 times normal",
-        "summary": "War Watch reported coded US Air Force radio broadcasts at nearly 3.6 times its stated normal level across nine regions worldwide, spanning Korea to the North Sea, during the preceding hour.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108332897996308646"
-      },
-      {
-        "id": "2108329125165375920",
-        "date": "2026-10-08",
-        "dateLabel": "08 OCT 2026 · UTC",
-        "headline": "Beechcraft JANET09 reported airborne",
-        "summary": "War Watch reported a 2021 US Air Force Beechcraft Super King Air 350 using callsign JANET09 and hex ADCE1A, attributing the sighting to reagan0965 and the photograph to G. Najberg via Planespotters.net.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108329125165375920"
-      },
-      {
-        "id": "2108321559475622008",
-        "date": "2026-10-08",
-        "dateLabel": "08 OCT 2026 · UTC",
-        "headline": "JANET10 reported airborne",
-        "summary": "War Watch reported an aircraft using callsign JANET10 and hex AC96DF, attributing the sighting to reagan0965 and the photograph to Julian Martin via Planespotters.net.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108321559475622008"
       }
     ]
   },
@@ -107,6 +107,30 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2108455018919497739",
+        "date": "2026-10-09",
+        "dateLabel": "09 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert at Kadambuttur",
+        "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Kadambuttur, India. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108455018919497739"
+      },
+      {
+        "id": "2108454227664097504",
+        "date": "2026-10-09",
+        "dateLabel": "09 OCT 2026 · UTC",
+        "headline": "E-3 NATO40 on-ground alert at Geilenkirchen",
+        "summary": "SkyGlass posted an ON Ground alert for Luxembourg-registered E3TF aircraft NATO40 at Geilenkirchen, Germany.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108454227664097504"
+      },
+      {
+        "id": "2108428874421768688",
+        "date": "2026-10-09",
+        "dateLabel": "09 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert at Thiruthani",
+        "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Thiruthani, India. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108428874421768688"
+      },
       {
         "id": "2108369952721739811",
         "date": "2026-10-09",
@@ -178,30 +202,6 @@
         "headline": "SkyGlass shares report on AERIE counter-drone prototype",
         "summary": "SkyGlass shared an Army Technology report that Rheinmetall and Praetorian Aeronautics had delivered the AERIE autonomous counter-drone prototype.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2108286587628880009"
-      },
-      {
-        "id": "2108279643430101217",
-        "date": "2026-10-08",
-        "dateLabel": "08 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Lossiemouth",
-        "summary": "SkyGlass posted an OFF Ground alert for a UK-registered military P-8 aircraft at Lossiemouth, United Kingdom. The callsign was shown as @@@@@@@@.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108279643430101217"
-      },
-      {
-        "id": "2108270280493633789",
-        "date": "2026-10-08",
-        "dateLabel": "08 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Kirkwall",
-        "summary": "SkyGlass posted an OFF Ground alert for a UK-registered military P-8 aircraft at Kirkwall, United Kingdom. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108270280493633789"
-      },
-      {
-        "id": "2108248415943508066",
-        "date": "2026-10-08",
-        "dateLabel": "08 OCT 2026 · UTC",
-        "headline": "P-3 LOBO11 airborne alert at Beja",
-        "summary": "SkyGlass posted an OFF Ground alert for Portuguese-registered military P-3 aircraft LOBO11 at Beja, Portugal.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108248415943508066"
       }
     ]
   }
