@@ -138,7 +138,7 @@ function updateClocks(){
  document.querySelectorAll('.clock-chip').forEach(c=>{
   const z=c.dataset.zone,place=cities[z],v=solarCos(place[0],place[1],sun);
   c.querySelector('strong').textContent=zoneTime(z,now).slice(0,5);
-  c.querySelector('span').textContent=v>0?'DAY':v>Math.sin(-6*DEG)?'DUSK':'NIGHT';
+  c.querySelector('span').textContent=v>0?'DAY':v>Math.sin(-6*DEG)?'TWILIGHT':'NIGHT';
  });
  document.getElementById('sydTop').textContent=zoneTime('Australia/Sydney',now);
  document.getElementById('utcTop').textContent=zoneTime('UTC',now);
