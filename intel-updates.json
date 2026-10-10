@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2108875256999870706",
+        "date": "2026-10-10",
+        "dateLabel": "10 OCT 2026 · UTC",
+        "headline": "Five US transports, weather reconnaissance and coded broadcasts reported",
+        "summary": "War Watch reported five US Air Force transport aircraft over the North Sea and United States, a weather-reconnaissance aircraft over Alaska and five coded US Air Force radio broadcasts during the day.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108875256999870706"
+      },
+      {
+        "id": "2108860151012766127",
+        "date": "2026-10-10",
+        "dateLabel": "10 OCT 2026 · UTC",
+        "headline": "Six US transports and surveillance aircraft reported",
+        "summary": "War Watch reported six US Air Force transport aircraft, including one over the North Sea and another near Korea and Japan, plus a US Air Force surveillance aircraft near Alaska. The visible post is truncated after “Five coded US Air…”.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108860151012766127"
+      },
+      {
+        "id": "2108845048473227280",
+        "date": "2026-10-10",
+        "dateLabel": "10 OCT 2026 · UTC",
+        "headline": "Six US transports and coded radio traffic reported",
+        "summary": "War Watch reported six US Air Force transport aircraft airborne simultaneously, including one over the North Sea, with coded radio traffic detected and activity above its stated normal level.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108845048473227280"
+      },
+      {
         "id": "2108829944675508464",
         "date": "2026-10-10",
         "dateLabel": "10 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "US surveillance, command and heavy transport aircraft reported",
         "summary": "War Watch reported multiple US Air Force surveillance aircraft, nuclear command aircraft and heavy transport aircraft over the continental United States, with no coded radio traffic during the preceding hour.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2108739326217470011"
-      },
-      {
-        "id": "2108724222428086577",
-        "date": "2026-10-10",
-        "dateLabel": "10 OCT 2026 · UTC",
-        "headline": "Six US transports, weather reconnaissance and coded broadcasts reported",
-        "summary": "War Watch reported six US Air Force heavy transport aircraft over or near the United States, a weather-reconnaissance aircraft over Alaska and coded US Air Force radio broadcasts.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108724222428086577"
-      },
-      {
-        "id": "2108718479419252951",
-        "date": "2026-10-10",
-        "dateLabel": "10 OCT 2026 · UTC",
-        "headline": "War Watch relays report on possible David’s Sling acquisition",
-        "summary": "War Watch relayed an OSINTWarfare report that Morocco and Israel were in advanced discussions over a possible Moroccan acquisition of the David’s Sling air-defence system, crediting @reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108718479419252951"
-      },
-      {
-        "id": "2108714706827440186",
-        "date": "2026-10-10",
-        "dateLabel": "10 OCT 2026 · UTC",
-        "headline": "WC-135R COBRA31 reported over Alaska",
-        "summary": "War Watch reported Boeing WC-135R registration 64-14829 using callsign COBRA31 and hex AE037F over Alaska, crediting reagan0965 and photographer Nikoli Sparkes via Planespotters.net.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108714706827440186"
       }
     ]
   },
@@ -107,6 +107,14 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2108871071604572251",
+        "date": "2026-10-10",
+        "dateLabel": "10 OCT 2026 · UTC",
+        "headline": "B737 CNV5450 airborne alert at Mulayjah",
+        "summary": "SkyGlass posted an OFF Ground alert for US-registered military B737 aircraft CNV5450 at Mulayjah, Saudi Arabia.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108871071604572251"
+      },
       {
         "id": "2108830061675602122",
         "date": "2026-10-10",
@@ -194,14 +202,6 @@
         "headline": "P-8 airborne alert at Oak Harbor",
         "summary": "SkyGlass posted an OFF Ground alert for a US-registered military P-8 aircraft at Oak Harbor, United States. The callsign was shown as NA.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2108655376878952468"
-      },
-      {
-        "id": "2108653957480419386",
-        "date": "2026-10-09",
-        "dateLabel": "09 OCT 2026 · UTC",
-        "headline": "P-8 KRC081 on-ground alert at Marton",
-        "summary": "SkyGlass posted an ON Ground alert for New Zealand-registered military P-8 aircraft KRC081 at Marton, New Zealand.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108653957480419386"
       }
     ]
   }
