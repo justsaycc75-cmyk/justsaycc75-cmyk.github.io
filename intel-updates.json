@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2109056494742155659",
+        "date": "2026-10-10",
+        "dateLabel": "10 OCT 2026 · UTC",
+        "headline": "Riyadh airport casualties and Jeddah diversions reported",
+        "summary": "War Watch reported that missile impacts at Riyadh airport killed several people and forced all flights to divert to Jeddah, where aircraft were waiting to land.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2109056494742155659"
+      },
+      {
+        "id": "2109041392030793896",
+        "date": "2026-10-10",
+        "dateLabel": "10 OCT 2026 · UTC",
+        "headline": "US transports, command aircraft and Riyadh flight halt reported",
+        "summary": "War Watch reported multiple US military transport aircraft over the United States alongside two nuclear command aircraft and said major airlines had halted Riyadh flights. The visible post is truncated after “reported Houthi missile…”.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2109041392030793896"
+      },
+      {
+        "id": "2109026290888011863",
+        "date": "2026-10-10",
+        "dateLabel": "10 OCT 2026 · UTC",
+        "headline": "US transports, command aircraft and Saudi flight halt reported",
+        "summary": "War Watch reported multiple US military transport aircraft over the United States alongside a nuclear command aircraft and said missile impacts at Riyadh airport had halted all Saudi flights.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2109026290888011863"
+      },
+      {
         "id": "2109011186641436696",
         "date": "2026-10-10",
         "dateLabel": "10 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "Six transports and weather reconnaissance aircraft reported",
         "summary": "War Watch reported six military transport aircraft over the United States and North Sea and a US Air Force weather-reconnaissance aircraft over Alaska. The visible post is truncated after “Five coded radio broadcasts heard earlier…”.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2108920565188657168"
-      },
-      {
-        "id": "2108905467913097442",
-        "date": "2026-10-10",
-        "dateLabel": "10 OCT 2026 · UTC",
-        "headline": "US transports, weather reconnaissance and Russian cargo aircraft reported",
-        "summary": "War Watch reported six US Air Force transport aircraft over the United States, a nuclear-capable weather-reconnaissance aircraft near Alaska and a Russian cargo aircraft south of Cyprus heading from Syria.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108905467913097442"
-      },
-      {
-        "id": "2108890358989906126",
-        "date": "2026-10-10",
-        "dateLabel": "10 OCT 2026 · UTC",
-        "headline": "Six US transports, weather reconnaissance and no coded broadcasts reported",
-        "summary": "War Watch reported six US Air Force transport aircraft across the Atlantic and over the North Sea, a weather-reconnaissance aircraft over Alaska and no coded radio broadcasts during the preceding hour.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108890358989906126"
-      },
-      {
-        "id": "2108875256999870706",
-        "date": "2026-10-10",
-        "dateLabel": "10 OCT 2026 · UTC",
-        "headline": "Five US transports, weather reconnaissance and coded broadcasts reported",
-        "summary": "War Watch reported five US Air Force transport aircraft over the North Sea and United States, a weather-reconnaissance aircraft over Alaska and five coded US Air Force radio broadcasts during the day.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108875256999870706"
       }
     ]
   },
@@ -107,6 +107,22 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2109058675520188549",
+        "date": "2026-10-10",
+        "dateLabel": "10 OCT 2026 · UTC",
+        "headline": "P-8 BFLO75 on-ground alert at Darwin",
+        "summary": "SkyGlass posted an ON Ground alert for Australian-registered military P-8 aircraft BFLO75 at Darwin, Australia.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2109058675520188549"
+      },
+      {
+        "id": "2109037282430763480",
+        "date": "2026-10-10",
+        "dateLabel": "10 OCT 2026 · UTC",
+        "headline": "P-8 BLKT35 on-ground alert at Darwin",
+        "summary": "SkyGlass posted an ON Ground alert for Australian-registered military P-8 aircraft BLKT35 at Darwin, Australia.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2109037282430763480"
+      },
       {
         "id": "2109005001389429088",
         "date": "2026-10-10",
@@ -186,22 +202,6 @@
         "headline": "B737 CNV5450 airborne alert at Mulayjah",
         "summary": "SkyGlass posted an OFF Ground alert for US-registered military B737 aircraft CNV5450 at Mulayjah, Saudi Arabia.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2108871071604572251"
-      },
-      {
-        "id": "2108830061675602122",
-        "date": "2026-10-10",
-        "dateLabel": "10 OCT 2026 · UTC",
-        "headline": "SkyGlass shares report on Super Hornet weapons-computer support",
-        "summary": "SkyGlass shared a Defence Blog report that the weapons computer used by US Navy F/A-18 and EA-18G aircraft could no longer be supported because of obsolescence and component shortages.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108830061675602122"
-      },
-      {
-        "id": "2108765839176462389",
-        "date": "2026-10-10",
-        "dateLabel": "10 OCT 2026 · UTC",
-        "headline": "E-6 airborne alert at Springs",
-        "summary": "SkyGlass posted an OFF Ground alert for a US military aircraft labelled E6 at Springs, United States. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108765839176462389"
       }
     ]
   }
