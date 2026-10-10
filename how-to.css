@@ -83,3 +83,14 @@
 .guide-card .guide-link:focus-visible{outline:3px solid #d4ff7e;outline-offset:2px}
 @media(max-width:750px){.guide-card-head{margin:-16px -16px 18px;padding:22px 16px}.guide-thumb{width:95px;min-width:95px}.guide-thumb-symbol{font-size:36px}.guide-thumb-title{font-size:9px}.guide-card .guide-link{gap:10px;padding-right:8px}.guide-card .guide-link>div{padding:11px 0}}
 @media(max-width:390px){.guide-thumb{width:74px;min-width:74px}.guide-thumb-symbol{font-size:29px}.guide-thumb-title{font-size:8px}.guide-card .guide-link strong{font-size:14px}.guide-card .guide-link span{font-size:12px}}
+
+/* 2026-10 photographic thumbnail overhaul: replace text blocks with real images */
+.guide-card .guide-link{min-height:110px;gap:15px;align-items:stretch}
+.guide-card .guide-thumb{position:relative;display:block;flex:0 0 146px;width:146px;min-width:146px;overflow:hidden;background:linear-gradient(135deg,#254a3b,#476e58);isolation:isolate}
+.guide-card .guide-thumb::before,.guide-card .guide-thumb::after{display:none}
+.guide-card .guide-thumb img{display:block;position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;z-index:2;transition:transform .3s ease}
+.guide-card .guide-thumb .guide-thumb-fallback{position:absolute;inset:0;display:grid;place-items:center;color:#b7f879;font-size:30px;z-index:1}
+.guide-card .guide-link:hover .guide-thumb img{transform:scale(1.07)}
+.guide-card .guide-link .guide-arrow{font-size:24px;font-weight:800}
+@media(max-width:750px){.guide-card .guide-thumb{flex-basis:108px;width:108px;min-width:108px}.guide-card .guide-link{gap:10px}}
+@media(max-width:390px){.guide-card .guide-thumb{flex-basis:82px;width:82px;min-width:82px}}
