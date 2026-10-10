@@ -56,3 +56,21 @@
 .howto-back{margin:35px 0}.howto-back a{color:#b6fb65}
 .guide-empty{padding:25px;text-align:center;color:#dbe5db}
 @media(max-width:750px){.guide-results{grid-template-columns:1fr}.howto-main{width:calc(100% - 20px);margin-top:16px}.howto-header{padding:25px 18px}.guide-card{padding:16px}.guide-intro{min-height:0}}
+/* Category imagery: visual hierarchy and reliable crop boundaries */
+.guide-card{overflow:hidden}
+.guide-card-head{position:relative;isolation:isolate;min-height:154px;margin:-24px -24px 18px;padding:22px 24px;align-items:flex-start;overflow:hidden;background:linear-gradient(115deg,rgba(5,19,13,.96) 0%,rgba(5,19,13,.78) 50%,rgba(5,19,13,.12) 100%),var(--guide-cover);background-size:cover;background-position:center}
+.guide-card-head::after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(to top,#12241d 0%,transparent 42%)}
+.guide-card-head>div,.guide-index{position:relative;z-index:2}
+.guide-card .guide-index{background:#315a36;padding:7px 9px;border-radius:9px;color:#bbff75}
+.guide-card[data-category="diy"]{--guide-cover:url("https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1050&q=85")}
+.guide-card[data-category="tech"]{--guide-cover:url("https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1050&q=85")}
+.guide-card[data-category="garden"]{--guide-cover:url("https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=1050&q=85")}
+.guide-card[data-category="cooking"]{--guide-cover:url("https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=1050&q=85")}
+.guide-card[data-category="life"]{--guide-cover:url("https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1050&q=85")}
+.guide-card[data-category="cruises"]{--guide-cover:url("https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1050&q=85")}
+.guide-card .guide-link{position:relative;overflow:hidden;padding-left:83px;min-height:94px}
+.guide-card .guide-link::before{content:"";position:absolute;left:0;top:0;bottom:0;width:70px;background-image:linear-gradient(to right,transparent,rgba(10,32,22,.25)),var(--guide-cover);background-size:cover;background-position:center;border-right:1px solid #466450;transition:filter .2s}
+.guide-card .guide-link:hover::before{filter:brightness(1.23)}
+.guide-card .guide-link>div{position:relative;z-index:1}
+.guide-card .guide-link:focus-visible{outline:3px solid #d4ff7e;outline-offset:2px}
+@media(max-width:750px){.guide-card-head{margin:-16px -16px 18px;padding:22px 16px}.guide-card .guide-link{padding-left:75px}.guide-card .guide-link::before{width:62px}}
