@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2108784639431110833",
+        "date": "2026-10-10",
+        "dateLabel": "10 OCT 2026 · UTC",
+        "headline": "Six US transports, command aircraft and coded broadcasts reported",
+        "summary": "War Watch reported six US Air Force transport aircraft over or near US territory and Europe, a nuclear command aircraft airborne and five coded US Air Force radio broadcasts during the day.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108784639431110833"
+      },
+      {
+        "id": "2108773347852972048",
+        "date": "2026-10-10",
+        "dateLabel": "10 OCT 2026 · UTC",
+        "headline": "War Watch relays report of Riyadh flight cancellations",
+        "summary": "War Watch relayed a BBC report that multiple major airlines had cancelled flights to Riyadh after Houthi attacks, crediting @alexgreen1767.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108773347852972048"
+      },
+      {
+        "id": "2108769532449894449",
+        "date": "2026-10-10",
+        "dateLabel": "10 OCT 2026 · UTC",
+        "headline": "Six US transports and four coded broadcasts reported",
+        "summary": "War Watch reported six US Air Force transport aircraft airborne simultaneously, four coded radio broadcasts earlier in the day and activity above its stated normal baseline.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108769532449894449"
+      },
+      {
+        "id": "2108764538292088937",
+        "date": "2026-10-10",
+        "dateLabel": "10 OCT 2026 · UTC",
+        "headline": "War Watch relays report on Europe’s response to Russian activity",
+        "summary": "War Watch relayed a New York Times report about European consideration of responses to Russian activity described as a shadow war, crediting @Robertchester-j5b.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108764538292088937"
+      },
+      {
+        "id": "2108758246110449802",
+        "date": "2026-10-10",
+        "dateLabel": "10 OCT 2026 · UTC",
+        "headline": "War Watch relays report on Putin-Trump peace talks",
+        "summary": "War Watch relayed an Al Jazeera report that Vladimir Putin had told Donald Trump peace talks were unlikely, crediting @Robertchester-j5b.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108758246110449802"
+      },
+      {
         "id": "2108739326217470011",
         "date": "2026-10-10",
         "dateLabel": "10 OCT 2026 · UTC",
@@ -59,46 +99,6 @@
         "headline": "US transports, command aircraft and Gulf activity reported",
         "summary": "War Watch reported multiple US Air Force transport aircraft over the United States alongside a nuclear command aircraft, elevated Gulf-region activity and increased coded radio traffic. The visible post is truncated after the word “Two”.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2108694017596621093"
-      },
-      {
-        "id": "2108678918362353751",
-        "date": "2026-10-09",
-        "dateLabel": "09 OCT 2026 · UTC",
-        "headline": "Four US nuclear command aircraft and coded broadcast reported",
-        "summary": "War Watch reported four US Air Force nuclear command aircraft over the United States as part of routine operations and one coded radio broadcast during the preceding hour.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108678918362353751"
-      },
-      {
-        "id": "2108663811729137744",
-        "date": "2026-10-09",
-        "dateLabel": "09 OCT 2026 · UTC",
-        "headline": "US heavy transports and reconnaissance aircraft reported",
-        "summary": "War Watch reported multiple large US military transport aircraft over the United States, including several heavy-lift cargo aircraft and a reconnaissance aircraft.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108663811729137744"
-      },
-      {
-        "id": "2108656063171969366",
-        "date": "2026-10-09",
-        "dateLabel": "09 OCT 2026 · UTC",
-        "headline": "War Watch relays report of magnitude-7.7 Panama earthquake",
-        "summary": "War Watch relayed an Associated Press report that a magnitude-7.7 earthquake had struck Panama and prompted evacuations, crediting @reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108656063171969366"
-      },
-      {
-        "id": "2108652287451181180",
-        "date": "2026-10-09",
-        "dateLabel": "09 OCT 2026 · UTC",
-        "headline": "US surveillance, command and transport aircraft reported",
-        "summary": "War Watch reported a US Air Force surveillance aircraft, nuclear command aircraft and multiple heavy transport aircraft over the continental United States. It also stated that Kuwait had suspended air traffic following the Panama earthquake.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108652287451181180"
-      },
-      {
-        "id": "2108648511956824553",
-        "date": "2026-10-09",
-        "dateLabel": "09 OCT 2026 · UTC",
-        "headline": "War Watch relays report on USS Arizona disinterment",
-        "summary": "War Watch relayed a Stars and Stripes report that hundreds of USS Arizona families were expected for a 7 December disinterment of unidentified Second World War personnel, crediting @reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108648511956824553"
       }
     ]
   },
@@ -107,6 +107,22 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2108765839176462389",
+        "date": "2026-10-10",
+        "dateLabel": "10 OCT 2026 · UTC",
+        "headline": "E-6 airborne alert at Springs",
+        "summary": "SkyGlass posted an OFF Ground alert for a US military aircraft labelled E6 at Springs, United States. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108765839176462389"
+      },
+      {
+        "id": "2108747301615235259",
+        "date": "2026-10-10",
+        "dateLabel": "10 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert at Perumbakkam",
+        "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Perumbakkam, India. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108747301615235259"
+      },
       {
         "id": "2108725539770925111",
         "date": "2026-10-10",
@@ -186,22 +202,6 @@
         "headline": "SkyGlass shares report on possible KC-10 transfer",
         "summary": "SkyGlass shared a The Aviationist report that the United States was exploring the transfer of surplus KC-10 Extender tankers to an undisclosed North African partner.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2108648960399171795"
-      },
-      {
-        "id": "2108648662444212462",
-        "date": "2026-10-09",
-        "dateLabel": "09 OCT 2026 · UTC",
-        "headline": "E-2 GRYHK07 airborne alert at Norfolk",
-        "summary": "SkyGlass posted an OFF Ground alert for US military E-2 aircraft GRYHK07 at Norfolk, Virginia.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108648662444212462"
-      },
-      {
-        "id": "2108645164168126740",
-        "date": "2026-10-09",
-        "dateLabel": "09 OCT 2026 · UTC",
-        "headline": "E-6 airborne alert at Suisun",
-        "summary": "SkyGlass posted an OFF Ground alert for a US military aircraft labelled E6 at Suisun, California. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108645164168126740"
       }
     ]
   }
