@@ -94,3 +94,11 @@
 .guide-card .guide-link .guide-arrow{font-size:24px;font-weight:800}
 @media(max-width:750px){.guide-card .guide-thumb{flex-basis:108px;width:108px;min-width:108px}.guide-card .guide-link{gap:10px}}
 @media(max-width:390px){.guide-card .guide-thumb{flex-basis:82px;width:82px;min-width:82px}}
+
+/* Self-contained guide visuals: no external image hosts or broken-image icons */
+.guide-card .guide-thumb{background:linear-gradient(135deg,var(--thumb-a),var(--thumb-b));flex:0 0 146px;width:146px;min-width:146px;display:block;overflow:hidden}
+.guide-card .guide-thumb .guide-art{width:100%;height:100%;display:block;position:absolute;inset:0;object-fit:cover}
+.guide-card .guide-thumb img,.guide-card .guide-thumb .guide-thumb-fallback{display:none!important}
+.guide-card .guide-link:hover .guide-art{transform:scale(1.045);transition:transform .25s}
+@media(max-width:750px){.guide-card .guide-thumb{width:108px;min-width:108px;flex-basis:108px}}
+@media(max-width:390px){.guide-card .guide-thumb{width:82px;min-width:82px;flex-basis:82px}}
