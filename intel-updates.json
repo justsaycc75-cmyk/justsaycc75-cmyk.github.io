@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2108965877332734344",
+        "date": "2026-10-10",
+        "dateLabel": "10 OCT 2026 · UTC",
+        "headline": "US transports, command aircraft, jamming and Iranian flights reported",
+        "summary": "War Watch reported multiple US military transport aircraft over the continental United States alongside a nuclear command aircraft, with separate jamming near Saudi Arabia and Iranian flights. The visible post is truncated after “Iranian flights…”.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108965877332734344"
+      },
+      {
+        "id": "2108959193231208839",
+        "date": "2026-10-10",
+        "dateLabel": "10 OCT 2026 · UTC",
+        "headline": "War Watch relays report of flight hold at Jeddah",
+        "summary": "War Watch relayed a Flightradar24 report that flights were being held at Jeddah’s King Abdulaziz International Airport and that many affected flights had been diverted from Riyadh, crediting @alexgreen1767.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108959193231208839"
+      },
+      {
+        "id": "2108953053537718768",
+        "date": "2026-10-10",
+        "dateLabel": "10 OCT 2026 · UTC",
+        "headline": "US transports, command aircraft, coded broadcasts and Riyadh cancellations reported",
+        "summary": "War Watch reported multiple US Air Force transport aircraft and a nuclear command aircraft over the continental United States, coded radio broadcasts and airlines cancelling Riyadh flights. The visible post is truncated thereafter.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108953053537718768"
+      },
+      {
+        "id": "2108949033918115954",
+        "date": "2026-10-10",
+        "dateLabel": "10 OCT 2026 · UTC",
+        "headline": "War Watch relays report of impacts at Riyadh airport",
+        "summary": "War Watch relayed a report attributed to The Wall Street Journal claiming missile impacts at Terminal 3 of Riyadh airport and casualties of unknown number and severity, crediting @alexgreen1767.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108949033918115954"
+      },
+      {
+        "id": "2108939462633828371",
+        "date": "2026-10-10",
+        "dateLabel": "10 OCT 2026 · UTC",
+        "headline": "War Watch relays corrected report of Riyadh flight cancellations",
+        "summary": "War Watch relayed a corrected Flightradar24 report that all flights to Riyadh had been cancelled during the day because of ongoing Houthi attacks, crediting @alexgreen1767.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108939462633828371"
+      },
+      {
         "id": "2108920565188657168",
         "date": "2026-10-10",
         "dateLabel": "10 OCT 2026 · UTC",
@@ -59,46 +99,6 @@
         "headline": "Five US transports and earlier coded broadcasts reported",
         "summary": "War Watch reported five US Air Force transport aircraft airborne, including one over the North Sea, with no coded radio broadcasts during the preceding hour and five detected earlier in the day.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2108829944675508464"
-      },
-      {
-        "id": "2108814841666285713",
-        "date": "2026-10-10",
-        "dateLabel": "10 OCT 2026 · UTC",
-        "headline": "Six US transports and five earlier coded broadcasts reported",
-        "summary": "War Watch reported six US Air Force transport aircraft airborne over the North Sea and elsewhere, with five coded radio broadcasts earlier in the day and activity at its stated normal level.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108814841666285713"
-      },
-      {
-        "id": "2108799738598367615",
-        "date": "2026-10-10",
-        "dateLabel": "10 OCT 2026 · UTC",
-        "headline": "Six US transports over the North Sea and United States reported",
-        "summary": "War Watch reported six US Air Force transport aircraft airborne, including one over the North Sea and another over the continental United States, with five coded radio broadcasts earlier in the day.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108799738598367615"
-      },
-      {
-        "id": "2108784639431110833",
-        "date": "2026-10-10",
-        "dateLabel": "10 OCT 2026 · UTC",
-        "headline": "Six US transports, command aircraft and coded broadcasts reported",
-        "summary": "War Watch reported six US Air Force transport aircraft over or near US territory and Europe, a nuclear command aircraft airborne and five coded US Air Force radio broadcasts during the day.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108784639431110833"
-      },
-      {
-        "id": "2108773347852972048",
-        "date": "2026-10-10",
-        "dateLabel": "10 OCT 2026 · UTC",
-        "headline": "War Watch relays report of Riyadh flight cancellations",
-        "summary": "War Watch relayed a BBC report that multiple major airlines had cancelled flights to Riyadh after Houthi attacks, crediting @alexgreen1767.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108773347852972048"
-      },
-      {
-        "id": "2108769532449894449",
-        "date": "2026-10-10",
-        "dateLabel": "10 OCT 2026 · UTC",
-        "headline": "Six US transports and four coded broadcasts reported",
-        "summary": "War Watch reported six US Air Force transport aircraft airborne simultaneously, four coded radio broadcasts earlier in the day and activity above its stated normal baseline.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108769532449894449"
       }
     ]
   },
@@ -107,6 +107,30 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2108950862261338285",
+        "date": "2026-10-10",
+        "dateLabel": "10 OCT 2026 · UTC",
+        "headline": "SkyGlass shares report on Edgewing engineering hub in Turin",
+        "summary": "SkyGlass shared a The Aviationist report that Edgewing opened an engineering centre in Turin, Italy, to support work on the Global Combat Air Programme.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108950862261338285"
+      },
+      {
+        "id": "2108950862261264859",
+        "date": "2026-10-10",
+        "dateLabel": "10 OCT 2026 · UTC",
+        "headline": "SkyGlass shares report on Turkish F-16 deployment to Latvia",
+        "summary": "SkyGlass shared a Defence Blog report that Turkish Air Force F-16 aircraft were deployed to Lielvārde Air Base to support Latvian airspace security during parliamentary elections.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108950862261264859"
+      },
+      {
+        "id": "2108929810227466567",
+        "date": "2026-10-10",
+        "dateLabel": "10 OCT 2026 · UTC",
+        "headline": "E-6 OFF Ground alert at Chesapeake Ranch Estates",
+        "summary": "SkyGlass posted an OFF Ground alert for a US military aircraft labelled E6 at Chesapeake Ranch Estates, United States. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108929810227466567"
+      },
       {
         "id": "2108911656646406359",
         "date": "2026-10-10",
@@ -178,30 +202,6 @@
         "headline": "P-8 on-ground alert at Misawa",
         "summary": "SkyGlass posted an ON Ground alert for an Australian-registered military P-8 aircraft at Misawa, Japan. The callsign was shown as NA.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2108725539770925111"
-      },
-      {
-        "id": "2108722770687164674",
-        "date": "2026-10-10",
-        "dateLabel": "10 OCT 2026 · UTC",
-        "headline": "P-8 on-ground alert at Darwin",
-        "summary": "SkyGlass posted an ON Ground alert for an Australian-registered military P-8 aircraft at Darwin, Australia. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108722770687164674"
-      },
-      {
-        "id": "2108714638191821041",
-        "date": "2026-10-10",
-        "dateLabel": "10 OCT 2026 · UTC",
-        "headline": "P-8 BLKT06 on-ground alert at Mount Louisa",
-        "summary": "SkyGlass posted an ON Ground alert for Australian-registered military P-8 aircraft BLKT06 at Mount Louisa, Australia.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108714638191821041"
-      },
-      {
-        "id": "2108709334368608666",
-        "date": "2026-10-10",
-        "dateLabel": "10 OCT 2026 · UTC",
-        "headline": "SkyGlass shares report on Thai queen’s solo Gripen flight",
-        "summary": "SkyGlass shared a The Aviationist report that Queen Suthida of Thailand completed a solo flight in a JAS 39C Gripen.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108709334368608666"
       }
     ]
   }
