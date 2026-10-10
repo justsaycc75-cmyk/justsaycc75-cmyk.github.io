@@ -88,3 +88,7 @@
 
 /* Keep category headings visible below the sticky navigation on deep links. */
 .guide-card{scroll-margin-top:84px}
+
+/* Keep category labels and sublabels on distinct lines inside narrow tiles. */
+.howto-tile-name,.howto-tile-sub{display:block}
+.howto-tile-inner>span:last-child{min-width:0}
