@@ -1,0 +1,58 @@
+/* How Do I Do That? — self-contained styling for homepage and guide page */ 
+.howto-feature{max-width:1400px;margin:18px auto 24px;display:grid;grid-template-columns:36% minmax(0,1fr);gap:22px;padding:22px 24px;border-radius:27px;border:1px solid rgba(153,205,161,.25);background:radial-gradient(circle at 8% 115%,rgba(69,126,34,.32),transparent 34%),radial-gradient(circle at 88% 0%,rgba(35,85,71,.28),transparent 48%),#081711;box-shadow:0 15px 45px rgba(0,0,0,.24);overflow:hidden;color:#fff;position:relative}
+.howto-feature-copy{display:flex;flex-direction:column;justify-content:center;padding:10px 8px 10px 10px;position:relative;z-index:1}
+.howto-feature .howto-eyebrow{color:#b4fa47;text-transform:uppercase;letter-spacing:.23em;font-size:12px;font-weight:900}
+.howto-feature h2{font-size:clamp(38px,4.4vw,75px);letter-spacing:-.055em;line-height:1.04;color:#f6f6ee;margin:20px 0}
+.howto-feature-copy p{font-size:clamp(15px,1.2vw,20px);color:#e3ede4;line-height:1.48;max-width:440px;margin:0 0 26px}
+.howto-feature-copy>a{font-size:17px;font-weight:800;color:#b4fa47;text-decoration:none;border-bottom:1px solid #b4fa47;width:max-content;padding-bottom:7px}
+.howto-tiles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));grid-template-rows:repeat(2,minmax(150px,1fr));gap:13px;min-width:0}
+.howto-tile{display:flex;align-items:flex-end;min-width:0;min-height:172px;border-radius:19px;position:relative;overflow:hidden;color:#fff!important;text-decoration:none!important;isolation:isolate;background:linear-gradient(140deg,#315d60,#142a2c);transition:transform .18s,box-shadow .18s}
+.howto-tile::before{content:"";position:absolute;inset:0;background-size:cover;background-position:center;transition:transform .35s;z-index:-2}
+.howto-tile::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.02) 28%,rgba(0,0,0,.85) 100%);z-index:-1}
+.howto-tile:hover,.howto-tile:focus-visible{transform:translateY(-3px);box-shadow:0 12px 22px rgba(0,0,0,.34)}
+.howto-tile:hover::before{transform:scale(1.07)}
+.howto-tile-inner{padding:15px 13px;display:flex;align-items:center;gap:10px;width:100%}
+.howto-symbol{flex:0 0 38px;width:38px;height:38px;display:grid;place-items:center;border:2px solid var(--accent,#7fffd5);background:rgba(0,0,0,.35);color:#fff;border-radius:50%;font-size:21px}
+.howto-tile-name{font-size:clamp(14px,1.3vw,22px);font-weight:850;line-height:1.05;text-shadow:0 1px 4px rgba(0,0,0,.5)}
+.howto-tile-sub{font-size:10px;letter-spacing:.04em;color:#eef0e9;margin-top:6px;font-weight:700}
+.howto-tile.diy{--accent:#ffb16b}.howto-tile.diy::before{background-image:linear-gradient(125deg,rgba(96,52,14,.25),transparent),url("https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=700&q=82&fit=crop")}
+.howto-tile.tech{--accent:#3de0ed}.howto-tile.tech::before{background-image:url("https://images.unsplash.com/photo-1518770660439-4636190af475?w=700&q=82&fit=crop")}
+.howto-tile.garden{--accent:#7bfc87}.howto-tile.garden::before{background-image:url("https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=700&q=82&fit=crop")}
+.howto-tile.cooking{--accent:#ffb065}.howto-tile.cooking::before{background-image:url("https://images.unsplash.com/photo-1556911220-bff31c812dba?w=700&q=82&fit=crop")}
+.howto-tile.life{--accent:#e6b8fb}.howto-tile.life::before{background-image:url("https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=700&q=82&fit=crop")}
+.howto-tile.cruises{--accent:#85caff}.howto-tile.cruises::before{background-image:url("https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=700&q=82&fit=crop")}
+@media(max-width:850px){.howto-feature{grid-template-columns:1fr;gap:20px}.howto-feature h2{font-size:clamp(37px,7vw,60px)}.howto-tiles{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:560px){.howto-feature{padding:17px;border-radius:18px}.howto-tiles{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:auto}.howto-tile{min-height:145px}.howto-tile-inner{padding:10px;gap:7px}.howto-symbol{width:30px;height:30px;flex-basis:30px;font-size:17px}.howto-tile-name{font-size:15px}.howto-tile-sub{font-size:9px}}
+.howto-body{background:#09130f;color:#f2f5f1}
+.howto-main{width:min(1200px,calc(100% - 38px));margin:40px auto 75px}
+.howto-header{padding:45px clamp(20px,5vw,65px);border-radius:24px;border:1px solid #385246;background:radial-gradient(circle at 95% 0%,#203e31,#0c1f16 60%)}
+.howto-kicker{font-size:12px;font-weight:800;letter-spacing:.24em;color:#bbfb69}
+.howto-header h1{font-size:clamp(40px,6vw,78px);letter-spacing:-.045em;line-height:1.08;color:#fff;margin:18px 0}
+.howto-header p{color:#d5e3d9;font-size:clamp(16px,1.55vw,20px);max-width:850px;line-height:1.55}
+.howto-search{margin:30px 0 20px;display:flex;flex-direction:column;gap:9px}
+.howto-search label{font-weight:700;color:#e5f0e7}
+.howto-search input{background:#fff;color:#18291f;border:0;border-radius:12px;padding:16px 18px;width:100%;max-width:700px;font-size:17px}
+#guide-count{color:#bbd1c2;font-size:13px}
+.guide-tabs{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.guide-tabs button{border:1px solid #668072;background:#163125;color:#e9f5ed;border-radius:100px;padding:10px 14px;cursor:pointer;font-size:14px}
+.guide-tabs button.active,.guide-tabs button:hover{background:#b7f657;color:#112419;border-color:#b7f657;font-weight:800}
+.guide-results{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin:24px 0}
+.guide-card{background:#12241d;border:1px solid #365346;border-radius:20px;padding:24px;min-width:0}
+.guide-card-head{display:flex;align-items:center;gap:16px}
+.guide-index{color:#b4fb59;font-size:17px;font-weight:800}
+.guide-card h2{color:#fff;font-size:clamp(24px,2.7vw,35px);margin:0}
+.guide-card-head span:last-child{color:#b7cabd}
+.guide-intro{line-height:1.55;color:#d1e0d6;min-height:95px}
+.guide-links{display:grid;gap:9px}
+.guide-link{display:flex;align-items:center;justify-content:space-between;gap:10px;background:#21392e;border:1px solid #3a5a49;border-radius:11px;padding:14px;text-decoration:none!important;color:#fff!important}
+.guide-link:hover,.guide-link:focus-visible{background:#2a4c38;border-color:#b4fb59}
+.guide-link strong,.guide-link span,.guide-link small{display:block}
+.guide-link strong{font-size:16px;margin-bottom:4px}
+.guide-link span{color:#d2e2d5;font-size:13px;line-height:1.45}
+.guide-link small{color:#bbf26f;font-size:11px;margin-top:6px}
+.guide-link .guide-arrow{color:#b8fb69;font-size:22px;flex-shrink:0}
+.guide-link[hidden],.guide-card[hidden],.guide-empty[hidden]{display:none!important}
+.howto-note{background:#1b2c23;border-left:4px solid #b6ef5b;padding:20px 24px;border-radius:10px;color:#e0e8e0;line-height:1.5}
+.howto-back{margin:35px 0}.howto-back a{color:#b6fb65}
+.guide-empty{padding:25px;text-align:center;color:#dbe5db}
+@media(max-width:750px){.guide-results{grid-template-columns:1fr}.howto-main{width:calc(100% - 20px);margin-top:16px}.howto-header{padding:25px 18px}.guide-card{padding:16px}.guide-intro{min-height:0}}
