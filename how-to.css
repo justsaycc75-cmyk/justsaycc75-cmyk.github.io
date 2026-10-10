@@ -85,3 +85,6 @@
 @media(prefers-reduced-motion:reduce){.guide-card .guide-thumb img{transition:none}.guide-card .guide-link:hover .guide-thumb img{transform:none}}
 
 .howto-feature-credit{margin-top:14px;font-size:11px;color:#b7cabd}.howto-feature-credit a{color:inherit}
+
+/* Keep category headings visible below the sticky navigation on deep links. */
+.guide-card{scroll-margin-top:84px}
