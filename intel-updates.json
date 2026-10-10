@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2108739326217470011",
+        "date": "2026-10-10",
+        "dateLabel": "10 OCT 2026 · UTC",
+        "headline": "US surveillance, command and heavy transport aircraft reported",
+        "summary": "War Watch reported multiple US Air Force surveillance aircraft, nuclear command aircraft and heavy transport aircraft over the continental United States, with no coded radio traffic during the preceding hour.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108739326217470011"
+      },
+      {
+        "id": "2108724222428086577",
+        "date": "2026-10-10",
+        "dateLabel": "10 OCT 2026 · UTC",
+        "headline": "Six US transports, weather reconnaissance and coded broadcasts reported",
+        "summary": "War Watch reported six US Air Force heavy transport aircraft over or near the United States, a weather-reconnaissance aircraft over Alaska and coded US Air Force radio broadcasts.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108724222428086577"
+      },
+      {
+        "id": "2108718479419252951",
+        "date": "2026-10-10",
+        "dateLabel": "10 OCT 2026 · UTC",
+        "headline": "War Watch relays report on possible David’s Sling acquisition",
+        "summary": "War Watch relayed an OSINTWarfare report that Morocco and Israel were in advanced discussions over a possible Moroccan acquisition of the David’s Sling air-defence system, crediting @reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108718479419252951"
+      },
+      {
+        "id": "2108714706827440186",
+        "date": "2026-10-10",
+        "dateLabel": "10 OCT 2026 · UTC",
+        "headline": "WC-135R COBRA31 reported over Alaska",
+        "summary": "War Watch reported Boeing WC-135R registration 64-14829 using callsign COBRA31 and hex AE037F over Alaska, crediting reagan0965 and photographer Nikoli Sparkes via Planespotters.net.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108714706827440186"
+      },
+      {
+        "id": "2108710930645160156",
+        "date": "2026-10-10",
+        "dateLabel": "10 OCT 2026 · UTC",
+        "headline": "Three US command aircraft, six transports and 19 broadcasts reported",
+        "summary": "War Watch reported three US Air Force nuclear command aircraft and six military transport aircraft over the United States after 19 coded radio broadcasts during the day.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108710930645160156"
+      },
+      {
         "id": "2108700788042137984",
         "date": "2026-10-09",
         "dateLabel": "09 OCT 2026 · UTC",
@@ -59,46 +99,6 @@
         "headline": "War Watch relays report on USS Arizona disinterment",
         "summary": "War Watch relayed a Stars and Stripes report that hundreds of USS Arizona families were expected for a 7 December disinterment of unidentified Second World War personnel, crediting @reagan0965.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2108648511956824553"
-      },
-      {
-        "id": "2108642067366768831",
-        "date": "2026-10-09",
-        "dateLabel": "09 OCT 2026 · UTC",
-        "headline": "Damage in Penonomé after reported magnitude-7.6 earthquake",
-        "summary": "War Watch relayed an OSINTdefender report that footage showed significant building damage in Penonomé, Panama, after a reported magnitude-7.6 earthquake, crediting @reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108642067366768831"
-      },
-      {
-        "id": "2108633728708686155",
-        "date": "2026-10-09",
-        "dateLabel": "09 OCT 2026 · UTC",
-        "headline": "US cargo aircraft, coded broadcasts and Kuwait suspension reported",
-        "summary": "War Watch reported multiple US military cargo aircraft airborne, including large transports, coded US Air Force radio broadcasts earlier in the day and suspended air traffic in Kuwait.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108633728708686155"
-      },
-      {
-        "id": "2108618624449585242",
-        "date": "2026-10-09",
-        "dateLabel": "09 OCT 2026 · UTC",
-        "headline": "Elevated US transport and Baltic military flight activity reported",
-        "summary": "War Watch reported unusually active US Air Force transport aircraft over the United States and military flight activity in the Baltic region at nearly three times its stated normal level.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108618624449585242"
-      },
-      {
-        "id": "2108603521713008757",
-        "date": "2026-10-09",
-        "dateLabel": "09 OCT 2026 · UTC",
-        "headline": "US transport and nuclear command aircraft spike reported",
-        "summary": "War Watch reported an unusual rise in US Air Force transport activity over the United States, including multiple large cargo aircraft and at least one nuclear command aircraft during the preceding hour.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108603521713008757"
-      },
-      {
-        "id": "2108588419743936585",
-        "date": "2026-10-09",
-        "dateLabel": "09 OCT 2026 · UTC",
-        "headline": "US transports and coded radio traffic reported",
-        "summary": "War Watch reported multiple large US military transport aircraft over the continental United States and coded Air Force radio traffic, while stating that it saw no indicators of escalation.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108588419743936585"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2108725539770925111",
+        "date": "2026-10-10",
+        "dateLabel": "10 OCT 2026 · UTC",
+        "headline": "P-8 on-ground alert at Misawa",
+        "summary": "SkyGlass posted an ON Ground alert for an Australian-registered military P-8 aircraft at Misawa, Japan. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108725539770925111"
+      },
+      {
+        "id": "2108722770687164674",
+        "date": "2026-10-10",
+        "dateLabel": "10 OCT 2026 · UTC",
+        "headline": "P-8 on-ground alert at Darwin",
+        "summary": "SkyGlass posted an ON Ground alert for an Australian-registered military P-8 aircraft at Darwin, Australia. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108722770687164674"
+      },
+      {
+        "id": "2108714638191821041",
+        "date": "2026-10-10",
+        "dateLabel": "10 OCT 2026 · UTC",
+        "headline": "P-8 BLKT06 on-ground alert at Mount Louisa",
+        "summary": "SkyGlass posted an ON Ground alert for Australian-registered military P-8 aircraft BLKT06 at Mount Louisa, Australia.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108714638191821041"
+      },
+      {
+        "id": "2108709334368608666",
+        "date": "2026-10-10",
+        "dateLabel": "10 OCT 2026 · UTC",
+        "headline": "SkyGlass shares report on Thai queen’s solo Gripen flight",
+        "summary": "SkyGlass shared a The Aviationist report that Queen Suthida of Thailand completed a solo flight in a JAS 39C Gripen.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108709334368608666"
+      },
       {
         "id": "2108676060208374053",
         "date": "2026-10-09",
@@ -170,38 +202,6 @@
         "headline": "E-6 airborne alert at Suisun",
         "summary": "SkyGlass posted an OFF Ground alert for a US military aircraft labelled E6 at Suisun, California. The callsign was shown as NA.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2108645164168126740"
-      },
-      {
-        "id": "2108597210317242508",
-        "date": "2026-10-09",
-        "dateLabel": "09 OCT 2026 · UTC",
-        "headline": "E-6 airborne alert at Suisun",
-        "summary": "SkyGlass posted an OFF Ground alert for a US military aircraft labelled E6 at Suisun, California. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108597210317242508"
-      },
-      {
-        "id": "2108588602129051699",
-        "date": "2026-10-09",
-        "dateLabel": "09 OCT 2026 · UTC",
-        "headline": "SkyGlass shares report on F-16 mission-computer upgrade",
-        "summary": "SkyGlass shared a Defence Blog report that the US Air Force was seeking next-generation mission computers for older F-16 aircraft.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108588602129051699"
-      },
-      {
-        "id": "2108588601957122100",
-        "date": "2026-10-09",
-        "dateLabel": "09 OCT 2026 · UTC",
-        "headline": "SkyGlass shares report on F-16 identification-system integration",
-        "summary": "SkyGlass shared a The Aviationist report that BAE Systems had received AIMS certification for its AN/APX-127(V)1 identification system, advancing F-16 integration.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108588601957122100"
-      },
-      {
-        "id": "2108588601835479469",
-        "date": "2026-10-09",
-        "dateLabel": "09 OCT 2026 · UTC",
-        "headline": "SkyGlass shares report on autonomous drone swarms",
-        "summary": "SkyGlass shared a Breaking Defense report about decentralized autonomy for battlefield drone swarms.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108588601835479469"
       }
     ]
   }
