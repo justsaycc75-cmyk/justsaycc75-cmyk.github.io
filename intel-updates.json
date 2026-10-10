@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2108920565188657168",
+        "date": "2026-10-10",
+        "dateLabel": "10 OCT 2026 · UTC",
+        "headline": "Six transports and weather reconnaissance aircraft reported",
+        "summary": "War Watch reported six military transport aircraft over the United States and North Sea and a US Air Force weather-reconnaissance aircraft over Alaska. The visible post is truncated after “Five coded radio broadcasts heard earlier…”.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108920565188657168"
+      },
+      {
+        "id": "2108905467913097442",
+        "date": "2026-10-10",
+        "dateLabel": "10 OCT 2026 · UTC",
+        "headline": "US transports, weather reconnaissance and Russian cargo aircraft reported",
+        "summary": "War Watch reported six US Air Force transport aircraft over the United States, a nuclear-capable weather-reconnaissance aircraft near Alaska and a Russian cargo aircraft south of Cyprus heading from Syria.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108905467913097442"
+      },
+      {
+        "id": "2108890358989906126",
+        "date": "2026-10-10",
+        "dateLabel": "10 OCT 2026 · UTC",
+        "headline": "Six US transports, weather reconnaissance and no coded broadcasts reported",
+        "summary": "War Watch reported six US Air Force transport aircraft across the Atlantic and over the North Sea, a weather-reconnaissance aircraft over Alaska and no coded radio broadcasts during the preceding hour.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108890358989906126"
+      },
+      {
         "id": "2108875256999870706",
         "date": "2026-10-10",
         "dateLabel": "10 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "Six US transports and four coded broadcasts reported",
         "summary": "War Watch reported six US Air Force transport aircraft airborne simultaneously, four coded radio broadcasts earlier in the day and activity above its stated normal baseline.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2108769532449894449"
-      },
-      {
-        "id": "2108764538292088937",
-        "date": "2026-10-10",
-        "dateLabel": "10 OCT 2026 · UTC",
-        "headline": "War Watch relays report on Europe’s response to Russian activity",
-        "summary": "War Watch relayed a New York Times report about European consideration of responses to Russian activity described as a shadow war, crediting @Robertchester-j5b.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108764538292088937"
-      },
-      {
-        "id": "2108758246110449802",
-        "date": "2026-10-10",
-        "dateLabel": "10 OCT 2026 · UTC",
-        "headline": "War Watch relays report on Putin-Trump peace talks",
-        "summary": "War Watch relayed an Al Jazeera report that Vladimir Putin had told Donald Trump peace talks were unlikely, crediting @Robertchester-j5b.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108758246110449802"
-      },
-      {
-        "id": "2108739326217470011",
-        "date": "2026-10-10",
-        "dateLabel": "10 OCT 2026 · UTC",
-        "headline": "US surveillance, command and heavy transport aircraft reported",
-        "summary": "War Watch reported multiple US Air Force surveillance aircraft, nuclear command aircraft and heavy transport aircraft over the continental United States, with no coded radio traffic during the preceding hour.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108739326217470011"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2108911656646406359",
+        "date": "2026-10-10",
+        "dateLabel": "10 OCT 2026 · UTC",
+        "headline": "B737 on-ground alert at Al Muharraq",
+        "summary": "SkyGlass posted an ON Ground alert for a US-registered military Boeing 737 at Al Muharraq, Bahrain. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108911656646406359"
+      },
+      {
+        "id": "2108910471852052641",
+        "date": "2026-10-10",
+        "dateLabel": "10 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert at Covelong",
+        "summary": "SkyGlass posted an OFF Ground alert for an Indian military P-8 aircraft at Covelong, India. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108910471852052641"
+      },
+      {
+        "id": "2108890488879112450",
+        "date": "2026-10-10",
+        "dateLabel": "10 OCT 2026 · UTC",
+        "headline": "SkyGlass shares report on Turkish interceptor-drone demonstration",
+        "summary": "SkyGlass shared a Defence Blog report that Turkish defence company ASELSAN demonstrated its GÖKALP interceptor drone destroying a target drone by direct impact.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108890488879112450"
+      },
+      {
+        "id": "2108884670775480483",
+        "date": "2026-10-10",
+        "dateLabel": "10 OCT 2026 · UTC",
+        "headline": "B737 CNV5450 on-ground alert at Al Muharraq",
+        "summary": "SkyGlass posted an ON Ground alert for US-registered military Boeing 737 CNV5450 at Al Muharraq, Bahrain.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108884670775480483"
+      },
       {
         "id": "2108871071604572251",
         "date": "2026-10-10",
@@ -170,38 +202,6 @@
         "headline": "SkyGlass shares report on Thai queen’s solo Gripen flight",
         "summary": "SkyGlass shared a The Aviationist report that Queen Suthida of Thailand completed a solo flight in a JAS 39C Gripen.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2108709334368608666"
-      },
-      {
-        "id": "2108676060208374053",
-        "date": "2026-10-09",
-        "dateLabel": "09 OCT 2026 · UTC",
-        "headline": "P-8 BLKT33 on-ground alert at Darwin",
-        "summary": "SkyGlass posted an ON Ground alert for Australian-registered military P-8 aircraft BLKT33 at Darwin, Australia.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108676060208374053"
-      },
-      {
-        "id": "2108672058196373748",
-        "date": "2026-10-09",
-        "dateLabel": "09 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Lossiemouth",
-        "summary": "SkyGlass posted an OFF Ground alert for a UK-registered military P-8 aircraft at Lossiemouth, Great Britain. The displayed callsign was @@@@@@@@.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108672058196373748"
-      },
-      {
-        "id": "2108666057003012406",
-        "date": "2026-10-09",
-        "dateLabel": "09 OCT 2026 · UTC",
-        "headline": "E3CF APACHE airborne alert at El Monte",
-        "summary": "SkyGlass posted an OFF Ground alert for aircraft APACHE, labelled E3CF, at El Monte, Chile.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108666057003012406"
-      },
-      {
-        "id": "2108655376878952468",
-        "date": "2026-10-09",
-        "dateLabel": "09 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Oak Harbor",
-        "summary": "SkyGlass posted an OFF Ground alert for a US-registered military P-8 aircraft at Oak Harbor, United States. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108655376878952468"
       }
     ]
   }
