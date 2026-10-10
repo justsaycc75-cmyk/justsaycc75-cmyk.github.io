@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2109011186641436696",
+        "date": "2026-10-10",
+        "dateLabel": "10 OCT 2026 · UTC",
+        "headline": "US spy and command aircraft and Saudi flight disruption reported",
+        "summary": "War Watch reported six US military surveillance and command aircraft over the continental United States, missile impacts at a Riyadh airport terminal and Saudi flight diversions or cancellations. The visible post is truncated after “doctors called…”.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2109011186641436696"
+      },
+      {
+        "id": "2108996082050961484",
+        "date": "2026-10-10",
+        "dateLabel": "10 OCT 2026 · UTC",
+        "headline": "Six US transports and Riyadh flight cancellations reported",
+        "summary": "War Watch reported six US Air Force transport aircraft airborne, including four over the United States, and said missile attacks at Riyadh airport had forced major airlines to cancel flights. The visible post is truncated thereafter.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108996082050961484"
+      },
+      {
+        "id": "2108980979704508681",
+        "date": "2026-10-10",
+        "dateLabel": "10 OCT 2026 · UTC",
+        "headline": "US transports, Riyadh impacts and flight diversions reported",
+        "summary": "War Watch reported six US military transport aircraft over the United States, missile impacts at Riyadh airport, flights diverted to Jeddah and a US Air Force surveillance aircraft. The visible post is truncated thereafter.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2108980979704508681"
+      },
+      {
         "id": "2108965877332734344",
         "date": "2026-10-10",
         "dateLabel": "10 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "Five US transports, weather reconnaissance and coded broadcasts reported",
         "summary": "War Watch reported five US Air Force transport aircraft over the North Sea and United States, a weather-reconnaissance aircraft over Alaska and five coded US Air Force radio broadcasts during the day.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2108875256999870706"
-      },
-      {
-        "id": "2108860151012766127",
-        "date": "2026-10-10",
-        "dateLabel": "10 OCT 2026 · UTC",
-        "headline": "Six US transports and surveillance aircraft reported",
-        "summary": "War Watch reported six US Air Force transport aircraft, including one over the North Sea and another near Korea and Japan, plus a US Air Force surveillance aircraft near Alaska. The visible post is truncated after “Five coded US Air…”.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108860151012766127"
-      },
-      {
-        "id": "2108845048473227280",
-        "date": "2026-10-10",
-        "dateLabel": "10 OCT 2026 · UTC",
-        "headline": "Six US transports and coded radio traffic reported",
-        "summary": "War Watch reported six US Air Force transport aircraft airborne simultaneously, including one over the North Sea, with coded radio traffic detected and activity above its stated normal level.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108845048473227280"
-      },
-      {
-        "id": "2108829944675508464",
-        "date": "2026-10-10",
-        "dateLabel": "10 OCT 2026 · UTC",
-        "headline": "Five US transports and earlier coded broadcasts reported",
-        "summary": "War Watch reported five US Air Force transport aircraft airborne, including one over the North Sea, with no coded radio broadcasts during the preceding hour and five detected earlier in the day.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108829944675508464"
       }
     ]
   },
@@ -107,6 +107,22 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2109005001389429088",
+        "date": "2026-10-10",
+        "dateLabel": "10 OCT 2026 · UTC",
+        "headline": "E-6 OFF Ground alert at Suisun",
+        "summary": "SkyGlass posted an OFF Ground alert for a US-registered military aircraft labelled E6 at Suisun, California. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2109005001389429088"
+      },
+      {
+        "id": "2108998209011896429",
+        "date": "2026-10-10",
+        "dateLabel": "10 OCT 2026 · UTC",
+        "headline": "P-8 AB31S OFF Ground alert at Dandeli",
+        "summary": "SkyGlass posted an OFF Ground alert for Indian-registered military P-8 aircraft AB31S at Dandeli, India.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2108998209011896429"
+      },
       {
         "id": "2108950862261338285",
         "date": "2026-10-10",
@@ -186,22 +202,6 @@
         "headline": "E-6 airborne alert at Springs",
         "summary": "SkyGlass posted an OFF Ground alert for a US military aircraft labelled E6 at Springs, United States. The callsign was shown as NA.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2108765839176462389"
-      },
-      {
-        "id": "2108747301615235259",
-        "date": "2026-10-10",
-        "dateLabel": "10 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Perumbakkam",
-        "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Perumbakkam, India. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108747301615235259"
-      },
-      {
-        "id": "2108725539770925111",
-        "date": "2026-10-10",
-        "dateLabel": "10 OCT 2026 · UTC",
-        "headline": "P-8 on-ground alert at Misawa",
-        "summary": "SkyGlass posted an ON Ground alert for an Australian-registered military P-8 aircraft at Misawa, Japan. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108725539770925111"
       }
     ]
   }
