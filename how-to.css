@@ -68,9 +68,18 @@
 .guide-card[data-category="cooking"]{--guide-cover:url("https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=1050&q=85")}
 .guide-card[data-category="life"]{--guide-cover:url("https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1050&q=85")}
 .guide-card[data-category="cruises"]{--guide-cover:url("https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1050&q=85")}
-.guide-card .guide-link{position:relative;overflow:hidden;padding-left:83px;min-height:94px}
-.guide-card .guide-link::before{content:"";position:absolute;left:0;top:0;bottom:0;width:70px;background-image:linear-gradient(to right,transparent,rgba(10,32,22,.25)),var(--guide-cover);background-size:cover;background-position:center;border-right:1px solid #466450;transition:filter .2s}
-.guide-card .guide-link:hover::before{filter:brightness(1.23)}
-.guide-card .guide-link>div{position:relative;z-index:1}
+
+/* Individually illustrated thumbnails: 48 distinct topic-led graphics */
+.guide-card .guide-link{position:relative;overflow:hidden;padding:0 16px 0 0;min-height:108px;display:flex;gap:15px}
+.guide-card .guide-link::before{content:none!important}
+.guide-thumb{width:127px;min-width:127px;align-self:stretch;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;position:relative;overflow:hidden;background:radial-gradient(circle at 22% 18%,color-mix(in srgb,var(--thumb-b),white 16%),transparent 52%),linear-gradient(var(--thumb-spin),var(--thumb-a),var(--thumb-b));border-right:1px solid rgba(255,255,255,.2);isolation:isolate}
+.guide-thumb::before{content:"";position:absolute;width:136px;height:136px;transform:rotate(-25deg);border:2px solid rgba(255,255,255,.23);border-radius:28px;top:-65px;right:-53px;z-index:-1}
+.guide-thumb::after{content:"";position:absolute;width:105px;height:105px;border:1px solid rgba(255,255,255,.22);border-radius:50%;bottom:-70px;left:-34px;z-index:-1}
+.guide-thumb-symbol{font-size:43px;line-height:1.2;filter:drop-shadow(0 3px 4px rgba(0,0,0,.35))}
+.guide-thumb-title{font-size:10px;letter-spacing:.08em;font-weight:850;text-align:center;color:white;text-shadow:0 1px 5px #12251a;padding:0 4px}
+.guide-card .guide-link>div{flex:1;min-width:0;padding:13px 0;position:relative;z-index:1}
+.guide-card .guide-link .guide-arrow{padding-right:5px;display:flex;align-items:center}
+.guide-card .guide-link:hover .guide-thumb-symbol{transform:scale(1.12);transition:transform .2s}
 .guide-card .guide-link:focus-visible{outline:3px solid #d4ff7e;outline-offset:2px}
-@media(max-width:750px){.guide-card-head{margin:-16px -16px 18px;padding:22px 16px}.guide-card .guide-link{padding-left:75px}.guide-card .guide-link::before{width:62px}}
+@media(max-width:750px){.guide-card-head{margin:-16px -16px 18px;padding:22px 16px}.guide-thumb{width:95px;min-width:95px}.guide-thumb-symbol{font-size:36px}.guide-thumb-title{font-size:9px}.guide-card .guide-link{gap:10px;padding-right:8px}.guide-card .guide-link>div{padding:11px 0}}
+@media(max-width:390px){.guide-thumb{width:74px;min-width:74px}.guide-thumb-symbol{font-size:29px}.guide-thumb-title{font-size:8px}.guide-card .guide-link strong{font-size:14px}.guide-card .guide-link span{font-size:12px}}
