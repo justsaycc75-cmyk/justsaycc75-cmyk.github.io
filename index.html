@@ -240,7 +240,7 @@ const TZ='Australia/Sydney', sources=[
 {league:'NFL',url:'https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates='},
 {league:'EPL',url:'https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates='}
 ];
-const dates=Array.from({length:4},(_,i)=>{let d=new Date(Date.now()+(i-1)*86400000);return new Intl.DateTimeFormat('en-CA',{timeZone:TZ,year:'numeric',month:'2-digit',day:'2-digit'}).format(d).replace(/\D/g,'');});
+const dates=Array.from({length:5},(_,i)=>{let d=new Date(Date.now()+(i-2)*86400000);return new Intl.DateTimeFormat('en-CA',{timeZone:TZ,year:'numeric',month:'2-digit',day:'2-digit'}).format(d).replace(/\D/g,'');});
 const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const displayDate=d=>new Intl.DateTimeFormat('en-AU',{timeZone:TZ,weekday:'short',hour:'numeric',minute:'2-digit',hour12:true}).format(new Date(d));
 async function update(){
@@ -249,7 +249,7 @@ const replies=await Promise.allSettled(sources.flatMap(src=>dates.map(date=>fetc
 const games=new Map();
 for(const reply of replies){if(reply.status!=='fulfilled')continue;for(const event of reply.value.events){const c=event.competitions?.[0];if(!c||c.competitors?.length!==2)continue;let id=reply.value.league+'-'+event.id;games.set(id,{event,competition:c,league:reply.value.league});}}
 const all=[...games.values()],now=Date.now();
-const relevant=all.filter(g=>{let t=new Date(g.event.date).getTime();return t>now-18*3600000&&t<now+36*3600000;});
+const relevant=all.filter(g=>{let t=new Date(g.event.date).getTime();return t>now-28*3600000&&t<now+36*3600000;});
 relevant.sort((a,b)=>{const rank=g=>g.event.status?.type?.state==='in'?0:g.event.status?.type?.state==='pre'?1:2;return rank(a)-rank(b)||Math.abs(new Date(a.event.date)-now)-Math.abs(new Date(b.event.date)-now);});
 if(!relevant.length){target.textContent='No NFL or EPL games in this window. Check again for upcoming fixtures.';return;}
 target.innerHTML=relevant.slice(0,7).map(g=>{
@@ -257,8 +257,10 @@ const e=g.event,c=g.competition,teams=c.competitors;
 const home=teams.find(t=>t.homeAway==='home')||teams[0],away=teams.find(t=>t.homeAway==='away')||teams[1];
 const state=e.status?.type?.state||'pre',status=e.status?.type?.shortDetail||e.status?.type?.detail||'Scheduled';
 const title=g.league+' · '+(state==='in'?'LIVE':state==='post'?'FINAL':displayDate(e.date));
+const recentlyFinished=g.league==='EPL'&&state==='post'&&now-new Date(e.date).getTime()<28*3600000;
+const replayLinks=recentlyFinished?'<div style="margin-top:7px"><a href="https://www.youtube.com/@premierleague/videos" target="_blank" rel="noopener noreferrer" style="color:#a4f4bf;font-size:11px">Official free highlights (when uploaded) ↗</a><br><a href="https://www.stan.com.au/watch/sport/football/premier-league" target="_blank" rel="noopener noreferrer" style="color:#d8e4f4;font-size:11px">Full replay / mini-match on Stan Sport (paid) ↗</a></div>':'';
 const url=(e.links||[]).map(l=>l.href).find(u=>u&&/^https:\/\/www\.espn\.com\//.test(u))||('https://www.espn.com/'+(g.league==='NFL'?'nfl':'soccer')+'/scoreboard');
-return '<article style="padding:9px 0;border-top:1px solid #30465f"><div style="color:#8ae9ea;font-weight:800;font-size:10px">'+escape(title)+'</div><div style="font-weight:750;font-size:12px;margin:5px 0">'+escape(away.team?.displayName||away.team?.name)+' <b>'+(state==='pre'?'vs':escape(away.score??'–')+' – '+escape(home.score??'–'))+'</b> '+escape(home.team?.displayName||home.team?.name)+'</div><div style="font-size:10px;color:#c2d3e1">'+escape(status)+'</div><a href="'+escape(url)+'" target="_blank" rel="noopener noreferrer" style="color:#9bdcff;font-size:11px">Live match centre ↗</a></article>';
+return '<article style="padding:9px 0;border-top:1px solid #30465f"><div style="color:#8ae9ea;font-weight:800;font-size:10px">'+escape(title)+'</div><div style="font-weight:750;font-size:12px;margin:5px 0">'+escape(away.team?.displayName||away.team?.name)+' <b>'+(state==='pre'?'vs':escape(away.score??'–')+' – '+escape(home.score??'–'))+'</b> '+escape(home.team?.displayName||home.team?.name)+'</div><div style="font-size:10px;color:#c2d3e1">'+escape(status)+'</div><a href="'+escape(url)+'" target="_blank" rel="noopener noreferrer" style="color:#9bdcff;font-size:11px">'+(state==='post'?'Match details ↗':'Live match centre ↗')+'</a>'+replayLinks+'</article>';
 }).join('')+(relevant.length>7?'<p style="font-size:10px">Showing 7 closest matches</p>':'');
 }catch(err){target.textContent='Live scores temporarily unavailable. Try the official match centres.';}
 }
