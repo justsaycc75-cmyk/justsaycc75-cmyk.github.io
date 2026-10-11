@@ -123,6 +123,20 @@
 
 `;
 
+  // Race-day panel: visible only on 11 October 2026 in Sydney.
+  const bathurstDateParts=()=>Object.fromEntries(new Intl.DateTimeFormat('en-GB',{timeZone:'Australia/Sydney',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date()).map(part=>[part.type,part.value]));
+  const isBathurstDay=()=>{const day=bathurstDateParts();return day.year==='2026'&&day.month==='10'&&day.day==='11';};
+  if(isBathurstDay()){
+    rail.insertAdjacentHTML('beforeend',`
+      <section class="bathurst-rail-live" id="bathurst-rail-live" aria-labelledby="bathurst-rail-title">
+        <div class="bathurst-rail-head"><small><span aria-hidden="true">●</span> LIVE TODAY · 11 OCT</small><h2 id="bathurst-rail-title">Bathurst 1000</h2><p>Cars in race order. Scroll inside for every position.</p></div>
+        <div class="bathurst-rail-frame"><iframe title="Natsoft live Bathurst 1000 timing: position, car number and driver" src="https://server.natsoft.com.au:8080/LiveMeeting/V8SUPER?FontScale=1" loading="eager" referrerpolicy="no-referrer"></iframe></div>
+        <div class="bathurst-rail-foot"><a href="https://server.natsoft.com.au:8080/LiveMeeting/V8SUPER?FontScale=1" target="_blank" rel="noopener noreferrer">Open full live timing ↗</a><small>Live timing supplied by Natsoft. If the panel cannot load, use the link above.</small></div>
+      </section>
+    `);
+    const expiryCheck=setInterval(()=>{if(!isBathurstDay()){rail.querySelector('#bathurst-rail-live')?.remove();clearInterval(expiryCheck);}},60000);
+  }
+
   if(!document.getElementById('rail-team-logo-styles')){
     const style=document.createElement('style');
     style.id='rail-team-logo-styles';
