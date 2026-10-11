@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2109192302576976317",
+        "date": "2026-10-11",
+        "dateLabel": "11 OCT 2026 · UTC",
+        "headline": "Riyadh Terminal 3 casualties, Jeddah diversions and US transports reported",
+        "summary": "War Watch reported a Houthi missile attack on Riyadh airport Terminal 3 that killed 12 people and injured 300, with all flights diverted to Jeddah and multiple US military transport aircraft airborne globally.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2109192302576976317"
+      },
+      {
+        "id": "2109177197873283197",
+        "date": "2026-10-11",
+        "dateLabel": "11 OCT 2026 · UTC",
+        "headline": "Four transports and Saudi airport disruption reported",
+        "summary": "War Watch reported four US military transport aircraft airborne and said missile strikes closed Riyadh airport, killed 12 people and injured 300, while Jeddah and Dammam airports were disrupted by diverted flights. The visible post is truncated thereafter.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2109177197873283197"
+      },
+      {
+        "id": "2109162095711310134",
+        "date": "2026-10-11",
+        "dateLabel": "11 OCT 2026 · UTC",
+        "headline": "Four transports and Riyadh flight diversions reported",
+        "summary": "War Watch reported four US military transport aircraft airborne and said missile impacts at Riyadh airport killed 12 people, injured 300 and forced flights to divert to Jeddah, where dozens were holding to land.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2109162095711310134"
+      },
+      {
         "id": "2109146992538492971",
         "date": "2026-10-11",
         "dateLabel": "11 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "US transports, command aircraft and Saudi flight halt reported",
         "summary": "War Watch reported multiple US military transport aircraft over the United States alongside a nuclear command aircraft and said missile impacts at Riyadh airport had halted all Saudi flights.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2109026290888011863"
-      },
-      {
-        "id": "2109011186641436696",
-        "date": "2026-10-10",
-        "dateLabel": "10 OCT 2026 · UTC",
-        "headline": "US spy and command aircraft and Saudi flight disruption reported",
-        "summary": "War Watch reported six US military surveillance and command aircraft over the continental United States, missile impacts at a Riyadh airport terminal and Saudi flight diversions or cancellations. The visible post is truncated after “doctors called…”.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2109011186641436696"
-      },
-      {
-        "id": "2108996082050961484",
-        "date": "2026-10-10",
-        "dateLabel": "10 OCT 2026 · UTC",
-        "headline": "Six US transports and Riyadh flight cancellations reported",
-        "summary": "War Watch reported six US Air Force transport aircraft airborne, including four over the United States, and said missile attacks at Riyadh airport had forced major airlines to cancel flights. The visible post is truncated thereafter.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108996082050961484"
-      },
-      {
-        "id": "2108980979704508681",
-        "date": "2026-10-10",
-        "dateLabel": "10 OCT 2026 · UTC",
-        "headline": "US transports, Riyadh impacts and flight diversions reported",
-        "summary": "War Watch reported six US military transport aircraft over the United States, missile impacts at Riyadh airport, flights diverted to Jeddah and a US Air Force surveillance aircraft. The visible post is truncated thereafter.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108980979704508681"
       }
     ]
   },
