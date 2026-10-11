@@ -4,6 +4,15 @@
 <aside class="front-photo-rail" aria-label="Featured photo links">
 <a href="journeys.html" class="front-photo-card"><img src="assets/img/crown_sunset.webp" alt="Cruise sunset"><span>Cruises &amp; side trips</span></a>
 <a href="hunter.html" class="front-photo-card"><img src="assets/img/hunter1.webp" alt="Hunter Valley"><span>Hunter Valley</span></a>
+<section class="front-live-today" aria-label="Live Today: Seahawks against San Francisco 49ers" style="border:1px solid #315579;border-radius:14px;overflow:hidden;background:#0a1930;color:#fff;padding:13px 11px;text-align:center;box-shadow:0 6px 20px #0003">
+<div style="font-size:11px;font-weight:800;letter-spacing:.15em;color:#80dfed">● LIVE TODAY · NFL WEEK 5</div>
+<h3 style="font-size:15px;margin:9px 0 5px;color:#fff">SEAHAWKS vs 49ERS</h3>
+<div style="font-size:12px;color:#c8d8ea;margin-bottom:6px">Monday 12 October · 7:25am Sydney</div>
+<div style="display:flex;justify-content:space-around;align-items:center;gap:8px;font-weight:850;font-size:25px"><div><span style="font-size:11px;display:block">SF</span><span id="live-sf-score">–</span></div><div style="font-size:11px;color:#93bdd7">AT</div><div><span style="font-size:11px;display:block">SEA</span><span id="live-sea-score">–</span></div></div>
+<div id="live-nfl-status" role="status" aria-live="polite" style="font-size:12px;color:#dceaf5;margin:8px 0">Loading live score…</div>
+<a href="https://www.espn.com/nfl/game/_/gameId/401772" id="live-nfl-link" target="_blank" rel="noopener noreferrer" style="display:block;background:#147cb5;color:white;border-radius:8px;padding:9px 5px;font-size:12px;font-weight:750;text-decoration:none">Full scoreboard & play-by-play ↗</a>
+<div style="font-size:10px;color:#a9bfcd;margin-top:8px">Updates every 45 seconds while this page is open</div>
+</section>
 <a href="journeys.html" class="front-photo-card"><img src="assets/img/dunedin.webp" alt="Dunedin"><span>Dunedin</span></a>
 <a href="journeys.html" class="front-photo-card"><img src="assets/img/crown.webp" alt="Crown Princess at sea"><span>At sea</span></a>
 <a href="hunter.html" class="front-photo-card"><img src="assets/img/hunter2.webp" alt="Hunter Valley cellar door"><span>Cellar doors</span></a>
@@ -226,6 +235,28 @@
   </div>
 </div></section>
 
-</main><footer class="footer"><div class="wrap footer-grid"><span>© My Retirement Page</span><span>Music, travel, wine, sport, radio — and time to enjoy it.</span></div></footer><script src="script.js?v=20261007-artist-cycle-244"></script><script src="front.js?v=20261011-bathurst"></script><script src="intel-panels.js?v=20260929-static-thumbnails"></script><script src="live-now.js?v=20261002-iss-map"></script></body></html>
+</main><footer class="footer"><div class="wrap footer-grid"><span>© My Retirement Page</span><span>Music, travel, wine, sport, radio — and time to enjoy it.</span></div></footer><script src="script.js?v=20261007-artist-cycle-244"></script><script src="front.js?v=20261011-bathurst"></script><script src="intel-panels.js?v=20260929-static-thumbnails"></script><script src="live-now.js?v=20261002-iss-map"></script><script>
+(function(){
+ const api='https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261011';
+ const score=(id,value)=>{const e=document.getElementById(id);if(e)e.textContent=value;};
+ async function refreshNflToday(){
+  try{
+   const response=await fetch(api,{cache:'no-store'});if(!response.ok)throw Error('score service unavailable');
+   const data=await response.json();
+   const game=(data.events||[]).find(e=>{const c=e.competitions?.[0]?.competitors||[];return c.some(t=>t.team?.abbreviation==='SF')&&c.some(t=>t.team?.abbreviation==='SEA');});
+   if(!game)throw Error('game not found');
+   const competitors=game.competitions[0].competitors;
+   score('live-sf-score',competitors.find(t=>t.team?.abbreviation==='SF')?.score??'–');
+   score('live-sea-score',competitors.find(t=>t.team?.abbreviation==='SEA')?.score??'–');
+   const state=game.status?.type;
+   const detail=state?.shortDetail||state?.detail||'Score update';
+   score('live-nfl-status',detail);
+   const a=document.getElementById('live-nfl-link');
+   if(a&&game.links?.[0]?.href&&game.links[0].href.startsWith('https://www.espn.com/'))a.href=game.links[0].href;
+  }catch(err){score('live-nfl-status','Live feed unavailable — open game centre below');}
+ }
+ refreshNflToday();setInterval(refreshNflToday,45000);
+})();
+</script></body></html>
 
 
