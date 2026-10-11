@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2109101802616508833",
+        "date": "2026-10-11",
+        "dateLabel": "11 OCT 2026 · UTC",
+        "headline": "Riyadh airport closure, casualties and Jeddah diversions reported",
+        "summary": "War Watch reported that missile strikes closed Riyadh airport, killing 12 people and injuring 300, with flights diverted to Jeddah and elevated US military activity over Saudi Arabia.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2109101802616508833"
+      },
+      {
+        "id": "2109086701708611780",
+        "date": "2026-10-11",
+        "dateLabel": "11 OCT 2026 · UTC",
+        "headline": "Six US cargo aircraft and Riyadh airport casualties reported",
+        "summary": "War Watch reported six US military cargo aircraft airborne and said missile strikes at Riyadh airport killed 12 people, injured 300 and forced flights to divert to Jeddah.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2109086701708611780"
+      },
+      {
+        "id": "2109071599039103029",
+        "date": "2026-10-11",
+        "dateLabel": "11 OCT 2026 · UTC",
+        "headline": "Five transports, a spy aircraft and Riyadh terminal impacts reported",
+        "summary": "War Watch reported five military transport aircraft and a US Air Force surveillance aircraft airborne, and said missile impacts at a Riyadh airport terminal killed multiple people and forced flight diversions. The visible post is truncated thereafter.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2109071599039103029"
+      },
+      {
         "id": "2109056494742155659",
         "date": "2026-10-10",
         "dateLabel": "10 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "US transports, command aircraft, coded broadcasts and Riyadh cancellations reported",
         "summary": "War Watch reported multiple US Air Force transport aircraft and a nuclear command aircraft over the continental United States, coded radio broadcasts and airlines cancelling Riyadh flights. The visible post is truncated thereafter.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2108953053537718768"
-      },
-      {
-        "id": "2108949033918115954",
-        "date": "2026-10-10",
-        "dateLabel": "10 OCT 2026 · UTC",
-        "headline": "War Watch relays report of impacts at Riyadh airport",
-        "summary": "War Watch relayed a report attributed to The Wall Street Journal claiming missile impacts at Terminal 3 of Riyadh airport and casualties of unknown number and severity, crediting @alexgreen1767.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108949033918115954"
-      },
-      {
-        "id": "2108939462633828371",
-        "date": "2026-10-10",
-        "dateLabel": "10 OCT 2026 · UTC",
-        "headline": "War Watch relays corrected report of Riyadh flight cancellations",
-        "summary": "War Watch relayed a corrected Flightradar24 report that all flights to Riyadh had been cancelled during the day because of ongoing Houthi attacks, crediting @alexgreen1767.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108939462633828371"
-      },
-      {
-        "id": "2108920565188657168",
-        "date": "2026-10-10",
-        "dateLabel": "10 OCT 2026 · UTC",
-        "headline": "Six transports and weather reconnaissance aircraft reported",
-        "summary": "War Watch reported six military transport aircraft over the United States and North Sea and a US Air Force weather-reconnaissance aircraft over Alaska. The visible post is truncated after “Five coded radio broadcasts heard earlier…”.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2108920565188657168"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2109097220943298954",
+        "date": "2026-10-11",
+        "dateLabel": "11 OCT 2026 · UTC",
+        "headline": "E-2 GRYHK61 airborne alert at Forestville",
+        "summary": "SkyGlass posted an OFF Ground alert for US Navy E-2 aircraft GRYHK61 at Forestville, Maryland, United States.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2109097220943298954"
+      },
+      {
+        "id": "2109091875017601479",
+        "date": "2026-10-11",
+        "dateLabel": "11 OCT 2026 · UTC",
+        "headline": "P-8 CI131 airborne alert at Ulsan",
+        "summary": "SkyGlass posted an OFF Ground alert for South Korean military P-8 aircraft CI131 at Ulsan, South Korea.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2109091875017601479"
+      },
+      {
+        "id": "2109090872604192995",
+        "date": "2026-10-11",
+        "dateLabel": "11 OCT 2026 · UTC",
+        "headline": "P-8 BFLO76 on-ground alert at Burton",
+        "summary": "SkyGlass posted an ON Ground alert for Australian military P-8 aircraft BFLO76 at Burton, Australia.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2109090872604192995"
+      },
+      {
+        "id": "2109089078222242055",
+        "date": "2026-10-11",
+        "dateLabel": "11 OCT 2026 · UTC",
+        "headline": "B-52 airborne alert at Bossier City",
+        "summary": "SkyGlass posted an OFF Ground alert for a US Air Force B-52 aircraft at Bossier City, Louisiana, United States. The callsign was shown as 00000000.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2109089078222242055"
+      },
       {
         "id": "2109058675520188549",
         "date": "2026-10-10",
@@ -170,38 +202,6 @@
         "headline": "B737 on-ground alert at Al Muharraq",
         "summary": "SkyGlass posted an ON Ground alert for a US-registered military Boeing 737 at Al Muharraq, Bahrain. The callsign was shown as NA.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2108911656646406359"
-      },
-      {
-        "id": "2108910471852052641",
-        "date": "2026-10-10",
-        "dateLabel": "10 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Covelong",
-        "summary": "SkyGlass posted an OFF Ground alert for an Indian military P-8 aircraft at Covelong, India. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108910471852052641"
-      },
-      {
-        "id": "2108890488879112450",
-        "date": "2026-10-10",
-        "dateLabel": "10 OCT 2026 · UTC",
-        "headline": "SkyGlass shares report on Turkish interceptor-drone demonstration",
-        "summary": "SkyGlass shared a Defence Blog report that Turkish defence company ASELSAN demonstrated its GÖKALP interceptor drone destroying a target drone by direct impact.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108890488879112450"
-      },
-      {
-        "id": "2108884670775480483",
-        "date": "2026-10-10",
-        "dateLabel": "10 OCT 2026 · UTC",
-        "headline": "B737 CNV5450 on-ground alert at Al Muharraq",
-        "summary": "SkyGlass posted an ON Ground alert for US-registered military Boeing 737 CNV5450 at Al Muharraq, Bahrain.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108884670775480483"
-      },
-      {
-        "id": "2108871071604572251",
-        "date": "2026-10-10",
-        "dateLabel": "10 OCT 2026 · UTC",
-        "headline": "B737 CNV5450 airborne alert at Mulayjah",
-        "summary": "SkyGlass posted an OFF Ground alert for US-registered military B737 aircraft CNV5450 at Mulayjah, Saudi Arabia.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108871071604572251"
       }
     ]
   }
