@@ -80,6 +80,7 @@
 (()=>{
   const rail=document.querySelector('.front-photo-rail');
   if(!rail)return;
+  const liveTodayPanel=rail.querySelector('.front-live-today');
   rail.setAttribute('aria-label','Main section shortcuts');
   rail.innerHTML=`
     <a href="music.html" class="front-photo-card"><img src="assets/img/cassette.webp" alt="Music"><span>Music</span><em>Daily clip + archive</em></a>
@@ -122,6 +123,9 @@
     <a href="hunter.html" class="front-photo-card"><img src="assets/img/hunter1.webp" alt="Hunter Valley"><span>Hunter Valley</span><em>Cellar doors + favourites</em></a>
 
 `;
+  // Keep the live score panel when the rail navigation is rebuilt.
+  const hunterShortcut=Array.from(rail.querySelectorAll('a.front-photo-card')).find(a=>a.getAttribute('href')==='hunter.html');
+  if(liveTodayPanel && hunterShortcut) hunterShortcut.insertAdjacentElement('afterend',liveTodayPanel);
 
   // Race-day panel: visible only on 11 October 2026 in Sydney.
   const bathurstDateParts=()=>Object.fromEntries(new Intl.DateTimeFormat('en-GB',{timeZone:'Australia/Sydney',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date()).map(part=>[part.type,part.value]));
