@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2109373541942436215",
+        "date": "2026-10-11",
+        "dateLabel": "11 OCT 2026 · UTC",
+        "headline": "US transports and major Riyadh airport incident reported",
+        "summary": "War Watch reported multiple US Air Force transport aircraft airborne over the continental United States and said reports indicated a major incident at Riyadh airport with dozens dead. The visible post is truncated after the word “hundreds”.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2109373541942436215"
+      },
+      {
+        "id": "2109358438962586008",
+        "date": "2026-10-11",
+        "dateLabel": "11 OCT 2026 · UTC",
+        "headline": "Six US transports, elevated East Asia activity and Riyadh strike reported",
+        "summary": "War Watch reported six US Air Force transport aircraft airborne over the continental United States, military activity near Korea and Japan at three times normal levels, and a Houthi missile strike on Riyadh airport. The visible post is truncated after the word “kills”.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2109358438962586008"
+      },
+      {
+        "id": "2109343334569222346",
+        "date": "2026-10-11",
+        "dateLabel": "11 OCT 2026 · UTC",
+        "headline": "Riyadh airport casualties, Jeddah diversions and regional tanker reported",
+        "summary": "War Watch reported that a Houthi missile attack on Riyadh airport killed 12 people and injured 300, with flights diverted to Jeddah while a US military refuelling tanker operated in the region.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2109343334569222346"
+      },
+      {
         "id": "2109328228644958596",
         "date": "2026-10-11",
         "dateLabel": "11 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "Six US cargo aircraft and Saudi airport crisis reported",
         "summary": "War Watch reported six US military cargo aircraft airborne across the Atlantic, North Sea and Baltic, alongside a Saudi airport crisis following a Houthi missile attack on a Riyadh terminal. The visible post is truncated thereafter.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2109207404151799927"
-      },
-      {
-        "id": "2109192302576976317",
-        "date": "2026-10-11",
-        "dateLabel": "11 OCT 2026 · UTC",
-        "headline": "Riyadh Terminal 3 casualties, Jeddah diversions and US transports reported",
-        "summary": "War Watch reported a Houthi missile attack on Riyadh airport Terminal 3 that killed 12 people and injured 300, with all flights diverted to Jeddah and multiple US military transport aircraft airborne globally.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2109192302576976317"
-      },
-      {
-        "id": "2109177197873283197",
-        "date": "2026-10-11",
-        "dateLabel": "11 OCT 2026 · UTC",
-        "headline": "Four transports and Saudi airport disruption reported",
-        "summary": "War Watch reported four US military transport aircraft airborne and said missile strikes closed Riyadh airport, killed 12 people and injured 300, while Jeddah and Dammam airports were disrupted by diverted flights. The visible post is truncated thereafter.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2109177197873283197"
-      },
-      {
-        "id": "2109162095711310134",
-        "date": "2026-10-11",
-        "dateLabel": "11 OCT 2026 · UTC",
-        "headline": "Four transports and Riyadh flight diversions reported",
-        "summary": "War Watch reported four US military transport aircraft airborne and said missile impacts at Riyadh airport killed 12 people, injured 300 and forced flights to divert to Jeddah, where dozens were holding to land.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2109162095711310134"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2109379289967644773",
+        "date": "2026-10-11",
+        "dateLabel": "11 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert at Port Hueneme",
+        "summary": "SkyGlass posted an OFF Ground alert for a US military P-8 aircraft at Port Hueneme, United States. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2109379289967644773"
+      },
+      {
+        "id": "2109373925062811835",
+        "date": "2026-10-11",
+        "dateLabel": "11 OCT 2026 · UTC",
+        "headline": "E-6 airborne alert at Suisun",
+        "summary": "SkyGlass posted an OFF Ground alert for a US military E-6 aircraft at Suisun, California, United States. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2109373925062811835"
+      },
+      {
+        "id": "2109373626742894678",
+        "date": "2026-10-11",
+        "dateLabel": "11 OCT 2026 · UTC",
+        "headline": "SkyGlass shares report on B-52 LRASM integration",
+        "summary": "SkyGlass shared a The Aviationist report that the B-52 Stratofortress is set to integrate the AGM-158C LRASM.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2109373626742894678"
+      },
+      {
+        "id": "2109339790474629230",
+        "date": "2026-10-11",
+        "dateLabel": "11 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert at Whitecourt",
+        "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Whitecourt, Canada. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2109339790474629230"
+      },
       {
         "id": "2109333428864741467",
         "date": "2026-10-11",
@@ -170,38 +202,6 @@
         "headline": "P-8 BLKT35 on-ground alert at Darwin",
         "summary": "SkyGlass posted an ON Ground alert for Australian-registered military P-8 aircraft BLKT35 at Darwin, Australia.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2109037282430763480"
-      },
-      {
-        "id": "2109005001389429088",
-        "date": "2026-10-10",
-        "dateLabel": "10 OCT 2026 · UTC",
-        "headline": "E-6 OFF Ground alert at Suisun",
-        "summary": "SkyGlass posted an OFF Ground alert for a US-registered military aircraft labelled E6 at Suisun, California. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2109005001389429088"
-      },
-      {
-        "id": "2108998209011896429",
-        "date": "2026-10-10",
-        "dateLabel": "10 OCT 2026 · UTC",
-        "headline": "P-8 AB31S OFF Ground alert at Dandeli",
-        "summary": "SkyGlass posted an OFF Ground alert for Indian-registered military P-8 aircraft AB31S at Dandeli, India.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108998209011896429"
-      },
-      {
-        "id": "2108950862261338285",
-        "date": "2026-10-10",
-        "dateLabel": "10 OCT 2026 · UTC",
-        "headline": "SkyGlass shares report on Edgewing engineering hub in Turin",
-        "summary": "SkyGlass shared a The Aviationist report that Edgewing opened an engineering centre in Turin, Italy, to support work on the Global Combat Air Programme.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108950862261338285"
-      },
-      {
-        "id": "2108950862261264859",
-        "date": "2026-10-10",
-        "dateLabel": "10 OCT 2026 · UTC",
-        "headline": "SkyGlass shares report on Turkish F-16 deployment to Latvia",
-        "summary": "SkyGlass shared a Defence Blog report that Turkish Air Force F-16 aircraft were deployed to Lielvārde Air Base to support Latvian airspace security during parliamentary elections.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108950862261264859"
       }
     ]
   }
