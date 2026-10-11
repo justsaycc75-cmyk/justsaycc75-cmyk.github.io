@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2109282922179997763",
+        "date": "2026-10-11",
+        "dateLabel": "11 OCT 2026 · UTC",
+        "headline": "US surveillance aircraft and Riyadh airport casualties reported",
+        "summary": "War Watch reported a US Air Force surveillance aircraft operating over northern Saudi Arabia and said missile impacts at Riyadh airport killed 12 people and injured 300. The visible post is truncated after stating that multiple airports remained closed or otherwise affected.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2109282922179997763"
+      },
+      {
+        "id": "2109267818927604039",
+        "date": "2026-10-11",
+        "dateLabel": "11 OCT 2026 · UTC",
+        "headline": "Six US transports and Saudi airport attacks reported",
+        "summary": "War Watch reported six US Air Force transport aircraft airborne over the United States and North Sea, and said attacks on Saudi airports killed 12 people and injured 300, with multiple aircraft diverted or holding.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2109267818927604039"
+      },
+      {
+        "id": "2109252713963782183",
+        "date": "2026-10-11",
+        "dateLabel": "11 OCT 2026 · UTC",
+        "headline": "Six heavy transports and Riyadh terminal casualties reported",
+        "summary": "War Watch reported six US Air Force heavy transport aircraft airborne, including one over the North Sea, and said Houthi missile strikes at a Riyadh airport terminal killed 12 people. The visible post is truncated after reporting injuries.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2109252713963782183"
+      },
+      {
         "id": "2109237611306860719",
         "date": "2026-10-11",
         "dateLabel": "11 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "Six US transports and Saudi airport disruption reported",
         "summary": "War Watch reported six US Air Force transport aircraft airborne and said missile impacts at Riyadh airport killed 12 people, injured 300 and disrupted multiple Saudi airports.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2109116907404013898"
-      },
-      {
-        "id": "2109101802616508833",
-        "date": "2026-10-11",
-        "dateLabel": "11 OCT 2026 · UTC",
-        "headline": "Riyadh airport closure, casualties and Jeddah diversions reported",
-        "summary": "War Watch reported that missile strikes closed Riyadh airport, killing 12 people and injuring 300, with flights diverted to Jeddah and elevated US military activity over Saudi Arabia.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2109101802616508833"
-      },
-      {
-        "id": "2109086701708611780",
-        "date": "2026-10-11",
-        "dateLabel": "11 OCT 2026 · UTC",
-        "headline": "Six US cargo aircraft and Riyadh airport casualties reported",
-        "summary": "War Watch reported six US military cargo aircraft airborne and said missile strikes at Riyadh airport killed 12 people, injured 300 and forced flights to divert to Jeddah.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2109086701708611780"
-      },
-      {
-        "id": "2109071599039103029",
-        "date": "2026-10-11",
-        "dateLabel": "11 OCT 2026 · UTC",
-        "headline": "Five transports, a spy aircraft and Riyadh terminal impacts reported",
-        "summary": "War Watch reported five military transport aircraft and a US Air Force surveillance aircraft airborne, and said missile impacts at a Riyadh airport terminal killed multiple people and forced flight diversions. The visible post is truncated thereafter.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2109071599039103029"
       }
     ]
   },
@@ -107,6 +107,14 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2109273011207463227",
+        "date": "2026-10-11",
+        "dateLabel": "11 OCT 2026 · UTC",
+        "headline": "P-8 BH26A airborne alert at Vallam",
+        "summary": "SkyGlass posted an OFF Ground alert for India-registered military P-8 aircraft BH26A at Vallam, India.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2109273011207463227"
+      },
       {
         "id": "2109097220943298954",
         "date": "2026-10-11",
@@ -194,14 +202,6 @@
         "headline": "E-6 OFF Ground alert at Chesapeake Ranch Estates",
         "summary": "SkyGlass posted an OFF Ground alert for a US military aircraft labelled E6 at Chesapeake Ranch Estates, United States. The callsign was shown as NA.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2108929810227466567"
-      },
-      {
-        "id": "2108911656646406359",
-        "date": "2026-10-10",
-        "dateLabel": "10 OCT 2026 · UTC",
-        "headline": "B737 on-ground alert at Al Muharraq",
-        "summary": "SkyGlass posted an ON Ground alert for a US-registered military Boeing 737 at Al Muharraq, Bahrain. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2108911656646406359"
       }
     ]
   }
