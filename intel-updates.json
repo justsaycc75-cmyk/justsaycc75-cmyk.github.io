@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2109464269397917993",
+        "date": "2026-10-12",
+        "dateLabel": "12 OCT 2026 · UTC",
+        "headline": "Six notable aircraft and no coded USAF traffic reported",
+        "summary": "War Watch described the hour as quiet, with six notable military aircraft airborne and no coded US Air Force radio broadcasts heard that day.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2109464269397917993"
+      },
+      {
+        "id": "2109449062185378148",
+        "date": "2026-10-12",
+        "dateLabel": "12 OCT 2026 · UTC",
+        "headline": "US transports, elevated UK traffic and command jet reported",
+        "summary": "War Watch reported multiple US military transport aircraft airborne over the United States and North Sea, UK airspace at nearly three times normal traffic, and a nuclear command-and-control jet tracked over the continental United States.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2109449062185378148"
+      },
+      {
+        "id": "2109433958681186364",
+        "date": "2026-10-12",
+        "dateLabel": "12 OCT 2026 · UTC",
+        "headline": "Six cargo aircraft and nuclear command jet reported",
+        "summary": "War Watch reported six US military cargo aircraft airborne over the continental United States and North Sea, plus a nuclear command jet, and said Middle East tensions had increased following an airport attack.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2109433958681186364"
+      },
+      {
         "id": "2109419121473413125",
         "date": "2026-10-11",
         "dateLabel": "11 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "US transports and widespread Saudi flight disruption reported",
         "summary": "War Watch reported multiple large US military transport aircraft airborne over the continental United States and said attacks on Saudi airports caused dozens of deaths, widespread flight diversions and delays. The visible post is truncated thereafter.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2109328228644958596"
-      },
-      {
-        "id": "2109313130849300835",
-        "date": "2026-10-11",
-        "dateLabel": "11 OCT 2026 · UTC",
-        "headline": "Six US transports and continuing Saudi airport disruption reported",
-        "summary": "War Watch reported six US Air Force transport aircraft airborne, including one over the North Sea, and said Saudi airports remained disrupted after Houthi attacks on a Riyadh terminal killed 12 people and injured 300.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2109313130849300835"
-      },
-      {
-        "id": "2109298025847726149",
-        "date": "2026-10-11",
-        "dateLabel": "11 OCT 2026 · UTC",
-        "headline": "US transports, elevated Mediterranean traffic and Saudi attacks reported",
-        "summary": "War Watch reported multiple US military transport aircraft airborne over the continental United States, Eastern Mediterranean air traffic at nearly four times normal and Houthi attacks on Saudi airports. The visible post is truncated after the word “major”.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2109298025847726149"
-      },
-      {
-        "id": "2109282922179997763",
-        "date": "2026-10-11",
-        "dateLabel": "11 OCT 2026 · UTC",
-        "headline": "US surveillance aircraft and Riyadh airport casualties reported",
-        "summary": "War Watch reported a US Air Force surveillance aircraft operating over northern Saudi Arabia and said missile impacts at Riyadh airport killed 12 people and injured 300. The visible post is truncated after stating that multiple airports remained closed or otherwise affected.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2109282922179997763"
       }
     ]
   },
@@ -107,6 +107,14 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2109467333152379311",
+        "date": "2026-10-12",
+        "dateLabel": "12 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert at Ulsan",
+        "summary": "SkyGlass posted an OFF Ground alert for a South Korean-registered military P-8 aircraft at Ulsan, South Korea. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2109467333152379311"
+      },
       {
         "id": "2109419460121489794",
         "date": "2026-10-11",
@@ -194,14 +202,6 @@
         "headline": "B-52 airborne alert at Bossier City",
         "summary": "SkyGlass posted an OFF Ground alert for a US Air Force B-52 aircraft at Bossier City, Louisiana, United States. The callsign was shown as 00000000.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2109089078222242055"
-      },
-      {
-        "id": "2109058675520188549",
-        "date": "2026-10-10",
-        "dateLabel": "10 OCT 2026 · UTC",
-        "headline": "P-8 BFLO75 on-ground alert at Darwin",
-        "summary": "SkyGlass posted an ON Ground alert for Australian-registered military P-8 aircraft BFLO75 at Darwin, Australia.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2109058675520188549"
       }
     ]
   }
