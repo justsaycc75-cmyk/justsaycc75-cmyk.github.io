@@ -18,10 +18,33 @@
     const timer = setTimeout(() => controller.abort(), 9000);
     try {
       const response = await fetch(url, { cache: 'no-store', signal: controller.signal });
-      if (!response.ok) throw new Error('Feed unavailable');
+      if (!response.ok) {
+        const error = new Error('Feed unavailable');
+        error.status = response.status;
+        error.retryAfter = response.headers.get('Retry-After');
+        throw error;
+      }
       return await response.json();
     } finally {
       clearTimeout(timer);
+    }
+  }
+
+  async function getIssJson(url) {
+    try {
+      return await getJson(url);
+    } catch (error) {
+      // The prediction service sometimes asks callers to retry when busy.
+      // Retry once only; never retry earlier than a valid Retry-After value.
+      if (error.status !== 503) throw error;
+      const retryAfter = (error.retryAfter || '').trim();
+      const isSeconds = /^\d+$/.test(retryAfter);
+      const retryAt = Date.parse(retryAfter);
+      const delay = isSeconds ? Number(retryAfter) * 1000
+        : Number.isFinite(retryAt) ? Math.max(0, retryAt - Date.now()) : 5000;
+      if (delay > 15000) throw error;
+      await new Promise(resolve => setTimeout(resolve, delay));
+      return getJson(url);
     }
   }
 
@@ -51,10 +74,13 @@
     }
   }
 
+  let issPending = false;
   async function updateIss() {
+    if (issPending) return;
+    issPending = true;
     try {
       // Visible passes only; predictions use current CelesTrak orbital elements.
-      const data = await getJson('https://iss-api.polluxlabs.io/iss-pass?lat=-33.8688&lon=151.2093&visible_only=true&n=5&days_ahead=10');
+      const data = await getIssJson('https://iss-api.polluxlabs.io/iss-pass?lat=-33.8688&lon=151.2093&visible_only=true&n=5&days_ahead=10');
       const generated = Date.parse(data.generated_at);
       if (data.tle_stale || !Number.isFinite(generated) || Date.now() - generated > 24 * 60 * 60e3 || generated - Date.now() > 5 * 60e3) {
         throw new Error('Stale orbit prediction');
@@ -77,6 +103,8 @@
       issValue.textContent = 'Find the next visible pass';
       issDetail.textContent = 'Look for a bright point moving steadily across the sky. The prediction is unavailable here; check the Sydney pass list.';
       issTime.textContent = 'Prediction unavailable — check Sydney pass list';
+    } finally {
+      issPending = false;
     }
   }
 
