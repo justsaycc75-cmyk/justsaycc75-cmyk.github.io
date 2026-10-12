@@ -5,6 +5,38 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2109645316433580175",
+        "date": "2026-10-12",
+        "dateLabel": "12 OCT 2026 · UTC",
+        "headline": "Five coded USAF broadcasts and six transports reported",
+        "summary": "War Watch reported five coded US Air Force radio broadcasts in the preceding hour and six transport aircraft airborne over the United States and North Sea, including one near Saudi Arabia. The visible post is truncated after the word “regional”.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2109645316433580175"
+      },
+      {
+        "id": "2109631841422504019",
+        "date": "2026-10-12",
+        "dateLabel": "12 OCT 2026 · UTC",
+        "headline": "Four USAF transports and elevated Baltic activity reported",
+        "summary": "War Watch reported four US Air Force transport aircraft airborne over the United States and military activity over the Baltic Sea at nearly two and a half times normal levels.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2109631841422504019"
+      },
+      {
+        "id": "2109628020113752361",
+        "date": "2026-10-12",
+        "dateLabel": "12 OCT 2026 · UTC",
+        "headline": "EAM header code VQLYQV reported",
+        "summary": "War Watch posted an Emergency Action Message header/preamble alert with header code VQLYQV.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2109628020113752361"
+      },
+      {
+        "id": "2109615089993039892",
+        "date": "2026-10-12",
+        "dateLabel": "12 OCT 2026 · UTC",
+        "headline": "Six high-priority US military aircraft reported",
+        "summary": "War Watch reported six high-priority US military aircraft airborne, including spy aircraft over the Baltic and transport aircraft, amid tensions involving Ukraine and Poland.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2109615089993039892"
+      },
+      {
         "id": "2109599987147399656",
         "date": "2026-10-12",
         "dateLabel": "12 OCT 2026 · UTC",
@@ -67,38 +99,6 @@
         "headline": "Six notable aircraft and no coded USAF traffic reported",
         "summary": "War Watch described the hour as quiet, with six notable military aircraft airborne and no coded US Air Force radio broadcasts heard that day.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2109464269397917993"
-      },
-      {
-        "id": "2109449062185378148",
-        "date": "2026-10-12",
-        "dateLabel": "12 OCT 2026 · UTC",
-        "headline": "US transports, elevated UK traffic and command jet reported",
-        "summary": "War Watch reported multiple US military transport aircraft airborne over the United States and North Sea, UK airspace at nearly three times normal traffic, and a nuclear command-and-control jet tracked over the continental United States.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2109449062185378148"
-      },
-      {
-        "id": "2109433958681186364",
-        "date": "2026-10-12",
-        "dateLabel": "12 OCT 2026 · UTC",
-        "headline": "Six cargo aircraft and nuclear command jet reported",
-        "summary": "War Watch reported six US military cargo aircraft airborne over the continental United States and North Sea, plus a nuclear command jet, and said Middle East tensions had increased following an airport attack.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2109433958681186364"
-      },
-      {
-        "id": "2109419121473413125",
-        "date": "2026-10-11",
-        "dateLabel": "11 OCT 2026 · UTC",
-        "headline": "Eight US cargo aircraft and coded USAF broadcast reported",
-        "summary": "War Watch reported six US military cargo aircraft airborne over the United States and two more over the North Sea, with one coded US Air Force radio broadcast heard in the preceding hour.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2109419121473413125"
-      },
-      {
-        "id": "2109414439854203133",
-        "date": "2026-10-11",
-        "dateLabel": "11 OCT 2026 · UTC",
-        "headline": "EAM header code VQSKKX reported",
-        "summary": "War Watch posted an Emergency Action Message header/preamble alert with header code VQSKKX.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2109414439854203133"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2109651687279407274",
+        "date": "2026-10-12",
+        "dateLabel": "12 OCT 2026 · UTC",
+        "headline": "P-8 RFR7042 airborne alert at Greenwood",
+        "summary": "SkyGlass posted an OFF Ground alert for UK-registered military P-8 aircraft RFR7042 at Greenwood, CA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2109651687279407274"
+      },
+      {
+        "id": "2109644814450938294",
+        "date": "2026-10-12",
+        "dateLabel": "12 OCT 2026 · UTC",
+        "headline": "E-6 airborne alert at Naguabo",
+        "summary": "SkyGlass posted an OFF Ground alert for a US military E-6 aircraft at Naguabo, Puerto Rico. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2109644814450938294"
+      },
+      {
+        "id": "2109638546847846901",
+        "date": "2026-10-12",
+        "dateLabel": "12 OCT 2026 · UTC",
+        "headline": "Boeing 737 airborne alert at Al Shamkhah City",
+        "summary": "SkyGlass posted an OFF Ground alert for a United States-registered military Boeing 737 at Al Shamkhah City, AE. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2109638546847846901"
+      },
+      {
+        "id": "2109615380213768265",
+        "date": "2026-10-12",
+        "dateLabel": "12 OCT 2026 · UTC",
+        "headline": "SkyGlass shares report on South Korea’s drone wingman test",
+        "summary": "SkyGlass shared a Defence Blog report that Korea Aerospace Industries flew an FA-50 light fighter in formation with a jet-powered drone in its first manned-unmanned combination flight.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2109615380213768265"
+      },
       {
         "id": "2109592908240204242",
         "date": "2026-10-12",
@@ -170,38 +202,6 @@
         "headline": "P-8 airborne alert at Ulsan",
         "summary": "SkyGlass posted an OFF Ground alert for a South Korean military P-8 aircraft at Ulsan, South Korea. The callsign was shown as NA.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2109494625077452998"
-      },
-      {
-        "id": "2109467333152379311",
-        "date": "2026-10-12",
-        "dateLabel": "12 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Ulsan",
-        "summary": "SkyGlass posted an OFF Ground alert for a South Korean-registered military P-8 aircraft at Ulsan, South Korea. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2109467333152379311"
-      },
-      {
-        "id": "2109419460121489794",
-        "date": "2026-10-11",
-        "dateLabel": "11 OCT 2026 · UTC",
-        "headline": "P-8 on-ground alert at Misawa",
-        "summary": "SkyGlass posted an ON Ground alert for an Australian-registered military P-8 aircraft at Misawa, Japan. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2109419460121489794"
-      },
-      {
-        "id": "2109379289967644773",
-        "date": "2026-10-11",
-        "dateLabel": "11 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Port Hueneme",
-        "summary": "SkyGlass posted an OFF Ground alert for a US military P-8 aircraft at Port Hueneme, United States. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2109379289967644773"
-      },
-      {
-        "id": "2109373925062811835",
-        "date": "2026-10-11",
-        "dateLabel": "11 OCT 2026 · UTC",
-        "headline": "E-6 airborne alert at Suisun",
-        "summary": "SkyGlass posted an OFF Ground alert for a US military E-6 aircraft at Suisun, California, United States. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2109373925062811835"
       }
     ]
   }
