@@ -108,6 +108,38 @@
     "caption": "Military aircraft movement reports.",
     "entries": [
       {
+        "id": "2109549548007809459",
+        "date": "2026-10-12",
+        "dateLabel": "12 OCT 2026 · UTC",
+        "headline": "P-8 THNDR01 airborne alert at Elgin",
+        "summary": "SkyGlass posted an OFF Ground alert for UK-registered military P-8 aircraft THNDR01 at Elgin, Great Britain.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2109549548007809459"
+      },
+      {
+        "id": "2109544766954213625",
+        "date": "2026-10-12",
+        "dateLabel": "12 OCT 2026 · UTC",
+        "headline": "Boeing 737 CNV5412 airborne alert at Scordia",
+        "summary": "SkyGlass posted an OFF Ground alert for US-registered military Boeing 737 aircraft CNV5412 at Scordia, Italy.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2109544766954213625"
+      },
+      {
+        "id": "2109543182203510902",
+        "date": "2026-10-12",
+        "dateLabel": "12 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert at Whitianga",
+        "summary": "SkyGlass posted an OFF Ground alert for a New Zealand-registered military P-8 aircraft at Whitianga, New Zealand. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2109543182203510902"
+      },
+      {
+        "id": "2109522962055303633",
+        "date": "2026-10-12",
+        "dateLabel": "12 OCT 2026 · UTC",
+        "headline": "P-8 GL25M airborne alert at Yellapur",
+        "summary": "SkyGlass posted an OFF Ground alert for India-registered military P-8 aircraft GL25M at Yellapur, India.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2109522962055303633"
+      },
+      {
         "id": "2109494625077452998",
         "date": "2026-10-12",
         "dateLabel": "12 OCT 2026 · UTC",
@@ -170,38 +202,6 @@
         "headline": "E-3TF NATO40 on-ground alert at Torrejón de Ardoz",
         "summary": "SkyGlass posted an ON Ground alert for Luxembourg-registered E-3TF aircraft NATO40 at Torrejón de Ardoz, Spain.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2109333428864741467"
-      },
-      {
-        "id": "2109273011207463227",
-        "date": "2026-10-11",
-        "dateLabel": "11 OCT 2026 · UTC",
-        "headline": "P-8 BH26A airborne alert at Vallam",
-        "summary": "SkyGlass posted an OFF Ground alert for India-registered military P-8 aircraft BH26A at Vallam, India.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2109273011207463227"
-      },
-      {
-        "id": "2109097220943298954",
-        "date": "2026-10-11",
-        "dateLabel": "11 OCT 2026 · UTC",
-        "headline": "E-2 GRYHK61 airborne alert at Forestville",
-        "summary": "SkyGlass posted an OFF Ground alert for US Navy E-2 aircraft GRYHK61 at Forestville, Maryland, United States.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2109097220943298954"
-      },
-      {
-        "id": "2109091875017601479",
-        "date": "2026-10-11",
-        "dateLabel": "11 OCT 2026 · UTC",
-        "headline": "P-8 CI131 airborne alert at Ulsan",
-        "summary": "SkyGlass posted an OFF Ground alert for South Korean military P-8 aircraft CI131 at Ulsan, South Korea.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2109091875017601479"
-      },
-      {
-        "id": "2109090872604192995",
-        "date": "2026-10-11",
-        "dateLabel": "11 OCT 2026 · UTC",
-        "headline": "P-8 BFLO76 on-ground alert at Burton",
-        "summary": "SkyGlass posted an ON Ground alert for Australian military P-8 aircraft BFLO76 at Burton, Australia.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2109090872604192995"
       }
     ]
   }
