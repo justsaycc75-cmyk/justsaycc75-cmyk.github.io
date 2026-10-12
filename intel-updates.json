@@ -5,6 +5,38 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2109737130540880287",
+        "date": "2026-10-12",
+        "dateLabel": "12 OCT 2026 · UTC",
+        "headline": "Six US cargo aircraft and one coded broadcast reported",
+        "summary": "War Watch reported six US military cargo aircraft airborne over the United States, above normal numbers, and one coded radio broadcast heard in the preceding hour.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2109737130540880287"
+      },
+      {
+        "id": "2109733337312989209",
+        "date": "2026-10-12",
+        "dateLabel": "12 OCT 2026 · UTC",
+        "headline": "Boeing C-32A using AF2 callsign spotted",
+        "summary": "War Watch identified a Boeing C-32A using callsign AF2, hex ADFEB8 and registration 98-0002, citing a sighting by reagan0965 and a photo via Planespotters.net.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2109733337312989209"
+      },
+      {
+        "id": "2109724516167381181",
+        "date": "2026-10-12",
+        "dateLabel": "12 OCT 2026 · UTC",
+        "headline": "Six USAF heavy-lift transports and six broadcasts reported",
+        "summary": "War Watch reported six US Air Force heavy-lift transport aircraft airborne over the United States and six coded radio broadcasts heard earlier that day.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2109724516167381181"
+      },
+      {
+        "id": "2109705771839586809",
+        "date": "2026-10-12",
+        "dateLabel": "12 OCT 2026 · UTC",
+        "headline": "Six USAF heavy transports and earlier coded traffic reported",
+        "summary": "War Watch reported six US Air Force heavy transport aircraft airborne over the continental United States, with coded radio traffic detected earlier that day but none in the preceding few hours.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2109705771839586809"
+      },
+      {
         "id": "2109645316433580175",
         "date": "2026-10-12",
         "dateLabel": "12 OCT 2026 · UTC",
@@ -67,38 +99,6 @@
         "headline": "Three US transports and North Sea spy aircraft reported",
         "summary": "War Watch reported three US military transport aircraft airborne over the United States, a spy aircraft over the North Sea, and Black Sea air activity at 2.6 times normal levels.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2109554797955170411"
-      },
-      {
-        "id": "2109539694744674555",
-        "date": "2026-10-12",
-        "dateLabel": "12 OCT 2026 · UTC",
-        "headline": "US transports and surveillance drone reported",
-        "summary": "War Watch reported multiple US military transport aircraft airborne across the Atlantic and over the United States, with a surveillance drone also aloft. The visible post is truncated after the words “in the”.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2109539694744674555"
-      },
-      {
-        "id": "2109509731865776537",
-        "date": "2026-10-12",
-        "dateLabel": "12 OCT 2026 · UTC",
-        "headline": "Five US transports and earlier command jet sighting reported",
-        "summary": "War Watch reported five US military transport aircraft airborne simultaneously, including one near the North Sea, and said a nuclear command aircraft had been spotted earlier that day.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2109509731865776537"
-      },
-      {
-        "id": "2109494301616984116",
-        "date": "2026-10-12",
-        "dateLabel": "12 OCT 2026 · UTC",
-        "headline": "US command aircraft and transport near Persian Gulf reported",
-        "summary": "War Watch reported US Air Force command aircraft and a transport aircraft near the Persian Gulf, amid reports of explosions and an airport attack in Saudi Arabia.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2109494301616984116"
-      },
-      {
-        "id": "2109464269397917993",
-        "date": "2026-10-12",
-        "dateLabel": "12 OCT 2026 · UTC",
-        "headline": "Six notable aircraft and no coded USAF traffic reported",
-        "summary": "War Watch described the hour as quiet, with six notable military aircraft airborne and no coded US Air Force radio broadcasts heard that day.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2109464269397917993"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2109736250319966479",
+        "date": "2026-10-12",
+        "dateLabel": "12 OCT 2026 · UTC",
+        "headline": "SkyGlass shares report on AEVEX Specter attack drone",
+        "summary": "SkyGlass shared a Defence Blog report that AEVEX displayed its turbojet-powered Specter attack drone at AUSA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2109736250319966479"
+      },
+      {
+        "id": "2109736249560850753",
+        "date": "2026-10-12",
+        "dateLabel": "12 OCT 2026 · UTC",
+        "headline": "SkyGlass shares report comparing Mojave and Gray Eagle UAVs",
+        "summary": "SkyGlass shared a Breaking Defense report comparing General Atomics’ Mojave STOL and Gray Eagle 25M unmanned aircraft.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2109736249560850753"
+      },
+      {
+        "id": "2109736249426628908",
+        "date": "2026-10-12",
+        "dateLabel": "12 OCT 2026 · UTC",
+        "headline": "SkyGlass shares report on European U740 first flight",
+        "summary": "SkyGlass shared a TWZ report that the European U740 variant of the XQ-58A Valkyrie completed its first flight in an Airbus-Kratos program.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2109736249426628908"
+      },
+      {
+        "id": "2109682351940710411",
+        "date": "2026-10-12",
+        "dateLabel": "12 OCT 2026 · UTC",
+        "headline": "E-3TF NATO03 on-ground alert at Gangelt",
+        "summary": "SkyGlass posted an ON Ground alert for Luxembourg-registered military E-3TF aircraft NATO03 at Gangelt, Germany.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2109682351940710411"
+      },
       {
         "id": "2109651687279407274",
         "date": "2026-10-12",
@@ -170,38 +202,6 @@
         "headline": "P-8 THNDR01 airborne alert at Elgin",
         "summary": "SkyGlass posted an OFF Ground alert for UK-registered military P-8 aircraft THNDR01 at Elgin, Great Britain.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2109549548007809459"
-      },
-      {
-        "id": "2109544766954213625",
-        "date": "2026-10-12",
-        "dateLabel": "12 OCT 2026 · UTC",
-        "headline": "Boeing 737 CNV5412 airborne alert at Scordia",
-        "summary": "SkyGlass posted an OFF Ground alert for US-registered military Boeing 737 aircraft CNV5412 at Scordia, Italy.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2109544766954213625"
-      },
-      {
-        "id": "2109543182203510902",
-        "date": "2026-10-12",
-        "dateLabel": "12 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Whitianga",
-        "summary": "SkyGlass posted an OFF Ground alert for a New Zealand-registered military P-8 aircraft at Whitianga, New Zealand. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2109543182203510902"
-      },
-      {
-        "id": "2109522962055303633",
-        "date": "2026-10-12",
-        "dateLabel": "12 OCT 2026 · UTC",
-        "headline": "P-8 GL25M airborne alert at Yellapur",
-        "summary": "SkyGlass posted an OFF Ground alert for India-registered military P-8 aircraft GL25M at Yellapur, India.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2109522962055303633"
-      },
-      {
-        "id": "2109494625077452998",
-        "date": "2026-10-12",
-        "dateLabel": "12 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Ulsan",
-        "summary": "SkyGlass posted an OFF Ground alert for a South Korean military P-8 aircraft at Ulsan, South Korea. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2109494625077452998"
       }
     ]
   }
