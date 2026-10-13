@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2109917092346495453",
+        "date": "2026-10-13",
+        "dateLabel": "13 OCT 2026 · UTC",
+        "headline": "Elevated Korea-Japan activity and six USAF transports reported",
+        "summary": "War Watch reported air activity near Korea and Japan at 2.5 times normal and six US Air Force transport aircraft airborne across the Atlantic and over Europe.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2109917092346495453"
+      },
+      {
+        "id": "2109901989513486381",
+        "date": "2026-10-13",
+        "dateLabel": "13 OCT 2026 · UTC",
+        "headline": "Six US transports and five coded broadcasts reported",
+        "summary": "War Watch reported six large US military transport aircraft airborne, including one over the North Sea, and five coded US Air Force radio broadcasts heard that day, with the latest several hours earlier.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2109901989513486381"
+      },
+      {
+        "id": "2109886885917053371",
+        "date": "2026-10-13",
+        "dateLabel": "13 OCT 2026 · UTC",
+        "headline": "USAF transports, command jet and five broadcasts reported",
+        "summary": "War Watch reported multiple US Air Force transport aircraft and a nuclear command aircraft airborne over the United States, with five coded radio broadcasts heard that day and the latest at 04:11 UTC.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2109886885917053371"
+      },
+      {
         "id": "2109871783532703810",
         "date": "2026-10-13",
         "dateLabel": "13 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "Coded USAF broadcasts reported at nearly four times normal",
         "summary": "War Watch reported coded US Air Force radio broadcasts at nearly four times their usual rate across nine regions, with four broadcasts heard in the preceding hour.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2109781205595861290"
-      },
-      {
-        "id": "2109766344170164390",
-        "date": "2026-10-12",
-        "dateLabel": "12 OCT 2026 · UTC",
-        "headline": "Six USAF transports and elevated coded traffic reported",
-        "summary": "War Watch reported six US Air Force transport aircraft airborne over the continental United States and 11 coded radio broadcasts logged that day, including two in the preceding hour.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2109766344170164390"
-      },
-      {
-        "id": "2109737130540880287",
-        "date": "2026-10-12",
-        "dateLabel": "12 OCT 2026 · UTC",
-        "headline": "Six US cargo aircraft and one coded broadcast reported",
-        "summary": "War Watch reported six US military cargo aircraft airborne over the United States, above normal numbers, and one coded radio broadcast heard in the preceding hour.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2109737130540880287"
-      },
-      {
-        "id": "2109733337312989209",
-        "date": "2026-10-12",
-        "dateLabel": "12 OCT 2026 · UTC",
-        "headline": "Boeing C-32A using AF2 callsign spotted",
-        "summary": "War Watch identified a Boeing C-32A using callsign AF2, hex ADFEB8 and registration 98-0002, citing a sighting by reagan0965 and a photo via Planespotters.net.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2109733337312989209"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2109923779858063392",
+        "date": "2026-10-13",
+        "dateLabel": "13 OCT 2026 · UTC",
+        "headline": "P-8 BFLO44 airborne alert at Port Lincoln",
+        "summary": "SkyGlass posted an OFF Ground alert for military P-8 aircraft BFLO44 at Port Lincoln, Australia.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2109923779858063392"
+      },
+      {
+        "id": "2109922401907507576",
+        "date": "2026-10-13",
+        "dateLabel": "13 OCT 2026 · UTC",
+        "headline": "P-8 BLKT01 on-ground alert at Paya Lebar",
+        "summary": "SkyGlass posted an ON Ground alert for military P-8 aircraft BLKT01 at Paya Lebar, Singapore.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2109922401907507576"
+      },
+      {
+        "id": "2109919632043790561",
+        "date": "2026-10-13",
+        "dateLabel": "13 OCT 2026 · UTC",
+        "headline": "E-3TF NATO01 airborne alert at Brunssum",
+        "summary": "SkyGlass posted an OFF Ground alert for military E-3TF aircraft NATO01 at Brunssum, Netherlands.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2109919632043790561"
+      },
+      {
+        "id": "2109917459155227133",
+        "date": "2026-10-13",
+        "dateLabel": "13 OCT 2026 · UTC",
+        "headline": "P-8 ASY208 on-ground alert at Misawa",
+        "summary": "SkyGlass posted an ON Ground alert for military P-8 aircraft ASY208 at Misawa, Japan.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2109917459155227133"
+      },
       {
         "id": "2109866659540320537",
         "date": "2026-10-13",
@@ -170,38 +202,6 @@
         "headline": "SkyGlass shares report on AEVEX Specter attack drone",
         "summary": "SkyGlass shared a Defence Blog report that AEVEX displayed its turbojet-powered Specter attack drone at AUSA.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2109736250319966479"
-      },
-      {
-        "id": "2109736249560850753",
-        "date": "2026-10-12",
-        "dateLabel": "12 OCT 2026 · UTC",
-        "headline": "SkyGlass shares report comparing Mojave and Gray Eagle UAVs",
-        "summary": "SkyGlass shared a Breaking Defense report comparing General Atomics’ Mojave STOL and Gray Eagle 25M unmanned aircraft.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2109736249560850753"
-      },
-      {
-        "id": "2109736249426628908",
-        "date": "2026-10-12",
-        "dateLabel": "12 OCT 2026 · UTC",
-        "headline": "SkyGlass shares report on European U740 first flight",
-        "summary": "SkyGlass shared a TWZ report that the European U740 variant of the XQ-58A Valkyrie completed its first flight in an Airbus-Kratos program.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2109736249426628908"
-      },
-      {
-        "id": "2109682351940710411",
-        "date": "2026-10-12",
-        "dateLabel": "12 OCT 2026 · UTC",
-        "headline": "E-3TF NATO03 on-ground alert at Gangelt",
-        "summary": "SkyGlass posted an ON Ground alert for Luxembourg-registered military E-3TF aircraft NATO03 at Gangelt, Germany.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2109682351940710411"
-      },
-      {
-        "id": "2109651687279407274",
-        "date": "2026-10-12",
-        "dateLabel": "12 OCT 2026 · UTC",
-        "headline": "P-8 RFR7042 airborne alert at Greenwood",
-        "summary": "SkyGlass posted an OFF Ground alert for UK-registered military P-8 aircraft RFR7042 at Greenwood, CA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2109651687279407274"
       }
     ]
   }
