@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2110136259431498063",
+        "date": "2026-10-13",
+        "dateLabel": "13 OCT 2026 · UTC",
+        "headline": "E-3G SENTRY60 spotted",
+        "summary": "War Watch identified a Boeing E-3G Sentry using callsign SENTRY60, hex AE11EB and registration 80-0138, citing a sighting by reagan0965 and a photo by DVS-135 via Planespotters.net.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110136259431498063"
+      },
+      {
+        "id": "2110132406984327378",
+        "date": "2026-10-13",
+        "dateLabel": "13 OCT 2026 · UTC",
+        "headline": "EAM header code VQPFO7 reported",
+        "summary": "War Watch reported an Emergency Action Message header or preamble with code VQPFO7.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110132406984327378"
+      },
+      {
+        "id": "2110128630579826726",
+        "date": "2026-10-13",
+        "dateLabel": "13 OCT 2026 · UTC",
+        "headline": "USAF transports and elevated coded radio traffic reported",
+        "summary": "War Watch reported multiple US Air Force transport aircraft airborne over the continental United States and elevated coded radio traffic near the United Kingdom and the Korea-Japan region.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110128630579826726"
+      },
+      {
         "id": "2110100608912937091",
         "date": "2026-10-13",
         "dateLabel": "13 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "Six USAF transports amid elevated flight activity",
         "summary": "War Watch reported six US Air Force transport aircraft airborne over the continental United States as military flight activity ran nearly 3.3 times above normal.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2109947298541162837"
-      },
-      {
-        "id": "2109932194365935905",
-        "date": "2026-10-13",
-        "dateLabel": "13 OCT 2026 · UTC",
-        "headline": "Elevated Black Sea activity and US transports reported",
-        "summary": "War Watch reported air activity near the Black Sea at nearly three times normal and US military transport aircraft active over the continental United States.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2109932194365935905"
-      },
-      {
-        "id": "2109917092346495453",
-        "date": "2026-10-13",
-        "dateLabel": "13 OCT 2026 · UTC",
-        "headline": "Elevated Korea-Japan activity and six USAF transports reported",
-        "summary": "War Watch reported air activity near Korea and Japan at 2.5 times normal and six US Air Force transport aircraft airborne across the Atlantic and over Europe.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2109917092346495453"
-      },
-      {
-        "id": "2109901989513486381",
-        "date": "2026-10-13",
-        "dateLabel": "13 OCT 2026 · UTC",
-        "headline": "Six US transports and five coded broadcasts reported",
-        "summary": "War Watch reported six large US military transport aircraft airborne, including one over the North Sea, and five coded US Air Force radio broadcasts heard that day, with the latest several hours earlier.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2109901989513486381"
       }
     ]
   },
@@ -107,6 +107,30 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2110123129720721757",
+        "date": "2026-10-13",
+        "dateLabel": "13 OCT 2026 · UTC",
+        "headline": "P-8 on-ground alert at Darwin",
+        "summary": "SkyGlass posted an ON Ground alert for a P-8 aircraft at Darwin, Australia. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110123129720721757"
+      },
+      {
+        "id": "2110107100957360373",
+        "date": "2026-10-13",
+        "dateLabel": "13 OCT 2026 · UTC",
+        "headline": "E-6 airborne alert at Dixon",
+        "summary": "SkyGlass posted an OFF Ground alert for a military E-6 aircraft at Dixon, California, United States. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110107100957360373"
+      },
+      {
+        "id": "2110105230364774516",
+        "date": "2026-10-13",
+        "dateLabel": "13 OCT 2026 · UTC",
+        "headline": "E-3TF SENTRY60 airborne alert at Moore",
+        "summary": "SkyGlass posted an OFF Ground alert for E-3TF aircraft SENTRY60 at Moore, Oklahoma, United States.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110105230364774516"
+      },
       {
         "id": "2110100218884521988",
         "date": "2026-10-13",
@@ -178,30 +202,6 @@
         "headline": "E-6 airborne alert at Chesapeake Ranch Estates",
         "summary": "SkyGlass posted an OFF Ground alert for a military E-6 aircraft at Chesapeake Ranch Estates, United States. The callsign was shown as NA.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2110009994850468296"
-      },
-      {
-        "id": "2110009597243121848",
-        "date": "2026-10-13",
-        "dateLabel": "13 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Saint Augustine Shores",
-        "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Saint Augustine Shores, Florida, United States. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110009597243121848"
-      },
-      {
-        "id": "2109992853191487828",
-        "date": "2026-10-13",
-        "dateLabel": "13 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Covelong",
-        "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Covelong, India. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2109992853191487828"
-      },
-      {
-        "id": "2109983331773235555",
-        "date": "2026-10-13",
-        "dateLabel": "13 OCT 2026 · UTC",
-        "headline": "P-8 on-ground alert at Lossiemouth",
-        "summary": "SkyGlass posted an ON Ground alert for a military P-8 aircraft at Lossiemouth, United Kingdom. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2109983331773235555"
       }
     ]
   }
