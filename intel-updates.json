@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2109871783532703810",
+        "date": "2026-10-13",
+        "dateLabel": "13 OCT 2026 · UTC",
+        "headline": "USAF transports over Atlantic and North Sea reported",
+        "summary": "War Watch reported multiple US Air Force transport aircraft airborne over the Atlantic and North Sea, with one coded radio broadcast heard in the preceding hour.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2109871783532703810"
+      },
+      {
+        "id": "2109856928398528843",
+        "date": "2026-10-13",
+        "dateLabel": "13 OCT 2026 · UTC",
+        "headline": "Six USAF cargo jets and two coded broadcasts reported",
+        "summary": "War Watch reported six large US Air Force cargo aircraft airborne and two coded radio broadcasts detected in the preceding hour, describing transport activity over the country as unusually high.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2109856928398528843"
+      },
+      {
+        "id": "2109841823040516594",
+        "date": "2026-10-13",
+        "dateLabel": "13 OCT 2026 · UTC",
+        "headline": "Elevated coded traffic and two command jets reported",
+        "summary": "War Watch reported coded US Air Force radio broadcasts at nearly four times normal across nine global regions from the Middle East to the Asia-Pacific, with two nuclear command aircraft airborne over the United States.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2109841823040516594"
+      },
+      {
         "id": "2109830523166097751",
         "date": "2026-10-13",
         "dateLabel": "13 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "Boeing C-32A using AF2 callsign spotted",
         "summary": "War Watch identified a Boeing C-32A using callsign AF2, hex ADFEB8 and registration 98-0002, citing a sighting by reagan0965 and a photo via Planespotters.net.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2109733337312989209"
-      },
-      {
-        "id": "2109724516167381181",
-        "date": "2026-10-12",
-        "dateLabel": "12 OCT 2026 · UTC",
-        "headline": "Six USAF heavy-lift transports and six broadcasts reported",
-        "summary": "War Watch reported six US Air Force heavy-lift transport aircraft airborne over the United States and six coded radio broadcasts heard earlier that day.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2109724516167381181"
-      },
-      {
-        "id": "2109705771839586809",
-        "date": "2026-10-12",
-        "dateLabel": "12 OCT 2026 · UTC",
-        "headline": "Six USAF heavy transports and earlier coded traffic reported",
-        "summary": "War Watch reported six US Air Force heavy transport aircraft airborne over the continental United States, with coded radio traffic detected earlier that day but none in the preceding few hours.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2109705771839586809"
-      },
-      {
-        "id": "2109645316433580175",
-        "date": "2026-10-12",
-        "dateLabel": "12 OCT 2026 · UTC",
-        "headline": "Five coded USAF broadcasts and six transports reported",
-        "summary": "War Watch reported five coded US Air Force radio broadcasts in the preceding hour and six transport aircraft airborne over the United States and North Sea, including one near Saudi Arabia. The visible post is truncated after the word “regional”.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2109645316433580175"
       }
     ]
   },
@@ -107,6 +107,22 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2109866659540320537",
+        "date": "2026-10-13",
+        "dateLabel": "13 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert at Puttur",
+        "summary": "SkyGlass posted an OFF Ground alert for an Indian military P-8 aircraft at Puttur, India. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2109866659540320537"
+      },
+      {
+        "id": "2109856034722386075",
+        "date": "2026-10-13",
+        "dateLabel": "13 OCT 2026 · UTC",
+        "headline": "P-8 BFLO44 on-ground alert at Burton",
+        "summary": "SkyGlass posted an ON Ground alert for military P-8 aircraft BFLO44 at Burton, Australia.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2109856034722386075"
+      },
       {
         "id": "2109831805419258240",
         "date": "2026-10-13",
@@ -186,22 +202,6 @@
         "headline": "P-8 RFR7042 airborne alert at Greenwood",
         "summary": "SkyGlass posted an OFF Ground alert for UK-registered military P-8 aircraft RFR7042 at Greenwood, CA.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2109651687279407274"
-      },
-      {
-        "id": "2109644814450938294",
-        "date": "2026-10-12",
-        "dateLabel": "12 OCT 2026 · UTC",
-        "headline": "E-6 airborne alert at Naguabo",
-        "summary": "SkyGlass posted an OFF Ground alert for a US military E-6 aircraft at Naguabo, Puerto Rico. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2109644814450938294"
-      },
-      {
-        "id": "2109638546847846901",
-        "date": "2026-10-12",
-        "dateLabel": "12 OCT 2026 · UTC",
-        "headline": "Boeing 737 airborne alert at Al Shamkhah City",
-        "summary": "SkyGlass posted an OFF Ground alert for a United States-registered military Boeing 737 at Al Shamkhah City, AE. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2109638546847846901"
       }
     ]
   }
