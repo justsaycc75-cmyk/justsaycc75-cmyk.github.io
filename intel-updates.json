@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2109962401093214271",
+        "date": "2026-10-13",
+        "dateLabel": "13 OCT 2026 · UTC",
+        "headline": "Six USAF cargo aircraft and support activity reported",
+        "summary": "War Watch reported six US Air Force cargo aircraft airborne over the continental United States and North Sea, alongside multiple refueling tankers and surveillance aircraft tracked during the day.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2109962401093214271"
+      },
+      {
+        "id": "2109947298541162837",
+        "date": "2026-10-13",
+        "dateLabel": "13 OCT 2026 · UTC",
+        "headline": "Six USAF transports amid elevated flight activity",
+        "summary": "War Watch reported six US Air Force transport aircraft airborne over the continental United States as military flight activity ran nearly 3.3 times above normal.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2109947298541162837"
+      },
+      {
+        "id": "2109932194365935905",
+        "date": "2026-10-13",
+        "dateLabel": "13 OCT 2026 · UTC",
+        "headline": "Elevated Black Sea activity and US transports reported",
+        "summary": "War Watch reported air activity near the Black Sea at nearly three times normal and US military transport aircraft active over the continental United States.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2109932194365935905"
+      },
+      {
         "id": "2109917092346495453",
         "date": "2026-10-13",
         "dateLabel": "13 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "VC-25A 92-9000 spotted without a callsign",
         "summary": "War Watch identified a Boeing VC-25A with no callsign shown, hex ADFDF9 and registration 92-9000, citing a sighting by reagan0965 and a photo by Ege Şanda via Planespotters.net.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2109820950136942843"
-      },
-      {
-        "id": "2109814666742366358",
-        "date": "2026-10-13",
-        "dateLabel": "13 OCT 2026 · UTC",
-        "headline": "Five USAF transports and a nuclear command jet reported",
-        "summary": "War Watch reported five US Air Force transport aircraft airborne over the United States alongside a nuclear command aircraft.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2109814666742366358"
-      },
-      {
-        "id": "2109810893949157827",
-        "date": "2026-10-13",
-        "dateLabel": "13 OCT 2026 · UTC",
-        "headline": "Iranian government Avro RJ-85 IRAN08 spotted",
-        "summary": "War Watch identified a Government of Iran Avro RJ-85 using callsign IRAN08, hex 7324E6 and registration EP-IGF, citing a sighting by reagan0965 and a photo by Mohamadreza Zeinloo via Planespotters.net.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2109810893949157827"
-      },
-      {
-        "id": "2109781205595861290",
-        "date": "2026-10-12",
-        "dateLabel": "12 OCT 2026 · UTC",
-        "headline": "Coded USAF broadcasts reported at nearly four times normal",
-        "summary": "War Watch reported coded US Air Force radio broadcasts at nearly four times their usual rate across nine regions, with four broadcasts heard in the preceding hour.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2109781205595861290"
       }
     ]
   },
@@ -107,6 +107,22 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2109968371454259368",
+        "date": "2026-10-13",
+        "dateLabel": "13 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert at Hubballi",
+        "summary": "SkyGlass posted an OFF Ground alert for a P-8 aircraft at Hubballi, India. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2109968371454259368"
+      },
+      {
+        "id": "2109964185488490783",
+        "date": "2026-10-13",
+        "dateLabel": "13 OCT 2026 · UTC",
+        "headline": "E-3TF NATO40 airborne alert at Heerlen",
+        "summary": "SkyGlass posted an OFF Ground alert for E-3TF aircraft NATO40 at Heerlen, Netherlands.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2109964185488490783"
+      },
       {
         "id": "2109923779858063392",
         "date": "2026-10-13",
@@ -186,22 +202,6 @@
         "headline": "P-8 BLKT23 on-ground alert at Darwin",
         "summary": "SkyGlass posted an ON Ground alert for Australian-registered military P-8 aircraft BLKT23 at Darwin, Australia.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2109763777046487386"
-      },
-      {
-        "id": "2109760325113291224",
-        "date": "2026-10-12",
-        "dateLabel": "12 OCT 2026 · UTC",
-        "headline": "E-6 airborne alert at Chesapeake Ranch Estates",
-        "summary": "SkyGlass posted an OFF Ground alert for a US military E-6 aircraft at Chesapeake Ranch Estates, United States. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2109760325113291224"
-      },
-      {
-        "id": "2109736250319966479",
-        "date": "2026-10-12",
-        "dateLabel": "12 OCT 2026 · UTC",
-        "headline": "SkyGlass shares report on AEVEX Specter attack drone",
-        "summary": "SkyGlass shared a Defence Blog report that AEVEX displayed its turbojet-powered Specter attack drone at AUSA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2109736250319966479"
       }
     ]
   }
