@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2110012386400698537",
+        "date": "2026-10-13",
+        "dateLabel": "13 OCT 2026 · UTC",
+        "headline": "Civil airliner escorted to Nuremberg after 7500 squawk",
+        "summary": "War Watch relayed a DW report that a civil airliner over Germany accidentally transmitted squawk code 7500, was escorted by German Air Force aircraft to Nuremberg Airport, and was met by police.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110012386400698537"
+      },
+      {
+        "id": "2109992610035044445",
+        "date": "2026-10-13",
+        "dateLabel": "13 OCT 2026 · UTC",
+        "headline": "Six USAF cargo aircraft and elevated Korea-Japan activity",
+        "summary": "War Watch reported six US Air Force cargo aircraft airborne over the continental United States and military flight activity near Korea and Japan at nearly five times normal.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2109992610035044445"
+      },
+      {
+        "id": "2109977506392539344",
+        "date": "2026-10-13",
+        "dateLabel": "13 OCT 2026 · UTC",
+        "headline": "USAF transports and elevated Korea-Japan activity reported",
+        "summary": "War Watch reported multiple large US Air Force transport aircraft airborne over the United States and Europe, with activity near Korea and Japan at nearly 4.5 times normal.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2109977506392539344"
+      },
+      {
         "id": "2109962401093214271",
         "date": "2026-10-13",
         "dateLabel": "13 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "Elevated coded traffic and two command jets reported",
         "summary": "War Watch reported coded US Air Force radio broadcasts at nearly four times normal across nine global regions from the Middle East to the Asia-Pacific, with two nuclear command aircraft airborne over the United States.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2109841823040516594"
-      },
-      {
-        "id": "2109830523166097751",
-        "date": "2026-10-13",
-        "dateLabel": "13 OCT 2026 · UTC",
-        "headline": "KC-46A WINK89 spotted",
-        "summary": "War Watch identified a Boeing KC-46A Pegasus using callsign WINK89, hex AE5BC6 and registration 16-46021, citing a sighting by reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2109830523166097751"
-      },
-      {
-        "id": "2109826515022029070",
-        "date": "2026-10-13",
-        "dateLabel": "13 OCT 2026 · UTC",
-        "headline": "US nuclear command aircraft and six transports reported",
-        "summary": "War Watch reported a US Air Force nuclear command aircraft over the continental United States and six military transport aircraft airborne across multiple regions.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2109826515022029070"
-      },
-      {
-        "id": "2109820950136942843",
-        "date": "2026-10-13",
-        "dateLabel": "13 OCT 2026 · UTC",
-        "headline": "VC-25A 92-9000 spotted without a callsign",
-        "summary": "War Watch identified a Boeing VC-25A with no callsign shown, hex ADFDF9 and registration 92-9000, citing a sighting by reagan0965 and a photo by Ege Şanda via Planespotters.net.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2109820950136942843"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2110009994850468296",
+        "date": "2026-10-13",
+        "dateLabel": "13 OCT 2026 · UTC",
+        "headline": "E-6 airborne alert at Chesapeake Ranch Estates",
+        "summary": "SkyGlass posted an OFF Ground alert for a military E-6 aircraft at Chesapeake Ranch Estates, United States. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110009994850468296"
+      },
+      {
+        "id": "2110009597243121848",
+        "date": "2026-10-13",
+        "dateLabel": "13 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert at Saint Augustine Shores",
+        "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Saint Augustine Shores, Florida, United States. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110009597243121848"
+      },
+      {
+        "id": "2109992853191487828",
+        "date": "2026-10-13",
+        "dateLabel": "13 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert at Covelong",
+        "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Covelong, India. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2109992853191487828"
+      },
+      {
+        "id": "2109983331773235555",
+        "date": "2026-10-13",
+        "dateLabel": "13 OCT 2026 · UTC",
+        "headline": "P-8 on-ground alert at Lossiemouth",
+        "summary": "SkyGlass posted an ON Ground alert for a military P-8 aircraft at Lossiemouth, United Kingdom. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2109983331773235555"
+      },
       {
         "id": "2109968371454259368",
         "date": "2026-10-13",
@@ -170,38 +202,6 @@
         "headline": "P-8 BFLO44 on-ground alert at Burton",
         "summary": "SkyGlass posted an ON Ground alert for military P-8 aircraft BFLO44 at Burton, Australia.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2109856034722386075"
-      },
-      {
-        "id": "2109831805419258240",
-        "date": "2026-10-13",
-        "dateLabel": "13 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Yellapur",
-        "summary": "SkyGlass posted an OFF Ground alert for an India-registered military P-8 aircraft at Yellapur, India. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2109831805419258240"
-      },
-      {
-        "id": "2109802284238483569",
-        "date": "2026-10-13",
-        "dateLabel": "13 OCT 2026 · UTC",
-        "headline": "P-8 ASY208 on-ground alert at Darwin",
-        "summary": "SkyGlass posted an ON Ground alert for Australian-registered military P-8 aircraft ASY208 at Darwin, Australia.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2109802284238483569"
-      },
-      {
-        "id": "2109780358497456509",
-        "date": "2026-10-12",
-        "dateLabel": "12 OCT 2026 · UTC",
-        "headline": "E-6 airborne alert at Suisun",
-        "summary": "SkyGlass posted an OFF Ground alert for a US military E-6 aircraft at Suisun, California. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2109780358497456509"
-      },
-      {
-        "id": "2109763777046487386",
-        "date": "2026-10-12",
-        "dateLabel": "12 OCT 2026 · UTC",
-        "headline": "P-8 BLKT23 on-ground alert at Darwin",
-        "summary": "SkyGlass posted an ON Ground alert for Australian-registered military P-8 aircraft BLKT23 at Darwin, Australia.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2109763777046487386"
       }
     ]
   }
