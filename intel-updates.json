@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2110037942957744448",
+        "date": "2026-10-13",
+        "dateLabel": "13 OCT 2026 · UTC",
+        "headline": "USAF transports and continuing coded broadcasts reported",
+        "summary": "War Watch reported multiple large US Air Force transport aircraft airborne over the continental United States and continuing coded radio broadcasts.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110037942957744448"
+      },
+      {
+        "id": "2110019939297796228",
+        "date": "2026-10-13",
+        "dateLabel": "13 OCT 2026 · UTC",
+        "headline": "C-32B 00-9001 spotted without a callsign",
+        "summary": "War Watch identified a Boeing C-32B with no callsign shown, hex AE0443 and registration 00-9001, citing a sighting by reagan0965 and a photo by Justin Stöckel via Planespotters.net.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110019939297796228"
+      },
+      {
         "id": "2110012386400698537",
         "date": "2026-10-13",
         "dateLabel": "13 OCT 2026 · UTC",
@@ -83,22 +99,6 @@
         "headline": "USAF transports over Atlantic and North Sea reported",
         "summary": "War Watch reported multiple US Air Force transport aircraft airborne over the Atlantic and North Sea, with one coded radio broadcast heard in the preceding hour.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2109871783532703810"
-      },
-      {
-        "id": "2109856928398528843",
-        "date": "2026-10-13",
-        "dateLabel": "13 OCT 2026 · UTC",
-        "headline": "Six USAF cargo jets and two coded broadcasts reported",
-        "summary": "War Watch reported six large US Air Force cargo aircraft airborne and two coded radio broadcasts detected in the preceding hour, describing transport activity over the country as unusually high.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2109856928398528843"
-      },
-      {
-        "id": "2109841823040516594",
-        "date": "2026-10-13",
-        "dateLabel": "13 OCT 2026 · UTC",
-        "headline": "Elevated coded traffic and two command jets reported",
-        "summary": "War Watch reported coded US Air Force radio broadcasts at nearly four times normal across nine global regions from the Middle East to the Asia-Pacific, with two nuclear command aircraft airborne over the United States.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2109841823040516594"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2110054379503976960",
+        "date": "2026-10-13",
+        "dateLabel": "13 OCT 2026 · UTC",
+        "headline": "P-3 RESCU24 airborne alert at Vidigueira",
+        "summary": "SkyGlass posted an OFF Ground alert for P-3 aircraft RESCU24 at Vidigueira, Portugal.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110054379503976960"
+      },
+      {
+        "id": "2110042929444139116",
+        "date": "2026-10-13",
+        "dateLabel": "13 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert at Oakleaf Plantation",
+        "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Oakleaf Plantation, Florida, United States. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110042929444139116"
+      },
+      {
+        "id": "2110041684968878122",
+        "date": "2026-10-13",
+        "dateLabel": "13 OCT 2026 · UTC",
+        "headline": "E-6 airborne alert at South Valley",
+        "summary": "SkyGlass posted an OFF Ground alert for a military E-6 aircraft at South Valley, New Mexico, United States. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110041684968878122"
+      },
+      {
+        "id": "2110039175365853572",
+        "date": "2026-10-13",
+        "dateLabel": "13 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert at Oakleaf Plantation",
+        "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Oakleaf Plantation, Florida, United States. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110039175365853572"
+      },
       {
         "id": "2110009994850468296",
         "date": "2026-10-13",
@@ -170,38 +202,6 @@
         "headline": "P-8 BLKT01 on-ground alert at Paya Lebar",
         "summary": "SkyGlass posted an ON Ground alert for military P-8 aircraft BLKT01 at Paya Lebar, Singapore.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2109922401907507576"
-      },
-      {
-        "id": "2109919632043790561",
-        "date": "2026-10-13",
-        "dateLabel": "13 OCT 2026 · UTC",
-        "headline": "E-3TF NATO01 airborne alert at Brunssum",
-        "summary": "SkyGlass posted an OFF Ground alert for military E-3TF aircraft NATO01 at Brunssum, Netherlands.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2109919632043790561"
-      },
-      {
-        "id": "2109917459155227133",
-        "date": "2026-10-13",
-        "dateLabel": "13 OCT 2026 · UTC",
-        "headline": "P-8 ASY208 on-ground alert at Misawa",
-        "summary": "SkyGlass posted an ON Ground alert for military P-8 aircraft ASY208 at Misawa, Japan.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2109917459155227133"
-      },
-      {
-        "id": "2109866659540320537",
-        "date": "2026-10-13",
-        "dateLabel": "13 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Puttur",
-        "summary": "SkyGlass posted an OFF Ground alert for an Indian military P-8 aircraft at Puttur, India. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2109866659540320537"
-      },
-      {
-        "id": "2109856034722386075",
-        "date": "2026-10-13",
-        "dateLabel": "13 OCT 2026 · UTC",
-        "headline": "P-8 BFLO44 on-ground alert at Burton",
-        "summary": "SkyGlass posted an ON Ground alert for military P-8 aircraft BFLO44 at Burton, Australia.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2109856034722386075"
       }
     ]
   }
