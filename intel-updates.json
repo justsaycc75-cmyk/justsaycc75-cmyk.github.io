@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2110219239688716469",
+        "date": "2026-10-14",
+        "dateLabel": "14 OCT 2026 · UTC",
+        "headline": "Command, transport and surveillance aircraft activity reported",
+        "summary": "War Watch reported US Air Force nuclear command-and-control, transport and surveillance aircraft airborne over the United States, with activity described as busier than usual.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110219239688716469"
+      },
+      {
         "id": "2110173934486266013",
         "date": "2026-10-14",
         "dateLabel": "14 OCT 2026 · UTC",
@@ -91,14 +99,6 @@
         "headline": "Six USAF cargo aircraft and elevated Korea-Japan activity",
         "summary": "War Watch reported six US Air Force cargo aircraft airborne over the continental United States and military flight activity near Korea and Japan at nearly five times normal.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2109992610035044445"
-      },
-      {
-        "id": "2109977506392539344",
-        "date": "2026-10-13",
-        "dateLabel": "13 OCT 2026 · UTC",
-        "headline": "USAF transports and elevated Korea-Japan activity reported",
-        "summary": "War Watch reported multiple large US Air Force transport aircraft airborne over the United States and Europe, with activity near Korea and Japan at nearly 4.5 times normal.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2109977506392539344"
       }
     ]
   },
@@ -107,6 +107,30 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2110239243289182469",
+        "date": "2026-10-14",
+        "dateLabel": "14 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert at Uthukkottai",
+        "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Uthukkottai, India. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110239243289182469"
+      },
+      {
+        "id": "2110210708671480060",
+        "date": "2026-10-14",
+        "dateLabel": "14 OCT 2026 · UTC",
+        "headline": "P-8 TRDT on-ground alert at Burton",
+        "summary": "SkyGlass posted an ON Ground alert for P-8 aircraft TRDT at Burton, Australia.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110210708671480060"
+      },
+      {
+        "id": "2110198714094506191",
+        "date": "2026-10-14",
+        "dateLabel": "14 OCT 2026 · UTC",
+        "headline": "P-3 airborne alert at Magong",
+        "summary": "SkyGlass posted an OFF Ground alert for a military P-3 aircraft at Magong, Taiwan. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110198714094506191"
+      },
       {
         "id": "2110173971995828456",
         "date": "2026-10-14",
@@ -178,30 +202,6 @@
         "headline": "P-8 KIW717 on-ground alert at Marton",
         "summary": "SkyGlass posted an ON Ground alert for military P-8 aircraft KIW717 at Marton, New Zealand.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2110096036718928373"
-      },
-      {
-        "id": "2110096003009282437",
-        "date": "2026-10-13",
-        "dateLabel": "13 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Oak Harbor",
-        "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Oak Harbor, Washington, United States. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110096003009282437"
-      },
-      {
-        "id": "2110054379503976960",
-        "date": "2026-10-13",
-        "dateLabel": "13 OCT 2026 · UTC",
-        "headline": "P-3 RESCU24 airborne alert at Vidigueira",
-        "summary": "SkyGlass posted an OFF Ground alert for P-3 aircraft RESCU24 at Vidigueira, Portugal.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110054379503976960"
-      },
-      {
-        "id": "2110042929444139116",
-        "date": "2026-10-13",
-        "dateLabel": "13 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Oakleaf Plantation",
-        "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Oakleaf Plantation, Florida, United States. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110042929444139116"
       }
     ]
   }
