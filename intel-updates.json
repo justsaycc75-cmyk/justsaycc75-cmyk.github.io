@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2110264540281668045",
+        "date": "2026-10-14",
+        "dateLabel": "14 OCT 2026 · UTC",
+        "headline": "Spy, transport and command aircraft reported over Atlantic and North Sea",
+        "summary": "War Watch reported multiple US military surveillance and transport aircraft across the Atlantic and North Sea, including a nuclear command aircraft broadcasting no callsign.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110264540281668045"
+      },
+      {
         "id": "2110219239688716469",
         "date": "2026-10-14",
         "dateLabel": "14 OCT 2026 · UTC",
@@ -91,14 +99,6 @@
         "headline": "Civil airliner escorted to Nuremberg after 7500 squawk",
         "summary": "War Watch relayed a DW report that a civil airliner over Germany accidentally transmitted squawk code 7500, was escorted by German Air Force aircraft to Nuremberg Airport, and was met by police.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2110012386400698537"
-      },
-      {
-        "id": "2109992610035044445",
-        "date": "2026-10-13",
-        "dateLabel": "13 OCT 2026 · UTC",
-        "headline": "Six USAF cargo aircraft and elevated Korea-Japan activity",
-        "summary": "War Watch reported six US Air Force cargo aircraft airborne over the continental United States and military flight activity near Korea and Japan at nearly five times normal.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2109992610035044445"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2110283291551006944",
+        "date": "2026-10-14",
+        "dateLabel": "14 OCT 2026 · UTC",
+        "headline": "B737 CNV5412 airborne alert at Lentini",
+        "summary": "SkyGlass posted an OFF Ground alert for B737 aircraft CNV5412 at Lentini, Italy.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110283291551006944"
+      },
+      {
+        "id": "2110280090449789123",
+        "date": "2026-10-14",
+        "dateLabel": "14 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert at Lossiemouth",
+        "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Lossiemouth, United Kingdom. The callsign was shown as @@@@@@@@.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110280090449789123"
+      },
+      {
+        "id": "2110272316294705255",
+        "date": "2026-10-14",
+        "dateLabel": "14 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert at Sriperumbudur",
+        "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Sriperumbudur, India. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110272316294705255"
+      },
+      {
+        "id": "2110244230719259047",
+        "date": "2026-10-14",
+        "dateLabel": "14 OCT 2026 · UTC",
+        "headline": "E-3TF on-ground alert at Geilenkirchen",
+        "summary": "SkyGlass posted an ON Ground alert for an E-3TF aircraft at Geilenkirchen, Germany. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110244230719259047"
+      },
       {
         "id": "2110239243289182469",
         "date": "2026-10-14",
@@ -170,38 +202,6 @@
         "headline": "E-6 airborne alert at Dixon",
         "summary": "SkyGlass posted an OFF Ground alert for a military E-6 aircraft at Dixon, California, United States. The callsign was shown as NA.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2110107100957360373"
-      },
-      {
-        "id": "2110105230364774516",
-        "date": "2026-10-13",
-        "dateLabel": "13 OCT 2026 · UTC",
-        "headline": "E-3TF SENTRY60 airborne alert at Moore",
-        "summary": "SkyGlass posted an OFF Ground alert for E-3TF aircraft SENTRY60 at Moore, Oklahoma, United States.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110105230364774516"
-      },
-      {
-        "id": "2110100218884521988",
-        "date": "2026-10-13",
-        "dateLabel": "13 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Port Hueneme",
-        "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Port Hueneme, United States. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110100218884521988"
-      },
-      {
-        "id": "2110098500994159008",
-        "date": "2026-10-13",
-        "dateLabel": "13 OCT 2026 · UTC",
-        "headline": "Elsight positioning system for GNSS-denied operations reported",
-        "summary": "SkyGlass shared a Soldier Systems report that Elsight unveiled a precise positioning system for uncrewed platforms operating in GNSS-denied environments at AUSA 2026.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110098500994159008"
-      },
-      {
-        "id": "2110096036718928373",
-        "date": "2026-10-13",
-        "dateLabel": "13 OCT 2026 · UTC",
-        "headline": "P-8 KIW717 on-ground alert at Marton",
-        "summary": "SkyGlass posted an ON Ground alert for military P-8 aircraft KIW717 at Marton, New Zealand.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110096036718928373"
       }
     ]
   }
