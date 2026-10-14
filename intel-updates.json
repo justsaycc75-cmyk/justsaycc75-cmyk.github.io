@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2110371178485330365",
+        "date": "2026-10-14",
+        "dateLabel": "14 OCT 2026 · UTC",
+        "headline": "RAF C-17 ZZ171 reported departing Al Minhad Air Base",
+        "summary": "War Watch identified RAF C-17 registration ZZ171, hex 43C171, with no callsign or destination listed, departing Al Minhad Air Base in the UAE, citing a sighting by alexgreen1767.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110371178485330365"
+      },
+      {
+        "id": "2110355351908368517",
+        "date": "2026-10-14",
+        "dateLabel": "14 OCT 2026 · UTC",
+        "headline": "Four USAF transports and surveillance aircraft reported",
+        "summary": "War Watch reported four US Air Force transport aircraft airborne alongside surveillance aircraft monitoring activity over the North Sea and elsewhere.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110355351908368517"
+      },
+      {
         "id": "2110309840052457593",
         "date": "2026-10-14",
         "dateLabel": "14 OCT 2026 · UTC",
@@ -83,22 +99,6 @@
         "headline": "Four USAF transports, two command jets and seven broadcasts reported",
         "summary": "War Watch reported four US Air Force transport aircraft airborne over the continental United States alongside two nuclear command aircraft, after seven coded military radio broadcasts earlier that day.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2110083288576524751"
-      },
-      {
-        "id": "2110037942957744448",
-        "date": "2026-10-13",
-        "dateLabel": "13 OCT 2026 · UTC",
-        "headline": "USAF transports and continuing coded broadcasts reported",
-        "summary": "War Watch reported multiple large US Air Force transport aircraft airborne over the continental United States and continuing coded radio broadcasts.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110037942957744448"
-      },
-      {
-        "id": "2110019939297796228",
-        "date": "2026-10-13",
-        "dateLabel": "13 OCT 2026 · UTC",
-        "headline": "C-32B 00-9001 spotted without a callsign",
-        "summary": "War Watch identified a Boeing C-32B with no callsign shown, hex AE0443 and registration 00-9001, citing a sighting by reagan0965 and a photo by Justin Stöckel via Planespotters.net.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110019939297796228"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2110372986708488231",
+        "date": "2026-10-14",
+        "dateLabel": "14 OCT 2026 · UTC",
+        "headline": "E-3TF NATO02 on-ground alert at Daganzo de Arriba",
+        "summary": "SkyGlass posted an ON Ground alert for E-3TF aircraft NATO02 at Daganzo de Arriba, Spain.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110372986708488231"
+      },
+      {
+        "id": "2110372566632137186",
+        "date": "2026-10-14",
+        "dateLabel": "14 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert at Covelong",
+        "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Covelong, India. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110372566632137186"
+      },
+      {
+        "id": "2110371099649122767",
+        "date": "2026-10-14",
+        "dateLabel": "14 OCT 2026 · UTC",
+        "headline": "E-3TF NATO01 airborne alert at San Felice Circeo",
+        "summary": "SkyGlass posted an OFF Ground alert for E-3TF aircraft NATO01 at San Felice Circeo, Italy.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110371099649122767"
+      },
+      {
+        "id": "2110368587563086023",
+        "date": "2026-10-14",
+        "dateLabel": "14 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert at Macclenny",
+        "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Macclenny, Florida, United States. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110368587563086023"
+      },
       {
         "id": "2110328304796381521",
         "date": "2026-10-14",
@@ -170,38 +202,6 @@
         "headline": "P-8 airborne alert at Uthukkottai",
         "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Uthukkottai, India. The callsign was shown as NA.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2110239243289182469"
-      },
-      {
-        "id": "2110210708671480060",
-        "date": "2026-10-14",
-        "dateLabel": "14 OCT 2026 · UTC",
-        "headline": "P-8 TRDT on-ground alert at Burton",
-        "summary": "SkyGlass posted an ON Ground alert for P-8 aircraft TRDT at Burton, Australia.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110210708671480060"
-      },
-      {
-        "id": "2110198714094506191",
-        "date": "2026-10-14",
-        "dateLabel": "14 OCT 2026 · UTC",
-        "headline": "P-3 airborne alert at Magong",
-        "summary": "SkyGlass posted an OFF Ground alert for a military P-3 aircraft at Magong, Taiwan. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110198714094506191"
-      },
-      {
-        "id": "2110173971995828456",
-        "date": "2026-10-14",
-        "dateLabel": "14 OCT 2026 · UTC",
-        "headline": "P-8 on-ground alert at Misawa",
-        "summary": "SkyGlass posted an ON Ground alert for a P-8 aircraft at Misawa, Japan. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110173971995828456"
-      },
-      {
-        "id": "2110154837639786805",
-        "date": "2026-10-13",
-        "dateLabel": "13 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Dallas",
-        "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Dallas, Texas, United States. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110154837639786805"
       }
     ]
   }
