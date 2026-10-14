@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2110442444969951388",
+        "date": "2026-10-14",
+        "dateLabel": "14 OCT 2026 · UTC",
+        "headline": "Unknown aircraft or drone 11702216 spotted near UAE coast",
+        "summary": "War Watch reported an unknown aircraft or drone using callsign 11702216 and hex AE619A heading northeast along the UAE's west coast, citing a sighting by alexgreen1767.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110442444969951388"
+      },
+      {
+        "id": "2110438532292481523",
+        "date": "2026-10-14",
+        "dateLabel": "14 OCT 2026 · UTC",
+        "headline": "Ukraine power outage after reported Russian strikes",
+        "summary": "War Watch shared a BBC-sourced report that 600,000 people were without power after a second consecutive day of Russian strikes on Ukraine following the start of an energy ceasefire, with reporting credited to alexgreen1767.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110438532292481523"
+      },
+      {
+        "id": "2110420758010663235",
+        "date": "2026-10-14",
+        "dateLabel": "14 OCT 2026 · UTC",
+        "headline": "EAM header code 56XFA7 reported",
+        "summary": "War Watch reported an Emergency Action Message header or preamble carrying the code 56XFA7.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110420758010663235"
+      },
+      {
         "id": "2110403273878376705",
         "date": "2026-10-14",
         "dateLabel": "14 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "Command, transport and surveillance aircraft activity reported",
         "summary": "War Watch reported US Air Force nuclear command-and-control, transport and surveillance aircraft airborne over the United States, with activity described as busier than usual.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2110219239688716469"
-      },
-      {
-        "id": "2110173934486266013",
-        "date": "2026-10-14",
-        "dateLabel": "14 OCT 2026 · UTC",
-        "headline": "Five USAF transports, one command jet and two broadcasts reported",
-        "summary": "War Watch reported five US Air Force transport aircraft and one nuclear command aircraft airborne over the United States, with two coded radio broadcasts heard during the previous hour.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110173934486266013"
-      },
-      {
-        "id": "2110165256177590605",
-        "date": "2026-10-14",
-        "dateLabel": "14 OCT 2026 · UTC",
-        "headline": "T-45 TALON48 spotted near Alabama–Georgia border",
-        "summary": "War Watch identified a British Aerospace T-45 Goshawk using callsign TALON48, hex AE6318 and registration 167095 near the Alabama–Georgia border, citing a sighting by reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110165256177590605"
-      },
-      {
-        "id": "2110136259431498063",
-        "date": "2026-10-13",
-        "dateLabel": "13 OCT 2026 · UTC",
-        "headline": "E-3G SENTRY60 spotted",
-        "summary": "War Watch identified a Boeing E-3G Sentry using callsign SENTRY60, hex AE11EB and registration 80-0138, citing a sighting by reagan0965 and a photo by DVS-135 via Planespotters.net.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110136259431498063"
       }
     ]
   },
@@ -107,6 +107,22 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2110460899672649939",
+        "date": "2026-10-14",
+        "dateLabel": "14 OCT 2026 · UTC",
+        "headline": "F-35C arrested landing aboard future USS John F. Kennedy reported",
+        "summary": "SkyGlass shared a TWZ report that an F-35C completed the first arrested landing aboard the future USS John F. Kennedy, a Ford-class aircraft carrier.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110460899672649939"
+      },
+      {
+        "id": "2110457767135682978",
+        "date": "2026-10-14",
+        "dateLabel": "14 OCT 2026 · UTC",
+        "headline": "E-6 airborne alert at Moore",
+        "summary": "SkyGlass posted an OFF Ground alert for a military E-6 aircraft at Moore, Oklahoma, United States. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110457767135682978"
+      },
       {
         "id": "2110412039021560177",
         "date": "2026-10-14",
@@ -186,22 +202,6 @@
         "headline": "P-8 RG44T airborne alert at Saundatti",
         "summary": "SkyGlass posted an OFF Ground alert for P-8 aircraft RG44T at Saundatti, India.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2110322270962848074"
-      },
-      {
-        "id": "2110299645234548763",
-        "date": "2026-10-14",
-        "dateLabel": "14 OCT 2026 · UTC",
-        "headline": "E-3TF NATO02 airborne alert at Daganzo de Arriba",
-        "summary": "SkyGlass posted an OFF Ground alert for E-3TF aircraft NATO02 at Daganzo de Arriba, Spain.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110299645234548763"
-      },
-      {
-        "id": "2110283291551006944",
-        "date": "2026-10-14",
-        "dateLabel": "14 OCT 2026 · UTC",
-        "headline": "B737 CNV5412 airborne alert at Lentini",
-        "summary": "SkyGlass posted an OFF Ground alert for B737 aircraft CNV5412 at Lentini, Italy.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110283291551006944"
       }
     ]
   }
