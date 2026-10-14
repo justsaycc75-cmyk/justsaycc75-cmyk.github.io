@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2110309840052457593",
+        "date": "2026-10-14",
+        "dateLabel": "14 OCT 2026 · UTC",
+        "headline": "USAF transport, surveillance and coded-radio activity reported",
+        "summary": "War Watch reported multiple US Air Force transport aircraft over the North Sea, surveillance aircraft across US airspace and three coded radio broadcasts detected that day.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110309840052457593"
+      },
+      {
         "id": "2110264540281668045",
         "date": "2026-10-14",
         "dateLabel": "14 OCT 2026 · UTC",
@@ -91,14 +99,6 @@
         "headline": "C-32B 00-9001 spotted without a callsign",
         "summary": "War Watch identified a Boeing C-32B with no callsign shown, hex AE0443 and registration 00-9001, citing a sighting by reagan0965 and a photo by Justin Stöckel via Planespotters.net.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2110019939297796228"
-      },
-      {
-        "id": "2110012386400698537",
-        "date": "2026-10-13",
-        "dateLabel": "13 OCT 2026 · UTC",
-        "headline": "Civil airliner escorted to Nuremberg after 7500 squawk",
-        "summary": "War Watch relayed a DW report that a civil airliner over Germany accidentally transmitted squawk code 7500, was escorted by German Air Force aircraft to Nuremberg Airport, and was met by police.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110012386400698537"
       }
     ]
   },
@@ -107,6 +107,30 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2110328304796381521",
+        "date": "2026-10-14",
+        "dateLabel": "14 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert at Saundatti",
+        "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Saundatti, India. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110328304796381521"
+      },
+      {
+        "id": "2110322270962848074",
+        "date": "2026-10-14",
+        "dateLabel": "14 OCT 2026 · UTC",
+        "headline": "P-8 RG44T airborne alert at Saundatti",
+        "summary": "SkyGlass posted an OFF Ground alert for P-8 aircraft RG44T at Saundatti, India.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110322270962848074"
+      },
+      {
+        "id": "2110299645234548763",
+        "date": "2026-10-14",
+        "dateLabel": "14 OCT 2026 · UTC",
+        "headline": "E-3TF NATO02 airborne alert at Daganzo de Arriba",
+        "summary": "SkyGlass posted an OFF Ground alert for E-3TF aircraft NATO02 at Daganzo de Arriba, Spain.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110299645234548763"
+      },
       {
         "id": "2110283291551006944",
         "date": "2026-10-14",
@@ -178,30 +202,6 @@
         "headline": "P-8 airborne alert at Dallas",
         "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Dallas, Texas, United States. The callsign was shown as NA.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2110154837639786805"
-      },
-      {
-        "id": "2110151825710014556",
-        "date": "2026-10-13",
-        "dateLabel": "13 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Anacortes",
-        "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Anacortes, United States. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110151825710014556"
-      },
-      {
-        "id": "2110123129720721757",
-        "date": "2026-10-13",
-        "dateLabel": "13 OCT 2026 · UTC",
-        "headline": "P-8 on-ground alert at Darwin",
-        "summary": "SkyGlass posted an ON Ground alert for a P-8 aircraft at Darwin, Australia. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110123129720721757"
-      },
-      {
-        "id": "2110107100957360373",
-        "date": "2026-10-13",
-        "dateLabel": "13 OCT 2026 · UTC",
-        "headline": "E-6 airborne alert at Dixon",
-        "summary": "SkyGlass posted an OFF Ground alert for a military E-6 aircraft at Dixon, California, United States. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110107100957360373"
       }
     ]
   }
