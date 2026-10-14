@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2110173934486266013",
+        "date": "2026-10-14",
+        "dateLabel": "14 OCT 2026 · UTC",
+        "headline": "Five USAF transports, one command jet and two broadcasts reported",
+        "summary": "War Watch reported five US Air Force transport aircraft and one nuclear command aircraft airborne over the United States, with two coded radio broadcasts heard during the previous hour.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110173934486266013"
+      },
+      {
+        "id": "2110165256177590605",
+        "date": "2026-10-14",
+        "dateLabel": "14 OCT 2026 · UTC",
+        "headline": "T-45 TALON48 spotted near Alabama–Georgia border",
+        "summary": "War Watch identified a British Aerospace T-45 Goshawk using callsign TALON48, hex AE6318 and registration 167095 near the Alabama–Georgia border, citing a sighting by reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110165256177590605"
+      },
+      {
         "id": "2110136259431498063",
         "date": "2026-10-13",
         "dateLabel": "13 OCT 2026 · UTC",
@@ -83,22 +99,6 @@
         "headline": "USAF transports and elevated Korea-Japan activity reported",
         "summary": "War Watch reported multiple large US Air Force transport aircraft airborne over the United States and Europe, with activity near Korea and Japan at nearly 4.5 times normal.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2109977506392539344"
-      },
-      {
-        "id": "2109962401093214271",
-        "date": "2026-10-13",
-        "dateLabel": "13 OCT 2026 · UTC",
-        "headline": "Six USAF cargo aircraft and support activity reported",
-        "summary": "War Watch reported six US Air Force cargo aircraft airborne over the continental United States and North Sea, alongside multiple refueling tankers and surveillance aircraft tracked during the day.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2109962401093214271"
-      },
-      {
-        "id": "2109947298541162837",
-        "date": "2026-10-13",
-        "dateLabel": "13 OCT 2026 · UTC",
-        "headline": "Six USAF transports amid elevated flight activity",
-        "summary": "War Watch reported six US Air Force transport aircraft airborne over the continental United States as military flight activity ran nearly 3.3 times above normal.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2109947298541162837"
       }
     ]
   },
@@ -107,6 +107,30 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2110173971995828456",
+        "date": "2026-10-14",
+        "dateLabel": "14 OCT 2026 · UTC",
+        "headline": "P-8 on-ground alert at Misawa",
+        "summary": "SkyGlass posted an ON Ground alert for a P-8 aircraft at Misawa, Japan. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110173971995828456"
+      },
+      {
+        "id": "2110154837639786805",
+        "date": "2026-10-13",
+        "dateLabel": "13 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert at Dallas",
+        "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Dallas, Texas, United States. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110154837639786805"
+      },
+      {
+        "id": "2110151825710014556",
+        "date": "2026-10-13",
+        "dateLabel": "13 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert at Anacortes",
+        "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Anacortes, United States. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110151825710014556"
+      },
       {
         "id": "2110123129720721757",
         "date": "2026-10-13",
@@ -178,30 +202,6 @@
         "headline": "P-8 airborne alert at Oakleaf Plantation",
         "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Oakleaf Plantation, Florida, United States. The callsign was shown as NA.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2110042929444139116"
-      },
-      {
-        "id": "2110041684968878122",
-        "date": "2026-10-13",
-        "dateLabel": "13 OCT 2026 · UTC",
-        "headline": "E-6 airborne alert at South Valley",
-        "summary": "SkyGlass posted an OFF Ground alert for a military E-6 aircraft at South Valley, New Mexico, United States. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110041684968878122"
-      },
-      {
-        "id": "2110039175365853572",
-        "date": "2026-10-13",
-        "dateLabel": "13 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Oakleaf Plantation",
-        "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Oakleaf Plantation, Florida, United States. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110039175365853572"
-      },
-      {
-        "id": "2110009994850468296",
-        "date": "2026-10-13",
-        "dateLabel": "13 OCT 2026 · UTC",
-        "headline": "E-6 airborne alert at Chesapeake Ranch Estates",
-        "summary": "SkyGlass posted an OFF Ground alert for a military E-6 aircraft at Chesapeake Ranch Estates, United States. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110009994850468296"
       }
     ]
   }
