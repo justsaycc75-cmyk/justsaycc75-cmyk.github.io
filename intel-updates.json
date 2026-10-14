@@ -5,6 +5,38 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2110403273878376705",
+        "date": "2026-10-14",
+        "dateLabel": "14 OCT 2026 · UTC",
+        "headline": "Five USAF transports, Navy drone and three broadcasts reported",
+        "summary": "War Watch reported five US Air Force transport aircraft over the United States, a US Navy surveillance drone over the Persian Gulf and three coded military radio broadcasts detected that day.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110403273878376705"
+      },
+      {
+        "id": "2110399412321026425",
+        "date": "2026-10-14",
+        "dateLabel": "14 OCT 2026 · UTC",
+        "headline": "RAF A400M RRR9946 reported from Al Minhad Air Base",
+        "summary": "War Watch identified RAF Airbus A400M Atlas RRR9946, registration ZM405 and hex 43C5DF, from Al Minhad Air Base in the UAE with no destination listed, citing a sighting by alexgreen1767.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110399412321026425"
+      },
+      {
+        "id": "2110391636526084131",
+        "date": "2026-10-14",
+        "dateLabel": "14 OCT 2026 · UTC",
+        "headline": "US Navy MQ-4C OVRLD02 spotted",
+        "summary": "War Watch identified a US Navy Northrop Grumman MQ-4C Triton using callsign OVRLD02, registration 169172 and hex AE6258, citing a sighting by alexgreen1767.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110391636526084131"
+      },
+      {
+        "id": "2110383264053530708",
+        "date": "2026-10-14",
+        "dateLabel": "14 OCT 2026 · UTC",
+        "headline": "Bahrain Royal Flight RJ100 BAH20 spotted",
+        "summary": "War Watch identified a Bahrain Royal Flight Avro RJ100 using callsign BAH20, registration A9C-KAS and hex 8940B6, from Abha Regional Airport, citing a sighting by alexgreen1767.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110383264053530708"
+      },
+      {
         "id": "2110371178485330365",
         "date": "2026-10-14",
         "dateLabel": "14 OCT 2026 · UTC",
@@ -67,38 +99,6 @@
         "headline": "E-3G SENTRY60 spotted",
         "summary": "War Watch identified a Boeing E-3G Sentry using callsign SENTRY60, hex AE11EB and registration 80-0138, citing a sighting by reagan0965 and a photo by DVS-135 via Planespotters.net.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2110136259431498063"
-      },
-      {
-        "id": "2110132406984327378",
-        "date": "2026-10-13",
-        "dateLabel": "13 OCT 2026 · UTC",
-        "headline": "EAM header code VQPFO7 reported",
-        "summary": "War Watch reported an Emergency Action Message header or preamble with code VQPFO7.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110132406984327378"
-      },
-      {
-        "id": "2110128630579826726",
-        "date": "2026-10-13",
-        "dateLabel": "13 OCT 2026 · UTC",
-        "headline": "USAF transports and elevated coded radio traffic reported",
-        "summary": "War Watch reported multiple US Air Force transport aircraft airborne over the continental United States and elevated coded radio traffic near the United Kingdom and the Korea-Japan region.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110128630579826726"
-      },
-      {
-        "id": "2110100608912937091",
-        "date": "2026-10-13",
-        "dateLabel": "13 OCT 2026 · UTC",
-        "headline": "U-2 DRGN21 spotted",
-        "summary": "War Watch identified a Lockheed U-2 using callsign DRGN21, hex AE096B and registration 80-1099, citing a sighting by reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110100608912937091"
-      },
-      {
-        "id": "2110083288576524751",
-        "date": "2026-10-13",
-        "dateLabel": "13 OCT 2026 · UTC",
-        "headline": "Four USAF transports, two command jets and seven broadcasts reported",
-        "summary": "War Watch reported four US Air Force transport aircraft airborne over the continental United States alongside two nuclear command aircraft, after seven coded military radio broadcasts earlier that day.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110083288576524751"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2110412039021560177",
+        "date": "2026-10-14",
+        "dateLabel": "14 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert at Lenvik",
+        "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Lenvik, Norway. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110412039021560177"
+      },
+      {
+        "id": "2110408966316396590",
+        "date": "2026-10-14",
+        "dateLabel": "14 OCT 2026 · UTC",
+        "headline": "B-52 airborne alert at Red Chute",
+        "summary": "SkyGlass posted an OFF Ground alert for a military B-52 aircraft at Red Chute, Louisiana, United States. The callsign was shown as 00000000.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110408966316396590"
+      },
+      {
+        "id": "2110404754509623784",
+        "date": "2026-10-14",
+        "dateLabel": "14 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert at Oakleaf Plantation",
+        "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Oakleaf Plantation, Florida, United States. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110404754509623784"
+      },
+      {
+        "id": "2110400646805389653",
+        "date": "2026-10-14",
+        "dateLabel": "14 OCT 2026 · UTC",
+        "headline": "Polish air force response to Russian drones reported",
+        "summary": "SkyGlass shared a Breaking Defense report that Poland's air force is intensifying its response to Russian drones entering Polish airspace, with air defence prioritised across operations.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110400646805389653"
+      },
       {
         "id": "2110372986708488231",
         "date": "2026-10-14",
@@ -170,38 +202,6 @@
         "headline": "B737 CNV5412 airborne alert at Lentini",
         "summary": "SkyGlass posted an OFF Ground alert for B737 aircraft CNV5412 at Lentini, Italy.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2110283291551006944"
-      },
-      {
-        "id": "2110280090449789123",
-        "date": "2026-10-14",
-        "dateLabel": "14 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Lossiemouth",
-        "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Lossiemouth, United Kingdom. The callsign was shown as @@@@@@@@.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110280090449789123"
-      },
-      {
-        "id": "2110272316294705255",
-        "date": "2026-10-14",
-        "dateLabel": "14 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Sriperumbudur",
-        "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Sriperumbudur, India. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110272316294705255"
-      },
-      {
-        "id": "2110244230719259047",
-        "date": "2026-10-14",
-        "dateLabel": "14 OCT 2026 · UTC",
-        "headline": "E-3TF on-ground alert at Geilenkirchen",
-        "summary": "SkyGlass posted an ON Ground alert for an E-3TF aircraft at Geilenkirchen, Germany. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110244230719259047"
-      },
-      {
-        "id": "2110239243289182469",
-        "date": "2026-10-14",
-        "dateLabel": "14 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Uthukkottai",
-        "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Uthukkottai, India. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110239243289182469"
       }
     ]
   }
