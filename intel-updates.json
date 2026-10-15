@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2110873097188282728",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "Boeing E-6 Mercury AEBA38 spotted",
+        "summary": "War Watch reported a Boeing E-6 Mercury with hex AEBA38 and no callsign, citing a sighting by reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110873097188282728"
+      },
+      {
+        "id": "2110861113940131901",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "RC-135V Rivet Joint HOOVR92 spotted",
+        "summary": "War Watch reported a Boeing RC-135V Rivet Joint using callsign HOOVR92, hex AE01CA and registration 63-9792, citing a sighting by reagan0965 and a photo by EdwinS via Planespotters.net.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110861113940131901"
+      },
+      {
+        "id": "2110853307979743547",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "Transport, surveillance and radio activity reported",
+        "summary": "War Watch reported US military transport aircraft and a surveillance aircraft airborne over the continental United States, with 23 coded radio broadcasts heard that day and none during the preceding two hours.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110853307979743547"
+      },
+      {
+        "id": "2110845875933048925",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "US Army Dash 8 GKA610 spotted",
+        "summary": "War Watch reported a De Havilland DHC-8-300 Dash 8 associated with the US Army Parachute Team, using callsign GKA610, hex A60BA5 and registration 17-01610, citing a sighting by reagan0965 and a photo by Steven Ma via Planespotters.net.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110845875933048925"
+      },
+      {
+        "id": "2110838942626975884",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "Iranian armored vehicle movement reported near Iraqi border",
+        "summary": "War Watch relayed a Monitor X report of Iranian armored vehicles and tanks moving in southwestern Iran near the Iraqi border.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110838942626975884"
+      },
+      {
         "id": "2110807285219913861",
         "date": "2026-10-15",
         "dateLabel": "15 OCT 2026 · UTC",
@@ -59,46 +99,6 @@
         "headline": "EAM header code QH6VL3 reported",
         "summary": "War Watch reported an Emergency Action Message header or preamble carrying the code QH6VL3 at 09:04 UTC, citing reagan0965.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2110762410059440358"
-      },
-      {
-        "id": "2110751414913810456",
-        "date": "2026-10-15",
-        "dateLabel": "15 OCT 2026 · UTC",
-        "headline": "Six military cargo aircraft and overseas sightings reported",
-        "summary": "War Watch reported six military cargo aircraft airborne over the United States, with additional aircraft sightings near Ramstein Air Base and Tokyo during the preceding few hours.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110751414913810456"
-      },
-      {
-        "id": "2110747048752353651",
-        "date": "2026-10-15",
-        "dateLabel": "15 OCT 2026 · UTC",
-        "headline": "Explosions in Aden reported",
-        "summary": "War Watch said an Al Jazeera Arabic correspondent reported hearing explosions in Aden, southern Yemen, and said two outlets later confirmed the report.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110747048752353651"
-      },
-      {
-        "id": "2110706114895507613",
-        "date": "2026-10-15",
-        "dateLabel": "15 OCT 2026 · UTC",
-        "headline": "Six USAF transports and other military aircraft reported",
-        "summary": "War Watch reported six US Air Force transport aircraft airborne over the United States, other military aircraft near Japan, and a nuclear command aircraft detected earlier that day.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110706114895507613"
-      },
-      {
-        "id": "2110695302231429243",
-        "date": "2026-10-15",
-        "dateLabel": "15 OCT 2026 · UTC",
-        "headline": "Southern England drought declaration reported",
-        "summary": "War Watch said Sky News reported that a severe drought had been declared in parts of southern England, and said two outlets later confirmed the report.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110695302231429243"
-      },
-      {
-        "id": "2110660815082680326",
-        "date": "2026-10-15",
-        "dateLabel": "15 OCT 2026 · UTC",
-        "headline": "Six military aircraft and eight USAF broadcasts reported",
-        "summary": "War Watch reported a quiet hour across its monitored areas, with six notable military aircraft airborne and eight coded US Air Force radio broadcasts heard that day.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110660815082680326"
       }
     ]
   },
@@ -107,6 +107,14 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2110874082501697982",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "P-8 BLKT06 on-ground alert at Burton",
+        "summary": "SkyGlass posted an ON Ground alert for P-8 aircraft BLKT06 at Burton, Australia.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110874082501697982"
+      },
       {
         "id": "2110826290794131830",
         "date": "2026-10-15",
@@ -194,14 +202,6 @@
         "headline": "B737 CNV4985 airborne alert at Keflavik",
         "summary": "SkyGlass posted an OFF Ground alert for B737 aircraft CNV4985 at Keflavik, Iceland.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2110673290888925528"
-      },
-      {
-        "id": "2110667913216545134",
-        "date": "2026-10-15",
-        "dateLabel": "15 OCT 2026 · UTC",
-        "headline": "B737 CNV4985 on-ground alert at Reykjanesbaer",
-        "summary": "SkyGlass posted an ON Ground alert for B737 aircraft CNV4985 at Reykjanesbaer, Iceland.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110667913216545134"
       }
     ]
   }
