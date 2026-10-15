@@ -5,6 +5,38 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2110587804954604013",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "Boeing E-4B ADFEB5 spotted",
+        "summary": "War Watch identified a Boeing E-4B with registration 74-0787 and hex ADFEB5, with no callsign listed, citing a sighting by gamermodeflex and a photo by Chris Lofting via Planespotters.net.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110587804954604013"
+      },
+      {
+        "id": "2110570272633901396",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "EAM header code 56F5M4 reported",
+        "summary": "War Watch reported an Emergency Action Message header or preamble carrying the code 56F5M4.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110570272633901396"
+      },
+      {
+        "id": "2110566496820740571",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "Three USAF radio broadcasts and four transports reported",
+        "summary": "War Watch reported three coded US Air Force radio broadcasts detected during the previous hour while four military transport aircraft were airborne over the United States simultaneously.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110566496820740571"
+      },
+      {
+        "id": "2110561631356797231",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "EAM header code 56FTM4 reported",
+        "summary": "War Watch reported an Emergency Action Message header or preamble carrying the code 56FTM4.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110561631356797231"
+      },
+      {
         "id": "2110524974087680155",
         "date": "2026-10-15",
         "dateLabel": "15 OCT 2026 · UTC",
@@ -67,38 +99,6 @@
         "headline": "E-6 Mercury AED86B spotted",
         "summary": "War Watch identified a Boeing E-6 Mercury with hex AED86B and no callsign displayed, citing a sighting by reagan0965.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2110490970793914795"
-      },
-      {
-        "id": "2110483132793135234",
-        "date": "2026-10-14",
-        "dateLabel": "14 OCT 2026 · UTC",
-        "headline": "USAF KC-46A reported from Al Udeid",
-        "summary": "War Watch identified a US Air Force Boeing KC-46A Pegasus with registration 23-46118, hex AEF421 and no callsign listed, from Al Udeid in Qatar, citing a sighting by alexgreen1767.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110483132793135234"
-      },
-      {
-        "id": "2110442444969951388",
-        "date": "2026-10-14",
-        "dateLabel": "14 OCT 2026 · UTC",
-        "headline": "Unknown aircraft or drone 11702216 spotted near UAE coast",
-        "summary": "War Watch reported an unknown aircraft or drone using callsign 11702216 and hex AE619A heading northeast along the UAE's west coast, citing a sighting by alexgreen1767.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110442444969951388"
-      },
-      {
-        "id": "2110438532292481523",
-        "date": "2026-10-14",
-        "dateLabel": "14 OCT 2026 · UTC",
-        "headline": "Ukraine power outage after reported Russian strikes",
-        "summary": "War Watch shared a BBC-sourced report that 600,000 people were without power after a second consecutive day of Russian strikes on Ukraine following the start of an energy ceasefire, with reporting credited to alexgreen1767.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110438532292481523"
-      },
-      {
-        "id": "2110420758010663235",
-        "date": "2026-10-14",
-        "dateLabel": "14 OCT 2026 · UTC",
-        "headline": "EAM header code 56XFA7 reported",
-        "summary": "War Watch reported an Emergency Action Message header or preamble carrying the code 56XFA7.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110420758010663235"
       }
     ]
   },
@@ -107,6 +107,30 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2110586490048659593",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert at Kerur",
+        "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Kerur, India. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110586490048659593"
+      },
+      {
+        "id": "2110580110726176976",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "P-8 ASY205 on-ground alert at Paya Lebar",
+        "summary": "SkyGlass posted an ON Ground alert for P-8 aircraft ASY205 at Paya Lebar, Singapore.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110580110726176976"
+      },
+      {
+        "id": "2110574732168896859",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "P-8 TRDT on-ground alert at Burton",
+        "summary": "SkyGlass posted an ON Ground alert for P-8 aircraft TRDT at Burton, Australia.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110574732168896859"
+      },
       {
         "id": "2110552483760099380",
         "date": "2026-10-15",
@@ -178,30 +202,6 @@
         "headline": "P-8 airborne alert at Lenvik",
         "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Lenvik, Norway. The callsign was shown as NA.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2110412039021560177"
-      },
-      {
-        "id": "2110408966316396590",
-        "date": "2026-10-14",
-        "dateLabel": "14 OCT 2026 · UTC",
-        "headline": "B-52 airborne alert at Red Chute",
-        "summary": "SkyGlass posted an OFF Ground alert for a military B-52 aircraft at Red Chute, Louisiana, United States. The callsign was shown as 00000000.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110408966316396590"
-      },
-      {
-        "id": "2110404754509623784",
-        "date": "2026-10-14",
-        "dateLabel": "14 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Oakleaf Plantation",
-        "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Oakleaf Plantation, Florida, United States. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110404754509623784"
-      },
-      {
-        "id": "2110400646805389653",
-        "date": "2026-10-14",
-        "dateLabel": "14 OCT 2026 · UTC",
-        "headline": "Polish air force response to Russian drones reported",
-        "summary": "SkyGlass shared a Breaking Defense report that Poland's air force is intensifying its response to Russian drones entering Polish airspace, with air defence prioritised across operations.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110400646805389653"
       }
     ]
   }
