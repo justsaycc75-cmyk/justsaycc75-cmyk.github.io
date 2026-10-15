@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2110616785858793631",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "Zelensky refinery-strike remarks reported",
+        "summary": "War Watch said its ASTRA service reported that Volodymyr Zelensky told the Financial Times Ukraine would resume strikes on Russian refineries, and said two outlets later confirmed the report.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110616785858793631"
+      },
+      {
+        "id": "2110611991169474912",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "USAF command jet, transports and presidential aircraft reported",
+        "summary": "War Watch reported a US Air Force nuclear command aircraft airborne over the continental United States alongside three heavy transport aircraft and a presidential aircraft, with eight coded radio broadcasts heard that day.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110611991169474912"
+      },
+      {
         "id": "2110587804954604013",
         "date": "2026-10-15",
         "dateLabel": "15 OCT 2026 · UTC",
@@ -83,22 +99,6 @@
         "headline": "Report says Houthis seek more Chinese missile supplies",
         "summary": "War Watch shared an Associated Press report that Yemen's Houthis are seeking additional Chinese supplies to build ballistic missiles, with reporting credited to reagan0965.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2110501313020612860"
-      },
-      {
-        "id": "2110494939075199225",
-        "date": "2026-10-14",
-        "dateLabel": "14 OCT 2026 · UTC",
-        "headline": "NATO annual nuclear exercise begins in Italy, report says",
-        "summary": "War Watch shared a Stars and Stripes report that NATO had begun its annual nuclear exercise in Italy, with reporting credited to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110494939075199225"
-      },
-      {
-        "id": "2110490970793914795",
-        "date": "2026-10-14",
-        "dateLabel": "14 OCT 2026 · UTC",
-        "headline": "E-6 Mercury AED86B spotted",
-        "summary": "War Watch identified a Boeing E-6 Mercury with hex AED86B and no callsign displayed, citing a sighting by reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110490970793914795"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2110641934666477926",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "P-8 TRDT01 on-ground alert at Burton",
+        "summary": "SkyGlass posted an ON Ground alert for P-8 aircraft TRDT01 at Burton, Australia.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110641934666477926"
+      },
+      {
+        "id": "2110640141794480523",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert at Nagalapuram",
+        "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Nagalapuram, India. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110640141794480523"
+      },
+      {
+        "id": "2110633531789430855",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "P-8 ASY205 airborne alert at Broome",
+        "summary": "SkyGlass posted an OFF Ground alert for P-8 aircraft ASY205 at Broome, Australia.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110633531789430855"
+      },
+      {
+        "id": "2110632539136168293",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "AU101 airborne alert at Yilan",
+        "summary": "SkyGlass posted an OFF Ground alert for aircraft AU101 at Yilan, Taiwan. The aircraft type was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110632539136168293"
+      },
       {
         "id": "2110586490048659593",
         "date": "2026-10-15",
@@ -170,38 +202,6 @@
         "headline": "E-6 airborne alert at Chesapeake Ranch Estates–Drum Point",
         "summary": "SkyGlass posted an OFF Ground alert for a military E-6 aircraft at Chesapeake Ranch Estates–Drum Point, Maryland, United States. The callsign was shown as NA.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2110477845382217956"
-      },
-      {
-        "id": "2110467085352538557",
-        "date": "2026-10-14",
-        "dateLabel": "14 OCT 2026 · UTC",
-        "headline": "P-8 BOE014 airborne alert at Oakleaf Plantation",
-        "summary": "SkyGlass posted an OFF Ground alert for P-8 aircraft BOE014 at Oakleaf Plantation, Florida, United States.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110467085352538557"
-      },
-      {
-        "id": "2110460899672649939",
-        "date": "2026-10-14",
-        "dateLabel": "14 OCT 2026 · UTC",
-        "headline": "F-35C arrested landing aboard future USS John F. Kennedy reported",
-        "summary": "SkyGlass shared a TWZ report that an F-35C completed the first arrested landing aboard the future USS John F. Kennedy, a Ford-class aircraft carrier.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110460899672649939"
-      },
-      {
-        "id": "2110457767135682978",
-        "date": "2026-10-14",
-        "dateLabel": "14 OCT 2026 · UTC",
-        "headline": "E-6 airborne alert at Moore",
-        "summary": "SkyGlass posted an OFF Ground alert for a military E-6 aircraft at Moore, Oklahoma, United States. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110457767135682978"
-      },
-      {
-        "id": "2110412039021560177",
-        "date": "2026-10-14",
-        "dateLabel": "14 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Lenvik",
-        "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Lenvik, Norway. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110412039021560177"
       }
     ]
   }
