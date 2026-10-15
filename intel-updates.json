@@ -5,6 +5,38 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2110524974087680155",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "C-32A AF1 spotted",
+        "summary": "War Watch identified a Boeing C-32A using callsign AF1, registration 19-0018 and hex AE4AEC, citing a sighting by reagan0965 and a photo by Brian Stewart via Planespotters.net.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110524974087680155"
+      },
+      {
+        "id": "2110521196169039913",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "Five USAF cargo aircraft, surveillance drone and radio broadcast reported",
+        "summary": "War Watch reported five US Air Force cargo aircraft airborne over the continental United States alongside a surveillance drone, with one coded military radio broadcast heard during the hour.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110521196169039913"
+      },
+      {
+        "id": "2110517420079165473",
+        "date": "2026-10-14",
+        "dateLabel": "14 OCT 2026 · UTC",
+        "headline": "Clashes involving Houthi and tribal forces reported",
+        "summary": "War Watch reported heavy clashes between Ansar Allah (Houthi) forces and local tribal fighters backed by the Nation's Shield Forces, with reporting credited to reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110517420079165473"
+      },
+      {
+        "id": "2110513568600752480",
+        "date": "2026-10-14",
+        "dateLabel": "14 OCT 2026 · UTC",
+        "headline": "USAF Boeing 747-8 SAM01 spotted",
+        "summary": "War Watch identified a US Air Force Boeing 747-8 assigned to the 89th Airlift Wing at Andrews Air Force Base, using callsign SAM01, registration 25-3300 and hex AF83F3, citing a sighting by reagan0965 and a photo by Josh M via Planespotters.net.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110513568600752480"
+      },
+      {
         "id": "2110505619362918571",
         "date": "2026-10-14",
         "dateLabel": "14 OCT 2026 · UTC",
@@ -67,38 +99,6 @@
         "headline": "EAM header code 56XFA7 reported",
         "summary": "War Watch reported an Emergency Action Message header or preamble carrying the code 56XFA7.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2110420758010663235"
-      },
-      {
-        "id": "2110403273878376705",
-        "date": "2026-10-14",
-        "dateLabel": "14 OCT 2026 · UTC",
-        "headline": "Five USAF transports, Navy drone and three broadcasts reported",
-        "summary": "War Watch reported five US Air Force transport aircraft over the United States, a US Navy surveillance drone over the Persian Gulf and three coded military radio broadcasts detected that day.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110403273878376705"
-      },
-      {
-        "id": "2110399412321026425",
-        "date": "2026-10-14",
-        "dateLabel": "14 OCT 2026 · UTC",
-        "headline": "RAF A400M RRR9946 reported from Al Minhad Air Base",
-        "summary": "War Watch identified RAF Airbus A400M Atlas RRR9946, registration ZM405 and hex 43C5DF, from Al Minhad Air Base in the UAE with no destination listed, citing a sighting by alexgreen1767.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110399412321026425"
-      },
-      {
-        "id": "2110391636526084131",
-        "date": "2026-10-14",
-        "dateLabel": "14 OCT 2026 · UTC",
-        "headline": "US Navy MQ-4C OVRLD02 spotted",
-        "summary": "War Watch identified a US Navy Northrop Grumman MQ-4C Triton using callsign OVRLD02, registration 169172 and hex AE6258, citing a sighting by alexgreen1767.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110391636526084131"
-      },
-      {
-        "id": "2110383264053530708",
-        "date": "2026-10-14",
-        "dateLabel": "14 OCT 2026 · UTC",
-        "headline": "Bahrain Royal Flight RJ100 BAH20 spotted",
-        "summary": "War Watch identified a Bahrain Royal Flight Avro RJ100 using callsign BAH20, registration A9C-KAS and hex 8940B6, from Abha Regional Airport, citing a sighting by alexgreen1767.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110383264053530708"
       }
     ]
   },
@@ -107,6 +107,30 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2110552483760099380",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "E-3TF SNTRY25 airborne alert at Helena Valley West Central",
+        "summary": "SkyGlass posted an OFF Ground alert for E-3TF aircraft SNTRY25 at Helena Valley West Central, Montana, United States.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110552483760099380"
+      },
+      {
+        "id": "2110521232210669722",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "Stratolaunch 747 carrying unseen rocket reported",
+        "summary": "SkyGlass shared a The Aviationist report that Stratolaunch's Boeing 747-400 Spirit of Mojave was spotted carrying a previously unseen rocket under its wing.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110521232210669722"
+      },
+      {
+        "id": "2110515178965987443",
+        "date": "2026-10-14",
+        "dateLabel": "14 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert at Anacortes",
+        "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Anacortes, United States. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110515178965987443"
+      },
       {
         "id": "2110478246668091637",
         "date": "2026-10-14",
@@ -178,30 +202,6 @@
         "headline": "Polish air force response to Russian drones reported",
         "summary": "SkyGlass shared a Breaking Defense report that Poland's air force is intensifying its response to Russian drones entering Polish airspace, with air defence prioritised across operations.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2110400646805389653"
-      },
-      {
-        "id": "2110372986708488231",
-        "date": "2026-10-14",
-        "dateLabel": "14 OCT 2026 · UTC",
-        "headline": "E-3TF NATO02 on-ground alert at Daganzo de Arriba",
-        "summary": "SkyGlass posted an ON Ground alert for E-3TF aircraft NATO02 at Daganzo de Arriba, Spain.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110372986708488231"
-      },
-      {
-        "id": "2110372566632137186",
-        "date": "2026-10-14",
-        "dateLabel": "14 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Covelong",
-        "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Covelong, India. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110372566632137186"
-      },
-      {
-        "id": "2110371099649122767",
-        "date": "2026-10-14",
-        "dateLabel": "14 OCT 2026 · UTC",
-        "headline": "E-3TF NATO01 airborne alert at San Felice Circeo",
-        "summary": "SkyGlass posted an OFF Ground alert for E-3TF aircraft NATO01 at San Felice Circeo, Italy.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110371099649122767"
       }
     ]
   }
