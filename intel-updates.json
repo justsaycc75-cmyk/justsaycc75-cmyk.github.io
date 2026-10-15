@@ -5,6 +5,38 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2110807285219913861",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "C-17A 03-3114 spotted from Ramstein",
+        "summary": "War Watch identified a US Air Force Boeing C-17A Globemaster III with registration 03-3114, hex AE1197 and callsign X, reported from Ramstein, Germany, citing a sighting by alexgreen1767 and a photo by Sybille Petersen via Planespotters.net.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110807285219913861"
+      },
+      {
+        "id": "2110803255953367096",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "EAM header code 56XQI5 reported",
+        "summary": "War Watch reported an Emergency Action Message header or preamble carrying the code 56XQI5.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110803255953367096"
+      },
+      {
+        "id": "2110799481121738992",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "Heavy transports, command jet and elevated radio traffic reported",
+        "summary": "War Watch reported multiple heavy-lift transport aircraft and a nuclear command aircraft airborne over the United States, with coded US Air Force radio traffic at elevated levels that day.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110799481121738992"
+      },
+      {
+        "id": "2110795468481450247",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "Yemen prime minister palace report relayed",
+        "summary": "War Watch relayed an Insider Paper report that Yemen's prime minister was in the presidential palace during a Houthi attack, citing reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110795468481450247"
+      },
+      {
         "id": "2110776873101791657",
         "date": "2026-10-15",
         "dateLabel": "15 OCT 2026 · UTC",
@@ -67,38 +99,6 @@
         "headline": "Six military aircraft and eight USAF broadcasts reported",
         "summary": "War Watch reported a quiet hour across its monitored areas, with six notable military aircraft airborne and eight coded US Air Force radio broadcasts heard that day.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2110660815082680326"
-      },
-      {
-        "id": "2110656794418729064",
-        "date": "2026-10-15",
-        "dateLabel": "15 OCT 2026 · UTC",
-        "headline": "Guided bombs reported in Kharkiv region",
-        "summary": "War Watch relayed a Ukrainian Air Force statement that guided aerial bombs had hit the Kharkiv region, and said three outlets later confirmed the report.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110656794418729064"
-      },
-      {
-        "id": "2110616785858793631",
-        "date": "2026-10-15",
-        "dateLabel": "15 OCT 2026 · UTC",
-        "headline": "Zelensky refinery-strike remarks reported",
-        "summary": "War Watch said its ASTRA service reported that Volodymyr Zelensky told the Financial Times Ukraine would resume strikes on Russian refineries, and said two outlets later confirmed the report.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110616785858793631"
-      },
-      {
-        "id": "2110611991169474912",
-        "date": "2026-10-15",
-        "dateLabel": "15 OCT 2026 · UTC",
-        "headline": "USAF command jet, transports and presidential aircraft reported",
-        "summary": "War Watch reported a US Air Force nuclear command aircraft airborne over the continental United States alongside three heavy transport aircraft and a presidential aircraft, with eight coded radio broadcasts heard that day.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110611991169474912"
-      },
-      {
-        "id": "2110587804954604013",
-        "date": "2026-10-15",
-        "dateLabel": "15 OCT 2026 · UTC",
-        "headline": "Boeing E-4B ADFEB5 spotted",
-        "summary": "War Watch identified a Boeing E-4B with registration 74-0787 and hex ADFEB5, with no callsign listed, citing a sighting by gamermodeflex and a photo by Chris Lofting via Planespotters.net.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110587804954604013"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2110826290794131830",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "E2 GRYHK44 airborne alert at Meridian",
+        "summary": "SkyGlass posted an OFF Ground alert for E2 aircraft GRYHK44 at Meridian, Mississippi, United States.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110826290794131830"
+      },
+      {
+        "id": "2110819802126098939",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert at Port Hueneme",
+        "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Port Hueneme, United States. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110819802126098939"
+      },
+      {
+        "id": "2110816215962652808",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "E6 airborne alert at Midwest City",
+        "summary": "SkyGlass posted an OFF Ground alert for a military E6 aircraft at Midwest City, Oklahoma, United States. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110816215962652808"
+      },
+      {
+        "id": "2110795270288028082",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "P-3 airborne alert at Port Hueneme",
+        "summary": "SkyGlass posted an OFF Ground alert for a military P-3 aircraft at Port Hueneme, United States. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110795270288028082"
+      },
       {
         "id": "2110782681176760376",
         "date": "2026-10-15",
@@ -170,38 +202,6 @@
         "headline": "B737 CNV4985 on-ground alert at Reykjanesbaer",
         "summary": "SkyGlass posted an ON Ground alert for B737 aircraft CNV4985 at Reykjanesbaer, Iceland.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2110667913216545134"
-      },
-      {
-        "id": "2110641934666477926",
-        "date": "2026-10-15",
-        "dateLabel": "15 OCT 2026 · UTC",
-        "headline": "P-8 TRDT01 on-ground alert at Burton",
-        "summary": "SkyGlass posted an ON Ground alert for P-8 aircraft TRDT01 at Burton, Australia.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110641934666477926"
-      },
-      {
-        "id": "2110640141794480523",
-        "date": "2026-10-15",
-        "dateLabel": "15 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Nagalapuram",
-        "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Nagalapuram, India. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110640141794480523"
-      },
-      {
-        "id": "2110633531789430855",
-        "date": "2026-10-15",
-        "dateLabel": "15 OCT 2026 · UTC",
-        "headline": "P-8 ASY205 airborne alert at Broome",
-        "summary": "SkyGlass posted an OFF Ground alert for P-8 aircraft ASY205 at Broome, Australia.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110633531789430855"
-      },
-      {
-        "id": "2110632539136168293",
-        "date": "2026-10-15",
-        "dateLabel": "15 OCT 2026 · UTC",
-        "headline": "AU101 airborne alert at Yilan",
-        "summary": "SkyGlass posted an OFF Ground alert for aircraft AU101 at Yilan, Taiwan. The aircraft type was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110632539136168293"
       }
     ]
   }
