@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2110776873101791657",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "Ukraine Patriot interceptor shortage reported",
+        "summary": "War Watch said Ukrainska Pravda reported, citing CNN, that Ukraine had run out of interceptor missiles for US Patriot air-defence systems, and said two outlets later confirmed the report.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110776873101791657"
+      },
+      {
+        "id": "2110767520474968570",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "EAM header code QH6VL3 reported again",
+        "summary": "War Watch reported another Emergency Action Message header or preamble carrying the code QH6VL3.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110767520474968570"
+      },
+      {
+        "id": "2110762410059440358",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "EAM header code QH6VL3 reported",
+        "summary": "War Watch reported an Emergency Action Message header or preamble carrying the code QH6VL3 at 09:04 UTC, citing reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110762410059440358"
+      },
+      {
+        "id": "2110751414913810456",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "Six military cargo aircraft and overseas sightings reported",
+        "summary": "War Watch reported six military cargo aircraft airborne over the United States, with additional aircraft sightings near Ramstein Air Base and Tokyo during the preceding few hours.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110751414913810456"
+      },
+      {
+        "id": "2110747048752353651",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "Explosions in Aden reported",
+        "summary": "War Watch said an Al Jazeera Arabic correspondent reported hearing explosions in Aden, southern Yemen, and said two outlets later confirmed the report.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110747048752353651"
+      },
+      {
         "id": "2110706114895507613",
         "date": "2026-10-15",
         "dateLabel": "15 OCT 2026 · UTC",
@@ -59,46 +99,6 @@
         "headline": "Boeing E-4B ADFEB5 spotted",
         "summary": "War Watch identified a Boeing E-4B with registration 74-0787 and hex ADFEB5, with no callsign listed, citing a sighting by gamermodeflex and a photo by Chris Lofting via Planespotters.net.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2110587804954604013"
-      },
-      {
-        "id": "2110570272633901396",
-        "date": "2026-10-15",
-        "dateLabel": "15 OCT 2026 · UTC",
-        "headline": "EAM header code 56F5M4 reported",
-        "summary": "War Watch reported an Emergency Action Message header or preamble carrying the code 56F5M4.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110570272633901396"
-      },
-      {
-        "id": "2110566496820740571",
-        "date": "2026-10-15",
-        "dateLabel": "15 OCT 2026 · UTC",
-        "headline": "Three USAF radio broadcasts and four transports reported",
-        "summary": "War Watch reported three coded US Air Force radio broadcasts detected during the previous hour while four military transport aircraft were airborne over the United States simultaneously.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110566496820740571"
-      },
-      {
-        "id": "2110561631356797231",
-        "date": "2026-10-15",
-        "dateLabel": "15 OCT 2026 · UTC",
-        "headline": "EAM header code 56FTM4 reported",
-        "summary": "War Watch reported an Emergency Action Message header or preamble carrying the code 56FTM4.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110561631356797231"
-      },
-      {
-        "id": "2110524974087680155",
-        "date": "2026-10-15",
-        "dateLabel": "15 OCT 2026 · UTC",
-        "headline": "C-32A AF1 spotted",
-        "summary": "War Watch identified a Boeing C-32A using callsign AF1, registration 19-0018 and hex AE4AEC, citing a sighting by reagan0965 and a photo by Brian Stewart via Planespotters.net.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110524974087680155"
-      },
-      {
-        "id": "2110521196169039913",
-        "date": "2026-10-15",
-        "dateLabel": "15 OCT 2026 · UTC",
-        "headline": "Five USAF cargo aircraft, surveillance drone and radio broadcast reported",
-        "summary": "War Watch reported five US Air Force cargo aircraft airborne over the continental United States alongside a surveillance drone, with one coded military radio broadcast heard during the hour.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110521196169039913"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2110782681176760376",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert at Anacortes",
+        "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Anacortes, United States. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110782681176760376"
+      },
+      {
+        "id": "2110780810462736865",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert at Oak Harbor",
+        "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Oak Harbor, United States. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110780810462736865"
+      },
+      {
+        "id": "2110778941891805519",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "Second P-8 airborne alert at Oak Harbor",
+        "summary": "SkyGlass posted another OFF Ground alert for a military P-8 aircraft at Oak Harbor, United States. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110778941891805519"
+      },
+      {
+        "id": "2110774794136260902",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "E2 STLJW01 airborne alert at Chesapeake Ranch Estates",
+        "summary": "SkyGlass posted an OFF Ground alert for military E2 aircraft STLJW01 at Chesapeake Ranch Estates, United States.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110774794136260902"
+      },
       {
         "id": "2110686069708435724",
         "date": "2026-10-15",
@@ -170,38 +202,6 @@
         "headline": "AU101 airborne alert at Yilan",
         "summary": "SkyGlass posted an OFF Ground alert for aircraft AU101 at Yilan, Taiwan. The aircraft type was shown as NA.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2110632539136168293"
-      },
-      {
-        "id": "2110586490048659593",
-        "date": "2026-10-15",
-        "dateLabel": "15 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Kerur",
-        "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Kerur, India. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110586490048659593"
-      },
-      {
-        "id": "2110580110726176976",
-        "date": "2026-10-15",
-        "dateLabel": "15 OCT 2026 · UTC",
-        "headline": "P-8 ASY205 on-ground alert at Paya Lebar",
-        "summary": "SkyGlass posted an ON Ground alert for P-8 aircraft ASY205 at Paya Lebar, Singapore.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110580110726176976"
-      },
-      {
-        "id": "2110574732168896859",
-        "date": "2026-10-15",
-        "dateLabel": "15 OCT 2026 · UTC",
-        "headline": "P-8 TRDT on-ground alert at Burton",
-        "summary": "SkyGlass posted an ON Ground alert for P-8 aircraft TRDT at Burton, Australia.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110574732168896859"
-      },
-      {
-        "id": "2110552483760099380",
-        "date": "2026-10-15",
-        "dateLabel": "15 OCT 2026 · UTC",
-        "headline": "E-3TF SNTRY25 airborne alert at Helena Valley West Central",
-        "summary": "SkyGlass posted an OFF Ground alert for E-3TF aircraft SNTRY25 at Helena Valley West Central, Montana, United States.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110552483760099380"
       }
     ]
   }
