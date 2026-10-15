@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2110660815082680326",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "Six military aircraft and eight USAF broadcasts reported",
+        "summary": "War Watch reported a quiet hour across its monitored areas, with six notable military aircraft airborne and eight coded US Air Force radio broadcasts heard that day.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110660815082680326"
+      },
+      {
+        "id": "2110656794418729064",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "Guided bombs reported in Kharkiv region",
+        "summary": "War Watch relayed a Ukrainian Air Force statement that guided aerial bombs had hit the Kharkiv region, and said three outlets later confirmed the report.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110656794418729064"
+      },
+      {
         "id": "2110616785858793631",
         "date": "2026-10-15",
         "dateLabel": "15 OCT 2026 · UTC",
@@ -83,22 +99,6 @@
         "headline": "USAF Boeing 747-8 SAM01 spotted",
         "summary": "War Watch identified a US Air Force Boeing 747-8 assigned to the 89th Airlift Wing at Andrews Air Force Base, using callsign SAM01, registration 25-3300 and hex AF83F3, citing a sighting by reagan0965 and a photo by Josh M via Planespotters.net.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2110513568600752480"
-      },
-      {
-        "id": "2110505619362918571",
-        "date": "2026-10-14",
-        "dateLabel": "14 OCT 2026 · UTC",
-        "headline": "WC-135R AE037F spotted",
-        "summary": "War Watch identified a Boeing WC-135R with registration 64-14829 and hex AE037F, broadcasting no callsign, citing a sighting by reagan0965 and a photo by Nikoli Sparkes via Planespotters.net.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110505619362918571"
-      },
-      {
-        "id": "2110501313020612860",
-        "date": "2026-10-14",
-        "dateLabel": "14 OCT 2026 · UTC",
-        "headline": "Report says Houthis seek more Chinese missile supplies",
-        "summary": "War Watch shared an Associated Press report that Yemen's Houthis are seeking additional Chinese supplies to build ballistic missiles, with reporting credited to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110501313020612860"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2110686069708435724",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "E737 BOE38 on-ground alert at Lossiemouth",
+        "summary": "SkyGlass posted an ON Ground alert for E737 aircraft BOE38 at Lossiemouth, United Kingdom.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110686069708435724"
+      },
+      {
+        "id": "2110684271757160562",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "P-8 ASY205 on-ground alert at Burton",
+        "summary": "SkyGlass posted an ON Ground alert for P-8 aircraft ASY205 at Burton, Australia.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110684271757160562"
+      },
+      {
+        "id": "2110673290888925528",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "B737 CNV4985 airborne alert at Keflavik",
+        "summary": "SkyGlass posted an OFF Ground alert for B737 aircraft CNV4985 at Keflavik, Iceland.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110673290888925528"
+      },
+      {
+        "id": "2110667913216545134",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "B737 CNV4985 on-ground alert at Reykjanesbaer",
+        "summary": "SkyGlass posted an ON Ground alert for B737 aircraft CNV4985 at Reykjanesbaer, Iceland.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110667913216545134"
+      },
       {
         "id": "2110641934666477926",
         "date": "2026-10-15",
@@ -170,38 +202,6 @@
         "headline": "E-3TF SNTRY25 airborne alert at Helena Valley West Central",
         "summary": "SkyGlass posted an OFF Ground alert for E-3TF aircraft SNTRY25 at Helena Valley West Central, Montana, United States.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2110552483760099380"
-      },
-      {
-        "id": "2110521232210669722",
-        "date": "2026-10-15",
-        "dateLabel": "15 OCT 2026 · UTC",
-        "headline": "Stratolaunch 747 carrying unseen rocket reported",
-        "summary": "SkyGlass shared a The Aviationist report that Stratolaunch's Boeing 747-400 Spirit of Mojave was spotted carrying a previously unseen rocket under its wing.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110521232210669722"
-      },
-      {
-        "id": "2110515178965987443",
-        "date": "2026-10-14",
-        "dateLabel": "14 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Anacortes",
-        "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Anacortes, United States. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110515178965987443"
-      },
-      {
-        "id": "2110478246668091637",
-        "date": "2026-10-14",
-        "dateLabel": "14 OCT 2026 · UTC",
-        "headline": "E-6 airborne alert at Suisun",
-        "summary": "SkyGlass posted an OFF Ground alert for a military E-6 aircraft at Suisun, California, United States. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110478246668091637"
-      },
-      {
-        "id": "2110477845382217956",
-        "date": "2026-10-14",
-        "dateLabel": "14 OCT 2026 · UTC",
-        "headline": "E-6 airborne alert at Chesapeake Ranch Estates–Drum Point",
-        "summary": "SkyGlass posted an OFF Ground alert for a military E-6 aircraft at Chesapeake Ranch Estates–Drum Point, Maryland, United States. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110477845382217956"
       }
     ]
   }
