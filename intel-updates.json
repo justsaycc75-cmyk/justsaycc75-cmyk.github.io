@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2110993032027721920",
+        "date": "2026-10-16",
+        "dateLabel": "16 OCT 2026 · UTC",
+        "headline": "USAF transports and surveillance aircraft reported airborne",
+        "summary": "War Watch reported several US Air Force transport aircraft and a surveillance aircraft airborne over the United States, with no coded radio broadcasts detected during that hour.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110993032027721920"
+      },
+      {
         "id": "2110947730814091533",
         "date": "2026-10-16",
         "dateLabel": "16 OCT 2026 · UTC",
@@ -91,14 +99,6 @@
         "headline": "Iranian armored vehicle movement reported near Iraqi border",
         "summary": "War Watch relayed a Monitor X report of Iranian armored vehicles and tanks moving in southwestern Iran near the Iraqi border.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2110838942626975884"
-      },
-      {
-        "id": "2110807285219913861",
-        "date": "2026-10-15",
-        "dateLabel": "15 OCT 2026 · UTC",
-        "headline": "C-17A 03-3114 spotted from Ramstein",
-        "summary": "War Watch identified a US Air Force Boeing C-17A Globemaster III with registration 03-3114, hex AE1197 and callsign X, reported from Ramstein, Germany, citing a sighting by alexgreen1767 and a photo by Sybille Petersen via Planespotters.net.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110807285219913861"
       }
     ]
   },
@@ -107,6 +107,30 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2111006374431785009",
+        "date": "2026-10-16",
+        "dateLabel": "16 OCT 2026 · UTC",
+        "headline": "E3TF on-ground alert at Brunssum",
+        "summary": "SkyGlass posted an ON Ground alert for an E3TF aircraft at Brunssum, Netherlands. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2111006374431785009"
+      },
+      {
+        "id": "2110988220787835379",
+        "date": "2026-10-16",
+        "dateLabel": "16 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert at Nagari",
+        "summary": "SkyGlass posted an OFF Ground alert for a P-8 aircraft at Nagari, India. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110988220787835379"
+      },
+      {
+        "id": "2110968575590559961",
+        "date": "2026-10-16",
+        "dateLabel": "16 OCT 2026 · UTC",
+        "headline": "P-8 TRDNT26 airborne alert at Uthukkottai",
+        "summary": "SkyGlass posted an OFF Ground alert for P-8 aircraft TRDNT26 at Uthukkottai, India.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110968575590559961"
+      },
       {
         "id": "2110928734651920811",
         "date": "2026-10-16",
@@ -178,30 +202,6 @@
         "headline": "P-3 airborne alert at Port Hueneme",
         "summary": "SkyGlass posted an OFF Ground alert for a military P-3 aircraft at Port Hueneme, United States. The callsign was shown as NA.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2110795270288028082"
-      },
-      {
-        "id": "2110782681176760376",
-        "date": "2026-10-15",
-        "dateLabel": "15 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Anacortes",
-        "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Anacortes, United States. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110782681176760376"
-      },
-      {
-        "id": "2110780810462736865",
-        "date": "2026-10-15",
-        "dateLabel": "15 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Oak Harbor",
-        "summary": "SkyGlass posted an OFF Ground alert for a military P-8 aircraft at Oak Harbor, United States. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110780810462736865"
-      },
-      {
-        "id": "2110778941891805519",
-        "date": "2026-10-15",
-        "dateLabel": "15 OCT 2026 · UTC",
-        "headline": "Second P-8 airborne alert at Oak Harbor",
-        "summary": "SkyGlass posted another OFF Ground alert for a military P-8 aircraft at Oak Harbor, United States. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110778941891805519"
       }
     ]
   }
