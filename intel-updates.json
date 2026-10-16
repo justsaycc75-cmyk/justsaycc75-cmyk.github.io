@@ -5,6 +5,54 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2111227075298292071",
+        "date": "2026-10-16",
+        "dateLabel": "16 OCT 2026 · UTC",
+        "headline": "Dammam air-traffic disruption claim relayed",
+        "summary": "War Watch relayed an OSINTWarfare report of air-traffic disruptions over Dammam and an apparent Ansar Allah attack on King Fahd International Airport, citing reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2111227075298292071"
+      },
+      {
+        "id": "2111223048808337848",
+        "date": "2026-10-16",
+        "dateLabel": "16 OCT 2026 · UTC",
+        "headline": "US cargo and tanker aircraft activity reported",
+        "summary": "War Watch reported multiple U.S. military cargo and refuelling aircraft airborne over the continental United States and the Middle East, including at least five tankers near the Persian Gulf.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2111223048808337848"
+      },
+      {
+        "id": "2111219025816502366",
+        "date": "2026-10-16",
+        "dateLabel": "16 OCT 2026 · UTC",
+        "headline": "VC-25A with hex ADFDF9 spotted",
+        "summary": "War Watch reported a Boeing VC-25A with no callsign, hex ADFDF9 and registration 92-9000, citing a sighting by reagan0965 and a photo by Ege Şanda via Planespotters.net.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2111219025816502366"
+      },
+      {
+        "id": "2111215000735854769",
+        "date": "2026-10-16",
+        "dateLabel": "16 OCT 2026 · UTC",
+        "headline": "Reported PJAK attacks in Kermanshah relayed",
+        "summary": "War Watch relayed a report that the Iranian Kurdish separatist group PJAK was attacking several towns in Kermanshah Province, western Iran, citing reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2111215000735854769"
+      },
+      {
+        "id": "2111200149355552987",
+        "date": "2026-10-16",
+        "dateLabel": "16 OCT 2026 · UTC",
+        "headline": "KC-46A activity south of Kish Island reported",
+        "summary": "War Watch reported a U.S. Air Force Boeing KC-46A Pegasus, registration 11-46059 and hex AE5FA6, from Al Udeid, Qatar, and described its operation as 50 kilometres south of Kish Island, Iran, citing alexgreen1767.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2111200149355552987"
+      },
+      {
+        "id": "2111192351339135339",
+        "date": "2026-10-16",
+        "dateLabel": "16 OCT 2026 · UTC",
+        "headline": "C-5M RCH2080 spotted from Burgas",
+        "summary": "War Watch reported a U.S. Air Force Lockheed C-5M Super Galaxy using callsign RCH2080, registration 86-0011 and hex AE0568, with Burgas, Bulgaria shown as its origin and the destination as N/A.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2111192351339135339"
+      },
+      {
         "id": "2111180627743498660",
         "date": "2026-10-16",
         "dateLabel": "16 OCT 2026 · UTC",
@@ -51,54 +99,6 @@
         "headline": "C-32A VENUS62 spotted",
         "summary": "War Watch reported a Boeing C-32A using callsign VENUS62, hex ADFEB7 and registration 98-0001, citing a sighting by reagan0965 and a photo by Donald e Moore via Planespotters.net.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2111144534482571438"
-      },
-      {
-        "id": "2111140507527057837",
-        "date": "2026-10-16",
-        "dateLabel": "16 OCT 2026 · UTC",
-        "headline": "Putin border security-zone statement reported",
-        "summary": "War Watch reported that Vladimir Putin said Russia is establishing a “security zone” inside Ukraine along the border and that it would not be negotiable in future peace talks.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2111140507527057837"
-      },
-      {
-        "id": "2111133961766260862",
-        "date": "2026-10-16",
-        "dateLabel": "16 OCT 2026 · UTC",
-        "headline": "Gerasimov statement on strikes relayed",
-        "summary": "War Watch cited Gerasimov in reporting that Russian Armed Forces had begun large-scale strikes on Ukraine’s energy facilities.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2111133961766260862"
-      },
-      {
-        "id": "2111130191766450574",
-        "date": "2026-10-16",
-        "dateLabel": "16 OCT 2026 · UTC",
-        "headline": "Six high-priority US military aircraft reported airborne",
-        "summary": "War Watch reported six high-priority US military aircraft airborne over the continental United States, including a nuclear command aircraft and a reconnaissance jet designed to track missile launches.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2111130191766450574"
-      },
-      {
-        "id": "2111124902472241176",
-        "date": "2026-10-16",
-        "dateLabel": "16 OCT 2026 · UTC",
-        "headline": "First Navy C-130J-30 for TACAMO program reported",
-        "summary": "War Watch reported that the U.S. Navy received its first C-130J-30 Super Hercules for the TACAMO program and said the aircraft would be converted.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2111124902472241176"
-      },
-      {
-        "id": "2111120975659950120",
-        "date": "2026-10-16",
-        "dateLabel": "16 OCT 2026 · UTC",
-        "headline": "Boeing E-6B with hex AFF778 spotted",
-        "summary": "War Watch reported a Boeing E-6B with hex AFF778, citing a sighting by TruthSeekr60.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2111120975659950120"
-      },
-      {
-        "id": "2111096465107894351",
-        "date": "2026-10-16",
-        "dateLabel": "16 OCT 2026 · UTC",
-        "headline": "Patriot interceptor stock for Ukraine winter relayed",
-        "summary": "War Watch relayed a report that President Volodymyr Zelenskyy said enough PAC-2 and PAC-3 Patriot interceptors are in Europe to carry Ukraine through the winter, citing reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2111096465107894351"
       }
     ]
   },
@@ -107,6 +107,14 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2111216147785773167",
+        "date": "2026-10-16",
+        "dateLabel": "16 OCT 2026 · UTC",
+        "headline": "P-8 BLKT24 on-ground alert at Mount Louisa",
+        "summary": "SkyGlass posted an ON Ground alert for P-8 aircraft BLKT24 at Mount Louisa, Australia.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2111216147785773167"
+      },
       {
         "id": "2111178256749584894",
         "date": "2026-10-16",
@@ -194,14 +202,6 @@
         "headline": "E-2 GRYHK01 airborne alert at Norfolk",
         "summary": "SkyGlass posted an OFF Ground alert for E-2 aircraft GRYHK01 at Norfolk, Virginia, United States.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2111103306546163824"
-      },
-      {
-        "id": "2111102694551089569",
-        "date": "2026-10-16",
-        "dateLabel": "16 OCT 2026 · UTC",
-        "headline": "B-52 airborne alert at Bossier City",
-        "summary": "SkyGlass posted an OFF Ground alert for a B-52 aircraft at Bossier City, Louisiana, United States. The callsign was shown as 00000000.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2111102694551089569"
       }
     ]
   }
