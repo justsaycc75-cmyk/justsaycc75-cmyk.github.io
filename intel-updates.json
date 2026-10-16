@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2110947730814091533",
+        "date": "2026-10-16",
+        "dateLabel": "16 OCT 2026 · UTC",
+        "headline": "USAF transports and surveillance aircraft activity reported",
+        "summary": "War Watch reported US Air Force transport aircraft and a surveillance jet airborne over the continental United States, describing activity as slightly elevated based on recent reports.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110947730814091533"
+      },
+      {
+        "id": "2110922938039816670",
+        "date": "2026-10-16",
+        "dateLabel": "16 OCT 2026 · UTC",
+        "headline": "Rubio accountability demand over explosives shipment relayed",
+        "summary": "War Watch relayed a report that Rubio urged Aoun to hold accountable those who ordered, financed and directed a shipment of hundreds of kilograms of explosives. The post did not identify the shipment's stated origin.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110922938039816670"
+      },
+      {
         "id": "2110902207751008432",
         "date": "2026-10-16",
         "dateLabel": "16 OCT 2026 · UTC",
@@ -83,22 +99,6 @@
         "headline": "C-17A 03-3114 spotted from Ramstein",
         "summary": "War Watch identified a US Air Force Boeing C-17A Globemaster III with registration 03-3114, hex AE1197 and callsign X, reported from Ramstein, Germany, citing a sighting by alexgreen1767 and a photo by Sybille Petersen via Planespotters.net.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2110807285219913861"
-      },
-      {
-        "id": "2110803255953367096",
-        "date": "2026-10-15",
-        "dateLabel": "15 OCT 2026 · UTC",
-        "headline": "EAM header code 56XQI5 reported",
-        "summary": "War Watch reported an Emergency Action Message header or preamble carrying the code 56XQI5.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110803255953367096"
-      },
-      {
-        "id": "2110799481121738992",
-        "date": "2026-10-15",
-        "dateLabel": "15 OCT 2026 · UTC",
-        "headline": "Heavy transports, command jet and elevated radio traffic reported",
-        "summary": "War Watch reported multiple heavy-lift transport aircraft and a nuclear command aircraft airborne over the United States, with coded US Air Force radio traffic at elevated levels that day.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110799481121738992"
       }
     ]
   },
@@ -107,6 +107,14 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2110928734651920811",
+        "date": "2026-10-16",
+        "dateLabel": "16 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert at Te Hapara",
+        "summary": "SkyGlass posted an OFF Ground alert for a P-8 aircraft at Te Hapara, New Zealand. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110928734651920811"
+      },
       {
         "id": "2110902786393079885",
         "date": "2026-10-16",
@@ -194,14 +202,6 @@
         "headline": "Second P-8 airborne alert at Oak Harbor",
         "summary": "SkyGlass posted another OFF Ground alert for a military P-8 aircraft at Oak Harbor, United States. The callsign was shown as NA.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2110778941891805519"
-      },
-      {
-        "id": "2110774794136260902",
-        "date": "2026-10-15",
-        "dateLabel": "15 OCT 2026 · UTC",
-        "headline": "E2 STLJW01 airborne alert at Chesapeake Ranch Estates",
-        "summary": "SkyGlass posted an OFF Ground alert for military E2 aircraft STLJW01 at Chesapeake Ranch Estates, United States.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110774794136260902"
       }
     ]
   }
