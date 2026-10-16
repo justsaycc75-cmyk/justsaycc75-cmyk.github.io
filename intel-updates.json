@@ -5,6 +5,38 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2111096465107894351",
+        "date": "2026-10-16",
+        "dateLabel": "16 OCT 2026 · UTC",
+        "headline": "Patriot interceptor stock for Ukraine winter relayed",
+        "summary": "War Watch relayed a report that President Volodymyr Zelenskyy said enough PAC-2 and PAC-3 Patriot interceptors are in Europe to carry Ukraine through the winter, citing reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2111096465107894351"
+      },
+      {
+        "id": "2111092437720383953",
+        "date": "2026-10-16",
+        "dateLabel": "16 OCT 2026 · UTC",
+        "headline": "EAM header QHZJKP reported",
+        "summary": "War Watch posted an EAM header and preamble report with header code QHZJKP and a displayed time of 7:35 AM.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2111092437720383953"
+      },
+      {
+        "id": "2111088662590951721",
+        "date": "2026-10-16",
+        "dateLabel": "16 OCT 2026 · UTC",
+        "headline": "US sanctions on Cuban bank relayed",
+        "summary": "War Watch relayed an Insider Paper report that the United States sanctioned a Cuban bank accused of ties to an Iranian bank, citing reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2111088662590951721"
+      },
+      {
+        "id": "2111084889097265504",
+        "date": "2026-10-16",
+        "dateLabel": "16 OCT 2026 · UTC",
+        "headline": "US, NATO and British aircraft activity reported",
+        "summary": "War Watch reported four US Air Force transport aircraft airborne over the North Sea and the United States, along with a NATO surveillance aircraft and a British surveillance drone operating in the region.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2111084889097265504"
+      },
+      {
         "id": "2111039592178626943",
         "date": "2026-10-16",
         "dateLabel": "16 OCT 2026 · UTC",
@@ -67,38 +99,6 @@
         "headline": "WC-135R FENIX31 spotted",
         "summary": "War Watch reported a Boeing WC-135R using callsign FENIX31, hex AE07C6 and registration 64-14831, citing a sighting by reagan0965 and a photo by Thomas Walker via Planespotters.net.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2110881994296999996"
-      },
-      {
-        "id": "2110878016502931902",
-        "date": "2026-10-15",
-        "dateLabel": "15 OCT 2026 · UTC",
-        "headline": "Ukrainian drone raid and explosions in Moscow reported",
-        "summary": "War Watch reported an ongoing Ukrainian drone raid targeting Moscow and numerous explosions in the Moscow area, citing reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110878016502931902"
-      },
-      {
-        "id": "2110873097188282728",
-        "date": "2026-10-15",
-        "dateLabel": "15 OCT 2026 · UTC",
-        "headline": "Boeing E-6 Mercury AEBA38 spotted",
-        "summary": "War Watch reported a Boeing E-6 Mercury with hex AEBA38 and no callsign, citing a sighting by reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110873097188282728"
-      },
-      {
-        "id": "2110861113940131901",
-        "date": "2026-10-15",
-        "dateLabel": "15 OCT 2026 · UTC",
-        "headline": "RC-135V Rivet Joint HOOVR92 spotted",
-        "summary": "War Watch reported a Boeing RC-135V Rivet Joint using callsign HOOVR92, hex AE01CA and registration 63-9792, citing a sighting by reagan0965 and a photo by EdwinS via Planespotters.net.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110861113940131901"
-      },
-      {
-        "id": "2110853307979743547",
-        "date": "2026-10-15",
-        "dateLabel": "15 OCT 2026 · UTC",
-        "headline": "Transport, surveillance and radio activity reported",
-        "summary": "War Watch reported US military transport aircraft and a surveillance aircraft airborne over the continental United States, with 23 coded radio broadcasts heard that day and none during the preceding two hours.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110853307979743547"
       }
     ]
   },
@@ -107,6 +107,70 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2111097400949461068",
+        "date": "2026-10-16",
+        "dateLabel": "16 OCT 2026 · UTC",
+        "headline": "E-3CF APACHE airborne alert at Penaflor",
+        "summary": "SkyGlass posted an OFF Ground alert for E-3CF aircraft APACHE at Penaflor, Chile.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2111097400949461068"
+      },
+      {
+        "id": "2111093753016385615",
+        "date": "2026-10-16",
+        "dateLabel": "16 OCT 2026 · UTC",
+        "headline": "E6 on-ground alert at Midwest City",
+        "summary": "SkyGlass posted an ON Ground alert for an E6 aircraft at Midwest City, Oklahoma, United States. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2111093753016385615"
+      },
+      {
+        "id": "2111089915098272006",
+        "date": "2026-10-16",
+        "dateLabel": "16 OCT 2026 · UTC",
+        "headline": "E3TF NATO02 on-ground alert at Daganzo de Arriba",
+        "summary": "SkyGlass posted an ON Ground alert for E3TF aircraft NATO02 at Daganzo de Arriba, Spain.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2111089915098272006"
+      },
+      {
+        "id": "2111089716804157537",
+        "date": "2026-10-16",
+        "dateLabel": "16 OCT 2026 · UTC",
+        "headline": "E6 airborne alert at Lexington Park",
+        "summary": "SkyGlass posted an OFF Ground alert for an E6 aircraft at Lexington Park, Maryland, United States. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2111089716804157537"
+      },
+      {
+        "id": "2111084462045806729",
+        "date": "2026-10-16",
+        "dateLabel": "16 OCT 2026 · UTC",
+        "headline": "B737 CNV4985 on-ground alert at White Settlement",
+        "summary": "SkyGlass posted an ON Ground alert for B737 aircraft CNV4985 at White Settlement, Texas, United States.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2111084462045806729"
+      },
+      {
+        "id": "2111077043479761092",
+        "date": "2026-10-16",
+        "dateLabel": "16 OCT 2026 · UTC",
+        "headline": "P-8 JG46S airborne alert at Gwadar",
+        "summary": "SkyGlass posted an OFF Ground alert for P-8 aircraft JG46S at Gwadar, Pakistan.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2111077043479761092"
+      },
+      {
+        "id": "2111064997304353026",
+        "date": "2026-10-16",
+        "dateLabel": "16 OCT 2026 · UTC",
+        "headline": "Custom F-35 upgrade report highlighted",
+        "summary": "SkyGlass highlighted a Defence Blog report that an unidentified foreign government is paying $18.8 million to customize its F-35 aircraft.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2111064997304353026"
+      },
+      {
+        "id": "2111064997128229228",
+        "date": "2026-10-16",
+        "dateLabel": "16 OCT 2026 · UTC",
+        "headline": "Anka 3 production expansion highlighted",
+        "summary": "SkyGlass highlighted a Breaking Defense report that Turkish Aerospace is adding an Anka 3 production line in Ankara and aims to deliver one aircraft every five months.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2111064997128229228"
+      },
       {
         "id": "2111052862906097886",
         "date": "2026-10-16",
@@ -138,70 +202,6 @@
         "headline": "P-3 LOBO02 airborne alert at Vidigueira",
         "summary": "SkyGlass posted an OFF Ground alert for P-3 aircraft LOBO02 at Vidigueira, Portugal.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2111045327058874826"
-      },
-      {
-        "id": "2111029702102069485",
-        "date": "2026-10-16",
-        "dateLabel": "16 OCT 2026 · UTC",
-        "headline": "P-8 CI123 airborne alert at Ulsan",
-        "summary": "SkyGlass posted an OFF Ground alert for P-8 aircraft CI123 at Ulsan, South Korea.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2111029702102069485"
-      },
-      {
-        "id": "2111014459988664549",
-        "date": "2026-10-16",
-        "dateLabel": "16 OCT 2026 · UTC",
-        "headline": "E3TF on-ground alert at Geilenkirchen",
-        "summary": "SkyGlass posted an ON Ground alert for an E3TF aircraft at Geilenkirchen, Germany. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2111014459988664549"
-      },
-      {
-        "id": "2111006374431785009",
-        "date": "2026-10-16",
-        "dateLabel": "16 OCT 2026 · UTC",
-        "headline": "E3TF on-ground alert at Brunssum",
-        "summary": "SkyGlass posted an ON Ground alert for an E3TF aircraft at Brunssum, Netherlands. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2111006374431785009"
-      },
-      {
-        "id": "2110988220787835379",
-        "date": "2026-10-16",
-        "dateLabel": "16 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Nagari",
-        "summary": "SkyGlass posted an OFF Ground alert for a P-8 aircraft at Nagari, India. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110988220787835379"
-      },
-      {
-        "id": "2110968575590559961",
-        "date": "2026-10-16",
-        "dateLabel": "16 OCT 2026 · UTC",
-        "headline": "P-8 TRDNT26 airborne alert at Uthukkottai",
-        "summary": "SkyGlass posted an OFF Ground alert for P-8 aircraft TRDNT26 at Uthukkottai, India.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110968575590559961"
-      },
-      {
-        "id": "2110928734651920811",
-        "date": "2026-10-16",
-        "dateLabel": "16 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Te Hapara",
-        "summary": "SkyGlass posted an OFF Ground alert for a P-8 aircraft at Te Hapara, New Zealand. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110928734651920811"
-      },
-      {
-        "id": "2110902786393079885",
-        "date": "2026-10-16",
-        "dateLabel": "16 OCT 2026 · UTC",
-        "headline": "AU101 airborne alert at Shimen",
-        "summary": "SkyGlass posted an OFF Ground alert for aircraft AU101 at Shimen, Taiwan. The aircraft type was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110902786393079885"
-      },
-      {
-        "id": "2110901989533954105",
-        "date": "2026-10-16",
-        "dateLabel": "16 OCT 2026 · UTC",
-        "headline": "P-8 on-ground alert at Darwin",
-        "summary": "SkyGlass posted an ON Ground alert for a P-8 aircraft at Darwin, Australia. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110901989533954105"
       }
     ]
   }
