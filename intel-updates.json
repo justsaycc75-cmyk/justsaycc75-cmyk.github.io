@@ -5,6 +5,38 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2110902207751008432",
+        "date": "2026-10-16",
+        "dateLabel": "16 OCT 2026 · UTC",
+        "headline": "Six US military transports and additional aircraft activity reported",
+        "summary": "War Watch reported six military transport aircraft airborne over the United States, along with a Navy surveillance jet, an atmospheric-sampling aircraft and a distress signal from a US Air Force aircraft.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110902207751008432"
+      },
+      {
+        "id": "2110898318054183197",
+        "date": "2026-10-16",
+        "dateLabel": "16 OCT 2026 · UTC",
+        "headline": "White House decision on Ukraine Starshield service relayed",
+        "summary": "War Watch relayed an OSINTdefender report that the decision to limit the Starshield satellite service used by Ukraine's military came from inside the White House, citing reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110898318054183197"
+      },
+      {
+        "id": "2110881994296999996",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "WC-135R FENIX31 spotted",
+        "summary": "War Watch reported a Boeing WC-135R using callsign FENIX31, hex AE07C6 and registration 64-14831, citing a sighting by reagan0965 and a photo by Thomas Walker via Planespotters.net.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110881994296999996"
+      },
+      {
+        "id": "2110878016502931902",
+        "date": "2026-10-15",
+        "dateLabel": "15 OCT 2026 · UTC",
+        "headline": "Ukrainian drone raid and explosions in Moscow reported",
+        "summary": "War Watch reported an ongoing Ukrainian drone raid targeting Moscow and numerous explosions in the Moscow area, citing reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2110878016502931902"
+      },
+      {
         "id": "2110873097188282728",
         "date": "2026-10-15",
         "dateLabel": "15 OCT 2026 · UTC",
@@ -67,38 +99,6 @@
         "headline": "Heavy transports, command jet and elevated radio traffic reported",
         "summary": "War Watch reported multiple heavy-lift transport aircraft and a nuclear command aircraft airborne over the United States, with coded US Air Force radio traffic at elevated levels that day.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2110799481121738992"
-      },
-      {
-        "id": "2110795468481450247",
-        "date": "2026-10-15",
-        "dateLabel": "15 OCT 2026 · UTC",
-        "headline": "Yemen prime minister palace report relayed",
-        "summary": "War Watch relayed an Insider Paper report that Yemen's prime minister was in the presidential palace during a Houthi attack, citing reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110795468481450247"
-      },
-      {
-        "id": "2110776873101791657",
-        "date": "2026-10-15",
-        "dateLabel": "15 OCT 2026 · UTC",
-        "headline": "Ukraine Patriot interceptor shortage reported",
-        "summary": "War Watch said Ukrainska Pravda reported, citing CNN, that Ukraine had run out of interceptor missiles for US Patriot air-defence systems, and said two outlets later confirmed the report.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110776873101791657"
-      },
-      {
-        "id": "2110767520474968570",
-        "date": "2026-10-15",
-        "dateLabel": "15 OCT 2026 · UTC",
-        "headline": "EAM header code QH6VL3 reported again",
-        "summary": "War Watch reported another Emergency Action Message header or preamble carrying the code QH6VL3.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110767520474968570"
-      },
-      {
-        "id": "2110762410059440358",
-        "date": "2026-10-15",
-        "dateLabel": "15 OCT 2026 · UTC",
-        "headline": "EAM header code QH6VL3 reported",
-        "summary": "War Watch reported an Emergency Action Message header or preamble carrying the code QH6VL3 at 09:04 UTC, citing reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2110762410059440358"
       }
     ]
   },
@@ -107,6 +107,30 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2110902786393079885",
+        "date": "2026-10-16",
+        "dateLabel": "16 OCT 2026 · UTC",
+        "headline": "AU101 airborne alert at Shimen",
+        "summary": "SkyGlass posted an OFF Ground alert for aircraft AU101 at Shimen, Taiwan. The aircraft type was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110902786393079885"
+      },
+      {
+        "id": "2110901989533954105",
+        "date": "2026-10-16",
+        "dateLabel": "16 OCT 2026 · UTC",
+        "headline": "P-8 on-ground alert at Darwin",
+        "summary": "SkyGlass posted an ON Ground alert for a P-8 aircraft at Darwin, Australia. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110901989533954105"
+      },
+      {
+        "id": "2110883610026811560",
+        "date": "2026-10-16",
+        "dateLabel": "16 OCT 2026 · UTC",
+        "headline": "MQ-72C cargo-drone demonstration highlighted",
+        "summary": "SkyGlass highlighted a The War Zone report that the MQ-72C cargo helicopter drone's capabilities had been demonstrated for the US Army.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2110883610026811560"
+      },
       {
         "id": "2110874082501697982",
         "date": "2026-10-15",
@@ -178,30 +202,6 @@
         "headline": "E2 STLJW01 airborne alert at Chesapeake Ranch Estates",
         "summary": "SkyGlass posted an OFF Ground alert for military E2 aircraft STLJW01 at Chesapeake Ranch Estates, United States.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2110774794136260902"
-      },
-      {
-        "id": "2110686069708435724",
-        "date": "2026-10-15",
-        "dateLabel": "15 OCT 2026 · UTC",
-        "headline": "E737 BOE38 on-ground alert at Lossiemouth",
-        "summary": "SkyGlass posted an ON Ground alert for E737 aircraft BOE38 at Lossiemouth, United Kingdom.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110686069708435724"
-      },
-      {
-        "id": "2110684271757160562",
-        "date": "2026-10-15",
-        "dateLabel": "15 OCT 2026 · UTC",
-        "headline": "P-8 ASY205 on-ground alert at Burton",
-        "summary": "SkyGlass posted an ON Ground alert for P-8 aircraft ASY205 at Burton, Australia.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110684271757160562"
-      },
-      {
-        "id": "2110673290888925528",
-        "date": "2026-10-15",
-        "dateLabel": "15 OCT 2026 · UTC",
-        "headline": "B737 CNV4985 airborne alert at Keflavik",
-        "summary": "SkyGlass posted an OFF Ground alert for B737 aircraft CNV4985 at Keflavik, Iceland.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2110673290888925528"
       }
     ]
   }
