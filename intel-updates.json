@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2111547849699705190",
+        "date": "2026-10-17",
+        "dateLabel": "17 OCT 2026 · UTC",
+        "headline": "Four USAF cargo aircraft and coded traffic reported",
+        "summary": "War Watch reported four large U.S. Air Force cargo aircraft airborne over the United States, along with a presidential aircraft, and said coded radio broadcasts remained elevated.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2111547849699705190"
+      },
+      {
+        "id": "2111519061888708618",
+        "date": "2026-10-17",
+        "dateLabel": "17 OCT 2026 · UTC",
+        "headline": "Suspilne Chernihiv power-loss report highlighted",
+        "summary": "War Watch highlighted a Suspilne report that about 19,000 subscribers in Chernihiv district had lost power, and said two outlets had confirmed the report.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2111519061888708618"
+      },
+      {
         "id": "2111502545461948877",
         "date": "2026-10-17",
         "dateLabel": "17 OCT 2026 · UTC",
@@ -83,22 +99,6 @@
         "headline": "Ukrainian missile and drone raid into Russia relayed",
         "summary": "War Watch relayed a reagan0965 report of an ongoing Friday-night Ukrainian missile and attack-drone raid into Russia, with drones targeting the Moscow area and passing to its west.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2111266837711225053"
-      },
-      {
-        "id": "2111260294131376375",
-        "date": "2026-10-17",
-        "dateLabel": "17 OCT 2026 · UTC",
-        "headline": "UKMTO Strait of Hormuz attack-count statement relayed",
-        "summary": "War Watch relayed a reagan0965 report quoting UKMTO as saying it was struggling to accurately report the true number of attacks in the Strait of Hormuz.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2111260294131376375"
-      },
-      {
-        "id": "2111256271068307519",
-        "date": "2026-10-17",
-        "dateLabel": "17 OCT 2026 · UTC",
-        "headline": "C-130J OTIS22 with hex AE6C1E spotted",
-        "summary": "War Watch reported a Lockheed Martin C-130J Super Hercules using callsign OTIS22, hex AE6C1E and registration 170282, citing a sighting by reagan0965 and a photo by Claude Davet via Planespotters.net.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2111256271068307519"
       }
     ]
   },
