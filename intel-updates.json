@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2111457246467002614",
+        "date": "2026-10-17",
+        "dateLabel": "17 OCT 2026 · UTC",
+        "headline": "Coded USAF broadcast and five transports reported",
+        "summary": "War Watch reported one coded U.S. Air Force radio broadcast in the preceding hour and five military transport aircraft airborne over the United States, including one presidential aircraft.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2111457246467002614"
+      },
+      {
         "id": "2111416279596769666",
         "date": "2026-10-17",
         "dateLabel": "17 OCT 2026 · UTC",
@@ -91,14 +99,6 @@
         "headline": "Dammam air-traffic disruption claim relayed",
         "summary": "War Watch relayed an OSINTWarfare report of air-traffic disruptions over Dammam and an apparent Ansar Allah attack on King Fahd International Airport, citing reagan0965.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2111227075298292071"
-      },
-      {
-        "id": "2111223048808337848",
-        "date": "2026-10-16",
-        "dateLabel": "16 OCT 2026 · UTC",
-        "headline": "US cargo and tanker aircraft activity reported",
-        "summary": "War Watch reported multiple U.S. military cargo and refuelling aircraft airborne over the continental United States and the Middle East, including at least five tankers near the Persian Gulf.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2111223048808337848"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2111462201684824081",
+        "date": "2026-10-17",
+        "dateLabel": "17 OCT 2026 · UTC",
+        "headline": "B737 airborne alert at Virginia Beach",
+        "summary": "SkyGlass posted an OFF Ground alert for a B737 aircraft at Virginia Beach, Virginia, United States. The callsign was shown as CNV4989.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2111462201684824081"
+      },
+      {
+        "id": "2111455201743843517",
+        "date": "2026-10-17",
+        "dateLabel": "17 OCT 2026 · UTC",
+        "headline": "E-6 airborne alert at Suisun",
+        "summary": "SkyGlass posted an OFF Ground alert for an E-6 aircraft at Suisun, California, United States. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2111455201743843517"
+      },
+      {
+        "id": "2111434507085545813",
+        "date": "2026-10-17",
+        "dateLabel": "17 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert at Ballina",
+        "summary": "SkyGlass posted an OFF Ground alert for a P-8 aircraft at Ballina, Ireland. The callsign was shown as PK191.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2111434507085545813"
+      },
+      {
+        "id": "2111427200805167308",
+        "date": "2026-10-17",
+        "dateLabel": "17 OCT 2026 · UTC",
+        "headline": "Tu-160M modernization report highlighted",
+        "summary": "SkyGlass highlighted a Defence Blog report that Russia revamped the Tu-160M Blackjack bomber with modular electronics.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2111427200805167308"
+      },
       {
         "id": "2111414406898733474",
         "date": "2026-10-17",
@@ -170,38 +202,6 @@
         "headline": "P-8 airborne alert at Ishikawa",
         "summary": "SkyGlass posted an OFF Ground alert for a P-8 aircraft at Ishikawa, Japan. The callsign was shown as NA.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2111255114367287487"
-      },
-      {
-        "id": "2111246067719127431",
-        "date": "2026-10-17",
-        "dateLabel": "17 OCT 2026 · UTC",
-        "headline": "F-22 control of YFQ-44A flight highlighted",
-        "summary": "SkyGlass highlighted a The Aviationist report that an F-22A Raptor controlled a YFQ-44A Collaborative Combat Aircraft during flight.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2111246067719127431"
-      },
-      {
-        "id": "2111246067693985924",
-        "date": "2026-10-17",
-        "dateLabel": "17 OCT 2026 · UTC",
-        "headline": "Gray Eagle ESM flight test highlighted",
-        "summary": "SkyGlass highlighted a Soldier Systems Daily report that General Atomics completed flight testing of a new Electronic Support Measures system on the MQ-1C Gray Eagle UAS.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2111246067693985924"
-      },
-      {
-        "id": "2111242759763907001",
-        "date": "2026-10-16",
-        "dateLabel": "16 OCT 2026 · UTC",
-        "headline": "P-8 ASY207 on-ground alert at Misawa",
-        "summary": "SkyGlass posted an ON Ground alert for P-8 aircraft ASY207 at Misawa, Japan.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2111242759763907001"
-      },
-      {
-        "id": "2111216147785773167",
-        "date": "2026-10-16",
-        "dateLabel": "16 OCT 2026 · UTC",
-        "headline": "P-8 BLKT24 on-ground alert at Mount Louisa",
-        "summary": "SkyGlass posted an ON Ground alert for P-8 aircraft BLKT24 at Mount Louisa, Australia.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2111216147785773167"
       }
     ]
   }
