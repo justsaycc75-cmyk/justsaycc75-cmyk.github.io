@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2111321348047794297",
+        "date": "2026-10-17",
+        "dateLabel": "17 OCT 2026 · UTC",
+        "headline": "Six USAF cargo aircraft and other activity reported",
+        "summary": "War Watch reported six U.S. Air Force cargo aircraft airborne over the United States and also noted reports of overnight Ukrainian drone strikes toward Moscow and U.S. naval movements.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2111321348047794297"
+      },
+      {
+        "id": "2111290948143464694",
+        "date": "2026-10-17",
+        "dateLabel": "17 OCT 2026 · UTC",
+        "headline": "Reuters sanctions-and-tariffs report highlighted",
+        "summary": "War Watch highlighted a Reuters report that President Donald Trump waived many Russia-related sanctions and tariffs before a new law was to take effect, and said two outlets had confirmed the report.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2111290948143464694"
+      },
+      {
         "id": "2111270863379021975",
         "date": "2026-10-17",
         "dateLabel": "17 OCT 2026 · UTC",
@@ -83,22 +99,6 @@
         "headline": "KC-46A activity south of Kish Island reported",
         "summary": "War Watch reported a U.S. Air Force Boeing KC-46A Pegasus, registration 11-46059 and hex AE5FA6, from Al Udeid, Qatar, and described its operation as 50 kilometres south of Kish Island, Iran, citing alexgreen1767.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2111200149355552987"
-      },
-      {
-        "id": "2111192351339135339",
-        "date": "2026-10-16",
-        "dateLabel": "16 OCT 2026 · UTC",
-        "headline": "C-5M RCH2080 spotted from Burgas",
-        "summary": "War Watch reported a U.S. Air Force Lockheed C-5M Super Galaxy using callsign RCH2080, registration 86-0011 and hex AE0568, with Burgas, Bulgaria shown as its origin and the destination as N/A.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2111192351339135339"
-      },
-      {
-        "id": "2111180627743498660",
-        "date": "2026-10-16",
-        "dateLabel": "16 OCT 2026 · UTC",
-        "headline": "C-17A with hex AE07F6 spotted",
-        "summary": "War Watch reported a Boeing C-17A Globemaster III using callsign X and hex AE07F6, citing a sighting by TruthSeekr60 and a photo by zgh.spotter via Planespotters.net.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2111180627743498660"
       }
     ]
   },
@@ -107,6 +107,14 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2111306715979305346",
+        "date": "2026-10-17",
+        "dateLabel": "17 OCT 2026 · UTC",
+        "headline": "B-1 airborne alert at Ellsworth Air Force Base",
+        "summary": "SkyGlass posted an OFF Ground alert for a B-1 aircraft at Ellsworth Air Force Base, South Dakota, United States. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2111306715979305346"
+      },
       {
         "id": "2111255114367287487",
         "date": "2026-10-17",
@@ -194,14 +202,6 @@
         "headline": "P-8 airborne alert at Oak Harbor",
         "summary": "SkyGlass posted an OFF Ground alert for a P-8 aircraft at Oak Harbor, Washington, United States. The callsign was shown as NA.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2111136047971131670"
-      },
-      {
-        "id": "2111125249596997802",
-        "date": "2026-10-16",
-        "dateLabel": "16 OCT 2026 · UTC",
-        "headline": "German MQ-28 purchase pause highlighted",
-        "summary": "SkyGlass highlighted a Breaking Defense report that Germany is pausing a planned MQ-28 purchase from Boeing, raising doubt over a 2029 collaborative combat aircraft goal.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2111125249596997802"
       }
     ]
   }
