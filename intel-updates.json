@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2111366646812037330",
+        "date": "2026-10-17",
+        "dateLabel": "17 OCT 2026 · UTC",
+        "headline": "Six USAF transports and a tanker reported airborne",
+        "summary": "War Watch reported six U.S. Air Force transport aircraft airborne, including multiple aircraft over the North Atlantic, along with one active refuelling tanker.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2111366646812037330"
+      },
+      {
         "id": "2111321348047794297",
         "date": "2026-10-17",
         "dateLabel": "17 OCT 2026 · UTC",
@@ -91,14 +99,6 @@
         "headline": "Reported PJAK attacks in Kermanshah relayed",
         "summary": "War Watch relayed a report that the Iranian Kurdish separatist group PJAK was attacking several towns in Kermanshah Province, western Iran, citing reagan0965.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2111215000735854769"
-      },
-      {
-        "id": "2111200149355552987",
-        "date": "2026-10-16",
-        "dateLabel": "16 OCT 2026 · UTC",
-        "headline": "KC-46A activity south of Kish Island reported",
-        "summary": "War Watch reported a U.S. Air Force Boeing KC-46A Pegasus, registration 11-46059 and hex AE5FA6, from Al Udeid, Qatar, and described its operation as 50 kilometres south of Kish Island, Iran, citing alexgreen1767.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2111200149355552987"
       }
     ]
   },
@@ -107,6 +107,30 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2111370359697969397",
+        "date": "2026-10-17",
+        "dateLabel": "17 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert at Kalghatgi",
+        "summary": "SkyGlass posted an OFF Ground alert for a P-8 aircraft at Kalghatgi, India. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2111370359697969397"
+      },
+      {
+        "id": "2111366878882906544",
+        "date": "2026-10-17",
+        "dateLabel": "17 OCT 2026 · UTC",
+        "headline": "USAF drone-mimicking adversary contract highlighted",
+        "summary": "SkyGlass highlighted a Defence Blog report that the U.S. Air Force added a drone-mimicking company to its adversary-training pool.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2111366878882906544"
+      },
+      {
+        "id": "2111366878870290699",
+        "date": "2026-10-17",
+        "dateLabel": "17 OCT 2026 · UTC",
+        "headline": "Navy MQ-25 development award highlighted",
+        "summary": "SkyGlass highlighted a Defence Blog report that the U.S. Navy awarded Boeing up to $80 million to improve the MQ-25A Stingray drone.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2111366878870290699"
+      },
       {
         "id": "2111306715979305346",
         "date": "2026-10-17",
@@ -178,30 +202,6 @@
         "headline": "P-3 LOBO05 airborne alert at Beja",
         "summary": "SkyGlass posted an OFF Ground alert for P-3 aircraft LOBO05 at Beja, Portugal.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2111146773737619611"
-      },
-      {
-        "id": "2111142013257019878",
-        "date": "2026-10-16",
-        "dateLabel": "16 OCT 2026 · UTC",
-        "headline": "P-8 on-ground alert at Oak Harbor",
-        "summary": "SkyGlass posted an ON Ground alert for a P-8 aircraft at Oak Harbor, Washington, United States. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2111142013257019878"
-      },
-      {
-        "id": "2111139139542188314",
-        "date": "2026-10-16",
-        "dateLabel": "16 OCT 2026 · UTC",
-        "headline": "E-2 on-ground alert at Lexington Park",
-        "summary": "SkyGlass posted an ON Ground alert for an E-2 aircraft at Lexington Park, Maryland, United States. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2111139139542188314"
-      },
-      {
-        "id": "2111136047971131670",
-        "date": "2026-10-16",
-        "dateLabel": "16 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Oak Harbor",
-        "summary": "SkyGlass posted an OFF Ground alert for a P-8 aircraft at Oak Harbor, Washington, United States. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2111136047971131670"
       }
     ]
   }
