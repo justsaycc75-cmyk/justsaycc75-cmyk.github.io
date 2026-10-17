@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2111416279596769666",
+        "date": "2026-10-17",
+        "dateLabel": "17 OCT 2026 · UTC",
+        "headline": "Suspilne railway-bridge strike report highlighted",
+        "summary": "War Watch highlighted a Suspilne report that Ukraine’s Defence Forces struck a railway bridge over the Unecha River in Russia’s Bryansk region, and said two outlets had confirmed the report.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2111416279596769666"
+      },
+      {
+        "id": "2111411946243137870",
+        "date": "2026-10-17",
+        "dateLabel": "17 OCT 2026 · UTC",
+        "headline": "Six USAF heavy cargo aircraft reported airborne",
+        "summary": "War Watch reported six U.S. Air Force heavy cargo aircraft airborne across the Atlantic and North America, with no coded military radio broadcasts detected in the preceding hour.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2111411946243137870"
+      },
+      {
         "id": "2111366646812037330",
         "date": "2026-10-17",
         "dateLabel": "17 OCT 2026 · UTC",
@@ -83,22 +99,6 @@
         "headline": "US cargo and tanker aircraft activity reported",
         "summary": "War Watch reported multiple U.S. military cargo and refuelling aircraft airborne over the continental United States and the Middle East, including at least five tankers near the Persian Gulf.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2111223048808337848"
-      },
-      {
-        "id": "2111219025816502366",
-        "date": "2026-10-16",
-        "dateLabel": "16 OCT 2026 · UTC",
-        "headline": "VC-25A with hex ADFDF9 spotted",
-        "summary": "War Watch reported a Boeing VC-25A with no callsign, hex ADFDF9 and registration 92-9000, citing a sighting by reagan0965 and a photo by Ege Şanda via Planespotters.net.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2111219025816502366"
-      },
-      {
-        "id": "2111215000735854769",
-        "date": "2026-10-16",
-        "dateLabel": "16 OCT 2026 · UTC",
-        "headline": "Reported PJAK attacks in Kermanshah relayed",
-        "summary": "War Watch relayed a report that the Iranian Kurdish separatist group PJAK was attacking several towns in Kermanshah Province, western Iran, citing reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2111215000735854769"
       }
     ]
   },
@@ -107,6 +107,30 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2111414406898733474",
+        "date": "2026-10-17",
+        "dateLabel": "17 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert at Reykjanesbaer",
+        "summary": "SkyGlass posted an OFF Ground alert for a P-8 aircraft at Reykjanesbaer, Iceland. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2111414406898733474"
+      },
+      {
+        "id": "2111406026490560515",
+        "date": "2026-10-17",
+        "dateLabel": "17 OCT 2026 · UTC",
+        "headline": "P-8 airborne alert at Kalghatgi",
+        "summary": "SkyGlass posted an OFF Ground alert for a P-8 aircraft at Kalghatgi, India. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2111406026490560515"
+      },
+      {
+        "id": "2111403064410181982",
+        "date": "2026-10-17",
+        "dateLabel": "17 OCT 2026 · UTC",
+        "headline": "P-8 ground alert at Reykjanesbaer",
+        "summary": "SkyGlass posted an ON Ground alert for a P-8 aircraft at Reykjanesbaer, Iceland. The callsign was shown as NA.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2111403064410181982"
+      },
       {
         "id": "2111370359697969397",
         "date": "2026-10-17",
@@ -178,30 +202,6 @@
         "headline": "P-8 BLKT24 on-ground alert at Mount Louisa",
         "summary": "SkyGlass posted an ON Ground alert for P-8 aircraft BLKT24 at Mount Louisa, Australia.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2111216147785773167"
-      },
-      {
-        "id": "2111178256749584894",
-        "date": "2026-10-16",
-        "dateLabel": "16 OCT 2026 · UTC",
-        "headline": "E-2 EAGLE32 airborne alert at Fallon",
-        "summary": "SkyGlass posted an OFF Ground alert for E-2 aircraft EAGLE32 at Fallon, Nevada, United States.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2111178256749584894"
-      },
-      {
-        "id": "2111167462569832889",
-        "date": "2026-10-16",
-        "dateLabel": "16 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Port Hueneme",
-        "summary": "SkyGlass posted an OFF Ground alert for a P-8 aircraft at Port Hueneme, United States. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2111167462569832889"
-      },
-      {
-        "id": "2111146773737619611",
-        "date": "2026-10-16",
-        "dateLabel": "16 OCT 2026 · UTC",
-        "headline": "P-3 LOBO05 airborne alert at Beja",
-        "summary": "SkyGlass posted an OFF Ground alert for P-3 aircraft LOBO05 at Beja, Portugal.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2111146773737619611"
       }
     ]
   }
