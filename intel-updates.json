@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2111593237160894745",
+        "date": "2026-10-17",
+        "dateLabel": "17 OCT 2026 · UTC",
+        "headline": "Two USAF command jets and elevated regional activity reported",
+        "summary": "War Watch reported two U.S. Air Force nuclear-command aircraft and three heavy transport aircraft airborne over the United States, and said air activity near the eastern Mediterranean was nearly four times normal levels.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2111593237160894745"
+      },
+      {
+        "id": "2111588540236570656",
+        "date": "2026-10-17",
+        "dateLabel": "17 OCT 2026 · UTC",
+        "headline": "Boeing E-6B Mercury sighting reported",
+        "summary": "War Watch reported a Boeing E-6B Mercury sighting with hex code AE0411, registration 163919 and an empty callsign. The sighting was credited to reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2111588540236570656"
+      },
+      {
+        "id": "2111559088488239367",
+        "date": "2026-10-17",
+        "dateLabel": "17 OCT 2026 · UTC",
+        "headline": "Al Jazeera India stampede report highlighted",
+        "summary": "War Watch highlighted an Al Jazeera English report that at least 17 people were killed in a stampede at a religious gathering in India, and said two outlets had confirmed the report.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2111559088488239367"
+      },
+      {
         "id": "2111547849699705190",
         "date": "2026-10-17",
         "dateLabel": "17 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "Six USAF cargo aircraft and other activity reported",
         "summary": "War Watch reported six U.S. Air Force cargo aircraft airborne over the United States and also noted reports of overnight Ukrainian drone strikes toward Moscow and U.S. naval movements.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2111321348047794297"
-      },
-      {
-        "id": "2111290948143464694",
-        "date": "2026-10-17",
-        "dateLabel": "17 OCT 2026 · UTC",
-        "headline": "Reuters sanctions-and-tariffs report highlighted",
-        "summary": "War Watch highlighted a Reuters report that President Donald Trump waived many Russia-related sanctions and tariffs before a new law was to take effect, and said two outlets had confirmed the report.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2111290948143464694"
-      },
-      {
-        "id": "2111270863379021975",
-        "date": "2026-10-17",
-        "dateLabel": "17 OCT 2026 · UTC",
-        "headline": "Five USAF cargo aircraft reported airborne",
-        "summary": "War Watch reported five U.S. Air Force cargo aircraft airborne over the continental United States and elevated military flight activity across the region during the preceding six hours.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2111270863379021975"
-      },
-      {
-        "id": "2111266837711225053",
-        "date": "2026-10-17",
-        "dateLabel": "17 OCT 2026 · UTC",
-        "headline": "Ukrainian missile and drone raid into Russia relayed",
-        "summary": "War Watch relayed a reagan0965 report of an ongoing Friday-night Ukrainian missile and attack-drone raid into Russia, with drones targeting the Moscow area and passing to its west.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2111266837711225053"
       }
     ]
   },
