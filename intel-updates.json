@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2111821738640072873",
+        "date": "2026-10-18",
+        "dateLabel": "18 OCT 2026 · UTC",
+        "headline": "US military transports and surveillance jet reported",
+        "summary": "War Watch reported multiple large U.S. military transport aircraft airborne over the North Sea and across the United States, together with a U.S. Air Force radar-surveillance aircraft.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2111821738640072873"
+      },
+      {
         "id": "2111776197931630627",
         "date": "2026-10-18",
         "dateLabel": "18 OCT 2026 · UTC",
@@ -91,14 +99,6 @@
         "headline": "Two USAF command jets and elevated regional activity reported",
         "summary": "War Watch reported two U.S. Air Force nuclear-command aircraft and three heavy transport aircraft airborne over the United States, and said air activity near the eastern Mediterranean was nearly four times normal levels.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2111593237160894745"
-      },
-      {
-        "id": "2111588540236570656",
-        "date": "2026-10-17",
-        "dateLabel": "17 OCT 2026 · UTC",
-        "headline": "Boeing E-6B Mercury sighting reported",
-        "summary": "War Watch reported a Boeing E-6B Mercury sighting with hex code AE0411, registration 163919 and an empty callsign. The sighting was credited to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2111588540236570656"
       }
     ]
   },
