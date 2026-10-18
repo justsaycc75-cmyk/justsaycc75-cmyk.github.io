@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2111912840336478653",
+        "date": "2026-10-18",
+        "dateLabel": "18 OCT 2026 · UTC",
+        "headline": "Six USAF transport aircraft reported airborne",
+        "summary": "War Watch reported six U.S. Air Force transport aircraft airborne over the continental United States, including multiple large cargo aircraft, and said no coded radio broadcasts were detected during that hour.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2111912840336478653"
+      },
+      {
         "id": "2111867295769202828",
         "date": "2026-10-18",
         "dateLabel": "18 OCT 2026 · UTC",
@@ -91,14 +99,6 @@
         "headline": "SAM576 C-37B sighting reported",
         "summary": "War Watch reported a Gulfstream C-37B of the U.S. Air Force 89th Airlift Wing using callsign SAM576 and hex code AE6962. The sighting was credited to reagan0965.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2111630484790812853"
-      },
-      {
-        "id": "2111622883705307480",
-        "date": "2026-10-18",
-        "dateLabel": "18 OCT 2026 · UTC",
-        "headline": "SAM182 C-32A sighting reported",
-        "summary": "War Watch reported a Boeing C-32A of the U.S. Air Force 89th Airlift Wing using callsign SAM182, hex code ADFEB8 and registration 98-0002. The sighting was credited to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2111622883705307480"
       }
     ]
   },
