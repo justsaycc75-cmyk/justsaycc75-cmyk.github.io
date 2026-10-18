@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2111638796185845859",
+        "date": "2026-10-18",
+        "dateLabel": "18 OCT 2026 · UTC",
+        "headline": "Six USAF transports reported airborne",
+        "summary": "War Watch reported six U.S. Air Force transport aircraft airborne over the United States and Europe, describing the level as well above normal for that hour.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2111638796185845859"
+      },
+      {
+        "id": "2111630484790812853",
+        "date": "2026-10-18",
+        "dateLabel": "18 OCT 2026 · UTC",
+        "headline": "SAM576 C-37B sighting reported",
+        "summary": "War Watch reported a Gulfstream C-37B of the U.S. Air Force 89th Airlift Wing using callsign SAM576 and hex code AE6962. The sighting was credited to reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2111630484790812853"
+      },
+      {
+        "id": "2111622883705307480",
+        "date": "2026-10-18",
+        "dateLabel": "18 OCT 2026 · UTC",
+        "headline": "SAM182 C-32A sighting reported",
+        "summary": "War Watch reported a Boeing C-32A of the U.S. Air Force 89th Airlift Wing using callsign SAM182, hex code ADFEB8 and registration 98-0002. The sighting was credited to reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2111622883705307480"
+      },
+      {
         "id": "2111593237160894745",
         "date": "2026-10-17",
         "dateLabel": "17 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "Suspilne railway-bridge strike report highlighted",
         "summary": "War Watch highlighted a Suspilne report that Ukraine’s Defence Forces struck a railway bridge over the Unecha River in Russia’s Bryansk region, and said two outlets had confirmed the report.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2111416279596769666"
-      },
-      {
-        "id": "2111411946243137870",
-        "date": "2026-10-17",
-        "dateLabel": "17 OCT 2026 · UTC",
-        "headline": "Six USAF heavy cargo aircraft reported airborne",
-        "summary": "War Watch reported six U.S. Air Force heavy cargo aircraft airborne across the Atlantic and North America, with no coded military radio broadcasts detected in the preceding hour.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2111411946243137870"
-      },
-      {
-        "id": "2111366646812037330",
-        "date": "2026-10-17",
-        "dateLabel": "17 OCT 2026 · UTC",
-        "headline": "Six USAF transports and a tanker reported airborne",
-        "summary": "War Watch reported six U.S. Air Force transport aircraft airborne, including multiple aircraft over the North Atlantic, along with one active refuelling tanker.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2111366646812037330"
-      },
-      {
-        "id": "2111321348047794297",
-        "date": "2026-10-17",
-        "dateLabel": "17 OCT 2026 · UTC",
-        "headline": "Six USAF cargo aircraft and other activity reported",
-        "summary": "War Watch reported six U.S. Air Force cargo aircraft airborne over the United States and also noted reports of overnight Ukrainian drone strikes toward Moscow and U.S. naval movements.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2111321348047794297"
       }
     ]
   },
