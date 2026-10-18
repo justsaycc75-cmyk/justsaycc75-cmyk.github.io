@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2111684334243426575",
+        "date": "2026-10-18",
+        "dateLabel": "18 OCT 2026 · UTC",
+        "headline": "USAF command jets and elevated regional activity reported",
+        "summary": "War Watch reported four U.S. Air Force transport aircraft and two nuclear-command aircraft airborne over the continental United States, and said air activity in the eastern Mediterranean was nearly three times normal.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2111684334243426575"
+      },
+      {
         "id": "2111638796185845859",
         "date": "2026-10-18",
         "dateLabel": "18 OCT 2026 · UTC",
@@ -91,14 +99,6 @@
         "headline": "Coded USAF broadcast and five transports reported",
         "summary": "War Watch reported one coded U.S. Air Force radio broadcast in the preceding hour and five military transport aircraft airborne over the United States, including one presidential aircraft.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2111457246467002614"
-      },
-      {
-        "id": "2111416279596769666",
-        "date": "2026-10-17",
-        "dateLabel": "17 OCT 2026 · UTC",
-        "headline": "Suspilne railway-bridge strike report highlighted",
-        "summary": "War Watch highlighted a Suspilne report that Ukraine’s Defence Forces struck a railway bridge over the Unecha River in Russia’s Bryansk region, and said two outlets had confirmed the report.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2111416279596769666"
       }
     ]
   },
