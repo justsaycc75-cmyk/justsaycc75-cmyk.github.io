@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2111867295769202828",
+        "date": "2026-10-18",
+        "dateLabel": "18 OCT 2026 · UTC",
+        "headline": "Cargo aircraft, radar aircraft and coded broadcasts reported",
+        "summary": "War Watch reported five military cargo aircraft and a radar aircraft airborne over the United States, and said nine coded radio broadcasts had been heard that day, with the latest about an hour earlier.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2111867295769202828"
+      },
+      {
         "id": "2111821738640072873",
         "date": "2026-10-18",
         "dateLabel": "18 OCT 2026 · UTC",
@@ -91,14 +99,6 @@
         "headline": "SAM182 C-32A sighting reported",
         "summary": "War Watch reported a Boeing C-32A of the U.S. Air Force 89th Airlift Wing using callsign SAM182, hex code ADFEB8 and registration 98-0002. The sighting was credited to reagan0965.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2111622883705307480"
-      },
-      {
-        "id": "2111593237160894745",
-        "date": "2026-10-17",
-        "dateLabel": "17 OCT 2026 · UTC",
-        "headline": "Two USAF command jets and elevated regional activity reported",
-        "summary": "War Watch reported two U.S. Air Force nuclear-command aircraft and three heavy transport aircraft airborne over the United States, and said air activity near the eastern Mediterranean was nearly four times normal levels.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2111593237160894745"
       }
     ]
   },
