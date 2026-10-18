@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2111729884322058682",
+        "date": "2026-10-18",
+        "dateLabel": "18 OCT 2026 · UTC",
+        "headline": "Coded USAF broadcasts and military flights reported",
+        "summary": "War Watch reported four coded U.S. Air Force radio broadcasts heard that day, along with multiple military transport aircraft and a surveillance drone airborne over the United States.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2111729884322058682"
+      },
+      {
+        "id": "2111715439956857068",
+        "date": "2026-10-18",
+        "dateLabel": "18 OCT 2026 · UTC",
+        "headline": "Ukrainska Pravda warehouse-attack report highlighted",
+        "summary": "War Watch highlighted a Ukrainska Pravda report that drones attacked an Ozon warehouse in St. Petersburg in the morning, and said two outlets had confirmed the report.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2111715439956857068"
+      },
+      {
+        "id": "2111696184913932635",
+        "date": "2026-10-18",
+        "dateLabel": "18 OCT 2026 · UTC",
+        "headline": "Al Jazeera Arabic tugboat-strike report highlighted",
+        "summary": "War Watch highlighted an Al Jazeera Arabic report citing UK Maritime Trade Operations as having received notice that a tugboat was struck, and said two outlets had confirmed the report.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2111696184913932635"
+      },
+      {
         "id": "2111684334243426575",
         "date": "2026-10-18",
         "dateLabel": "18 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "Suspilne Chernihiv power-loss report highlighted",
         "summary": "War Watch highlighted a Suspilne report that about 19,000 subscribers in Chernihiv district had lost power, and said two outlets had confirmed the report.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2111519061888708618"
-      },
-      {
-        "id": "2111502545461948877",
-        "date": "2026-10-17",
-        "dateLabel": "17 OCT 2026 · UTC",
-        "headline": "USAF command jet and transports reported airborne",
-        "summary": "War Watch reported a U.S. Air Force nuclear-command aircraft airborne over the continental United States alongside multiple large transport aircraft and a presidential aircraft, describing the activity level as routine.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2111502545461948877"
-      },
-      {
-        "id": "2111493263110689242",
-        "date": "2026-10-17",
-        "dateLabel": "17 OCT 2026 · UTC",
-        "headline": "Times of India Iran oil-export report highlighted",
-        "summary": "War Watch highlighted a Times of India report saying the United States claimed Iran had lost $25 billion in oil exports to a naval blockade and could no longer fund proxy militias.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2111493263110689242"
-      },
-      {
-        "id": "2111457246467002614",
-        "date": "2026-10-17",
-        "dateLabel": "17 OCT 2026 · UTC",
-        "headline": "Coded USAF broadcast and five transports reported",
-        "summary": "War Watch reported one coded U.S. Air Force radio broadcast in the preceding hour and five military transport aircraft airborne over the United States, including one presidential aircraft.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2111457246467002614"
       }
     ]
   },
