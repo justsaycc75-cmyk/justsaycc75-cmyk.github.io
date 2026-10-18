@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2111776197931630627",
+        "date": "2026-10-18",
+        "dateLabel": "18 OCT 2026 · UTC",
+        "headline": "Six USAF heavy-lift transports reported airborne",
+        "summary": "War Watch reported six U.S. Air Force heavy-lift transport aircraft airborne over the United States and North Sea, and said eastern Mediterranean air activity was nearly three times its usual level.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2111776197931630627"
+      },
+      {
+        "id": "2111772167167787136",
+        "date": "2026-10-18",
+        "dateLabel": "18 OCT 2026 · UTC",
+        "headline": "Reuters Iran defence-minister report highlighted",
+        "summary": "War Watch highlighted a Reuters report that Iran’s parliament approved Mehrdad Akhlaqi as defence minister, and said three outlets had confirmed the report.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2111772167167787136"
+      },
+      {
+        "id": "2111760753912926368",
+        "date": "2026-10-18",
+        "dateLabel": "18 OCT 2026 · UTC",
+        "headline": "Egyptian National Defence Council report highlighted",
+        "summary": "War Watch highlighted an Al Jazeera Arabic report about an Egyptian Presidency statement on a National Defence Council decision, and said two outlets had confirmed the report.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2111760753912926368"
+      },
+      {
         "id": "2111729884322058682",
         "date": "2026-10-18",
         "dateLabel": "18 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "Boeing E-6B Mercury sighting reported",
         "summary": "War Watch reported a Boeing E-6B Mercury sighting with hex code AE0411, registration 163919 and an empty callsign. The sighting was credited to reagan0965.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2111588540236570656"
-      },
-      {
-        "id": "2111559088488239367",
-        "date": "2026-10-17",
-        "dateLabel": "17 OCT 2026 · UTC",
-        "headline": "Al Jazeera India stampede report highlighted",
-        "summary": "War Watch highlighted an Al Jazeera English report that at least 17 people were killed in a stampede at a religious gathering in India, and said two outlets had confirmed the report.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2111559088488239367"
-      },
-      {
-        "id": "2111547849699705190",
-        "date": "2026-10-17",
-        "dateLabel": "17 OCT 2026 · UTC",
-        "headline": "Four USAF cargo aircraft and coded traffic reported",
-        "summary": "War Watch reported four large U.S. Air Force cargo aircraft airborne over the United States, along with a presidential aircraft, and said coded radio broadcasts remained elevated.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2111547849699705190"
-      },
-      {
-        "id": "2111519061888708618",
-        "date": "2026-10-17",
-        "dateLabel": "17 OCT 2026 · UTC",
-        "headline": "Suspilne Chernihiv power-loss report highlighted",
-        "summary": "War Watch highlighted a Suspilne report that about 19,000 subscribers in Chernihiv district had lost power, and said two outlets had confirmed the report.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2111519061888708618"
       }
     ]
   },
