@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2112276126311550993",
+        "date": "2026-10-19",
+        "dateLabel": "19 OCT 2026 · UTC",
+        "headline": "US military aircraft and 23 coded broadcasts reported",
+        "summary": "War Watch reported six U.S. military aircraft airborne over the continental United States, including bombers, spy planes and transport jets, and said 23 coded U.S. Air Force radio broadcasts had been detected that day.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2112276126311550993"
+      },
+      {
+        "id": "2112253477267124467",
+        "date": "2026-10-19",
+        "dateLabel": "19 OCT 2026 · UTC",
+        "headline": "Pakistan army chief Tehran visit report highlighted",
+        "summary": "War Watch highlighted an Al Jazeera Arabic report, citing Tasnim, that Pakistan’s army chief Asim Munir would arrive in Tehran the following day, and said two outlets had confirmed the report.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2112253477267124467"
+      },
+      {
+        "id": "2112234404521083200",
+        "date": "2026-10-19",
+        "dateLabel": "19 OCT 2026 · UTC",
+        "headline": "Suspilne Kyiv TCC shooting report highlighted",
+        "summary": "War Watch highlighted a Suspilne report that a man opened fire inside a TCC building in Kyiv’s Pechersk district, citing police, and said two outlets had confirmed the report.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2112234404521083200"
+      },
+      {
         "id": "2112230580616081883",
         "date": "2026-10-19",
         "dateLabel": "19 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "Coded USAF broadcasts and transport flights reported",
         "summary": "War Watch reported four coded U.S. Air Force radio broadcasts during the preceding hour, with transport aircraft airborne across the United States, North Sea and Mediterranean.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2112049233125577133"
-      },
-      {
-        "id": "2112041846163558478",
-        "date": "2026-10-19",
-        "dateLabel": "19 OCT 2026 · UTC",
-        "headline": "EAM header VQZ42K reported",
-        "summary": "War Watch reported an Emergency Action Message header or preamble carrying the code VQZ42K.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2112041846163558478"
-      },
-      {
-        "id": "2112035657782530280",
-        "date": "2026-10-19",
-        "dateLabel": "19 OCT 2026 · UTC",
-        "headline": "EAM header 56EWY7 reported",
-        "summary": "War Watch reported an Emergency Action Message header or preamble carrying the code 56EWY7.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2112035657782530280"
-      },
-      {
-        "id": "2112030106239545562",
-        "date": "2026-10-19",
-        "dateLabel": "19 OCT 2026 · UTC",
-        "headline": "EAM header VQJBV2 reported",
-        "summary": "War Watch reported an Emergency Action Message header or preamble carrying the code VQJBV2.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2112030106239545562"
       }
     ]
   },
