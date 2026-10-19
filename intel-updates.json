@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2112321995673051273",
+        "date": "2026-10-19",
+        "dateLabel": "19 OCT 2026 · UTC",
+        "headline": "Coded USAF traffic and transport activity reported",
+        "summary": "War Watch reported that about half the expected number of coded U.S. Air Force radio broadcasts had been heard that day and that six large military transport aircraft were airborne.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2112321995673051273"
+      },
+      {
+        "id": "2112318221978104160",
+        "date": "2026-10-19",
+        "dateLabel": "19 OCT 2026 · UTC",
+        "headline": "Boeing E-6 Mercury AFFA30 sighting reported",
+        "summary": "War Watch reported a Boeing E-6 Mercury with no callsign and hex code AFFA30. The sighting was credited to reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2112318221978104160"
+      },
+      {
+        "id": "2112314446320161207",
+        "date": "2026-10-19",
+        "dateLabel": "19 OCT 2026 · UTC",
+        "headline": "Russian satellite shadowing report highlighted",
+        "summary": "War Watch highlighted a TWZ report that a Russian satellite was shadowing a specific radar-imaging satellite. The item was credited to reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2112314446320161207"
+      },
+      {
+        "id": "2112310536574488586",
+        "date": "2026-10-19",
+        "dateLabel": "19 OCT 2026 · UTC",
+        "headline": "Boeing E-6B Mercury IRON23 sighting reported",
+        "summary": "War Watch reported Boeing E-6B Mercury IRON23, registration 164407 and hex code AE0419. The sighting was credited to reagan0965 and the photo to Paul Brito via Planespotters.net.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2112310536574488586"
+      },
+      {
+        "id": "2112306391671042254",
+        "date": "2026-10-19",
+        "dateLabel": "19 OCT 2026 · UTC",
+        "headline": "Jerusalem Post Sweida offensive report highlighted",
+        "summary": "War Watch highlighted a Jerusalem Post report citing an official who said Syria feared an imminent Israeli-backed Druze offensive in Sweida. The item was credited to reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2112306391671042254"
+      },
+      {
         "id": "2112276126311550993",
         "date": "2026-10-19",
         "dateLabel": "19 OCT 2026 · UTC",
@@ -59,46 +99,6 @@
         "headline": "USAF transports, surveillance drone and coded traffic reported",
         "summary": "War Watch reported six U.S. Air Force transport aircraft airborne over the United States and North Sea, together with a surveillance drone, and said 23 coded radio broadcasts had been heard that day.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2112185131699970529"
-      },
-      {
-        "id": "2112163487782678546",
-        "date": "2026-10-19",
-        "dateLabel": "19 OCT 2026 · UTC",
-        "headline": "EAM header 56444D reported",
-        "summary": "War Watch reported an Emergency Action Message header or preamble carrying the code 56444D.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2112163487782678546"
-      },
-      {
-        "id": "2112158305745338545",
-        "date": "2026-10-19",
-        "dateLabel": "19 OCT 2026 · UTC",
-        "headline": "EAM header 56444D report credited",
-        "summary": "War Watch reported an Emergency Action Message header or preamble carrying the code 56444D. The item was credited to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2112158305745338545"
-      },
-      {
-        "id": "2112139831752954160",
-        "date": "2026-10-19",
-        "dateLabel": "19 OCT 2026 · UTC",
-        "headline": "USAF transports and elevated regional air activity reported",
-        "summary": "War Watch reported multiple U.S. Air Force transport aircraft airborne over North America, continuing coded radio broadcasts, and military flight activity in the eastern Mediterranean and Black Sea at nearly four times normal levels.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2112139831752954160"
-      },
-      {
-        "id": "2112094533945049338",
-        "date": "2026-10-19",
-        "dateLabel": "19 OCT 2026 · UTC",
-        "headline": "USAF transports and increased coded traffic reported",
-        "summary": "War Watch reported six U.S. Air Force transport aircraft airborne over North America and the North Sea, and said coded radio traffic had reached 15 broadcasts that day.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2112094533945049338"
-      },
-      {
-        "id": "2112049233125577133",
-        "date": "2026-10-19",
-        "dateLabel": "19 OCT 2026 · UTC",
-        "headline": "Coded USAF broadcasts and transport flights reported",
-        "summary": "War Watch reported four coded U.S. Air Force radio broadcasts during the preceding hour, with transport aircraft airborne across the United States, North Sea and Mediterranean.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2112049233125577133"
       }
     ]
   },
