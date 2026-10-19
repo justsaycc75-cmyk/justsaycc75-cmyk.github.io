@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2112185131699970529",
+        "date": "2026-10-19",
+        "dateLabel": "19 OCT 2026 · UTC",
+        "headline": "USAF transports, surveillance drone and coded traffic reported",
+        "summary": "War Watch reported six U.S. Air Force transport aircraft airborne over the United States and North Sea, together with a surveillance drone, and said 23 coded radio broadcasts had been heard that day.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2112185131699970529"
+      },
+      {
+        "id": "2112163487782678546",
+        "date": "2026-10-19",
+        "dateLabel": "19 OCT 2026 · UTC",
+        "headline": "EAM header 56444D reported",
+        "summary": "War Watch reported an Emergency Action Message header or preamble carrying the code 56444D.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2112163487782678546"
+      },
+      {
+        "id": "2112158305745338545",
+        "date": "2026-10-19",
+        "dateLabel": "19 OCT 2026 · UTC",
+        "headline": "EAM header 56444D report credited",
+        "summary": "War Watch reported an Emergency Action Message header or preamble carrying the code 56444D. The item was credited to reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2112158305745338545"
+      },
+      {
         "id": "2112139831752954160",
         "date": "2026-10-19",
         "dateLabel": "19 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "Suspilne Kyiv metro-station damage report highlighted",
         "summary": "War Watch highlighted a Suspilne report that a Russian attack on Kyiv damaged a metro station on the left bank, citing Mayor Vitali Klitschko, and said two outlets had confirmed the report.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2111988017732735107"
-      },
-      {
-        "id": "2111982511584645578",
-        "date": "2026-10-19",
-        "dateLabel": "19 OCT 2026 · UTC",
-        "headline": "Putin trilateral-meeting proposal reported",
-        "summary": "War Watch reported that Vladimir Putin proposed a meeting next month with Donald Trump and Xi Jinping to discuss the war. The item was credited to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2111982511584645578"
-      },
-      {
-        "id": "2111958397784326148",
-        "date": "2026-10-18",
-        "dateLabel": "18 OCT 2026 · UTC",
-        "headline": "USAF transports, coded broadcasts and Gulf activity reported",
-        "summary": "War Watch reported six U.S. Air Force transport aircraft airborne across multiple regions, three coded radio broadcasts during the preceding hour, and Gulf-region air activity at three times its usual level.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2111958397784326148"
-      },
-      {
-        "id": "2111940770928173155",
-        "date": "2026-10-18",
-        "dateLabel": "18 OCT 2026 · UTC",
-        "headline": "TWZ fighter-drone control report highlighted",
-        "summary": "War Watch highlighted a TWZ report that an F-22 pilot controlled an FQ-44 fighter drone from the cockpit for the first time. The item was credited to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2111940770928173155"
       }
     ]
   },
