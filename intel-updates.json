@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2112230580616081883",
+        "date": "2026-10-19",
+        "dateLabel": "19 OCT 2026 · UTC",
+        "headline": "US military transports, spy plane and surveillance drone reported",
+        "summary": "War Watch reported six U.S. military transport aircraft, a spy plane and a surveillance drone airborne over the continental United States, and described activity as about normal.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2112230580616081883"
+      },
+      {
+        "id": "2112221575172739413",
+        "date": "2026-10-19",
+        "dateLabel": "19 OCT 2026 · UTC",
+        "headline": "USAF E-4B sighting west of Kansas City reported",
+        "summary": "War Watch reported a U.S. Air Force Boeing 747 E-4B, hex code ADFEB5, west of Kansas City. The sighting was credited to timharkness9152 and the photo to Chris Lofting via Planespotters.net.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2112221575172739413"
+      },
+      {
+        "id": "2112203605243494758",
+        "date": "2026-10-19",
+        "dateLabel": "19 OCT 2026 · UTC",
+        "headline": "IAI Heron I Shoval sighting reported",
+        "summary": "War Watch reported an Israel Defence Forces IAI Heron I Shoval, callsign 724, registration 4X-UMB and hex code 738700, flying a surveillance pattern between Netanya and Haifa, Israel. The sighting was credited to alexgreen1767.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2112203605243494758"
+      },
+      {
         "id": "2112185131699970529",
         "date": "2026-10-19",
         "dateLabel": "19 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "EAM header VQJBV2 reported",
         "summary": "War Watch reported an Emergency Action Message header or preamble carrying the code VQJBV2.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2112030106239545562"
-      },
-      {
-        "id": "2112024907949215915",
-        "date": "2026-10-19",
-        "dateLabel": "19 OCT 2026 · UTC",
-        "headline": "EAM header VQKTU5 reported",
-        "summary": "War Watch reported an Emergency Action Message header or preamble carrying the code VQKTU5.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2112024907949215915"
-      },
-      {
-        "id": "2112003934302740825",
-        "date": "2026-10-19",
-        "dateLabel": "19 OCT 2026 · UTC",
-        "headline": "USAF transports and elevated Taiwan-area activity reported",
-        "summary": "War Watch reported multiple U.S. Air Force transport aircraft airborne across the Pacific and North America, and said air activity near Taiwan was nearly four times its usual level.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2112003934302740825"
-      },
-      {
-        "id": "2111988017732735107",
-        "date": "2026-10-19",
-        "dateLabel": "19 OCT 2026 · UTC",
-        "headline": "Suspilne Kyiv metro-station damage report highlighted",
-        "summary": "War Watch highlighted a Suspilne report that a Russian attack on Kyiv damaged a metro station on the left bank, citing Mayor Vitali Klitschko, and said two outlets had confirmed the report.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2111988017732735107"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2112218216135045470",
+        "date": "2026-10-19",
+        "dateLabel": "19 OCT 2026 · UTC",
+        "headline": "NetJets Citation Latitude arrival at KHND shown",
+        "summary": "SkyGlass showed NetJets Citation Latitude N910QS arriving from Denver Centennial and parking on the ramp at KHND, with ramp movements marked across the sequence.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2112218216135045470"
+      },
+      {
+        "id": "2112217206750687450",
+        "date": "2026-10-19",
+        "dateLabel": "19 OCT 2026 · UTC",
+        "headline": "BACE ramp boards launched for four Las Vegas fields",
+        "summary": "SkyGlass announced live ramp boards for KLAS, KHND, KVGT and KBVU during BACE show week.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2112217206750687450"
+      },
+      {
+        "id": "2112199873852264912",
+        "date": "2026-10-19",
+        "dateLabel": "19 OCT 2026 · UTC",
+        "headline": "N200SG field view and airframe brief shared",
+        "summary": "SkyGlass shared a field view and an Airframe Intelligence Brief for Falcon 50 N200SG.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2112199873852264912"
+      },
+      {
+        "id": "2112199451628483017",
+        "date": "2026-10-19",
+        "dateLabel": "19 OCT 2026 · UTC",
+        "headline": "Falcon 50 overrun and Las Vegas runway closures reported",
+        "summary": "SkyGlass reported that Falcon 50 N200SG rejected takeoff on runway 01L at Harry Reid International Airport, overran and struck the perimeter fence, with no injuries. It said runways 01L and 01R later reopened after inspection.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2112199451628483017"
+      },
       {
         "id": "2111462201684824081",
         "date": "2026-10-17",
@@ -170,38 +202,6 @@
         "headline": "P-8 airborne alert at Kalghatgi",
         "summary": "SkyGlass posted an OFF Ground alert for a P-8 aircraft at Kalghatgi, India. The callsign was shown as NA.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2111370359697969397"
-      },
-      {
-        "id": "2111366878882906544",
-        "date": "2026-10-17",
-        "dateLabel": "17 OCT 2026 · UTC",
-        "headline": "USAF drone-mimicking adversary contract highlighted",
-        "summary": "SkyGlass highlighted a Defence Blog report that the U.S. Air Force added a drone-mimicking company to its adversary-training pool.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2111366878882906544"
-      },
-      {
-        "id": "2111366878870290699",
-        "date": "2026-10-17",
-        "dateLabel": "17 OCT 2026 · UTC",
-        "headline": "Navy MQ-25 development award highlighted",
-        "summary": "SkyGlass highlighted a Defence Blog report that the U.S. Navy awarded Boeing up to $80 million to improve the MQ-25A Stingray drone.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2111366878870290699"
-      },
-      {
-        "id": "2111306715979305346",
-        "date": "2026-10-17",
-        "dateLabel": "17 OCT 2026 · UTC",
-        "headline": "B-1 airborne alert at Ellsworth Air Force Base",
-        "summary": "SkyGlass posted an OFF Ground alert for a B-1 aircraft at Ellsworth Air Force Base, South Dakota, United States. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2111306715979305346"
-      },
-      {
-        "id": "2111255114367287487",
-        "date": "2026-10-17",
-        "dateLabel": "17 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Ishikawa",
-        "summary": "SkyGlass posted an OFF Ground alert for a P-8 aircraft at Ishikawa, Japan. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2111255114367287487"
       }
     ]
   }
