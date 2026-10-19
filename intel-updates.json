@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2112139831752954160",
+        "date": "2026-10-19",
+        "dateLabel": "19 OCT 2026 · UTC",
+        "headline": "USAF transports and elevated regional air activity reported",
+        "summary": "War Watch reported multiple U.S. Air Force transport aircraft airborne over North America, continuing coded radio broadcasts, and military flight activity in the eastern Mediterranean and Black Sea at nearly four times normal levels.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2112139831752954160"
+      },
+      {
         "id": "2112094533945049338",
         "date": "2026-10-19",
         "dateLabel": "19 OCT 2026 · UTC",
@@ -91,14 +99,6 @@
         "headline": "TWZ fighter-drone control report highlighted",
         "summary": "War Watch highlighted a TWZ report that an F-22 pilot controlled an FQ-44 fighter drone from the cockpit for the first time. The item was credited to reagan0965.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2111940770928173155"
-      },
-      {
-        "id": "2111934239260250547",
-        "date": "2026-10-18",
-        "dateLabel": "18 OCT 2026 · UTC",
-        "headline": "Insider Paper Canada-base incident report highlighted",
-        "summary": "War Watch highlighted an Insider Paper report that a serious incident at a Canadian base caused deaths and sparked a fire. The item was credited to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2111934239260250547"
       }
     ]
   },
