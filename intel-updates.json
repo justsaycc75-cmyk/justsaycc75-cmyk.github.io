@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2112094533945049338",
+        "date": "2026-10-19",
+        "dateLabel": "19 OCT 2026 · UTC",
+        "headline": "USAF transports and increased coded traffic reported",
+        "summary": "War Watch reported six U.S. Air Force transport aircraft airborne over North America and the North Sea, and said coded radio traffic had reached 15 broadcasts that day.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2112094533945049338"
+      },
+      {
         "id": "2112049233125577133",
         "date": "2026-10-19",
         "dateLabel": "19 OCT 2026 · UTC",
@@ -91,14 +99,6 @@
         "headline": "Insider Paper Canada-base incident report highlighted",
         "summary": "War Watch highlighted an Insider Paper report that a serious incident at a Canadian base caused deaths and sparked a fire. The item was credited to reagan0965.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2111934239260250547"
-      },
-      {
-        "id": "2111930239844557140",
-        "date": "2026-10-18",
-        "dateLabel": "18 OCT 2026 · UTC",
-        "headline": "CASH71 T-6 Texan II sighting reported",
-        "summary": "War Watch reported a Beechcraft T-6 Texan II using callsign CASH71, hex code AE110D and registration 01-3625. The sighting was credited to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2111930239844557140"
       }
     ]
   },
