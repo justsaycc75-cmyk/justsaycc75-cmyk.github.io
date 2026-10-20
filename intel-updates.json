@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2112461013308125185",
+        "date": "2026-10-20",
+        "dateLabel": "20 OCT 2026 · UTC",
+        "headline": "USAF cargo and surveillance activity reported",
+        "summary": "War Watch reported six U.S. Air Force cargo and surveillance aircraft airborne, including spy planes over the Baltic and a radar aircraft over the North Sea.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2112461013308125185"
+      },
+      {
+        "id": "2112457238904254902",
+        "date": "2026-10-20",
+        "dateLabel": "20 OCT 2026 · UTC",
+        "headline": "ASTRA Tambov pumping-station fire report highlighted",
+        "summary": "War Watch highlighted an ASTRA report that the Nikolskoye pumping station in Russia’s Tambov region was on fire, and said two outlets had confirmed the report.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2112457238904254902"
+      },
+      {
+        "id": "2112445913427816533",
+        "date": "2026-10-20",
+        "dateLabel": "20 OCT 2026 · UTC",
+        "headline": "Suspilne Dnipro warehouse-attack report highlighted",
+        "summary": "War Watch highlighted a Suspilne report that three people were wounded in a Russian attack on warehouses in the suburbs of Dnipro, and said two outlets had confirmed the report.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2112445913427816533"
+      },
+      {
+        "id": "2112434513586294993",
+        "date": "2026-10-20",
+        "dateLabel": "20 OCT 2026 · UTC",
+        "headline": "Reuters Sudan–South Sudan border-area strike report highlighted",
+        "summary": "War Watch highlighted a Reuters report citing a minister who said a drone strike in the disputed Sudan–South Sudan border area killed dozens, and said two outlets had confirmed the report.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2112434513586294993"
+      },
+      {
+        "id": "2112416721076146238",
+        "date": "2026-10-20",
+        "dateLabel": "20 OCT 2026 · UTC",
+        "headline": "ADF personnel deployment to Japan reported",
+        "summary": "War Watch reported that almost 300 Australian Defence Force personnel had deployed to Japan to improve readiness and interoperability. The item was credited to SailawayDebstaAU.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2112416721076146238"
+      },
+      {
         "id": "2112412946080940407",
         "date": "2026-10-20",
         "dateLabel": "20 OCT 2026 · UTC",
@@ -59,46 +99,6 @@
         "headline": "RQ-4 Global Hawk BLKCAT5 sighting reported",
         "summary": "War Watch reported Northrop Grumman RQ-4 Global Hawk BLKCAT5, registration 169602 and hex code AE7811, south of Cuba heading west-northwest. The sighting was credited to reagan0965.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2112334831816257971"
-      },
-      {
-        "id": "2112321995673051273",
-        "date": "2026-10-19",
-        "dateLabel": "19 OCT 2026 · UTC",
-        "headline": "Coded USAF traffic and transport activity reported",
-        "summary": "War Watch reported that about half the expected number of coded U.S. Air Force radio broadcasts had been heard that day and that six large military transport aircraft were airborne.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2112321995673051273"
-      },
-      {
-        "id": "2112318221978104160",
-        "date": "2026-10-19",
-        "dateLabel": "19 OCT 2026 · UTC",
-        "headline": "Boeing E-6 Mercury AFFA30 sighting reported",
-        "summary": "War Watch reported a Boeing E-6 Mercury with no callsign and hex code AFFA30. The sighting was credited to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2112318221978104160"
-      },
-      {
-        "id": "2112314446320161207",
-        "date": "2026-10-19",
-        "dateLabel": "19 OCT 2026 · UTC",
-        "headline": "Russian satellite shadowing report highlighted",
-        "summary": "War Watch highlighted a TWZ report that a Russian satellite was shadowing a specific radar-imaging satellite. The item was credited to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2112314446320161207"
-      },
-      {
-        "id": "2112310536574488586",
-        "date": "2026-10-19",
-        "dateLabel": "19 OCT 2026 · UTC",
-        "headline": "Boeing E-6B Mercury IRON23 sighting reported",
-        "summary": "War Watch reported Boeing E-6B Mercury IRON23, registration 164407 and hex code AE0419. The sighting was credited to reagan0965 and the photo to Paul Brito via Planespotters.net.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2112310536574488586"
-      },
-      {
-        "id": "2112306391671042254",
-        "date": "2026-10-19",
-        "dateLabel": "19 OCT 2026 · UTC",
-        "headline": "Jerusalem Post Sweida offensive report highlighted",
-        "summary": "War Watch highlighted a Jerusalem Post report citing an official who said Syria feared an imminent Israeli-backed Druze offensive in Sweida. The item was credited to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2112306391671042254"
       }
     ]
   },
