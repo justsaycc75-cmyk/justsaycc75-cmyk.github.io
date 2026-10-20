@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2112611270050320851",
+        "date": "2026-10-20",
+        "dateLabel": "20 OCT 2026 · UTC",
+        "headline": "Large blast in Khomeini Shahr reported",
+        "summary": "War Watch reported a large blast in Khomeini Shahr, Isfahan Province, Iran. The item was credited to weslester6474; no cause was stated.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2112611270050320851"
+      },
+      {
+        "id": "2112607495273210265",
+        "date": "2026-10-20",
+        "dateLabel": "20 OCT 2026 · UTC",
+        "headline": "USAF command, bomber and support aircraft airborne",
+        "summary": "War Watch reported a U.S. Air Force nuclear-command aircraft, two bombers, three cargo aircraft and one surveillance aircraft airborne over the continental United States.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2112607495273210265"
+      },
+      {
+        "id": "2112603686132191519",
+        "date": "2026-10-20",
+        "dateLabel": "20 OCT 2026 · UTC",
+        "headline": "UK Iran-intelligence arrest report highlighted",
+        "summary": "War Watch highlighted an Associated Press report that British police had rearrested two men on suspicion of assisting Iran’s intelligence service, and said two outlets had confirmed the report.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2112603686132191519"
+      },
+      {
         "id": "2112579553038123266",
         "date": "2026-10-20",
         "dateLabel": "20 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "RC-135W Rivet Joint sighting reported",
         "summary": "War Watch reported a Boeing RC-135W Rivet Joint aircraft with hex code 43C38C. The sighting was credited to truthseekr60 and the photo to Alon Varshaver via Planespotters.net.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2112464790991843656"
-      },
-      {
-        "id": "2112461013308125185",
-        "date": "2026-10-20",
-        "dateLabel": "20 OCT 2026 · UTC",
-        "headline": "USAF cargo and surveillance activity reported",
-        "summary": "War Watch reported six U.S. Air Force cargo and surveillance aircraft airborne, including spy planes over the Baltic and a radar aircraft over the North Sea.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2112461013308125185"
-      },
-      {
-        "id": "2112457238904254902",
-        "date": "2026-10-20",
-        "dateLabel": "20 OCT 2026 · UTC",
-        "headline": "ASTRA Tambov pumping-station fire report highlighted",
-        "summary": "War Watch highlighted an ASTRA report that the Nikolskoye pumping station in Russia’s Tambov region was on fire, and said two outlets had confirmed the report.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2112457238904254902"
-      },
-      {
-        "id": "2112445913427816533",
-        "date": "2026-10-20",
-        "dateLabel": "20 OCT 2026 · UTC",
-        "headline": "Suspilne Dnipro warehouse-attack report highlighted",
-        "summary": "War Watch highlighted a Suspilne report that three people were wounded in a Russian attack on warehouses in the suburbs of Dnipro, and said two outlets had confirmed the report.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2112445913427816533"
       }
     ]
   },
@@ -107,6 +107,30 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2112635022855242051",
+        "date": "2026-10-20",
+        "dateLabel": "20 OCT 2026 · UTC",
+        "headline": "Las Vegas valley traffic peak replay shared",
+        "summary": "SkyGlass shared a 30-times-speed replay of the previous day’s peak traffic across four Las Vegas-area airfields.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2112635022855242051"
+      },
+      {
+        "id": "2112619904104886589",
+        "date": "2026-10-20",
+        "dateLabel": "20 OCT 2026 · UTC",
+        "headline": "NBAA-BACE day-one traffic view shared",
+        "summary": "SkyGlass presented a day-one NBAA-BACE live view covering four Las Vegas-area airfields, with valley-wide views and closer views of KLAS and KHND.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2112619904104886589"
+      },
+      {
+        "id": "2112597203290079620",
+        "date": "2026-10-20",
+        "dateLabel": "20 OCT 2026 · UTC",
+        "headline": "NBAA-BACE traffic after-action report shared",
+        "summary": "SkyGlass reported that Las Vegas valley traffic on 19 October was down 4% while business-jet activity held steady. The post credited the data to the SkyGlass MCP.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2112597203290079620"
+      },
       {
         "id": "2112218216135045470",
         "date": "2026-10-19",
@@ -178,30 +202,6 @@
         "headline": "P-8 airborne alert at Reykjanesbaer",
         "summary": "SkyGlass posted an OFF Ground alert for a P-8 aircraft at Reykjanesbaer, Iceland. The callsign was shown as NA.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2111414406898733474"
-      },
-      {
-        "id": "2111406026490560515",
-        "date": "2026-10-17",
-        "dateLabel": "17 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Kalghatgi",
-        "summary": "SkyGlass posted an OFF Ground alert for a P-8 aircraft at Kalghatgi, India. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2111406026490560515"
-      },
-      {
-        "id": "2111403064410181982",
-        "date": "2026-10-17",
-        "dateLabel": "17 OCT 2026 · UTC",
-        "headline": "P-8 ground alert at Reykjanesbaer",
-        "summary": "SkyGlass posted an ON Ground alert for a P-8 aircraft at Reykjanesbaer, Iceland. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2111403064410181982"
-      },
-      {
-        "id": "2111370359697969397",
-        "date": "2026-10-17",
-        "dateLabel": "17 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Kalghatgi",
-        "summary": "SkyGlass posted an OFF Ground alert for a P-8 aircraft at Kalghatgi, India. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2111370359697969397"
       }
     ]
   }
