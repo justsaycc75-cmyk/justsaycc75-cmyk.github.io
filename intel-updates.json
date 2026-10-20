@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2112412946080940407",
+        "date": "2026-10-20",
+        "dateLabel": "20 OCT 2026 · UTC",
+        "headline": "Elevated UK and North Sea air activity reported",
+        "summary": "War Watch reported air activity over the United Kingdom and North Sea at nearly four times its usual level, with six U.S. military transport aircraft airborne across multiple regions.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2112412946080940407"
+      },
+      {
+        "id": "2112408940466131107",
+        "date": "2026-10-20",
+        "dateLabel": "20 OCT 2026 · UTC",
+        "headline": "Exercise Keen Sword commencement highlighted",
+        "summary": "War Watch highlighted an Australian Defence Force announcement that Australia had joined Japan and the United States as Exercise Keen Sword commenced. The item was credited to SailawayDebstaAU.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2112408940466131107"
+      },
+      {
         "id": "2112367296949694767",
         "date": "2026-10-20",
         "dateLabel": "20 OCT 2026 · UTC",
@@ -83,22 +99,6 @@
         "headline": "Jerusalem Post Sweida offensive report highlighted",
         "summary": "War Watch highlighted a Jerusalem Post report citing an official who said Syria feared an imminent Israeli-backed Druze offensive in Sweida. The item was credited to reagan0965.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2112306391671042254"
-      },
-      {
-        "id": "2112276126311550993",
-        "date": "2026-10-19",
-        "dateLabel": "19 OCT 2026 · UTC",
-        "headline": "US military aircraft and 23 coded broadcasts reported",
-        "summary": "War Watch reported six U.S. military aircraft airborne over the continental United States, including bombers, spy planes and transport jets, and said 23 coded U.S. Air Force radio broadcasts had been detected that day.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2112276126311550993"
-      },
-      {
-        "id": "2112253477267124467",
-        "date": "2026-10-19",
-        "dateLabel": "19 OCT 2026 · UTC",
-        "headline": "Pakistan army chief Tehran visit report highlighted",
-        "summary": "War Watch highlighted an Al Jazeera Arabic report, citing Tasnim, that Pakistan’s army chief Asim Munir would arrive in Tehran the following day, and said two outlets had confirmed the report.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2112253477267124467"
       }
     ]
   },
