@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2112367296949694767",
+        "date": "2026-10-20",
+        "dateLabel": "20 OCT 2026 · UTC",
+        "headline": "USAF transports and simulated regional strikes reported",
+        "summary": "War Watch reported six U.S. Air Force transport aircraft airborne over the continental United States and said Israeli jets conducted simulated strikes through Syrian and Iraqi airspace.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2112367296949694767"
+      },
+      {
+        "id": "2112349428736516296",
+        "date": "2026-10-20",
+        "dateLabel": "20 OCT 2026 · UTC",
+        "headline": "Iranian 3rd Khordad air-defence transport report highlighted",
+        "summary": "War Watch highlighted an OSINTWarfare report that an Iranian 3rd Khordad air-defence system was seen being transported on the western outskirts of Tehran. The item was credited to reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2112349428736516296"
+      },
+      {
+        "id": "2112345656039743623",
+        "date": "2026-10-20",
+        "dateLabel": "20 OCT 2026 · UTC",
+        "headline": "KC-135 Stratotanker SALTY52 sighting reported",
+        "summary": "War Watch reported Boeing KC-135R/T Stratotanker SALTY52, registration 64-14828 and hex code AE042C. The sighting was credited to reagan0965 and the photo to Sierra Mike via Planespotters.net.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2112345656039743623"
+      },
+      {
+        "id": "2112341702832742536",
+        "date": "2026-10-20",
+        "dateLabel": "20 OCT 2026 · UTC",
+        "headline": "Al-Alam Camp missile-strike casualties reported",
+        "summary": "War Watch reported that the death toll from an Ansar Allah missile strike on Al-Alam Camp had exceeded 70 and that more than 200 people were injured. The item was credited to reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2112341702832742536"
+      },
+      {
+        "id": "2112334831816257971",
+        "date": "2026-10-20",
+        "dateLabel": "20 OCT 2026 · UTC",
+        "headline": "RQ-4 Global Hawk BLKCAT5 sighting reported",
+        "summary": "War Watch reported Northrop Grumman RQ-4 Global Hawk BLKCAT5, registration 169602 and hex code AE7811, south of Cuba heading west-northwest. The sighting was credited to reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2112334831816257971"
+      },
+      {
         "id": "2112321995673051273",
         "date": "2026-10-19",
         "dateLabel": "19 OCT 2026 · UTC",
@@ -59,46 +99,6 @@
         "headline": "Pakistan army chief Tehran visit report highlighted",
         "summary": "War Watch highlighted an Al Jazeera Arabic report, citing Tasnim, that Pakistan’s army chief Asim Munir would arrive in Tehran the following day, and said two outlets had confirmed the report.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2112253477267124467"
-      },
-      {
-        "id": "2112234404521083200",
-        "date": "2026-10-19",
-        "dateLabel": "19 OCT 2026 · UTC",
-        "headline": "Suspilne Kyiv TCC shooting report highlighted",
-        "summary": "War Watch highlighted a Suspilne report that a man opened fire inside a TCC building in Kyiv’s Pechersk district, citing police, and said two outlets had confirmed the report.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2112234404521083200"
-      },
-      {
-        "id": "2112230580616081883",
-        "date": "2026-10-19",
-        "dateLabel": "19 OCT 2026 · UTC",
-        "headline": "US military transports, spy plane and surveillance drone reported",
-        "summary": "War Watch reported six U.S. military transport aircraft, a spy plane and a surveillance drone airborne over the continental United States, and described activity as about normal.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2112230580616081883"
-      },
-      {
-        "id": "2112221575172739413",
-        "date": "2026-10-19",
-        "dateLabel": "19 OCT 2026 · UTC",
-        "headline": "USAF E-4B sighting west of Kansas City reported",
-        "summary": "War Watch reported a U.S. Air Force Boeing 747 E-4B, hex code ADFEB5, west of Kansas City. The sighting was credited to timharkness9152 and the photo to Chris Lofting via Planespotters.net.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2112221575172739413"
-      },
-      {
-        "id": "2112203605243494758",
-        "date": "2026-10-19",
-        "dateLabel": "19 OCT 2026 · UTC",
-        "headline": "IAI Heron I Shoval sighting reported",
-        "summary": "War Watch reported an Israel Defence Forces IAI Heron I Shoval, callsign 724, registration 4X-UMB and hex code 738700, flying a surveillance pattern between Netanya and Haifa, Israel. The sighting was credited to alexgreen1767.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2112203605243494758"
-      },
-      {
-        "id": "2112185131699970529",
-        "date": "2026-10-19",
-        "dateLabel": "19 OCT 2026 · UTC",
-        "headline": "USAF transports, surveillance drone and coded traffic reported",
-        "summary": "War Watch reported six U.S. Air Force transport aircraft airborne over the United States and North Sea, together with a surveillance drone, and said 23 coded radio broadcasts had been heard that day.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2112185131699970529"
       }
     ]
   },
