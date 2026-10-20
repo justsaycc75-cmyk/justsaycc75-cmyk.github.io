@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2112579553038123266",
+        "date": "2026-10-20",
+        "dateLabel": "20 OCT 2026 · UTC",
+        "headline": "IDF and ISA Hamas-member announcement highlighted",
+        "summary": "War Watch highlighted a joint IDF and ISA announcement saying their forces eliminated a Hamas member alleged to have taken part in an abduction, and said two outlets had confirmed the report.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2112579553038123266"
+      },
+      {
+        "id": "2112568170502332642",
+        "date": "2026-10-20",
+        "dateLabel": "20 OCT 2026 · UTC",
+        "headline": "French military-deployment report highlighted",
+        "summary": "War Watch highlighted an Al Jazeera Arabic report citing Reuters and the French interior minister about a planned French military deployment, and said two outlets had confirmed the report.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2112568170502332642"
+      },
+      {
+        "id": "2112551861681094766",
+        "date": "2026-10-20",
+        "dateLabel": "20 OCT 2026 · UTC",
+        "headline": "Black Sea military air activity elevated",
+        "summary": "War Watch reported six U.S. Air Force heavy transport aircraft airborne over the United States and military air activity near the Black Sea at almost six times normal levels.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2112551861681094766"
+      },
+      {
         "id": "2112546326298685714",
         "date": "2026-10-20",
         "dateLabel": "20 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "Suspilne Dnipro warehouse-attack report highlighted",
         "summary": "War Watch highlighted a Suspilne report that three people were wounded in a Russian attack on warehouses in the suburbs of Dnipro, and said two outlets had confirmed the report.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2112445913427816533"
-      },
-      {
-        "id": "2112434513586294993",
-        "date": "2026-10-20",
-        "dateLabel": "20 OCT 2026 · UTC",
-        "headline": "Reuters Sudan–South Sudan border-area strike report highlighted",
-        "summary": "War Watch highlighted a Reuters report citing a minister who said a drone strike in the disputed Sudan–South Sudan border area killed dozens, and said two outlets had confirmed the report.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2112434513586294993"
-      },
-      {
-        "id": "2112416721076146238",
-        "date": "2026-10-20",
-        "dateLabel": "20 OCT 2026 · UTC",
-        "headline": "ADF personnel deployment to Japan reported",
-        "summary": "War Watch reported that almost 300 Australian Defence Force personnel had deployed to Japan to improve readiness and interoperability. The item was credited to SailawayDebstaAU.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2112416721076146238"
-      },
-      {
-        "id": "2112412946080940407",
-        "date": "2026-10-20",
-        "dateLabel": "20 OCT 2026 · UTC",
-        "headline": "Elevated UK and North Sea air activity reported",
-        "summary": "War Watch reported air activity over the United Kingdom and North Sea at nearly four times its usual level, with six U.S. military transport aircraft airborne across multiple regions.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2112412946080940407"
       }
     ]
   },
