@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2112761233724121205",
+        "date": "2026-10-21",
+        "dateLabel": "21 OCT 2026 · UTC",
+        "headline": "Kyiv UAV impact report highlighted",
+        "summary": "War Watch highlighted a Suspilne report that a UAV fell onto parked cars in Kyiv’s Desnianskyi district, saying two outlets had subsequently confirmed the report.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2112761233724121205"
+      },
+      {
+        "id": "2112749684112441646",
+        "date": "2026-10-21",
+        "dateLabel": "21 OCT 2026 · UTC",
+        "headline": "Elevated military aircraft activity reported",
+        "summary": "War Watch reported multiple U.S. Air Force transport aircraft and a nuclear command-and-control aircraft observed during the preceding hours, describing activity over the United Kingdom and North America as elevated.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2112749684112441646"
+      },
+      {
         "id": "2112704134608494628",
         "date": "2026-10-21",
         "dateLabel": "21 OCT 2026 · UTC",
@@ -83,22 +99,6 @@
         "headline": "Large blast in Khomeini Shahr reported",
         "summary": "War Watch reported a large blast in Khomeini Shahr, Isfahan Province, Iran. The item was credited to weslester6474; no cause was stated.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2112611270050320851"
-      },
-      {
-        "id": "2112607495273210265",
-        "date": "2026-10-20",
-        "dateLabel": "20 OCT 2026 · UTC",
-        "headline": "USAF command, bomber and support aircraft airborne",
-        "summary": "War Watch reported a U.S. Air Force nuclear-command aircraft, two bombers, three cargo aircraft and one surveillance aircraft airborne over the continental United States.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2112607495273210265"
-      },
-      {
-        "id": "2112603686132191519",
-        "date": "2026-10-20",
-        "dateLabel": "20 OCT 2026 · UTC",
-        "headline": "UK Iran-intelligence arrest report highlighted",
-        "summary": "War Watch highlighted an Associated Press report that British police had rearrested two men on suspicion of assisting Iran’s intelligence service, and said two outlets had confirmed the report.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2112603686132191519"
       }
     ]
   },
