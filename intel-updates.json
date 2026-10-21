@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2113047675373232524",
+        "date": "2026-10-21",
+        "dateLabel": "21 OCT 2026 · UTC",
+        "headline": "NORSE44 E-3 Sentry sighting reported",
+        "summary": "War Watch reported NORSE44, an E-3 Sentry with hex code AE11EF, over Idaho. The sighting was credited to lauraprietosanchez2240 and the photo to Cayden Smith – Arizona Aviation via Planespotters.net.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2113047675373232524"
+      },
+      {
+        "id": "2113043007586845074",
+        "date": "2026-10-21",
+        "dateLabel": "21 OCT 2026 · UTC",
+        "headline": "EAM header code reported",
+        "summary": "War Watch reported an Emergency Action Message header or preamble with code 4SF7LS.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2113043007586845074"
+      },
+      {
+        "id": "2113033274415051052",
+        "date": "2026-10-21",
+        "dateLabel": "21 OCT 2026 · UTC",
+        "headline": "Sirik IRGC launcher strike report highlighted",
+        "summary": "War Watch relayed an Ilia Hashemi report that an IRGC missile launcher in the hills of Sirik was targeted in a drone strike. The item was credited to weslester6474.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2113033274415051052"
+      },
+      {
+        "id": "2113029500438999060",
+        "date": "2026-10-21",
+        "dateLabel": "21 OCT 2026 · UTC",
+        "headline": "U.S. and East Asia military-flight activity reported",
+        "summary": "War Watch reported unusually active U.S. military transport and surveillance aircraft over the continental United States, with a separate spike in military flights near Korea and Japan.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2113029500438999060"
+      },
+      {
+        "id": "2113025473437372696",
+        "date": "2026-10-21",
+        "dateLabel": "21 OCT 2026 · UTC",
+        "headline": "Kyiv ballistic-missile attack reported",
+        "summary": "War Watch reported that Russia launched a missile attack on Kyiv using more than 10 ballistic missiles, reportedly including Iskander-M, Zircon and S-400 systems.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2113025473437372696"
+      },
+      {
         "id": "2112998545619927301",
         "date": "2026-10-21",
         "dateLabel": "21 OCT 2026 · UTC",
@@ -59,46 +99,6 @@
         "headline": "U.S. command, bomber and radar aircraft activity reported",
         "summary": "War Watch reported multiple high-level U.S. military aircraft airborne over the continental United States, including a nuclear-command aircraft, surveillance aircraft, bomber and airborne-radar aircraft.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2112931607279530455"
-      },
-      {
-        "id": "2112927328460325243",
-        "date": "2026-10-21",
-        "dateLabel": "21 OCT 2026 · UTC",
-        "headline": "B-52H over Louisiana sighting reported",
-        "summary": "War Watch reported a U.S. Air Force Boeing B-52H Stratofortress, hex code AE58B1, over Louisiana. The sighting was credited to timharkness9152.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2112927328460325243"
-      },
-      {
-        "id": "2112923466236150185",
-        "date": "2026-10-21",
-        "dateLabel": "21 OCT 2026 · UTC",
-        "headline": "Kyiv Post Su-30 crash report highlighted",
-        "summary": "War Watch highlighted a Kyiv Post report that a Russian Su-30 crashed near NATO borders and its pilots ejected. The item was credited to timharkness9152.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2112923466236150185"
-      },
-      {
-        "id": "2112886059109433729",
-        "date": "2026-10-21",
-        "dateLabel": "21 OCT 2026 · UTC",
-        "headline": "Elevated Black Sea and NATO air activity reported",
-        "summary": "War Watch reported Black Sea air activity at nearly three times normal, with three U.S. Air Force transport aircraft and two NATO radar aircraft airborne across Europe.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2112886059109433729"
-      },
-      {
-        "id": "2112877828890915132",
-        "date": "2026-10-21",
-        "dateLabel": "21 OCT 2026 · UTC",
-        "headline": "Four-country defence accord report highlighted",
-        "summary": "War Watch highlighted a Reuters report that Turkey, Qatar, Pakistan and Indonesia signed a defence-cooperation accord, according to Ankara, and said two outlets had confirmed the report.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2112877828890915132"
-      },
-      {
-        "id": "2112840506531000468",
-        "date": "2026-10-21",
-        "dateLabel": "21 OCT 2026 · UTC",
-        "headline": "U.S. transport and NATO radar aircraft activity reported",
-        "summary": "War Watch reported six U.S. military transport aircraft airborne across Europe and the Middle East, together with a NATO early-warning radar aircraft over the Baltic.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2112840506531000468"
       }
     ]
   },
