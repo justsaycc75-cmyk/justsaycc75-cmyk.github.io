@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2112998545619927301",
+        "date": "2026-10-21",
+        "dateLabel": "21 OCT 2026 · UTC",
+        "headline": "U.S. strike on anti-ship missile launcher reported",
+        "summary": "War Watch relayed initial reports that a U.S. strike targeted an anti-ship cruise-missile launcher. The item was credited to weslester6474.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2112998545619927301"
+      },
+      {
+        "id": "2112994628332924942",
+        "date": "2026-10-21",
+        "dateLabel": "21 OCT 2026 · UTC",
+        "headline": "Shaybah oil-field drone report highlighted",
+        "summary": "War Watch highlighted an Al Jazeera Arabic report quoting Saudi Arabia’s Energy Ministry that a drone attempted to target the Shaybah oil field, and said two outlets had confirmed the report.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2112994628332924942"
+      },
+      {
+        "id": "2112987221863145611",
+        "date": "2026-10-21",
+        "dateLabel": "21 OCT 2026 · UTC",
+        "headline": "Hormuz explosion and vessel-hailing report highlighted",
+        "summary": "War Watch highlighted a 1900 GTM report of an explosion around Hormuz and U.S. Navy hails to multiple vessels, including tanker AURA over an alleged illegal ship-to-ship transfer. The item was credited to weslester6474.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2112987221863145611"
+      },
+      {
+        "id": "2112980929878622690",
+        "date": "2026-10-21",
+        "dateLabel": "21 OCT 2026 · UTC",
+        "headline": "Fars News Agency Sirik explosions report highlighted",
+        "summary": "War Watch highlighted an Iran Fars News Agency report that several explosions were heard in Sirik, Iran, with the cause unknown. The item was credited to weslester6474.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2112980929878622690"
+      },
+      {
+        "id": "2112977155994849382",
+        "date": "2026-10-21",
+        "dateLabel": "21 OCT 2026 · UTC",
+        "headline": "U.S. transport, surveillance and bomber activity reported",
+        "summary": "War Watch reported four U.S. Air Force transport aircraft, a surveillance aircraft and a bomber airborne over the United States following four coded radio broadcasts earlier that day.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2112977155994849382"
+      },
+      {
         "id": "2112935631848349822",
         "date": "2026-10-21",
         "dateLabel": "21 OCT 2026 · UTC",
@@ -59,46 +99,6 @@
         "headline": "U.S. transport and NATO radar aircraft activity reported",
         "summary": "War Watch reported six U.S. military transport aircraft airborne across Europe and the Middle East, together with a NATO early-warning radar aircraft over the Baltic.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2112840506531000468"
-      },
-      {
-        "id": "2112821579734253915",
-        "date": "2026-10-21",
-        "dateLabel": "21 OCT 2026 · UTC",
-        "headline": "Iraq–Iran border-crossing closure report highlighted",
-        "summary": "War Watch highlighted a Reuters report that Iraq closed the Sheeb border crossing with Iran for a security check, citing sources, and said two outlets had confirmed the report.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2112821579734253915"
-      },
-      {
-        "id": "2112806101246702034",
-        "date": "2026-10-21",
-        "dateLabel": "21 OCT 2026 · UTC",
-        "headline": "IDF regional statement highlighted",
-        "summary": "War Watch highlighted an IDF statement referring to soldiers and commanders across areas from Mount Hermon to Eilat and from Lebanon and Syria to the Gaza Strip, and said two outlets had confirmed it.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2112806101246702034"
-      },
-      {
-        "id": "2112795205875175583",
-        "date": "2026-10-21",
-        "dateLabel": "21 OCT 2026 · UTC",
-        "headline": "USAF transport-aircraft activity reported",
-        "summary": "War Watch reported six U.S. Air Force transport aircraft airborne across several regions, including one over the North Sea, and said no coded radio broadcasts were detected during that hour.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2112795205875175583"
-      },
-      {
-        "id": "2112761233724121205",
-        "date": "2026-10-21",
-        "dateLabel": "21 OCT 2026 · UTC",
-        "headline": "Kyiv UAV impact report highlighted",
-        "summary": "War Watch highlighted a Suspilne report that a UAV fell onto parked cars in Kyiv’s Desnianskyi district, saying two outlets had subsequently confirmed the report.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2112761233724121205"
-      },
-      {
-        "id": "2112749684112441646",
-        "date": "2026-10-21",
-        "dateLabel": "21 OCT 2026 · UTC",
-        "headline": "Elevated military aircraft activity reported",
-        "summary": "War Watch reported multiple U.S. Air Force transport aircraft and a nuclear command-and-control aircraft observed during the preceding hours, describing activity over the United Kingdom and North America as elevated.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2112749684112441646"
       }
     ]
   },
@@ -107,6 +107,22 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2112989953609146558",
+        "date": "2026-10-21",
+        "dateLabel": "21 OCT 2026 · UTC",
+        "headline": "N333QS North Las Vegas arrival replay shared",
+        "summary": "SkyGlass shared a one-take replay of N333QS, a Phenom 300, flying from Van Nuys to North Las Vegas and continuing from the valley to touchdown and back.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2112989953609146558"
+      },
+      {
+        "id": "2112972213628342464",
+        "date": "2026-10-21",
+        "dateLabel": "21 OCT 2026 · UTC",
+        "headline": "Harry Reid ramp aircraft counts shared",
+        "summary": "SkyGlass reported 38 aircraft on one Harry Reid ramp and 26 on another on Wednesday morning during NBAA-BACE, shown in four frames from the valley to the ramp.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2112972213628342464"
+      },
       {
         "id": "2112952207825862832",
         "date": "2026-10-21",
@@ -186,22 +202,6 @@
         "headline": "N200SG field view and airframe brief shared",
         "summary": "SkyGlass shared a field view and an Airframe Intelligence Brief for Falcon 50 N200SG.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2112199873852264912"
-      },
-      {
-        "id": "2112199451628483017",
-        "date": "2026-10-19",
-        "dateLabel": "19 OCT 2026 · UTC",
-        "headline": "Falcon 50 overrun and Las Vegas runway closures reported",
-        "summary": "SkyGlass reported that Falcon 50 N200SG rejected takeoff on runway 01L at Harry Reid International Airport, overran and struck the perimeter fence, with no injuries. It said runways 01L and 01R later reopened after inspection.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2112199451628483017"
-      },
-      {
-        "id": "2111462201684824081",
-        "date": "2026-10-17",
-        "dateLabel": "17 OCT 2026 · UTC",
-        "headline": "B737 airborne alert at Virginia Beach",
-        "summary": "SkyGlass posted an OFF Ground alert for a B737 aircraft at Virginia Beach, Virginia, United States. The callsign was shown as CNV4989.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2111462201684824081"
       }
     ]
   }
