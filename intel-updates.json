@@ -5,6 +5,38 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2112935631848349822",
+        "date": "2026-10-21",
+        "dateLabel": "21 OCT 2026 · UTC",
+        "headline": "VEGAS11 Gray Eagle sighting reported",
+        "summary": "War Watch reported VEGAS11, identified in the post as an Army General Atomics NQ-1C Gray Eagle with hex code AE5C14. The sighting was credited to timharkness9152.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2112935631848349822"
+      },
+      {
+        "id": "2112931607279530455",
+        "date": "2026-10-21",
+        "dateLabel": "21 OCT 2026 · UTC",
+        "headline": "U.S. command, bomber and radar aircraft activity reported",
+        "summary": "War Watch reported multiple high-level U.S. military aircraft airborne over the continental United States, including a nuclear-command aircraft, surveillance aircraft, bomber and airborne-radar aircraft.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2112931607279530455"
+      },
+      {
+        "id": "2112927328460325243",
+        "date": "2026-10-21",
+        "dateLabel": "21 OCT 2026 · UTC",
+        "headline": "B-52H over Louisiana sighting reported",
+        "summary": "War Watch reported a U.S. Air Force Boeing B-52H Stratofortress, hex code AE58B1, over Louisiana. The sighting was credited to timharkness9152.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2112927328460325243"
+      },
+      {
+        "id": "2112923466236150185",
+        "date": "2026-10-21",
+        "dateLabel": "21 OCT 2026 · UTC",
+        "headline": "Kyiv Post Su-30 crash report highlighted",
+        "summary": "War Watch highlighted a Kyiv Post report that a Russian Su-30 crashed near NATO borders and its pilots ejected. The item was credited to timharkness9152.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2112923466236150185"
+      },
+      {
         "id": "2112886059109433729",
         "date": "2026-10-21",
         "dateLabel": "21 OCT 2026 · UTC",
@@ -67,38 +99,6 @@
         "headline": "Elevated military aircraft activity reported",
         "summary": "War Watch reported multiple U.S. Air Force transport aircraft and a nuclear command-and-control aircraft observed during the preceding hours, describing activity over the United Kingdom and North America as elevated.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2112749684112441646"
-      },
-      {
-        "id": "2112704134608494628",
-        "date": "2026-10-21",
-        "dateLabel": "21 OCT 2026 · UTC",
-        "headline": "Elevated U.S. military aircraft activity reported",
-        "summary": "War Watch reported six large U.S. military transport aircraft airborne over the continental United States alongside surveillance aircraft and a nuclear-command aircraft, describing the activity as above normal levels.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2112704134608494628"
-      },
-      {
-        "id": "2112700232328757425",
-        "date": "2026-10-21",
-        "dateLabel": "21 OCT 2026 · UTC",
-        "headline": "RSAF airstrike in Taiz report highlighted",
-        "summary": "War Watch highlighted an OSINTWarfare report that a Royal Saudi Air Force airstrike targeted Najd Al-Nashamah in Yemen’s Taiz Governorate. The item was credited to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2112700232328757425"
-      },
-      {
-        "id": "2112691551134450052",
-        "date": "2026-10-20",
-        "dateLabel": "20 OCT 2026 · UTC",
-        "headline": "Jerusalem Post Iran-strike report highlighted",
-        "summary": "War Watch highlighted a Jerusalem Post report claiming Donald Trump was very close to renewing strikes on Iran as Israeli and Lebanese delegations met in Florida. The item was credited to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2112691551134450052"
-      },
-      {
-        "id": "2112687700780240921",
-        "date": "2026-10-20",
-        "dateLabel": "20 OCT 2026 · UTC",
-        "headline": "Boeing E-4B CLUB22 sighting reported",
-        "summary": "War Watch reported Boeing E-4B CLUB22, registration 75-0125 and hex code ADFEB6. The sighting was credited to reagan0965 and the photo to Nicolas Shu via Planespotters.net.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2112687700780240921"
       }
     ]
   },
@@ -107,6 +107,22 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2112952207825862832",
+        "date": "2026-10-21",
+        "dateLabel": "21 OCT 2026 · UTC",
+        "headline": "KLAS show-week ramp tour shared",
+        "summary": "SkyGlass shared a continuous tour of the KLAS ramp, noting that show-week ground activity becomes difficult after aircraft land.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2112952207825862832"
+      },
+      {
+        "id": "2112937605356519672",
+        "date": "2026-10-21",
+        "dateLabel": "21 OCT 2026 · UTC",
+        "headline": "Las Vegas Strip helicopter replay shared",
+        "summary": "SkyGlass shared a 120-times-speed replay of Tuesday evening helicopter tours operating from Harry Reid International Airport, along the Las Vegas Strip and back.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2112937605356519672"
+      },
       {
         "id": "2112906919463534918",
         "date": "2026-10-21",
@@ -186,22 +202,6 @@
         "headline": "B737 airborne alert at Virginia Beach",
         "summary": "SkyGlass posted an OFF Ground alert for a B737 aircraft at Virginia Beach, Virginia, United States. The callsign was shown as CNV4989.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2111462201684824081"
-      },
-      {
-        "id": "2111455201743843517",
-        "date": "2026-10-17",
-        "dateLabel": "17 OCT 2026 · UTC",
-        "headline": "E-6 airborne alert at Suisun",
-        "summary": "SkyGlass posted an OFF Ground alert for an E-6 aircraft at Suisun, California, United States. The callsign was shown as NA.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2111455201743843517"
-      },
-      {
-        "id": "2111434507085545813",
-        "date": "2026-10-17",
-        "dateLabel": "17 OCT 2026 · UTC",
-        "headline": "P-8 airborne alert at Ballina",
-        "summary": "SkyGlass posted an OFF Ground alert for a P-8 aircraft at Ballina, Ireland. The callsign was shown as PK191.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2111434507085545813"
       }
     ]
   }
