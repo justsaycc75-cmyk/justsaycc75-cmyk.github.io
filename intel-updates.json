@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2113350117700886568",
+        "date": "2026-10-22",
+        "dateLabel": "22 OCT 2026 · UTC",
+        "headline": "U.S. military and customs aircraft activity reported",
+        "summary": "War Watch reported four U.S. Air Force heavy transport aircraft, a surveillance aircraft and a customs drone airborne over the continental United States, along with one coded U.S. Air Force radio broadcast.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2113350117700886568"
+      },
+      {
         "id": "2113304819238686801",
         "date": "2026-10-22",
         "dateLabel": "22 OCT 2026 · UTC",
@@ -91,14 +99,6 @@
         "headline": "Haiti hostage-rescue operation report highlighted",
         "summary": "War Watch relayed an Associated Press report that Nayib Bukele said a military operation was launched to rescue Salvadorans held by gangs in Haiti.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2113099967099183465"
-      },
-      {
-        "id": "2113093675198681406",
-        "date": "2026-10-22",
-        "dateLabel": "22 OCT 2026 · UTC",
-        "headline": "Russia-Ukraine three-way talks report highlighted",
-        "summary": "War Watch relayed an Associated Press report that the Kremlin said Russia agreed to resume three-way talks with Ukraine and the United States on the war in Ukraine.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113093675198681406"
       }
     ]
   },
@@ -107,6 +107,38 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2113359898415096026",
+        "date": "2026-10-22",
+        "dateLabel": "22 OCT 2026 · UTC",
+        "headline": "NBAA-BACE peak-hour replay shared",
+        "summary": "SkyGlass shared a 30-times-speed replay covering 28 minutes of Wednesday’s NBAA-BACE peak traffic across Harry Reid, Henderson, North Las Vegas and Boulder City, followed by a valley-wide view.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2113359898415096026"
+      },
+      {
+        "id": "2113344736543002890",
+        "date": "2026-10-22",
+        "dateLabel": "22 OCT 2026 · UTC",
+        "headline": "N871CB Boulder City arrival replay shared",
+        "summary": "SkyGlass shared the Wednesday NBAA-BACE arrival of Citation CJ2 N871CB into Boulder City, showing the approach at ten-times speed and the touchdown in real time.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2113344736543002890"
+      },
+      {
+        "id": "2113337193703870760",
+        "date": "2026-10-22",
+        "dateLabel": "22 OCT 2026 · UTC",
+        "headline": "Henderson NBAA-BACE business-jet traffic reported",
+        "summary": "SkyGlass reported 81 business jets at Henderson on Wednesday during NBAA-BACE, compared with 172 at Harry Reid, highlighting overflow traffic handled by the valley’s reliever airfields.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2113337193703870760"
+      },
+      {
+        "id": "2113322104124792998",
+        "date": "2026-10-22",
+        "dateLabel": "22 OCT 2026 · UTC",
+        "headline": "Las Vegas NBAA-BACE traffic comparison posted",
+        "summary": "SkyGlass reported Las Vegas business-jet activity up 13% on Wednesday during NBAA-BACE while overall traffic eased by about 5%, citing SkyGlass MCP data.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2113322104124792998"
+      },
       {
         "id": "2113310805269635481",
         "date": "2026-10-22",
@@ -170,38 +202,6 @@
         "headline": "Las Vegas valley traffic peak replay shared",
         "summary": "SkyGlass shared a 30-times-speed replay of the previous day’s peak traffic across four Las Vegas-area airfields.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2112635022855242051"
-      },
-      {
-        "id": "2112619904104886589",
-        "date": "2026-10-20",
-        "dateLabel": "20 OCT 2026 · UTC",
-        "headline": "NBAA-BACE day-one traffic view shared",
-        "summary": "SkyGlass presented a day-one NBAA-BACE live view covering four Las Vegas-area airfields, with valley-wide views and closer views of KLAS and KHND.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2112619904104886589"
-      },
-      {
-        "id": "2112597203290079620",
-        "date": "2026-10-20",
-        "dateLabel": "20 OCT 2026 · UTC",
-        "headline": "NBAA-BACE traffic after-action report shared",
-        "summary": "SkyGlass reported that Las Vegas valley traffic on 19 October was down 4% while business-jet activity held steady. The post credited the data to the SkyGlass MCP.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2112597203290079620"
-      },
-      {
-        "id": "2112218216135045470",
-        "date": "2026-10-19",
-        "dateLabel": "19 OCT 2026 · UTC",
-        "headline": "NetJets Citation Latitude arrival at KHND shown",
-        "summary": "SkyGlass showed NetJets Citation Latitude N910QS arriving from Denver Centennial and parking on the ramp at KHND, with ramp movements marked across the sequence.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2112218216135045470"
-      },
-      {
-        "id": "2112217206750687450",
-        "date": "2026-10-19",
-        "dateLabel": "19 OCT 2026 · UTC",
-        "headline": "BACE ramp boards launched for four Las Vegas fields",
-        "summary": "SkyGlass announced live ramp boards for KLAS, KHND, KVGT and KBVU during BACE show week.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2112217206750687450"
       }
     ]
   }
