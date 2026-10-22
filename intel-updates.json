@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2113165399386706175",
+        "date": "2026-10-22",
+        "dateLabel": "22 OCT 2026 · UTC",
+        "headline": "U.S., North Sea and Baltic military-flight activity reported",
+        "summary": "War Watch reported six U.S. Air Force transport aircraft over the continental United States and North Sea, with military-flight activity near the Baltic at nearly four times the usual level.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2113165399386706175"
+      },
+      {
+        "id": "2113142179103133869",
+        "date": "2026-10-22",
+        "dateLabel": "22 OCT 2026 · UTC",
+        "headline": "IRGC oil-transfer vessel report highlighted",
+        "summary": "War Watch highlighted an Al Jazeera Arabic report concerning four ships transferring oil from one vessel, and said two outlets had confirmed the report.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2113142179103133869"
+      },
+      {
         "id": "2113120099892707778",
         "date": "2026-10-22",
         "dateLabel": "22 OCT 2026 · UTC",
@@ -83,22 +99,6 @@
         "headline": "Sirik IRGC launcher strike report highlighted",
         "summary": "War Watch relayed an Ilia Hashemi report that an IRGC missile launcher in the hills of Sirik was targeted in a drone strike. The item was credited to weslester6474.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2113033274415051052"
-      },
-      {
-        "id": "2113029500438999060",
-        "date": "2026-10-21",
-        "dateLabel": "21 OCT 2026 · UTC",
-        "headline": "U.S. and East Asia military-flight activity reported",
-        "summary": "War Watch reported unusually active U.S. military transport and surveillance aircraft over the continental United States, with a separate spike in military flights near Korea and Japan.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113029500438999060"
-      },
-      {
-        "id": "2113025473437372696",
-        "date": "2026-10-21",
-        "dateLabel": "21 OCT 2026 · UTC",
-        "headline": "Kyiv ballistic-missile attack reported",
-        "summary": "War Watch reported that Russia launched a missile attack on Kyiv using more than 10 ballistic missiles, reportedly including Iskander-M, Zircon and S-400 systems.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113025473437372696"
       }
     ]
   },
