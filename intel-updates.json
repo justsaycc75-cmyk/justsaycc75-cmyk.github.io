@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2113120099892707778",
+        "date": "2026-10-22",
+        "dateLabel": "22 OCT 2026 · UTC",
+        "headline": "U.S. and North Sea military-aircraft activity reported",
+        "summary": "War Watch reported multiple U.S. military surveillance and airborne-command aircraft over the United States and North Sea, along with three coded U.S. Air Force radio broadcasts that day.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2113120099892707778"
+      },
+      {
+        "id": "2113099967099183465",
+        "date": "2026-10-22",
+        "dateLabel": "22 OCT 2026 · UTC",
+        "headline": "Haiti hostage-rescue operation report highlighted",
+        "summary": "War Watch relayed an Associated Press report that Nayib Bukele said a military operation was launched to rescue Salvadorans held by gangs in Haiti.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2113099967099183465"
+      },
+      {
         "id": "2113093675198681406",
         "date": "2026-10-22",
         "dateLabel": "22 OCT 2026 · UTC",
@@ -83,22 +99,6 @@
         "headline": "Kyiv ballistic-missile attack reported",
         "summary": "War Watch reported that Russia launched a missile attack on Kyiv using more than 10 ballistic missiles, reportedly including Iskander-M, Zircon and S-400 systems.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2113025473437372696"
-      },
-      {
-        "id": "2112998545619927301",
-        "date": "2026-10-21",
-        "dateLabel": "21 OCT 2026 · UTC",
-        "headline": "U.S. strike on anti-ship missile launcher reported",
-        "summary": "War Watch relayed initial reports that a U.S. strike targeted an anti-ship cruise-missile launcher. The item was credited to weslester6474.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2112998545619927301"
-      },
-      {
-        "id": "2112994628332924942",
-        "date": "2026-10-21",
-        "dateLabel": "21 OCT 2026 · UTC",
-        "headline": "Shaybah oil-field drone report highlighted",
-        "summary": "War Watch highlighted an Al Jazeera Arabic report quoting Saudi Arabia’s Energy Ministry that a drone attempted to target the Shaybah oil field, and said two outlets had confirmed the report.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2112994628332924942"
       }
     ]
   },
