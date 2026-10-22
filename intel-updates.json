@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2113223103446650887",
+        "date": "2026-10-22",
+        "dateLabel": "22 OCT 2026 · UTC",
+        "headline": "252-body repatriation report highlighted",
+        "summary": "War Watch highlighted a Suspilne report that Ukraine received the bodies of 252 people which the Russian side claimed belonged to Ukrainian citizens, including service members. The post said two outlets had confirmed the report.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2113223103446650887"
+      },
+      {
+        "id": "2113210699925139887",
+        "date": "2026-10-22",
+        "dateLabel": "22 OCT 2026 · UTC",
+        "headline": "North Sea and UK military-flight activity reported",
+        "summary": "War Watch reported multiple U.S. Air Force transport aircraft and a surveillance aircraft over the North Sea and United Kingdom, along with three coded U.S. Air Force radio broadcasts heard earlier that day.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2113210699925139887"
+      },
+      {
         "id": "2113165399386706175",
         "date": "2026-10-22",
         "dateLabel": "22 OCT 2026 · UTC",
@@ -83,22 +99,6 @@
         "headline": "NORSE44 E-3 Sentry sighting reported",
         "summary": "War Watch reported NORSE44, an E-3 Sentry with hex code AE11EF, over Idaho. The sighting was credited to lauraprietosanchez2240 and the photo to Cayden Smith – Arizona Aviation via Planespotters.net.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2113047675373232524"
-      },
-      {
-        "id": "2113043007586845074",
-        "date": "2026-10-21",
-        "dateLabel": "21 OCT 2026 · UTC",
-        "headline": "EAM header code reported",
-        "summary": "War Watch reported an Emergency Action Message header or preamble with code 4SF7LS.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113043007586845074"
-      },
-      {
-        "id": "2113033274415051052",
-        "date": "2026-10-21",
-        "dateLabel": "21 OCT 2026 · UTC",
-        "headline": "Sirik IRGC launcher strike report highlighted",
-        "summary": "War Watch relayed an Ilia Hashemi report that an IRGC missile launcher in the hills of Sirik was targeted in a drone strike. The item was credited to weslester6474.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113033274415051052"
       }
     ]
   },
