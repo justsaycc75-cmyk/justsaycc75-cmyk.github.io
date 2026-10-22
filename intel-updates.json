@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2113304819238686801",
+        "date": "2026-10-22",
+        "dateLabel": "22 OCT 2026 · UTC",
+        "headline": "U.S. and Black Sea military-flight activity reported",
+        "summary": "War Watch reported U.S. Air Force transport aircraft and a surveillance aircraft over the continental United States, with Black Sea military-flight activity at more than five times the usual level.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2113304819238686801"
+      },
+      {
         "id": "2113269838932054096",
         "date": "2026-10-22",
         "dateLabel": "22 OCT 2026 · UTC",
@@ -91,14 +99,6 @@
         "headline": "Russia-Ukraine three-way talks report highlighted",
         "summary": "War Watch relayed an Associated Press report that the Kremlin said Russia agreed to resume three-way talks with Ukraine and the United States on the war in Ukraine.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2113093675198681406"
-      },
-      {
-        "id": "2113089903613333939",
-        "date": "2026-10-22",
-        "dateLabel": "22 OCT 2026 · UTC",
-        "headline": "COBRA45 RC-135S sighting reported",
-        "summary": "War Watch reported COBRA45, a Boeing RC-135S Cobra Ball with hex code AE01D6 and registration 61-2663. The sighting was credited to reagan0965 and the photo to Sierra Aviation Photography via Planespotters.net.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113089903613333939"
       }
     ]
   },
@@ -107,6 +107,14 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2113310805269635481",
+        "date": "2026-10-22",
+        "dateLabel": "22 OCT 2026 · UTC",
+        "headline": "NBAA-BACE departure surge reported",
+        "summary": "SkyGlass reported 360 departures across four Las Vegas-area airfields by mid-afternoon Wednesday following NBAA-BACE, including 148 departures from Harry Reid International Airport.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2113310805269635481"
+      },
       {
         "id": "2112989953609146558",
         "date": "2026-10-21",
@@ -194,14 +202,6 @@
         "headline": "BACE ramp boards launched for four Las Vegas fields",
         "summary": "SkyGlass announced live ramp boards for KLAS, KHND, KVGT and KBVU during BACE show week.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2112217206750687450"
-      },
-      {
-        "id": "2112199873852264912",
-        "date": "2026-10-19",
-        "dateLabel": "19 OCT 2026 · UTC",
-        "headline": "N200SG field view and airframe brief shared",
-        "summary": "SkyGlass shared a field view and an Airframe Intelligence Brief for Falcon 50 N200SG.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2112199873852264912"
       }
     ]
   }
