@@ -5,6 +5,38 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2113269838932054096",
+        "date": "2026-10-22",
+        "dateLabel": "22 OCT 2026 · UTC",
+        "headline": "Russian strikes on Kyiv and Odesa report highlighted",
+        "summary": "War Watch relayed a BBC report of major Russian strikes on Kyiv and Odesa after Russia said it was ready in principle to resume peace talks.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2113269838932054096"
+      },
+      {
+        "id": "2113263298913202623",
+        "date": "2026-10-22",
+        "dateLabel": "22 OCT 2026 · UTC",
+        "headline": "Starlink disruptions investigation call highlighted",
+        "summary": "War Watch relayed a Stars and Stripes report that lawmakers called for an investigation into the source of Starlink disruptions in Ukraine.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2113263298913202623"
+      },
+      {
+        "id": "2113259271676727789",
+        "date": "2026-10-22",
+        "dateLabel": "22 OCT 2026 · UTC",
+        "headline": "North Atlantic and UK military-flight activity reported",
+        "summary": "War Watch reported four coded U.S. Air Force radio broadcasts that day, along with multiple large transport aircraft and a NATO surveillance jet over the North Atlantic and United Kingdom region.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2113259271676727789"
+      },
+      {
+        "id": "2113255318805221782",
+        "date": "2026-10-22",
+        "dateLabel": "22 OCT 2026 · UTC",
+        "headline": "Tal al-Hawa vehicle-strike report highlighted",
+        "summary": "War Watch highlighted an Al Jazeera Arabic report that two people were killed and several injured in an Israeli airstrike on a vehicle in Tal al-Hawa. The post said three outlets had confirmed the report.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2113255318805221782"
+      },
+      {
         "id": "2113223103446650887",
         "date": "2026-10-22",
         "dateLabel": "22 OCT 2026 · UTC",
@@ -67,38 +99,6 @@
         "headline": "COBRA45 RC-135S sighting reported",
         "summary": "War Watch reported COBRA45, a Boeing RC-135S Cobra Ball with hex code AE01D6 and registration 61-2663. The sighting was credited to reagan0965 and the photo to Sierra Aviation Photography via Planespotters.net.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2113089903613333939"
-      },
-      {
-        "id": "2113086125606682917",
-        "date": "2026-10-22",
-        "dateLabel": "22 OCT 2026 · UTC",
-        "headline": "Netanyahu Iran-government statement highlighted",
-        "summary": "War Watch relayed an Insider Paper report that Benjamin Netanyahu said toppling Iran’s government was the only way to end the threat.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113086125606682917"
-      },
-      {
-        "id": "2113082353803309212",
-        "date": "2026-10-22",
-        "dateLabel": "22 OCT 2026 · UTC",
-        "headline": "SHUCK80 E-3G Sentry sighting reported",
-        "summary": "War Watch reported SHUCK80, a Boeing E-3G Sentry with hex code AE11F0 and registration 82-0007. The sighting was credited to reagan0965 and the photo to Nikoli Sparkes via Planespotters.net.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113082353803309212"
-      },
-      {
-        "id": "2113078574374699076",
-        "date": "2026-10-22",
-        "dateLabel": "22 OCT 2026 · UTC",
-        "headline": "U.S. embassy departure order report highlighted",
-        "summary": "War Watch relayed an Insider Paper report that Washington ordered U.S. embassy staff and their families to leave Saudi Arabia.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113078574374699076"
-      },
-      {
-        "id": "2113047675373232524",
-        "date": "2026-10-21",
-        "dateLabel": "21 OCT 2026 · UTC",
-        "headline": "NORSE44 E-3 Sentry sighting reported",
-        "summary": "War Watch reported NORSE44, an E-3 Sentry with hex code AE11EF, over Idaho. The sighting was credited to lauraprietosanchez2240 and the photo to Cayden Smith – Arizona Aviation via Planespotters.net.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113047675373232524"
       }
     ]
   },
