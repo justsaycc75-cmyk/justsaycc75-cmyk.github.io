@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2113766999725593076",
+        "date": "2026-10-23",
+        "dateLabel": "23 OCT 2026 · UTC",
+        "headline": "Ukrainian drone raid into western Russia reported",
+        "summary": "War Watch relayed a contributor report of an ongoing Friday-night Ukrainian drone raid into western Russia involving two separate streams of drones.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2113766999725593076"
+      },
+      {
+        "id": "2113751487759126763",
+        "date": "2026-10-23",
+        "dateLabel": "23 OCT 2026 · UTC",
+        "headline": "Jet activity and distant blast reported in Bandar Lengeh",
+        "summary": "War Watch relayed a contributor report that jet activity and a distant blast were heard in Bandar Lengeh at 21:30 UTC; the contributor said the blast may have been toward the mountains.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2113751487759126763"
+      },
+      {
+        "id": "2113747712986194224",
+        "date": "2026-10-23",
+        "dateLabel": "23 OCT 2026 · UTC",
+        "headline": "B-1B Lancer sighting reported",
+        "summary": "War Watch reported a B-1B Lancer with registration 86-0120 and hex code AE6BFA. The sighting was credited to TruthSeekr60.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2113747712986194224"
+      },
+      {
+        "id": "2113743940100768213",
+        "date": "2026-10-23",
+        "dateLabel": "23 OCT 2026 · UTC",
+        "headline": "Oleshky truce report relayed",
+        "summary": "War Watch relayed an Insider Paper report that Russia's army chief said Russia would observe an Oleshky truce from 01:00 GMT on October 27.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2113743940100768213"
+      },
+      {
+        "id": "2113740161703915790",
+        "date": "2026-10-23",
+        "dateLabel": "23 OCT 2026 · UTC",
+        "headline": "U.S. surveillance and command aircraft activity reported",
+        "summary": "War Watch reported a U.S. Air Force surveillance aircraft and nuclear-command jet airborne, along with 25 coded radio broadcasts heard that day as reports circulated about a possible Iran strike.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2113740161703915790"
+      },
+      {
         "id": "2113721574033351057",
         "date": "2026-10-23",
         "dateLabel": "23 OCT 2026 · UTC",
@@ -59,46 +99,6 @@
         "headline": "Potential Iran strike warning reported",
         "summary": "War Watch relayed a contributor report that Washington alerted Iraqi Prime Minister Ali Faleh al Zaidi to a potential strike on Iran.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2113657001406321126"
-      },
-      {
-        "id": "2113638426670989666",
-        "date": "2026-10-23",
-        "dateLabel": "23 OCT 2026 · UTC",
-        "headline": "UK emergency-preparedness guidance highlighted",
-        "summary": "War Watch highlighted an Independent report that UK households were urged to prepare for emergencies and attacks under new government guidance.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113638426670989666"
-      },
-      {
-        "id": "2113634651948384358",
-        "date": "2026-10-23",
-        "dateLabel": "23 OCT 2026 · UTC",
-        "headline": "U.S. transport and command aircraft activity reported",
-        "summary": "War Watch reported six U.S. Air Force transport aircraft airborne over the United States and North Sea, including one nuclear command jet.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113634651948384358"
-      },
-      {
-        "id": "2113630792068784379",
-        "date": "2026-10-23",
-        "dateLabel": "23 OCT 2026 · UTC",
-        "headline": "Russian Tu-134AK departure from Mehrabad reported",
-        "summary": "War Watch relayed a contributor report that a Russian Special Flight Squadron Tupolev Tu-134AK was seen departing Mehrabad International Airport in Iran.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113630792068784379"
-      },
-      {
-        "id": "2113624783359246606",
-        "date": "2026-10-23",
-        "dateLabel": "23 OCT 2026 · UTC",
-        "headline": "Denmark ammunition transfer to Ukraine highlighted",
-        "summary": "War Watch highlighted a Ukrainska Pravda report that Denmark expedited the transfer of more than 50,000 20 mm rounds to Ukraine for F-16s, and noted that two outlets later confirmed the report.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113624783359246606"
-      },
-      {
-        "id": "2113534331553456504",
-        "date": "2026-10-23",
-        "dateLabel": "23 OCT 2026 · UTC",
-        "headline": "U.S. transport and radar aircraft activity reported",
-        "summary": "War Watch reported six U.S. Air Force transport aircraft and an airborne radar jet flying, with multiple refuelling tankers and cargo aircraft crossing the Atlantic.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113534331553456504"
       }
     ]
   },
@@ -107,6 +107,22 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2113737255961403710",
+        "date": "2026-10-23",
+        "dateLabel": "23 OCT 2026 · UTC",
+        "headline": "BACE business-jet arrivals and impact estimated",
+        "summary": "SkyGlass reported 935 business-jet arrivals, 52% above a normal October week, and estimated that they represented about $13.5 million of BACE2026's roughly $50 million Las Vegas impact.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2113737255961403710"
+      },
+      {
+        "id": "2113729822950138206",
+        "date": "2026-10-23",
+        "dateLabel": "23 OCT 2026 · UTC",
+        "headline": "BACE departure surge reported",
+        "summary": "SkyGlass reported 259 departures from four Las Vegas-area fields by 1:43 p.m. ET, compared with 116 arrivals, and shared a time-lapse covering 10:17 a.m. to 1:29 p.m. ET.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2113729822950138206"
+      },
       {
         "id": "2113722348465496320",
         "date": "2026-10-23",
@@ -186,22 +202,6 @@
         "headline": "Harry Reid ramp aircraft counts shared",
         "summary": "SkyGlass reported 38 aircraft on one Harry Reid ramp and 26 on another on Wednesday morning during NBAA-BACE, shown in four frames from the valley to the ramp.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2112972213628342464"
-      },
-      {
-        "id": "2112952207825862832",
-        "date": "2026-10-21",
-        "dateLabel": "21 OCT 2026 · UTC",
-        "headline": "KLAS show-week ramp tour shared",
-        "summary": "SkyGlass shared a continuous tour of the KLAS ramp, noting that show-week ground activity becomes difficult after aircraft land.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2112952207825862832"
-      },
-      {
-        "id": "2112937605356519672",
-        "date": "2026-10-21",
-        "dateLabel": "21 OCT 2026 · UTC",
-        "headline": "Las Vegas Strip helicopter replay shared",
-        "summary": "SkyGlass shared a 120-times-speed replay of Tuesday evening helicopter tours operating from Harry Reid International Airport, along the Las Vegas Strip and back.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2112937605356519672"
       }
     ]
   }
