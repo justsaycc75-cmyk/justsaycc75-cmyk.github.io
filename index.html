@@ -27,6 +27,7 @@
 .front-live-today .live-game-empty{font-size:12px;color:#cbd7e7;line-height:1.6;margin:14px 0}
 .front-live-today .live-game-stale{color:#ffd591}
 @media(max-width:700px){.front-live-today{grid-column:1/-1;width:100%;max-width:440px;justify-self:center}}
+.front-live-today .live-sport-slot{border-top:1px solid #42627f;margin-top:18px;padding-top:18px}.front-live-today .live-game-badge.is-stale{border-color:#e6b66f;color:#ffd591}.front-live-today .cricket-score{font-size:16px;letter-spacing:0;line-height:1.2;overflow-wrap:anywhere;min-height:2.4em;display:flex;align-items:center;justify-content:center}.front-live-today #live-cricket-game .live-game-team-name{font-size:11px}.front-live-today #live-cricket-game .live-game-clock{font-size:12px;line-height:1.45}.front-live-today .live-game-venue:empty{display:none}
 </style></head><body><header class="topbar"><div class="wrap nav"><a class="brand" href="index.html">MY <b>RETIREMENT</b> PAGE</a><button class="menu-btn" data-menu-button aria-label="Open navigation">MENU</button><nav><a href="music.html">Music</a><a href="journeys.html">Journeys</a><a href="hunter.html">Hunter</a><a href="watching.html">Watching</a><a href="sport-current.html">Sport</a><a href="radio.html">Radio</a><a href="markets.html">Markets</a></nav></div></header><main>
 <section class="world-times" aria-label="Live world times, east to west"><div class="world-times-inner"><div class="world-times-label">WORLD TIMES <span>Following the sun, east to west</span></div><div class="world-times-grid"><div class="world-clock" data-world-zone="Pacific/Auckland"><span>AUCKLAND</span><strong>--:--</strong><small>Loading time</small></div><div class="world-clock world-clock-home" data-world-zone="Australia/Sydney"><span>SYDNEY</span><strong>--:--</strong><small>Loading time</small></div><div class="world-clock" data-world-zone="Asia/Shanghai"><span>BEIJING</span><strong>--:--</strong><small>Loading time</small></div><div class="world-clock" data-world-zone="Asia/Jerusalem"><span>JERUSALEM</span><strong>--:--</strong><small>Loading time</small></div><div class="world-clock" data-world-zone="Europe/London"><span>LONDON</span><strong>--:--</strong><small>Loading time</small></div><div class="world-clock" data-world-zone="America/New_York"><span>NEW YORK</span><strong>--:--</strong><small>Loading time</small></div><div class="world-clock" data-world-zone="America/Chicago"><span>DALLAS</span><strong>--:--</strong><small>Loading time</small></div><div class="world-clock" data-world-zone="America/Los_Angeles"><span>LOS ANGELES</span><strong>--:--</strong><small>Loading time</small></div><div class="world-clock" data-world-zone="Pacific/Honolulu"><span>HONOLULU</span><strong>--:--</strong><small>Loading time</small></div><div class="world-clock" data-world-zone="Pacific/Pago_Pago"><span>PAGO PAGO</span><strong>--:--</strong><small>Loading time</small></div></div></div></section>
 <div class="front-shell">
@@ -35,10 +36,12 @@
 <a href="hunter.html" class="front-photo-card"><img src="assets/img/hunter1.webp" alt="Hunter Valley"><span>Hunter Valley</span></a>
 <section class="front-live-today" id="live-today" aria-labelledby="live-today-title">
 <h2 id="live-today-title">LIVE TODAY</h2>
-<div id="live-sports-games" aria-live="polite" aria-atomic="true"><p class="live-game-empty">Loading the featured game…</p><a class="live-game-link" href="https://www.espn.com/nfl/scoreboard" target="_blank" rel="noopener noreferrer">NFL live scoreboard ↗</a></div>
-<p class="live-game-updated" data-game-updated>Connecting to ESPN live scores</p>
-<div class="live-game-update-row"><small>Auto-refresh every minute</small><button type="button" data-game-refresh>Refresh</button></div>
+<div id="live-sports-games" aria-live="polite" aria-atomic="true"><p class="live-game-empty">Loading NFL scores…</p><a class="live-game-link" href="https://www.espn.com/nfl/scoreboard" target="_blank" rel="noopener noreferrer">NFL scoreboard ↗</a></div>
 <a class="live-game-secondary" href="https://7plus.com.au/" target="_blank" rel="noopener noreferrer">7plus: check free NFL TV coverage ↗</a>
+<div id="live-epl-game" class="live-sport-slot" aria-live="polite"><div class="live-game-badge">EPL · CONNECTING</div><p class="live-game-empty">Loading the next EPL match…</p></div>
+<div id="live-cricket-game" class="live-sport-slot" aria-live="polite"><div class="live-game-badge">AUSTRALIA CRICKET · CONNECTING</div><p class="live-game-empty">Loading Australia’s next Test…</p></div>
+<p class="live-game-updated" data-game-updated>Connecting to live scores</p>
+<div class="live-game-update-row"><small>Auto-refresh every 30 seconds</small><button type="button" data-game-refresh>Refresh</button></div>
 <noscript><p class="live-game-empty">Enable JavaScript for scores here, or open the NFL scoreboard above.</p></noscript>
 </section>
 <a href="journeys.html" class="front-photo-card"><img src="assets/img/dunedin.webp" alt="Dunedin"><span>Dunedin</span></a>
@@ -314,8 +317,8 @@
 const panel=document.querySelector('.front-live-today');
 if(!panel)return;
 const target=panel.querySelector('#live-sports-games'),updated=panel.querySelector('[data-game-updated]'),refresh=panel.querySelector('[data-game-refresh]');
-const TZ='Australia/Sydney',REFRESH_MS=60000,TIMEOUT_MS=9000;
-const sources=[{league:'NFL',url:'https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates='},{league:'EPL',url:'https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates='}];
+const TZ='Australia/Sydney',REFRESH_MS=30000,TIMEOUT_MS=9000;
+const sources=[{league:'NFL',url:'https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard'}];
 let busy=false,lastGood=null,selectedId=null;
 const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const statusOf=g=>g.competition.status||g.event.status||{};
@@ -326,7 +329,7 @@ const displayTime=d=>new Intl.DateTimeFormat('en-AU',{timeZone:TZ,hour:'numeric'
 // Recompute the date window on each refresh, including across midnight.
 function feedDates(now){return [-1,0,1].map(offset=>new Date(now+offset*86400000).toISOString().slice(0,10).replace(/-/g,''));}
 function chooseGame(games,now){
- const relevant=games.filter(g=>Number.isFinite(timeOf(g))&&timeOf(g)>now-28*3600000&&timeOf(g)<now+36*3600000);
+ const relevant=games.filter(g=>g.league==='NFL'&&Number.isFinite(timeOf(g))&&timeOf(g)>now-7*86400000&&timeOf(g)<now+8*86400000);
  const liveNfl=relevant.filter(g=>g.league==='NFL'&&stateOf(g)==='in');
  // Keep today's requested Seahawks–49ers feature while it is live, then rotate normally.
  const requested=liveNfl.find(g=>g.event.id==='401872992');
@@ -334,7 +337,7 @@ function chooseGame(games,now){
  const current=liveNfl.find(g=>g.event.id===selectedId);
  if(current)return current;
  const nearest=list=>list.sort((a,b)=>Math.abs(timeOf(a)-now)-Math.abs(timeOf(b)-now))[0];
- return nearest(liveNfl)||nearest(relevant.filter(g=>g.league==='EPL'&&stateOf(g)==='in'))||nearest(relevant.filter(g=>g.league==='NFL'&&stateOf(g)==='pre'))||nearest(relevant.filter(g=>stateOf(g)==='post'))||nearest(relevant.filter(g=>stateOf(g)==='pre'));
+ return nearest(liveNfl)||nearest(relevant.filter(g=>stateOf(g)==='post'&&timeOf(g)>now-24*3600000))||relevant.filter(g=>stateOf(g)==='pre'&&timeOf(g)>now).sort((a,b)=>timeOf(a)-timeOf(b))[0]||nearest(relevant.filter(g=>stateOf(g)==='post'));
 }
 function teamMarkup(team,state){
  const name=team.team?.displayName||team.team?.name||'Team',abbr=team.team?.abbreviation||'';
@@ -361,12 +364,12 @@ function showFailure(){
 }
 async function readFeed(source,date){
  const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),TIMEOUT_MS);
- try{const response=await fetch(source.url+date,{cache:'no-store',signal:controller.signal});if(!response.ok)throw Error('Score feed unavailable');const data=await response.json();if(!Array.isArray(data.events))throw Error('Invalid score feed');return {league:source.league,events:data.events};}finally{clearTimeout(timer);}
+ try{const response=await fetch(source.url,{cache:'no-store',signal:controller.signal});if(!response.ok)throw Error('Score feed unavailable');const data=await response.json();if(!Array.isArray(data.events))throw Error('Invalid score feed');return {league:source.league,events:data.events};}finally{clearTimeout(timer);}
 }
 async function update(){
  if(busy)return;busy=true;refresh.disabled=true;
  try{
-  const now=Date.now(),dates=feedDates(now),replies=await Promise.allSettled(sources.flatMap(source=>dates.map(date=>readFeed(source,date))));
+  const now=Date.now(),replies=await Promise.allSettled(sources.map(source=>readFeed(source)));
   const good=replies.filter(r=>r.status==='fulfilled');
   if(!good.length){showFailure();return;}
   const games=new Map();
@@ -381,15 +384,15 @@ async function update(){
    lastGood=null;selectedId=null;target.innerHTML='<p class="live-game-empty">No featured game in progress. Check the NFL schedule for the next kickoff.</p><a class="live-game-link" href="https://www.espn.com/nfl/scoreboard" target="_blank" rel="noopener noreferrer">NFL schedule & scores ↗</a>';updated.textContent='Checked '+displayTime(new Date())+' Sydney.';return;
   }
   selectedId=game.event.id;lastGood={game,at:new Date()};renderGame(game,false);
-  updated.textContent='Updated '+displayTime(lastGood.at)+' Sydney'+(good.length<replies.length?' · some feeds unavailable':'');
+  updated.textContent='NFL updated '+displayTime(lastGood.at)+' Sydney'+(good.length<replies.length?' · some feeds unavailable':'');
  }catch(error){showFailure();}finally{busy=false;refresh.disabled=false;}
 }
 refresh.addEventListener('click',update);
 window.addEventListener('online',update);
 document.addEventListener('visibilitychange',()=>{if(!document.hidden)update();});
-update();setInterval(update,REFRESH_MS);
+update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
 })();
-</script></body></html>
+</script><script src="live-today-extras.js?v=20261023-epl-cricket"></script></body></html>
 
 
 
