@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2113721574033351057",
+        "date": "2026-10-23",
+        "dateLabel": "23 OCT 2026 · UTC",
+        "headline": "Planned U.S. strike on Iran report relayed",
+        "summary": "War Watch relayed a Conflict Radar report that Washington alerted Baghdad to a planned U.S. strike on Iran in the coming days.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2113721574033351057"
+      },
+      {
+        "id": "2113717798811673082",
+        "date": "2026-10-23",
+        "dateLabel": "23 OCT 2026 · UTC",
+        "headline": "SHUCK81 E-3G Sentry sighting reported",
+        "summary": "War Watch reported a Boeing E-3G Sentry using call sign SHUCK81, hex code AE11DC and registration 76-1605. The sighting was credited to reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2113717798811673082"
+      },
+      {
+        "id": "2113713887241539603",
+        "date": "2026-10-23",
+        "dateLabel": "23 OCT 2026 · UTC",
+        "headline": "F-35A emergency squawk reported",
+        "summary": "War Watch relayed a contributor report that a U.S. Air Force F-35A Lightning II squawked emergency code 7700 shortly after taking off from Al Dhafra Air Base in the UAE.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2113713887241539603"
+      },
+      {
         "id": "2113679951580787027",
         "date": "2026-10-23",
         "dateLabel": "23 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "U.S. transport and radar aircraft activity reported",
         "summary": "War Watch reported six U.S. Air Force transport aircraft and an airborne radar jet flying, with multiple refuelling tankers and cargo aircraft crossing the Atlantic.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2113534331553456504"
-      },
-      {
-        "id": "2113508678682673154",
-        "date": "2026-10-23",
-        "dateLabel": "23 OCT 2026 · UTC",
-        "headline": "Judea Junction shooting follow-up highlighted",
-        "summary": "War Watch highlighted an IDF follow-up about a reported shooting attack in the Judea Junction area and noted that three outlets later confirmed the report.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113508678682673154"
-      },
-      {
-        "id": "2113496595136209090",
-        "date": "2026-10-23",
-        "dateLabel": "23 OCT 2026 · UTC",
-        "headline": "Shooting attack near Judea Junction reported",
-        "summary": "War Watch said the IDF issued an initial report of a shooting attack near Judea Junction 26 minutes before wire coverage, and noted that two outlets later confirmed the report.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113496595136209090"
-      },
-      {
-        "id": "2113489033292644467",
-        "date": "2026-10-23",
-        "dateLabel": "23 OCT 2026 · UTC",
-        "headline": "Elevated coded radio broadcasts reported",
-        "summary": "War Watch reported U.S. Air Force coded radio broadcasts running nearly 3.4 times above normal across nine regions from the Pacific to the North Sea, with ten broadcasts recorded that day.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113489033292644467"
       }
     ]
   },
@@ -107,6 +107,14 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2113722348465496320",
+        "date": "2026-10-23",
+        "dateLabel": "23 OCT 2026 · UTC",
+        "headline": "BACE departure and arrival counts shared",
+        "summary": "SkyGlass reported 120 departures and 48 arrivals across four Las Vegas fields by 12:15 p.m. ET on Thursday during BACE2026, and shared a 30-times-speed replay.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2113722348465496320"
+      },
       {
         "id": "2113684435237257613",
         "date": "2026-10-23",
@@ -194,14 +202,6 @@
         "headline": "Las Vegas Strip helicopter replay shared",
         "summary": "SkyGlass shared a 120-times-speed replay of Tuesday evening helicopter tours operating from Harry Reid International Airport, along the Las Vegas Strip and back.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2112937605356519672"
-      },
-      {
-        "id": "2112906919463534918",
-        "date": "2026-10-21",
-        "dateLabel": "21 OCT 2026 · UTC",
-        "headline": "NBAA-BACE day-one peak replay shared",
-        "summary": "SkyGlass shared a 30-times-speed replay of NBAA-BACE day-one peak traffic covering KLAS, KHND, KVGT and KBVU, followed by a whole-valley view.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2112906919463534918"
       }
     ]
   }
