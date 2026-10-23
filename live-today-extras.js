@@ -42,6 +42,12 @@
     return current||live.sort((a,b)=>Date.parse(a.date)-Date.parse(b.date))[0]||upcoming[0]||recent[0]||null;
   }
   function finishImages(target){target.querySelectorAll('img').forEach(img=>img.addEventListener('error',()=>img.remove(),{once:true}));}
+  function markStale(target,label){
+    const article=target.querySelector('[data-sport-state]');
+    if(article?.dataset.sportState==='in')article.dataset.sportState='stale-live';
+    const badge=target.querySelector('.live-game-badge');
+    if(badge){badge.classList.remove('is-live');badge.classList.add('is-stale');badge.textContent=label+' · UPDATE DELAYED';}
+  }
   let eplBusy=false,eplLast=null,eplSelected=null,futureAt=0,future=[];
   async function updateEpl(){
     if(eplBusy)return;eplBusy=true;
@@ -54,7 +60,7 @@
         if(more.some(r=>r.status==='fulfilled')){future=more.filter(r=>r.status==='fulfilled').flatMap(r=>r.value);futureAt=now;}
       }
       if(!near.some(r=>r.status==='fulfilled'))throw Error('EPL feed unavailable');
-      const game=pick([...fresh,...future],now,eplSelected);
+      const game=pick([...future,...fresh],now,eplSelected);
       if(!game){eplTarget.innerHTML='<div class="live-game-badge">EPL · SCHEDULE</div><p class="live-game-empty">No match in the current schedule window.</p>'+link('https://www.premierleague.com/en/matches','Premier League fixtures');return;}
       eplLast=game;eplSelected=game.id;
       const [away,home]=teams(game),s=state(game),competition=game.competitions?.[0]||{};
@@ -63,7 +69,7 @@
       eplTarget.innerHTML='<article data-game-id="'+esc(game.id)+'" data-sport-state="'+s+'" data-sport-start="'+Date.parse(game.date)+'"><div class="live-game-badge '+(s==='in'?'is-live':'')+'">EPL · '+(s==='in'?'● LIVE':s==='post'?'FINAL':'COMING UP')+'</div><div class="live-game-teams">'+teamCard(away,'epl',s==='pre')+'<span class="live-game-versus" aria-hidden="true">'+(s==='pre'?'v':'–')+'</span>'+teamCard(home,'epl',s==='pre')+'</div><div class="live-game-clock">'+esc(detail)+'</div><p class="live-game-venue">'+esc(competition.venue?.fullName||'Premier League')+'</p>'+link(gameUrl,s==='in'?'Live game centre':s==='post'?'Final score & match details':'Match preview')+'</article>';
       finishImages(eplTarget);
     }catch(error){
-      if(eplLast){eplTarget.querySelector('.live-game-badge')?.classList.add('is-stale');if(!eplTarget.querySelector('.live-game-stale'))eplTarget.insertAdjacentHTML('beforeend','<p class="live-game-stale">EPL update delayed</p>');}
+      if(eplLast){markStale(eplTarget,'EPL');if(!eplTarget.querySelector('.live-game-stale'))eplTarget.insertAdjacentHTML('beforeend','<p class="live-game-stale">EPL update delayed</p>');}
       else eplTarget.innerHTML='<div class="live-game-badge">EPL · UPDATE DELAYED</div><p class="live-game-empty">Scores are temporarily unavailable.</p>'+link('https://www.premierleague.com/en/matches','Premier League fixtures');
     }finally{eplBusy=false;}
   }
@@ -84,7 +90,7 @@
       cricketTarget.innerHTML='<article data-game-id="'+esc(game.id)+'" data-sport-state="'+s+'" data-sport-start="'+Date.parse(game.date)+'"><div class="live-game-badge '+(s==='in'?'is-live':'')+'">CRICKET · 3RD TEST · '+(s==='in'?'● LIVE':s==='post'?'FINAL':'COMING UP')+'</div><div class="live-game-teams">'+teamCard(away,'cricket',s==='pre')+'<span class="live-game-versus" aria-hidden="true">'+(s==='pre'?'v':'–')+'</span>'+teamCard(home,'cricket',s==='pre')+'</div><div class="live-game-clock">'+esc(detail)+'</div><p class="live-game-venue">'+esc(competition.venue?.fullName||'Newlands, Cape Town')+'</p>'+link(CRICKET_MATCH,s==='in'?'Live scorecard & commentary':s==='post'?'Result & scorecard':'Match centre')+'</article>';
       finishImages(cricketTarget);
     }catch(error){
-      if(cricketLast){cricketTarget.querySelector('.live-game-badge')?.classList.add('is-stale');if(!cricketTarget.querySelector('.live-game-stale'))cricketTarget.insertAdjacentHTML('beforeend','<p class="live-game-stale">Cricket update delayed</p>');}
+      if(cricketLast){markStale(cricketTarget,'CRICKET');if(!cricketTarget.querySelector('.live-game-stale'))cricketTarget.insertAdjacentHTML('beforeend','<p class="live-game-stale">Cricket update delayed</p>');}
       else cricketTarget.innerHTML='<div class="live-game-badge">AUSTRALIA CRICKET · UPDATE DELAYED</div><p class="live-game-empty">Scores are temporarily unavailable.</p>'+link(CRICKET_MATCH,'Open the match centre');
     }finally{cricketBusy=false;}
   }
