@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2113634651948384358",
+        "date": "2026-10-23",
+        "dateLabel": "23 OCT 2026 · UTC",
+        "headline": "U.S. transport and command aircraft activity reported",
+        "summary": "War Watch reported six U.S. Air Force transport aircraft airborne over the United States and North Sea, including one nuclear command jet.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2113634651948384358"
+      },
+      {
+        "id": "2113630792068784379",
+        "date": "2026-10-23",
+        "dateLabel": "23 OCT 2026 · UTC",
+        "headline": "Russian Tu-134AK departure from Mehrabad reported",
+        "summary": "War Watch relayed a contributor report that a Russian Special Flight Squadron Tupolev Tu-134AK was seen departing Mehrabad International Airport in Iran.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2113630792068784379"
+      },
+      {
+        "id": "2113624783359246606",
+        "date": "2026-10-23",
+        "dateLabel": "23 OCT 2026 · UTC",
+        "headline": "Denmark ammunition transfer to Ukraine highlighted",
+        "summary": "War Watch highlighted a Ukrainska Pravda report that Denmark expedited the transfer of more than 50,000 20 mm rounds to Ukraine for F-16s, and noted that two outlets later confirmed the report.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2113624783359246606"
+      },
+      {
         "id": "2113534331553456504",
         "date": "2026-10-23",
         "dateLabel": "23 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "OR10 C-26D sighting reported",
         "summary": "War Watch reported a Fairchild C-26D Metro III using call sign OR10, hex code ADFD7E and registration 910514. The sighting was credited to reagan0965.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2113429891882328237"
-      },
-      {
-        "id": "2113405482635329592",
-        "date": "2026-10-22",
-        "dateLabel": "22 OCT 2026 · UTC",
-        "headline": "Kawasaki P-1 sighting reported",
-        "summary": "War Watch reported a Kawasaki P-1 with call sign 0, hex code 87C844 and registration 5521. The sighting was credited to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113405482635329592"
-      },
-      {
-        "id": "2113401708248215752",
-        "date": "2026-10-22",
-        "dateLabel": "22 OCT 2026 · UTC",
-        "headline": "Rosneft refinery-repair slowdown reported",
-        "summary": "War Watch relayed a report that Russian oil company Rosneft was slowing some refinery repairs because repeated Ukrainian strikes were causing recurring damage.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113401708248215752"
-      },
-      {
-        "id": "2113397933928219130",
-        "date": "2026-10-22",
-        "dateLabel": "22 OCT 2026 · UTC",
-        "headline": "U.S. transport and surveillance aircraft activity reported",
-        "summary": "War Watch reported six U.S. Air Force transport aircraft and an Air Force surveillance jet airborne over the continental United States, with routine coded radio activity continuing.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113397933928219130"
       }
     ]
   },
