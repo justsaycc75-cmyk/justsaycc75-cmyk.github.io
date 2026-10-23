@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2113496595136209090",
+        "date": "2026-10-23",
+        "dateLabel": "23 OCT 2026 · UTC",
+        "headline": "Shooting attack near Judea Junction reported",
+        "summary": "War Watch said the IDF issued an initial report of a shooting attack near Judea Junction 26 minutes before wire coverage, and noted that two outlets later confirmed the report.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2113496595136209090"
+      },
+      {
+        "id": "2113489033292644467",
+        "date": "2026-10-23",
+        "dateLabel": "23 OCT 2026 · UTC",
+        "headline": "Elevated coded radio broadcasts reported",
+        "summary": "War Watch reported U.S. Air Force coded radio broadcasts running nearly 3.4 times above normal across nine regions from the Pacific to the North Sea, with ten broadcasts recorded that day.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2113489033292644467"
+      },
+      {
         "id": "2113454141951369261",
         "date": "2026-10-23",
         "dateLabel": "23 OCT 2026 · UTC",
@@ -83,22 +99,6 @@
         "headline": "AE0859 KC-135 sighting reported",
         "summary": "War Watch reported a Boeing KC-135R/T Stratotanker with no call sign, hex code AE0859 and registration 59-1506. The sighting was credited to reagan0965 and the photo to MH_Spotter via Planespotters.net.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2113389198187147401"
-      },
-      {
-        "id": "2113350117700886568",
-        "date": "2026-10-22",
-        "dateLabel": "22 OCT 2026 · UTC",
-        "headline": "U.S. military and customs aircraft activity reported",
-        "summary": "War Watch reported four U.S. Air Force heavy transport aircraft, a surveillance aircraft and a customs drone airborne over the continental United States, along with one coded U.S. Air Force radio broadcast.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113350117700886568"
-      },
-      {
-        "id": "2113304819238686801",
-        "date": "2026-10-22",
-        "dateLabel": "22 OCT 2026 · UTC",
-        "headline": "U.S. and Black Sea military-flight activity reported",
-        "summary": "War Watch reported U.S. Air Force transport aircraft and a surveillance aircraft over the continental United States, with Black Sea military-flight activity at more than five times the usual level.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113304819238686801"
       }
     ]
   },
