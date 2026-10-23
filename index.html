@@ -437,7 +437,7 @@ function renderGame(game,stale){
  const situation=c.situation||{},possession=c.competitors.find(t=>t.id===situation.possession)?.team?.abbreviation;
  const action=state==='in'&&status.type?.name!=='STATUS_HALFTIME'?[possession?possession+' ball':'',situation.downDistanceText||''].filter(Boolean).join(' · '):'';
  const replay=game.league==='EPL'&&state==='post'?'<a class="live-game-secondary" href="https://www.youtube.com/@premierleague/videos" target="_blank" rel="noopener noreferrer">Official EPL highlights, when available ↗</a><a class="live-game-secondary" href="https://www.stan.com.au/watch/sport/football/premier-league" target="_blank" rel="noopener noreferrer">Full replay on Stan Sport (paid) ↗</a>':'';
- target.innerHTML='<article data-game-id="'+escape(e.id)+'" data-sport-state="'+(stale?'stale':state)+'" data-sport-start="'+Date.parse(e.date)+'" aria-label="'+escape(e.name||away.team?.displayName+' at '+home.team?.displayName)+'"><div class="live-game-badge '+(!stale&&state==='in'?'is-live':'')+'">'+escape(game.league+' · '+label)+'</div><div class="live-game-teams">'+teamMarkup(away,state)+'<span class="live-game-versus" aria-hidden="true">'+(state==='pre'?'v':'–')+'</span>'+teamMarkup(home,state)+'</div><div class="live-game-clock">'+escape(detail)+'</div>'+(action?'<p class="live-game-situation">'+escape(action)+'</p>':'')+'<p class="live-game-venue">'+escape(c.venue?.fullName||'')+'</p><a class="live-game-link" href="'+escape(url)+'" target="_blank" rel="noopener noreferrer">'+(state==='in'?'Live game centre & play-by-play':state==='post'?'Final score & game details':'Game preview')+' ↗</a>'+replay+'</article>';
+ target.innerHTML='<article data-game-id="'+escape(e.id)+'" data-sport-state="'+(stale&&state==='in'?'stale-live':state)+'" data-sport-start="'+Date.parse(e.date)+'" aria-label="'+escape(e.name||away.team?.displayName+' at '+home.team?.displayName)+'"><div class="live-game-badge '+(!stale&&state==='in'?'is-live':'')+'">'+escape(game.league+' · '+label)+'</div><div class="live-game-teams">'+teamMarkup(away,state)+'<span class="live-game-versus" aria-hidden="true">'+(state==='pre'?'v':'–')+'</span>'+teamMarkup(home,state)+'</div><div class="live-game-clock">'+escape(detail)+'</div>'+(action?'<p class="live-game-situation">'+escape(action)+'</p>':'')+'<p class="live-game-venue">'+escape(c.venue?.fullName||'')+'</p><a class="live-game-link" href="'+escape(url)+'" target="_blank" rel="noopener noreferrer">'+(state==='in'?'Live game centre & play-by-play':state==='post'?'Final score & game details':'Game preview')+' ↗</a>'+replay+'</article>';
  target.querySelectorAll('img').forEach(img=>{img.addEventListener('error',()=>img.remove(),{once:true});});
 }
 function showFailure(){
@@ -521,7 +521,7 @@ update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
   const priority=card=>{
    const source=card.id==='live-supercars-game'?card:card.querySelector('[data-sport-state]');
    const state=source?.dataset.sportState||'unknown',start=Number(source?.dataset.sportStart);
-   const rank=state==='in'?0:state==='stale'?1:state==='pre'?2:state==='post'?3:4;
+   const rank=state==='in'?0:state==='stale-live'?1:state==='pre'?2:state==='post'?3:4;
    return {rank,start:Number.isFinite(start)&&start>0?start:Infinity};
   };
   cards.sort((a,b)=>{
