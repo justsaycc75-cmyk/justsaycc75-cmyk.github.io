@@ -66,6 +66,8 @@
 @keyframes liveBadgePulse{50%{box-shadow:0 0 0 4px #a6efbb40,0 0 18px #a6efbb99}}
 @media(prefers-reduced-motion:reduce){.front-live-today h2::before,.front-live-today .live-game-badge.is-live{animation:none}.front-live-today .live-sport-panel,.front-live-today .live-sport-panel .live-game-logo img,.front-live-today .live-sport-panel .live-game-link{transition:none}}
 
+.front-live-today .live-panel-count{display:inline-block;vertical-align:middle;margin-left:4px;padding:4px 7px;border-radius:999px;background:#a7e9bf;color:#123b2b;font-size:10px;font-weight:900;letter-spacing:.08em;text-shadow:none;box-shadow:0 0 12px #a7e9bf70}
+.front-live-today .live-panel-count[hidden]{display:none}
 /* Gold Coast Supercars race weekend. */
 .front-live-today #live-supercars-game{background:linear-gradient(158deg,#514a39,#282c32 52%,#1e252e);border-color:#c7a473;border-top:4px solid #ffbd67;color:#fff}
 .front-live-today #live-supercars-game::before{background:repeating-linear-gradient(145deg,transparent 0 36px,#fff1 37px 38px,transparent 39px 66px),radial-gradient(circle at 90% 0%,#ffba6452,transparent 45%)}
@@ -100,7 +102,7 @@
 <a href="journeys.html" class="front-photo-card"><img src="assets/img/crown_sunset.webp" alt="Cruise sunset"><span>Cruises &amp; side trips</span></a>
 <a href="hunter.html" class="front-photo-card"><img src="assets/img/hunter1.webp" alt="Hunter Valley"><span>Hunter Valley</span></a>
 <section class="front-live-today" id="live-today" aria-labelledby="live-today-title">
-<h2 id="live-today-title">LIVE TODAY</h2>
+<h2 id="live-today-title">LIVE TODAY <span class="live-panel-count" data-live-count hidden></span></h2>
 <div class="live-sport-panel live-nfl-panel"><div id="live-sports-games" aria-live="polite" aria-atomic="true"><p class="live-game-empty">Loading NFL scores…</p><a class="live-game-link" href="https://www.espn.com/nfl/scoreboard" target="_blank" rel="noopener noreferrer">NFL scoreboard ↗</a></div>
 <a class="live-game-secondary" href="https://7plus.com.au/" target="_blank" rel="noopener noreferrer">7plus: check free NFL TV coverage ↗</a></div>
 <div id="live-epl-game" class="live-sport-slot live-sport-panel" aria-live="polite"><div class="live-game-badge">EPL · CONNECTING</div><p class="live-game-empty">Loading the next EPL match…</p></div>
@@ -435,7 +437,7 @@ function renderGame(game,stale){
  const situation=c.situation||{},possession=c.competitors.find(t=>t.id===situation.possession)?.team?.abbreviation;
  const action=state==='in'&&status.type?.name!=='STATUS_HALFTIME'?[possession?possession+' ball':'',situation.downDistanceText||''].filter(Boolean).join(' · '):'';
  const replay=game.league==='EPL'&&state==='post'?'<a class="live-game-secondary" href="https://www.youtube.com/@premierleague/videos" target="_blank" rel="noopener noreferrer">Official EPL highlights, when available ↗</a><a class="live-game-secondary" href="https://www.stan.com.au/watch/sport/football/premier-league" target="_blank" rel="noopener noreferrer">Full replay on Stan Sport (paid) ↗</a>':'';
- target.innerHTML='<article data-game-id="'+escape(e.id)+'" aria-label="'+escape(e.name||away.team?.displayName+' at '+home.team?.displayName)+'"><div class="live-game-badge '+(!stale&&state==='in'?'is-live':'')+'">'+escape(game.league+' · '+label)+'</div><div class="live-game-teams">'+teamMarkup(away,state)+'<span class="live-game-versus" aria-hidden="true">'+(state==='pre'?'v':'–')+'</span>'+teamMarkup(home,state)+'</div><div class="live-game-clock">'+escape(detail)+'</div>'+(action?'<p class="live-game-situation">'+escape(action)+'</p>':'')+'<p class="live-game-venue">'+escape(c.venue?.fullName||'')+'</p><a class="live-game-link" href="'+escape(url)+'" target="_blank" rel="noopener noreferrer">'+(state==='in'?'Live game centre & play-by-play':state==='post'?'Final score & game details':'Game preview')+' ↗</a>'+replay+'</article>';
+ target.innerHTML='<article data-game-id="'+escape(e.id)+'" data-sport-state="'+(stale?'stale':state)+'" data-sport-start="'+Date.parse(e.date)+'" aria-label="'+escape(e.name||away.team?.displayName+' at '+home.team?.displayName)+'"><div class="live-game-badge '+(!stale&&state==='in'?'is-live':'')+'">'+escape(game.league+' · '+label)+'</div><div class="live-game-teams">'+teamMarkup(away,state)+'<span class="live-game-versus" aria-hidden="true">'+(state==='pre'?'v':'–')+'</span>'+teamMarkup(home,state)+'</div><div class="live-game-clock">'+escape(detail)+'</div>'+(action?'<p class="live-game-situation">'+escape(action)+'</p>':'')+'<p class="live-game-venue">'+escape(c.venue?.fullName||'')+'</p><a class="live-game-link" href="'+escape(url)+'" target="_blank" rel="noopener noreferrer">'+(state==='in'?'Live game centre & play-by-play':state==='post'?'Final score & game details':'Game preview')+' ↗</a>'+replay+'</article>';
  target.querySelectorAll('img').forEach(img=>{img.addEventListener('error',()=>img.remove(),{once:true});});
 }
 function showFailure(){
@@ -473,7 +475,7 @@ window.addEventListener('online',update);
 document.addEventListener('visibilitychange',()=>{if(!document.hidden)update();});
 update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
 })();
-</script><script src="live-today-extras.js?v=20261023-epl-cricket"></script>
+</script><script src="live-today-extras.js?v=20261023-ordered"></script>
 <script>
 (()=>{
  const panel=document.getElementById('live-supercars-game');if(!panel)return;
@@ -494,6 +496,8 @@ update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
   const now=Date.now();if(now>=finish){panel.hidden=true;return;}
   const active=stages.find(s=>now>=s.start&&now<s.end),upcoming=stages.find(s=>s.start>now);
   const item=active||upcoming;
+  panel.dataset.sportState=active?'in':upcoming?'pre':'post';
+  panel.dataset.sportStart=String(item?.start||stages[stages.length-1].start);
   if(item){
    next.textContent=item.name;
    if(active)count.textContent='Scheduled session window · open live race results';
@@ -505,6 +509,35 @@ update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
   }
  }
  update();setInterval(update,30000);
+})();
+</script><script>
+(()=>{
+ const rail=document.querySelector('.front-live-today'),anchor=rail?.querySelector('[data-game-updated]');
+ if(!rail||!anchor)return;
+ const liveCount=rail.querySelector('[data-live-count]');
+ const cards=[rail.querySelector('.live-nfl-panel'),rail.querySelector('#live-epl-game'),rail.querySelector('#live-cricket-game'),rail.querySelector('#live-supercars-game')].filter(Boolean);
+ const original=new Map(cards.map((card,index)=>[card,index]));
+ function sortCards(){
+  const priority=card=>{
+   const source=card.id==='live-supercars-game'?card:card.querySelector('[data-sport-state]');
+   const state=source?.dataset.sportState||'unknown',start=Number(source?.dataset.sportStart);
+   const rank=state==='in'?0:state==='stale'?1:state==='pre'?2:state==='post'?3:4;
+   return {rank,start:Number.isFinite(start)&&start>0?start:Infinity};
+  };
+  cards.sort((a,b)=>{
+   const x=priority(a),y=priority(b);
+   if(x.rank!==y.rank)return x.rank-y.rank;
+   if(x.rank===3)return y.start-x.start||original.get(a)-original.get(b);
+   return x.start-y.start||original.get(a)-original.get(b);
+  });
+  cards.forEach(card=>rail.insertBefore(card,anchor));
+  if(liveCount){const n=cards.filter(card=>!card.hidden&&priority(card).rank===0).length;liveCount.hidden=n===0;liveCount.textContent=n+' LIVE NOW';}
+ }
+ let queued=false;
+ function schedule(){if(queued)return;queued=true;requestAnimationFrame(()=>{queued=false;sortCards();});}
+ const observer=new MutationObserver(schedule);
+ cards.forEach(card=>observer.observe(card,{subtree:true,childList:true,attributes:true,attributeFilter:['data-sport-state','data-sport-start','hidden']}));
+ schedule();
 })();
 </script></body></html>
 
