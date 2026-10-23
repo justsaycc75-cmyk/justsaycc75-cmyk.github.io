@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2113534331553456504",
+        "date": "2026-10-23",
+        "dateLabel": "23 OCT 2026 · UTC",
+        "headline": "U.S. transport and radar aircraft activity reported",
+        "summary": "War Watch reported six U.S. Air Force transport aircraft and an airborne radar jet flying, with multiple refuelling tankers and cargo aircraft crossing the Atlantic.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2113534331553456504"
+      },
+      {
+        "id": "2113508678682673154",
+        "date": "2026-10-23",
+        "dateLabel": "23 OCT 2026 · UTC",
+        "headline": "Judea Junction shooting follow-up highlighted",
+        "summary": "War Watch highlighted an IDF follow-up about a reported shooting attack in the Judea Junction area and noted that three outlets later confirmed the report.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2113508678682673154"
+      },
+      {
         "id": "2113496595136209090",
         "date": "2026-10-23",
         "dateLabel": "23 OCT 2026 · UTC",
@@ -83,22 +99,6 @@
         "headline": "U.S. transport and surveillance aircraft activity reported",
         "summary": "War Watch reported six U.S. Air Force transport aircraft and an Air Force surveillance jet airborne over the continental United States, with routine coded radio activity continuing.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2113397933928219130"
-      },
-      {
-        "id": "2113394045540024578",
-        "date": "2026-10-22",
-        "dateLabel": "22 OCT 2026 · UTC",
-        "headline": "Strait of Hormuz missile-launch report highlighted",
-        "summary": "War Watch relayed a Conflict Radar report that an Iranian anti-ship missile launch was detected toward the Strait of Hormuz.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113394045540024578"
-      },
-      {
-        "id": "2113389198187147401",
-        "date": "2026-10-22",
-        "dateLabel": "22 OCT 2026 · UTC",
-        "headline": "AE0859 KC-135 sighting reported",
-        "summary": "War Watch reported a Boeing KC-135R/T Stratotanker with no call sign, hex code AE0859 and registration 59-1506. The sighting was credited to reagan0965 and the photo to MH_Spotter via Planespotters.net.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113389198187147401"
       }
     ]
   },
