@@ -96,6 +96,22 @@
 .front-live-today #live-supercars-game .sc-links a{display:block;text-align:center;border:1px solid #e3b47e;background:#684b30;border-radius:9px;padding:9px 7px;color:#fff;text-decoration:none;font-size:11px;font-weight:800}
 .front-live-today #live-supercars-game .sc-links a+a{background:#263947;border-color:#8cb4c9}
 .sc-access{font-size:10px;color:#e4d7c7;line-height:1.4;margin:9px 1px 0}
+/* Rugby League World Cup: its own look within the live rail. */
+.front-live-today #live-rlwc-game{background:linear-gradient(155deg,#503957,#322f50 58%,#1b3546);border-color:#a888ba;border-top:4px solid #ffcc78;color:#fff}
+.front-live-today #live-rlwc-game::before{background:radial-gradient(circle at 85% 15%,#eeb6ff34,transparent 45%),repeating-linear-gradient(115deg,transparent 0 38px,#ffffff0b 39px 40px,transparent 41px 75px)}
+.front-live-today #live-rlwc-game .live-game-badge{background:#332842;border-color:#dfb8df;color:#fff1ff}
+.rlwc-mark{display:inline-flex;align-items:baseline;gap:2px;margin:13px 0 5px;padding:5px 10px;border:1px solid #f3d9b18a;border-radius:7px;background:#201f3577;color:#fff3da;letter-spacing:.04em;transform:skew(-7deg)}
+.rlwc-mark b{font-size:17px;letter-spacing:-.04em}.rlwc-mark strong{font-size:21px;color:#ffd692}
+.rlwc-heading{font-size:21px;line-height:1.13;letter-spacing:-.025em;margin:3px 0 5px;color:#fff}
+.rlwc-subtitle{font-size:9px;letter-spacing:.12em;font-weight:850;color:#e9c6ee;margin:0 0 13px}
+.rlwc-match{padding:11px 7px;border:1px solid #f0c6e577;border-radius:11px;background:#ffffff17}
+.rlwc-match>*{display:block}.rlwc-match small{color:#ffd692;font-size:10px;font-weight:900;letter-spacing:.08em;text-transform:uppercase}
+.rlwc-match strong{font-size:17px;line-height:1.25;margin:7px 0;color:#fff;overflow-wrap:anywhere}
+.rlwc-match span{font-size:12px;font-weight:800;color:#f5e9ff}
+.rlwc-venue{font-size:10px;color:#f1ddec;margin:9px 0 11px;line-height:1.35}
+.front-live-today #live-rlwc-game .live-game-link{background:#704b73;border-color:#d9a6d5;color:#fff}
+.rlwc-draw-link{display:block;margin-top:10px;color:#ffe2ad;font-weight:800;font-size:11px;text-underline-offset:3px}
+.rlwc-note{font-size:10px;line-height:1.4;color:#e6d5e7;margin:11px 0 0}
 </style></head><body><header class="topbar"><div class="wrap nav"><a class="brand" href="index.html">MY <b>RETIREMENT</b> PAGE</a><button class="menu-btn" data-menu-button aria-label="Open navigation">MENU</button><nav><a href="music.html">Music</a><a href="journeys.html">Journeys</a><a href="hunter.html">Hunter</a><a href="watching.html">Watching</a><a href="sport-current.html">Sport</a><a href="radio.html">Radio</a><a href="markets.html">Markets</a></nav></div></header><main>
 <section class="world-times" aria-label="Live world times, east to west"><div class="world-times-inner"><div class="world-times-label">WORLD TIMES <span>Following the sun, east to west</span></div><div class="world-times-grid"><div class="world-clock" data-world-zone="Pacific/Auckland"><span>AUCKLAND</span><strong>--:--</strong><small>Loading time</small></div><div class="world-clock world-clock-home" data-world-zone="Australia/Sydney"><span>SYDNEY</span><strong>--:--</strong><small>Loading time</small></div><div class="world-clock" data-world-zone="Asia/Shanghai"><span>BEIJING</span><strong>--:--</strong><small>Loading time</small></div><div class="world-clock" data-world-zone="Asia/Jerusalem"><span>JERUSALEM</span><strong>--:--</strong><small>Loading time</small></div><div class="world-clock" data-world-zone="Europe/London"><span>LONDON</span><strong>--:--</strong><small>Loading time</small></div><div class="world-clock" data-world-zone="America/New_York"><span>NEW YORK</span><strong>--:--</strong><small>Loading time</small></div><div class="world-clock" data-world-zone="America/Chicago"><span>DALLAS</span><strong>--:--</strong><small>Loading time</small></div><div class="world-clock" data-world-zone="America/Los_Angeles"><span>LOS ANGELES</span><strong>--:--</strong><small>Loading time</small></div><div class="world-clock" data-world-zone="Pacific/Honolulu"><span>HONOLULU</span><strong>--:--</strong><small>Loading time</small></div><div class="world-clock" data-world-zone="Pacific/Pago_Pago"><span>PAGO PAGO</span><strong>--:--</strong><small>Loading time</small></div></div></div></section>
 <div class="front-shell">
@@ -121,6 +137,17 @@
 <a href="https://www.supercars.com/news/supercars-news-2026-finals-drivers-field-bathurst-1000-qualified-set-payne-feeney-kostecki-brown" target="_blank" rel="noopener noreferrer">Pre-event standings source ↗</a></div>
 <div class="sc-links"><a href="https://www.flashscore.com.au/auto-racing/supercars-championship/gold-coast-500/" target="_blank" rel="noopener noreferrer">Open live race results ↗</a><a href="https://www.supercars.com/results/2026-gold-coast" target="_blank" rel="noopener noreferrer">Practice, qualifying & race results ↗</a></div>
 <p class="sc-access">Live race positions open directly on Flashscore. Official session results open on Supercars; no account needed.</p>
+</div>
+<div id="live-rlwc-game" class="live-sport-slot live-sport-panel" aria-label="Rugby League World Cup 2026 fixtures">
+<div class="live-game-badge" data-rlwc-status>WORLD CUP · COMING UP</div>
+<div class="rlwc-mark" aria-hidden="true"><b>RLWC</b><strong>26</strong></div>
+<h3 class="rlwc-heading">Rugby League<br>World Cup</h3>
+<p class="rlwc-subtitle">MEN · WOMEN · WHEELCHAIR</p>
+<div class="rlwc-match" data-sport-state="pre" data-sport-start="0"><small data-rlwc-division>Next match</small><strong data-rlwc-teams>Loading fixture…</strong><span data-rlwc-time></span></div>
+<p class="rlwc-venue" data-rlwc-venue></p>
+<a class="live-game-link" data-rlwc-link href="https://www.rlwc2026.com/draws-and-pools" target="_blank" rel="noopener noreferrer">Official match centre ↗</a>
+<a class="rlwc-draw-link" href="https://www.rlwc2026.com/draws-and-pools" target="_blank" rel="noopener noreferrer">See the full World Cup draw ↗</a>
+<p class="rlwc-note">Sydney times. Match scores and play-by-play are on the official match centre.</p>
 </div>
 <p class="live-game-updated" data-game-updated>Connecting to live scores</p>
 <div class="live-game-update-row"><small>Auto-refresh every 30 seconds</small><button type="button" data-game-refresh>Refresh</button></div>
@@ -506,10 +533,76 @@ update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
 })();
 </script><script>
 (()=>{
+ 'use strict';
+ const panel=document.getElementById('live-rlwc-game');
+ if(!panel)return;
+ const match=panel.querySelector('.rlwc-match');
+ const status=panel.querySelector('[data-rlwc-status]');
+ const division=panel.querySelector('[data-rlwc-division]');
+ const teams=panel.querySelector('[data-rlwc-teams]');
+ const time=panel.querySelector('[data-rlwc-time]');
+ const venue=panel.querySelector('[data-rlwc-venue]');
+ const link=panel.querySelector('[data-rlwc-link]');
+ // Kick-off times and match centres are from official RLWC 2026 team lists and Wollongong schedule.
+ const raw=[
+  ['2026-10-23T17:45:00+11:00','Samoa','Wales','Women’s · Round 2','CommBank Stadium, Sydney','womens/2026/round-2/samoa-v-wales'],
+  ['2026-10-23T20:05:00+11:00','Tonga','Lebanon','Men’s · Round 2','CommBank Stadium, Sydney','mens/2026/round-2/tonga-v-lebanon'],
+  ['2026-10-24T13:15:00+11:00','Fiji','Papua New Guinea','Women’s · Round 2','Port Moresby','womens/2026/round-2/fiji-v-papua-new-guinea'],
+  ['2026-10-24T15:25:00+11:00','Papua New Guinea','Samoa','Men’s · Round 2','Port Moresby','mens/2026/round-2/papua-new-guinea-v-samoa'],
+  ['2026-10-24T17:35:00+11:00','England','France','Men’s · Round 2','HBF Park, Perth','mens/2026/round-2/england-v-france'],
+  ['2026-10-24T20:05:00+11:00','Australia','England','Women’s · Round 2','HBF Park, Perth','womens/2026/round-2/australia-v-england'],
+  ['2026-10-25T14:00:00+11:00','New Zealand','France','Women’s · Round 2','Christchurch','womens/2026/round-2/new-zealand-v-france'],
+  ['2026-10-25T16:05:00+11:00','New Zealand','Cook Islands','Men’s · Round 2','Christchurch','mens/2026/round-2/new-zealand-v-cook-islands'],
+  ['2026-10-25T20:05:00+11:00','Australia','Fiji','Men’s · Round 2','Suncorp Stadium, Brisbane','mens/2026/round-2/australia-v-fiji'],
+  ['2026-10-30T13:00:00+11:00','Ireland','USA','Wheelchair · Round 1','WIN Entertainment Centre, Wollongong','wheelchair/2026/round-1/ireland-v-usa'],
+  ['2026-10-30T15:30:00+11:00','England','Wales','Wheelchair · Round 1','WIN Entertainment Centre, Wollongong','wheelchair/2026/round-1/england-v-wales'],
+  ['2026-10-30T17:45:00+11:00','England','Samoa','Women’s · Round 3','WIN Stadium, Wollongong','womens/2026/round-3/england-v-samoa'],
+  ['2026-10-30T20:05:00+11:00','England','Papua New Guinea','Men’s · Round 3','WIN Stadium, Wollongong','mens/2026/round-3/england-v-papua-new-guinea']
+ ];
+ const fixtures=raw.map(([date,home,away,group,place,path])=>({start:new Date(date).getTime(),home,away,group,place,url:'https://www.rlwc2026.com/draw/'+path}));
+ const windowMs=150*60*1000;
+ const fmt=new Intl.DateTimeFormat('en-AU',{timeZone:'Australia/Sydney',weekday:'short',day:'numeric',month:'short',hour:'numeric',minute:'2-digit',hour12:true});
+ function update(){
+  const now=Date.now();
+  const active=fixtures.filter(f=>f.start<=now&&now<f.start+windowMs);
+  const chosen=active.at(-1)||fixtures.find(f=>f.start>now);
+  if(!chosen){
+   if(now>=Date.parse('2026-11-16T00:00:00+11:00')){panel.hidden=true;return;}
+   panel.hidden=false;
+   status.textContent='WORLD CUP · FIXTURES';
+   division.textContent='Men · women · wheelchair';
+   teams.textContent='More World Cup matches ahead';
+   time.textContent='See the official draw for the next kick-off';
+   venue.textContent='Tournament runs through 15 November 2026';
+   link.href='https://www.rlwc2026.com/draws-and-pools';
+   link.textContent='Open official fixtures ↗';
+   match.dataset.sportState='unknown';
+   match.dataset.sportStart='0';
+   return;
+  }
+  panel.hidden=false;
+  const isWindow=active.length>0;
+  status.textContent=isWindow?'WORLD CUP · MATCH WINDOW':'WORLD CUP · COMING UP';
+  division.textContent=chosen.group;
+  teams.textContent=chosen.home+' v '+chosen.away;
+  time.textContent=fmt.format(chosen.start)+(isWindow?' · check live score':' Sydney');
+  venue.textContent=chosen.place;
+  link.href=chosen.url;
+  link.textContent=isWindow?'Open official live match centre ↗':'Match preview & centre ↗';
+  // A scheduled window does not prove play has started; verified live scores stay on the official site.
+  match.dataset.sportState=isWindow?'stale-live':'pre';
+  match.dataset.sportStart=String(chosen.start);
+ }
+ update();
+ setInterval(update,30000);
+})();
+</script>
+<script>
+(()=>{
  const rail=document.querySelector('.front-live-today'),anchor=rail?.querySelector('[data-game-updated]');
  if(!rail||!anchor)return;
  const liveCount=rail.querySelector('[data-live-count]');
- const cards=[rail.querySelector('.live-nfl-panel'),rail.querySelector('#live-epl-game'),rail.querySelector('#live-cricket-game'),rail.querySelector('#live-supercars-game')].filter(Boolean);
+ const cards=[rail.querySelector('.live-nfl-panel'),rail.querySelector('#live-epl-game'),rail.querySelector('#live-cricket-game'),rail.querySelector('#live-supercars-game'),rail.querySelector('#live-rlwc-game')].filter(Boolean);
  const original=new Map(cards.map((card,index)=>[card,index]));
  function sortCards(){
   const priority=card=>{
