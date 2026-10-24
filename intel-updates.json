@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2114024404803822015",
+        "date": "2026-10-24",
+        "dateLabel": "24 OCT 2026 · UTC",
+        "headline": "U.S. transport, surveillance and command aircraft activity reported",
+        "summary": "War Watch reported multiple U.S. Air Force transport aircraft and a surveillance drone airborne over the United States, along with a tracked nuclear-command jet and 13 coded radio broadcasts heard that day.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2114024404803822015"
+      },
+      {
+        "id": "2114002399505396177",
+        "date": "2026-10-24",
+        "dateLabel": "24 OCT 2026 · UTC",
+        "headline": "SOSA21 Osprey sighting over Oman reported",
+        "summary": "War Watch reported a U.S. Marine Corps Bell-Boeing MV-22N Osprey using call sign SOSA21 and hex code AE5AA6 over Oman. The sighting was credited to timharkness9152.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2114002399505396177"
+      },
+      {
         "id": "2113994697404235778",
         "date": "2026-10-24",
         "dateLabel": "24 OCT 2026 · UTC",
@@ -83,22 +99,6 @@
         "headline": "U.S. transport aircraft and coded-radio activity reported",
         "summary": "War Watch reported multiple large U.S. military transport aircraft airborne over the continental United States and elevated coded-radio traffic across three regions, including the Middle East.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2113785462984790205"
-      },
-      {
-        "id": "2113780932591169975",
-        "date": "2026-10-23",
-        "dateLabel": "23 OCT 2026 · UTC",
-        "headline": "IRGC footage of tanker targeting reported",
-        "summary": "War Watch relayed a contributor report that footage released by the IRGC Navy showed two very large crude carriers being targeted with light anti-ship cruise missiles.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113780932591169975"
-      },
-      {
-        "id": "2113776931682255200",
-        "date": "2026-10-23",
-        "dateLabel": "23 OCT 2026 · UTC",
-        "headline": "E-6B Mercury sighting reported",
-        "summary": "War Watch reported a Boeing E-6B Mercury with no call sign, hex code AE0416 and registration 164404. The sighting was credited to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113776931682255200"
       }
     ]
   },
