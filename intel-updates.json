@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2113801823001669775",
+        "date": "2026-10-24",
+        "dateLabel": "24 OCT 2026 · UTC",
+        "headline": "DNI warning on increased Iranian activity relayed",
+        "summary": "War Watch relayed a contributor report that U.S. Director of National Intelligence Jay Clayton warned Secretary of State Marco Rubio that Iran had substantially increased certain efforts. The visible post did not identify those efforts.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2113801823001669775"
+      },
+      {
+        "id": "2113797946042994965",
+        "date": "2026-10-24",
+        "dateLabel": "24 OCT 2026 · UTC",
+        "headline": "SAM410 C-40B departure reported",
+        "summary": "War Watch reported that a U.S. Air Force 89th Airlift Wing Boeing C-40B using call sign SAM410 and hex code AE0945 had departed Florida. The sighting was credited to reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2113797946042994965"
+      },
+      {
+        "id": "2113785462984790205",
+        "date": "2026-10-24",
+        "dateLabel": "24 OCT 2026 · UTC",
+        "headline": "U.S. transport aircraft and coded-radio activity reported",
+        "summary": "War Watch reported multiple large U.S. military transport aircraft airborne over the continental United States and elevated coded-radio traffic across three regions, including the Middle East.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2113785462984790205"
+      },
+      {
+        "id": "2113780932591169975",
+        "date": "2026-10-23",
+        "dateLabel": "23 OCT 2026 · UTC",
+        "headline": "IRGC footage of tanker targeting reported",
+        "summary": "War Watch relayed a contributor report that footage released by the IRGC Navy showed two very large crude carriers being targeted with light anti-ship cruise missiles.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2113780932591169975"
+      },
+      {
+        "id": "2113776931682255200",
+        "date": "2026-10-23",
+        "dateLabel": "23 OCT 2026 · UTC",
+        "headline": "E-6B Mercury sighting reported",
+        "summary": "War Watch reported a Boeing E-6B Mercury with no call sign, hex code AE0416 and registration 164404. The sighting was credited to reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2113776931682255200"
+      },
+      {
         "id": "2113766999725593076",
         "date": "2026-10-23",
         "dateLabel": "23 OCT 2026 · UTC",
@@ -59,46 +99,6 @@
         "headline": "SHUCK81 E-3G Sentry sighting reported",
         "summary": "War Watch reported a Boeing E-3G Sentry using call sign SHUCK81, hex code AE11DC and registration 76-1605. The sighting was credited to reagan0965.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2113717798811673082"
-      },
-      {
-        "id": "2113713887241539603",
-        "date": "2026-10-23",
-        "dateLabel": "23 OCT 2026 · UTC",
-        "headline": "F-35A emergency squawk reported",
-        "summary": "War Watch relayed a contributor report that a U.S. Air Force F-35A Lightning II squawked emergency code 7700 shortly after taking off from Al Dhafra Air Base in the UAE.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113713887241539603"
-      },
-      {
-        "id": "2113679951580787027",
-        "date": "2026-10-23",
-        "dateLabel": "23 OCT 2026 · UTC",
-        "headline": "U.S. spy and nuclear-command aircraft activity reported",
-        "summary": "War Watch reported a U.S. Air Force surveillance aircraft and two nuclear-command jets airborne over the continental United States, along with 21 coded radio broadcasts recorded that day.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113679951580787027"
-      },
-      {
-        "id": "2113672905439551988",
-        "date": "2026-10-23",
-        "dateLabel": "23 OCT 2026 · UTC",
-        "headline": "Kawasaki P-1 sighting reported",
-        "summary": "War Watch reported a Kawasaki P-1 with no call sign, registration 5518 and hex code 87C841. The sighting was credited to truthseekr60.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113672905439551988"
-      },
-      {
-        "id": "2113668936952676734",
-        "date": "2026-10-23",
-        "dateLabel": "23 OCT 2026 · UTC",
-        "headline": "RFF740 evacuation report relayed",
-        "summary": "War Watch relayed a contributor report that Russia evacuated nuclear scientists from Iran aboard flight RFF740, and that the flight departed Iran with its transponder off.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113668936952676734"
-      },
-      {
-        "id": "2113657001406321126",
-        "date": "2026-10-23",
-        "dateLabel": "23 OCT 2026 · UTC",
-        "headline": "Potential Iran strike warning reported",
-        "summary": "War Watch relayed a contributor report that Washington alerted Iraqi Prime Minister Ali Faleh al Zaidi to a potential strike on Iran.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113657001406321126"
       }
     ]
   },
