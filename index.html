@@ -507,7 +507,8 @@ update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
   ['Race 31 qualifying','2026-10-23T17:05:00+11:00',30],
   ['Race 31 Top Ten Shootout','2026-10-24T13:35:00+11:00',35],
   ['Race 31 · 85 laps','2026-10-24T16:15:00+11:00',180],
-  ['Race 32 qualifying','2026-10-25T12:20:00+11:00',20],
+  ['Race 32 qualifying · Q1','2026-10-25T12:20:00+11:00',12],
+  ['Race 32 qualifying · Q2','2026-10-25T12:40:00+11:00',12],
   ['Race 32 Top Ten Shootout','2026-10-25T13:05:00+11:00',35],
   ['Race 32 · 85 laps','2026-10-25T15:45:00+11:00',180]
  ].map(([name,date,minutes])=>({name,start:Date.parse(date),end:Date.parse(date)+minutes*60000}));
@@ -524,8 +525,8 @@ update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
    if(active)count.textContent='Scheduled session window · open live race results';
    else{const min=Math.ceil((item.start-now)/60000);count.textContent=time(item.start)+' Sydney · '+(min>=60?Math.floor(min/60)+'h '+(min%60)+'m':min+' min')+' to go';}
   }else{next.textContent='Gold Coast weekend complete';count.textContent='Official race results and standings below';}
-  for(const [id,index] of [['31',4],['32',7]]){
-   const race=stages[index],label=panel.querySelector('[data-sc-race'+id+']');
+  for(const id of ['31','32']){
+   const race=stages.find(stage=>stage.name==='Race '+id+' · 85 laps'),label=panel.querySelector('[data-sc-race'+id+']');
    label.textContent=now<race.start?'85 laps · 250 km · coming up':now<race.end?'Scheduled race window · open live results':'Race window ended · see official results';
   }
  }
