@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2114121880902705419",
+        "date": "2026-10-24",
+        "dateLabel": "24 OCT 2026 · UTC",
+        "headline": "E-11A departure preparation reported",
+        "summary": "War Watch reported a Bombardier E-11A with no displayed call sign and hex code AE77A5 preparing to leave Prince Sultan Air Base in Saudi Arabia. The sighting was credited to az-toaster.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2114121880902705419"
+      },
+      {
+        "id": "2114115245782294823",
+        "date": "2026-10-24",
+        "dateLabel": "24 OCT 2026 · UTC",
+        "headline": "U.S. command, transport and coded-radio activity reported",
+        "summary": "War Watch reported a U.S. military nuclear-command aircraft airborne over the country alongside four large transport jets and a refuelling tanker, with 21 coded radio broadcasts heard that day.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2114115245782294823"
+      },
+      {
         "id": "2114069815623110778",
         "date": "2026-10-24",
         "dateLabel": "24 OCT 2026 · UTC",
@@ -83,22 +99,6 @@
         "headline": "U.S. transport aircraft, bomber and coded-radio activity reported",
         "summary": "War Watch reported six U.S. Air Force transport aircraft and a bomber airborne, along with one coded radio broadcast heard in the previous hour amid Middle East tensions.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2113842980113019096"
-      },
-      {
-        "id": "2113801823001669775",
-        "date": "2026-10-24",
-        "dateLabel": "24 OCT 2026 · UTC",
-        "headline": "DNI warning on increased Iranian activity relayed",
-        "summary": "War Watch relayed a contributor report that U.S. Director of National Intelligence Jay Clayton warned Secretary of State Marco Rubio that Iran had substantially increased certain efforts. The visible post did not identify those efforts.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113801823001669775"
-      },
-      {
-        "id": "2113797946042994965",
-        "date": "2026-10-24",
-        "dateLabel": "24 OCT 2026 · UTC",
-        "headline": "SAM410 C-40B departure reported",
-        "summary": "War Watch reported that a U.S. Air Force 89th Airlift Wing Boeing C-40B using call sign SAM410 and hex code AE0945 had departed Florida. The sighting was credited to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113797946042994965"
       }
     ]
   },
@@ -107,6 +107,14 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2114114769804312651",
+        "date": "2026-10-24",
+        "dateLabel": "24 OCT 2026 · UTC",
+        "headline": "BACE week business-jet totals reported",
+        "summary": "SkyGlass reported 1,040 distinct business jets in the Las Vegas valley during BACE2026 week, with activity peaking at 306 on Thursday before falling 19% on Friday. It shared a reel covering six days of after-action reports.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2114114769804312651"
+      },
       {
         "id": "2114084761031291200",
         "date": "2026-10-24",
@@ -194,14 +202,6 @@
         "headline": "Las Vegas NBAA-BACE traffic comparison posted",
         "summary": "SkyGlass reported Las Vegas business-jet activity up 13% on Wednesday during NBAA-BACE while overall traffic eased by about 5%, citing SkyGlass MCP data.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2113322104124792998"
-      },
-      {
-        "id": "2113310805269635481",
-        "date": "2026-10-22",
-        "dateLabel": "22 OCT 2026 · UTC",
-        "headline": "NBAA-BACE departure surge reported",
-        "summary": "SkyGlass reported 360 departures across four Las Vegas-area airfields by mid-afternoon Wednesday following NBAA-BACE, including 148 departures from Harry Reid International Airport.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2113310805269635481"
       }
     ]
   }
