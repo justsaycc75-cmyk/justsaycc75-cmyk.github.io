@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2113933586055262679",
+        "date": "2026-10-24",
+        "dateLabel": "24 OCT 2026 · UTC",
+        "headline": "U.S. transport aircraft activity over Europe reported",
+        "summary": "War Watch reported six U.S. Air Force transport aircraft airborne, including several over the North Sea and one over the Baltic, amid reports of Iranian naval activity and rising U.S.-Iran tensions.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2113933586055262679"
+      },
+      {
+        "id": "2113927404557103547",
+        "date": "2026-10-24",
+        "dateLabel": "24 OCT 2026 · UTC",
+        "headline": "Strike on Tolyattikauchuk plant report highlighted",
+        "summary": "War Watch highlighted a Ukraine General Staff report that Ukrainian forces struck the Tolyattikauchuk plant in Tolyatti, Samara Oblast, and said two outlets had confirmed the report.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2113927404557103547"
+      },
+      {
+        "id": "2113916044876079504",
+        "date": "2026-10-24",
+        "dateLabel": "24 OCT 2026 · UTC",
+        "headline": "Philippine Air Force training accident report highlighted",
+        "summary": "War Watch highlighted a Reuters report that four Philippine Air Force pilots were killed in a training accident and said two outlets had confirmed the report.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2113916044876079504"
+      },
+      {
         "id": "2113888280261398785",
         "date": "2026-10-24",
         "dateLabel": "24 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "Jet activity and distant blast reported in Bandar Lengeh",
         "summary": "War Watch relayed a contributor report that jet activity and a distant blast were heard in Bandar Lengeh at 21:30 UTC; the contributor said the blast may have been toward the mountains.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2113751487759126763"
-      },
-      {
-        "id": "2113747712986194224",
-        "date": "2026-10-23",
-        "dateLabel": "23 OCT 2026 · UTC",
-        "headline": "B-1B Lancer sighting reported",
-        "summary": "War Watch reported a B-1B Lancer with registration 86-0120 and hex code AE6BFA. The sighting was credited to TruthSeekr60.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113747712986194224"
-      },
-      {
-        "id": "2113743940100768213",
-        "date": "2026-10-23",
-        "dateLabel": "23 OCT 2026 · UTC",
-        "headline": "Oleshky truce report relayed",
-        "summary": "War Watch relayed an Insider Paper report that Russia's army chief said Russia would observe an Oleshky truce from 01:00 GMT on October 27.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113743940100768213"
-      },
-      {
-        "id": "2113740161703915790",
-        "date": "2026-10-23",
-        "dateLabel": "23 OCT 2026 · UTC",
-        "headline": "U.S. surveillance and command aircraft activity reported",
-        "summary": "War Watch reported a U.S. Air Force surveillance aircraft and nuclear-command jet airborne, along with 25 coded radio broadcasts heard that day as reports circulated about a possible Iran strike.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113740161703915790"
       }
     ]
   },
