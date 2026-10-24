@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2114069815623110778",
+        "date": "2026-10-24",
+        "dateLabel": "24 OCT 2026 · UTC",
+        "headline": "U.S. command, transport, radar and tanker activity reported",
+        "summary": "War Watch reported a U.S. Air Force nuclear-command jet, two large transport aircraft, an airborne-radar aircraft and a refuelling tanker simultaneously airborne over the continental United States. The remainder of the visible post was truncated.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2114069815623110778"
+      },
+      {
         "id": "2114024404803822015",
         "date": "2026-10-24",
         "dateLabel": "24 OCT 2026 · UTC",
@@ -91,14 +99,6 @@
         "headline": "SAM410 C-40B departure reported",
         "summary": "War Watch reported that a U.S. Air Force 89th Airlift Wing Boeing C-40B using call sign SAM410 and hex code AE0945 had departed Florida. The sighting was credited to reagan0965.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2113797946042994965"
-      },
-      {
-        "id": "2113785462984790205",
-        "date": "2026-10-24",
-        "dateLabel": "24 OCT 2026 · UTC",
-        "headline": "U.S. transport aircraft and coded-radio activity reported",
-        "summary": "War Watch reported multiple large U.S. military transport aircraft airborne over the continental United States and elevated coded-radio traffic across three regions, including the Middle East.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113785462984790205"
       }
     ]
   },
@@ -107,6 +107,22 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2114084761031291200",
+        "date": "2026-10-24",
+        "dateLabel": "24 OCT 2026 · UTC",
+        "headline": "BACE departure-heavy traffic reported",
+        "summary": "SkyGlass reported 309 departures and 154 arrivals on its Las Vegas valley counter by 2:30 p.m. ET as BACE2026 wrapped Friday, saying there were about two departures for every arrival. It shared a 60-times-speed replay.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2114084761031291200"
+      },
+      {
+        "id": "2114046846741917783",
+        "date": "2026-10-24",
+        "dateLabel": "24 OCT 2026 · UTC",
+        "headline": "BACE Friday business-jet activity comparison posted",
+        "summary": "SkyGlass reported business-jet activity down 19% Friday compared with Thursday as BACE2026 wrapped and shared a whole-day scan.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2114046846741917783"
+      },
       {
         "id": "2113737255961403710",
         "date": "2026-10-23",
@@ -186,22 +202,6 @@
         "headline": "NBAA-BACE departure surge reported",
         "summary": "SkyGlass reported 360 departures across four Las Vegas-area airfields by mid-afternoon Wednesday following NBAA-BACE, including 148 departures from Harry Reid International Airport.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2113310805269635481"
-      },
-      {
-        "id": "2112989953609146558",
-        "date": "2026-10-21",
-        "dateLabel": "21 OCT 2026 · UTC",
-        "headline": "N333QS North Las Vegas arrival replay shared",
-        "summary": "SkyGlass shared a one-take replay of N333QS, a Phenom 300, flying from Van Nuys to North Las Vegas and continuing from the valley to touchdown and back.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2112989953609146558"
-      },
-      {
-        "id": "2112972213628342464",
-        "date": "2026-10-21",
-        "dateLabel": "21 OCT 2026 · UTC",
-        "headline": "Harry Reid ramp aircraft counts shared",
-        "summary": "SkyGlass reported 38 aircraft on one Harry Reid ramp and 26 on another on Wednesday morning during NBAA-BACE, shown in four frames from the valley to the ramp.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2112972213628342464"
       }
     ]
   }
