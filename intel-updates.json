@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2113888280261398785",
+        "date": "2026-10-24",
+        "dateLabel": "24 OCT 2026 · UTC",
+        "headline": "U.S. transport aircraft and Iran warning reported",
+        "summary": "War Watch reported five U.S. Air Force transport aircraft airborne simultaneously and said U.S. intelligence had warned of increased targeting of American personnel amid escalating Iranian rhetoric.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2113888280261398785"
+      },
+      {
         "id": "2113842980113019096",
         "date": "2026-10-24",
         "dateLabel": "24 OCT 2026 · UTC",
@@ -91,14 +99,6 @@
         "headline": "U.S. surveillance and command aircraft activity reported",
         "summary": "War Watch reported a U.S. Air Force surveillance aircraft and nuclear-command jet airborne, along with 25 coded radio broadcasts heard that day as reports circulated about a possible Iran strike.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2113740161703915790"
-      },
-      {
-        "id": "2113721574033351057",
-        "date": "2026-10-23",
-        "dateLabel": "23 OCT 2026 · UTC",
-        "headline": "Planned U.S. strike on Iran report relayed",
-        "summary": "War Watch relayed a Conflict Radar report that Washington alerted Baghdad to a planned U.S. strike on Iran in the coming days.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113721574033351057"
       }
     ]
   },
