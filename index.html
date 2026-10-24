@@ -132,11 +132,11 @@
 <div class="sc-race"><span>Sat 24 · Race 31</span><b>4:15 pm</b><small data-sc-race31>85 laps · 250 km</small></div>
 <div class="sc-race"><span>Sun 25 · Race 32</span><b>3:45 pm</b><small data-sc-race32>85 laps · 250 km</small></div>
 </div>
-<div class="sc-standings"><h3>FINALS TOP FIVE<small>Championship points entering Gold Coast</small></h3>
-<ol><li><span>1</span>Matt Payne <b>3150</b></li><li><span>2</span>Broc Feeney <b>3145</b></li><li><span>3</span>Will Brown <b>3103</b></li><li><span>4</span>Brodie Kostecki <b>3096</b></li><li><span>5</span>Kai Allen <b>3066</b></li></ol>
-<a href="https://www.supercars.com/news/supercars-news-2026-finals-drivers-field-bathurst-1000-qualified-set-payne-feeney-kostecki-brown" target="_blank" rel="noopener noreferrer">Pre-event standings source ↗</a></div>
+<div class="sc-standings" aria-label="Gold Coast 500 Race 31 qualifying leaderboard"><h3>RACE 31 · QUALIFYING TOP TEN<small>Friday 23 October · fastest laps, ahead of Saturday's shootout</small></h3>
+<ol><li><span>1</span>Anton De Pasquale <b>1:09.077</b></li><li><span>2</span>Broc Feeney <b>1:09.146</b></li><li><span>3</span>Matthew Payne <b>1:09.151</b></li><li><span>4</span>Andre Heimgartner <b>1:09.164</b></li><li><span>5</span>Chaz Mostert <b>1:09.187</b></li><li><span>6</span>Ryan Wood <b>1:09.267</b></li><li><span>7</span>Will Brown <b>1:09.285</b></li><li><span>8</span>Thomas Randle <b>1:09.295</b></li><li><span>9</span>Kai Allen <b>1:09.368</b></li><li><span>10</span>Cam Waters <b>1:09.376</b></li></ol>
+<a href="https://www.supercars.com/results/2026/2026-gold-coast/Q3" target="_blank" rel="noopener noreferrer">Official qualifying results ↗</a></div>
 <div class="sc-links"><a href="https://www.flashscore.com.au/auto-racing/supercars-championship/gold-coast-500/" target="_blank" rel="noopener noreferrer">Open live race results ↗</a><a href="https://www.supercars.com/results/2026-gold-coast" target="_blank" rel="noopener noreferrer">Practice, qualifying & race results ↗</a></div>
-<p class="sc-access">Live race positions open directly on Flashscore. Official session results open on Supercars; no account needed.</p>
+<p class="sc-access">Leaderboard above is Friday qualifying, not live race order. Open live race results when the session begins; no account needed.</p>
 </div>
 <div id="live-rlwc-game" class="live-sport-slot live-sport-panel" aria-label="Rugby League World Cup 2026 fixtures">
 <div class="live-game-badge" data-rlwc-status>WORLD CUP · COMING UP</div>
@@ -617,7 +617,8 @@ update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
    if(x.rank===3)return y.start-x.start||original.get(a)-original.get(b);
    return x.start-y.start||original.get(a)-original.get(b);
   });
-  cards.forEach(card=>rail.insertBefore(card,anchor));
+  const current=[...rail.querySelectorAll('.live-sport-panel')].filter(card=>cards.includes(card));
+  if(cards.some((card,index)=>current[index]!==card))cards.forEach(card=>rail.insertBefore(card,anchor));
   if(liveCount){const n=cards.filter(card=>!card.hidden&&priority(card).rank===0).length;liveCount.hidden=n===0;liveCount.textContent=n+' LIVE NOW';}
  }
  let queued=false;
