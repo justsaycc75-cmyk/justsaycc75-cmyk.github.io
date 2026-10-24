@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2113994697404235778",
+        "date": "2026-10-24",
+        "dateLabel": "24 OCT 2026 · UTC",
+        "headline": "RCH165 KC-135 Stratotanker sighting reported",
+        "summary": "War Watch reported a Boeing KC-135 Stratotanker using call sign RCH165, registration 58-0030 and hex code AE04B9. The sighting was credited to TruthSeekr60.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2113994697404235778"
+      },
+      {
+        "id": "2113978884420985291",
+        "date": "2026-10-24",
+        "dateLabel": "24 OCT 2026 · UTC",
+        "headline": "U.S. cargo, surveillance and coded-radio activity reported",
+        "summary": "War Watch reported multiple U.S. Air Force cargo and surveillance aircraft airborne over the continental United States, with 10 coded military radio broadcasts detected that day as tensions with Iran remained high.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2113978884420985291"
+      },
+      {
         "id": "2113933586055262679",
         "date": "2026-10-24",
         "dateLabel": "24 OCT 2026 · UTC",
@@ -83,22 +99,6 @@
         "headline": "E-6B Mercury sighting reported",
         "summary": "War Watch reported a Boeing E-6B Mercury with no call sign, hex code AE0416 and registration 164404. The sighting was credited to reagan0965.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2113776931682255200"
-      },
-      {
-        "id": "2113766999725593076",
-        "date": "2026-10-23",
-        "dateLabel": "23 OCT 2026 · UTC",
-        "headline": "Ukrainian drone raid into western Russia reported",
-        "summary": "War Watch relayed a contributor report of an ongoing Friday-night Ukrainian drone raid into western Russia involving two separate streams of drones.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113766999725593076"
-      },
-      {
-        "id": "2113751487759126763",
-        "date": "2026-10-23",
-        "dateLabel": "23 OCT 2026 · UTC",
-        "headline": "Jet activity and distant blast reported in Bandar Lengeh",
-        "summary": "War Watch relayed a contributor report that jet activity and a distant blast were heard in Bandar Lengeh at 21:30 UTC; the contributor said the blast may have been toward the mountains.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113751487759126763"
       }
     ]
   },
