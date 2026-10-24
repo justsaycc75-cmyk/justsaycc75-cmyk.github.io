@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2113842980113019096",
+        "date": "2026-10-24",
+        "dateLabel": "24 OCT 2026 · UTC",
+        "headline": "U.S. transport aircraft, bomber and coded-radio activity reported",
+        "summary": "War Watch reported six U.S. Air Force transport aircraft and a bomber airborne, along with one coded radio broadcast heard in the previous hour amid Middle East tensions.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2113842980113019096"
+      },
+      {
         "id": "2113801823001669775",
         "date": "2026-10-24",
         "dateLabel": "24 OCT 2026 · UTC",
@@ -91,14 +99,6 @@
         "headline": "Planned U.S. strike on Iran report relayed",
         "summary": "War Watch relayed a Conflict Radar report that Washington alerted Baghdad to a planned U.S. strike on Iran in the coming days.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2113721574033351057"
-      },
-      {
-        "id": "2113717798811673082",
-        "date": "2026-10-23",
-        "dateLabel": "23 OCT 2026 · UTC",
-        "headline": "SHUCK81 E-3G Sentry sighting reported",
-        "summary": "War Watch reported a Boeing E-3G Sentry using call sign SHUCK81, hex code AE11DC and registration 76-1605. The sighting was credited to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113717798811673082"
       }
     ]
   },
