@@ -76,15 +76,7 @@
 .sc-title{font-size:22px;line-height:1.12;font-weight:850;letter-spacing:-.04em;margin:14px 0 5px}
 .sc-title small{display:block;color:#ffdba6;font-size:11px;letter-spacing:.09em;margin-top:5px}
 .sc-checker{height:9px;margin:12px 0 15px;background:conic-gradient(#eddbc1 25%,#373b3f 0 50%,#eddbc1 0 75%,#373b3f 0) 0 0/18px 18px;opacity:.9}
-.sc-next{padding:12px 10px;border-radius:10px;background:#ffffff18;border:1px solid #ffffff30}
-.sc-next small,.sc-next strong,.sc-next span{display:block}
-.sc-next small{font-size:9px;letter-spacing:.13em;color:#ffd89b;font-weight:800}
-.sc-next strong{font-size:14px;line-height:1.25;margin:5px 0 4px}
-.sc-next span{font-size:11px;color:#ece2d5}
-.sc-races{display:grid;gap:7px;margin:12px 0}
-.sc-race{display:grid;grid-template-columns:1fr auto;gap:2px 7px;padding:8px;border-radius:8px;border:1px solid #ffffff2b;background:#18263365}
-.sc-race span{font-size:11px;font-weight:750}.sc-race b{font-size:11px;color:#ffdfad}.sc-race small{grid-column:1/-1;color:#cbd5dc;font-size:10px}
-.sc-standings{border-top:1px solid #ffffff42;margin-top:13px;padding-top:12px}
+.sc-standings{border-top:1px solid #ffffff42;margin-top:5px;padding-top:10px}
 .sc-standings h3{font-size:11px;letter-spacing:.1em;margin:0 0 7px;color:#ffdda8}
 .sc-standings h3 small{display:block;font-size:9px;font-weight:500;letter-spacing:0;color:#d7d7d2;margin-top:3px}
 .sc-standings ol{list-style:none;margin:0;padding:0;display:grid;gap:3px}
@@ -127,11 +119,6 @@
 <div class="live-game-badge">SUPERCARS · GOLD COAST 500</div>
 <div class="sc-title">Surfers Paradise<small>23–25 OCTOBER · 2026</small></div>
 <div class="sc-checker" aria-hidden="true"></div>
-<div class="sc-next"><small data-sc-phase>NEXT ON TRACK</small><strong data-sc-next>Gold Coast 500 weekend</strong><span data-sc-countdown>Loading schedule…</span></div>
-<div class="sc-races">
-<div class="sc-race"><span>Sat 24 · Race 31</span><b>4:15 pm</b><small data-sc-race31>85 laps · 250 km</small></div>
-<div class="sc-race"><span>Sun 25 · Race 32</span><b>3:45 pm</b><small data-sc-race32>85 laps · 250 km</small></div>
-</div>
 <div class="sc-standings" aria-label="Latest published Supercars running order"><h3>RACE 32 · RUNNING ORDER<small>Published timing snapshots · not a lap-by-lap feed</small></h3><p class="sc-feed-status" data-sc-feed-status role="status">Connecting to race coverage…</p><a data-sc-order-link href="https://speedcafe.com/supercars-news-2026-gold-coast-live-updates-practice-qualifying-shootout-race-results-session-reports-surfers-paradise/" target="_blank" rel="noopener"><img class="sc-order-image" data-sc-order-image hidden alt="Latest published Race 32 running order; open full size to read all positions"></a><p class="sc-headline" data-sc-headline></p><a href="https://speedcafe.com/supercars-news-2026-gold-coast-live-updates-practice-qualifying-shootout-race-results-session-reports-surfers-paradise/" target="_blank" rel="noopener">Source: Speedcafe live coverage ↗</a></div>
 <div class="sc-links"><a href="https://speedcafe.com/supercars-news-2026-gold-coast-live-updates-practice-qualifying-shootout-race-results-session-reports-surfers-paradise/" target="_blank" rel="noopener">Open live race coverage ↗</a><a href="https://www.supercars.com/results/2026-gold-coast" target="_blank" rel="noopener">Official results ↗</a></div>
 <p class="sc-access">Checks for new published positions every 30 seconds. The timestamp shows when the running order was published, not the last check. Tap the image for the full-size leaderboard. Free public coverage; no login required.</p>
@@ -498,36 +485,14 @@ update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
 <script>
 (()=>{
  const panel=document.getElementById('live-supercars-game');if(!panel)return;
- const next=panel.querySelector('[data-sc-next]'),count=panel.querySelector('[data-sc-countdown]');
- const stages=[
-  ['Practice 1','2026-10-23T12:45:00+11:00',25],
-  ['Practice 2','2026-10-23T14:50:00+11:00',25],
-  ['Race 31 qualifying','2026-10-23T17:05:00+11:00',30],
-  ['Race 31 Top Ten Shootout','2026-10-24T13:35:00+11:00',35],
-  ['Race 31 · 85 laps','2026-10-24T16:15:00+11:00',180],
-  ['Race 32 qualifying · Q1','2026-10-25T12:20:00+11:00',12],
-  ['Race 32 qualifying · Q2','2026-10-25T12:40:00+11:00',12],
-  ['Race 32 Top Ten Shootout','2026-10-25T13:05:00+11:00',35],
-  ['Race 32 · 85 laps','2026-10-25T15:45:00+11:00',180]
- ].map(([name,date,minutes])=>({name,start:Date.parse(date),end:Date.parse(date)+minutes*60000}));
+ const raceStart=Date.parse('2026-10-25T15:45:00+11:00');
+ const raceWindowEnd=Date.parse('2026-10-25T18:45:00+11:00');
  const finish=Date.parse('2026-10-26T10:00:00+11:00');
- const time=t=>new Intl.DateTimeFormat('en-AU',{timeZone:'Australia/Sydney',weekday:'short',hour:'numeric',minute:'2-digit',hour12:true}).format(t);
  function update(){
-  const now=Date.now();if(now>=finish){panel.hidden=true;return;}
-  const active=stages.find(s=>now>=s.start&&now<s.end),upcoming=stages.find(s=>s.start>now);
-  const item=active||upcoming;
-  panel.dataset.sportState=active?'stale-live':upcoming?'pre':'post';
-  panel.querySelector('[data-sc-phase]').textContent=active?'RACE WINDOW':upcoming?'NEXT ON TRACK':'EVENT COMPLETE';
-  panel.dataset.sportStart=String(item?.start||stages[stages.length-1].start);
-  if(item){
-   next.textContent=item.name;
-   if(active)count.textContent='Scheduled session window · follow changing positions via live results';
-   else{const min=Math.ceil((item.start-now)/60000);count.textContent=time(item.start)+' Sydney · '+(min>=60?Math.floor(min/60)+'h '+(min%60)+'m':min+' min')+' to go';}
-  }else{next.textContent='Gold Coast weekend complete';count.textContent='Official race results and standings below';}
-  for(const id of ['31','32']){
-   const race=stages.find(stage=>stage.name==='Race '+id+' · 85 laps'),label=panel.querySelector('[data-sc-race'+id+']');
-   label.textContent=now<race.start?'85 laps · 250 km · coming up':now<race.end?'Scheduled race window · check live results':'Race window ended · see official results';
-  }
+  const now=Date.now();
+  panel.hidden=now>=finish;
+  panel.dataset.sportState=now<raceStart?'pre':now<raceWindowEnd?'stale-live':'post';
+  panel.dataset.sportStart=String(raceStart);
  }
  update();setInterval(update,30000);
  // Public publisher feed: retain timestamps and never represent an old snapshot as live timing.
