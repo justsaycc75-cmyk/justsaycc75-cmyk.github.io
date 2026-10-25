@@ -5,6 +5,38 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2114480560500265266",
+        "date": "2026-10-25",
+        "dateLabel": "25 OCT 2026 · UTC",
+        "headline": "U.S. transports and surveillance jet reported",
+        "summary": "War Watch reported multiple large U.S. military transport aircraft airborne over the continental United States alongside a radar-focused surveillance jet, while noting separate reports of explosions in Iran.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2114480560500265266"
+      },
+      {
+        "id": "2114476033822871988",
+        "date": "2026-10-25",
+        "dateLabel": "25 OCT 2026 · UTC",
+        "headline": "Hormozgan coastal explosions report relayed",
+        "summary": "War Watch relayed a report from @weslester6474 that several large explosions were heard from the seaward side of Hormozgan’s coastal strip at 00:49 local time, or 2119Z.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2114476033822871988"
+      },
+      {
+        "id": "2114472243623264652",
+        "date": "2026-10-25",
+        "dateLabel": "25 OCT 2026 · UTC",
+        "headline": "Salah al-Din explosion report highlighted",
+        "summary": "War Watch highlighted an Al Jazeera Arabic report that an explosion was heard in the Salah al-Din area, saying two outlets later confirmed the report. The visible quotation was truncated before the location was completed.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2114472243623264652"
+      },
+      {
+        "id": "2114468345437171733",
+        "date": "2026-10-25",
+        "dateLabel": "25 OCT 2026 · UTC",
+        "headline": "Offshore Hormozgan explosions report relayed",
+        "summary": "War Watch relayed a report from @weslester6474 that several powerful explosions were heard offshore along Iran’s Hormozgan coastline, with the cause unknown.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2114468345437171733"
+      },
+      {
         "id": "2114435130034954376",
         "date": "2026-10-25",
         "dateLabel": "25 OCT 2026 · UTC",
@@ -67,38 +99,6 @@
         "headline": "Iranian radar-site explosion report relayed",
         "summary": "War Watch relayed a report from @weslester6474 of an explosion involving an Iranian radar installation near Tabriz in East Azerbaijan Province. The visible post was truncated and did not state that the report had been confirmed.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2114307704336331235"
-      },
-      {
-        "id": "2114296580115169757",
-        "date": "2026-10-25",
-        "dateLabel": "25 OCT 2026 · UTC",
-        "headline": "U.S. transport aircraft activity reported",
-        "summary": "War Watch reported six U.S. Air Force transport aircraft airborne over the continental United States and beyond, with no coded radio broadcasts detected during that hour.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114296580115169757"
-      },
-      {
-        "id": "2114265581738147994",
-        "date": "2026-10-25",
-        "dateLabel": "25 OCT 2026 · UTC",
-        "headline": "Vinnytsia apartment-building strike report highlighted",
-        "summary": "War Watch highlighted a Suspilne report that a Russian Army drone strike hit a five-storey building in Vinnytsia and injured six people, saying two outlets later confirmed the report.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114265581738147994"
-      },
-      {
-        "id": "2114251280533135478",
-        "date": "2026-10-25",
-        "dateLabel": "25 OCT 2026 · UTC",
-        "headline": "U.S. transport aircraft over North Sea and United States reported",
-        "summary": "War Watch reported six U.S. Air Force transport aircraft airborne, including three over the North Sea and two over the United States, with no coded military radio broadcasts heard in the previous hour.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114251280533135478"
-      },
-      {
-        "id": "2114205980267323437",
-        "date": "2026-10-25",
-        "dateLabel": "25 OCT 2026 · UTC",
-        "headline": "U.S. transports over North America and North Sea reported",
-        "summary": "War Watch reported six U.S. Air Force transport aircraft airborne over the continental United States and North Sea, including one large cargo aircraft, during an otherwise quiet period with no coded radio broadcasts heard that hour.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114205980267323437"
       }
     ]
   },
