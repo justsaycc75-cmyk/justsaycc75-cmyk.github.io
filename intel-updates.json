@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2114307704336331235",
+        "date": "2026-10-25",
+        "dateLabel": "25 OCT 2026 · UTC",
+        "headline": "Iranian radar-site explosion report relayed",
+        "summary": "War Watch relayed a report from @weslester6474 of an explosion involving an Iranian radar installation near Tabriz in East Azerbaijan Province. The visible post was truncated and did not state that the report had been confirmed.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2114307704336331235"
+      },
+      {
+        "id": "2114296580115169757",
+        "date": "2026-10-25",
+        "dateLabel": "25 OCT 2026 · UTC",
+        "headline": "U.S. transport aircraft activity reported",
+        "summary": "War Watch reported six U.S. Air Force transport aircraft airborne over the continental United States and beyond, with no coded radio broadcasts detected during that hour.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2114296580115169757"
+      },
+      {
         "id": "2114265581738147994",
         "date": "2026-10-25",
         "dateLabel": "25 OCT 2026 · UTC",
@@ -83,22 +99,6 @@
         "headline": "U.S. command, transport, radar and tanker activity reported",
         "summary": "War Watch reported a U.S. Air Force nuclear-command jet, two large transport aircraft, an airborne-radar aircraft and a refuelling tanker simultaneously airborne over the continental United States. The remainder of the visible post was truncated.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2114069815623110778"
-      },
-      {
-        "id": "2114024404803822015",
-        "date": "2026-10-24",
-        "dateLabel": "24 OCT 2026 · UTC",
-        "headline": "U.S. transport, surveillance and command aircraft activity reported",
-        "summary": "War Watch reported multiple U.S. Air Force transport aircraft and a surveillance drone airborne over the United States, along with a tracked nuclear-command jet and 13 coded radio broadcasts heard that day.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114024404803822015"
-      },
-      {
-        "id": "2114002399505396177",
-        "date": "2026-10-24",
-        "dateLabel": "24 OCT 2026 · UTC",
-        "headline": "SOSA21 Osprey sighting over Oman reported",
-        "summary": "War Watch reported a U.S. Marine Corps Bell-Boeing MV-22N Osprey using call sign SOSA21 and hex code AE5AA6 over Oman. The sighting was credited to timharkness9152.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114002399505396177"
       }
     ]
   },
