@@ -95,7 +95,7 @@
 .sc-links{display:grid;gap:7px;margin-top:13px}
 .front-live-today #live-supercars-game .sc-links a{display:block;text-align:center;border:1px solid #e3b47e;background:#684b30;border-radius:9px;padding:9px 7px;color:#fff;text-decoration:none;font-size:11px;font-weight:800}
 .front-live-today #live-supercars-game .sc-links a+a{background:#263947;border-color:#8cb4c9}
-.sc-access{font-size:10px;color:#e4d7c7;line-height:1.4;margin:9px 1px 0}
+.sc-order-image{display:block;width:100%;height:auto;margin:8px 0;border-radius:4px}.sc-feed-status{font-size:10px;line-height:1.5;color:#ffe0af}.sc-headline{font-size:12px;line-height:1.45;margin:9px 0}.sc-access{font-size:10px;color:#e4d7c7;line-height:1.4;margin:9px 1px 0}
 /* Rugby League World Cup: its own look within the live rail. */
 .front-live-today #live-rlwc-game{background:linear-gradient(155deg,#503957,#322f50 58%,#1b3546);border-color:#a888ba;border-top:4px solid #ffcc78;color:#fff}
 .front-live-today #live-rlwc-game::before{background:radial-gradient(circle at 85% 15%,#eeb6ff34,transparent 45%),repeating-linear-gradient(115deg,transparent 0 38px,#ffffff0b 39px 40px,transparent 41px 75px)}
@@ -132,11 +132,9 @@
 <div class="sc-race"><span>Sat 24 · Race 31</span><b>4:15 pm</b><small data-sc-race31>85 laps · 250 km</small></div>
 <div class="sc-race"><span>Sun 25 · Race 32</span><b>3:45 pm</b><small data-sc-race32>85 laps · 250 km</small></div>
 </div>
-<div class="sc-standings" aria-label="Gold Coast 500 Race 32 starting grid"><h3>RACE 32 · GRID<small>Sunday 25 October · verified before the race</small></h3>
-<ol><li><span>1</span>Broc Feeney <b>POLE</b></li><li><span>2</span>Will Brown</li><li><span>3</span>Aaron Cameron</li><li><span>4</span>Brodie Kostecki</li><li><span>5</span>Ryan Wood</li><li><span>6</span>Jarrod Hughes</li><li><span>7</span>Cooper Murray</li><li><span>8</span>Chaz Mostert</li><li><span>9</span>Cameron Hill</li><li><span>10</span>Cam Waters <b>DSQ*</b></li></ol>
-<a href="https://www.supercars.com/news/supercars-news-2026-gold-coast-500-sunday-starting-grid-race-start-time-pole-position-drivers" target="_blank" rel="noopener noreferrer">Official Race 32 grid ↗</a></div>
-<div class="sc-links"><a href="https://www.flashscore.com.au/auto-racing/supercars-championship/gold-coast-500/" target="_blank" rel="noopener noreferrer">Open live race results ↗</a><a href="https://www.supercars.com/news/2026-gold-coast-500-supercars-live-coverage-blog-tickets-dates-race-times-results-updates-timing-news" target="_blank" rel="noopener noreferrer">Official race updates ↗</a><a href="https://www.supercars.com/results/2026-gold-coast" target="_blank" rel="noopener noreferrer">Official results ↗</a></div>
-<p class="sc-access">*Waters was disqualified from the Shootout and starts 10th. This is the starting grid, not live race order; use the results links for changing positions. No site login is needed for the linked news and results pages.</p>
+<div class="sc-standings" aria-label="Latest published Supercars running order"><h3>RACE 32 · RUNNING ORDER<small>Published timing snapshots · not a lap-by-lap feed</small></h3><p class="sc-feed-status" data-sc-feed-status role="status">Connecting to race coverage…</p><a data-sc-order-link href="https://speedcafe.com/supercars-news-2026-gold-coast-live-updates-practice-qualifying-shootout-race-results-session-reports-surfers-paradise/" target="_blank" rel="noopener"><img class="sc-order-image" data-sc-order-image hidden alt="Latest published Race 32 running order; open full size to read all positions"></a><p class="sc-headline" data-sc-headline></p><a href="https://speedcafe.com/supercars-news-2026-gold-coast-live-updates-practice-qualifying-shootout-race-results-session-reports-surfers-paradise/" target="_blank" rel="noopener">Source: Speedcafe live coverage ↗</a></div>
+<div class="sc-links"><a href="https://speedcafe.com/supercars-news-2026-gold-coast-live-updates-practice-qualifying-shootout-race-results-session-reports-surfers-paradise/" target="_blank" rel="noopener">Open live race coverage ↗</a><a href="https://www.supercars.com/results/2026-gold-coast" target="_blank" rel="noopener">Official results ↗</a></div>
+<p class="sc-access">Checks for new published positions every 30 seconds. The timestamp shows when the running order was published, not the last check. Tap the image for the full-size leaderboard. Free public coverage; no login required.</p>
 </div>
 <div id="live-rlwc-game" class="live-sport-slot live-sport-panel" aria-label="Rugby League World Cup 2026 fixtures">
 <div class="live-game-badge" data-rlwc-status>WORLD CUP · COMING UP</div>
@@ -532,6 +530,40 @@ update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
   }
  }
  update();setInterval(update,30000);
+ // Public publisher feed: retain timestamps and never represent an old snapshot as live timing.
+ const feed='https://data.24liveplus.com/v1/retrieve_server/x/event/4226843707675375866/news/?limit=50&inverted_order=1';
+ const status=panel.querySelector('[data-sc-feed-status]'),picture=panel.querySelector('[data-sc-order-image]'),pictureLink=panel.querySelector('[data-sc-order-link]'),headline=panel.querySelector('[data-sc-headline]');
+ let snapshot=null,busy=false;
+ const stamp=t=>new Intl.DateTimeFormat('en-AU',{timeZone:'Australia/Sydney',hour:'numeric',minute:'2-digit',second:'2-digit',hour12:true,timeZoneName:'short'}).format(t);
+ function showSnapshot(failed=false){
+  if(!snapshot){status.textContent=failed?'Position feed unavailable. Open live coverage below.':'No running-order snapshot published yet. Open live coverage below.';return;}
+  const age=Math.max(0,Math.floor((Date.now()-snapshot.time)/60000));
+  status.textContent='Positions published '+stamp(snapshot.time)+' · '+age+' min ago'+(failed?' · refresh unavailable':age>=10?' · awaiting a newer snapshot':'');
+ }
+ async function refreshPositions(){
+  if(busy||panel.hidden||document.hidden)return;busy=true;
+  try{
+   const response=await fetch(feed,{cache:'no-store',signal:AbortSignal.timeout(12000)});
+   if(!response.ok)throw Error('Feed HTTP '+response.status);
+   const payload=await response.json(),posts=payload?.data?.news;
+   if(!Array.isArray(posts))throw Error('Invalid feed');
+   const newest=posts.find(p=>p.newstitle);
+   if(newest)headline.textContent=stamp(Number(newest.created)*1000)+' · '+newest.newstitle;
+   for(const post of posts){
+    if(!/running order/i.test(post.newstitle||''))continue;
+    const doc=new DOMParser().parseFromString(post.contents||'','text/html');
+    const img=doc.querySelector('img[src]');if(!img)continue;
+    const url=new URL(img.getAttribute('src'));
+    if(url.protocol!=='https:'||url.hostname!=='img.24live.co')continue;
+    const time=Number(post.created)*1000;if(!Number.isFinite(time)||time>Date.now()+60000)continue;
+    if(!snapshot||time>=snapshot.time){snapshot={time,url:url.href};picture.src=url.href;picture.hidden=false;pictureLink.href=url.href;picture.alt=post.newstitle+' · published '+stamp(time)+'. Open full size to read all positions.';}break;
+   }
+   showSnapshot();
+  }catch(error){showSnapshot(true);}finally{busy=false;}
+ }
+ picture.addEventListener('error',()=>{picture.hidden=true;status.textContent='Running-order image unavailable. Open live coverage below.';});
+ refreshPositions();setInterval(()=>{showSnapshot();refreshPositions();},30000);
+ document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshPositions();});
 })();
 </script><script>
 (()=>{
@@ -630,6 +662,7 @@ update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
  schedule();
 })();
 </script><img src="https://www.stats4u.net/c/7154822844-980.png" width="1" height="1" alt="" aria-hidden="true" style="position:absolute;width:1px;height:1px;opacity:0;pointer-events:none"></body></html>
+
 
 
 
