@@ -73,21 +73,17 @@
 .front-live-today #live-supercars-game{background:linear-gradient(158deg,#514a39,#282c32 52%,#1e252e);border-color:#c7a473;border-top:4px solid #ffbd67;color:#fff}
 .front-live-today #live-supercars-game::before{background:repeating-linear-gradient(145deg,transparent 0 36px,#fff1 37px 38px,transparent 39px 66px),radial-gradient(circle at 90% 0%,#ffba6452,transparent 45%)}
 .front-live-today #live-supercars-game .live-game-badge{background:#4b3823;border-color:#e8b978;color:#fff3d9}
-.sc-title{font-size:22px;line-height:1.12;font-weight:850;letter-spacing:-.04em;margin:14px 0 5px}
-.sc-title small{display:block;color:#ffdba6;font-size:11px;letter-spacing:.09em;margin-top:5px}
-.sc-checker{height:9px;margin:12px 0 15px;background:conic-gradient(#eddbc1 25%,#373b3f 0 50%,#eddbc1 0 75%,#373b3f 0) 0 0/18px 18px;opacity:.9}
-.sc-standings{border-top:1px solid #ffffff42;margin-top:5px;padding-top:10px}
-.sc-standings h3{font-size:11px;letter-spacing:.1em;margin:0 0 7px;color:#ffdda8}
-.sc-standings h3 small{display:block;font-size:9px;font-weight:500;letter-spacing:0;color:#d7d7d2;margin-top:3px}
-.sc-standings ol{list-style:none;margin:0;padding:0;display:grid;gap:3px}
-.sc-standings li{display:grid;grid-template-columns:22px 1fr auto;align-items:center;padding:5px 6px;background:#ffffff14;border-radius:5px;font-size:11px}
-.sc-standings li span:first-child{color:#ffcf83;font-weight:800}
-.sc-standings li b{font-variant-numeric:tabular-nums;color:#fff0d8;font-size:10px}
-.sc-standings a{display:block;text-align:right;color:#ffdda9;font-size:10px;margin:7px 1px 0}
-.sc-links{display:grid;gap:7px;margin-top:13px}
-.front-live-today #live-supercars-game .sc-links a{display:block;text-align:center;border:1px solid #e3b47e;background:#684b30;border-radius:9px;padding:9px 7px;color:#fff;text-decoration:none;font-size:11px;font-weight:800}
-.front-live-today #live-supercars-game .sc-links a+a{background:#263947;border-color:#8cb4c9}
-.sc-order-image{display:block;width:100%;height:auto;margin:8px 0;border-radius:4px}.sc-feed-status{font-size:10px;line-height:1.5;color:#ffe0af}.sc-headline{font-size:12px;line-height:1.45;margin:9px 0}.sc-access{font-size:10px;color:#e4d7c7;line-height:1.4;margin:9px 1px 0}
+.sc-standings{margin-top:11px}
+.sc-standings h3{font-size:17px;line-height:1.1;letter-spacing:.04em;margin:0 0 5px;color:#fff1d9}
+.sc-feed-status{font-size:11px;line-height:1.35;color:#ffe0af;margin:0 0 9px;font-variant-numeric:tabular-nums}
+.sc-board-link{display:block;border:2px solid #e8bc7e;border-radius:7px;overflow:hidden;background:#fff;line-height:0}
+.sc-order-image{display:block;width:100%;height:auto}.sc-order-image[hidden]{display:none}
+.sc-board-link:has(.sc-order-image[hidden]){display:none}
+.sc-enlarge{display:block;text-align:center;color:#fff5e0;font-size:12px;font-weight:800;padding:8px 4px;text-decoration:underline}
+.sc-links{margin-top:4px;text-align:center}
+.front-live-today #live-supercars-game .sc-links a{color:#ffdda9;font-size:11px}
+.sc-access{font-size:10px;color:#d8c8b6;line-height:1.35;margin:9px 0 0}
+@media(min-width:1180px){.supercars-race-window .front-shell{grid-template-columns:350px minmax(0,1fr)}}
 /* Rugby League World Cup: its own look within the live rail. */
 .front-live-today #live-rlwc-game{background:linear-gradient(155deg,#503957,#322f50 58%,#1b3546);border-color:#a888ba;border-top:4px solid #ffcc78;color:#fff}
 .front-live-today #live-rlwc-game::before{background:radial-gradient(circle at 85% 15%,#eeb6ff34,transparent 45%),repeating-linear-gradient(115deg,transparent 0 38px,#ffffff0b 39px 40px,transparent 41px 75px)}
@@ -115,13 +111,16 @@
 <div id="live-epl-game" class="live-sport-slot live-sport-panel" aria-live="polite"><div class="live-game-badge">EPL · CONNECTING</div><p class="live-game-empty">Loading the next EPL match…</p></div>
 <div id="live-cricket-game" class="live-sport-slot live-sport-panel" aria-live="polite"><div class="live-game-badge">AUSTRALIA CRICKET · CONNECTING</div><p class="live-game-empty">Loading Australia’s next Test…</p></div>
 
-<div id="live-supercars-game" class="live-sport-slot live-sport-panel" aria-label="Gold Coast 500 Supercars weekend">
+<div id="live-supercars-game" class="live-sport-slot live-sport-panel" aria-label="Gold Coast 500 Supercars leaderboard">
 <div class="live-game-badge">SUPERCARS · GOLD COAST 500</div>
-<div class="sc-title">Surfers Paradise<small>23–25 OCTOBER · 2026</small></div>
-<div class="sc-checker" aria-hidden="true"></div>
-<div class="sc-standings" aria-label="Latest published Supercars running order"><h3>RACE 32 · RUNNING ORDER<small>Published timing snapshots · not a lap-by-lap feed</small></h3><p class="sc-feed-status" data-sc-feed-status role="status">Connecting to race coverage…</p><a data-sc-order-link href="https://speedcafe.com/supercars-news-2026-gold-coast-live-updates-practice-qualifying-shootout-race-results-session-reports-surfers-paradise/" target="_blank" rel="noopener"><img class="sc-order-image" data-sc-order-image hidden alt="Latest published Race 32 running order; open full size to read all positions"></a><p class="sc-headline" data-sc-headline></p><a href="https://speedcafe.com/supercars-news-2026-gold-coast-live-updates-practice-qualifying-shootout-race-results-session-reports-surfers-paradise/" target="_blank" rel="noopener">Source: Speedcafe live coverage ↗</a></div>
-<div class="sc-links"><a href="https://speedcafe.com/supercars-news-2026-gold-coast-live-updates-practice-qualifying-shootout-race-results-session-reports-surfers-paradise/" target="_blank" rel="noopener">Open live race coverage ↗</a><a href="https://www.supercars.com/results/2026-gold-coast" target="_blank" rel="noopener">Official results ↗</a></div>
-<p class="sc-access">Checks for new published positions every 30 seconds. The timestamp shows when the running order was published, not the last check. Tap the image for the full-size leaderboard. Free public coverage; no login required.</p>
+<div class="sc-standings" aria-label="Latest published Supercars running order">
+<h3>RACE 32 · LEADERBOARD</h3>
+<p class="sc-feed-status" data-sc-feed-status role="status">Loading the latest published running order…</p>
+<a class="sc-board-link" data-sc-order-link href="https://speedcafe.com/supercars-news-2026-gold-coast-live-updates-practice-qualifying-shootout-race-results-session-reports-surfers-paradise/" target="_blank" rel="noopener" aria-label="Open latest published running order full size"><img class="sc-order-image" data-sc-order-image hidden alt="Latest published Race 32 running order; open full size to read all positions"></a>
+<a class="sc-enlarge" data-sc-enlarge href="https://speedcafe.com/supercars-news-2026-gold-coast-live-updates-practice-qualifying-shootout-race-results-session-reports-surfers-paradise/" target="_blank" rel="noopener">View leaderboard full size ↗</a>
+</div>
+<div class="sc-links"><a href="https://www.supercars.com/results/2026-gold-coast" target="_blank" rel="noopener">Official results ↗</a></div>
+<p class="sc-access">Published position snapshots from Speedcafe. Refreshes every 30 seconds; the time above is the snapshot time.</p>
 </div>
 <div id="live-rlwc-game" class="live-sport-slot live-sport-panel" aria-label="Rugby League World Cup 2026 fixtures">
 <div class="live-game-badge" data-rlwc-status>WORLD CUP · COMING UP</div>
@@ -493,17 +492,18 @@ update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
   panel.hidden=now>=finish;
   panel.dataset.sportState=now<raceStart?'pre':now<raceWindowEnd?'stale-live':'post';
   panel.dataset.sportStart=String(raceStart);
+  document.documentElement.classList.toggle('supercars-race-window',now>=raceStart&&now<raceWindowEnd);
  }
  update();setInterval(update,30000);
  // Public publisher feed: retain timestamps and never represent an old snapshot as live timing.
  const feed='https://data.24liveplus.com/v1/retrieve_server/x/event/4226843707675375866/news/?limit=50&inverted_order=1';
- const status=panel.querySelector('[data-sc-feed-status]'),picture=panel.querySelector('[data-sc-order-image]'),pictureLink=panel.querySelector('[data-sc-order-link]'),headline=panel.querySelector('[data-sc-headline]');
+ const status=panel.querySelector('[data-sc-feed-status]'),picture=panel.querySelector('[data-sc-order-image]'),pictureLink=panel.querySelector('[data-sc-order-link]'),enlarge=panel.querySelector('[data-sc-enlarge]');
  let snapshot=null,busy=false;
  const stamp=t=>new Intl.DateTimeFormat('en-AU',{timeZone:'Australia/Sydney',hour:'numeric',minute:'2-digit',second:'2-digit',hour12:true,timeZoneName:'short'}).format(t);
  function showSnapshot(failed=false){
-  if(!snapshot){status.textContent=failed?'Position feed unavailable. Open live coverage below.':'No running-order snapshot published yet. Open live coverage below.';return;}
+  if(!snapshot){status.textContent=failed?'Position feed unavailable. Open official results below.':'Awaiting a published running order.';return;}
   const age=Math.max(0,Math.floor((Date.now()-snapshot.time)/60000));
-  status.textContent='Positions published '+stamp(snapshot.time)+' · '+age+' min ago'+(failed?' · refresh unavailable':age>=10?' · awaiting a newer snapshot':'');
+  status.textContent='Published '+stamp(snapshot.time)+' · '+age+' min ago'+(failed?' · feed unavailable':age>=10?' · awaiting update':'');
  }
  async function refreshPositions(){
   if(busy||panel.hidden||document.hidden)return;busy=true;
@@ -512,8 +512,6 @@ update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
    if(!response.ok)throw Error('Feed HTTP '+response.status);
    const payload=await response.json(),posts=payload?.data?.news;
    if(!Array.isArray(posts))throw Error('Invalid feed');
-   const newest=posts.find(p=>p.newstitle||p.contents);
-   if(newest){const text=newest.newstitle||new DOMParser().parseFromString(newest.contents||'','text/html').body.textContent.trim();headline.textContent=stamp(Number(newest.created)*1000)+' · '+text.slice(0,180)+(text.length>180?'…':'');}
    for(const post of posts){
     if(!/running order/i.test(post.newstitle||''))continue;
     const doc=new DOMParser().parseFromString(post.contents||'','text/html');
@@ -521,12 +519,12 @@ update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
     const url=new URL(img.getAttribute('src'));
     if(url.protocol!=='https:'||url.hostname!=='img.24live.co')continue;
     const time=Number(post.created)*1000;if(!Number.isFinite(time)||time>Date.now()+60000)continue;
-    if(!snapshot||time>=snapshot.time){snapshot={time,url:url.href};picture.src=url.href;picture.hidden=false;pictureLink.href=url.href;picture.alt=post.newstitle+' · published '+stamp(time)+'. Open full size to read all positions.';}break;
+    if(!snapshot||time>=snapshot.time){snapshot={time,url:url.href};picture.src=url.href;picture.hidden=false;pictureLink.href=url.href;enlarge.href=url.href;picture.alt=post.newstitle+' · published '+stamp(time)+'. Open full size to read all positions.';}break;
    }
    showSnapshot();
   }catch(error){showSnapshot(true);}finally{busy=false;}
  }
- picture.addEventListener('error',()=>{picture.hidden=true;status.textContent='Running-order image unavailable. Open live coverage below.';});
+ picture.addEventListener('error',()=>{picture.hidden=true;status.textContent='Running-order image unavailable. Open official results below.';});
  refreshPositions();setInterval(()=>{showSnapshot();refreshPositions();},30000);
  document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshPositions();});
 })();
