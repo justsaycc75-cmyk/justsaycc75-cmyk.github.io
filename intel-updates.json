@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2114205980267323437",
+        "date": "2026-10-25",
+        "dateLabel": "25 OCT 2026 · UTC",
+        "headline": "U.S. transports over North America and North Sea reported",
+        "summary": "War Watch reported six U.S. Air Force transport aircraft airborne over the continental United States and North Sea, including one large cargo aircraft, during an otherwise quiet period with no coded radio broadcasts heard that hour.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2114205980267323437"
+      },
+      {
         "id": "2114172374274671026",
         "date": "2026-10-25",
         "dateLabel": "25 OCT 2026 · UTC",
@@ -91,14 +99,6 @@
         "headline": "U.S. cargo, surveillance and coded-radio activity reported",
         "summary": "War Watch reported multiple U.S. Air Force cargo and surveillance aircraft airborne over the continental United States, with 10 coded military radio broadcasts detected that day as tensions with Iran remained high.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2113978884420985291"
-      },
-      {
-        "id": "2113933586055262679",
-        "date": "2026-10-24",
-        "dateLabel": "24 OCT 2026 · UTC",
-        "headline": "U.S. transport aircraft activity over Europe reported",
-        "summary": "War Watch reported six U.S. Air Force transport aircraft airborne, including several over the North Sea and one over the Baltic, amid reports of Iranian naval activity and rising U.S.-Iran tensions.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113933586055262679"
       }
     ]
   },
