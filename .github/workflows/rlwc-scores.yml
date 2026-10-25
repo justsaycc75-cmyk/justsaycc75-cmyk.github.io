@@ -1,0 +1,36 @@
+name: Update RLWC scores
+on:
+  schedule:
+    - cron: '2-57/5 0-12 25-31 10 *'
+    - cron: '2-57/5 0-12 1-15 11 *'
+  push:
+    paths:
+      - '.github/workflows/rlwc-scores.yml'
+      - 'scripts/update-rlwc-scores.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: rlwc-score-update
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Fetch official public scores
+        run: python3 scripts/update-rlwc-scores.py
+        env:
+          RLWC_FORCE: ${{ github.event_name == 'workflow_dispatch' && '1' || '0' }}
+      - name: Commit only the score snapshot
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- data/rlwc-scores.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Refresh official RLWC score snapshot'
+          git pull --rebase origin main
+          git push origin HEAD:main

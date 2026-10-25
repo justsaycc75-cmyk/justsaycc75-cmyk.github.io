@@ -129,11 +129,11 @@
 <div class="rlwc-mark" aria-hidden="true"><b>RLWC</b><strong>26</strong></div>
 <h3 class="rlwc-heading">Rugby League<br>World Cup</h3>
 <p class="rlwc-subtitle">MEN · WOMEN · WHEELCHAIR</p>
-<div class="rlwc-match" data-sport-state="pre" data-sport-start="0"><small data-rlwc-division>Next match</small><strong data-rlwc-teams>Loading fixture…</strong><span data-rlwc-time></span></div>
-<p class="rlwc-venue" data-rlwc-venue></p>
+<div class="rlwc-match" data-sport-state="pre" data-sport-start="0"><small data-rlwc-division>Next match</small><strong data-rlwc-teams>Loading fixture…</strong><strong data-rlwc-score style="font-size:34px;letter-spacing:.04em;line-height:1.1" hidden></strong><span data-rlwc-match-status></span><span data-rlwc-time></span></div>
+<p class="rlwc-venue" data-rlwc-venue></p><p class="rlwc-note" data-rlwc-freshness aria-live="polite">Connecting to official scores…</p><div data-rlwc-other class="rlwc-note"></div>
 <a class="live-game-link" data-rlwc-link href="https://www.rlwc2026.com/draws-and-pools" target="_blank" rel="noopener noreferrer">Official match centre ↗</a>
 <a class="rlwc-draw-link" href="https://www.rlwc2026.com/draws-and-pools" target="_blank" rel="noopener noreferrer">See the full World Cup draw ↗</a>
-<p class="rlwc-note">Sydney times. Match scores and play-by-play are on the official match centre.</p>
+<p class="rlwc-note">Official RLWC scores. Source checks are scheduled about every 5 minutes during match windows and may be delayed; this panel checks for a new snapshot every 30 seconds. Sydney times.</p>
 </div>
 <p class="live-game-updated" data-game-updated>Connecting to live scores</p>
 <div class="live-game-update-row"><small>Auto-refresh every 30 seconds</small><button type="button" data-game-refresh>Refresh</button></div>
@@ -539,67 +539,56 @@ update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
 </script><script>
 (()=>{
  'use strict';
- const panel=document.getElementById('live-rlwc-game');
- if(!panel)return;
- const match=panel.querySelector('.rlwc-match');
- const status=panel.querySelector('[data-rlwc-status]');
- const division=panel.querySelector('[data-rlwc-division]');
- const teams=panel.querySelector('[data-rlwc-teams]');
- const time=panel.querySelector('[data-rlwc-time]');
- const venue=panel.querySelector('[data-rlwc-venue]');
- const link=panel.querySelector('[data-rlwc-link]');
- // Kick-off times and match centres are from official RLWC 2026 team lists and Wollongong schedule.
- const raw=[
-  ['2026-10-23T17:45:00+11:00','Samoa','Wales','Women’s · Round 2','CommBank Stadium, Sydney','womens/2026/round-2/samoa-v-wales'],
-  ['2026-10-23T20:05:00+11:00','Tonga','Lebanon','Men’s · Round 2','CommBank Stadium, Sydney','mens/2026/round-2/tonga-v-lebanon'],
-  ['2026-10-24T13:15:00+11:00','Fiji','Papua New Guinea','Women’s · Round 2','Port Moresby','womens/2026/round-2/fiji-v-papua-new-guinea'],
-  ['2026-10-24T15:25:00+11:00','Papua New Guinea','Samoa','Men’s · Round 2','Port Moresby','mens/2026/round-2/papua-new-guinea-v-samoa'],
-  ['2026-10-24T17:35:00+11:00','England','France','Men’s · Round 2','HBF Park, Perth','mens/2026/round-2/england-v-france'],
-  ['2026-10-24T20:05:00+11:00','Australia','England','Women’s · Round 2','HBF Park, Perth','womens/2026/round-2/australia-v-england'],
-  ['2026-10-25T14:00:00+11:00','New Zealand','France','Women’s · Round 2','Christchurch','womens/2026/round-2/new-zealand-v-france'],
-  ['2026-10-25T16:05:00+11:00','New Zealand','Cook Islands','Men’s · Round 2','Christchurch','mens/2026/round-2/new-zealand-v-cook-islands'],
-  ['2026-10-25T20:05:00+11:00','Australia','Fiji','Men’s · Round 2','Suncorp Stadium, Brisbane','mens/2026/round-2/australia-v-fiji'],
-  ['2026-10-30T13:00:00+11:00','Ireland','USA','Wheelchair · Round 1','WIN Entertainment Centre, Wollongong','wheelchair/2026/round-1/ireland-v-usa'],
-  ['2026-10-30T15:30:00+11:00','England','Wales','Wheelchair · Round 1','WIN Entertainment Centre, Wollongong','wheelchair/2026/round-1/england-v-wales'],
-  ['2026-10-30T17:45:00+11:00','England','Samoa','Women’s · Round 3','WIN Stadium, Wollongong','womens/2026/round-3/england-v-samoa'],
-  ['2026-10-30T20:05:00+11:00','England','Papua New Guinea','Men’s · Round 3','WIN Stadium, Wollongong','mens/2026/round-3/england-v-papua-new-guinea']
- ];
- const fixtures=raw.map(([date,home,away,group,place,path])=>({start:new Date(date).getTime(),home,away,group,place,url:'https://www.rlwc2026.com/draw/'+path}));
- const windowMs=150*60*1000;
- const fmt=new Intl.DateTimeFormat('en-AU',{timeZone:'Australia/Sydney',weekday:'short',day:'numeric',month:'short',hour:'numeric',minute:'2-digit',hour12:true});
- function update(){
+ const panel=document.getElementById('live-rlwc-game');if(!panel)return;
+ const q=s=>panel.querySelector(s),match=q('.rlwc-match'),status=q('[data-rlwc-status]'),division=q('[data-rlwc-division]'),teams=q('[data-rlwc-teams]'),score=q('[data-rlwc-score]'),phase=q('[data-rlwc-match-status]'),time=q('[data-rlwc-time]'),venue=q('[data-rlwc-venue]'),link=q('[data-rlwc-link]'),freshness=q('[data-rlwc-freshness]'),other=q('[data-rlwc-other]');
+ const FEED='https://raw.githubusercontent.com/justsaycc75-cmyk/justsaycc75-cmyk.github.io/main/data/rlwc-scores.json';
+ const fallback=[{"id":"20261310110","start":"2026-10-15T09:05:00.000Z","home":"Australia","away":"New Zealand","group":"Men’s · Round 1","place":"Allianz Stadium, Sydney","url":"https://www.rlwc2026.com/draw/mens/2026/round-1/australia-v-new-zealand"},{"id":"20261310120","start":"2026-10-16T06:45:00.000Z","home":"Samoa","away":"France","group":"Men’s · Round 1","place":"CommBank Stadium, Sydney","url":"https://www.rlwc2026.com/draw/mens/2026/round-1/samoa-v-france"},{"id":"20261570110","start":"2026-10-16T09:05:00.000Z","home":"Australian Jillaroos","away":"Fetu Samoa","group":"Women’s · Round 1","place":"CommBank Stadium, Sydney","url":"https://www.rlwc2026.com/draw/womens/2026/round-1/australia-v-samoa"},{"id":"20261570120","start":"2026-10-17T02:15:00.000Z","home":"Papua New Guinea Orchids","away":"France Women","group":"Women’s · Round 1","place":"Santos National Football Stadium, Port Moresby","url":"https://www.rlwc2026.com/draw/womens/2026/round-1/papua-new-guinea-v-france"},{"id":"20261310130","start":"2026-10-17T04:25:00.000Z","home":"Papua New Guinea","away":"Lebanon","group":"Men’s · Round 1","place":"Santos National Football Stadium, Port Moresby","url":"https://www.rlwc2026.com/draw/mens/2026/round-1/papua-new-guinea-v-lebanon"},{"id":"20261570130","start":"2026-10-17T06:35:00.000Z","home":"England Women","away":"Wales Women","group":"Women’s · Round 1","place":"HBF Park, Perth","url":"https://www.rlwc2026.com/draw/womens/2026/round-1/england-v-wales"},{"id":"20261310140","start":"2026-10-17T09:05:00.000Z","home":"England","away":"Tonga XIII","group":"Men’s · Round 1","place":"HBF Park, Perth","url":"https://www.rlwc2026.com/draw/mens/2026/round-1/england-v-tonga"},{"id":"20261570140","start":"2026-10-18T02:50:00.000Z","home":"Kiwi Ferns","away":"Fiji Women","group":"Women’s · Round 1","place":"McDonald Jones Stadium, Newcastle","url":"https://www.rlwc2026.com/draw/womens/2026/round-1/new-zealand-v-fiji"},{"id":"20261310150","start":"2026-10-18T05:05:00.000Z","home":"Fiji","away":"Cook Islands","group":"Men’s · Round 1","place":"McDonald Jones Stadium, Newcastle","url":"https://www.rlwc2026.com/draw/mens/2026/round-1/fiji-v-cook-islands"},{"id":"20261570210","start":"2026-10-23T06:45:00.000Z","home":"Fetu Samoa","away":"Wales Women","group":"Women’s · Round 2","place":"CommBank Stadium, Sydney","url":"https://www.rlwc2026.com/draw/womens/2026/round-2/samoa-v-wales"},{"id":"20261310210","start":"2026-10-23T09:05:00.000Z","home":"Tonga XIII","away":"Lebanon","group":"Men’s · Round 2","place":"CommBank Stadium, Sydney","url":"https://www.rlwc2026.com/draw/mens/2026/round-2/tonga-v-lebanon"},{"id":"20261570220","start":"2026-10-24T02:15:00.000Z","home":"Fiji Women","away":"Papua New Guinea Orchids","group":"Women’s · Round 2","place":"Santos National Football Stadium, Port Moresby","url":"https://www.rlwc2026.com/draw/womens/2026/round-2/fiji-v-papua-new-guinea"},{"id":"20261310220","start":"2026-10-24T04:25:00.000Z","home":"Papua New Guinea","away":"Samoa","group":"Men’s · Round 2","place":"Santos National Football Stadium, Port Moresby","url":"https://www.rlwc2026.com/draw/mens/2026/round-2/papua-new-guinea-v-samoa"},{"id":"20261310230","start":"2026-10-24T06:35:00.000Z","home":"England","away":"France","group":"Men’s · Round 2","place":"HBF Park, Perth","url":"https://www.rlwc2026.com/draw/mens/2026/round-2/england-v-france"},{"id":"20261570230","start":"2026-10-24T09:05:00.000Z","home":"Australian Jillaroos","away":"England Women","group":"Women’s · Round 2","place":"HBF Park, Perth","url":"https://www.rlwc2026.com/draw/womens/2026/round-2/australia-v-england"},{"id":"20261570240","start":"2026-10-25T03:00:00.000Z","home":"Kiwi Ferns","away":"France Women","group":"Women’s · Round 2","place":"One NZ Stadium, Christchurch","url":"https://www.rlwc2026.com/draw/womens/2026/round-2/new-zealand-v-france"},{"id":"20261310240","start":"2026-10-25T05:05:00.000Z","home":"New Zealand","away":"Cook Islands","group":"Men’s · Round 2","place":"One NZ Stadium, Christchurch","url":"https://www.rlwc2026.com/draw/mens/2026/round-2/new-zealand-v-cook-islands"},{"id":"20261310250","start":"2026-10-25T09:05:00.000Z","home":"Australia","away":"Fiji","group":"Men’s · Round 2","place":"Suncorp Stadium, Brisbane","url":"https://www.rlwc2026.com/draw/mens/2026/round-2/australia-v-fiji"},{"id":"20261300110","start":"2026-10-30T02:00:00.000Z","home":"Ireland Wheelchair","away":"USA Wheelchair","group":"Wheelchair · Round 1","place":"WIN Entertainment Centre, Wollongong","url":"https://www.rlwc2026.com/draw/wheelchair/2026/round-1/ireland-v-usa"},{"id":"20261300120","start":"2026-10-30T04:30:00.000Z","home":"England Wheelchair","away":"Wales Wheelchair","group":"Wheelchair · Round 1","place":"WIN Entertainment Centre, Wollongong","url":"https://www.rlwc2026.com/draw/wheelchair/2026/round-1/england-v-wales"},{"id":"20261570310","start":"2026-10-30T06:45:00.000Z","home":"England Women","away":"Fetu Samoa","group":"Women’s · Round 3","place":"WIN Stadium, Wollongong","url":"https://www.rlwc2026.com/draw/womens/2026/round-3/england-v-samoa"},{"id":"20261310310","start":"2026-10-30T09:05:00.000Z","home":"England","away":"Papua New Guinea","group":"Men’s · Round 3","place":"WIN Stadium, Wollongong","url":"https://www.rlwc2026.com/draw/mens/2026/round-3/england-v-papua-new-guinea"},{"id":"20261570320","start":"2026-10-31T02:20:00.000Z","home":"Fiji Women","away":"France Women","group":"Women’s · Round 3","place":"Cbus Super Stadium, Gold Coast","url":"https://www.rlwc2026.com/draw/womens/2026/round-3/fiji-v-france"},{"id":"20261300130","start":"2026-10-31T04:00:00.000Z","home":"France Wheelchair","away":"Scotland Wheelchair","group":"Wheelchair · Round 1","place":"WIN Entertainment Centre, Wollongong","url":"https://www.rlwc2026.com/draw/wheelchair/2026/round-1/france-v-scotland"},{"id":"20261310320","start":"2026-10-31T04:30:00.000Z","home":"New Zealand","away":"Fiji","group":"Men’s · Round 3","place":"Cbus Super Stadium, Gold Coast","url":"https://www.rlwc2026.com/draw/mens/2026/round-3/new-zealand-v-fiji"},{"id":"20261300140","start":"2026-10-31T06:30:00.000Z","home":"Australia Wheelchair","away":"New Zealand Wheelchair","group":"Wheelchair · Round 1","place":"WIN Entertainment Centre, Wollongong","url":"https://www.rlwc2026.com/draw/wheelchair/2026/round-1/australia-v-new-zealand"},{"id":"20261570330","start":"2026-10-31T06:45:00.000Z","home":"Kiwi Ferns","away":"Papua New Guinea Orchids","group":"Women’s · Round 3","place":"Cbus Super Stadium, Gold Coast","url":"https://www.rlwc2026.com/draw/womens/2026/round-3/new-zealand-v-papua-new-guinea"},{"id":"20261310330","start":"2026-10-31T09:05:00.000Z","home":"Australia","away":"Cook Islands","group":"Men’s · Round 3","place":"Queensland Country Bank Stadium, Townsville","url":"https://www.rlwc2026.com/draw/mens/2026/round-3/australia-v-cook-islands"},{"id":"20261570340","start":"2026-11-01T04:40:00.000Z","home":"Australian Jillaroos","away":"Wales Women","group":"Women’s · Round 3","place":"CommBank Stadium, Sydney","url":"https://www.rlwc2026.com/draw/womens/2026/round-3/australia-v-wales"},{"id":"20261310340","start":"2026-11-01T06:40:00.000Z","home":"Lebanon","away":"France","group":"Men’s · Round 3","place":"CommBank Stadium, Sydney","url":"https://www.rlwc2026.com/draw/mens/2026/round-3/lebanon-v-france"},{"id":"20261310350","start":"2026-11-01T09:05:00.000Z","home":"Tonga XIII","away":"Samoa","group":"Men’s · Round 3","place":"CommBank Stadium, Sydney","url":"https://www.rlwc2026.com/draw/mens/2026/round-3/tonga-v-samoa"},{"id":"20261300210","start":"2026-11-03T00:00:00.000Z","home":"France Wheelchair","away":"New Zealand Wheelchair","group":"Wheelchair · Round 2","place":"WIN Entertainment Centre, Wollongong","url":"https://www.rlwc2026.com/draw/wheelchair/2026/round-2/france-v-new-zealand"},{"id":"20261300220","start":"2026-11-03T02:30:00.000Z","home":"Australia Wheelchair","away":"Scotland Wheelchair","group":"Wheelchair · Round 2","place":"WIN Entertainment Centre, Wollongong","url":"https://www.rlwc2026.com/draw/wheelchair/2026/round-2/australia-v-scotland"},{"id":"20261300230","start":"2026-11-03T05:00:00.000Z","home":"Ireland Wheelchair","away":"Wales Wheelchair","group":"Wheelchair · Round 2","place":"WIN Entertainment Centre, Wollongong","url":"https://www.rlwc2026.com/draw/wheelchair/2026/round-2/ireland-v-wales"},{"id":"20261300240","start":"2026-11-03T07:30:00.000Z","home":"England Wheelchair","away":"USA Wheelchair","group":"Wheelchair · Round 2","place":"WIN Entertainment Centre, Wollongong","url":"https://www.rlwc2026.com/draw/wheelchair/2026/round-2/england-v-usa"},{"id":"20261300310","start":"2026-11-06T00:00:00.000Z","home":"Scotland Wheelchair","away":"New Zealand Wheelchair","group":"Wheelchair · Round 3","place":"WIN Entertainment Centre, Wollongong","url":"https://www.rlwc2026.com/draw/wheelchair/2026/round-3/scotland-v-new-zealand"},{"id":"20261300320","start":"2026-11-06T02:30:00.000Z","home":"Wales Wheelchair","away":"USA Wheelchair","group":"Wheelchair · Round 3","place":"WIN Entertainment Centre, Wollongong","url":"https://www.rlwc2026.com/draw/wheelchair/2026/round-3/wales-v-usa"},{"id":"20261300330","start":"2026-11-06T06:00:00.000Z","home":"England Wheelchair","away":"Ireland Wheelchair","group":"Wheelchair · Round 3","place":"WIN Entertainment Centre, Wollongong","url":"https://www.rlwc2026.com/draw/wheelchair/2026/round-3/england-v-ireland"},{"id":"20261300340","start":"2026-11-06T08:30:00.000Z","home":"France Wheelchair","away":"Australia Wheelchair","group":"Wheelchair · Round 3","place":"WIN Entertainment Centre, Wollongong","url":"https://www.rlwc2026.com/draw/wheelchair/2026/round-3/france-v-australia"},{"id":"20261570410","start":"2026-11-07T06:45:00.000Z","home":"TBA","away":"TBA","group":"Women’s · Semi Final","place":"McDonald Jones Stadium, Newcastle","url":"https://www.rlwc2026.com/draw/womens/2026/semi-final/tbc-v-tbc-20261570410"},{"id":"20261310410","start":"2026-11-07T09:05:00.000Z","home":"TBA","away":"TBA","group":"Men’s · Semi Final","place":"McDonald Jones Stadium, Newcastle","url":"https://www.rlwc2026.com/draw/mens/2026/semi-final/tbc-v-tbc-20261310410"},{"id":"20261570420","start":"2026-11-08T06:45:00.000Z","home":"TBA","away":"TBA","group":"Women’s · Semi Final","place":"Allianz Stadium, Sydney","url":"https://www.rlwc2026.com/draw/womens/2026/semi-final/tbc-v-tbc-20261570420"},{"id":"20261310420","start":"2026-11-08T09:05:00.000Z","home":"TBA","away":"TBA","group":"Men’s · Semi Final","place":"Allianz Stadium, Sydney","url":"https://www.rlwc2026.com/draw/mens/2026/semi-final/tbc-v-tbc-20261310420"},{"id":"20261300410","start":"2026-11-09T00:00:00.000Z","home":"TBA","away":"TBA","group":"Wheelchair · Semi Final","place":"WIN Entertainment Centre, Wollongong","url":"https://www.rlwc2026.com/draw/wheelchair/2026/semi-final/tbc-v-tbc-20261300410"},{"id":"20261300420","start":"2026-11-09T02:30:00.000Z","home":"TBA","away":"TBA","group":"Wheelchair · Semi Final","place":"WIN Entertainment Centre, Wollongong","url":"https://www.rlwc2026.com/draw/wheelchair/2026/semi-final/tbc-v-tbc-20261300420"},{"id":"20261300430","start":"2026-11-10T06:15:00.000Z","home":"TBA","away":"TBA","group":"Wheelchair · Semi Final","place":"WIN Entertainment Centre, Wollongong","url":"https://www.rlwc2026.com/draw/wheelchair/2026/semi-final/tbc-v-tbc-20261300430"},{"id":"20261300440","start":"2026-11-10T08:30:00.000Z","home":"TBA","away":"TBA","group":"Wheelchair · Semi Final","place":"WIN Entertainment Centre, Wollongong","url":"https://www.rlwc2026.com/draw/wheelchair/2026/semi-final/tbc-v-tbc-20261300440"},{"id":"20261300510","start":"2026-11-12T00:00:00.000Z","home":"TBA","away":"TBA","group":"Wheelchair · Final","place":"WIN Entertainment Centre, Wollongong","url":"https://www.rlwc2026.com/draw/wheelchair/2026/final/tbc-v-tbc-20261300510"},{"id":"20261300520","start":"2026-11-12T02:30:00.000Z","home":"TBA","away":"TBA","group":"Wheelchair · Final","place":"WIN Entertainment Centre, Wollongong","url":"https://www.rlwc2026.com/draw/wheelchair/2026/final/tbc-v-tbc-20261300520"},{"id":"20261300530","start":"2026-11-13T06:00:00.000Z","home":"TBA","away":"TBA","group":"Wheelchair · Final","place":"WIN Entertainment Centre, Wollongong","url":"https://www.rlwc2026.com/draw/wheelchair/2026/final/tbc-v-tbc-20261300530"},{"id":"20261300540","start":"2026-11-13T08:45:00.000Z","home":"TBA","away":"TBA","group":"Wheelchair · Final","place":"WIN Entertainment Centre, Wollongong","url":"https://www.rlwc2026.com/draw/wheelchair/2026/final/tbc-v-tbc-20261300540"},{"id":"20261570510","start":"2026-11-15T05:10:00.000Z","home":"TBA","away":"TBA","group":"Women’s · Final","place":"Suncorp Stadium, Brisbane","url":"https://www.rlwc2026.com/draw/womens/2026/final/tbc-v-tbc-20261570510"},{"id":"20261310510","start":"2026-11-15T08:35:00.000Z","home":"TBA","away":"TBA","group":"Men’s · Final","place":"Suncorp Stadium, Brisbane","url":"https://www.rlwc2026.com/draw/mens/2026/final/tbc-v-tbc-20261310510"}];
+ const labels={2:'Upcoming',3:'First half',4:'Half-time',5:'Second half',6:'Extra time',7:'Full-time',8:'Final',9:'Live',11:'Final',12:'Postponed',13:'Suspended',14:'Cancelled'};
+ const live=new Set([3,4,5,6,9]),ended=new Set([7,8,11,12,14]);
+ const fmt=new Intl.DateTimeFormat('en-AU',{timeZone:'Australia/Sydney',weekday:'short',hour:'numeric',minute:'2-digit',hour12:true});
+ const stamp=new Intl.DateTimeFormat('en-AU',{timeZone:'Australia/Sydney',hour:'numeric',minute:'2-digit',second:'2-digit',hour12:true});
+ let data=null,failed=false,busy=false;
+ function render(){
   const now=Date.now();
-  const active=fixtures.filter(f=>f.start<=now&&now<f.start+windowMs);
-  const chosen=active.at(-1)||fixtures.find(f=>f.start>now);
-  if(!chosen){
-   if(now>=Date.parse('2026-11-16T00:00:00+11:00')){panel.hidden=true;return;}
-   panel.hidden=false;
-   status.textContent='WORLD CUP · FIXTURES';
-   division.textContent='Men · women · wheelchair';
-   teams.textContent='More World Cup matches ahead';
-   time.textContent='See the official draw for the next kick-off';
-   venue.textContent='Tournament runs through 15 November 2026';
-   link.href='https://www.rlwc2026.com/draws-and-pools';
-   link.textContent='Open official fixtures ↗';
-   match.dataset.sportState='unknown';
-   match.dataset.sportStart='0';
-   return;
-  }
+  if(now>=Date.parse('2026-11-16T00:00:00+11:00')){panel.hidden=true;return;}
   panel.hidden=false;
-  const isWindow=active.length>0;
-  status.textContent=isWindow?'WORLD CUP · MATCH WINDOW':'WORLD CUP · COMING UP';
-  division.textContent=chosen.group;
-  teams.textContent=chosen.home+' v '+chosen.away;
-  time.textContent=fmt.format(chosen.start)+(isWindow?' · check live score':' Sydney');
-  venue.textContent=chosen.place;
-  link.href=chosen.url;
-  link.textContent=isWindow?'Open official live match centre ↗':'Match preview & centre ↗';
-  // A scheduled window does not prove play has started; verified live scores stay on the official site.
-  match.dataset.sportState=isWindow?'stale-live':'pre';
-  match.dataset.sportStart=String(chosen.start);
+  const fixtures=(data?.fixtures||fallback).map(f=>({...f,start:Date.parse(f.start)}));
+  const age=data?Math.max(0,now-Date.parse(data.fetchedAt)):Infinity;
+  const fresh=!!data&&age<=10*60*1000&&!failed;
+  const records=fixtures.map(f=>({...f,s:data?.scores?.[f.id]}));
+  const current=records.filter(f=>live.has(f.s?.state)&&now-f.start<4*60*60*1000);
+  const recent=records.filter(f=>ended.has(f.s?.state)&&f.start<=now&&now-f.start<8*60*60*1000).sort((a,b)=>b.start-a.start);
+  const scheduled=records.filter(f=>f.start<=now&&now<f.start+150*60*1000&&!ended.has(f.s?.state));
+  const upcoming=records.filter(f=>f.start>now&&!ended.has(f.s?.state));
+  const chosen=current[0]||scheduled[0]||recent[0]||upcoming[0];
+  if(!chosen){status.textContent='WORLD CUP · FIXTURES';teams.textContent='See the official World Cup draw';score.hidden=true;phase.textContent='';time.textContent='';venue.textContent='';other.textContent='';link.href='https://www.rlwc2026.com/draws-and-pools';match.dataset.sportState='unknown';match.dataset.sportStart='0';freshness.textContent='No current fixture available.';return;}
+  const s=chosen.s,isLive=live.has(s?.state),finished=ended.has(s?.state),isFuture=chosen.start>now;
+  const state=isLive?(fresh?'in':'stale-live'):finished?'post':isFuture?'pre':'unknown';
+  status.textContent=isLive?(fresh?'WORLD CUP · LIVE SCORE':'WORLD CUP · SCORE DELAYED'):finished?'WORLD CUP · '+labels[s.state].toUpperCase():isFuture?'WORLD CUP · COMING UP':'WORLD CUP · STATUS UNCONFIRMED';
+  division.textContent=chosen.group;teams.textContent=chosen.home+' v '+chosen.away;
+  const hasScore=s&&s.state!==2&&s.state!==12&&s.state!==14;
+  score.hidden=!hasScore;score.textContent=hasScore?s.home+' – '+s.away:'';
+  phase.textContent=s?(labels[s.state]||'Status unknown')+(isLive&&s.clock?' · '+s.clock:''):isFuture?'Kick-off':'Awaiting an official score update';
+  time.textContent=fmt.format(chosen.start)+' Sydney';venue.textContent=chosen.place;
+  link.href=chosen.url;link.textContent=finished?'Official result & match centre ↗':'Official live match centre ↗';
+  match.dataset.sportState=state;match.dataset.sportStart=String(chosen.start);
+  freshness.textContent=data?'Official feed checked '+stamp.format(Date.parse(data.fetchedAt))+' Sydney · '+Math.floor(age/60000)+' min ago'+(!fresh?' · update delayed; score may be stale':''):'Live score unavailable here right now. Open the official match centre below.';
+  other.replaceChildren();
+  const extras=[...current.filter(f=>f.id!==chosen.id),...recent.filter(f=>f.id!==chosen.id),...upcoming].slice(0,3);
+  for(const f of extras){const a=document.createElement('a');a.href=f.url;a.target='_blank';a.rel='noopener noreferrer';a.style.cssText='display:block;color:#ffe2ad;padding:7px 0;border-top:1px solid #ffffff33;text-decoration:none';const z=f.s;a.textContent=f.group+' · '+f.home+' v '+f.away+' · '+(z&&z.state!==2?(z.home+'–'+z.away+' '+(labels[z.state]||'')):fmt.format(f.start)+' Sydney');other.append(a);}
  }
- update();
- setInterval(update,30000);
+ async function refresh(){
+  if(busy||panel.hidden)return;busy=true;
+  const controller=new AbortController(),timeout=setTimeout(()=>controller.abort(),12000);
+  try{
+   const r=await fetch(FEED+'?v='+Math.floor(Date.now()/30000),{cache:'no-store',signal:controller.signal});if(!r.ok)throw new Error('Feed unavailable');
+   const d=await r.json(),t=Date.parse(d.fetchedAt);
+   if(d.version!==1||!Array.isArray(d.fixtures)||!d.scores||!Number.isFinite(t)||t>Date.now()+60000)throw new Error('Invalid score snapshot');
+   if(!data||t>=Date.parse(data.fetchedAt))data=d;failed=false;
+  }catch(e){failed=true;}finally{clearTimeout(timeout);busy=false;render();}
+ }
+ document.querySelector('[data-game-refresh]')?.addEventListener('click',refresh);
+ render();refresh();setInterval(()=>{render();refresh();},30000);
 })();
 </script>
 <script>
@@ -633,6 +622,7 @@ update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
  schedule();
 })();
 </script><img src="https://www.stats4u.net/c/7154822844-980.png" width="1" height="1" alt="" aria-hidden="true" style="position:absolute;width:1px;height:1px;opacity:0;pointer-events:none"></body></html>
+
 
 
 
