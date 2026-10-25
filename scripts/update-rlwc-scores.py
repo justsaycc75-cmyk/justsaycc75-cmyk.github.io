@@ -49,6 +49,11 @@ def main():
     fixtures=fixtures_from_html(get(BASE+'/draws-and-pools'))
     force=os.getenv('RLWC_FORCE')=='1'
     active=any(-3600<=(now-dt.datetime.fromisoformat(f['start'].replace('Z','+00:00'))).total_seconds()<=14400 for f in fixtures)
+    # Keep checking delayed/suspended games until their official status resolves.
+    if not active and OUT.exists():
+        previous=json.loads(OUT.read_text())
+        active=any(previous.get('scores',{}).get(f['id'],{}).get('state') in {3,4,5,6,9,13} and
+            0<=(now-dt.datetime.fromisoformat(f['start'].replace('Z','+00:00'))).total_seconds()<86400 for f in fixtures)
     if not active and not force:print('No match window; no data update');return
     ids=','.join(f['id'] for f in fixtures)
     scores=json.loads(get(BASE+'/api/match-scores?matchIds='+ids)).get('scores',{})

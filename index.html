@@ -556,7 +556,7 @@ update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
   const age=data?Math.max(0,now-Date.parse(data.fetchedAt)):Infinity;
   const fresh=!!data&&age<=10*60*1000&&!failed;
   const records=fixtures.map(f=>({...f,s:data?.scores?.[f.id]}));
-  const current=records.filter(f=>(live.has(f.s?.state)||f.s?.state===13)&&now-f.start<4*60*60*1000);
+  const current=records.filter(f=>(live.has(f.s?.state)||f.s?.state===13)&&now-f.start<24*60*60*1000);
   const recent=records.filter(f=>ended.has(f.s?.state)&&f.start<=now&&now-f.start<8*60*60*1000).sort((a,b)=>b.start-a.start);
   const scheduled=records.filter(f=>f.start<=now&&now<f.start+150*60*1000&&!ended.has(f.s?.state));
   const upcoming=records.filter(f=>f.start>now&&!ended.has(f.s?.state));
