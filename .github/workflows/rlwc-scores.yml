@@ -1,8 +1,7 @@
 name: Update RLWC scores
 on:
   schedule:
-    - cron: '2-57/5 0-12 25-31 10 *'
-    - cron: '2-57/5 0-12 1-15 11 *'
+    - cron: '*/5 * * * *'
   push:
     paths:
       - '.github/workflows/rlwc-scores.yml'
