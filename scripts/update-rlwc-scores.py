@@ -35,7 +35,7 @@ def build(fixtures,scores,now):
     for f in fixtures:
         x=scores.get(f['id'])
         if not isinstance(x,dict):continue
-        if x.get('gameStateId') not in range(2,15):continue
+        if x.get('gameStateId') not in {2,3,4,5,6,7,8,9,11,12,13,14}:continue
         h,a=x.get('home'),x.get('away')
         if not all(isinstance(v,int) and not isinstance(v,bool) and 0<=v<=300 for v in [h,a]):continue
         clean[f['id']]={'home':h,'away':a,'state':x['gameStateId'],'clock':str(x.get('gameClock',''))[:20]}
