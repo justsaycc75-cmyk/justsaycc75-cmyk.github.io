@@ -79,6 +79,7 @@
 .sc-board-link{display:block;border:2px solid #e8bc7e;border-radius:7px;overflow:hidden;background:#fff;line-height:0}
 .sc-order-image{display:block;width:200%;max-width:none;height:auto}.sc-order-image[hidden]{display:none}
 .sc-board-link:has(.sc-order-image[hidden]){display:none}
+.sc-latest{margin:10px 0 3px;padding:9px 10px;border-left:3px solid #ffcb7f;background:#192832;border-radius:4px;text-align:left}.sc-latest strong{display:block;color:#ffcf87;font-size:10px;letter-spacing:.09em}.sc-latest p{margin:5px 0 0;color:#fff;line-height:1.4;font-size:12px}
 .sc-enlarge{display:block;text-align:center;color:#fff5e0;font-size:12px;font-weight:800;padding:8px 4px;text-decoration:underline}
 .sc-links{margin-top:4px;text-align:center}
 .front-live-today #live-supercars-game .sc-links a{color:#ffdda9;font-size:11px}
@@ -117,10 +118,11 @@
 <h3>RACE 32 · LEADERBOARD</h3>
 <p class="sc-feed-status" data-sc-feed-status role="status">Loading the latest published running order…</p>
 <a class="sc-board-link" data-sc-order-link href="https://speedcafe.com/supercars-news-2026-gold-coast-live-updates-practice-qualifying-shootout-race-results-session-reports-surfers-paradise/" target="_blank" rel="noopener" aria-label="Open latest published running order full size"><img class="sc-order-image" data-sc-order-image hidden alt="Latest published Race 32 positions, drivers and laps; open full size for all timing columns"></a>
+<div class="sc-latest"><strong>LATEST FROM THE TRACK</strong><p data-sc-race-note aria-live="polite">Checking race updates…</p></div>
 <a class="sc-enlarge" data-sc-enlarge href="https://speedcafe.com/supercars-news-2026-gold-coast-live-updates-practice-qualifying-shootout-race-results-session-reports-surfers-paradise/" target="_blank" rel="noopener">View leaderboard full size ↗</a>
 </div>
 <div class="sc-links"><a href="https://www.supercars.com/results/2026-gold-coast" target="_blank" rel="noopener">Official results ↗</a></div>
-<p class="sc-access">Published position snapshots from Speedcafe. Refreshes every 30 seconds; the time above is the snapshot time.</p>
+<p class="sc-access">Position images are published periodically. Race notes refresh every 15 seconds.</p>
 </div>
 <div id="live-rlwc-game" class="live-sport-slot live-sport-panel" aria-label="Rugby League World Cup 2026 fixtures">
 <div class="live-game-badge" data-rlwc-status>WORLD CUP · COMING UP</div>
@@ -497,7 +499,7 @@ update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
  update();setInterval(update,30000);
  // Public publisher feed: retain timestamps and never represent an old snapshot as live timing.
  const feed='https://data.24liveplus.com/v1/retrieve_server/x/event/4226843707675375866/news/?limit=50&inverted_order=1';
- const status=panel.querySelector('[data-sc-feed-status]'),picture=panel.querySelector('[data-sc-order-image]'),pictureLink=panel.querySelector('[data-sc-order-link]'),enlarge=panel.querySelector('[data-sc-enlarge]');
+ const status=panel.querySelector('[data-sc-feed-status]'),picture=panel.querySelector('[data-sc-order-image]'),pictureLink=panel.querySelector('[data-sc-order-link]'),enlarge=panel.querySelector('[data-sc-enlarge]'),raceNote=panel.querySelector('[data-sc-race-note]');
  let snapshot=null,busy=false;
  const stamp=t=>new Intl.DateTimeFormat('en-AU',{timeZone:'Australia/Sydney',hour:'numeric',minute:'2-digit',second:'2-digit',hour12:true,timeZoneName:'short'}).format(t);
  function showSnapshot(failed=false){
@@ -512,6 +514,12 @@ update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
    if(!response.ok)throw Error('Feed HTTP '+response.status);
    const payload=await response.json(),posts=payload?.data?.news;
    if(!Array.isArray(posts))throw Error('Invalid feed');
+   const latest=posts.find(p=>!(p.newstitle||'')&&Number.isFinite(Number(p.created))&&Number(p.created)*1000<=Date.now()+60000&&new DOMParser().parseFromString(p.contents||'','text/html').body.textContent.trim());
+   if(latest){
+    const time=Number(latest.created)*1000;
+    const copy=new DOMParser().parseFromString(latest.contents||'','text/html').body.textContent.replace(/\s+/g,' ').trim();
+    raceNote.textContent=stamp(time)+' · '+copy.slice(0,190)+(copy.length>190?'…':'');
+   }
    for(const post of posts){
     if(!/running order/i.test(post.newstitle||''))continue;
     const doc=new DOMParser().parseFromString(post.contents||'','text/html');
@@ -525,7 +533,7 @@ update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
   }catch(error){showSnapshot(true);}finally{busy=false;}
  }
  picture.addEventListener('error',()=>{picture.hidden=true;status.textContent='Running-order image unavailable. Open official results below.';});
- refreshPositions();setInterval(()=>{showSnapshot();refreshPositions();},30000);
+ refreshPositions();setInterval(()=>{showSnapshot();refreshPositions();},15000);
  document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshPositions();});
 })();
 </script><script>
