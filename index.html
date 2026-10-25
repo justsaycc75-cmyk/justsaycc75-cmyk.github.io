@@ -556,15 +556,15 @@ update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
   const age=data?Math.max(0,now-Date.parse(data.fetchedAt)):Infinity;
   const fresh=!!data&&age<=10*60*1000&&!failed;
   const records=fixtures.map(f=>({...f,s:data?.scores?.[f.id]}));
-  const current=records.filter(f=>live.has(f.s?.state)&&now-f.start<4*60*60*1000);
+  const current=records.filter(f=>(live.has(f.s?.state)||f.s?.state===13)&&now-f.start<4*60*60*1000);
   const recent=records.filter(f=>ended.has(f.s?.state)&&f.start<=now&&now-f.start<8*60*60*1000).sort((a,b)=>b.start-a.start);
   const scheduled=records.filter(f=>f.start<=now&&now<f.start+150*60*1000&&!ended.has(f.s?.state));
   const upcoming=records.filter(f=>f.start>now&&!ended.has(f.s?.state));
   const chosen=current[0]||scheduled[0]||recent[0]||upcoming[0];
   if(!chosen){status.textContent='WORLD CUP · FIXTURES';teams.textContent='See the official World Cup draw';score.hidden=true;phase.textContent='';time.textContent='';venue.textContent='';other.textContent='';link.href='https://www.rlwc2026.com/draws-and-pools';match.dataset.sportState='unknown';match.dataset.sportStart='0';freshness.textContent='No current fixture available.';return;}
   const s=chosen.s,isLive=live.has(s?.state),finished=ended.has(s?.state),isFuture=chosen.start>now;
-  const state=isLive?(fresh?'in':'stale-live'):finished?'post':isFuture?'pre':'unknown';
-  status.textContent=isLive?(fresh?'WORLD CUP · LIVE SCORE':'WORLD CUP · SCORE DELAYED'):finished?'WORLD CUP · '+labels[s.state].toUpperCase():isFuture?'WORLD CUP · COMING UP':'WORLD CUP · STATUS UNCONFIRMED';
+  const state=isLive?(fresh?'in':'stale-live'):s?.state===13?'unknown':finished?'post':isFuture?'pre':'unknown';
+  status.textContent=isLive?(fresh?'WORLD CUP · LIVE SCORE':'WORLD CUP · SCORE DELAYED'):s?.state===13?'WORLD CUP · SUSPENDED':finished?'WORLD CUP · '+labels[s.state].toUpperCase():isFuture?'WORLD CUP · COMING UP':'WORLD CUP · STATUS UNCONFIRMED';
   division.textContent=chosen.group;teams.textContent=chosen.home+' v '+chosen.away;
   const hasScore=s&&s.state!==2&&s.state!==12&&s.state!==14;
   score.hidden=!hasScore;score.textContent=hasScore?s.home+' – '+s.away:'';
@@ -574,8 +574,8 @@ update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
   match.dataset.sportState=state;match.dataset.sportStart=String(chosen.start);
   freshness.textContent=data?'Official feed checked '+stamp.format(Date.parse(data.fetchedAt))+' Sydney · '+Math.floor(age/60000)+' min ago'+(!fresh?' · update delayed; score may be stale':''):'Live score unavailable here right now. Open the official match centre below.';
   other.replaceChildren();
-  const extras=[...current.filter(f=>f.id!==chosen.id),...recent.filter(f=>f.id!==chosen.id),...upcoming].slice(0,3);
-  for(const f of extras){const a=document.createElement('a');a.href=f.url;a.target='_blank';a.rel='noopener noreferrer';a.style.cssText='display:block;color:#ffe2ad;padding:7px 0;border-top:1px solid #ffffff33;text-decoration:none';const z=f.s;a.textContent=f.group+' · '+f.home+' v '+f.away+' · '+(z&&z.state!==2?(z.home+'–'+z.away+' '+(labels[z.state]||'')):fmt.format(f.start)+' Sydney');other.append(a);}
+  const extras=[...current.filter(f=>f.id!==chosen.id),...recent.filter(f=>f.id!==chosen.id),...upcoming.filter(f=>f.id!==chosen.id)].slice(0,3);
+  for(const f of extras){const a=document.createElement('a');a.href=f.url;a.target='_blank';a.rel='noopener noreferrer';a.style.cssText='display:block;color:#ffe2ad;padding:7px 0;border-top:1px solid #ffffff33;text-decoration:none';const z=f.s;a.textContent=f.group+' · '+f.home+' v '+f.away+' · '+(z&&[12,14].includes(z.state)?labels[z.state]:z&&z.state!==2?(z.home+'–'+z.away+' '+(labels[z.state]||'')):fmt.format(f.start)+' Sydney');other.append(a);}
  }
  async function refresh(){
   if(busy||panel.hidden)return;busy=true;
