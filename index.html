@@ -568,7 +568,7 @@ update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
   division.textContent=chosen.group;teams.textContent=chosen.home+' v '+chosen.away;
   const hasScore=s&&s.state!==2&&s.state!==12&&s.state!==14;
   score.hidden=!hasScore;score.textContent=hasScore?s.home+' – '+s.away:'';
-  phase.textContent=s?(labels[s.state]||'Status unknown')+(isLive&&s.clock?' · '+s.clock:''):isFuture?'Kick-off':'Awaiting an official score update';
+  phase.textContent=s?.state===2&&!isFuture?'Awaiting an official score update':s?(labels[s.state]||'Status unknown')+(isLive&&s.clock?' · '+s.clock:''):isFuture?'Kick-off':'Awaiting an official score update';
   time.textContent=fmt.format(chosen.start)+' Sydney';venue.textContent=chosen.place;
   link.href=chosen.url;link.textContent=finished?'Official result & match centre ↗':'Official live match centre ↗';
   match.dataset.sportState=state;match.dataset.sportStart=String(chosen.start);
