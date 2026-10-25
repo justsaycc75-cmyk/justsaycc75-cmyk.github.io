@@ -132,7 +132,7 @@
 <div class="sc-race"><span>Sat 24 · Race 31</span><b>4:15 pm</b><small data-sc-race31>85 laps · 250 km</small></div>
 <div class="sc-race"><span>Sun 25 · Race 32</span><b>3:45 pm</b><small data-sc-race32>85 laps · 250 km</small></div>
 </div>
-<div class="sc-standings" aria-label="Gold Coast 500 Race 32 starting grid"><h3>RACE 32 · STARTING GRID TOP TEN<small>Sunday 25 October · verified before the race</small></h3>
+<div class="sc-standings" aria-label="Gold Coast 500 Race 32 starting grid"><h3>RACE 32 · GRID<small>Sunday 25 October · verified before the race</small></h3>
 <ol><li><span>1</span>Broc Feeney <b>POLE</b></li><li><span>2</span>Will Brown</li><li><span>3</span>Aaron Cameron</li><li><span>4</span>Brodie Kostecki</li><li><span>5</span>Ryan Wood</li><li><span>6</span>Jarrod Hughes</li><li><span>7</span>Cooper Murray</li><li><span>8</span>Chaz Mostert</li><li><span>9</span>Cameron Hill</li><li><span>10</span>Cam Waters <b>DSQ*</b></li></ol>
 <a href="https://www.supercars.com/news/supercars-news-2026-gold-coast-500-sunday-starting-grid-race-start-time-pole-position-drivers" target="_blank" rel="noopener noreferrer">Official Race 32 grid ↗</a></div>
 <div class="sc-links"><a href="https://www.flashscore.com.au/auto-racing/supercars-championship/gold-coast-500/" target="_blank" rel="noopener noreferrer">Open live race results ↗</a><a href="https://www.supercars.com/news/2026-gold-coast-500-supercars-live-coverage-blog-tickets-dates-race-times-results-updates-timing-news" target="_blank" rel="noopener noreferrer">Official race updates ↗</a><a href="https://www.supercars.com/results/2026-gold-coast" target="_blank" rel="noopener noreferrer">Official results ↗</a></div>
@@ -519,7 +519,7 @@ update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
   const active=stages.find(s=>now>=s.start&&now<s.end),upcoming=stages.find(s=>s.start>now);
   const item=active||upcoming;
   panel.dataset.sportState=active?'stale-live':upcoming?'pre':'post';
-  panel.querySelector('[data-sc-phase]').textContent=active?'RACE WINDOW · CHECK LIVE ORDER':upcoming?'NEXT ON TRACK':'EVENT COMPLETE';
+  panel.querySelector('[data-sc-phase]').textContent=active?'RACE WINDOW':upcoming?'NEXT ON TRACK':'EVENT COMPLETE';
   panel.dataset.sportStart=String(item?.start||stages[stages.length-1].start);
   if(item){
    next.textContent=item.name;
