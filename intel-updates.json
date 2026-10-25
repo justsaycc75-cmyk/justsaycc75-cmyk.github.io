@@ -5,6 +5,38 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2114351943434813450",
+        "date": "2026-10-25",
+        "dateLabel": "25 OCT 2026 · UTC",
+        "headline": "NH31 V-22 Osprey sighting reported",
+        "summary": "War Watch reported a V-22 Osprey using call sign NH31, registration 168306 and ADS-B hex code AE53F9. The sighting was credited to truthseekr60.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2114351943434813450"
+      },
+      {
+        "id": "2114347917213422050",
+        "date": "2026-10-25",
+        "dateLabel": "25 OCT 2026 · UTC",
+        "headline": "Sirik anti-ship missile launch report relayed",
+        "summary": "War Watch relayed a report from @weslester6474 that an anti-ship missile was launched from Sirik in Iran’s Hormozgan Province at 1250Z.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2114347917213422050"
+      },
+      {
+        "id": "2114344141656113627",
+        "date": "2026-10-25",
+        "dateLabel": "25 OCT 2026 · UTC",
+        "headline": "Elevated coded-radio and U.S. cargo-aircraft activity reported",
+        "summary": "War Watch reported coded U.S. Air Force radio broadcasts at nearly five times the usual rate across nine global regions, with six military cargo aircraft airborne over the United States.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2114344141656113627"
+      },
+      {
+        "id": "2114340246309482648",
+        "date": "2026-10-25",
+        "dateLabel": "25 OCT 2026 · UTC",
+        "headline": "Algerian troop-deployment approval report highlighted",
+        "summary": "War Watch highlighted an Al Jazeera English report that the upper house of Algeria’s parliament approved a troop deployment to Niger, saying two outlets later confirmed the report.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2114340246309482648"
+      },
+      {
         "id": "2114307704336331235",
         "date": "2026-10-25",
         "dateLabel": "25 OCT 2026 · UTC",
@@ -67,38 +99,6 @@
         "headline": "Iranian attack-preparation assessment relayed",
         "summary": "War Watch relayed a contributor report that U.S. intelligence assessments suggested Iranian preparations to attack Americans in the Middle East had reached advanced stages, according to U.S. officials. The visible post was truncated after that point.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2114164428035788993"
-      },
-      {
-        "id": "2114160546144563587",
-        "date": "2026-10-25",
-        "dateLabel": "25 OCT 2026 · UTC",
-        "headline": "U.S. heavy transports and elevated UK activity reported",
-        "summary": "War Watch reported six U.S. Air Force heavy transport aircraft airborne and military aviation activity over the United Kingdom and North Sea at nearly three times the usual level.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114160546144563587"
-      },
-      {
-        "id": "2114121880902705419",
-        "date": "2026-10-24",
-        "dateLabel": "24 OCT 2026 · UTC",
-        "headline": "E-11A departure preparation reported",
-        "summary": "War Watch reported a Bombardier E-11A with no displayed call sign and hex code AE77A5 preparing to leave Prince Sultan Air Base in Saudi Arabia. The sighting was credited to az-toaster.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114121880902705419"
-      },
-      {
-        "id": "2114115245782294823",
-        "date": "2026-10-24",
-        "dateLabel": "24 OCT 2026 · UTC",
-        "headline": "U.S. command, transport and coded-radio activity reported",
-        "summary": "War Watch reported a U.S. military nuclear-command aircraft airborne over the country alongside four large transport jets and a refuelling tanker, with 21 coded radio broadcasts heard that day.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114115245782294823"
-      },
-      {
-        "id": "2114069815623110778",
-        "date": "2026-10-24",
-        "dateLabel": "24 OCT 2026 · UTC",
-        "headline": "U.S. command, transport, radar and tanker activity reported",
-        "summary": "War Watch reported a U.S. Air Force nuclear-command jet, two large transport aircraft, an airborne-radar aircraft and a refuelling tanker simultaneously airborne over the continental United States. The remainder of the visible post was truncated.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114069815623110778"
       }
     ]
   },
