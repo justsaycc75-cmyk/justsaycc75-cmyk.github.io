@@ -547,8 +547,8 @@ update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
    if(!response.ok)throw Error('Feed HTTP '+response.status);
    const payload=await response.json(),posts=payload?.data?.news;
    if(!Array.isArray(posts))throw Error('Invalid feed');
-   const newest=posts.find(p=>p.newstitle);
-   if(newest)headline.textContent=stamp(Number(newest.created)*1000)+' · '+newest.newstitle;
+   const newest=posts.find(p=>p.newstitle||p.contents);
+   if(newest){const text=newest.newstitle||new DOMParser().parseFromString(newest.contents||'','text/html').body.textContent.trim();headline.textContent=stamp(Number(newest.created)*1000)+' · '+text.slice(0,180)+(text.length>180?'…':'');}
    for(const post of posts){
     if(!/running order/i.test(post.newstitle||''))continue;
     const doc=new DOMParser().parseFromString(post.contents||'','text/html');
