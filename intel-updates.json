@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2114435130034954376",
+        "date": "2026-10-25",
+        "dateLabel": "25 OCT 2026 · UTC",
+        "headline": "U.S. transports and airborne-radar aircraft reported",
+        "summary": "War Watch reported five U.S. Air Force transport aircraft and an airborne-radar jet flying over the continental United States, with three coded military radio broadcasts heard earlier that day.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2114435130034954376"
+      },
+      {
         "id": "2114389691319345638",
         "date": "2026-10-25",
         "dateLabel": "25 OCT 2026 · UTC",
@@ -91,14 +99,6 @@
         "headline": "U.S. transports over North America and North Sea reported",
         "summary": "War Watch reported six U.S. Air Force transport aircraft airborne over the continental United States and North Sea, including one large cargo aircraft, during an otherwise quiet period with no coded radio broadcasts heard that hour.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2114205980267323437"
-      },
-      {
-        "id": "2114172374274671026",
-        "date": "2026-10-25",
-        "dateLabel": "25 OCT 2026 · UTC",
-        "headline": "Tel Aviv inquiry rally report highlighted",
-        "summary": "War Watch highlighted a Jerusalem Post report that more than 100,000 people rallied in Tel Aviv demanding a commission of inquiry into failures during October 7. The item was credited to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114172374274671026"
       }
     ]
   },
