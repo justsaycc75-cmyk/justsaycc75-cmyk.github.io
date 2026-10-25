@@ -5,6 +5,38 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2114172374274671026",
+        "date": "2026-10-25",
+        "dateLabel": "25 OCT 2026 · UTC",
+        "headline": "Tel Aviv inquiry rally report highlighted",
+        "summary": "War Watch highlighted a Jerusalem Post report that more than 100,000 people rallied in Tel Aviv demanding a commission of inquiry into failures during October 7. The item was credited to reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2114172374274671026"
+      },
+      {
+        "id": "2114168347860320403",
+        "date": "2026-10-25",
+        "dateLabel": "25 OCT 2026 · UTC",
+        "headline": "Boeing E-6 Mercury sighting reported",
+        "summary": "War Watch reported a Boeing E-6 Mercury with no displayed call sign and hex code AE868C. The sighting was credited to reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2114168347860320403"
+      },
+      {
+        "id": "2114164428035788993",
+        "date": "2026-10-25",
+        "dateLabel": "25 OCT 2026 · UTC",
+        "headline": "Iranian attack-preparation assessment relayed",
+        "summary": "War Watch relayed a contributor report that U.S. intelligence assessments suggested Iranian preparations to attack Americans in the Middle East had reached advanced stages, according to U.S. officials. The visible post was truncated after that point.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2114164428035788993"
+      },
+      {
+        "id": "2114160546144563587",
+        "date": "2026-10-25",
+        "dateLabel": "25 OCT 2026 · UTC",
+        "headline": "U.S. heavy transports and elevated UK activity reported",
+        "summary": "War Watch reported six U.S. Air Force heavy transport aircraft airborne and military aviation activity over the United Kingdom and North Sea at nearly three times the usual level.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2114160546144563587"
+      },
+      {
         "id": "2114121880902705419",
         "date": "2026-10-24",
         "dateLabel": "24 OCT 2026 · UTC",
@@ -67,38 +99,6 @@
         "headline": "U.S. transport aircraft activity over Europe reported",
         "summary": "War Watch reported six U.S. Air Force transport aircraft airborne, including several over the North Sea and one over the Baltic, amid reports of Iranian naval activity and rising U.S.-Iran tensions.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2113933586055262679"
-      },
-      {
-        "id": "2113927404557103547",
-        "date": "2026-10-24",
-        "dateLabel": "24 OCT 2026 · UTC",
-        "headline": "Strike on Tolyattikauchuk plant report highlighted",
-        "summary": "War Watch highlighted a Ukraine General Staff report that Ukrainian forces struck the Tolyattikauchuk plant in Tolyatti, Samara Oblast, and said two outlets had confirmed the report.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113927404557103547"
-      },
-      {
-        "id": "2113916044876079504",
-        "date": "2026-10-24",
-        "dateLabel": "24 OCT 2026 · UTC",
-        "headline": "Philippine Air Force training accident report highlighted",
-        "summary": "War Watch highlighted a Reuters report that four Philippine Air Force pilots were killed in a training accident and said two outlets had confirmed the report.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113916044876079504"
-      },
-      {
-        "id": "2113888280261398785",
-        "date": "2026-10-24",
-        "dateLabel": "24 OCT 2026 · UTC",
-        "headline": "U.S. transport aircraft and Iran warning reported",
-        "summary": "War Watch reported five U.S. Air Force transport aircraft airborne simultaneously and said U.S. intelligence had warned of increased targeting of American personnel amid escalating Iranian rhetoric.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113888280261398785"
-      },
-      {
-        "id": "2113842980113019096",
-        "date": "2026-10-24",
-        "dateLabel": "24 OCT 2026 · UTC",
-        "headline": "U.S. transport aircraft, bomber and coded-radio activity reported",
-        "summary": "War Watch reported six U.S. Air Force transport aircraft and a bomber airborne, along with one coded radio broadcast heard in the previous hour amid Middle East tensions.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2113842980113019096"
       }
     ]
   },
