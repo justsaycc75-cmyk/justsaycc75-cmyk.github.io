@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2114389691319345638",
+        "date": "2026-10-25",
+        "dateLabel": "25 OCT 2026 · UTC",
+        "headline": "U.S. transports and nuclear-command aircraft reported",
+        "summary": "War Watch reported multiple large U.S. military transport aircraft and a nuclear-command jet airborne over the continental United States, with three coded U.S. Air Force radio broadcasts heard earlier. The visible post was truncated after that point.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2114389691319345638"
+      },
+      {
+        "id": "2114367574133584064",
+        "date": "2026-10-25",
+        "dateLabel": "25 OCT 2026 · UTC",
+        "headline": "Trump Iran nuclear-site comments relayed",
+        "summary": "War Watch relayed a report from @weslester6474 that President Donald Trump told Fox News there had been no significant movement by Iran at its nuclear sites and that the United States was watching.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2114367574133584064"
+      },
+      {
         "id": "2114351943434813450",
         "date": "2026-10-25",
         "dateLabel": "25 OCT 2026 · UTC",
@@ -83,22 +99,6 @@
         "headline": "Tel Aviv inquiry rally report highlighted",
         "summary": "War Watch highlighted a Jerusalem Post report that more than 100,000 people rallied in Tel Aviv demanding a commission of inquiry into failures during October 7. The item was credited to reagan0965.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2114172374274671026"
-      },
-      {
-        "id": "2114168347860320403",
-        "date": "2026-10-25",
-        "dateLabel": "25 OCT 2026 · UTC",
-        "headline": "Boeing E-6 Mercury sighting reported",
-        "summary": "War Watch reported a Boeing E-6 Mercury with no displayed call sign and hex code AE868C. The sighting was credited to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114168347860320403"
-      },
-      {
-        "id": "2114164428035788993",
-        "date": "2026-10-25",
-        "dateLabel": "25 OCT 2026 · UTC",
-        "headline": "Iranian attack-preparation assessment relayed",
-        "summary": "War Watch relayed a contributor report that U.S. intelligence assessments suggested Iranian preparations to attack Americans in the Middle East had reached advanced stages, according to U.S. officials. The visible post was truncated after that point.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114164428035788993"
       }
     ]
   },
