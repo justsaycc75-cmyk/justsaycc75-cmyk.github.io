@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2114813356427141489",
+        "date": "2026-10-26",
+        "dateLabel": "26 OCT 2026 · UTC",
+        "headline": "AF2 C-32A sighting over Wyoming reported",
+        "summary": "War Watch relayed a sighting of Boeing C-32A AF2, registration 98-0002 and hex ADFEB6, over Wyoming. The sighting was credited to truthseekr60.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2114813356427141489"
+      },
+      {
+        "id": "2114809339386982833",
+        "date": "2026-10-26",
+        "dateLabel": "26 OCT 2026 · UTC",
+        "headline": "U.S. surveillance and Baltic air activity reported",
+        "summary": "War Watch reported U.S. Air Force surveillance and transport aircraft airborne over the continental United States, with Baltic-region air activity at nearly three times its normal level.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2114809339386982833"
+      },
+      {
         "id": "2114764040412987694",
         "date": "2026-10-26",
         "dateLabel": "26 OCT 2026 · UTC",
@@ -83,22 +99,6 @@
         "headline": "Saudi–Iran meeting report highlighted",
         "summary": "War Watch highlighted an Al Jazeera Arabic report that Saudi Arabia’s deputy foreign minister said a meeting was being held in Tehran that day, adding that two outlets had confirmed it. The visible quotation was truncated after that point.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2114623268380422164"
-      },
-      {
-        "id": "2114609303915016365",
-        "date": "2026-10-26",
-        "dateLabel": "26 OCT 2026 · UTC",
-        "headline": "Voronezh drone-strike report highlighted",
-        "summary": "War Watch highlighted a Kyiv Independent report that a drone reportedly struck a business center in Russia’s Voronezh as fires broke out across the city, adding that two outlets had confirmed it. The visible quotation was truncated after that point.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114609303915016365"
-      },
-      {
-        "id": "2114577123381858611",
-        "date": "2026-10-26",
-        "dateLabel": "26 OCT 2026 · UTC",
-        "headline": "CNN Iran-strike planning report relayed",
-        "summary": "War Watch relayed a CNN report, credited to @jackhoricon, that the United States had plans for major strikes on Iran if President Donald Trump chose to proceed.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114577123381858611"
       }
     ]
   },
