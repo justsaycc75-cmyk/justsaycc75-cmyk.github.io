@@ -416,18 +416,15 @@ const stateOf=g=>statusOf(g).type?.state;
 const timeOf=g=>new Date(g.event.date).getTime();
 const displayDate=d=>new Intl.DateTimeFormat('en-AU',{timeZone:TZ,weekday:'short',day:'numeric',month:'short',hour:'numeric',minute:'2-digit',hour12:true}).format(new Date(d));
 const displayTime=d=>new Intl.DateTimeFormat('en-AU',{timeZone:TZ,hour:'numeric',minute:'2-digit',second:'2-digit',hour12:true}).format(d);
-// Recompute the date window on each refresh, including across midnight.
-function feedDates(now){return [-1,0,1].map(offset=>new Date(now+offset*86400000).toISOString().slice(0,10).replace(/-/g,''));}
 function chooseGame(games,now){
  const relevant=games.filter(g=>g.league==='NFL'&&Number.isFinite(timeOf(g))&&timeOf(g)>now-7*86400000&&timeOf(g)<now+8*86400000);
  const liveNfl=relevant.filter(g=>g.league==='NFL'&&stateOf(g)==='in');
- // Keep today's requested Seahawks–49ers feature while it is live, then rotate normally.
- const requested=liveNfl.find(g=>g.event.id==='401872992');
- if(requested)return requested;
  const current=liveNfl.find(g=>g.event.id===selectedId);
  if(current)return current;
  const nearest=list=>list.sort((a,b)=>Math.abs(timeOf(a)-now)-Math.abs(timeOf(b)-now))[0];
- return nearest(liveNfl)||nearest(relevant.filter(g=>stateOf(g)==='post'&&timeOf(g)>now-24*3600000))||relevant.filter(g=>stateOf(g)==='pre'&&timeOf(g)>now).sort((a,b)=>timeOf(a)-timeOf(b))[0]||nearest(relevant.filter(g=>stateOf(g)==='post'));
+ // Feature live play first, then the next kickoff across the current and following week.
+ const upcoming=relevant.filter(g=>stateOf(g)==='pre'&&timeOf(g)>now).sort((a,b)=>timeOf(a)-timeOf(b));
+ return nearest(liveNfl)||upcoming[0]||nearest(relevant.filter(g=>stateOf(g)==='post'));
 }
 function teamMarkup(team,state){
  const name=team.team?.displayName||team.team?.name||'Team',abbr=team.team?.abbreviation||'';
@@ -452,14 +449,23 @@ function showFailure(){
  else{target.innerHTML='<p class="live-game-empty">Live scores are temporarily unavailable.</p><a class="live-game-link" href="https://www.espn.com/nfl/scoreboard" target="_blank" rel="noopener noreferrer">Open the NFL live scoreboard ↗</a>';updated.textContent='We’ll retry automatically. You can also refresh now.';}
  updated.classList.add('live-game-stale');
 }
-async function readFeed(source,date){
+async function readFeed(source,url=source.url){
  const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),TIMEOUT_MS);
- try{const response=await fetch(source.url,{cache:'no-store',signal:controller.signal});if(!response.ok)throw Error('Score feed unavailable');const data=await response.json();if(!Array.isArray(data.events))throw Error('Invalid score feed');return {league:source.league,events:data.events};}finally{clearTimeout(timer);}
+ try{const response=await fetch(url,{cache:'no-store',signal:controller.signal});if(!response.ok)throw Error('Score feed unavailable');const data=await response.json();if(!Array.isArray(data.events))throw Error('Invalid score feed');return {league:source.league,events:data.events,week:data.week?.number,season:data.season};}finally{clearTimeout(timer);}
 }
 async function update(){
  if(busy)return;busy=true;refresh.disabled=true;
  try{
   const now=Date.now(),replies=await Promise.allSettled(sources.map(source=>readFeed(source)));
+  // ESPN's default scoreboard covers one week. Look ahead so the next fixture
+  // appears as soon as the last game finishes, before ESPN changes its default week.
+  const primary=replies[0]?.status==='fulfilled'?replies[0].value:null;
+  const week=Number(primary?.week),season=primary?.season;
+  const lastWeek=season?.type===2?18:season?.type===3?4:3;
+  if(Number.isInteger(week)&&week>0&&week<lastWeek&&Number.isInteger(season?.year)){
+   const nextUrl=sources[0].url+'?seasontype='+season.type+'&week='+(week+1)+'&dates='+season.year;
+   replies.push(...await Promise.allSettled([readFeed(sources[0],nextUrl)]));
+  }
   const good=replies.filter(r=>r.status==='fulfilled');
   if(!good.length){showFailure();return;}
   const games=new Map();
