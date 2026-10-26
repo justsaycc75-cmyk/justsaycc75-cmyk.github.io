@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2114628136855806076",
+        "date": "2026-10-26",
+        "dateLabel": "26 OCT 2026 · UTC",
+        "headline": "Six U.S. Air Force transports reported airborne",
+        "summary": "War Watch reported six U.S. Air Force transport aircraft airborne and said the activity suggested active military logistics across multiple regions.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2114628136855806076"
+      },
+      {
+        "id": "2114623268380422164",
+        "date": "2026-10-26",
+        "dateLabel": "26 OCT 2026 · UTC",
+        "headline": "Saudi–Iran meeting report highlighted",
+        "summary": "War Watch highlighted an Al Jazeera Arabic report that Saudi Arabia’s deputy foreign minister said a meeting was being held in Tehran that day, adding that two outlets had confirmed it. The visible quotation was truncated after that point.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2114623268380422164"
+      },
+      {
+        "id": "2114609303915016365",
+        "date": "2026-10-26",
+        "dateLabel": "26 OCT 2026 · UTC",
+        "headline": "Voronezh drone-strike report highlighted",
+        "summary": "War Watch highlighted a Kyiv Independent report that a drone reportedly struck a business center in Russia’s Voronezh as fires broke out across the city, adding that two outlets had confirmed it. The visible quotation was truncated after that point.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2114609303915016365"
+      },
+      {
         "id": "2114577123381858611",
         "date": "2026-10-26",
         "dateLabel": "26 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "Hormozgan coastal explosions report relayed",
         "summary": "War Watch relayed a report from @weslester6474 that several large explosions were heard from the seaward side of Hormozgan’s coastal strip at 00:49 local time, or 2119Z.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2114476033822871988"
-      },
-      {
-        "id": "2114472243623264652",
-        "date": "2026-10-25",
-        "dateLabel": "25 OCT 2026 · UTC",
-        "headline": "Salah al-Din explosion report highlighted",
-        "summary": "War Watch highlighted an Al Jazeera Arabic report that an explosion was heard in the Salah al-Din area, saying two outlets later confirmed the report. The visible quotation was truncated before the location was completed.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114472243623264652"
-      },
-      {
-        "id": "2114468345437171733",
-        "date": "2026-10-25",
-        "dateLabel": "25 OCT 2026 · UTC",
-        "headline": "Offshore Hormozgan explosions report relayed",
-        "summary": "War Watch relayed a report from @weslester6474 that several powerful explosions were heard offshore along Iran’s Hormozgan coastline, with the cause unknown.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114468345437171733"
-      },
-      {
-        "id": "2114435130034954376",
-        "date": "2026-10-25",
-        "dateLabel": "25 OCT 2026 · UTC",
-        "headline": "U.S. transports and airborne-radar aircraft reported",
-        "summary": "War Watch reported five U.S. Air Force transport aircraft and an airborne-radar jet flying over the continental United States, with three coded military radio broadcasts heard earlier that day.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114435130034954376"
       }
     ]
   },
