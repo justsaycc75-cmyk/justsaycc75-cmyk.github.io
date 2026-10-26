@@ -5,6 +5,38 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2114855517684142180",
+        "date": "2026-10-26",
+        "dateLabel": "26 OCT 2026 · UTC",
+        "headline": "Coded broadcasts and command aircraft reported",
+        "summary": "War Watch reported two coded U.S. Air Force radio broadcasts during the preceding hour, with multiple transport aircraft and a nuclear command aircraft airborne over the United States.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2114855517684142180"
+      },
+      {
+        "id": "2114851548597494070",
+        "date": "2026-10-26",
+        "dateLabel": "26 OCT 2026 · UTC",
+        "headline": "FORTRESS America initiative report relayed",
+        "summary": "War Watch relayed a report from @TruthSeekr60 that an initiative called FORTRESS America would move major military installations toward independent power generation. The visible post was truncated after that point.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2114851548597494070"
+      },
+      {
+        "id": "2114847372756836436",
+        "date": "2026-10-26",
+        "dateLabel": "26 OCT 2026 · UTC",
+        "headline": "EAM header WEAB5Y reported",
+        "summary": "War Watch reported an Emergency Action Message header or preamble carrying the code WEAB5Y.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2114847372756836436"
+      },
+      {
+        "id": "2114828278418583719",
+        "date": "2026-10-26",
+        "dateLabel": "26 OCT 2026 · UTC",
+        "headline": "Jordanian airstrike report highlighted",
+        "summary": "War Watch highlighted a Liveuamap report that the Jordanian Air Force targeted groups in southern Syria described as linked to the Karak church attack, adding that two outlets had confirmed it. The visible quotation was truncated after that point.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2114828278418583719"
+      },
+      {
         "id": "2114813356427141489",
         "date": "2026-10-26",
         "dateLabel": "26 OCT 2026 · UTC",
@@ -67,38 +99,6 @@
         "headline": "NATO09 E-3A Sentry sighting reported",
         "summary": "War Watch relayed a sighting of Boeing E-3A Sentry NATO09, registration LX-N90444 and hex 4D03C2. The sighting was credited to TruthSeekr60.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2114702238702596156"
-      },
-      {
-        "id": "2114693807019057564",
-        "date": "2026-10-26",
-        "dateLabel": "26 OCT 2026 · UTC",
-        "headline": "UK Sudan-related sanctions report highlighted",
-        "summary": "War Watch highlighted a Reuters report that the United Kingdom sanctioned 15 commanders from rival Sudanese factions over wartime rape, adding that two outlets had confirmed the report.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114693807019057564"
-      },
-      {
-        "id": "2114673445615112223",
-        "date": "2026-10-26",
-        "dateLabel": "26 OCT 2026 · UTC",
-        "headline": "Transport and radar aircraft activity reported",
-        "summary": "War Watch reported four large U.S. Air Force transport aircraft airborne over or near the continental United States, with radar aircraft over the North Sea and Europe. It reported no coded radio traffic during the preceding hour.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114673445615112223"
-      },
-      {
-        "id": "2114628136855806076",
-        "date": "2026-10-26",
-        "dateLabel": "26 OCT 2026 · UTC",
-        "headline": "Six U.S. Air Force transports reported airborne",
-        "summary": "War Watch reported six U.S. Air Force transport aircraft airborne and said the activity suggested active military logistics across multiple regions.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114628136855806076"
-      },
-      {
-        "id": "2114623268380422164",
-        "date": "2026-10-26",
-        "dateLabel": "26 OCT 2026 · UTC",
-        "headline": "Saudi–Iran meeting report highlighted",
-        "summary": "War Watch highlighted an Al Jazeera Arabic report that Saudi Arabia’s deputy foreign minister said a meeting was being held in Tehran that day, adding that two outlets had confirmed it. The visible quotation was truncated after that point.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114623268380422164"
       }
     ]
   },
