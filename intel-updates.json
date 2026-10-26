@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2114764040412987694",
+        "date": "2026-10-26",
+        "dateLabel": "26 OCT 2026 · UTC",
+        "headline": "Elevated U.S. and Baltic military air activity reported",
+        "summary": "War Watch reported unusually active U.S. Air Force transport aircraft over the continental United States and military air traffic in the Baltic region at nearly three times its normal level.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2114764040412987694"
+      },
+      {
+        "id": "2114748544187871671",
+        "date": "2026-10-26",
+        "dateLabel": "26 OCT 2026 · UTC",
+        "headline": "Ukrainian–Moldovan agreement report highlighted",
+        "summary": "War Watch highlighted a Suspilne report that representatives of the Ukrainian and Moldovan governments signed an agreement on military-technical matters, adding that two outlets had confirmed it. The visible quotation was truncated after that point.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2114748544187871671"
+      },
+      {
         "id": "2114722756939936244",
         "date": "2026-10-26",
         "dateLabel": "26 OCT 2026 · UTC",
@@ -83,22 +99,6 @@
         "headline": "CNN Iran-strike planning report relayed",
         "summary": "War Watch relayed a CNN report, credited to @jackhoricon, that the United States had plans for major strikes on Iran if President Donald Trump chose to proceed.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2114577123381858611"
-      },
-      {
-        "id": "2114571415479345455",
-        "date": "2026-10-26",
-        "dateLabel": "26 OCT 2026 · UTC",
-        "headline": "Elevated eastern Mediterranean air activity reported",
-        "summary": "War Watch reported U.S. Air Force transport and surveillance aircraft active across multiple regions, with eastern Mediterranean air operations running at nearly 2.5 times normal volume.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114571415479345455"
-      },
-      {
-        "id": "2114526110931103875",
-        "date": "2026-10-26",
-        "dateLabel": "26 OCT 2026 · UTC",
-        "headline": "Elevated U.S. transport activity reported",
-        "summary": "War Watch reported unusually active U.S. Air Force transport aircraft over the eastern Mediterranean, with military cargo-aircraft movements also elevated across U.S. airspace and the North Atlantic.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114526110931103875"
       }
     ]
   },
