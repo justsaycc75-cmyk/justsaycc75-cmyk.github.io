@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2114673445615112223",
+        "date": "2026-10-26",
+        "dateLabel": "26 OCT 2026 · UTC",
+        "headline": "Transport and radar aircraft activity reported",
+        "summary": "War Watch reported four large U.S. Air Force transport aircraft airborne over or near the continental United States, with radar aircraft over the North Sea and Europe. It reported no coded radio traffic during the preceding hour.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2114673445615112223"
+      },
+      {
         "id": "2114628136855806076",
         "date": "2026-10-26",
         "dateLabel": "26 OCT 2026 · UTC",
@@ -91,14 +99,6 @@
         "headline": "U.S. transports and surveillance jet reported",
         "summary": "War Watch reported multiple large U.S. military transport aircraft airborne over the continental United States alongside a radar-focused surveillance jet, while noting separate reports of explosions in Iran.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2114480560500265266"
-      },
-      {
-        "id": "2114476033822871988",
-        "date": "2026-10-25",
-        "dateLabel": "25 OCT 2026 · UTC",
-        "headline": "Hormozgan coastal explosions report relayed",
-        "summary": "War Watch relayed a report from @weslester6474 that several large explosions were heard from the seaward side of Hormozgan’s coastal strip at 00:49 local time, or 2119Z.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114476033822871988"
       }
     ]
   },
