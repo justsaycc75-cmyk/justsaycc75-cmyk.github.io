@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2114577123381858611",
+        "date": "2026-10-26",
+        "dateLabel": "26 OCT 2026 · UTC",
+        "headline": "CNN Iran-strike planning report relayed",
+        "summary": "War Watch relayed a CNN report, credited to @jackhoricon, that the United States had plans for major strikes on Iran if President Donald Trump chose to proceed.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2114577123381858611"
+      },
+      {
+        "id": "2114571415479345455",
+        "date": "2026-10-26",
+        "dateLabel": "26 OCT 2026 · UTC",
+        "headline": "Elevated eastern Mediterranean air activity reported",
+        "summary": "War Watch reported U.S. Air Force transport and surveillance aircraft active across multiple regions, with eastern Mediterranean air operations running at nearly 2.5 times normal volume.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2114571415479345455"
+      },
+      {
         "id": "2114526110931103875",
         "date": "2026-10-26",
         "dateLabel": "26 OCT 2026 · UTC",
@@ -83,22 +99,6 @@
         "headline": "U.S. transports and airborne-radar aircraft reported",
         "summary": "War Watch reported five U.S. Air Force transport aircraft and an airborne-radar jet flying over the continental United States, with three coded military radio broadcasts heard earlier that day.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2114435130034954376"
-      },
-      {
-        "id": "2114389691319345638",
-        "date": "2026-10-25",
-        "dateLabel": "25 OCT 2026 · UTC",
-        "headline": "U.S. transports and nuclear-command aircraft reported",
-        "summary": "War Watch reported multiple large U.S. military transport aircraft and a nuclear-command jet airborne over the continental United States, with three coded U.S. Air Force radio broadcasts heard earlier. The visible post was truncated after that point.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114389691319345638"
-      },
-      {
-        "id": "2114367574133584064",
-        "date": "2026-10-25",
-        "dateLabel": "25 OCT 2026 · UTC",
-        "headline": "Trump Iran nuclear-site comments relayed",
-        "summary": "War Watch relayed a report from @weslester6474 that President Donald Trump told Fox News there had been no significant movement by Iran at its nuclear sites and that the United States was watching.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114367574133584064"
       }
     ]
   },
