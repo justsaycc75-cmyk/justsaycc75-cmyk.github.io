@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2115082635143778414",
+        "date": "2026-10-27",
+        "dateLabel": "27 OCT 2026 · UTC",
+        "headline": "B-1B Lancer sighting reported",
+        "summary": "War Watch relayed a sighting of a Rockwell B-1B Lancer using call sign B1, registration 86-0103 and hex AE6BEC. The sighting was credited to TruthSeekr60.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2115082635143778414"
+      },
+      {
+        "id": "2115069803568198138",
+        "date": "2026-10-27",
+        "dateLabel": "27 OCT 2026 · UTC",
+        "headline": "Iraq drone-interception report highlighted",
+        "summary": "War Watch highlighted an Al Jazeera Arabic report quoting the head of Iraq’s Security Media Cell as saying a drone was intercepted near a location beginning with “Green.” The visible quotation was truncated there; War Watch added that two outlets had confirmed the report.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2115069803568198138"
+      },
+      {
+        "id": "2115051171303784700",
+        "date": "2026-10-27",
+        "dateLabel": "27 OCT 2026 · UTC",
+        "headline": "Elevated Korea and Japan air activity reported",
+        "summary": "War Watch reported military air activity near Korea and Japan at about 2.6 times the normal rate, with multiple U.S. transport and surveillance aircraft airborne across several regions. The visible post was truncated after that point.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2115051171303784700"
+      },
+      {
         "id": "2115019997982376066",
         "date": "2026-10-27",
         "dateLabel": "27 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "Luhansk ammunition-dump strike report relayed",
         "summary": "War Watch relayed a report from @reagan0965 that Ukrainian attack drones struck a large Russian ammunition dump in occupied Luhansk Oblast and that people near Khrustalnyi reported a large fire. The visible post was truncated after that point.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2114899278040621231"
-      },
-      {
-        "id": "2114895477376245827",
-        "date": "2026-10-27",
-        "dateLabel": "27 OCT 2026 · UTC",
-        "headline": "TITAN07 C-130J sighting reported",
-        "summary": "War Watch relayed a sighting of Lockheed Martin C-130J Super Hercules TITAN07, registration 166762 and hex AE147F. The sighting was credited to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114895477376245827"
-      },
-      {
-        "id": "2114883705206444196",
-        "date": "2026-10-27",
-        "dateLabel": "27 OCT 2026 · UTC",
-        "headline": "GRACE05 Kawasaki C-2 sighting reported",
-        "summary": "War Watch relayed a sighting of Kawasaki C-2 GRACE05, registration 88-1208 and hex 87CC39. The sighting was credited to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114883705206444196"
-      },
-      {
-        "id": "2114855517684142180",
-        "date": "2026-10-26",
-        "dateLabel": "26 OCT 2026 · UTC",
-        "headline": "Coded broadcasts and command aircraft reported",
-        "summary": "War Watch reported two coded U.S. Air Force radio broadcasts during the preceding hour, with multiple transport aircraft and a nuclear command aircraft airborne over the United States.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114855517684142180"
       }
     ]
   },
