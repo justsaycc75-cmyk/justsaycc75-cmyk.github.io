@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2115019997982376066",
+        "date": "2026-10-27",
+        "dateLabel": "27 OCT 2026 · UTC",
+        "headline": "Kyiv missile-strike report highlighted",
+        "summary": "War Watch highlighted a Kyiv Independent report stating that Russian ballistic missiles hit sites in Kyiv, with the visible quotation listing a major bridge, a university and medical centres before truncating. War Watch added that three outlets had confirmed the report.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2115019997982376066"
+      },
+      {
+        "id": "2115005716427604124",
+        "date": "2026-10-27",
+        "dateLabel": "27 OCT 2026 · UTC",
+        "headline": "Elevated Gulf and Iran air activity reported",
+        "summary": "War Watch reported air activity near the Gulf and Iran at nearly three times normal levels, with six U.S. military transport aircraft airborne plus multiple surveillance and command aircraft. The visible post was truncated after that point.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2115005716427604124"
+      },
+      {
         "id": "2114992115318915344",
         "date": "2026-10-27",
         "dateLabel": "27 OCT 2026 · UTC",
@@ -83,22 +99,6 @@
         "headline": "Coded broadcasts and command aircraft reported",
         "summary": "War Watch reported two coded U.S. Air Force radio broadcasts during the preceding hour, with multiple transport aircraft and a nuclear command aircraft airborne over the United States.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2114855517684142180"
-      },
-      {
-        "id": "2114851548597494070",
-        "date": "2026-10-26",
-        "dateLabel": "26 OCT 2026 · UTC",
-        "headline": "FORTRESS America initiative report relayed",
-        "summary": "War Watch relayed a report from @TruthSeekr60 that an initiative called FORTRESS America would move major military installations toward independent power generation. The visible post was truncated after that point.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114851548597494070"
-      },
-      {
-        "id": "2114847372756836436",
-        "date": "2026-10-26",
-        "dateLabel": "26 OCT 2026 · UTC",
-        "headline": "EAM header WEAB5Y reported",
-        "summary": "War Watch reported an Emergency Action Message header or preamble carrying the code WEAB5Y.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114847372756836436"
       }
     ]
   },
