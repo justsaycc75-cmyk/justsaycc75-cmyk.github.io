@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2114906957932847370",
+        "date": "2026-10-27",
+        "dateLabel": "27 OCT 2026 · UTC",
+        "headline": "RCH5085 C-5M sighting reported",
+        "summary": "War Watch relayed a sighting of Lockheed C-5M Super Galaxy RCH5085, registration 86-0011 and hex AE0568. The sighting was credited to reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2114906957932847370"
+      },
+      {
+        "id": "2114903179611562176",
+        "date": "2026-10-27",
+        "dateLabel": "27 OCT 2026 · UTC",
+        "headline": "Elevated U.S. surveillance aircraft activity reported",
+        "summary": "War Watch reported multiple U.S. Air Force surveillance and radar aircraft airborne over the United States alongside transport aircraft, describing the activity as elevated.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2114903179611562176"
+      },
+      {
+        "id": "2114899278040621231",
+        "date": "2026-10-27",
+        "dateLabel": "27 OCT 2026 · UTC",
+        "headline": "Luhansk ammunition-dump strike report relayed",
+        "summary": "War Watch relayed a report from @reagan0965 that Ukrainian attack drones struck a large Russian ammunition dump in occupied Luhansk Oblast and that people near Khrustalnyi reported a large fire. The visible post was truncated after that point.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2114899278040621231"
+      },
+      {
+        "id": "2114895477376245827",
+        "date": "2026-10-27",
+        "dateLabel": "27 OCT 2026 · UTC",
+        "headline": "TITAN07 C-130J sighting reported",
+        "summary": "War Watch relayed a sighting of Lockheed Martin C-130J Super Hercules TITAN07, registration 166762 and hex AE147F. The sighting was credited to reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2114895477376245827"
+      },
+      {
+        "id": "2114883705206444196",
+        "date": "2026-10-27",
+        "dateLabel": "27 OCT 2026 · UTC",
+        "headline": "GRACE05 Kawasaki C-2 sighting reported",
+        "summary": "War Watch relayed a sighting of Kawasaki C-2 GRACE05, registration 88-1208 and hex 87CC39. The sighting was credited to reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2114883705206444196"
+      },
+      {
         "id": "2114855517684142180",
         "date": "2026-10-26",
         "dateLabel": "26 OCT 2026 · UTC",
@@ -59,46 +99,6 @@
         "headline": "Elevated U.S. and Baltic military air activity reported",
         "summary": "War Watch reported unusually active U.S. Air Force transport aircraft over the continental United States and military air traffic in the Baltic region at nearly three times its normal level.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2114764040412987694"
-      },
-      {
-        "id": "2114748544187871671",
-        "date": "2026-10-26",
-        "dateLabel": "26 OCT 2026 · UTC",
-        "headline": "Ukrainian–Moldovan agreement report highlighted",
-        "summary": "War Watch highlighted a Suspilne report that representatives of the Ukrainian and Moldovan governments signed an agreement on military-technical matters, adding that two outlets had confirmed it. The visible quotation was truncated after that point.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114748544187871671"
-      },
-      {
-        "id": "2114722756939936244",
-        "date": "2026-10-26",
-        "dateLabel": "26 OCT 2026 · UTC",
-        "headline": "RCH344 C-17A departure reported",
-        "summary": "War Watch relayed a sighting of Boeing C-17A Globemaster III RCH344, registration 06-6157 and hex AE145B, departing Diego Garcia. The sighting was credited to truthseekr60.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114722756939936244"
-      },
-      {
-        "id": "2114718740034031714",
-        "date": "2026-10-26",
-        "dateLabel": "26 OCT 2026 · UTC",
-        "headline": "U.S. transports and command aircraft reported",
-        "summary": "War Watch reported five U.S. Air Force transport aircraft airborne over the continental United States alongside a nuclear command-and-control aircraft, with no coded radio broadcasts heard during the preceding hour.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114718740034031714"
-      },
-      {
-        "id": "2114712446967435663",
-        "date": "2026-10-26",
-        "dateLabel": "26 OCT 2026 · UTC",
-        "headline": "E-4B departure from Dayton reported",
-        "summary": "War Watch relayed a sighting of Boeing 747 E-4B aircraft 74-0787, hex ADFEB5, departing Dayton. The sighting was credited to truthseekr60.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114712446967435663"
-      },
-      {
-        "id": "2114702238702596156",
-        "date": "2026-10-26",
-        "dateLabel": "26 OCT 2026 · UTC",
-        "headline": "NATO09 E-3A Sentry sighting reported",
-        "summary": "War Watch relayed a sighting of Boeing E-3A Sentry NATO09, registration LX-N90444 and hex 4D03C2. The sighting was credited to TruthSeekr60.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114702238702596156"
       }
     ]
   },
