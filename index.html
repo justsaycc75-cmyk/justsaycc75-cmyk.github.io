@@ -488,7 +488,7 @@ window.addEventListener('online',update);
 document.addEventListener('visibilitychange',()=>{if(!document.hidden)update();});
 update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
 })();
-</script><script src="live-today-extras.js?v=20261028-cricket-break"></script>
+</script><script src="live-today-extras.js?v=20261028-cricket-paused"></script>
 <script>
 (()=>{
  const panel=document.getElementById('live-supercars-game');if(!panel)return;
@@ -608,7 +608,7 @@ update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
   const priority=card=>{
    const source=card.id==='live-supercars-game'?card:card.querySelector('[data-sport-state]');
    const state=source?.dataset.sportState||'unknown',start=Number(source?.dataset.sportStart);
-   const rank=state==='in'?0:state==='stale-live'?1:state==='pre'?2:state==='post'?3:4;
+   const rank=state==='in'?0:(state==='stale-live'||state==='paused')?1:state==='pre'?2:state==='post'?3:4;
    return {rank,start:Number.isFinite(start)&&start>0?start:Infinity};
   };
   cards.sort((a,b)=>{
