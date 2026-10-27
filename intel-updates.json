@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2114949780975518053",
+        "date": "2026-10-27",
+        "dateLabel": "27 OCT 2026 · UTC",
+        "headline": "Alibaba Pentagon-contract injunction report highlighted",
+        "summary": "War Watch highlighted a Reuters report that Alibaba won an injunction against Pentagon contract restrictions tied to a China blacklist, adding that two outlets had confirmed the report.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2114949780975518053"
+      },
+      {
         "id": "2114906957932847370",
         "date": "2026-10-27",
         "dateLabel": "27 OCT 2026 · UTC",
@@ -91,14 +99,6 @@
         "headline": "U.S. surveillance and Baltic air activity reported",
         "summary": "War Watch reported U.S. Air Force surveillance and transport aircraft airborne over the continental United States, with Baltic-region air activity at nearly three times its normal level.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2114809339386982833"
-      },
-      {
-        "id": "2114764040412987694",
-        "date": "2026-10-26",
-        "dateLabel": "26 OCT 2026 · UTC",
-        "headline": "Elevated U.S. and Baltic military air activity reported",
-        "summary": "War Watch reported unusually active U.S. Air Force transport aircraft over the continental United States and military air traffic in the Baltic region at nearly three times its normal level.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114764040412987694"
       }
     ]
   },
