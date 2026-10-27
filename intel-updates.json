@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2115131521891738042",
+        "date": "2026-10-27",
+        "dateLabel": "27 OCT 2026 · UTC",
+        "headline": "UK Israel travel-advisory report relayed",
+        "summary": "War Watch relayed a WSN report that the United Kingdom advised against all travel to parts of Israel.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2115131521891738042"
+      },
+      {
+        "id": "2115119040637108393",
+        "date": "2026-10-27",
+        "dateLabel": "27 OCT 2026 · UTC",
+        "headline": "Riyadh explosions and missile-intercept report relayed",
+        "summary": "War Watch relayed an Associated Press report that explosions were heard over Riyadh as Saudi authorities said Houthi missiles had been downed. The report was credited to reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2115119040637108393"
+      },
+      {
+        "id": "2115112748124176570",
+        "date": "2026-10-27",
+        "dateLabel": "27 OCT 2026 · UTC",
+        "headline": "Japan emergency-request report relayed",
+        "summary": "War Watch relayed an Insider Paper report that Japan would issue a nationwide “Emergency Request” urging citizens to stockpile survival supplies. The report was credited to reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2115112748124176570"
+      },
+      {
+        "id": "2115108843403313312",
+        "date": "2026-10-27",
+        "dateLabel": "27 OCT 2026 · UTC",
+        "headline": "E-6B Mercury sighting reported",
+        "summary": "War Watch relayed a sighting of a Boeing E-6B Mercury using call sign E6, registration 164410 and hex AE0412, out of Albuquerque. The sighting was credited to truthseekr60.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2115108843403313312"
+      },
+      {
+        "id": "2115104990582735041",
+        "date": "2026-10-27",
+        "dateLabel": "27 OCT 2026 · UTC",
+        "headline": "DMZ artillery-position activity reported",
+        "summary": "War Watch reported North Korea deploying and fortifying additional self-propelled artillery positions along the DMZ. The visible post was truncated after saying the deployments appeared deliberate.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2115104990582735041"
+      },
+      {
         "id": "2115082635143778414",
         "date": "2026-10-27",
         "dateLabel": "27 OCT 2026 · UTC",
@@ -59,46 +99,6 @@
         "headline": "Drone-incident casualty report highlighted",
         "summary": "War Watch highlighted an Al Jazeera Arabic report citing AFP and a Sudanese medical source that 21 people were killed and 40 injured. The visible quotation then cut off after the words “in a drone,” so no further detail was included.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2114980736797122833"
-      },
-      {
-        "id": "2114960377754611770",
-        "date": "2026-10-27",
-        "dateLabel": "27 OCT 2026 · UTC",
-        "headline": "U.S. military aviation and coded broadcasts reported",
-        "summary": "War Watch reported continued U.S. military transport and surveillance-aircraft activity over the continental United States, with multiple cargo and radar aircraft airborne alongside coded radio broadcasts. The visible post was truncated after that point.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114960377754611770"
-      },
-      {
-        "id": "2114949780975518053",
-        "date": "2026-10-27",
-        "dateLabel": "27 OCT 2026 · UTC",
-        "headline": "Alibaba Pentagon-contract injunction report highlighted",
-        "summary": "War Watch highlighted a Reuters report that Alibaba won an injunction against Pentagon contract restrictions tied to a China blacklist, adding that two outlets had confirmed the report.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114949780975518053"
-      },
-      {
-        "id": "2114906957932847370",
-        "date": "2026-10-27",
-        "dateLabel": "27 OCT 2026 · UTC",
-        "headline": "RCH5085 C-5M sighting reported",
-        "summary": "War Watch relayed a sighting of Lockheed C-5M Super Galaxy RCH5085, registration 86-0011 and hex AE0568. The sighting was credited to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114906957932847370"
-      },
-      {
-        "id": "2114903179611562176",
-        "date": "2026-10-27",
-        "dateLabel": "27 OCT 2026 · UTC",
-        "headline": "Elevated U.S. surveillance aircraft activity reported",
-        "summary": "War Watch reported multiple U.S. Air Force surveillance and radar aircraft airborne over the United States alongside transport aircraft, describing the activity as elevated.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114903179611562176"
-      },
-      {
-        "id": "2114899278040621231",
-        "date": "2026-10-27",
-        "dateLabel": "27 OCT 2026 · UTC",
-        "headline": "Luhansk ammunition-dump strike report relayed",
-        "summary": "War Watch relayed a report from @reagan0965 that Ukrainian attack drones struck a large Russian ammunition dump in occupied Luhansk Oblast and that people near Khrustalnyi reported a large fire. The visible post was truncated after that point.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114899278040621231"
       }
     ]
   },
