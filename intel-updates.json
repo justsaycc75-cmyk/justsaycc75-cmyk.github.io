@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2114992115318915344",
+        "date": "2026-10-27",
+        "dateLabel": "27 OCT 2026 · UTC",
+        "headline": "Ukraine air-defence tally highlighted",
+        "summary": "War Watch highlighted a Ukraine General Staff statement that air defence downed or suppressed 257 hostile targets overnight, adding that two outlets had confirmed the report. The visible quotation was truncated after that point.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2114992115318915344"
+      },
+      {
+        "id": "2114980736797122833",
+        "date": "2026-10-27",
+        "dateLabel": "27 OCT 2026 · UTC",
+        "headline": "Drone-incident casualty report highlighted",
+        "summary": "War Watch highlighted an Al Jazeera Arabic report citing AFP and a Sudanese medical source that 21 people were killed and 40 injured. The visible quotation then cut off after the words “in a drone,” so no further detail was included.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2114980736797122833"
+      },
+      {
+        "id": "2114960377754611770",
+        "date": "2026-10-27",
+        "dateLabel": "27 OCT 2026 · UTC",
+        "headline": "U.S. military aviation and coded broadcasts reported",
+        "summary": "War Watch reported continued U.S. military transport and surveillance-aircraft activity over the continental United States, with multiple cargo and radar aircraft airborne alongside coded radio broadcasts. The visible post was truncated after that point.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2114960377754611770"
+      },
+      {
         "id": "2114949780975518053",
         "date": "2026-10-27",
         "dateLabel": "27 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "EAM header WEAB5Y reported",
         "summary": "War Watch reported an Emergency Action Message header or preamble carrying the code WEAB5Y.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2114847372756836436"
-      },
-      {
-        "id": "2114828278418583719",
-        "date": "2026-10-26",
-        "dateLabel": "26 OCT 2026 · UTC",
-        "headline": "Jordanian airstrike report highlighted",
-        "summary": "War Watch highlighted a Liveuamap report that the Jordanian Air Force targeted groups in southern Syria described as linked to the Karak church attack, adding that two outlets had confirmed it. The visible quotation was truncated after that point.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114828278418583719"
-      },
-      {
-        "id": "2114813356427141489",
-        "date": "2026-10-26",
-        "dateLabel": "26 OCT 2026 · UTC",
-        "headline": "AF2 C-32A sighting over Wyoming reported",
-        "summary": "War Watch relayed a sighting of Boeing C-32A AF2, registration 98-0002 and hex ADFEB6, over Wyoming. The sighting was credited to truthseekr60.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114813356427141489"
-      },
-      {
-        "id": "2114809339386982833",
-        "date": "2026-10-26",
-        "dateLabel": "26 OCT 2026 · UTC",
-        "headline": "U.S. surveillance and Baltic air activity reported",
-        "summary": "War Watch reported U.S. Air Force surveillance and transport aircraft airborne over the continental United States, with Baltic-region air activity at nearly three times its normal level.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114809339386982833"
       }
     ]
   },
