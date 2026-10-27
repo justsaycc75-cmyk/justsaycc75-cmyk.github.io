@@ -5,6 +5,38 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2115170783093793150",
+        "date": "2026-10-27",
+        "dateLabel": "27 OCT 2026 · UTC",
+        "headline": "EAM header WEQIVG reported",
+        "summary": "War Watch reported an Emergency Action Message header or preamble carrying the code WEQIVG.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2115170783093793150"
+      },
+      {
+        "id": "2115165749694136755",
+        "date": "2026-10-27",
+        "dateLabel": "27 OCT 2026 · UTC",
+        "headline": "EAM header 4SZVWV reported",
+        "summary": "War Watch reported an Emergency Action Message header or preamble carrying the code 4SZVWV.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2115165749694136755"
+      },
+      {
+        "id": "2115160717477196267",
+        "date": "2026-10-27",
+        "dateLabel": "27 OCT 2026 · UTC",
+        "headline": "EAM header 4S7KN2 reported",
+        "summary": "War Watch reported an Emergency Action Message header or preamble carrying the code 4S7KN2.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2115160717477196267"
+      },
+      {
+        "id": "2115156698331525555",
+        "date": "2026-10-27",
+        "dateLabel": "27 OCT 2026 · UTC",
+        "headline": "U.S. military air and coded-radio activity reported",
+        "summary": "War Watch reported multiple U.S. military transport aircraft and bombers airborne over the continental United States, two coded radio broadcasts during the day, and elevated activity around the United Kingdom and North Sea.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2115156698331525555"
+      },
+      {
         "id": "2115131521891738042",
         "date": "2026-10-27",
         "dateLabel": "27 OCT 2026 · UTC",
@@ -67,38 +99,6 @@
         "headline": "Elevated Korea and Japan air activity reported",
         "summary": "War Watch reported military air activity near Korea and Japan at about 2.6 times the normal rate, with multiple U.S. transport and surveillance aircraft airborne across several regions. The visible post was truncated after that point.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2115051171303784700"
-      },
-      {
-        "id": "2115019997982376066",
-        "date": "2026-10-27",
-        "dateLabel": "27 OCT 2026 · UTC",
-        "headline": "Kyiv missile-strike report highlighted",
-        "summary": "War Watch highlighted a Kyiv Independent report stating that Russian ballistic missiles hit sites in Kyiv, with the visible quotation listing a major bridge, a university and medical centres before truncating. War Watch added that three outlets had confirmed the report.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2115019997982376066"
-      },
-      {
-        "id": "2115005716427604124",
-        "date": "2026-10-27",
-        "dateLabel": "27 OCT 2026 · UTC",
-        "headline": "Elevated Gulf and Iran air activity reported",
-        "summary": "War Watch reported air activity near the Gulf and Iran at nearly three times normal levels, with six U.S. military transport aircraft airborne plus multiple surveillance and command aircraft. The visible post was truncated after that point.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2115005716427604124"
-      },
-      {
-        "id": "2114992115318915344",
-        "date": "2026-10-27",
-        "dateLabel": "27 OCT 2026 · UTC",
-        "headline": "Ukraine air-defence tally highlighted",
-        "summary": "War Watch highlighted a Ukraine General Staff statement that air defence downed or suppressed 257 hostile targets overnight, adding that two outlets had confirmed the report. The visible quotation was truncated after that point.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114992115318915344"
-      },
-      {
-        "id": "2114980736797122833",
-        "date": "2026-10-27",
-        "dateLabel": "27 OCT 2026 · UTC",
-        "headline": "Drone-incident casualty report highlighted",
-        "summary": "War Watch highlighted an Al Jazeera Arabic report citing AFP and a Sudanese medical source that 21 people were killed and 40 injured. The visible quotation then cut off after the words “in a drone,” so no further detail was included.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2114980736797122833"
       }
     ]
   },
