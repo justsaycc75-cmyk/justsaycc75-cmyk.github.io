@@ -5,6 +5,38 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2115578726612082850",
+        "date": "2026-10-28",
+        "dateLabel": "28 OCT 2026 · UTC",
+        "headline": "OLIVE39 RC-135W Rivet Joint sighting reported",
+        "summary": "War Watch relayed a sighting of Boeing RC-135W Rivet Joint OLIVE39, registration 62-4139 and hex AE01D0. The sighting was credited to reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2115578726612082850"
+      },
+      {
+        "id": "2115574948651524148",
+        "date": "2026-10-28",
+        "dateLabel": "28 OCT 2026 · UTC",
+        "headline": "Kuwait–Iran diplomatic report relayed",
+        "summary": "War Watch relayed an Insider Paper report, credited to reagan0965, stating that Kuwait had summoned the Iranian ambassador over alleged interference.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2115574948651524148"
+      },
+      {
+        "id": "2115571172997804353",
+        "date": "2026-10-28",
+        "dateLabel": "28 OCT 2026 · UTC",
+        "headline": "U.S. command, transport and support aircraft activity reported",
+        "summary": "War Watch reported a U.S. Air Force nuclear command aircraft and multiple military transport aircraft airborne over the continental United States alongside a reconnaissance aircraft and a communications aircraft.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2115571172997804353"
+      },
+      {
+        "id": "2115567343963132036",
+        "date": "2026-10-28",
+        "dateLabel": "28 OCT 2026 · UTC",
+        "headline": "Iranian warning over possible Israeli attack relayed",
+        "summary": "War Watch relayed an Insider Paper report, credited to reagan0965, stating that Iran had warned of severe economic consequences from any new Israeli attack.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2115567343963132036"
+      },
+      {
         "id": "2115525372347384244",
         "date": "2026-10-28",
         "dateLabel": "28 OCT 2026 · UTC",
@@ -67,38 +99,6 @@
         "headline": "U.S. transport, command and reconnaissance activity reported",
         "summary": "War Watch reported four U.S. military transport aircraft and a nuclear command aircraft airborne over the continental United States, with a reconnaissance aircraft operating over the North Sea. It also reported 13 coded broadcasts logged during the day.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2115388721159667953"
-      },
-      {
-        "id": "2115383560429269180",
-        "date": "2026-10-28",
-        "dateLabel": "28 OCT 2026 · UTC",
-        "headline": "EAM header M6B2HV reported",
-        "summary": "War Watch reported an Emergency Action Message header or preamble carrying the code M6B2HV.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2115383560429269180"
-      },
-      {
-        "id": "2115378105409773972",
-        "date": "2026-10-28",
-        "dateLabel": "28 OCT 2026 · UTC",
-        "headline": "Spanish train-collision report relayed",
-        "summary": "War Watch highlighted a Meduza report of two high-speed trains colliding in Spain and at least 10 deaths, saying three outlets later confirmed it. The visible post was truncated after attributing the casualty figure to emergency services.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2115378105409773972"
-      },
-      {
-        "id": "2115343424081531256",
-        "date": "2026-10-28",
-        "dateLabel": "28 OCT 2026 · UTC",
-        "headline": "Transport-aircraft activity and coded broadcasts reported",
-        "summary": "War Watch reported six U.S. Air Force transport aircraft airborne, including four over the continental United States. It also reported 12 coded radio broadcasts logged during the day.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2115343424081531256"
-      },
-      {
-        "id": "2115297873873051947",
-        "date": "2026-10-28",
-        "dateLabel": "28 OCT 2026 · UTC",
-        "headline": "U.S. command, surveillance and transport activity reported",
-        "summary": "War Watch reported a U.S. Air Force nuclear command aircraft and reconnaissance aircraft airborne over the continental United States alongside multiple transport aircraft and a surveillance drone. It also reported 12 coded radio broadcasts during the day.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2115297873873051947"
       }
     ]
   },
