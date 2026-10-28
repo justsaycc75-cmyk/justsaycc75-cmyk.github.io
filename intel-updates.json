@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2115297873873051947",
+        "date": "2026-10-28",
+        "dateLabel": "28 OCT 2026 · UTC",
+        "headline": "U.S. command, surveillance and transport activity reported",
+        "summary": "War Watch reported a U.S. Air Force nuclear command aircraft and reconnaissance aircraft airborne over the continental United States alongside multiple transport aircraft and a surveillance drone. It also reported 12 coded radio broadcasts during the day.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2115297873873051947"
+      },
+      {
         "id": "2115256101637677558",
         "date": "2026-10-28",
         "dateLabel": "28 OCT 2026 · UTC",
@@ -91,14 +99,6 @@
         "headline": "EAM header WEQIVG reported",
         "summary": "War Watch reported an Emergency Action Message header or preamble carrying the code WEQIVG.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2115170783093793150"
-      },
-      {
-        "id": "2115165749694136755",
-        "date": "2026-10-27",
-        "dateLabel": "27 OCT 2026 · UTC",
-        "headline": "EAM header 4SZVWV reported",
-        "summary": "War Watch reported an Emergency Action Message header or preamble carrying the code 4SZVWV.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2115165749694136755"
       }
     ]
   },
