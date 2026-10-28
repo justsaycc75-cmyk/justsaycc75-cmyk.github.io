@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2115343424081531256",
+        "date": "2026-10-28",
+        "dateLabel": "28 OCT 2026 · UTC",
+        "headline": "Transport-aircraft activity and coded broadcasts reported",
+        "summary": "War Watch reported six U.S. Air Force transport aircraft airborne, including four over the continental United States. It also reported 12 coded radio broadcasts logged during the day.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2115343424081531256"
+      },
+      {
         "id": "2115297873873051947",
         "date": "2026-10-28",
         "dateLabel": "28 OCT 2026 · UTC",
@@ -91,14 +99,6 @@
         "headline": "SOUTHCOM strike release relayed",
         "summary": "War Watch relayed a U.S. Southern Command press release dated 27 October 2026 titled “Lethal Kinetic Strike.” The visible post supplied no further operational details and credited the report to reagan0965.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2115200984737546470"
-      },
-      {
-        "id": "2115170783093793150",
-        "date": "2026-10-27",
-        "dateLabel": "27 OCT 2026 · UTC",
-        "headline": "EAM header WEQIVG reported",
-        "summary": "War Watch reported an Emergency Action Message header or preamble carrying the code WEQIVG.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2115170783093793150"
       }
     ]
   },
