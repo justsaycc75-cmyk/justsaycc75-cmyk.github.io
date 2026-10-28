@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2115479822306541683",
+        "date": "2026-10-28",
+        "dateLabel": "28 OCT 2026 · UTC",
+        "headline": "Elevated military air activity reported near East Asia and northern Europe",
+        "summary": "War Watch reported military air activity near Korea and Japan at roughly six times normal levels, with flights over the Baltic and North Sea at about three times usual levels. The visible post was truncated after the words “No coded US Air…”",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2115479822306541683"
+      },
+      {
         "id": "2115434272077066318",
         "date": "2026-10-28",
         "dateLabel": "28 OCT 2026 · UTC",
@@ -91,14 +99,6 @@
         "headline": "GRIFF01 E-4B sighting reported",
         "summary": "War Watch relayed a sighting of Boeing E-4B GRIFF01, registration 73-1676 and hex ADFEB3. The sighting was credited to reagan0965.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2115256101637677558"
-      },
-      {
-        "id": "2115252324574634456",
-        "date": "2026-10-28",
-        "dateLabel": "28 OCT 2026 · UTC",
-        "headline": "Coded-broadcast surge and command aircraft reported",
-        "summary": "War Watch reported coded U.S. Air Force radio broadcasts at nearly five times their normal worldwide level, with a nuclear command aircraft and transport aircraft active over the United States. The report credited reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2115252324574634456"
       }
     ]
   },
