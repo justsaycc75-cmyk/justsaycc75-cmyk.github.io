@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2115525372347384244",
+        "date": "2026-10-28",
+        "dateLabel": "28 OCT 2026 · UTC",
+        "headline": "Strategic Command exercise and U.S. military air activity reported",
+        "summary": "War Watch reported that U.S. Strategic Command had begun a major nuclear exercise. It also reported multiple transport aircraft, a reconnaissance aircraft and a nuclear command aircraft airborne over the continental United States.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2115525372347384244"
+      },
+      {
         "id": "2115479822306541683",
         "date": "2026-10-28",
         "dateLabel": "28 OCT 2026 · UTC",
@@ -91,14 +99,6 @@
         "headline": "U.S. command, surveillance and transport activity reported",
         "summary": "War Watch reported a U.S. Air Force nuclear command aircraft and reconnaissance aircraft airborne over the continental United States alongside multiple transport aircraft and a surveillance drone. It also reported 12 coded radio broadcasts during the day.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2115297873873051947"
-      },
-      {
-        "id": "2115256101637677558",
-        "date": "2026-10-28",
-        "dateLabel": "28 OCT 2026 · UTC",
-        "headline": "GRIFF01 E-4B sighting reported",
-        "summary": "War Watch relayed a sighting of Boeing E-4B GRIFF01, registration 73-1676 and hex ADFEB3. The sighting was credited to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2115256101637677558"
       }
     ]
   },
