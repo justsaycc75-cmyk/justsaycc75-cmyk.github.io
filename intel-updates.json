@@ -5,6 +5,38 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2115434272077066318",
+        "date": "2026-10-28",
+        "dateLabel": "28 OCT 2026 · UTC",
+        "headline": "North American and North Sea military air activity reported",
+        "summary": "War Watch reported a U.S. Air Force nuclear command-and-control aircraft and three large military transport aircraft airborne over North America and the North Sea. It also reported elevated coded radio traffic in the United Kingdom area.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2115434272077066318"
+      },
+      {
+        "id": "2115427751297421696",
+        "date": "2026-10-28",
+        "dateLabel": "28 OCT 2026 · UTC",
+        "headline": "Boeing E-4B using call sign 742 sighted",
+        "summary": "War Watch relayed a sighting of a Boeing 747 E-4B using call sign 742, registration 74-0787 and hex ADFEB5. The sighting was credited to TruthSeekr60.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2115427751297421696"
+      },
+      {
+        "id": "2115417663988003033",
+        "date": "2026-10-28",
+        "dateLabel": "28 OCT 2026 · UTC",
+        "headline": "EAM header WEQJZ4 reported",
+        "summary": "War Watch reported an Emergency Action Message header or preamble carrying the code WEQJZ4.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2115417663988003033"
+      },
+      {
+        "id": "2115412406683799764",
+        "date": "2026-10-28",
+        "dateLabel": "28 OCT 2026 · UTC",
+        "headline": "EAM header WE67N6 reported",
+        "summary": "War Watch reported an Emergency Action Message header or preamble carrying the code WE67N6.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2115412406683799764"
+      },
+      {
         "id": "2115398516151382268",
         "date": "2026-10-28",
         "dateLabel": "28 OCT 2026 · UTC",
@@ -67,38 +99,6 @@
         "headline": "Coded-broadcast surge and command aircraft reported",
         "summary": "War Watch reported coded U.S. Air Force radio broadcasts at nearly five times their normal worldwide level, with a nuclear command aircraft and transport aircraft active over the United States. The report credited reagan0965.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2115252324574634456"
-      },
-      {
-        "id": "2115248312030798019",
-        "date": "2026-10-28",
-        "dateLabel": "28 OCT 2026 · UTC",
-        "headline": "EAM header WEIJ7U reported",
-        "summary": "War Watch reported an Emergency Action Message header or preamble carrying the code WEIJ7U. The report was credited to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2115248312030798019"
-      },
-      {
-        "id": "2115244327500693586",
-        "date": "2026-10-28",
-        "dateLabel": "28 OCT 2026 · UTC",
-        "headline": "Chinese spaceplane intelligence report relayed",
-        "summary": "War Watch relayed a report credited to reagan0965 stating that U.S. intelligence had confirmed the identity of China’s secret spaceplane and that its design was very similar to one used by the U.S. Space Force. The visible post was truncated after that comparison.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2115244327500693586"
-      },
-      {
-        "id": "2115235209922707902",
-        "date": "2026-10-28",
-        "dateLabel": "28 OCT 2026 · UTC",
-        "headline": "SCORE90 RQ-4 Global Hawk sighting reported",
-        "summary": "War Watch relayed a sighting of Northrop Grumman RQ-4 Global Hawk SCORE90, registration 168459 and hex AE5C73. The sighting was credited to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2115235209922707902"
-      },
-      {
-        "id": "2115220112387015156",
-        "date": "2026-10-27",
-        "dateLabel": "27 OCT 2026 · UTC",
-        "headline": "TOPCT72 TC-135W sighting reported",
-        "summary": "War Watch relayed a sighting of Boeing TC-135W TOPCT72, registration 62-4127 and hex AE1254. The sighting was credited to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2115220112387015156"
       }
     ]
   },
