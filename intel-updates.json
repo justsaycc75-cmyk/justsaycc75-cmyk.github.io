@@ -5,6 +5,38 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2115398516151382268",
+        "date": "2026-10-28",
+        "dateLabel": "28 OCT 2026 · UTC",
+        "headline": "EAM header MMB2HV reported",
+        "summary": "War Watch reported an Emergency Action Message header or preamble carrying the code MMB2HV.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2115398516151382268"
+      },
+      {
+        "id": "2115388721159667953",
+        "date": "2026-10-28",
+        "dateLabel": "28 OCT 2026 · UTC",
+        "headline": "U.S. transport, command and reconnaissance activity reported",
+        "summary": "War Watch reported four U.S. military transport aircraft and a nuclear command aircraft airborne over the continental United States, with a reconnaissance aircraft operating over the North Sea. It also reported 13 coded broadcasts logged during the day.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2115388721159667953"
+      },
+      {
+        "id": "2115383560429269180",
+        "date": "2026-10-28",
+        "dateLabel": "28 OCT 2026 · UTC",
+        "headline": "EAM header M6B2HV reported",
+        "summary": "War Watch reported an Emergency Action Message header or preamble carrying the code M6B2HV.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2115383560429269180"
+      },
+      {
+        "id": "2115378105409773972",
+        "date": "2026-10-28",
+        "dateLabel": "28 OCT 2026 · UTC",
+        "headline": "Spanish train-collision report relayed",
+        "summary": "War Watch highlighted a Meduza report of two high-speed trains colliding in Spain and at least 10 deaths, saying three outlets later confirmed it. The visible post was truncated after attributing the casualty figure to emergency services.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2115378105409773972"
+      },
+      {
         "id": "2115343424081531256",
         "date": "2026-10-28",
         "dateLabel": "28 OCT 2026 · UTC",
@@ -67,38 +99,6 @@
         "headline": "TOPCT72 TC-135W sighting reported",
         "summary": "War Watch relayed a sighting of Boeing TC-135W TOPCT72, registration 62-4127 and hex AE1254. The sighting was credited to reagan0965.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2115220112387015156"
-      },
-      {
-        "id": "2115212561079472523",
-        "date": "2026-10-27",
-        "dateLabel": "27 OCT 2026 · UTC",
-        "headline": "ROCKY98 E-3G Sentry sighting reported",
-        "summary": "War Watch relayed a sighting of Boeing E-3G Sentry ROCKY98, registration 76-1607 and hex AE11DE. The sighting was credited to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2115212561079472523"
-      },
-      {
-        "id": "2115208785971081681",
-        "date": "2026-10-27",
-        "dateLabel": "27 OCT 2026 · UTC",
-        "headline": "Global Thunder 27 exercise announcement relayed",
-        "summary": "War Watch relayed a U.S. Strategic Command Public Affairs announcement dated 22 October 2026 that U.S. Strategic Command had begun exercise Global Thunder 27. The report was credited to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2115208785971081681"
-      },
-      {
-        "id": "2115204762211643551",
-        "date": "2026-10-27",
-        "dateLabel": "27 OCT 2026 · UTC",
-        "headline": "Elevated U.S. and North Sea air activity reported",
-        "summary": "War Watch reported elevated U.S. military air activity over the continental United States and North Sea, with multiple large transport aircraft airborne and a nuclear command aircraft sighted during the day.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2115204762211643551"
-      },
-      {
-        "id": "2115200984737546470",
-        "date": "2026-10-27",
-        "dateLabel": "27 OCT 2026 · UTC",
-        "headline": "SOUTHCOM strike release relayed",
-        "summary": "War Watch relayed a U.S. Southern Command press release dated 27 October 2026 titled “Lethal Kinetic Strike.” The visible post supplied no further operational details and credited the report to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2115200984737546470"
       }
     ]
   },
