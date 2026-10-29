@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2115812660793020824",
+        "date": "2026-10-29",
+        "dateLabel": "29 OCT 2026 · UTC",
+        "headline": "BLKCAT5 MQ-4C Triton sighting reported",
+        "summary": "War Watch relayed a sighting of MQ-4C Triton BLKCAT5, registration 169659 and hex AE7812, leaving NS Mayport. The sighting was credited to JessiDavin.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2115812660793020824"
+      },
+      {
         "id": "2115676538087543247",
         "date": "2026-10-29",
         "dateLabel": "29 OCT 2026 · UTC",
@@ -91,14 +99,6 @@
         "headline": "Kuwait–Iran diplomatic report relayed",
         "summary": "War Watch relayed an Insider Paper report, credited to reagan0965, stating that Kuwait had summoned the Iranian ambassador over alleged interference.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2115574948651524148"
-      },
-      {
-        "id": "2115571172997804353",
-        "date": "2026-10-28",
-        "dateLabel": "28 OCT 2026 · UTC",
-        "headline": "U.S. command, transport and support aircraft activity reported",
-        "summary": "War Watch reported a U.S. Air Force nuclear command aircraft and multiple military transport aircraft airborne over the continental United States alongside a reconnaissance aircraft and a communications aircraft.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2115571172997804353"
       }
     ]
   },
