@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2115676538087543247",
+        "date": "2026-10-29",
+        "dateLabel": "29 OCT 2026 · UTC",
+        "headline": "Suspilne report on Kharkiv drone strike highlighted",
+        "summary": "War Watch highlighted a Suspilne report stating that a drone struck an educational institution in Kharkiv’s Saltivskyi district, citing Mayor Terekhov. It said the report preceded a wire-service report by 34 minutes and was later confirmed by two outlets. The quoted text was truncated after naming the mayor.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2115676538087543247"
+      },
+      {
         "id": "2115662777465397268",
         "date": "2026-10-29",
         "dateLabel": "29 OCT 2026 · UTC",
@@ -91,14 +99,6 @@
         "headline": "U.S. command, transport and support aircraft activity reported",
         "summary": "War Watch reported a U.S. Air Force nuclear command aircraft and multiple military transport aircraft airborne over the continental United States alongside a reconnaissance aircraft and a communications aircraft.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2115571172997804353"
-      },
-      {
-        "id": "2115567343963132036",
-        "date": "2026-10-28",
-        "dateLabel": "28 OCT 2026 · UTC",
-        "headline": "Iranian warning over possible Israeli attack relayed",
-        "summary": "War Watch relayed an Insider Paper report, credited to reagan0965, stating that Iran had warned of severe economic consequences from any new Israeli attack.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2115567343963132036"
       }
     ]
   },
