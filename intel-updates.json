@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2115662777465397268",
+        "date": "2026-10-29",
+        "dateLabel": "29 OCT 2026 · UTC",
+        "headline": "U.S. military air activity reported",
+        "summary": "War Watch reported multiple large U.S. military transport aircraft, a reconnaissance aircraft and a nuclear command aircraft airborne over the United States. It said this followed a fire at a South Carolina nuclear…; the visible post was truncated at that point.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2115662777465397268"
+      },
+      {
+        "id": "2115638368126033949",
+        "date": "2026-10-29",
+        "dateLabel": "29 OCT 2026 · UTC",
+        "headline": "EAM header code WEFZ6O reported",
+        "summary": "War Watch reported an Emergency Action Message header or preamble with header code WEFZ6O.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2115638368126033949"
+      },
+      {
+        "id": "2115633303415861429",
+        "date": "2026-10-29",
+        "dateLabel": "29 OCT 2026 · UTC",
+        "headline": "EAM header code WEFZ6U reported",
+        "summary": "War Watch reported an Emergency Action Message header or preamble with header code WEFZ6U.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2115633303415861429"
+      },
+      {
         "id": "2115621256905011309",
         "date": "2026-10-29",
         "dateLabel": "29 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "Iranian warning over possible Israeli attack relayed",
         "summary": "War Watch relayed an Insider Paper report, credited to reagan0965, stating that Iran had warned of severe economic consequences from any new Israeli attack.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2115567343963132036"
-      },
-      {
-        "id": "2115525372347384244",
-        "date": "2026-10-28",
-        "dateLabel": "28 OCT 2026 · UTC",
-        "headline": "Strategic Command exercise and U.S. military air activity reported",
-        "summary": "War Watch reported that U.S. Strategic Command had begun a major nuclear exercise. It also reported multiple transport aircraft, a reconnaissance aircraft and a nuclear command aircraft airborne over the continental United States.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2115525372347384244"
-      },
-      {
-        "id": "2115479822306541683",
-        "date": "2026-10-28",
-        "dateLabel": "28 OCT 2026 · UTC",
-        "headline": "Elevated military air activity reported near East Asia and northern Europe",
-        "summary": "War Watch reported military air activity near Korea and Japan at roughly six times normal levels, with flights over the Baltic and North Sea at about three times usual levels. The visible post was truncated after the words “No coded US Air…”",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2115479822306541683"
-      },
-      {
-        "id": "2115434272077066318",
-        "date": "2026-10-28",
-        "dateLabel": "28 OCT 2026 · UTC",
-        "headline": "North American and North Sea military air activity reported",
-        "summary": "War Watch reported a U.S. Air Force nuclear command-and-control aircraft and three large military transport aircraft airborne over North America and the North Sea. It also reported elevated coded radio traffic in the United Kingdom area.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2115434272077066318"
       }
     ]
   },
