@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2115868244548415518",
+        "date": "2026-10-29",
+        "dateLabel": "29 OCT 2026 · UTC",
+        "headline": "South Carolina nuclear-site emergency ended and restrictions lifted",
+        "summary": "War Watch reported that a fire at a nuclear facility in South Carolina prompted FAA airspace restrictions. It said the emergency had since been terminated and the restrictions lifted, citing the latest updates.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2115868244548415518"
+      },
+      {
         "id": "2115840591787401673",
         "date": "2026-10-29",
         "dateLabel": "29 OCT 2026 · UTC",
@@ -91,14 +99,6 @@
         "headline": "ADFDF9 VC-25A sighting reported",
         "summary": "War Watch relayed a sighting of a Boeing VC-25A with no call sign, registration 92-9000 and hex ADFDF9. The sighting was credited to reagan0965.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2115621256905011309"
-      },
-      {
-        "id": "2115617481125441777",
-        "date": "2026-10-29",
-        "dateLabel": "29 OCT 2026 · UTC",
-        "headline": "U.S. command, transport and coded-radio activity reported",
-        "summary": "War Watch reported a U.S. Air Force nuclear command aircraft and four large transport aircraft airborne over the continental United States, alongside elevated coded radio traffic and other activity across multiple regions.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2115617481125441777"
       }
     ]
   },
