@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2116119459031060944",
+        "date": "2026-10-30",
+        "dateLabel": "30 OCT 2026 · UTC",
+        "headline": "Suspilne military-medical oversight report highlighted",
+        "summary": "War Watch highlighted a Suspilne report, published 81 minutes before a wire report, saying Ukraine’s Armed Forces were tightening oversight of military medical commissions at TCCs and SP. It said two outlets had confirmed the report. The visible quotation was truncated after “to improve…”",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2116119459031060944"
+      },
+      {
+        "id": "2116096331072647673",
+        "date": "2026-10-30",
+        "dateLabel": "30 OCT 2026 · UTC",
+        "headline": "U.S. transport and coded-radio activity updated",
+        "summary": "War Watch reported six U.S. Air Force transport aircraft airborne over the United States and the North Sea. It also reported four coded radio broadcasts heard earlier in the day, with the most recent at 01:30 Zulu.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2116096331072647673"
+      },
+      {
+        "id": "2116087322638708916",
+        "date": "2026-10-30",
+        "dateLabel": "30 OCT 2026 · UTC",
+        "headline": "Boeing E-6B oval-pattern sighting reported",
+        "summary": "War Watch relayed a sighting of a Boeing E-6B, hex AF094A, flying an oval pattern over Oklahoma. The sighting was credited to TruthSeekr60.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2116087322638708916"
+      },
+      {
         "id": "2116050923675902101",
         "date": "2026-10-30",
         "dateLabel": "30 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "PACK91 KC-46A Pegasus sighting reported",
         "summary": "War Watch relayed a sighting of Boeing KC-46A Pegasus PACK91, registration 17-46034 and hex AE5E0F. The sighting was credited to reagan0965.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2115937970507137076"
-      },
-      {
-        "id": "2115934184510296071",
-        "date": "2026-10-29",
-        "dateLabel": "29 OCT 2026 · UTC",
-        "headline": "Jask blast report relayed",
-        "summary": "War Watch relayed a report from @weslester6474 stating that local residents had confirmed three blasts in Jask, Hormozgan Province, Iran.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2115934184510296071"
-      },
-      {
-        "id": "2115930411293344055",
-        "date": "2026-10-29",
-        "dateLabel": "29 OCT 2026 · UTC",
-        "headline": "AF2 C-32A sighting reported",
-        "summary": "War Watch relayed a sighting of Boeing C-32A AF2, registration 99-0003 and hex ADFEB9. The sighting was credited to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2115930411293344055"
-      },
-      {
-        "id": "2115926634515616255",
-        "date": "2026-10-29",
-        "dateLabel": "29 OCT 2026 · UTC",
-        "headline": "Iranian anti-ship missile claim relayed",
-        "summary": "War Watch relayed a report from @reagan0965 stating that Iranian media claimed the IRGC Navy fired an anti-ship cruise missile from Qeshm Island toward the Strait of Hormuz. The visible post was truncated after “before a U.S. drone…”",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2115926634515616255"
       }
     ]
   },
