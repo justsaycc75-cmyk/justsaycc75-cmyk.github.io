@@ -5,6 +5,38 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2116263134235152757",
+        "date": "2026-10-30",
+        "dateLabel": "30 OCT 2026 · UTC",
+        "headline": "Ukrainska Pravda report on Fire Point highlighted",
+        "summary": "War Watch highlighted a Ukrainska Pravda report, published 49 minutes before a wire report, quoting Fire Point CEO Iryna Terekh about the Ukrainian missile and drone maker. It said two outlets had confirmed the report. The visible quotation was truncated after “has found a…”",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2116263134235152757"
+      },
+      {
+        "id": "2116255648044273794",
+        "date": "2026-10-30",
+        "dateLabel": "30 OCT 2026 · UTC",
+        "headline": "K35R KC-135T Stratotanker sighting reported",
+        "summary": "War Watch relayed a sighting of Boeing KC-135T Stratotanker K35R, registration 59-1471 and hex AE07A5, near Spokane. The sighting was credited to truthseekr60.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2116255648044273794"
+      },
+      {
+        "id": "2116232440981127253",
+        "date": "2026-10-30",
+        "dateLabel": "30 OCT 2026 · UTC",
+        "headline": "U.S. transport, surveillance and coded-radio activity reported",
+        "summary": "War Watch reported four U.S. Air Force transport aircraft and one spy aircraft airborne over the United States, along with one coded radio broadcast heard during the preceding hour.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2116232440981127253"
+      },
+      {
+        "id": "2116223672197275951",
+        "date": "2026-10-30",
+        "dateLabel": "30 OCT 2026 · UTC",
+        "headline": "WPBF report on Florida air-defense deployments relayed",
+        "summary": "War Watch relayed a WPBF 25 News report stating that the Secret Service cited a heightened threat environment as air-defense systems were deployed at Mar-a-Lago and an airport in Florida. The report was credited to @alexgreen1767.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2116223672197275951"
+      },
+      {
         "id": "2116211551149367700",
         "date": "2026-10-30",
         "dateLabel": "30 OCT 2026 · UTC",
@@ -67,38 +99,6 @@
         "headline": "U.S. transport and coded-radio activity updated",
         "summary": "War Watch reported six U.S. Air Force transport aircraft airborne over the United States and the North Sea. It also reported four coded radio broadcasts heard earlier in the day, with the most recent at 01:30 Zulu.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2116096331072647673"
-      },
-      {
-        "id": "2116087322638708916",
-        "date": "2026-10-30",
-        "dateLabel": "30 OCT 2026 · UTC",
-        "headline": "Boeing E-6B oval-pattern sighting reported",
-        "summary": "War Watch relayed a sighting of a Boeing E-6B, hex AF094A, flying an oval pattern over Oklahoma. The sighting was credited to TruthSeekr60.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2116087322638708916"
-      },
-      {
-        "id": "2116050923675902101",
-        "date": "2026-10-30",
-        "dateLabel": "30 OCT 2026 · UTC",
-        "headline": "U.S. transport, surveillance and coded-radio activity reported",
-        "summary": "War Watch reported six U.S. Air Force transport aircraft and one spy aircraft airborne over the continental United States and the North Sea. It also reported four coded radio broadcasts heard earlier in the day.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2116050923675902101"
-      },
-      {
-        "id": "2116005441943540051",
-        "date": "2026-10-30",
-        "dateLabel": "30 OCT 2026 · UTC",
-        "headline": "Coded-radio and U.S. military-aircraft activity reported",
-        "summary": "War Watch reported four coded U.S. Air Force radio broadcasts detected during the day, with two spy aircraft and three heavy transport aircraft then airborne over the continental United States.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2116005441943540051"
-      },
-      {
-        "id": "2115984133117661212",
-        "date": "2026-10-30",
-        "dateLabel": "30 OCT 2026 · UTC",
-        "headline": "Jerusalem Post report on CENTCOM briefing relayed",
-        "summary": "War Watch relayed a Jerusalem Post report, credited to @reagan0965, stating that a source said the CENTCOM chief briefed President Trump on military options concerning Iran during a meeting.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2115984133117661212"
       }
     ]
   },
