@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2116005441943540051",
+        "date": "2026-10-30",
+        "dateLabel": "30 OCT 2026 · UTC",
+        "headline": "Coded-radio and U.S. military-aircraft activity reported",
+        "summary": "War Watch reported four coded U.S. Air Force radio broadcasts detected during the day, with two spy aircraft and three heavy transport aircraft then airborne over the continental United States.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2116005441943540051"
+      },
+      {
         "id": "2115984133117661212",
         "date": "2026-10-30",
         "dateLabel": "30 OCT 2026 · UTC",
@@ -91,14 +99,6 @@
         "headline": "South Carolina nuclear-site emergency ended and restrictions lifted",
         "summary": "War Watch reported that a fire at a nuclear facility in South Carolina prompted FAA airspace restrictions. It said the emergency had since been terminated and the restrictions lifted, citing the latest updates.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2115868244548415518"
-      },
-      {
-        "id": "2115840591787401673",
-        "date": "2026-10-29",
-        "dateLabel": "29 OCT 2026 · UTC",
-        "headline": "ASTRA report on Izium guided-bomb attack highlighted",
-        "summary": "War Watch highlighted an ASTRA report stating that ten people were injured in a Russian guided aerial-bomb attack on Izium in the Kharkiv region. It said the report preceded a wire-service report by 76 minutes and was later confirmed by two outlets. The quoted text was truncated after “with four possibly…”",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2115840591787401673"
       }
     ]
   },
