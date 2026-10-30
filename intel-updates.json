@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2116141686820651465",
+        "date": "2026-10-30",
+        "dateLabel": "30 OCT 2026 · UTC",
+        "headline": "Elevated Taiwan-area and U.S. military-air activity reported",
+        "summary": "War Watch reported air activity near Taiwan at nearly three times its usual level. It also reported U.S. military transport and surveillance aircraft flying over the North Sea and the continental United States.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2116141686820651465"
+      },
+      {
         "id": "2116119459031060944",
         "date": "2026-10-30",
         "dateLabel": "30 OCT 2026 · UTC",
@@ -91,14 +99,6 @@
         "headline": "Tabriz gunfire and power-outage report relayed",
         "summary": "War Watch relayed a report from @weslester6474 of gunfire and intermittent power outages in southwest Tabriz, East Azerbaijan Province, Iran.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2115943072164991149"
-      },
-      {
-        "id": "2115937970507137076",
-        "date": "2026-10-29",
-        "dateLabel": "29 OCT 2026 · UTC",
-        "headline": "PACK91 KC-46A Pegasus sighting reported",
-        "summary": "War Watch relayed a sighting of Boeing KC-46A Pegasus PACK91, registration 17-46034 and hex AE5E0F. The sighting was credited to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2115937970507137076"
       }
     ]
   },
@@ -107,6 +107,14 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2116153766357389707",
+        "date": "2026-10-30",
+        "dateLabel": "30 OCT 2026 · UTC",
+        "headline": "Signature Access FBO pricing changes examined",
+        "summary": "SkyGlass said Signature Access prices core fixed-base-operator access by aircraft size, ramp time and location, while limiting event fees from 2027. It argued that ramp dwell time and demand are operational variables FBOs should track, citing RampWatch as a way to show them.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2116153766357389707"
+      },
       {
         "id": "2115843936841241002",
         "date": "2026-10-29",
@@ -194,14 +202,6 @@
         "headline": "N871CB Boulder City arrival replay shared",
         "summary": "SkyGlass shared the Wednesday NBAA-BACE arrival of Citation CJ2 N871CB into Boulder City, showing the approach at ten-times speed and the touchdown in real time.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2113344736543002890"
-      },
-      {
-        "id": "2113337193703870760",
-        "date": "2026-10-22",
-        "dateLabel": "22 OCT 2026 · UTC",
-        "headline": "Henderson NBAA-BACE business-jet traffic reported",
-        "summary": "SkyGlass reported 81 business jets at Henderson on Wednesday during NBAA-BACE, compared with 172 at Harry Reid, highlighting overflow traffic handled by the valley’s reliever airfields.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2113337193703870760"
       }
     ]
   }
