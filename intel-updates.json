@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2116211551149367700",
+        "date": "2026-10-30",
+        "dateLabel": "30 OCT 2026 · UTC",
+        "headline": "EAM header code 4S3GS5 reported again",
+        "summary": "War Watch reported an Emergency Action Message header or preamble with code 4S3GS5. The post displayed the time as 10:21 AM without specifying a time zone.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2116211551149367700"
+      },
+      {
+        "id": "2116207775415947352",
+        "date": "2026-10-30",
+        "dateLabel": "30 OCT 2026 · UTC",
+        "headline": "Northern Isfahan gunfire report relayed",
+        "summary": "War Watch relayed a report from @weslester6474 of intense gunfire or possible anti-aircraft activity in northern Isfahan Province, Iran.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2116207775415947352"
+      },
+      {
+        "id": "2116203956401488218",
+        "date": "2026-10-30",
+        "dateLabel": "30 OCT 2026 · UTC",
+        "headline": "EAM header code 4S3GS5 reported",
+        "summary": "War Watch relayed a report of an Emergency Action Message header or preamble with code 4S3GS5 at 10:50 Zulu. The report was credited to reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2116203956401488218"
+      },
+      {
+        "id": "2116190914339033496",
+        "date": "2026-10-30",
+        "dateLabel": "30 OCT 2026 · UTC",
+        "headline": "CRSBO31 V-22 Osprey sighting reported",
+        "summary": "War Watch relayed a sighting of V-22 Osprey CRSBO31, registration 168652 and hex AE5E8B, reported as departing Camp Lejeune. The sighting was credited to jessidavin.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2116190914339033496"
+      },
+      {
+        "id": "2116187138693730717",
+        "date": "2026-10-30",
+        "dateLabel": "30 OCT 2026 · UTC",
+        "headline": "U.S. surveillance, transport and command aircraft reported airborne",
+        "summary": "War Watch reported multiple U.S. Air Force surveillance aircraft, transport jets and a nuclear command-and-control aircraft airborne over the United States. It also mentioned four coded U.S. Air Force radio broadcasts, but the visible post was truncated after “were heard…”",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2116187138693730717"
+      },
+      {
         "id": "2116141686820651465",
         "date": "2026-10-30",
         "dateLabel": "30 OCT 2026 · UTC",
@@ -59,46 +99,6 @@
         "headline": "Jerusalem Post report on CENTCOM briefing relayed",
         "summary": "War Watch relayed a Jerusalem Post report, credited to @reagan0965, stating that a source said the CENTCOM chief briefed President Trump on military options concerning Iran during a meeting.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2115984133117661212"
-      },
-      {
-        "id": "2115980361704309219",
-        "date": "2026-10-30",
-        "dateLabel": "30 OCT 2026 · UTC",
-        "headline": "KLIPR51 C-40A Clipper sighting reported",
-        "summary": "War Watch relayed a sighting of Boeing C-40A Clipper KLIPR51, registration 165830 and hex AE04D8. The sighting was credited to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2115980361704309219"
-      },
-      {
-        "id": "2115976550935834803",
-        "date": "2026-10-30",
-        "dateLabel": "30 OCT 2026 · UTC",
-        "headline": "UKMTO vessel-fire report relayed",
-        "summary": "War Watch relayed a report from @reagan0965 citing a UKMTO Centre release stating that a vessel outbound through the Strait of Hormuz had reported a fire on board. The visible post was truncated after “while it was…”",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2115976550935834803"
-      },
-      {
-        "id": "2115960090431836278",
-        "date": "2026-10-30",
-        "dateLabel": "30 OCT 2026 · UTC",
-        "headline": "U.S. cargo aircraft and coded-radio activity reported",
-        "summary": "War Watch reported six military cargo aircraft airborne over the United States and elevated coded U.S. Air Force radio traffic, with 42 broadcasts during the day. It also relayed reports of missile strikes on an Iranian naval base at Jask.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2115960090431836278"
-      },
-      {
-        "id": "2115956073722978402",
-        "date": "2026-10-29",
-        "dateLabel": "29 OCT 2026 · UTC",
-        "headline": "TWZ report on Chinese directed-energy weapons relayed",
-        "summary": "War Watch relayed a TWZ report, credited to @reagan0965, stating that U.S. intelligence had warned China’s space-based directed-energy weapons could soon threaten satellites.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2115956073722978402"
-      },
-      {
-        "id": "2115943072164991149",
-        "date": "2026-10-29",
-        "dateLabel": "29 OCT 2026 · UTC",
-        "headline": "Tabriz gunfire and power-outage report relayed",
-        "summary": "War Watch relayed a report from @weslester6474 of gunfire and intermittent power outages in southwest Tabriz, East Azerbaijan Province, Iran.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2115943072164991149"
       }
     ]
   },
