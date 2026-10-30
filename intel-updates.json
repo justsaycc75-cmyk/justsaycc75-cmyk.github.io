@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2116050923675902101",
+        "date": "2026-10-30",
+        "dateLabel": "30 OCT 2026 · UTC",
+        "headline": "U.S. transport, surveillance and coded-radio activity reported",
+        "summary": "War Watch reported six U.S. Air Force transport aircraft and one spy aircraft airborne over the continental United States and the North Sea. It also reported four coded radio broadcasts heard earlier in the day.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2116050923675902101"
+      },
+      {
         "id": "2116005441943540051",
         "date": "2026-10-30",
         "dateLabel": "30 OCT 2026 · UTC",
@@ -91,14 +99,6 @@
         "headline": "Iranian anti-ship missile claim relayed",
         "summary": "War Watch relayed a report from @reagan0965 stating that Iranian media claimed the IRGC Navy fired an anti-ship cruise missile from Qeshm Island toward the Strait of Hormuz. The visible post was truncated after “before a U.S. drone…”",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2115926634515616255"
-      },
-      {
-        "id": "2115868244548415518",
-        "date": "2026-10-29",
-        "dateLabel": "29 OCT 2026 · UTC",
-        "headline": "South Carolina nuclear-site emergency ended and restrictions lifted",
-        "summary": "War Watch reported that a fire at a nuclear facility in South Carolina prompted FAA airspace restrictions. It said the emergency had since been terminated and the restrictions lifted, citing the latest updates.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2115868244548415518"
       }
     ]
   },
