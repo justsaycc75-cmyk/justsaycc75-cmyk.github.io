@@ -609,9 +609,16 @@ update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
   if(busy||panel.hidden)return;busy=true;
   const controller=new AbortController(),timeout=setTimeout(()=>controller.abort(),12000);
   try{
-   const r=await fetch(FEED+'?v='+Math.floor(Date.now()/30000),{cache:'no-store',signal:controller.signal});if(!r.ok)throw new Error('Feed unavailable');
-   const d=await r.json(),t=Date.parse(d.fetchedAt);
-   if(d.version!==1||!Array.isArray(d.fixtures)||!d.scores||!Number.isFinite(t)||t>Date.now()+60000)throw new Error('Invalid score snapshot');
+   // Raw GitHub and Pages can have different cache ages. Keep the newest valid publisher snapshot.
+   const snapshots=await Promise.allSettled([FEED,'data/rlwc-scores.json'].map(async url=>{
+    const r=await fetch(url+'?v='+Math.floor(Date.now()/30000),{cache:'no-store',signal:controller.signal});if(!r.ok)throw new Error('Feed unavailable');
+    const d=await r.json(),t=Date.parse(d.fetchedAt);
+    if(d.version!==1||!Array.isArray(d.fixtures)||!d.scores||!Number.isFinite(t)||t>Date.now()+60000)throw new Error('Invalid score snapshot');
+    return d;
+   }));
+   const valid=snapshots.filter(x=>x.status==='fulfilled').map(x=>x.value).sort((a,b)=>Date.parse(b.fetchedAt)-Date.parse(a.fetchedAt));
+   if(!valid.length)throw new Error('No score snapshot available');
+   const d=valid[0],t=Date.parse(d.fetchedAt);
    if(!data||t>=Date.parse(data.fetchedAt))data=d;failed=false;
   }catch(e){failed=true;}finally{clearTimeout(timeout);busy=false;render();}
  }
