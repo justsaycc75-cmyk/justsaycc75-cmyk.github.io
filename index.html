@@ -603,6 +603,7 @@ update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
   const records=fixtures.map(f=>({...f,s:data?.scores?.[f.id]}));
   const featured=panel.querySelector('[data-rlwc-featured]');
   featured.hidden=now>=Date.parse('2026-11-02T00:00:00+11:00');
+  panel.querySelector('.rlwc-other-label').hidden=featured.hidden;
   if(!featured.hidden)for(const card of featured.querySelectorAll('[data-rlwc-feature-id]')){
    const f=records.find(x=>x.id===card.dataset.rlwcFeatureId);if(!f)continue;
    const s=f.s,isLive=live.has(s?.state),finished=ended.has(s?.state);
