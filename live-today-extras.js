@@ -5,7 +5,7 @@
   const eplTarget=panel.querySelector('#live-epl-game');
   const cricketTarget=panel.querySelector('#live-cricket-game');
   const refresh=panel.querySelector('[data-game-refresh]');
-  if(!eplTarget||!cricketTarget)return;
+  if(!eplTarget)return;
   const TZ='Australia/Sydney';
   const ESPN='https://site.api.espn.com/apis/site/v2/sports/';
   const CRICKET_MATCH='https://www.cricket.com.au/matches/CA:39992/south-africa-men-australia-men-3rd-test';
