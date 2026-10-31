@@ -101,6 +101,17 @@
 .front-live-today #live-rlwc-game .live-game-link{background:#704b73;border-color:#d9a6d5;color:#fff}
 .rlwc-draw-link{display:block;margin-top:10px;color:#ffe2ad;font-weight:800;font-size:11px;text-underline-offset:3px}
 .rlwc-note{font-size:10px;line-height:1.4;color:#e6d5e7;margin:11px 0 0}
+
+/* Featured men's World Cup fixtures for 31 October and 1 November. */
+.rlwc-featured{display:grid;gap:9px;margin:10px 0 16px;text-align:left}.rlwc-featured[hidden]{display:none}
+.rlwc-feature{border:1px solid #f5d3ac9e;border-radius:10px;padding:10px;background:linear-gradient(120deg,#683b5d,#463152);box-shadow:0 3px 12px #0003}
+.rlwc-feature small{display:block;color:#ffe0a8;font-size:10px;font-weight:900;letter-spacing:.08em;text-transform:uppercase}
+.rlwc-feature strong{display:block;font-size:15px;line-height:1.3;margin:5px 0;color:#fff}
+.rlwc-feature .rlwc-feature-state{display:block;font-size:12px;font-weight:850;color:#f8e8ff}
+.rlwc-feature .rlwc-feature-venue{display:block;font-size:10px;color:#ebdbe8;margin:5px 0}
+.rlwc-feature a{display:block;color:#fff6de;font-size:11px;font-weight:850;text-decoration:underline;text-underline-offset:3px;margin-top:6px}
+.rlwc-feature[data-state="in"]{border-color:#a8ffcb;box-shadow:0 0 0 2px #45e59450,0 3px 12px #0003}.rlwc-feature[data-state="in"] .rlwc-feature-state{color:#b9ffd6}
+.rlwc-other-label{font-size:10px;font-weight:900;letter-spacing:.08em;color:#eac9e9;text-transform:uppercase;margin:6px 0}
 </style><style id="world-cruise-teaser-styles">
 .world-cruise-teaser{position:relative;isolation:isolate;display:grid;grid-template-columns:minmax(0,1.5fr) minmax(190px,.5fr);gap:24px;align-items:center;margin:25px 0 34px;padding:clamp(26px,4vw,48px);border:1px solid #ad5e25;border-radius:22px;background:radial-gradient(circle at 85% 50%,#271306 0,#0b0907 48%,#030303 100%);box-shadow:0 14px 38px #0007,inset 0 1px #ffa55c25;color:#ffae68;overflow:hidden}
 .world-cruise-teaser::before{content:"";position:absolute;inset:0 0 auto;height:3px;background:linear-gradient(90deg,#ff842b,#ffc17c 55%,transparent)}
@@ -144,6 +155,12 @@
 <div class="rlwc-mark" aria-hidden="true"><b>RLWC</b><strong>26</strong></div>
 <h3 class="rlwc-heading">Rugby League<br>World Cup</h3>
 <p class="rlwc-subtitle">MEN · WOMEN · WHEELCHAIR</p>
+<div class="rlwc-featured" data-rlwc-featured aria-label="Featured Rugby League World Cup matches">
+<article class="rlwc-feature" data-rlwc-feature-id="20261310320"><small>Saturday 31 October · 3:30pm Sydney</small><strong>New Zealand v Fiji</strong><span class="rlwc-feature-state">Upcoming</span><span class="rlwc-feature-venue">Cbus Super Stadium, Gold Coast</span><a href="https://www.rlwc2026.com/draw/mens/2026/round-3/new-zealand-v-fiji" target="_blank" rel="noopener noreferrer">Official match centre ↗</a></article>
+<article class="rlwc-feature" data-rlwc-feature-id="20261310330"><small>Saturday 31 October · 8:05pm Sydney</small><strong>Australia v Cook Islands</strong><span class="rlwc-feature-state">Upcoming</span><span class="rlwc-feature-venue">Queensland Country Bank Stadium, Townsville</span><a href="https://www.rlwc2026.com/draw/mens/2026/round-3/australia-v-cook-islands" target="_blank" rel="noopener noreferrer">Official match centre ↗</a></article>
+<article class="rlwc-feature" data-rlwc-feature-id="20261310340"><small>Sunday 1 November · 5:40pm Sydney</small><strong>Lebanon v France</strong><span class="rlwc-feature-state">Upcoming</span><span class="rlwc-feature-venue">CommBank Stadium, Sydney</span><a href="https://www.rlwc2026.com/draw/mens/2026/round-3/lebanon-v-france" target="_blank" rel="noopener noreferrer">Official match centre ↗</a></article>
+</div>
+<p class="rlwc-other-label">Other World Cup action</p>
 <div class="rlwc-match" data-sport-state="pre" data-sport-start="0"><small data-rlwc-division>Next match</small><strong data-rlwc-teams>Loading fixture…</strong><strong data-rlwc-score style="font-size:34px;letter-spacing:.04em;line-height:1.1" hidden></strong><span data-rlwc-match-status></span><span data-rlwc-time></span></div>
 <p class="rlwc-venue" data-rlwc-venue></p><p class="rlwc-note" data-rlwc-freshness aria-live="polite">Connecting to official scores…</p><div data-rlwc-other class="rlwc-note"></div>
 <a class="live-game-link" data-rlwc-link href="https://www.rlwc2026.com/draws-and-pools" target="_blank" rel="noopener noreferrer">Official match centre ↗</a>
@@ -584,6 +601,20 @@ update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
   const age=data?Math.max(0,now-Date.parse(data.fetchedAt)):Infinity;
   const fresh=!!data&&age<=10*60*1000&&!failed;
   const records=fixtures.map(f=>({...f,s:data?.scores?.[f.id]}));
+  const featured=panel.querySelector('[data-rlwc-featured]');
+  featured.hidden=now>=Date.parse('2026-11-02T00:00:00+11:00');
+  if(!featured.hidden)for(const card of featured.querySelectorAll('[data-rlwc-feature-id]')){
+   const f=records.find(x=>x.id===card.dataset.rlwcFeatureId);if(!f)continue;
+   const s=f.s,isLive=live.has(s?.state),finished=ended.has(s?.state);
+   const state=isLive?(fresh?'in':'stale-live'):finished?'post':f.start>now?'pre':'unknown';
+   card.dataset.state=state;
+   const stateLabel=card.querySelector('.rlwc-feature-state');
+   if(isLive)stateLabel.textContent=(fresh?'LIVE':'LIVE · update delayed')+' · '+s.home+'–'+s.away+(s.clock?' · '+s.clock:'');
+   else if(finished)stateLabel.textContent=(labels[s.state]||'Final')+(s.state===12||s.state===14?'':' · '+s.home+'–'+s.away);
+   else if(f.start<=now)stateLabel.textContent='Awaiting official score update';
+   else stateLabel.textContent='Upcoming';
+  }
+
   const current=records.filter(f=>(live.has(f.s?.state)||f.s?.state===13)&&now-f.start<24*60*60*1000);
   const recent=records.filter(f=>ended.has(f.s?.state)&&f.start<=now&&now-f.start<8*60*60*1000).sort((a,b)=>b.start-a.start);
   const scheduled=records.filter(f=>f.start<=now&&now<f.start+150*60*1000&&!ended.has(f.s?.state));
