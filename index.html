@@ -160,12 +160,14 @@
 <article class="rlwc-feature" data-rlwc-feature-id="20261310330"><small>Saturday 31 October · 8:05pm Sydney</small><strong>Australia v Cook Islands</strong><span class="rlwc-feature-state">Upcoming</span><span class="rlwc-feature-venue">Queensland Country Bank Stadium, Townsville</span><a href="https://www.rlwc2026.com/draw/mens/2026/round-3/australia-v-cook-islands" target="_blank" rel="noopener noreferrer">Official match centre ↗</a></article>
 <article class="rlwc-feature" data-rlwc-feature-id="20261310340"><small>Sunday 1 November · 5:40pm Sydney</small><strong>Lebanon v France</strong><span class="rlwc-feature-state">Upcoming</span><span class="rlwc-feature-venue">CommBank Stadium, Sydney</span><a href="https://www.rlwc2026.com/draw/mens/2026/round-3/lebanon-v-france" target="_blank" rel="noopener noreferrer">Official match centre ↗</a></article>
 </div>
+<div data-rlwc-secondary hidden>
 <p class="rlwc-other-label">Other World Cup action</p>
 <div class="rlwc-match" data-sport-state="pre" data-sport-start="0"><small data-rlwc-division>Next match</small><strong data-rlwc-teams>Loading fixture…</strong><strong data-rlwc-score style="font-size:34px;letter-spacing:.04em;line-height:1.1" hidden></strong><span data-rlwc-match-status></span><span data-rlwc-time></span></div>
 <p class="rlwc-venue" data-rlwc-venue></p><p class="rlwc-note" data-rlwc-freshness aria-live="polite">Connecting to official scores…</p><div data-rlwc-other class="rlwc-note"></div>
 <a class="live-game-link" data-rlwc-link href="https://www.rlwc2026.com/draws-and-pools" target="_blank" rel="noopener noreferrer">Official match centre ↗</a>
 <a class="rlwc-draw-link" href="https://www.rlwc2026.com/draws-and-pools" target="_blank" rel="noopener noreferrer">See the full World Cup draw ↗</a>
 <p class="rlwc-note">Official RLWC scores. Source checks are scheduled about every 5 minutes during match windows and may be delayed; this panel checks for a new snapshot every 30 seconds. Sydney times.</p>
+</div>
 </div>
 <p class="live-game-updated" data-game-updated>Connecting to live scores</p>
 <div class="live-game-update-row"><small>Auto-refresh every 30 seconds</small><button type="button" data-game-refresh>Refresh</button></div>
@@ -602,6 +604,8 @@ update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
   const fresh=!!data&&age<=10*60*1000&&!failed;
   const records=fixtures.filter(f=>f.group.startsWith("Men")).map(f=>({...f,s:data?.scores?.[f.id]}));
   const featured=panel.querySelector('[data-rlwc-featured]');
+  const secondaryPanel=panel.querySelector('[data-rlwc-secondary]');
+  secondaryPanel.hidden=now<Date.parse('2026-11-01T00:00:00+11:00');
   featured.hidden=now>=Date.parse('2026-11-02T00:00:00+11:00');
   panel.querySelector('.rlwc-other-label').hidden=featured.hidden;
   if(!featured.hidden)for(const card of featured.querySelectorAll('[data-rlwc-feature-id]')){
