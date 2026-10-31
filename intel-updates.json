@@ -5,6 +5,38 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2116339806993101168",
+        "date": "2026-10-31",
+        "dateLabel": "31 OCT 2026 · UTC",
+        "headline": "SAM564 C-37B sighting reported",
+        "summary": "War Watch relayed a sighting of U.S. Air Force 89th Airlift Wing Gulfstream C-37B SAM564, hex AE6961, associated in the post with Andrews Air Force Base. The sighting was credited to reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2116339806993101168"
+      },
+      {
+        "id": "2116323593973813388",
+        "date": "2026-10-31",
+        "dateLabel": "31 OCT 2026 · UTC",
+        "headline": "U.S. transport, command-aircraft and coded-radio activity reported",
+        "summary": "War Watch reported four U.S. Air Force transport aircraft and one nuclear command aircraft airborne over the United States. It also reported eight coded military radio broadcasts during the day, with the latest shown as 5:51 PM without a time zone.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2116323593973813388"
+      },
+      {
+        "id": "2116315036889076201",
+        "date": "2026-10-30",
+        "dateLabel": "30 OCT 2026 · UTC",
+        "headline": "BACN01 E-11A sighting reported",
+        "summary": "War Watch relayed a sighting of Bombardier E-11A BACN01, registration 12-9506 and hex AE54B4. The sighting was credited to reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2116315036889076201"
+      },
+      {
+        "id": "2116311262128664646",
+        "date": "2026-10-30",
+        "dateLabel": "30 OCT 2026 · UTC",
+        "headline": "OSINTtechnical report on possible Iran strikes relayed",
+        "summary": "War Watch relayed an OSINTtechnical report, credited to @reagan0965, claiming that the United States had warned Gulf partners that another major round of strikes on Iran could begin as early as 4 November.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2116311262128664646"
+      },
+      {
         "id": "2116307486625915338",
         "date": "2026-10-30",
         "dateLabel": "30 OCT 2026 · UTC",
@@ -67,38 +99,6 @@
         "headline": "U.S. transport, surveillance and coded-radio activity reported",
         "summary": "War Watch reported four U.S. Air Force transport aircraft and one spy aircraft airborne over the United States, along with one coded radio broadcast heard during the preceding hour.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2116232440981127253"
-      },
-      {
-        "id": "2116223672197275951",
-        "date": "2026-10-30",
-        "dateLabel": "30 OCT 2026 · UTC",
-        "headline": "WPBF report on Florida air-defense deployments relayed",
-        "summary": "War Watch relayed a WPBF 25 News report stating that the Secret Service cited a heightened threat environment as air-defense systems were deployed at Mar-a-Lago and an airport in Florida. The report was credited to @alexgreen1767.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2116223672197275951"
-      },
-      {
-        "id": "2116211551149367700",
-        "date": "2026-10-30",
-        "dateLabel": "30 OCT 2026 · UTC",
-        "headline": "EAM header code 4S3GS5 reported again",
-        "summary": "War Watch reported an Emergency Action Message header or preamble with code 4S3GS5. The post displayed the time as 10:21 AM without specifying a time zone.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2116211551149367700"
-      },
-      {
-        "id": "2116207775415947352",
-        "date": "2026-10-30",
-        "dateLabel": "30 OCT 2026 · UTC",
-        "headline": "Northern Isfahan gunfire report relayed",
-        "summary": "War Watch relayed a report from @weslester6474 of intense gunfire or possible anti-aircraft activity in northern Isfahan Province, Iran.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2116207775415947352"
-      },
-      {
-        "id": "2116203956401488218",
-        "date": "2026-10-30",
-        "dateLabel": "30 OCT 2026 · UTC",
-        "headline": "EAM header code 4S3GS5 reported",
-        "summary": "War Watch relayed a report of an Emergency Action Message header or preamble with code 4S3GS5 at 10:50 Zulu. The report was credited to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2116203956401488218"
       }
     ]
   },
