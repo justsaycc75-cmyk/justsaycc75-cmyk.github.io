@@ -75,6 +75,7 @@
   }
   let cricketBusy=false,cricketLast=null;
   async function updateCricket(){
+    if(!cricketTarget)return;
     if(cricketBusy)return;cricketBusy=true;
     try{
       if(Date.now()>CRICKET_END){
