@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2116486057424224268",
+        "date": "2026-10-31",
+        "dateLabel": "31 OCT 2026 · UTC",
+        "headline": "Al Jazeera report on Iranian threat response highlighted",
+        "summary": "War Watch highlighted an Al Jazeera Arabic report, saying it preceded a wire report by 26 minutes and had been confirmed by two outlets. The visible quotation, attributed to Iran’s Supreme Leader and addressed to armed-forces commanders, was truncated after “any kind of threat must be…”",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2116486057424224268"
+      },
+      {
+        "id": "2116459737038372999",
+        "date": "2026-10-31",
+        "dateLabel": "31 OCT 2026 · UTC",
+        "headline": "Six U.S. transport aircraft and no coded broadcasts reported",
+        "summary": "War Watch reported six U.S. Air Force transport aircraft airborne over the North Atlantic and continental United States during the preceding hour, crediting RobertChester-j5b. It reported that no coded broadcasts were detected.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2116459737038372999"
+      },
+      {
         "id": "2116414434130186748",
         "date": "2026-10-31",
         "dateLabel": "31 OCT 2026 · UTC",
@@ -83,22 +99,6 @@
         "headline": "AF1 Boeing 747-800 sighting reported",
         "summary": "War Watch relayed a sighting of AF1, reported as Boeing 747-800 registration 25-3300 and hex AF83F3, travelling from Washington, D.C., to Daytona Beach, Florida. The sighting was credited to JessiDavin.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2116292138904207853"
-      },
-      {
-        "id": "2116288358682935323",
-        "date": "2026-10-30",
-        "dateLabel": "30 OCT 2026 · UTC",
-        "headline": "OSINTWarfare report on tanker RITI fire relayed",
-        "summary": "War Watch relayed an OSINTWarfare report stating that the IRGC Navy had released footage showing the Panama-flagged crude-oil tanker RITI on fire off Oman. The report was credited to @reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2116288358682935323"
-      },
-      {
-        "id": "2116263134235152757",
-        "date": "2026-10-30",
-        "dateLabel": "30 OCT 2026 · UTC",
-        "headline": "Ukrainska Pravda report on Fire Point highlighted",
-        "summary": "War Watch highlighted a Ukrainska Pravda report, published 49 minutes before a wire report, quoting Fire Point CEO Iryna Terekh about the Ukrainian missile and drone maker. It said two outlets had confirmed the report. The visible quotation was truncated after “has found a…”",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2116263134235152757"
       }
     ]
   },
