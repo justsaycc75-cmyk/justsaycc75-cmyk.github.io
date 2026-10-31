@@ -18,15 +18,16 @@ def fixtures_from_html(html):
         raw=json.JSONDecoder().raw_decode(payload.split(key,1)[1])[0]
         out=[]
         for comp, games in raw.items():
+            if comp == '157': continue
             for f in games:
                 home=next(t for t in f['teams'] if t['isHomeTeam'])
                 away=next(t for t in f['teams'] if not t['isHomeTeam'])
                 out.append({'id':str(f['gameId']),'start':f['startTimeUTC'],
                   'home':home['teamName'],'away':away['teamName'],
-                  'group':{'130':'Wheelchair','131':'Men’s','157':'Women’s'}.get(comp,'World Cup')+' · '+f['roundName'],
+                  'group':{'130':'Wheelchair','131':'Men’s'}.get(comp,'World Cup')+' · '+f['roundName'],
                   'place':', '.join(filter(None,[f.get('venueName'),f.get('city')])),
                   'url':BASE+f['matchCentreUrl']})
-        if len(out)<30: raise ValueError('Incomplete official draw')
+        if len(out)<20: raise ValueError('Incomplete official draw')
         return sorted(out,key=lambda f:f['start'])
     raise ValueError('Official fixture payload missing')
 
