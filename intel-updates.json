@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2116414434130186748",
+        "date": "2026-10-31",
+        "dateLabel": "31 OCT 2026 · UTC",
+        "headline": "U.S. military-air and coded-radio activity reported",
+        "summary": "War Watch reported multiple U.S. Air Force transport aircraft and one surveillance aircraft airborne over the United States. It said coded radio traffic had been quiet during the preceding hour, with the latest signal reported 12 hours earlier.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2116414434130186748"
+      },
+      {
         "id": "2116369131469426738",
         "date": "2026-10-31",
         "dateLabel": "31 OCT 2026 · UTC",
@@ -91,14 +99,6 @@
         "headline": "Ukrainska Pravda report on Fire Point highlighted",
         "summary": "War Watch highlighted a Ukrainska Pravda report, published 49 minutes before a wire report, quoting Fire Point CEO Iryna Terekh about the Ukrainian missile and drone maker. It said two outlets had confirmed the report. The visible quotation was truncated after “has found a…”",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2116263134235152757"
-      },
-      {
-        "id": "2116255648044273794",
-        "date": "2026-10-30",
-        "dateLabel": "30 OCT 2026 · UTC",
-        "headline": "K35R KC-135T Stratotanker sighting reported",
-        "summary": "War Watch relayed a sighting of Boeing KC-135T Stratotanker K35R, registration 59-1471 and hex AE07A5, near Spokane. The sighting was credited to truthseekr60.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2116255648044273794"
       }
     ]
   },
