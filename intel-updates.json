@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2116531448446431398",
+        "date": "2026-10-31",
+        "dateLabel": "31 OCT 2026 · UTC",
+        "headline": "AE0692 KC-135 Stratotanker sighting reported",
+        "summary": "War Watch relayed a sighting of KC-135 Stratotanker registration 63-7997, hex AE0692, with no call sign, circling over the West Palm Beach temporary flight restriction. The sighting was credited to JessiDavin.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2116531448446431398"
+      },
+      {
+        "id": "2116505208486277415",
+        "date": "2026-10-31",
+        "dateLabel": "31 OCT 2026 · UTC",
+        "headline": "Sustained U.S. transport-aircraft activity reported",
+        "summary": "War Watch reported six U.S. Air Force transport aircraft observed across the Atlantic and North Sea during the preceding hour, describing this as part of sustained heavy airlift activity during recent hours.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2116505208486277415"
+      },
+      {
         "id": "2116486057424224268",
         "date": "2026-10-31",
         "dateLabel": "31 OCT 2026 · UTC",
@@ -83,22 +99,6 @@
         "headline": "U.S. approval of PAC-3 interceptor sale relayed",
         "summary": "War Watch relayed a report from @reagan0965 stating that the U.S. State Department had approved a $2.1 billion sale of 500 PAC-3 Missile Segment Enhancement interceptors for Ukraine’s Patriot system. The visible post was truncated after “Patriot air…”",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2116303710489907565"
-      },
-      {
-        "id": "2116297407096848676",
-        "date": "2026-10-30",
-        "dateLabel": "30 OCT 2026 · UTC",
-        "headline": "Polish police readiness order relayed",
-        "summary": "War Watch relayed a report from @reagan0965 about a Polish police order dated 29 October directing prevention units assigned to the National Police Chief’s central reserve to remain ready. The visible post was truncated after “remain ready for…”",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2116297407096848676"
-      },
-      {
-        "id": "2116292138904207853",
-        "date": "2026-10-30",
-        "dateLabel": "30 OCT 2026 · UTC",
-        "headline": "AF1 Boeing 747-800 sighting reported",
-        "summary": "War Watch relayed a sighting of AF1, reported as Boeing 747-800 registration 25-3300 and hex AF83F3, travelling from Washington, D.C., to Daytona Beach, Florida. The sighting was credited to JessiDavin.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2116292138904207853"
       }
     ]
   },
