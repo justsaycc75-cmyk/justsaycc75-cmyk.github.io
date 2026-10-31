@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2116369131469426738",
+        "date": "2026-10-31",
+        "dateLabel": "31 OCT 2026 · UTC",
+        "headline": "Elevated North Sea and North American military-air activity reported",
+        "summary": "War Watch reported military-air activity over the North Sea at nearly five times normal. It also reported multiple U.S. Air Force transport aircraft and one surveillance aircraft airborne over North America; the visible post was truncated after “North America…”",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2116369131469426738"
+      },
+      {
         "id": "2116339806993101168",
         "date": "2026-10-31",
         "dateLabel": "31 OCT 2026 · UTC",
@@ -91,14 +99,6 @@
         "headline": "K35R KC-135T Stratotanker sighting reported",
         "summary": "War Watch relayed a sighting of Boeing KC-135T Stratotanker K35R, registration 59-1471 and hex AE07A5, near Spokane. The sighting was credited to truthseekr60.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2116255648044273794"
-      },
-      {
-        "id": "2116232440981127253",
-        "date": "2026-10-30",
-        "dateLabel": "30 OCT 2026 · UTC",
-        "headline": "U.S. transport, surveillance and coded-radio activity reported",
-        "summary": "War Watch reported four U.S. Air Force transport aircraft and one spy aircraft airborne over the United States, along with one coded radio broadcast heard during the preceding hour.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2116232440981127253"
       }
     ]
   },
