@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2116580532116988128",
+        "date": "2026-10-31",
+        "dateLabel": "31 OCT 2026 · UTC",
+        "headline": "RSD308 Il-96-300 sighting reported",
+        "summary": "War Watch relayed a sighting of Russian Special Flight Squadron Ilyushin Il-96-300 RSD308, registration RA-96018 and hex 157712. The sighting was credited to jessidavin; the visible route description was truncated after “from…”",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2116580532116988128"
+      },
+      {
+        "id": "2116564462912123345",
+        "date": "2026-10-31",
+        "dateLabel": "31 OCT 2026 · UTC",
+        "headline": "AFFA30 E-6B Mercury sighting reported",
+        "summary": "War Watch relayed a sighting of an E-6B Mercury with no call sign and hex AFFA30, reported as departing Travis Air Force Base. The sighting was credited to jessidavin.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2116564462912123345"
+      },
+      {
+        "id": "2116560686817960275",
+        "date": "2026-10-31",
+        "dateLabel": "31 OCT 2026 · UTC",
+        "headline": "Meduza report on Moscow security warning highlighted",
+        "summary": "War Watch highlighted a Meduza report, saying it preceded a wire report by 10 minutes and had been confirmed by two outlets. The visible quotation said the U.S. Embassy in Moscow had warned of a mass-casualty threat at Tsaritsyno, but was truncated after the location name.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2116560686817960275"
+      },
+      {
+        "id": "2116556826602774718",
+        "date": "2026-10-31",
+        "dateLabel": "31 OCT 2026 · UTC",
+        "headline": "U.S. Embassy Moscow threat report relayed",
+        "summary": "War Watch relayed a report, credited to @iamthelolrus, that the U.S. Embassy in Moscow was aware of a credible mass-casualty threat for 31 October at the Tsaritsyno Museum Reserve. The visible post was truncated after the location reference.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2116556826602774718"
+      },
+      {
+        "id": "2116551121569235367",
+        "date": "2026-10-31",
+        "dateLabel": "31 OCT 2026 · UTC",
+        "headline": "Elevated U.S. transport-aircraft activity reported",
+        "summary": "War Watch reported six U.S. Air Force transport aircraft airborne over the continental United States, describing the number as well above typical levels for that time. It reported that no coded radio broadcasts were detected during the preceding hour.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2116551121569235367"
+      },
+      {
         "id": "2116531448446431398",
         "date": "2026-10-31",
         "dateLabel": "31 OCT 2026 · UTC",
@@ -59,46 +99,6 @@
         "headline": "SAM564 C-37B sighting reported",
         "summary": "War Watch relayed a sighting of U.S. Air Force 89th Airlift Wing Gulfstream C-37B SAM564, hex AE6961, associated in the post with Andrews Air Force Base. The sighting was credited to reagan0965.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2116339806993101168"
-      },
-      {
-        "id": "2116323593973813388",
-        "date": "2026-10-31",
-        "dateLabel": "31 OCT 2026 · UTC",
-        "headline": "U.S. transport, command-aircraft and coded-radio activity reported",
-        "summary": "War Watch reported four U.S. Air Force transport aircraft and one nuclear command aircraft airborne over the United States. It also reported eight coded military radio broadcasts during the day, with the latest shown as 5:51 PM without a time zone.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2116323593973813388"
-      },
-      {
-        "id": "2116315036889076201",
-        "date": "2026-10-30",
-        "dateLabel": "30 OCT 2026 · UTC",
-        "headline": "BACN01 E-11A sighting reported",
-        "summary": "War Watch relayed a sighting of Bombardier E-11A BACN01, registration 12-9506 and hex AE54B4. The sighting was credited to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2116315036889076201"
-      },
-      {
-        "id": "2116311262128664646",
-        "date": "2026-10-30",
-        "dateLabel": "30 OCT 2026 · UTC",
-        "headline": "OSINTtechnical report on possible Iran strikes relayed",
-        "summary": "War Watch relayed an OSINTtechnical report, credited to @reagan0965, claiming that the United States had warned Gulf partners that another major round of strikes on Iran could begin as early as 4 November.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2116311262128664646"
-      },
-      {
-        "id": "2116307486625915338",
-        "date": "2026-10-30",
-        "dateLabel": "30 OCT 2026 · UTC",
-        "headline": "E-6 Mercury sighting reported",
-        "summary": "War Watch relayed a sighting of a Boeing E-6 Mercury with no call sign and hex AEF82A. The sighting was credited to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2116307486625915338"
-      },
-      {
-        "id": "2116303710489907565",
-        "date": "2026-10-30",
-        "dateLabel": "30 OCT 2026 · UTC",
-        "headline": "U.S. approval of PAC-3 interceptor sale relayed",
-        "summary": "War Watch relayed a report from @reagan0965 stating that the U.S. State Department had approved a $2.1 billion sale of 500 PAC-3 Missile Segment Enhancement interceptors for Ukraine’s Patriot system. The visible post was truncated after “Patriot air…”",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2116303710489907565"
       }
     ]
   },
