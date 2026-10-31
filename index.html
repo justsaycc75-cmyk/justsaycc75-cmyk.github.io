@@ -136,7 +136,6 @@
 <div class="live-sport-panel live-nfl-panel"><div id="live-sports-games" aria-live="polite" aria-atomic="true"><p class="live-game-empty">Loading NFL scores…</p><a class="live-game-link" href="https://www.espn.com/nfl/scoreboard" target="_blank" rel="noopener noreferrer">NFL scoreboard ↗</a></div>
 <a class="live-game-secondary" href="https://7plus.com.au/" target="_blank" rel="noopener noreferrer">7plus: check free NFL TV coverage ↗</a></div>
 <div id="live-epl-game" class="live-sport-slot live-sport-panel" aria-live="polite"><div class="live-game-badge">EPL · CONNECTING</div><p class="live-game-empty">Loading the next EPL match…</p></div>
-<div id="live-cricket-game" class="live-sport-slot live-sport-panel" aria-live="polite"><div class="live-game-badge">AUSTRALIA CRICKET · CONNECTING</div><p class="live-game-empty">Loading Australia’s next Test…</p></div>
 
 <div id="live-supercars-game" class="live-sport-slot live-sport-panel" aria-label="Gold Coast 500 Supercars leaderboard">
 <div class="live-game-badge">SUPERCARS · GOLD COAST 500</div>
@@ -530,7 +529,7 @@ window.addEventListener('online',update);
 document.addEventListener('visibilitychange',()=>{if(!document.hidden)update();});
 update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
 })();
-</script><script src="live-today-extras.js?v=20261028-cricket-paused"></script>
+</script><script src="live-today-extras.js?v=20261101-no-cricket"></script>
 <script>
 (()=>{
  const panel=document.getElementById('live-supercars-game');if(!panel)return;
