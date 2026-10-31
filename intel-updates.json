@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2116596426423632293",
+        "date": "2026-10-31",
+        "dateLabel": "31 OCT 2026 · UTC",
+        "headline": "U.S. command, transport and coded-radio activity reported",
+        "summary": "War Watch reported multiple U.S. Air Force nuclear command-and-control aircraft and transport aircraft airborne over the continental United States. It said the latest coded radio broadcast had been heard at 17:51 UTC.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2116596426423632293"
+      },
+      {
+        "id": "2116588121231925653",
+        "date": "2026-10-31",
+        "dateLabel": "31 OCT 2026 · UTC",
+        "headline": "AF6BC4 E-6B Mercury sighting reported",
+        "summary": "War Watch relayed a sighting of a Boeing E-6B Mercury with no call sign or registration shown, hex AF6BC4, reported as departing Omaha. The sighting was credited to JessiDavin.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2116588121231925653"
+      },
+      {
         "id": "2116580532116988128",
         "date": "2026-10-31",
         "dateLabel": "31 OCT 2026 · UTC",
@@ -83,22 +99,6 @@
         "headline": "U.S. military-air and coded-radio activity reported",
         "summary": "War Watch reported multiple U.S. Air Force transport aircraft and one surveillance aircraft airborne over the United States. It said coded radio traffic had been quiet during the preceding hour, with the latest signal reported 12 hours earlier.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2116414434130186748"
-      },
-      {
-        "id": "2116369131469426738",
-        "date": "2026-10-31",
-        "dateLabel": "31 OCT 2026 · UTC",
-        "headline": "Elevated North Sea and North American military-air activity reported",
-        "summary": "War Watch reported military-air activity over the North Sea at nearly five times normal. It also reported multiple U.S. Air Force transport aircraft and one surveillance aircraft airborne over North America; the visible post was truncated after “North America…”",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2116369131469426738"
-      },
-      {
-        "id": "2116339806993101168",
-        "date": "2026-10-31",
-        "dateLabel": "31 OCT 2026 · UTC",
-        "headline": "SAM564 C-37B sighting reported",
-        "summary": "War Watch relayed a sighting of U.S. Air Force 89th Airlift Wing Gulfstream C-37B SAM564, hex AE6961, associated in the post with Andrews Air Force Base. The sighting was credited to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2116339806993101168"
       }
     ]
   },
