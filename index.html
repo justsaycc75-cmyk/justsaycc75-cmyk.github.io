@@ -616,11 +616,19 @@ update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
    else stateLabel.textContent='Upcoming';
   }
 
-  const current=records.filter(f=>(live.has(f.s?.state)||f.s?.state===13)&&now-f.start<24*60*60*1000);
-  const recent=records.filter(f=>ended.has(f.s?.state)&&f.start<=now&&now-f.start<8*60*60*1000).sort((a,b)=>b.start-a.start);
-  const scheduled=records.filter(f=>f.start<=now&&now<f.start+150*60*1000&&!ended.has(f.s?.state));
-  const upcoming=records.filter(f=>f.start>now&&!ended.has(f.s?.state));
+  const featuredIds=new Set([...featured.querySelectorAll('[data-rlwc-feature-id]')].map(x=>x.dataset.rlwcFeatureId));
+  const secondary=featured.hidden?records:records.filter(f=>!featuredIds.has(f.id));
+  if(!featured.hidden){
+   const featureStates=[...featured.querySelectorAll('[data-rlwc-feature-id]')].map(x=>x.dataset.state);
+   panel.dataset.sportState=featureStates.includes('in')?'in':featureStates.includes('stale-live')?'stale-live':featureStates.includes('pre')?'pre':'post';
+   panel.dataset.sportStart=String(Math.min(...records.filter(f=>featuredIds.has(f.id)&&f.start>now).map(f=>f.start),Infinity));
+  }
+  const current=secondary.filter(f=>(live.has(f.s?.state)||f.s?.state===13)&&now-f.start<24*60*60*1000);
+  const recent=secondary.filter(f=>ended.has(f.s?.state)&&f.start<=now&&now-f.start<8*60*60*1000).sort((a,b)=>b.start-a.start);
+  const scheduled=secondary.filter(f=>f.start<=now&&now<f.start+150*60*1000&&!ended.has(f.s?.state));
+  const upcoming=secondary.filter(f=>f.start>now&&!ended.has(f.s?.state));
   const chosen=current[0]||scheduled[0]||recent[0]||upcoming[0];
+  if(featured.hidden){panel.dataset.sportState=chosen?.s&&live.has(chosen.s.state)?(fresh?'in':'stale-live'):chosen?.start>now?'pre':chosen?'post':'unknown';panel.dataset.sportStart=String(chosen?.start||0);}
   if(!chosen){status.textContent='WORLD CUP · FIXTURES';teams.textContent='See the official World Cup draw';score.hidden=true;phase.textContent='';time.textContent='';venue.textContent='';other.textContent='';link.href='https://www.rlwc2026.com/draws-and-pools';match.dataset.sportState='unknown';match.dataset.sportStart='0';freshness.textContent='No current fixture available.';return;}
   const s=chosen.s,isLive=live.has(s?.state),finished=ended.has(s?.state),isFuture=chosen.start>now;
   const state=isLive?(fresh?'in':'stale-live'):s?.state===13?'unknown':finished?'post':isFuture?'pre':'unknown';
@@ -667,7 +675,7 @@ update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
  const original=new Map(cards.map((card,index)=>[card,index]));
  function sortCards(){
   const priority=card=>{
-   const source=card.id==='live-supercars-game'?card:card.querySelector('[data-sport-state]');
+   const source=card.id==='live-supercars-game'||(card.id==='live-rlwc-game'&&card.dataset.sportState)?card:card.querySelector('[data-sport-state]');
    const state=source?.dataset.sportState||'unknown',start=Number(source?.dataset.sportStart);
    const rank=state==='in'?0:(state==='stale-live'||state==='paused')?1:state==='pre'?2:state==='post'?3:4;
    return {rank,start:Number.isFinite(start)&&start>0?start:Infinity};
