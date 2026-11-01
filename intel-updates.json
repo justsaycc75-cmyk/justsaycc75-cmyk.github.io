@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2117034279897034801",
+        "date": "2026-11-01",
+        "dateLabel": "01 NOV 2026 · UTC",
+        "headline": "Elevated coded-radio activity reported",
+        "summary": "War Watch reported coded U.S. Air Force radio broadcasts at nearly three times the normal level across what it described as every global hotspot, with activity increasing during the preceding hour.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2117034279897034801"
+      },
+      {
+        "id": "2117030502813082055",
+        "date": "2026-11-01",
+        "dateLabel": "01 NOV 2026 · UTC",
+        "headline": "Trump Iran-deal statement relayed",
+        "summary": "War Watch relayed a Conflict Radar report, credited to @reagan0965, quoting President Trump as saying Iran would either make a deal or the situation would be ended, and describing the latter as possibly the easy way.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2117030502813082055"
+      },
+      {
+        "id": "2117026731752063257",
+        "date": "2026-11-01",
+        "dateLabel": "01 NOV 2026 · UTC",
+        "headline": "KRH647P UK government A321neo sighting reported",
+        "summary": "War Watch relayed a sighting of a UK government Airbus A321neo, call sign KRH647P, registration G-GBNI and hex 407DFC. The sighting was credited to reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2117026731752063257"
+      },
+      {
+        "id": "2117022707216683066",
+        "date": "2026-11-01",
+        "dateLabel": "01 NOV 2026 · UTC",
+        "headline": "Zelensky refinery-strike statement relayed",
+        "summary": "War Watch relayed a report, credited to @reagan0965, that President Zelensky said Ukraine had resumed striking Russian oil refineries after Russia refused to cease attacks on Ukrainian targets. The visible post was truncated after “Ukrainian…”",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2117022707216683066"
+      },
+      {
+        "id": "2117017081308701106",
+        "date": "2026-11-01",
+        "dateLabel": "01 NOV 2026 · UTC",
+        "headline": "RCH2175 C-5M Super Galaxy sighting reported",
+        "summary": "War Watch relayed a sighting of a Lockheed C-5M Super Galaxy, call sign RCH2175, registration 87-0037 and hex AE0582. The sighting was credited to reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2117017081308701106"
+      },
+      {
         "id": "2116986459307565232",
         "date": "2026-11-01",
         "dateLabel": "01 NOV 2026 · UTC",
@@ -59,46 +99,6 @@
         "headline": "LEROY13 V-22 sighting reported",
         "summary": "War Watch relayed a sighting of a Bell-Boeing V-22, call sign LEROY13, registration 165947 and hex AE592C, reported as heading south from Camp Lejune. The sighting was credited to JessiDavin.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2116932588501618886"
-      },
-      {
-        "id": "2116926341098443151",
-        "date": "2026-11-01",
-        "dateLabel": "01 NOV 2026 · UTC",
-        "headline": "Moscow drone-strike report relayed",
-        "summary": "War Watch relayed a report, sourced to suchomimus and credited to @alexgreen1767, that Ukraine targeted Moscow with strike drones launched by balloon and that a likely oil-storage site near Sheremetyevo was struck. The visible post was truncated after the location reference.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2116926341098443151"
-      },
-      {
-        "id": "2116893885381189713",
-        "date": "2026-11-01",
-        "dateLabel": "01 NOV 2026 · UTC",
-        "headline": "AE4AEC C-32A sighting reported",
-        "summary": "War Watch relayed a sighting of Boeing C-32A registration 19-0018, with no call sign and hex AE4AEC, heading south from Joint Base Andrews. The sighting was credited to JessiDavin.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2116893885381189713"
-      },
-      {
-        "id": "2116881900060938296",
-        "date": "2026-11-01",
-        "dateLabel": "01 NOV 2026 · UTC",
-        "headline": "U.S. transport-aircraft activity reported",
-        "summary": "War Watch reported six U.S. Air Force transport aircraft airborne across multiple regions and no coded radio broadcasts detected during the preceding hour.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2116881900060938296"
-      },
-      {
-        "id": "2116869279907807612",
-        "date": "2026-11-01",
-        "dateLabel": "01 NOV 2026 · UTC",
-        "headline": "KRH647 Royal VIP A321 sighting reported",
-        "summary": "War Watch relayed a sighting of a UK Royal VIP Airbus A321, call sign KRH647, registration G-GBNI and hex 407DFC, leaving Atlanta, Georgia. The sighting was credited to JessiDavin.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2116869279907807612"
-      },
-      {
-        "id": "2116836452608639421",
-        "date": "2026-11-01",
-        "dateLabel": "01 NOV 2026 · UTC",
-        "headline": "U.S. nuclear-command aircraft departures reported",
-        "summary": "War Watch reported multiple U.S. Air Force nuclear-command aircraft taking off from Nebraska and Illinois within minutes of one another. It characterized the activity as unusual and as possibly indicating elevated readiness.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2116836452608639421"
       }
     ]
   },
