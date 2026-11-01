@@ -610,6 +610,16 @@ update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
   featured.hidden=false;
   panel.querySelector('.rlwc-other-label').hidden=true;
   const todayKey=new Intl.DateTimeFormat('en-CA',{timeZone:'Australia/Sydney',year:'numeric',month:'2-digit',day:'2-digit'}).format(now);
+  for(const f of records.filter(f=>new Intl.DateTimeFormat('en-CA',{timeZone:'Australia/Sydney',year:'numeric',month:'2-digit',day:'2-digit'}).format(f.start)===todayKey)){
+   if(featured.querySelector('[data-rlwc-feature-id="'+f.id+'"]'))continue;
+   const card=document.createElement('article');card.className='rlwc-feature';card.dataset.rlwcFeatureId=f.id;
+   const when=document.createElement('small');when.textContent='Today · '+fmt.format(f.start)+' Sydney';
+   const names=document.createElement('strong');names.textContent=f.home+' v '+f.away;
+   const stateLabel=document.createElement('span');stateLabel.className='rlwc-feature-state';stateLabel.textContent='Upcoming';
+   const place=document.createElement('span');place.className='rlwc-feature-venue';place.textContent=f.place;
+   const a=document.createElement('a');a.href=f.url;a.target='_blank';a.rel='noopener noreferrer';a.textContent='Official match centre ↗';
+   card.append(when,names,stateLabel,place,a);featured.append(card);
+  }
   if(!featured.hidden)for(const card of featured.querySelectorAll('[data-rlwc-feature-id]')){
    const f=records.find(x=>x.id===card.dataset.rlwcFeatureId);if(!f)continue;
    const s=f.s,isLive=live.has(s?.state),finished=ended.has(s?.state);
