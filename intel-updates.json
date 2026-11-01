@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2116742106941128853",
+        "date": "2026-11-01",
+        "dateLabel": "01 NOV 2026 · UTC",
+        "headline": "U.S. transport and coded-radio activity reported",
+        "summary": "War Watch reported four U.S. military transport aircraft airborne and multiple coded radio broadcasts from nuclear command aircraft heard over the central United States. The visible post was truncated after “Iran tensions escalating with possible strikes as…”",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2116742106941128853"
+      },
+      {
         "id": "2116696805979156615",
         "date": "2026-11-01",
         "dateLabel": "01 NOV 2026 · UTC",
@@ -91,14 +99,6 @@
         "headline": "Elevated U.S. transport-aircraft activity reported",
         "summary": "War Watch reported six U.S. Air Force transport aircraft airborne over the continental United States, describing the number as well above typical levels for that time. It reported that no coded radio broadcasts were detected during the preceding hour.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2116551121569235367"
-      },
-      {
-        "id": "2116531448446431398",
-        "date": "2026-10-31",
-        "dateLabel": "31 OCT 2026 · UTC",
-        "headline": "AE0692 KC-135 Stratotanker sighting reported",
-        "summary": "War Watch relayed a sighting of KC-135 Stratotanker registration 63-7997, hex AE0692, with no call sign, circling over the West Palm Beach temporary flight restriction. The sighting was credited to JessiDavin.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2116531448446431398"
       }
     ]
   },
