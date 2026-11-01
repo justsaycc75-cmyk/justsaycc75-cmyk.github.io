@@ -155,9 +155,8 @@
 <h3 class="rlwc-heading">Rugby League<br>World Cup</h3>
 <p class="rlwc-subtitle">MEN’S TOURNAMENT</p>
 <div class="rlwc-featured" data-rlwc-featured aria-label="Featured Rugby League World Cup matches">
-<article class="rlwc-feature" data-rlwc-feature-id="20261310320"><small>Saturday 31 October · 3:30pm Sydney</small><strong>New Zealand v Fiji</strong><span class="rlwc-feature-state">Upcoming</span><span class="rlwc-feature-venue">Cbus Super Stadium, Gold Coast</span><a href="https://www.rlwc2026.com/draw/mens/2026/round-3/new-zealand-v-fiji" target="_blank" rel="noopener noreferrer">Official match centre ↗</a></article>
-<article class="rlwc-feature" data-rlwc-feature-id="20261310330"><small>Saturday 31 October · 8:05pm Sydney</small><strong>Australia v Cook Islands</strong><span class="rlwc-feature-state">Upcoming</span><span class="rlwc-feature-venue">Queensland Country Bank Stadium, Townsville</span><a href="https://www.rlwc2026.com/draw/mens/2026/round-3/australia-v-cook-islands" target="_blank" rel="noopener noreferrer">Official match centre ↗</a></article>
 <article class="rlwc-feature" data-rlwc-feature-id="20261310340"><small>Sunday 1 November · 5:40pm Sydney</small><strong>Lebanon v France</strong><span class="rlwc-feature-state">Upcoming</span><span class="rlwc-feature-venue">CommBank Stadium, Sydney</span><a href="https://www.rlwc2026.com/draw/mens/2026/round-3/lebanon-v-france" target="_blank" rel="noopener noreferrer">Official match centre ↗</a></article>
+<article class="rlwc-feature" data-rlwc-feature-id="20261310350"><small>Sunday 1 November · 8:05pm Sydney</small><strong>Tonga v Samoa</strong><span class="rlwc-feature-state">Upcoming</span><span class="rlwc-feature-venue">CommBank Stadium, Sydney</span><a href="https://www.rlwc2026.com/draw/mens/2026/round-3/tonga-v-samoa" target="_blank" rel="noopener noreferrer">Official match centre ↗</a></article>
 </div>
 <div data-rlwc-secondary hidden>
 <p class="rlwc-other-label">Other World Cup action</p>
@@ -447,7 +446,7 @@
 'use strict';
 const panel=document.querySelector('.front-live-today');
 if(!panel)return;
-const target=panel.querySelector('#live-sports-games'),updated=panel.querySelector('[data-game-updated]'),refresh=panel.querySelector('[data-game-refresh]');
+const target=panel.querySelector('#live-sports-games'),updated=panel.querySelector('[data-game-updated]'),refresh=panel.querySelector('[data-game-refresh]'),nflCard=panel.querySelector('.live-nfl-panel');
 const TZ='Australia/Sydney',REFRESH_MS=30000,TIMEOUT_MS=9000;
 const sources=[{league:'NFL',url:'https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard'}];
 let busy=false,lastGood=null,selectedId=null;
@@ -457,15 +456,16 @@ const stateOf=g=>statusOf(g).type?.state;
 const timeOf=g=>new Date(g.event.date).getTime();
 const displayDate=d=>new Intl.DateTimeFormat('en-AU',{timeZone:TZ,weekday:'short',day:'numeric',month:'short',hour:'numeric',minute:'2-digit',hour12:true}).format(new Date(d));
 const displayTime=d=>new Intl.DateTimeFormat('en-AU',{timeZone:TZ,hour:'numeric',minute:'2-digit',second:'2-digit',hour12:true}).format(d);
+const dayKey=d=>new Intl.DateTimeFormat('en-AU',{timeZone:TZ,year:'numeric',month:'2-digit',day:'2-digit'}).format(d);
 function chooseGame(games,now){
- const relevant=games.filter(g=>g.league==='NFL'&&Number.isFinite(timeOf(g))&&timeOf(g)>now-7*86400000&&timeOf(g)<now+8*86400000);
+ const relevant=games.filter(g=>g.league==='NFL'&&Number.isFinite(timeOf(g))&&dayKey(timeOf(g))===dayKey(now)&&['pre','in'].includes(stateOf(g)));
  const liveNfl=relevant.filter(g=>g.league==='NFL'&&stateOf(g)==='in');
  const current=liveNfl.find(g=>g.event.id===selectedId);
  if(current)return current;
  const nearest=list=>list.sort((a,b)=>Math.abs(timeOf(a)-now)-Math.abs(timeOf(b)-now))[0];
  // Feature live play first, then the next kickoff across the current and following week.
  const upcoming=relevant.filter(g=>stateOf(g)==='pre'&&timeOf(g)>now).sort((a,b)=>timeOf(a)-timeOf(b));
- return nearest(liveNfl)||upcoming[0]||nearest(relevant.filter(g=>stateOf(g)==='post'));
+ return nearest(liveNfl)||upcoming[0];
 }
 function teamMarkup(team,state){
  const name=team.team?.displayName||team.team?.name||'Team',abbr=team.team?.abbreviation||'';
@@ -486,8 +486,8 @@ function renderGame(game,stale){
  target.querySelectorAll('img').forEach(img=>{img.addEventListener('error',()=>img.remove(),{once:true});});
 }
 function showFailure(){
- if(lastGood){renderGame(lastGood.game,true);updated.textContent='Updates delayed. Last checked '+displayTime(lastGood.at)+' Sydney.';}
- else{target.innerHTML='<p class="live-game-empty">Live scores are temporarily unavailable.</p><a class="live-game-link" href="https://www.espn.com/nfl/scoreboard" target="_blank" rel="noopener noreferrer">Open the NFL live scoreboard ↗</a>';updated.textContent='We’ll retry automatically. You can also refresh now.';}
+ if(lastGood&&dayKey(timeOf(lastGood.game))===dayKey(Date.now())&&['pre','in'].includes(stateOf(lastGood.game))){nflCard.hidden=false;renderGame(lastGood.game,true);updated.textContent='Updates delayed. Last checked '+displayTime(lastGood.at)+' Sydney.';}
+ else{nflCard.hidden=true;target.innerHTML='<p class="live-game-empty">Live scores are temporarily unavailable.</p><a class="live-game-link" href="https://www.espn.com/nfl/scoreboard" target="_blank" rel="noopener noreferrer">Open the NFL live scoreboard ↗</a>';updated.textContent='We’ll retry automatically. You can also refresh now.';}
  updated.classList.add('live-game-stale');
 }
 async function readFeed(source,url=source.url){
@@ -515,12 +515,13 @@ async function update(){
   const previous=lastGood&&games.get(lastGood.game.league+'-'+lastGood.game.event.id);
   if(lastGood&&stateOf(lastGood.game)==='in'&&!previous&&good.length<replies.length){showFailure();return;}
   const game=chooseGame([...games.values()],now);
+  nflCard.hidden=!game;
   updated.classList.remove('live-game-stale');
   if(!game){
    if(good.length<replies.length){showFailure();return;}
    lastGood=null;selectedId=null;target.innerHTML='<p class="live-game-empty">No featured game in progress. Check the NFL schedule for the next kickoff.</p><a class="live-game-link" href="https://www.espn.com/nfl/scoreboard" target="_blank" rel="noopener noreferrer">NFL schedule & scores ↗</a>';updated.textContent='Checked '+displayTime(new Date())+' Sydney.';return;
   }
-  selectedId=game.event.id;lastGood={game,at:new Date()};renderGame(game,false);
+  nflCard.hidden=false;selectedId=game.event.id;lastGood={game,at:new Date()};renderGame(game,false);
   updated.textContent='NFL updated '+displayTime(lastGood.at)+' Sydney'+(good.length<replies.length?' · some feeds unavailable':'');
  }catch(error){showFailure();}finally{busy=false;refresh.disabled=false;}
 }
@@ -529,7 +530,7 @@ window.addEventListener('online',update);
 document.addEventListener('visibilitychange',()=>{if(!document.hidden)update();});
 update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
 })();
-</script><script src="live-today-extras.js?v=20261101-no-cricket-guard"></script>
+</script><script src="live-today-extras.js?v=20261101-today-only"></script>
 <script>
 (()=>{
  const panel=document.getElementById('live-supercars-game');if(!panel)return;
@@ -605,14 +606,16 @@ update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
   const records=fixtures.filter(f=>f.group.startsWith("Men")).map(f=>({...f,s:data?.scores?.[f.id]}));
   const featured=panel.querySelector('[data-rlwc-featured]');
   const secondaryPanel=panel.querySelector('[data-rlwc-secondary]');
-  secondaryPanel.hidden=now<Date.parse('2026-11-01T00:00:00+11:00');
-  featured.hidden=now>=Date.parse('2026-11-02T00:00:00+11:00');
-  panel.querySelector('.rlwc-other-label').hidden=featured.hidden;
+  secondaryPanel.hidden=true;
+  featured.hidden=false;
+  panel.querySelector('.rlwc-other-label').hidden=true;
+  const todayKey=new Intl.DateTimeFormat('en-CA',{timeZone:'Australia/Sydney',year:'numeric',month:'2-digit',day:'2-digit'}).format(now);
   if(!featured.hidden)for(const card of featured.querySelectorAll('[data-rlwc-feature-id]')){
    const f=records.find(x=>x.id===card.dataset.rlwcFeatureId);if(!f)continue;
    const s=f.s,isLive=live.has(s?.state),finished=ended.has(s?.state);
    const state=isLive?(fresh?'in':'stale-live'):finished?'post':f.start>now?'pre':'unknown';
    card.dataset.state=state;
+   card.hidden=finished||new Intl.DateTimeFormat('en-CA',{timeZone:'Australia/Sydney',year:'numeric',month:'2-digit',day:'2-digit'}).format(f.start)!==todayKey;
    const stateLabel=card.querySelector('.rlwc-feature-state');
    if(isLive)stateLabel.textContent=(fresh?'LIVE':'LIVE · update delayed')+' · '+s.home+'–'+s.away+(s.clock?' · '+s.clock:'');
    else if(finished)stateLabel.textContent=(labels[s.state]||'Final')+(s.state===12||s.state===14?'':' · '+s.home+'–'+s.away);
@@ -620,12 +623,13 @@ update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
    else stateLabel.textContent='Upcoming';
   }
 
+  if(!featured.querySelector('[data-rlwc-feature-id]:not([hidden])')){panel.hidden=true;return;}
   const featuredIds=new Set([...featured.querySelectorAll('[data-rlwc-feature-id]')].map(x=>x.dataset.rlwcFeatureId));
   const secondary=featured.hidden?records:records.filter(f=>!featuredIds.has(f.id));
   if(!featured.hidden){
-   const featureStates=[...featured.querySelectorAll('[data-rlwc-feature-id]')].map(x=>x.dataset.state);
+   const featureStates=[...featured.querySelectorAll('[data-rlwc-feature-id]:not([hidden])')].map(x=>x.dataset.state);
    panel.dataset.sportState=featureStates.includes('in')?'in':featureStates.includes('stale-live')?'stale-live':featureStates.includes('unknown')?'unknown':featureStates.includes('pre')?'pre':'post';
-   panel.dataset.sportStart=String(Math.min(...records.filter(f=>featuredIds.has(f.id)&&f.start>now).map(f=>f.start),Infinity));
+   panel.dataset.sportStart=String(Math.min(...records.filter(f=>featuredIds.has(f.id)&&f.start>now&&new Intl.DateTimeFormat('en-CA',{timeZone:'Australia/Sydney',year:'numeric',month:'2-digit',day:'2-digit'}).format(f.start)===todayKey).map(f=>f.start),Infinity));
   }
   const current=secondary.filter(f=>(live.has(f.s?.state)||f.s?.state===13)&&now-f.start<24*60*60*1000);
   const recent=secondary.filter(f=>ended.has(f.s?.state)&&f.start<=now&&now-f.start<8*60*60*1000).sort((a,b)=>b.start-a.start);
