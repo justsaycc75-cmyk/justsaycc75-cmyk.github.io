@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2116787625256259664",
+        "date": "2026-11-01",
+        "dateLabel": "01 NOV 2026 · UTC",
+        "headline": "U.S. surveillance and transport-aircraft activity reported",
+        "summary": "War Watch reported one U.S. Air Force surveillance aircraft airborne over the North Sea and three large military transport aircraft also airborne. It reported no coded U.S. Air Force radio broadcasts during the preceding hour.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2116787625256259664"
+      },
+      {
+        "id": "2116768849362084233",
+        "date": "2026-11-01",
+        "dateLabel": "01 NOV 2026 · UTC",
+        "headline": "AE04C0 KC-135R sighting reported",
+        "summary": "War Watch relayed a sighting of Boeing KC-135R registration 58-0124, identified with AE04C0 as both the displayed call sign and hex code, over Central Florida. The sighting was credited to TruthSeekr60.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2116768849362084233"
+      },
+      {
         "id": "2116742106941128853",
         "date": "2026-11-01",
         "dateLabel": "01 NOV 2026 · UTC",
@@ -83,22 +99,6 @@
         "headline": "Meduza report on Moscow security warning highlighted",
         "summary": "War Watch highlighted a Meduza report, saying it preceded a wire report by 10 minutes and had been confirmed by two outlets. The visible quotation said the U.S. Embassy in Moscow had warned of a mass-casualty threat at Tsaritsyno, but was truncated after the location name.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2116560686817960275"
-      },
-      {
-        "id": "2116556826602774718",
-        "date": "2026-10-31",
-        "dateLabel": "31 OCT 2026 · UTC",
-        "headline": "U.S. Embassy Moscow threat report relayed",
-        "summary": "War Watch relayed a report, credited to @iamthelolrus, that the U.S. Embassy in Moscow was aware of a credible mass-casualty threat for 31 October at the Tsaritsyno Museum Reserve. The visible post was truncated after the location reference.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2116556826602774718"
-      },
-      {
-        "id": "2116551121569235367",
-        "date": "2026-10-31",
-        "dateLabel": "31 OCT 2026 · UTC",
-        "headline": "Elevated U.S. transport-aircraft activity reported",
-        "summary": "War Watch reported six U.S. Air Force transport aircraft airborne over the continental United States, describing the number as well above typical levels for that time. It reported that no coded radio broadcasts were detected during the preceding hour.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2116551121569235367"
       }
     ]
   },
