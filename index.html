@@ -458,7 +458,7 @@ const displayDate=d=>new Intl.DateTimeFormat('en-AU',{timeZone:TZ,weekday:'short
 const displayTime=d=>new Intl.DateTimeFormat('en-AU',{timeZone:TZ,hour:'numeric',minute:'2-digit',second:'2-digit',hour12:true}).format(d);
 const dayKey=d=>new Intl.DateTimeFormat('en-AU',{timeZone:TZ,year:'numeric',month:'2-digit',day:'2-digit'}).format(d);
 function chooseGame(games,now){
- const relevant=games.filter(g=>g.league==='NFL'&&Number.isFinite(timeOf(g))&&dayKey(timeOf(g))===dayKey(now)&&['pre','in'].includes(stateOf(g)));
+ const relevant=games.filter(g=>g.league==='NFL'&&Number.isFinite(timeOf(g))&&timeOf(g)>now-7*86400000&&timeOf(g)<now+8*86400000&&['pre','in'].includes(stateOf(g)));
  const liveNfl=relevant.filter(g=>g.league==='NFL'&&stateOf(g)==='in');
  const current=liveNfl.find(g=>g.event.id===selectedId);
  if(current)return current;
@@ -486,8 +486,8 @@ function renderGame(game,stale){
  target.querySelectorAll('img').forEach(img=>{img.addEventListener('error',()=>img.remove(),{once:true});});
 }
 function showFailure(){
- if(lastGood&&dayKey(timeOf(lastGood.game))===dayKey(Date.now())&&['pre','in'].includes(stateOf(lastGood.game))){nflCard.hidden=false;renderGame(lastGood.game,true);updated.textContent='Updates delayed. Last checked '+displayTime(lastGood.at)+' Sydney.';}
- else{nflCard.hidden=true;target.innerHTML='<p class="live-game-empty">Live scores are temporarily unavailable.</p><a class="live-game-link" href="https://www.espn.com/nfl/scoreboard" target="_blank" rel="noopener noreferrer">Open the NFL live scoreboard ↗</a>';updated.textContent='We’ll retry automatically. You can also refresh now.';}
+ if(lastGood&&['pre','in'].includes(stateOf(lastGood.game))&&(stateOf(lastGood.game)==='in'||timeOf(lastGood.game)>Date.now())){nflCard.hidden=false;renderGame(lastGood.game,true);updated.textContent='Updates delayed. Last checked '+displayTime(lastGood.at)+' Sydney.';}
+ else{nflCard.hidden=false;target.innerHTML='<p class="live-game-empty">Live scores are temporarily unavailable.</p><a class="live-game-link" href="https://www.espn.com/nfl/scoreboard" target="_blank" rel="noopener noreferrer">Open the NFL live scoreboard ↗</a>';updated.textContent='We’ll retry automatically. You can also refresh now.';}
  updated.classList.add('live-game-stale');
 }
 async function readFeed(source,url=source.url){
@@ -515,11 +515,11 @@ async function update(){
   const previous=lastGood&&games.get(lastGood.game.league+'-'+lastGood.game.event.id);
   if(lastGood&&stateOf(lastGood.game)==='in'&&!previous&&good.length<replies.length){showFailure();return;}
   const game=chooseGame([...games.values()],now);
-  nflCard.hidden=!game;
+  nflCard.hidden=false;
   updated.classList.remove('live-game-stale');
   if(!game){
    if(good.length<replies.length){showFailure();return;}
-   lastGood=null;selectedId=null;target.innerHTML='<p class="live-game-empty">No featured game in progress. Check the NFL schedule for the next kickoff.</p><a class="live-game-link" href="https://www.espn.com/nfl/scoreboard" target="_blank" rel="noopener noreferrer">NFL schedule & scores ↗</a>';updated.textContent='Checked '+displayTime(new Date())+' Sydney.';return;
+   lastGood=null;selectedId=null;target.innerHTML='<p class="live-game-empty">No upcoming NFL fixture is available in the current feed. Check the league schedule.</p><a class="live-game-link" href="https://www.espn.com/nfl/scoreboard" target="_blank" rel="noopener noreferrer">NFL schedule & scores ↗</a>';updated.textContent='Checked '+displayTime(new Date())+' Sydney.';return;
   }
   nflCard.hidden=false;selectedId=game.event.id;lastGood={game,at:new Date()};renderGame(game,false);
   updated.textContent='NFL updated '+displayTime(lastGood.at)+' Sydney'+(good.length<replies.length?' · some feeds unavailable':'');
@@ -530,7 +530,7 @@ window.addEventListener('online',update);
 document.addEventListener('visibilitychange',()=>{if(!document.hidden)update();});
 update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
 })();
-</script><script src="live-today-extras.js?v=20261101-today-only"></script>
+</script><script src="live-today-extras.js?v=20261101-next-games"></script>
 <script>
 (()=>{
  const panel=document.getElementById('live-supercars-game');if(!panel)return;
