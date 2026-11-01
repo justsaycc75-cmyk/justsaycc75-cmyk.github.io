@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2116938347427811588",
+        "date": "2026-11-01",
+        "dateLabel": "01 NOV 2026 · UTC",
+        "headline": "U.S. transport and surveillance-aircraft activity reported",
+        "summary": "War Watch reported multiple U.S. Air Force transport aircraft airborne, including one over the North Sea, and a U.S. Border Patrol surveillance aircraft also airborne. The visible post was truncated after “No coded radio broadcasts detected in the…”",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2116938347427811588"
+      },
+      {
+        "id": "2116932588501618886",
+        "date": "2026-11-01",
+        "dateLabel": "01 NOV 2026 · UTC",
+        "headline": "LEROY13 V-22 sighting reported",
+        "summary": "War Watch relayed a sighting of a Bell-Boeing V-22, call sign LEROY13, registration 165947 and hex AE592C, reported as heading south from Camp Lejune. The sighting was credited to JessiDavin.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2116932588501618886"
+      },
+      {
+        "id": "2116926341098443151",
+        "date": "2026-11-01",
+        "dateLabel": "01 NOV 2026 · UTC",
+        "headline": "Moscow drone-strike report relayed",
+        "summary": "War Watch relayed a report, sourced to suchomimus and credited to @alexgreen1767, that Ukraine targeted Moscow with strike drones launched by balloon and that a likely oil-storage site near Sheremetyevo was struck. The visible post was truncated after the location reference.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2116926341098443151"
+      },
+      {
         "id": "2116893885381189713",
         "date": "2026-11-01",
         "dateLabel": "01 NOV 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "U.S. cargo and command-aircraft activity reported",
         "summary": "War Watch reported six U.S. Air Force cargo aircraft airborne over the United States and multiple nuclear command aircraft spotted from bases in Ohio, Nebraska and Illinois during the preceding few hours.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2116696805979156615"
-      },
-      {
-        "id": "2116681186349130133",
-        "date": "2026-10-31",
-        "dateLabel": "31 OCT 2026 · UTC",
-        "headline": "Iranian ceasefire-demands report relayed",
-        "summary": "War Watch relayed a report, credited to @reagan0965, that Iran’s Supreme National Security Council chief was refusing to change Tehran’s seven demands amid renewed ceasefire efforts. The visible post was truncated after “saying there will…”",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2116681186349130133"
-      },
-      {
-        "id": "2116674734565843166",
-        "date": "2026-10-31",
-        "dateLabel": "31 OCT 2026 · UTC",
-        "headline": "IDF alert-level report relayed",
-        "summary": "War Watch relayed a report, sourced to i24 and Conflict Radar and credited to @reagan0965, that the IDF had raised its alert level ahead of a possible resumption of joint military operations alongside the United States. The visible post was truncated after “U.S…”",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2116674734565843166"
-      },
-      {
-        "id": "2116651495814738004",
-        "date": "2026-10-31",
-        "dateLabel": "31 OCT 2026 · UTC",
-        "headline": "U.S. transport-aircraft and coded-radio activity reported",
-        "summary": "War Watch reported five U.S. Air Force transport aircraft airborne over the United States and one coded radio broadcast heard during the preceding hour.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2116651495814738004"
       }
     ]
   },
