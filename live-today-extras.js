@@ -35,7 +35,7 @@
     finally{clearTimeout(timer);}
   }
   function pick(events,now,selected){
-    const unique=[...new Map(events.map(e=>[e.id,e])).values()].filter(e=>dayKey(e.date)===dayKey(now)&&['pre','in'].includes(state(e)));
+    const unique=[...new Map(events.map(e=>[e.id,e])).values()].filter(e=>['pre','in'].includes(state(e)));
     const live=unique.filter(e=>state(e)==='in');
     const current=live.find(e=>e.id===selected);
     const upcoming=unique.filter(e=>state(e)==='pre'&&Date.parse(e.date)>now-3600000).sort((a,b)=>Date.parse(a.date)-Date.parse(b.date));
@@ -61,7 +61,7 @@
       }
       if(!near.some(r=>r.status==='fulfilled'))throw Error('EPL feed unavailable');
       const game=pick([...future,...fresh],now,eplSelected);
-      eplTarget.hidden=!game;
+      eplTarget.hidden=false;
       if(!game){eplTarget.innerHTML='<div class="live-game-badge">EPL · SCHEDULE</div><p class="live-game-empty">No match in the current schedule window.</p>'+link('https://www.premierleague.com/en/matches','Premier League fixtures');return;}
       eplTarget.hidden=false;eplLast=game;eplSelected=game.id;
       const [away,home]=teams(game),s=state(game),competition=game.competitions?.[0]||{};
@@ -70,8 +70,8 @@
       eplTarget.innerHTML='<article data-game-id="'+esc(game.id)+'" data-sport-state="'+s+'" data-sport-start="'+Date.parse(game.date)+'"><div class="live-game-badge '+(s==='in'?'is-live':'')+'">EPL · '+(s==='in'?'● LIVE':s==='post'?'FINAL':'COMING UP')+'</div><div class="live-game-teams">'+teamCard(away,'epl',s==='pre')+'<span class="live-game-versus" aria-hidden="true">'+(s==='pre'?'v':'–')+'</span>'+teamCard(home,'epl',s==='pre')+'</div><div class="live-game-clock">'+esc(detail)+'</div><p class="live-game-venue">'+esc(competition.venue?.fullName||'Premier League')+'</p>'+link(gameUrl,s==='in'?'Live game centre':s==='post'?'Final score & match details':'Match preview')+'</article>';
       finishImages(eplTarget);
     }catch(error){
-      if(eplLast&&dayKey(eplLast.date)===dayKey(Date.now())&&['pre','in'].includes(state(eplLast))){eplTarget.hidden=false;markStale(eplTarget,'EPL');if(!eplTarget.querySelector('.live-game-stale'))eplTarget.insertAdjacentHTML('beforeend','<p class="live-game-stale">EPL update delayed</p>');}
-      else {eplTarget.hidden=true;eplTarget.innerHTML='<div class="live-game-badge">EPL · UPDATE DELAYED</div><p class="live-game-empty">Scores are temporarily unavailable.</p>'+link('https://www.premierleague.com/en/matches','Premier League fixtures');}
+      if(eplLast&&['pre','in'].includes(state(eplLast))&&(state(eplLast)==='in'||Date.parse(eplLast.date)>Date.now())){eplTarget.hidden=false;markStale(eplTarget,'EPL');if(!eplTarget.querySelector('.live-game-stale'))eplTarget.insertAdjacentHTML('beforeend','<p class="live-game-stale">EPL update delayed</p>');}
+      else {eplTarget.hidden=false;eplTarget.innerHTML='<div class="live-game-badge">EPL · UPDATE DELAYED</div><p class="live-game-empty">Scores are temporarily unavailable.</p>'+link('https://www.premierleague.com/en/matches','Premier League fixtures');}
     }finally{eplBusy=false;}
   }
   let cricketBusy=false,cricketLast=null;
