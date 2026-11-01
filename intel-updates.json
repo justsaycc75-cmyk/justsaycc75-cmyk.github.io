@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2116836452608639421",
+        "date": "2026-11-01",
+        "dateLabel": "01 NOV 2026 · UTC",
+        "headline": "U.S. nuclear-command aircraft departures reported",
+        "summary": "War Watch reported multiple U.S. Air Force nuclear-command aircraft taking off from Nebraska and Illinois within minutes of one another. It characterized the activity as unusual and as possibly indicating elevated readiness.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2116836452608639421"
+      },
+      {
+        "id": "2116832538601603245",
+        "date": "2026-11-01",
+        "dateLabel": "01 NOV 2026 · UTC",
+        "headline": "Israeli multi-front readiness drill report relayed",
+        "summary": "War Watch relayed a report, credited to @reagan0965, that Israel’s Home Front Command Search and Rescue Brigade had begun a multi-front readiness drill this week simulating simultaneous emergencies. The visible post was truncated after “simultaneous emergencies…”",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2116832538601603245"
+      },
+      {
         "id": "2116787625256259664",
         "date": "2026-11-01",
         "dateLabel": "01 NOV 2026 · UTC",
@@ -83,22 +99,6 @@
         "headline": "RSD308 Il-96-300 sighting reported",
         "summary": "War Watch relayed a sighting of Russian Special Flight Squadron Ilyushin Il-96-300 RSD308, registration RA-96018 and hex 157712. The sighting was credited to jessidavin; the visible route description was truncated after “from…”",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2116580532116988128"
-      },
-      {
-        "id": "2116564462912123345",
-        "date": "2026-10-31",
-        "dateLabel": "31 OCT 2026 · UTC",
-        "headline": "AFFA30 E-6B Mercury sighting reported",
-        "summary": "War Watch relayed a sighting of an E-6B Mercury with no call sign and hex AFFA30, reported as departing Travis Air Force Base. The sighting was credited to jessidavin.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2116564462912123345"
-      },
-      {
-        "id": "2116560686817960275",
-        "date": "2026-10-31",
-        "dateLabel": "31 OCT 2026 · UTC",
-        "headline": "Meduza report on Moscow security warning highlighted",
-        "summary": "War Watch highlighted a Meduza report, saying it preceded a wire report by 10 minutes and had been confirmed by two outlets. The visible quotation said the U.S. Embassy in Moscow had warned of a mass-casualty threat at Tsaritsyno, but was truncated after the location name.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2116560686817960275"
       }
     ]
   },
