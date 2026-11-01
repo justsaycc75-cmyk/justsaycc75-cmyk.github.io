@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2116893885381189713",
+        "date": "2026-11-01",
+        "dateLabel": "01 NOV 2026 · UTC",
+        "headline": "AE4AEC C-32A sighting reported",
+        "summary": "War Watch relayed a sighting of Boeing C-32A registration 19-0018, with no call sign and hex AE4AEC, heading south from Joint Base Andrews. The sighting was credited to JessiDavin.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2116893885381189713"
+      },
+      {
+        "id": "2116881900060938296",
+        "date": "2026-11-01",
+        "dateLabel": "01 NOV 2026 · UTC",
+        "headline": "U.S. transport-aircraft activity reported",
+        "summary": "War Watch reported six U.S. Air Force transport aircraft airborne across multiple regions and no coded radio broadcasts detected during the preceding hour.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2116881900060938296"
+      },
+      {
+        "id": "2116869279907807612",
+        "date": "2026-11-01",
+        "dateLabel": "01 NOV 2026 · UTC",
+        "headline": "KRH647 Royal VIP A321 sighting reported",
+        "summary": "War Watch relayed a sighting of a UK Royal VIP Airbus A321, call sign KRH647, registration G-GBNI and hex 407DFC, leaving Atlanta, Georgia. The sighting was credited to JessiDavin.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2116869279907807612"
+      },
+      {
         "id": "2116836452608639421",
         "date": "2026-11-01",
         "dateLabel": "01 NOV 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "U.S. transport-aircraft and coded-radio activity reported",
         "summary": "War Watch reported five U.S. Air Force transport aircraft airborne over the United States and one coded radio broadcast heard during the preceding hour.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2116651495814738004"
-      },
-      {
-        "id": "2116596426423632293",
-        "date": "2026-10-31",
-        "dateLabel": "31 OCT 2026 · UTC",
-        "headline": "U.S. command, transport and coded-radio activity reported",
-        "summary": "War Watch reported multiple U.S. Air Force nuclear command-and-control aircraft and transport aircraft airborne over the continental United States. It said the latest coded radio broadcast had been heard at 17:51 UTC.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2116596426423632293"
-      },
-      {
-        "id": "2116588121231925653",
-        "date": "2026-10-31",
-        "dateLabel": "31 OCT 2026 · UTC",
-        "headline": "AF6BC4 E-6B Mercury sighting reported",
-        "summary": "War Watch relayed a sighting of a Boeing E-6B Mercury with no call sign or registration shown, hex AF6BC4, reported as departing Omaha. The sighting was credited to JessiDavin.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2116588121231925653"
-      },
-      {
-        "id": "2116580532116988128",
-        "date": "2026-10-31",
-        "dateLabel": "31 OCT 2026 · UTC",
-        "headline": "RSD308 Il-96-300 sighting reported",
-        "summary": "War Watch relayed a sighting of Russian Special Flight Squadron Ilyushin Il-96-300 RSD308, registration RA-96018 and hex 157712. The sighting was credited to jessidavin; the visible route description was truncated after “from…”",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2116580532116988128"
       }
     ]
   },
