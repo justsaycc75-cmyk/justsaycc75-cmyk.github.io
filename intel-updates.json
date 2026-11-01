@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2116696805979156615",
+        "date": "2026-11-01",
+        "dateLabel": "01 NOV 2026 · UTC",
+        "headline": "U.S. cargo and command-aircraft activity reported",
+        "summary": "War Watch reported six U.S. Air Force cargo aircraft airborne over the United States and multiple nuclear command aircraft spotted from bases in Ohio, Nebraska and Illinois during the preceding few hours.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2116696805979156615"
+      },
+      {
+        "id": "2116681186349130133",
+        "date": "2026-10-31",
+        "dateLabel": "31 OCT 2026 · UTC",
+        "headline": "Iranian ceasefire-demands report relayed",
+        "summary": "War Watch relayed a report, credited to @reagan0965, that Iran’s Supreme National Security Council chief was refusing to change Tehran’s seven demands amid renewed ceasefire efforts. The visible post was truncated after “saying there will…”",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2116681186349130133"
+      },
+      {
+        "id": "2116674734565843166",
+        "date": "2026-10-31",
+        "dateLabel": "31 OCT 2026 · UTC",
+        "headline": "IDF alert-level report relayed",
+        "summary": "War Watch relayed a report, sourced to i24 and Conflict Radar and credited to @reagan0965, that the IDF had raised its alert level ahead of a possible resumption of joint military operations alongside the United States. The visible post was truncated after “U.S…”",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2116674734565843166"
+      },
+      {
         "id": "2116651495814738004",
         "date": "2026-10-31",
         "dateLabel": "31 OCT 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "AE0692 KC-135 Stratotanker sighting reported",
         "summary": "War Watch relayed a sighting of KC-135 Stratotanker registration 63-7997, hex AE0692, with no call sign, circling over the West Palm Beach temporary flight restriction. The sighting was credited to JessiDavin.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2116531448446431398"
-      },
-      {
-        "id": "2116505208486277415",
-        "date": "2026-10-31",
-        "dateLabel": "31 OCT 2026 · UTC",
-        "headline": "Sustained U.S. transport-aircraft activity reported",
-        "summary": "War Watch reported six U.S. Air Force transport aircraft observed across the Atlantic and North Sea during the preceding hour, describing this as part of sustained heavy airlift activity during recent hours.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2116505208486277415"
-      },
-      {
-        "id": "2116486057424224268",
-        "date": "2026-10-31",
-        "dateLabel": "31 OCT 2026 · UTC",
-        "headline": "Al Jazeera report on Iranian threat response highlighted",
-        "summary": "War Watch highlighted an Al Jazeera Arabic report, saying it preceded a wire report by 26 minutes and had been confirmed by two outlets. The visible quotation, attributed to Iran’s Supreme Leader and addressed to armed-forces commanders, was truncated after “any kind of threat must be…”",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2116486057424224268"
-      },
-      {
-        "id": "2116459737038372999",
-        "date": "2026-10-31",
-        "dateLabel": "31 OCT 2026 · UTC",
-        "headline": "Six U.S. transport aircraft and no coded broadcasts reported",
-        "summary": "War Watch reported six U.S. Air Force transport aircraft airborne over the North Atlantic and continental United States during the preceding hour, crediting RobertChester-j5b. It reported that no coded broadcasts were detected.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2116459737038372999"
       }
     ]
   },
