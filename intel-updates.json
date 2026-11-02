@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2117215877082857568",
+        "date": "2026-11-02",
+        "dateLabel": "02 NOV 2026 · UTC",
+        "headline": "U.S. cargo, Border Patrol and presidential aircraft activity reported",
+        "summary": "War Watch reported six U.S. Air Force cargo aircraft and a Border Patrol aircraft airborne over the continental United States. It also reported a presidential transport aircraft spotted heading southeast over Missouri earlier.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2117215877082857568"
+      },
+      {
         "id": "2117170413100822727",
         "date": "2026-11-02",
         "dateLabel": "02 NOV 2026 · UTC",
@@ -91,14 +99,6 @@
         "headline": "Zelensky refinery-strike statement relayed",
         "summary": "War Watch relayed a report, credited to @reagan0965, that President Zelensky said Ukraine had resumed striking Russian oil refineries after Russia refused to cease attacks on Ukrainian targets. The visible post was truncated after “Ukrainian…”",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2117022707216683066"
-      },
-      {
-        "id": "2117017081308701106",
-        "date": "2026-11-01",
-        "dateLabel": "01 NOV 2026 · UTC",
-        "headline": "RCH2175 C-5M Super Galaxy sighting reported",
-        "summary": "War Watch relayed a sighting of a Lockheed C-5M Super Galaxy, call sign RCH2175, registration 87-0037 and hex AE0582. The sighting was credited to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2117017081308701106"
       }
     ]
   },
