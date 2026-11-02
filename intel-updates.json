@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2117170413100822727",
+        "date": "2026-11-02",
+        "dateLabel": "02 NOV 2026 · UTC",
+        "headline": "U.S. transport and presidential-support aircraft activity reported",
+        "summary": "War Watch reported six large U.S. Air Force transport aircraft airborne over the United States and North Sea, with a presidential aircraft and support jets also spotted in the preceding few hours.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2117170413100822727"
+      },
+      {
+        "id": "2117125112742727947",
+        "date": "2026-11-02",
+        "dateLabel": "02 NOV 2026 · UTC",
+        "headline": "Nuclear-command, transport and tanker activity reported",
+        "summary": "War Watch reported a nuclear-command aircraft airborne over the United States, six coded military radio broadcasts during the day with one in the preceding hour, and multiple large transport aircraft and refuelling tankers active.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2117125112742727947"
+      },
+      {
         "id": "2117083586033500467",
         "date": "2026-11-02",
         "dateLabel": "02 NOV 2026 · UTC",
@@ -83,22 +99,6 @@
         "headline": "RCH2175 C-5M Super Galaxy sighting reported",
         "summary": "War Watch relayed a sighting of a Lockheed C-5M Super Galaxy, call sign RCH2175, registration 87-0037 and hex AE0582. The sighting was credited to reagan0965.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2117017081308701106"
-      },
-      {
-        "id": "2116986459307565232",
-        "date": "2026-11-01",
-        "dateLabel": "01 NOV 2026 · UTC",
-        "headline": "U.S. radar, command and transport-aircraft activity reported",
-        "summary": "War Watch reported U.S. Air Force radar aircraft, nuclear-command aircraft and transport aircraft active over the continental United States. It reported no coded radio broadcasts detected during the hour.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2116986459307565232"
-      },
-      {
-        "id": "2116982687239901366",
-        "date": "2026-11-01",
-        "dateLabel": "01 NOV 2026 · UTC",
-        "headline": "SAM01 Boeing 747-8 sighting reported",
-        "summary": "War Watch relayed a sighting of a U.S. Air Force 89th Airlift Wing Boeing 747-8 from Andrews Air Force Base, call sign SAM01, registration 25-3300 and hex AF83F3. The sighting was credited to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2116982687239901366"
       }
     ]
   },
