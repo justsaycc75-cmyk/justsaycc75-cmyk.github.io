@@ -5,6 +5,38 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2117079811927494828",
+        "date": "2026-11-02",
+        "dateLabel": "02 NOV 2026 · UTC",
+        "headline": "U.S. transport-aircraft activity reported",
+        "summary": "War Watch reported six U.S. Air Force transport aircraft airborne over the continental United States, including multiple large cargo aircraft. It reported no coded radio broadcasts detected during the hour.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2117079811927494828"
+      },
+      {
+        "id": "2117075488975749561",
+        "date": "2026-11-02",
+        "dateLabel": "02 NOV 2026 · UTC",
+        "headline": "AE048C KC-135R/T Stratotanker sighting reported",
+        "summary": "War Watch relayed a sighting of Boeing KC-135R/T Stratotanker registration 63-8883, with an empty call-sign field and hex AE048C. The sighting was credited to reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2117075488975749561"
+      },
+      {
+        "id": "2117058460768407828",
+        "date": "2026-11-02",
+        "dateLabel": "02 NOV 2026 · UTC",
+        "headline": "DRGN31 Airbus A330-200 sighting reported",
+        "summary": "War Watch relayed a sighting of Airbus A330-200 registration A39-005, call sign DRGN31 and hex 7CF868. The sighting was credited to reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2117058460768407828"
+      },
+      {
+        "id": "2117053474550452679",
+        "date": "2026-11-02",
+        "dateLabel": "02 NOV 2026 · UTC",
+        "headline": "General Atomics NextGen aircraft report relayed",
+        "summary": "War Watch relayed a TWZ report, credited to @reagan0965, that General Atomics was developing a strike-reconnaissance flying wing called NextGen using hybrid-electric propulsion.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2117053474550452679"
+      },
+      {
         "id": "2117034279897034801",
         "date": "2026-11-01",
         "dateLabel": "01 NOV 2026 · UTC",
@@ -67,38 +99,6 @@
         "headline": "German military-base security report relayed",
         "summary": "War Watch relayed a Stars and Stripes report, credited to @reagan0965, that Germany was tightening security at military bases over concerns about Russia, according to a commander.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2116978908163694778"
-      },
-      {
-        "id": "2116974971326980181",
-        "date": "2026-11-01",
-        "dateLabel": "01 NOV 2026 · UTC",
-        "headline": "AE4AEC C-32A sighting reported",
-        "summary": "War Watch relayed a sighting of Boeing C-32A registration 19-0018, with an empty call-sign field and hex AE4AEC. The sighting was credited to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2116974971326980181"
-      },
-      {
-        "id": "2116948426151600470",
-        "date": "2026-11-01",
-        "dateLabel": "01 NOV 2026 · UTC",
-        "headline": "Suspilne evacuation report highlighted",
-        "summary": "War Watch highlighted a Suspilne report it said preceded a wire report by 39 minutes and had been confirmed by two outlets. The visible excerpt said 167 people, including 22 children and 21 people with limited mobility, were evacuated, but was truncated after “were evacuated…”",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2116948426151600470"
-      },
-      {
-        "id": "2116938347427811588",
-        "date": "2026-11-01",
-        "dateLabel": "01 NOV 2026 · UTC",
-        "headline": "U.S. transport and surveillance-aircraft activity reported",
-        "summary": "War Watch reported multiple U.S. Air Force transport aircraft airborne, including one over the North Sea, and a U.S. Border Patrol surveillance aircraft also airborne. The visible post was truncated after “No coded radio broadcasts detected in the…”",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2116938347427811588"
-      },
-      {
-        "id": "2116932588501618886",
-        "date": "2026-11-01",
-        "dateLabel": "01 NOV 2026 · UTC",
-        "headline": "LEROY13 V-22 sighting reported",
-        "summary": "War Watch relayed a sighting of a Bell-Boeing V-22, call sign LEROY13, registration 165947 and hex AE592C, reported as heading south from Camp Lejune. The sighting was credited to JessiDavin.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2116932588501618886"
       }
     ]
   },
@@ -107,6 +107,14 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2117080108183732667",
+        "date": "2026-11-02",
+        "dateLabel": "02 NOV 2026 · UTC",
+        "headline": "N722BD Learjet 60 crash reported",
+        "summary": "SkyGlass reported that Learjet 60 N722BD, flying from Austin to North Eleuthera, crashed near Military Trail in Palm Beach County on Sunday afternoon, killing all nine people aboard. It said the NTSB was investigating and shared an AVIAR Labs Overwatch replay.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2117080108183732667"
+      },
       {
         "id": "2116153766357389707",
         "date": "2026-10-30",
@@ -194,14 +202,6 @@
         "headline": "NBAA-BACE peak-hour replay shared",
         "summary": "SkyGlass shared a 30-times-speed replay covering 28 minutes of Wednesday’s NBAA-BACE peak traffic across Harry Reid, Henderson, North Las Vegas and Boulder City, followed by a valley-wide view.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2113359898415096026"
-      },
-      {
-        "id": "2113344736543002890",
-        "date": "2026-10-22",
-        "dateLabel": "22 OCT 2026 · UTC",
-        "headline": "N871CB Boulder City arrival replay shared",
-        "summary": "SkyGlass shared the Wednesday NBAA-BACE arrival of Citation CJ2 N871CB into Boulder City, showing the approach at ten-times speed and the touchdown in real time.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2113344736543002890"
       }
     ]
   }
