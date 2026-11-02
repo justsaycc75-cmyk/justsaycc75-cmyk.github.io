@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2117266043584323744",
+        "date": "2026-11-02",
+        "dateLabel": "02 NOV 2026 · UTC",
+        "headline": "AF2 Boeing C-32A sighting reported",
+        "summary": "War Watch relayed a sighting of Boeing C-32A registration 99-0003, call sign AF2 and hex ADFEB9, heading north out of Washington, D.C. The sighting was credited to jessidavin.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2117266043584323744"
+      },
+      {
+        "id": "2117261398082265522",
+        "date": "2026-11-02",
+        "dateLabel": "02 NOV 2026 · UTC",
+        "headline": "Korea and Japan activity above normal reported",
+        "summary": "War Watch reported six U.S. Air Force transport aircraft airborne over the continental United States and activity near Korea and Japan at nearly three times normal levels.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2117261398082265522"
+      },
+      {
         "id": "2117215877082857568",
         "date": "2026-11-02",
         "dateLabel": "02 NOV 2026 · UTC",
@@ -83,22 +99,6 @@
         "headline": "Trump Iran-deal statement relayed",
         "summary": "War Watch relayed a Conflict Radar report, credited to @reagan0965, quoting President Trump as saying Iran would either make a deal or the situation would be ended, and describing the latter as possibly the easy way.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2117030502813082055"
-      },
-      {
-        "id": "2117026731752063257",
-        "date": "2026-11-01",
-        "dateLabel": "01 NOV 2026 · UTC",
-        "headline": "KRH647P UK government A321neo sighting reported",
-        "summary": "War Watch relayed a sighting of a UK government Airbus A321neo, call sign KRH647P, registration G-GBNI and hex 407DFC. The sighting was credited to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2117026731752063257"
-      },
-      {
-        "id": "2117022707216683066",
-        "date": "2026-11-01",
-        "dateLabel": "01 NOV 2026 · UTC",
-        "headline": "Zelensky refinery-strike statement relayed",
-        "summary": "War Watch relayed a report, credited to @reagan0965, that President Zelensky said Ukraine had resumed striking Russian oil refineries after Russia refused to cease attacks on Ukrainian targets. The visible post was truncated after “Ukrainian…”",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2117022707216683066"
       }
     ]
   },
