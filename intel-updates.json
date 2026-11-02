@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2117349847657333161",
+        "date": "2026-11-02",
+        "dateLabel": "02 NOV 2026 · UTC",
+        "headline": "UKMTO vessel-strike warning relayed",
+        "summary": "War Watch reported that the United Kingdom Maritime Trade Operations centre issued a warning after a vessel master said the vessel had been struck. The visible post text is truncated before identifying what struck it.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2117349847657333161"
+      },
+      {
+        "id": "2117325431909065024",
+        "date": "2026-11-02",
+        "dateLabel": "02 NOV 2026 · UTC",
+        "headline": "Zaporizhzhia school-strike report highlighted",
+        "summary": "War Watch highlighted a Meduza report that Ukraine's president said Russian bombs struck a school used to distribute humanitarian aid in Zaporizhzhia. It said the report preceded wire coverage by five minutes and was confirmed by two outlets.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2117325431909065024"
+      },
+      {
+        "id": "2117319879246147983",
+        "date": "2026-11-02",
+        "dateLabel": "02 NOV 2026 · UTC",
+        "headline": "Iran deal-guarantor report relayed",
+        "summary": "War Watch relayed an Iran Observer statement that Iran wanted Russia and China to be guarantors of a deal with the United States.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2117319879246147983"
+      },
+      {
+        "id": "2117316104762581298",
+        "date": "2026-11-02",
+        "dateLabel": "02 NOV 2026 · UTC",
+        "headline": "U.S. bomber, surveillance and radio activity reported",
+        "summary": "War Watch reported multiple U.S. bombers and surveillance aircraft airborne over the continental United States alongside unusual coded radio traffic, with Baltic-region air activity at nearly three times normal levels.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2117316104762581298"
+      },
+      {
+        "id": "2117312096346009773",
+        "date": "2026-11-02",
+        "dateLabel": "02 NOV 2026 · UTC",
+        "headline": "Washington manhole-smoke response reported",
+        "summary": "War Watch reported that D.C. Fire and EMS responded to smoke from multiple manholes and that there was a large police presence outside the World Bank. The visible post text is truncated after that point.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2117312096346009773"
+      },
+      {
         "id": "2117302292537913675",
         "date": "2026-11-02",
         "dateLabel": "02 NOV 2026 · UTC",
@@ -59,46 +99,6 @@
         "headline": "Korea and Japan activity above normal reported",
         "summary": "War Watch reported six U.S. Air Force transport aircraft airborne over the continental United States and activity near Korea and Japan at nearly three times normal levels.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2117261398082265522"
-      },
-      {
-        "id": "2117215877082857568",
-        "date": "2026-11-02",
-        "dateLabel": "02 NOV 2026 · UTC",
-        "headline": "U.S. cargo, Border Patrol and presidential aircraft activity reported",
-        "summary": "War Watch reported six U.S. Air Force cargo aircraft and a Border Patrol aircraft airborne over the continental United States. It also reported a presidential transport aircraft spotted heading southeast over Missouri earlier.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2117215877082857568"
-      },
-      {
-        "id": "2117170413100822727",
-        "date": "2026-11-02",
-        "dateLabel": "02 NOV 2026 · UTC",
-        "headline": "U.S. transport and presidential-support aircraft activity reported",
-        "summary": "War Watch reported six large U.S. Air Force transport aircraft airborne over the United States and North Sea, with a presidential aircraft and support jets also spotted in the preceding few hours.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2117170413100822727"
-      },
-      {
-        "id": "2117125112742727947",
-        "date": "2026-11-02",
-        "dateLabel": "02 NOV 2026 · UTC",
-        "headline": "Nuclear-command, transport and tanker activity reported",
-        "summary": "War Watch reported a nuclear-command aircraft airborne over the United States, six coded military radio broadcasts during the day with one in the preceding hour, and multiple large transport aircraft and refuelling tankers active.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2117125112742727947"
-      },
-      {
-        "id": "2117083586033500467",
-        "date": "2026-11-02",
-        "dateLabel": "02 NOV 2026 · UTC",
-        "headline": "AED4AC Boeing E-6B sighting reported",
-        "summary": "War Watch relayed a sighting of a Boeing E-6B with no call sign or registration shown, hex AED4AC, reported from Patuxent River NAS over the Atlantic. The sighting was credited to JessiDavin.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2117083586033500467"
-      },
-      {
-        "id": "2117079811927494828",
-        "date": "2026-11-02",
-        "dateLabel": "02 NOV 2026 · UTC",
-        "headline": "U.S. transport-aircraft activity reported",
-        "summary": "War Watch reported six U.S. Air Force transport aircraft airborne over the continental United States, including multiple large cargo aircraft. It reported no coded radio broadcasts detected during the hour.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2117079811927494828"
       }
     ]
   },
