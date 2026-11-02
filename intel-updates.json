@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2117083586033500467",
+        "date": "2026-11-02",
+        "dateLabel": "02 NOV 2026 · UTC",
+        "headline": "AED4AC Boeing E-6B sighting reported",
+        "summary": "War Watch relayed a sighting of a Boeing E-6B with no call sign or registration shown, hex AED4AC, reported from Patuxent River NAS over the Atlantic. The sighting was credited to JessiDavin.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2117083586033500467"
+      },
+      {
         "id": "2117079811927494828",
         "date": "2026-11-02",
         "dateLabel": "02 NOV 2026 · UTC",
@@ -91,14 +99,6 @@
         "headline": "SAM01 Boeing 747-8 sighting reported",
         "summary": "War Watch relayed a sighting of a U.S. Air Force 89th Airlift Wing Boeing 747-8 from Andrews Air Force Base, call sign SAM01, registration 25-3300 and hex AF83F3. The sighting was credited to reagan0965.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2116982687239901366"
-      },
-      {
-        "id": "2116978908163694778",
-        "date": "2026-11-01",
-        "dateLabel": "01 NOV 2026 · UTC",
-        "headline": "German military-base security report relayed",
-        "summary": "War Watch relayed a Stars and Stripes report, credited to @reagan0965, that Germany was tightening security at military bases over concerns about Russia, according to a commander.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2116978908163694778"
       }
     ]
   },
