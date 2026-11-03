@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2117479348856881343",
+        "date": "2026-11-03",
+        "dateLabel": "03 NOV 2026 · UTC",
+        "headline": "Revolutionary Guard firing report highlighted",
+        "summary": "War Watch highlighted an Al Jazeera Arabic report quoting The New York Times, which cited a U.S. official, saying Iran's Revolutionary Guard fired something. The visible text is truncated immediately after “fired” and does not identify what was fired. It said the report preceded wire coverage by 19 minutes and was confirmed by two outlets.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2117479348856881343"
+      },
+      {
+        "id": "2117458587781849335",
+        "date": "2026-11-03",
+        "dateLabel": "03 NOV 2026 · UTC",
+        "headline": "Kharkiv medical-facility strike report highlighted",
+        "summary": "War Watch highlighted a Suspilne report, attributed to Kharkiv's mayor, that one strike hit a medical facility in the city's Nemyshlianskyi district. The visible post text is truncated after that statement. It said the report preceded wire coverage by 49 minutes and was confirmed by two outlets.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2117458587781849335"
+      },
+      {
+        "id": "2117452256115073216",
+        "date": "2026-11-03",
+        "dateLabel": "03 NOV 2026 · UTC",
+        "headline": "U.S. transport and nuclear-command activity reported",
+        "summary": "War Watch reported multiple U.S. Air Force transport aircraft airborne over the continental United States alongside a nuclear command-and-control aircraft, with activity elevated near the Persian Gulf and domestically.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2117452256115073216"
+      },
+      {
         "id": "2117439672435564978",
         "date": "2026-11-03",
         "dateLabel": "03 NOV 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "Qeshm Island air-defence strike report relayed",
         "summary": "War Watch relayed an Open Source Intel report that a U.S. strike hit an air-defence system on Qeshm Island and that explosions were heard afterward in Bandar Abbas.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2117372729808625756"
-      },
-      {
-        "id": "2117368957812261089",
-        "date": "2026-11-02",
-        "dateLabel": "02 NOV 2026 · UTC",
-        "headline": "TOPCT30 RC-135W sighting relayed",
-        "summary": "War Watch relayed a sighting of Boeing RC-135W Rivet Joint registration 62-4130, call sign TOPCT30 and hex AE01D1. The sighting was credited to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2117368957812261089"
-      },
-      {
-        "id": "2117349847657333161",
-        "date": "2026-11-02",
-        "dateLabel": "02 NOV 2026 · UTC",
-        "headline": "UKMTO vessel-strike warning relayed",
-        "summary": "War Watch reported that the United Kingdom Maritime Trade Operations centre issued a warning after a vessel master said the vessel had been struck. The visible post text is truncated before identifying what struck it.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2117349847657333161"
-      },
-      {
-        "id": "2117325431909065024",
-        "date": "2026-11-02",
-        "dateLabel": "02 NOV 2026 · UTC",
-        "headline": "Zaporizhzhia school-strike report highlighted",
-        "summary": "War Watch highlighted a Meduza report that Ukraine's president said Russian bombs struck a school used to distribute humanitarian aid in Zaporizhzhia. It said the report preceded wire coverage by five minutes and was confirmed by two outlets.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2117325431909065024"
       }
     ]
   },
