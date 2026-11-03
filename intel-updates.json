@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2117712309854335120",
+        "headline": "German military-dominance comment relayed",
+        "summary": "War Watch relayed a Polymarket Intel report quoting German deputy defence minister Nils Schmid as saying Germany’s neighbours had no reason to fear a militarily dominant Germany. The report was credited to reagan0965.",
+        "date": "2026-11-03",
+        "dateLabel": "03 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2117712309854335120"
+      },
+      {
+        "id": "2117694712052125811",
+        "headline": "Drone-focused warship concept report highlighted",
+        "summary": "War Watch highlighted a Reuters report that Naval Group had unveiled a drone-focused warship concept. It said the report preceded wire coverage by 63 minutes and was confirmed by two outlets.",
+        "date": "2026-11-03",
+        "dateLabel": "03 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2117694712052125811"
+      },
+      {
+        "id": "2117690936276783556",
+        "headline": "Iran chemical-weapons intelligence report relayed",
+        "summary": "War Watch relayed a report that Israel had shared intelligence with the United States indicating Iran was planning to use chemical weapons against Tel Aviv. The visible text is truncated immediately after “according to” and does not identify the cited source. The report was credited to reagan0965.",
+        "date": "2026-11-03",
+        "dateLabel": "03 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2117690936276783556"
+      },
+      {
+        "id": "2117687148262355314",
+        "headline": "ADFEB5 E-4B sighting relayed",
+        "summary": "War Watch relayed a sighting of Boeing E-4B registration 74-0787 and hex ADFEB5, with no call sign shown. The sighting was credited to reagan0965, with a photograph credited to Chris Lofting via Planespotters.net.",
+        "date": "2026-11-03",
+        "dateLabel": "03 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2117687148262355314"
+      },
+      {
+        "id": "2117681120657428961",
+        "headline": "U.S., Gulf and Baltic air activity reported",
+        "summary": "War Watch reported multiple U.S. military surveillance aircraft airborne over the United States, Gulf air activity at nearly three times normal with elevated coded radio traffic, and busy activity in the Baltic.",
+        "date": "2026-11-03",
+        "dateLabel": "03 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2117681120657428961"
+      },
+      {
         "id": "2117668520112615860",
         "headline": "GRUMN11 E-2 Hawkeye sighting relayed",
         "summary": "War Watch relayed a sighting of an E-2 Hawkeye using call sign GRUMN11 and hex AFA186, with no registration shown. The sighting was credited to JessiDavin.",
@@ -59,46 +99,6 @@
         "summary": "War Watch relayed a Stars and Stripes report that U.S. European Command urged troops and their families to vary their routines amid threats to bases. The report was credited to reagan0965.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2117616850074787967",
         "dateLabel": "03 NOV 2026 · UTC"
-      },
-      {
-        "id": "2117588524580917369",
-        "date": "2026-11-03",
-        "headline": "U.S. surveillance and transport activity reported",
-        "summary": "War Watch reported U.S. Air Force surveillance aircraft active over the North Sea and multiple transport aircraft moving across U.S. bases amid recent tensions with Iran. The visible text is truncated after “heightened European security” and does not show the remainder of the update.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2117588524580917369",
-        "dateLabel": "03 NOV 2026 · UTC"
-      },
-      {
-        "id": "2117554065160683709",
-        "date": "2026-11-03",
-        "dateLabel": "03 NOV 2026 · UTC",
-        "headline": "Dnipro hospice missile-strike report highlighted",
-        "summary": "War Watch highlighted a Meduza report, attributed to Dnipro mayor Borys Filatov, that a hospice was damaged by a Russian missile strike. The visible text is truncated after “nearly 50” and does not show the remainder of the report. It said the report preceded wire coverage by 46 minutes and was confirmed by two outlets.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2117554065160683709"
-      },
-      {
-        "id": "2117543104257355871",
-        "date": "2026-11-03",
-        "dateLabel": "03 NOV 2026 · UTC",
-        "headline": "U.S. transport activity over Eastern Mediterranean reported",
-        "summary": "War Watch reported multiple U.S. military transport aircraft airborne, including one over the Eastern Mediterranean, as tensions with Iran remained high following reported U.S. strikes.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2117543104257355871"
-      },
-      {
-        "id": "2117497806134857853",
-        "date": "2026-11-03",
-        "dateLabel": "03 NOV 2026 · UTC",
-        "headline": "U.S. transport and Persian Gulf activity reported",
-        "summary": "War Watch reported six U.S. military transport aircraft airborne across the Atlantic and over the United States, reports of U.S. strikes on Iran's Qeshm Island, and an Iranian drone shot down over the Strait of Hormuz.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2117497806134857853"
-      },
-      {
-        "id": "2117492374863528253",
-        "date": "2026-11-03",
-        "dateLabel": "03 NOV 2026 · UTC",
-        "headline": "Russian refinery report highlighted",
-        "summary": "War Watch highlighted an ASTRA report describing one of Russia's largest refineries as a supplier of fuel for military aviation. The visible text is truncated after the word “and” and does not show the remainder of the report. It said the report preceded wire coverage by 34 minutes and was confirmed by two outlets.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2117492374863528253"
       }
     ]
   },
