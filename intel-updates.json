@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2117554065160683709",
+        "date": "2026-11-03",
+        "dateLabel": "03 NOV 2026 · UTC",
+        "headline": "Dnipro hospice missile-strike report highlighted",
+        "summary": "War Watch highlighted a Meduza report, attributed to Dnipro mayor Borys Filatov, that a hospice was damaged by a Russian missile strike. The visible text is truncated after “nearly 50” and does not show the remainder of the report. It said the report preceded wire coverage by 46 minutes and was confirmed by two outlets.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2117554065160683709"
+      },
+      {
+        "id": "2117543104257355871",
+        "date": "2026-11-03",
+        "dateLabel": "03 NOV 2026 · UTC",
+        "headline": "U.S. transport activity over Eastern Mediterranean reported",
+        "summary": "War Watch reported multiple U.S. military transport aircraft airborne, including one over the Eastern Mediterranean, as tensions with Iran remained high following reported U.S. strikes.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2117543104257355871"
+      },
+      {
         "id": "2117497806134857853",
         "date": "2026-11-03",
         "dateLabel": "03 NOV 2026 · UTC",
@@ -83,22 +99,6 @@
         "headline": "Qeshm airstrike confirmation report relayed",
         "summary": "War Watch relayed a report, credited to weslester6474, that an airstrike on Qeshm appeared to have been confirmed by U.S. officials.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2117418242595565671"
-      },
-      {
-        "id": "2117392910337388937",
-        "date": "2026-11-02",
-        "dateLabel": "02 NOV 2026 · UTC",
-        "headline": "Mar-a-Lago counter-drone laser report relayed",
-        "summary": "War Watch relayed a The War Zone report, credited to reagan0965, that a counter-drone laser weapon was guarding Mar-a-Lago alongside surface-to-air missiles.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2117392910337388937"
-      },
-      {
-        "id": "2117380783362941410",
-        "date": "2026-11-02",
-        "dateLabel": "02 NOV 2026 · UTC",
-        "headline": "Qeshm Island explosion or launch reports relayed",
-        "summary": "War Watch relayed a report of four to six explosions or launches from Qeshm Island in Hormozgan Province, southern Iran. The post attributed the information only as a “UK Report.”",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2117380783362941410"
       }
     ]
   },
