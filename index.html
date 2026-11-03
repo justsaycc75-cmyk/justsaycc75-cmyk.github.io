@@ -146,7 +146,7 @@
 <aside class="front-photo-rail" aria-label="Featured photo links">
 <section class="front-live-today" id="live-today" aria-labelledby="live-today-title">
 <h2 id="live-today-title">LIVE TODAY <span class="live-panel-count" data-live-count hidden></span></h2>
-<section class="sandown-schedule" aria-label="2026 Penrite Oil Sandown 500 Supercars timetable">
+<section class="sandown-schedule live-sport-panel" data-sport-state="pre" data-sport-start="1793936400000" aria-label="2026 Penrite Oil Sandown 500 Supercars timetable">
 <h3>🏁 PENRITE OIL SANDOWN 500 · 6–8 NOVEMBER</h3>
 <p class="sandown-intro">Supercars semi-final · Two 250 km races · All times Sydney (AEDT)</p>
 <div class="sandown-table-wrap"><table><thead><tr><th scope="col">Day</th><th scope="col">Session</th><th scope="col">Start</th></tr></thead><tbody>
@@ -183,9 +183,10 @@
 <div class="rlwc-mark" aria-hidden="true"><b>RLWC</b><strong>26</strong></div>
 <h3 class="rlwc-heading">Rugby League<br>World Cup</h3>
 <p class="rlwc-subtitle">MEN’S TOURNAMENT</p>
-<div class="rlwc-featured" data-rlwc-featured aria-label="Featured Rugby League World Cup matches">
-<article class="rlwc-feature" data-rlwc-feature-id="20261310340"><small>Sunday 1 November · 5:40pm Sydney</small><strong>Lebanon v France</strong><span class="rlwc-feature-state">Upcoming</span><span class="rlwc-feature-venue">CommBank Stadium, Sydney</span><a href="https://www.rlwc2026.com/draw/mens/2026/round-3/lebanon-v-france" target="_blank" rel="noopener noreferrer">Official match centre ↗</a></article>
-<article class="rlwc-feature" data-rlwc-feature-id="20261310350"><small>Sunday 1 November · 8:05pm Sydney</small><strong>Tonga v Samoa</strong><span class="rlwc-feature-state">Upcoming</span><span class="rlwc-feature-venue">CommBank Stadium, Sydney</span><a href="https://www.rlwc2026.com/draw/mens/2026/round-3/tonga-v-samoa" target="_blank" rel="noopener noreferrer">Official match centre ↗</a></article>
+<div class="rlwc-featured" data-rlwc-featured aria-label="Upcoming men's Rugby League World Cup matches">
+<article class="rlwc-feature" data-rlwc-feature-id="20261310410"><small>Saturday 7 November · 8:05pm AEDT</small><strong>New Zealand v Tonga</strong><span class="rlwc-feature-state">Semi-final 1</span><span class="rlwc-feature-venue">McDonald Jones Stadium, Newcastle</span><a href="https://www.nrl.com/draw/rugby-league-world-cup/" target="_blank" rel="noopener noreferrer">Official match centre ↗</a></article>
+<article class="rlwc-feature" data-rlwc-feature-id="20261310420"><small>Sunday 8 November · 8:05pm AEDT</small><strong>Australia v Samoa</strong><span class="rlwc-feature-state">Semi-final 2</span><span class="rlwc-feature-venue">Allianz Stadium, Sydney</span><a href="https://www.nrl.com/draw/rugby-league-world-cup/" target="_blank" rel="noopener noreferrer">Official match centre ↗</a></article>
+<article class="rlwc-feature" data-rlwc-feature-id="20261310510"><small>Sunday 15 November · 7:35pm AEDT</small><strong>Finalists to be decided</strong><span class="rlwc-feature-state">Men’s final</span><span class="rlwc-feature-venue">Suncorp Stadium, Brisbane</span><a href="https://www.nrl.com/draw/rugby-league-world-cup/" target="_blank" rel="noopener noreferrer">Official match centre ↗</a></article>
 </div>
 <div data-rlwc-secondary hidden>
 <p class="rlwc-other-label">Other World Cup action</p>
@@ -625,73 +626,40 @@ update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
  const fmt=new Intl.DateTimeFormat('en-AU',{timeZone:'Australia/Sydney',weekday:'short',hour:'numeric',minute:'2-digit',hour12:true});
  const stamp=new Intl.DateTimeFormat('en-AU',{timeZone:'Australia/Sydney',hour:'numeric',minute:'2-digit',second:'2-digit',hour12:true});
  let data=null,failed=false,busy=false;
- function render(){
-  const now=Date.now();
-  if(now>=Date.parse('2026-11-16T00:00:00+11:00')){panel.hidden=true;return;}
-  panel.hidden=false;
-  const fixtures=(data?.fixtures||fallback).map(f=>({...f,start:Date.parse(f.start)}));
-  const age=data?Math.max(0,now-Date.parse(data.fetchedAt)):Infinity;
-  const fresh=!!data&&age<=10*60*1000&&!failed;
-  const records=fixtures.filter(f=>f.group.startsWith("Men")).map(f=>({...f,s:data?.scores?.[f.id]}));
-  const featured=panel.querySelector('[data-rlwc-featured]');
-  const secondaryPanel=panel.querySelector('[data-rlwc-secondary]');
-  secondaryPanel.hidden=true;
-  featured.hidden=false;
-  panel.querySelector('.rlwc-other-label').hidden=true;
-  const todayKey=new Intl.DateTimeFormat('en-CA',{timeZone:'Australia/Sydney',year:'numeric',month:'2-digit',day:'2-digit'}).format(now);
-  for(const f of records.filter(f=>new Intl.DateTimeFormat('en-CA',{timeZone:'Australia/Sydney',year:'numeric',month:'2-digit',day:'2-digit'}).format(f.start)===todayKey)){
-   if(featured.querySelector('[data-rlwc-feature-id="'+f.id+'"]'))continue;
-   const card=document.createElement('article');card.className='rlwc-feature';card.dataset.rlwcFeatureId=f.id;
-   const when=document.createElement('small');when.textContent='Today · '+fmt.format(f.start)+' Sydney';
-   const names=document.createElement('strong');names.textContent=f.home+' v '+f.away;
-   const stateLabel=document.createElement('span');stateLabel.className='rlwc-feature-state';stateLabel.textContent='Upcoming';
-   const place=document.createElement('span');place.className='rlwc-feature-venue';place.textContent=f.place;
-   const a=document.createElement('a');a.href=f.url;a.target='_blank';a.rel='noopener noreferrer';a.textContent='Official match centre ↗';
-   card.append(when,names,stateLabel,place,a);featured.append(card);
-  }
-  if(!featured.hidden)for(const card of featured.querySelectorAll('[data-rlwc-feature-id]')){
-   const f=records.find(x=>x.id===card.dataset.rlwcFeatureId);if(!f)continue;
-   const s=f.s,isLive=live.has(s?.state),finished=ended.has(s?.state);
-   const state=isLive?(fresh?'in':'stale-live'):finished?'post':f.start>now?'pre':'unknown';
-   card.dataset.state=state;
-   card.hidden=finished||new Intl.DateTimeFormat('en-CA',{timeZone:'Australia/Sydney',year:'numeric',month:'2-digit',day:'2-digit'}).format(f.start)!==todayKey;
-   const stateLabel=card.querySelector('.rlwc-feature-state');
-   if(isLive)stateLabel.textContent=(fresh?'LIVE':'LIVE · update delayed')+' · '+s.home+'–'+s.away+(s.clock?' · '+s.clock:'');
-   else if(finished)stateLabel.textContent=(labels[s.state]||'Final')+(s.state===12||s.state===14?'':' · '+s.home+'–'+s.away);
-   else if(f.start<=now)stateLabel.textContent='Awaiting official score update';
-   else stateLabel.textContent='Upcoming';
-  }
 
-  if(!featured.querySelector('[data-rlwc-feature-id]:not([hidden])')){panel.hidden=true;return;}
-  const featuredIds=new Set([...featured.querySelectorAll('[data-rlwc-feature-id]')].map(x=>x.dataset.rlwcFeatureId));
-  const secondary=featured.hidden?records:records.filter(f=>!featuredIds.has(f.id));
-  if(!featured.hidden){
-   const featureStates=[...featured.querySelectorAll('[data-rlwc-feature-id]:not([hidden])')].map(x=>x.dataset.state);
-   panel.dataset.sportState=featureStates.includes('in')?'in':featureStates.includes('stale-live')?'stale-live':featureStates.includes('unknown')?'unknown':featureStates.includes('pre')?'pre':'post';
-   panel.dataset.sportStart=String(Math.min(...records.filter(f=>featuredIds.has(f.id)&&f.start>now&&new Intl.DateTimeFormat('en-CA',{timeZone:'Australia/Sydney',year:'numeric',month:'2-digit',day:'2-digit'}).format(f.start)===todayKey).map(f=>f.start),Infinity));
+ function render(){
+  const now=Date.now(),featured=q('[data-rlwc-featured]');
+  if(now>=Date.parse('2026-11-16T00:00:00+11:00')){panel.hidden=true;return;}
+  const known={
+   '20261310410':{home:'New Zealand',away:'Tonga',start:'2026-11-07T20:05:00+11:00',place:'McDonald Jones Stadium, Newcastle',group:'Men’s semi-final 1'},
+   '20261310420':{home:'Australia',away:'Samoa',start:'2026-11-08T20:05:00+11:00',place:'Allianz Stadium, Sydney',group:'Men’s semi-final 2'},
+   '20261310510':{home:'TBA',away:'TBA',start:'2026-11-15T19:35:00+11:00',place:'Suncorp Stadium, Brisbane',group:'Men’s final'}
+  };
+  const age=data?Math.max(0,now-Date.parse(data.fetchedAt)):Infinity,fresh=!!data&&age<=10*60*1000&&!failed;
+  const visible=[];
+  for(const card of featured.querySelectorAll('[data-rlwc-feature-id]')){
+   const id=card.dataset.rlwcFeatureId,matchInfo=known[id];if(!matchInfo)continue;
+   const kickoff=Date.parse(matchInfo.start),result=data?.scores?.[id];
+   const isLive=live.has(result?.state),isFinished=ended.has(result?.state);
+   const state=isLive?(fresh?'in':'stale-live'):isFinished?'post':now<kickoff?'pre':now<kickoff+180*60000?'unknown':'post';
+   card.hidden=isFinished||now>kickoff+180*60000;
+   card.dataset.state=state;
+   const label=card.querySelector('.rlwc-feature-state');
+   if(isLive)label.textContent=(fresh?'LIVE':'LIVE · score delayed')+' · '+result.home+'–'+result.away;
+   else if(isFinished)label.textContent='Final · '+result.home+'–'+result.away;
+   else if(now>=kickoff)label.textContent='Match underway · see official centre';
+   else label.textContent=matchInfo.group;
+   if(!card.hidden)visible.push({state,kickoff});
   }
-  const current=secondary.filter(f=>(live.has(f.s?.state)||f.s?.state===13)&&now-f.start<24*60*60*1000);
-  const recent=secondary.filter(f=>ended.has(f.s?.state)&&f.start<=now&&now-f.start<8*60*60*1000).sort((a,b)=>b.start-a.start);
-  const scheduled=secondary.filter(f=>f.start<=now&&now<f.start+150*60*1000&&!ended.has(f.s?.state));
-  const upcoming=secondary.filter(f=>f.start>now&&!ended.has(f.s?.state));
-  const chosen=current[0]||scheduled[0]||recent[0]||upcoming[0];
-  if(featured.hidden){panel.dataset.sportState=chosen?.s&&live.has(chosen.s.state)?(fresh?'in':'stale-live'):chosen?.start>now?'pre':chosen?'post':'unknown';panel.dataset.sportStart=String(chosen?.start||0);}
-  const featuredBadge=!featured.hidden?({'in':'WORLD CUP · LIVE SCORE','stale-live':'WORLD CUP · SCORE DELAYED','unknown':'WORLD CUP · STATUS UNCONFIRMED','pre':'WORLD CUP · COMING UP','post':'WORLD CUP · RESULTS'}[panel.dataset.sportState]):null;
-  freshness.textContent=data?'Official feed checked '+stamp.format(Date.parse(data.fetchedAt))+' Sydney · '+Math.floor(age/60000)+' min ago'+(!fresh?' · update delayed; score may be stale':''):'Live score unavailable here right now. Open an official match centre.';
-  if(!chosen){status.textContent=featuredBadge||'WORLD CUP · FIXTURES';teams.textContent='See the official World Cup draw';score.hidden=true;phase.textContent='';time.textContent='';venue.textContent='';other.textContent='';link.href='https://www.rlwc2026.com/draws-and-pools';match.dataset.sportState='unknown';match.dataset.sportStart='0';if(featured.hidden)freshness.textContent='No current fixture available.';return;}
-  const s=chosen.s,isLive=live.has(s?.state),finished=ended.has(s?.state),isFuture=chosen.start>now;
-  const state=isLive?(fresh?'in':'stale-live'):s?.state===13?'unknown':finished?'post':isFuture?'pre':'unknown';
-  status.textContent=featuredBadge||(isLive?(fresh?'WORLD CUP · LIVE SCORE':'WORLD CUP · SCORE DELAYED'):s?.state===13?'WORLD CUP · SUSPENDED':finished?'WORLD CUP · '+labels[s.state].toUpperCase():isFuture?'WORLD CUP · COMING UP':'WORLD CUP · STATUS UNCONFIRMED');
-  division.textContent=chosen.group;teams.textContent=chosen.home+' v '+chosen.away;
-  const hasScore=s&&s.state!==2&&s.state!==12&&s.state!==14;
-  score.hidden=!hasScore;score.textContent=hasScore?s.home+' – '+s.away:'';
-  phase.textContent=s?.state===2&&!isFuture?'Awaiting an official score update':s?(labels[s.state]||'Status unknown')+(isLive&&s.clock?' · '+s.clock:''):isFuture?'Kick-off':'Awaiting an official score update';
-  time.textContent=fmt.format(chosen.start)+' Sydney';venue.textContent=chosen.place;
-  link.href=chosen.url;link.textContent=finished?'Official result & match centre ↗':'Official live match centre ↗';
-  match.dataset.sportState=state;match.dataset.sportStart=String(chosen.start);
-  other.replaceChildren();
-  const extras=[...current.filter(f=>f.id!==chosen.id),...recent.filter(f=>f.id!==chosen.id),...upcoming.filter(f=>f.id!==chosen.id)].slice(0,3);
-  for(const f of extras){const a=document.createElement('a');a.href=f.url;a.target='_blank';a.rel='noopener noreferrer';a.style.cssText='display:block;color:#ffe2ad;padding:7px 0;border-top:1px solid #ffffff33;text-decoration:none';const z=f.s;a.textContent=f.group+' · '+f.home+' v '+f.away+' · '+(z&&[12,14].includes(z.state)?labels[z.state]:z&&z.state!==2?(z.home+'–'+z.away+' '+(labels[z.state]||'')):fmt.format(f.start)+' Sydney');other.append(a);}
+  panel.hidden=!visible.length;
+  if(panel.hidden)return;
+  const active=visible.find(x=>x.state==='in'||x.state==='stale-live');
+  const next=visible.filter(x=>x.kickoff>now).sort((a,b)=>a.kickoff-b.kickoff)[0];
+  panel.dataset.sportState=active?.state|| (next?'pre':'unknown');
+  panel.dataset.sportStart=String((active||next||visible[0]).kickoff);
+  status.textContent=active?'WORLD CUP · '+(active.state==='in'?'LIVE':'SCORE DELAYED'):'WORLD CUP · MEN’S FINALS';
+  q('[data-rlwc-secondary]').hidden=true;
+  freshness.textContent=data?'Official score feed checked '+stamp.format(Date.parse(data.fetchedAt))+' Sydney'+(!fresh?' · updates may be delayed':''):'Upcoming fixtures confirmed · live scores available from match centres';
  }
  async function refresh(){
   if(busy||panel.hidden)return;busy=true;
@@ -719,11 +687,35 @@ update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
  const rail=document.querySelector('.front-live-today'),anchor=rail?.querySelector('[data-game-updated]');
  if(!rail||!anchor)return;
  const liveCount=rail.querySelector('[data-live-count]');
- const cards=[rail.querySelector('.live-nfl-panel'),rail.querySelector('#live-epl-game'),rail.querySelector('#live-cricket-game'),rail.querySelector('#live-supercars-game'),rail.querySelector('#live-rlwc-game')].filter(Boolean);
+ const cards=[rail.querySelector('.live-nfl-panel'),rail.querySelector('#live-epl-game'),rail.querySelector('#live-cricket-game'),rail.querySelector('#live-supercars-game'),rail.querySelector('#live-rlwc-game'),rail.querySelector('.sandown-schedule')].filter(Boolean);
  const original=new Map(cards.map((card,index)=>[card,index]));
+ const sandown=rail.querySelector('.sandown-schedule');
+ const sessions=[
+ ['2026-11-06T14:40:00+11:00','Practice 1'],
+ ['2026-11-06T15:25:00+11:00','Practice 2'],
+ ['2026-11-07T11:20:00+11:00','Race 33 qualifying'],
+ ['2026-11-07T12:05:00+11:00','Race 33 shootout'],
+ ['2026-11-07T15:30:00+11:00','Race 33'],
+ ['2026-11-08T11:20:00+11:00','Race 34 qualifying'],
+ ['2026-11-08T12:05:00+11:00','Race 34 shootout'],
+ ['2026-11-08T15:30:00+11:00','Race 34']
+ ].map(([time,name])=>({start:Date.parse(time),name}));
+ function refreshSandown(){
+  if(!sandown)return;
+  const now=Date.now(),next=sessions.find(x=>x.start+110*60000>now);
+  sandown.hidden=!next;
+  if(!next)return;
+  sandown.dataset.sportStart=String(next.start);
+  sandown.dataset.sportState=now>=next.start?'in':'pre';
+  const intro=sandown.querySelector('.sandown-intro');
+  if(intro)intro.textContent=(now>=next.start?'NOW / RECENT: ':'NEXT: ')+next.name+' · '+new Intl.DateTimeFormat('en-AU',{timeZone:'Australia/Sydney',weekday:'short',hour:'numeric',minute:'2-digit'}).format(next.start)+' AEDT · Two 250 km races';
+ }
+ refreshSandown();
+ setInterval(refreshSandown,30000);
+
  function sortCards(){
   const priority=card=>{
-   const source=card.id==='live-supercars-game'||(card.id==='live-rlwc-game'&&card.dataset.sportState)?card:card.querySelector('[data-sport-state]');
+   const source=card.matches('.sandown-schedule')||card.id==='live-supercars-game'||card.id==='live-rlwc-game'?card:card.querySelector('[data-sport-state]');
    const state=source?.dataset.sportState||'unknown',start=Number(source?.dataset.sportStart);
    const rank=state==='in'?0:(state==='stale-live'||state==='paused')?1:state==='pre'?2:state==='post'?3:4;
    return {rank,start:Number.isFinite(start)&&start>0?start:Infinity};
