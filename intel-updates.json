@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2117668520112615860",
+        "headline": "GRUMN11 E-2 Hawkeye sighting relayed",
+        "summary": "War Watch relayed a sighting of an E-2 Hawkeye using call sign GRUMN11 and hex AFA186, with no registration shown. The sighting was credited to JessiDavin.",
+        "date": "2026-11-03",
+        "dateLabel": "03 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2117668520112615860"
+      },
+      {
+        "id": "2117663503943193061",
+        "headline": "Yemeni foreign-experts report highlighted",
+        "summary": "War Watch highlighted an Al Jazeera Arabic report quoting Yemen’s interior minister as saying there were 21 foreign experts, including 14 from the Revolutionary Guard. The visible text is truncated immediately after “Revolutionary” and does not show the remainder of the report. It said the report preceded wire coverage by 25 minutes and was confirmed by two outlets.",
+        "date": "2026-11-03",
+        "dateLabel": "03 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2117663503943193061"
+      },
+      {
+        "id": "2117659024766157281",
+        "headline": "AE0683 KC-135 Stratotanker sighting relayed",
+        "summary": "War Watch relayed a sighting of Boeing KC-135R/T Stratotanker registration 60-0313 and hex AE0683, with no call sign shown. The sighting was credited to JessiDavin.",
+        "date": "2026-11-03",
+        "dateLabel": "03 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2117659024766157281"
+      },
+      {
+        "id": "2117652014796533973",
+        "headline": "Ukraine energy-sector attack report highlighted",
+        "summary": "War Watch highlighted a Suspilne report quoting Ukrenergo as saying one of the largest attacks on Ukraine’s energy sector had been ongoing since overnight. The visible text is truncated immediately after “Russia” and does not show the remainder of the report. It said the report preceded wire coverage by 45 minutes and was confirmed by two outlets.",
+        "date": "2026-11-03",
+        "dateLabel": "03 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2117652014796533973"
+      },
+      {
+        "id": "2117643214781903193",
+        "headline": "JANET09 Southern California sighting relayed",
+        "summary": "War Watch relayed a sighting of JANET09, hex ADCE1A, over Southern California. The sighting was credited to timharkness9152, with a photograph credited to G. Najberg via Planespotters.net.",
+        "date": "2026-11-03",
+        "dateLabel": "03 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2117643214781903193"
+      },
+      {
         "id": "2117620720989606173",
         "date": "2026-11-03",
         "headline": "THNDR07 E-3G Sentry sighting relayed",
@@ -59,46 +99,6 @@
         "headline": "Russian refinery report highlighted",
         "summary": "War Watch highlighted an ASTRA report describing one of Russia's largest refineries as a supplier of fuel for military aviation. The visible text is truncated after the word “and” and does not show the remainder of the report. It said the report preceded wire coverage by 34 minutes and was confirmed by two outlets.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2117492374863528253"
-      },
-      {
-        "id": "2117479348856881343",
-        "date": "2026-11-03",
-        "dateLabel": "03 NOV 2026 · UTC",
-        "headline": "Revolutionary Guard firing report highlighted",
-        "summary": "War Watch highlighted an Al Jazeera Arabic report quoting The New York Times, which cited a U.S. official, saying Iran's Revolutionary Guard fired something. The visible text is truncated immediately after “fired” and does not identify what was fired. It said the report preceded wire coverage by 19 minutes and was confirmed by two outlets.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2117479348856881343"
-      },
-      {
-        "id": "2117458587781849335",
-        "date": "2026-11-03",
-        "dateLabel": "03 NOV 2026 · UTC",
-        "headline": "Kharkiv medical-facility strike report highlighted",
-        "summary": "War Watch highlighted a Suspilne report, attributed to Kharkiv's mayor, that one strike hit a medical facility in the city's Nemyshlianskyi district. The visible post text is truncated after that statement. It said the report preceded wire coverage by 49 minutes and was confirmed by two outlets.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2117458587781849335"
-      },
-      {
-        "id": "2117452256115073216",
-        "date": "2026-11-03",
-        "dateLabel": "03 NOV 2026 · UTC",
-        "headline": "U.S. transport and nuclear-command activity reported",
-        "summary": "War Watch reported multiple U.S. Air Force transport aircraft airborne over the continental United States alongside a nuclear command-and-control aircraft, with activity elevated near the Persian Gulf and domestically.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2117452256115073216"
-      },
-      {
-        "id": "2117439672435564978",
-        "date": "2026-11-03",
-        "dateLabel": "03 NOV 2026 · UTC",
-        "headline": "Qeshm Island U.S. attack report relayed",
-        "summary": "War Watch relayed a Wall Street Journal report, credited to reagan0965, that U.S. officials said the United States attacked Iran's Qeshm Island within the preceding few hours. The visible post text is truncated after the words “latest in.”",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2117439672435564978"
-      },
-      {
-        "id": "2117435860119441814",
-        "date": "2026-11-03",
-        "dateLabel": "03 NOV 2026 · UTC",
-        "headline": "ALICE61 UH-60 Black Hawk sighting relayed",
-        "summary": "War Watch relayed a sighting of Sikorsky UH-60 Black Hawk registration 11-20368, call sign ALICE61 and hex AE53A0. The sighting was credited to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2117435860119441814"
       }
     ]
   },
