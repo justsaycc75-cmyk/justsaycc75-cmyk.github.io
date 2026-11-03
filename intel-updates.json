@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2117620720989606173",
+        "date": "2026-11-03",
+        "headline": "THNDR07 E-3G Sentry sighting relayed",
+        "summary": "War Watch relayed a sighting of Boeing E-3G Sentry registration 76-1607, call sign THNDR07 and hex AE11DE. The sighting was credited to reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2117620720989606173",
+        "dateLabel": "03 NOV 2026 · UTC"
+      },
+      {
+        "id": "2117616850074787967",
+        "date": "2026-11-03",
+        "headline": "EUCOM base-threat precaution report relayed",
+        "summary": "War Watch relayed a Stars and Stripes report that U.S. European Command urged troops and their families to vary their routines amid threats to bases. The report was credited to reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2117616850074787967",
+        "dateLabel": "03 NOV 2026 · UTC"
+      },
+      {
+        "id": "2117588524580917369",
+        "date": "2026-11-03",
+        "headline": "U.S. surveillance and transport activity reported",
+        "summary": "War Watch reported U.S. Air Force surveillance aircraft active over the North Sea and multiple transport aircraft moving across U.S. bases amid recent tensions with Iran. The visible text is truncated after “heightened European security” and does not show the remainder of the update.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2117588524580917369",
+        "dateLabel": "03 NOV 2026 · UTC"
+      },
+      {
         "id": "2117554065160683709",
         "date": "2026-11-03",
         "dateLabel": "03 NOV 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "ALICE61 UH-60 Black Hawk sighting relayed",
         "summary": "War Watch relayed a sighting of Sikorsky UH-60 Black Hawk registration 11-20368, call sign ALICE61 and hex AE53A0. The sighting was credited to reagan0965.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2117435860119441814"
-      },
-      {
-        "id": "2117431987489186254",
-        "date": "2026-11-03",
-        "dateLabel": "03 NOV 2026 · UTC",
-        "headline": "CIA director's Iran advice report relayed",
-        "summary": "War Watch relayed an Axios report that the CIA director advised the U.S. president to maintain a “no war, no deal” position with Iran.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2117431987489186254"
-      },
-      {
-        "id": "2117424573071097918",
-        "date": "2026-11-03",
-        "dateLabel": "03 NOV 2026 · UTC",
-        "headline": "Operation Unified Resolve release relayed",
-        "summary": "War Watch relayed a 2 November U.S. Northern Command press release, credited to reagan0965, saying Operation Unified Resolve was bolstering the military presence and increasing security in the Rio Grande Valley.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2117424573071097918"
-      },
-      {
-        "id": "2117418242595565671",
-        "date": "2026-11-03",
-        "dateLabel": "03 NOV 2026 · UTC",
-        "headline": "Qeshm airstrike confirmation report relayed",
-        "summary": "War Watch relayed a report, credited to weslester6474, that an airstrike on Qeshm appeared to have been confirmed by U.S. officials.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2117418242595565671"
       }
     ]
   },
