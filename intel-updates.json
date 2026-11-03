@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2117497806134857853",
+        "date": "2026-11-03",
+        "dateLabel": "03 NOV 2026 · UTC",
+        "headline": "U.S. transport and Persian Gulf activity reported",
+        "summary": "War Watch reported six U.S. military transport aircraft airborne across the Atlantic and over the United States, reports of U.S. strikes on Iran's Qeshm Island, and an Iranian drone shot down over the Strait of Hormuz.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2117497806134857853"
+      },
+      {
+        "id": "2117492374863528253",
+        "date": "2026-11-03",
+        "dateLabel": "03 NOV 2026 · UTC",
+        "headline": "Russian refinery report highlighted",
+        "summary": "War Watch highlighted an ASTRA report describing one of Russia's largest refineries as a supplier of fuel for military aviation. The visible text is truncated after the word “and” and does not show the remainder of the report. It said the report preceded wire coverage by 34 minutes and was confirmed by two outlets.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2117492374863528253"
+      },
+      {
         "id": "2117479348856881343",
         "date": "2026-11-03",
         "dateLabel": "03 NOV 2026 · UTC",
@@ -83,22 +99,6 @@
         "headline": "Qeshm Island explosion or launch reports relayed",
         "summary": "War Watch relayed a report of four to six explosions or launches from Qeshm Island in Hormozgan Province, southern Iran. The post attributed the information only as a “UK Report.”",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2117380783362941410"
-      },
-      {
-        "id": "2117376930945081485",
-        "date": "2026-11-02",
-        "dateLabel": "02 NOV 2026 · UTC",
-        "headline": "Iranian MQ-170 control claim highlighted",
-        "summary": "War Watch highlighted an Al Jazeera Arabic report that Iran's Revolutionary Guard said it had taken control of two American MQ-170s. The visible text is truncated after the word “reconnaissance.” It said the report preceded wire coverage by 70 minutes and was confirmed by two outlets.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2117376930945081485"
-      },
-      {
-        "id": "2117372729808625756",
-        "date": "2026-11-02",
-        "dateLabel": "02 NOV 2026 · UTC",
-        "headline": "Qeshm Island air-defence strike report relayed",
-        "summary": "War Watch relayed an Open Source Intel report that a U.S. strike hit an air-defence system on Qeshm Island and that explosions were heard afterward in Bandar Abbas.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2117372729808625756"
       }
     ]
   },
