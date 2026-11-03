@@ -75,9 +75,11 @@
 .front-live-today .sandown-schedule h3{font-size:17px;margin:0 0 5px;color:#ffdf9d;line-height:1.25}
 .front-live-today .sandown-schedule .sandown-intro{font-size:12px;line-height:1.5;color:#e2e7e9;margin:0 0 10px}
 .front-live-today .sandown-schedule .sandown-table-wrap{overflow-x:auto}
-.front-live-today .sandown-schedule table{width:100%;border-collapse:collapse;text-align:left;font-size:12px;font-variant-numeric:tabular-nums;min-width:260px}
-.front-live-today .sandown-schedule th{font-size:10px;letter-spacing:.05em;text-transform:uppercase;color:#ffdf9d;background:#4a3a28;padding:8px 7px}
-.front-live-today .sandown-schedule td{padding:8px 7px;border-bottom:1px solid #ffffff24;vertical-align:top;line-height:1.3}
+.front-live-today .sandown-schedule table{width:100%;border-collapse:collapse;text-align:left;font-size:11px;font-variant-numeric:tabular-nums;min-width:0;table-layout:fixed}
+.front-live-today .sandown-schedule th{font-size:10px;letter-spacing:.05em;text-transform:uppercase;color:#ffdf9d;background:#4a3a28;padding:7px 4px}
+.front-live-today .sandown-schedule td{padding:7px 4px;border-bottom:1px solid #ffffff24;vertical-align:top;line-height:1.3}
+.front-live-today .sandown-schedule th:first-child{width:25%}
+.front-live-today .sandown-schedule th:last-child{width:29%}
 .front-live-today .sandown-schedule tr.sandown-race td{font-weight:800;color:#ffe0a1;background:#fff1ce12}
 .front-live-today .sandown-schedule td:last-child,.front-live-today .sandown-schedule th:last-child{white-space:nowrap;text-align:right}
 .front-live-today .sandown-schedule .sandown-footer{margin:10px 0 0;font-size:11px;line-height:1.5;color:#d8e1e3}
@@ -690,25 +692,30 @@ update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
  const cards=[rail.querySelector('.live-nfl-panel'),rail.querySelector('#live-epl-game'),rail.querySelector('#live-cricket-game'),rail.querySelector('#live-supercars-game'),rail.querySelector('#live-rlwc-game'),rail.querySelector('.sandown-schedule')].filter(Boolean);
  const original=new Map(cards.map((card,index)=>[card,index]));
  const sandown=rail.querySelector('.sandown-schedule');
+ // Official event schedule windows; these do not confirm live running status.
  const sessions=[
- ['2026-11-06T14:40:00+11:00','Practice 1'],
- ['2026-11-06T15:25:00+11:00','Practice 2'],
- ['2026-11-07T11:20:00+11:00','Race 33 qualifying'],
- ['2026-11-07T12:05:00+11:00','Race 33 shootout'],
- ['2026-11-07T15:30:00+11:00','Race 33'],
- ['2026-11-08T11:20:00+11:00','Race 34 qualifying'],
- ['2026-11-08T12:05:00+11:00','Race 34 shootout'],
- ['2026-11-08T15:30:00+11:00','Race 34']
- ].map(([time,name])=>({start:Date.parse(time),name}));
+ ['2026-11-06T14:40:00+11:00','2026-11-06T15:10:00+11:00','Practice 1'],
+ ['2026-11-06T15:25:00+11:00','2026-11-06T15:55:00+11:00','Practice 2'],
+ ['2026-11-07T11:20:00+11:00','2026-11-07T11:55:00+11:00','Race 33 qualifying'],
+ ['2026-11-07T12:05:00+11:00','2026-11-07T12:35:00+11:00','Race 33 shootout'],
+ ['2026-11-07T15:30:00+11:00','2026-11-07T17:35:00+11:00','Race 33'],
+ ['2026-11-08T11:20:00+11:00','2026-11-08T11:55:00+11:00','Race 34 qualifying'],
+ ['2026-11-08T12:05:00+11:00','2026-11-08T12:35:00+11:00','Race 34 shootout'],
+ ['2026-11-08T15:30:00+11:00','2026-11-08T17:35:00+11:00','Race 34']
+ ].map(([time,end,name])=>({start:Date.parse(time),end:Date.parse(end),name}));
  function refreshSandown(){
   if(!sandown)return;
-  const now=Date.now(),next=sessions.find(x=>x.start+110*60000>now);
+  const now=Date.now(),next=sessions.find(x=>x.end>now);
   sandown.hidden=!next;
   if(!next)return;
   sandown.dataset.sportStart=String(next.start);
-  sandown.dataset.sportState=now>=next.start?'in':'pre';
+  sandown.dataset.sportState=now>=next.start?'scheduled':'pre';
   const intro=sandown.querySelector('.sandown-intro');
-  if(intro)intro.textContent=(now>=next.start?'NOW / RECENT: ':'NEXT: ')+next.name+' · '+new Intl.DateTimeFormat('en-AU',{timeZone:'Australia/Sydney',weekday:'short',hour:'numeric',minute:'2-digit'}).format(next.start)+' AEDT · Two 250 km races';
+  if(intro){
+   const start=new Intl.DateTimeFormat('en-AU',{timeZone:'Australia/Sydney',weekday:'short',hour:'numeric',minute:'2-digit'}).format(next.start);
+   const end=new Intl.DateTimeFormat('en-AU',{timeZone:'Australia/Sydney',hour:'numeric',minute:'2-digit'}).format(next.end);
+   intro.textContent=(now>=next.start?'SCHEDULED WINDOW: ':'NEXT: ')+next.name+' · '+start+'–'+end+' AEDT · Schedule only, not live timing';
+  }
  }
  refreshSandown();
  setInterval(refreshSandown,30000);
@@ -717,7 +724,7 @@ update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
   const priority=card=>{
    const source=card.matches('.sandown-schedule')||card.id==='live-supercars-game'||card.id==='live-rlwc-game'?card:card.querySelector('[data-sport-state]');
    const state=source?.dataset.sportState||'unknown',start=Number(source?.dataset.sportStart);
-   const rank=state==='in'?0:(state==='stale-live'||state==='paused')?1:state==='pre'?2:state==='post'?3:4;
+   const rank=state==='in'?0:(state==='stale-live'||state==='paused')?1:(state==='pre'||state==='scheduled')?2:state==='post'?3:4;
    return {rank,start:Number.isFinite(start)&&start>0?start:Infinity};
   };
   cards.sort((a,b)=>{
