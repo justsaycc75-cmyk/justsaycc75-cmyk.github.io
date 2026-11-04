@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2117829319527379333",
+        "date": "2026-11-04",
+        "dateLabel": "04 NOV 2026 · UTC",
+        "headline": "U.S. air activity and command-jet movement reported",
+        "summary": "War Watch reported five U.S. Air Force transport aircraft and one surveillance aircraft airborne over the United States, along with a nuclear command jet heading from Omaha. It said recent activity suggested heightened operations, but the visible text is truncated immediately after “Middle” and does not show the full location or remainder of the update.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2117829319527379333"
+      },
+      {
         "id": "2117800347242787186",
         "date": "2026-11-04",
         "dateLabel": "04 NOV 2026 · UTC",
@@ -91,14 +99,6 @@
         "date": "2026-11-03",
         "dateLabel": "03 NOV 2026 · UTC",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2117712309854335120"
-      },
-      {
-        "id": "2117694712052125811",
-        "headline": "Drone-focused warship concept report highlighted",
-        "summary": "War Watch highlighted a Reuters report that Naval Group had unveiled a drone-focused warship concept. It said the report preceded wire coverage by 63 minutes and was confirmed by two outlets.",
-        "date": "2026-11-03",
-        "dateLabel": "03 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2117694712052125811"
       }
     ]
   },
