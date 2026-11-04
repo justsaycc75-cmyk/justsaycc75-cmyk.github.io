@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2117874689229894106",
+        "date": "2026-11-04",
+        "dateLabel": "04 NOV 2026 · UTC",
+        "headline": "Black Sea and command-jet activity reported",
+        "summary": "War Watch reported a nuclear command jet heading from Omaha and elevated military transport and surveillance aircraft activity near the Black Sea as U.S. operations continued across the Middle East and South Asia.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2117874689229894106"
+      },
+      {
         "id": "2117829319527379333",
         "date": "2026-11-04",
         "dateLabel": "04 NOV 2026 · UTC",
@@ -91,14 +99,6 @@
         "date": "2026-11-03",
         "dateLabel": "03 NOV 2026 · UTC",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2117731483381117372"
-      },
-      {
-        "id": "2117712309854335120",
-        "headline": "German military-dominance comment relayed",
-        "summary": "War Watch relayed a Polymarket Intel report quoting German deputy defence minister Nils Schmid as saying Germany’s neighbours had no reason to fear a militarily dominant Germany. The report was credited to reagan0965.",
-        "date": "2026-11-03",
-        "dateLabel": "03 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2117712309854335120"
       }
     ]
   },
