@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2117920031677780005",
+        "date": "2026-11-04",
+        "dateLabel": "04 NOV 2026 · UTC",
+        "headline": "Transport, NATO radar and command-jet activity reported",
+        "summary": "War Watch reported six U.S. Air Force transport aircraft and two NATO radar aircraft airborne, and said a nuclear command aircraft had earlier been spotted heading west from Omaha.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2117920031677780005"
+      },
+      {
         "id": "2117874689229894106",
         "date": "2026-11-04",
         "dateLabel": "04 NOV 2026 · UTC",
@@ -91,14 +99,6 @@
         "date": "2026-11-03",
         "dateLabel": "03 NOV 2026 · UTC",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2117737775118086566"
-      },
-      {
-        "id": "2117731483381117372",
-        "headline": "UKMTO tanker warning report relayed",
-        "summary": "War Watch relayed a report that the United Kingdom Maritime Trade Operations Centre issued a warning after a company security officer reported information about a tanker. The visible text is truncated immediately after “was” and does not show what was reported. The report was credited to reagan0965.",
-        "date": "2026-11-03",
-        "dateLabel": "03 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2117731483381117372"
       }
     ]
   },
