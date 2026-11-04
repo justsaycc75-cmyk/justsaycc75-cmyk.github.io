@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2118010954260631741",
+        "headline": "Presidential, surveillance and cargo aircraft activity reported",
+        "summary": "War Watch reported presidential aircraft, a radar plane, surveillance drones and cargo jets airborne over the United States, along with coded military radio broadcasts detected that morning. The post’s Iran-related sentence was truncated in the visible source text.",
+        "date": "2026-11-04",
+        "dateLabel": "04 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118010954260631741"
+      },
+      {
+        "id": "2118002143030309153",
+        "headline": "NASA ER-2 NASA806 spotter report relayed",
+        "summary": "War Watch relayed a spotter report identifying NASA806 as a Lockheed ER-2 with registration N806NA and hex code AAF954.",
+        "date": "2026-11-04",
+        "dateLabel": "04 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118002143030309153"
+      },
+      {
+        "id": "2117994570860417094",
+        "headline": "MQ-4C Triton BLKCAT5 spotter report relayed",
+        "summary": "War Watch relayed a spotter report identifying BLKCAT5 as an MQ-4C Triton with registration 169659 and hex code AE7812, reported from Naval Station Mayport.",
+        "date": "2026-11-04",
+        "dateLabel": "04 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2117994570860417094"
+      },
+      {
         "id": "2117965482418450684",
         "date": "2026-11-04",
         "dateLabel": "04 NOV 2026 · UTC",
@@ -75,30 +99,6 @@
         "headline": "Trump Iran-strike comment report highlighted",
         "summary": "War Watch highlighted an Al Jazeera Arabic report quoting U.S. President Donald Trump telling the Financial Times there were no immediate plans to strike Iran. The visible text is truncated immediately after “and it seems” and does not show the remainder of the quote. It said the report preceded wire coverage by 17 minutes and was confirmed by two outlets.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2117769486480576761"
-      },
-      {
-        "id": "2117757407451374077",
-        "headline": "SPAR20 C-40C sighting relayed",
-        "summary": "War Watch relayed a sighting of Boeing C-40C registration 05-0932, call sign SPAR20 and hex AE189C. The sighting was credited to reagan0965, with a photograph credited to Elias Dieckert via Planespotters.net.",
-        "date": "2026-11-03",
-        "dateLabel": "03 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2117757407451374077"
-      },
-      {
-        "id": "2117753476147015923",
-        "headline": "European flight bomb-threat disruptions reported",
-        "summary": "War Watch relayed an Insider Paper report that bomb threats had disrupted flights in Europe. The report was credited to reagan0965.",
-        "date": "2026-11-03",
-        "dateLabel": "03 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2117753476147015923"
-      },
-      {
-        "id": "2117746826648395776",
-        "headline": "INDY81 KC-135 Stratotanker sighting relayed",
-        "summary": "War Watch relayed a sighting of Boeing KC-135R/T Stratotanker registration 60-0364, call sign INDY81 and hex AE0663. The sighting was credited to reagan0965, with a photograph credited to Connor Ochs via Planespotters.net.",
-        "date": "2026-11-03",
-        "dateLabel": "03 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2117746826648395776"
       }
     ]
   },
