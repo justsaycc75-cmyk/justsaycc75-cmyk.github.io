@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2117965482418450684",
+        "date": "2026-11-04",
+        "dateLabel": "04 NOV 2026 · UTC",
+        "headline": "Nuclear command jet and priority military activity reported",
+        "summary": "War Watch reported a U.S. Air Force nuclear command aircraft departing Omaha and six high-priority military transport and surveillance aircraft airborne across North America and Europe.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2117965482418450684"
+      },
+      {
         "id": "2117920031677780005",
         "date": "2026-11-04",
         "dateLabel": "04 NOV 2026 · UTC",
@@ -91,14 +99,6 @@
         "date": "2026-11-03",
         "dateLabel": "03 NOV 2026 · UTC",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2117746826648395776"
-      },
-      {
-        "id": "2117737775118086566",
-        "headline": "Greenland parliament security-deal report relayed",
-        "summary": "War Watch relayed an Insider Paper report that Greenland’s parliament had ratified a security deal with the United States. The report was credited to reagan0965.",
-        "date": "2026-11-03",
-        "dateLabel": "03 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2117737775118086566"
       }
     ]
   },
@@ -107,6 +107,14 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2117980231612903593",
+        "date": "2026-11-04",
+        "dateLabel": "04 NOV 2026 · UTC",
+        "headline": "Business-jet activity and growth leaders reported",
+        "summary": "SkyGlass reported that over the 13 weeks to 1 November, the Phenom 300 accounted for 9.4% of tracked business-jet activity, the Latitude 7.1% and the XLS 6.1%. Among aircraft types with at least a 1% share, it said the G650 grew 17.3% and the Falcon 2000 grew 15.8% when comparing the latest four weeks with the first four, while activity across all types rose 8.0%.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2117980231612903593"
+      },
       {
         "id": "2117731500984606978",
         "headline": "SCORE90 Global Hawk sighting reported",
@@ -194,14 +202,6 @@
         "headline": "BACE departure surge reported",
         "summary": "SkyGlass reported 259 departures from four Las Vegas-area fields by 1:43 p.m. ET, compared with 116 arrivals, and shared a time-lapse covering 10:17 a.m. to 1:29 p.m. ET.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2113729822950138206"
-      },
-      {
-        "id": "2113722348465496320",
-        "date": "2026-10-23",
-        "dateLabel": "23 OCT 2026 · UTC",
-        "headline": "BACE departure and arrival counts shared",
-        "summary": "SkyGlass reported 120 departures and 48 arrivals across four Las Vegas fields by 12:15 p.m. ET on Thursday during BACE2026, and shared a 30-times-speed replay.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2113722348465496320"
       }
     ]
   }
