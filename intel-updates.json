@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2118481546604646472",
+        "headline": "FH-95 combat drone shootdown report relayed",
+        "summary": "War Watch relayed a report that the Sudanese Armed Forces had shot down another UAE-operated FH-95, also identified as a CH-95, unmanned combat aerial vehicle used by the UAE-backed Rapid Support Forces. The visible source text is truncated after “Forces” and does not show the remainder; the item was credited to reagan0965.",
+        "date": "2026-11-05",
+        "dateLabel": "05 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118481546604646472"
+      },
+      {
+        "id": "2118477775019323496",
+        "headline": "VENUS51 C-40B sighting relayed",
+        "summary": "War Watch relayed a spotter report identifying a Boeing C-40B using call sign VENUS51, registration 01-0015 and hex code AE115D. The sighting was credited to reagan0965.",
+        "date": "2026-11-05",
+        "dateLabel": "05 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118477775019323496"
+      },
+      {
+        "id": "2118473996719001965",
+        "headline": "Iraqi airport NOTAM report relayed",
+        "summary": "War Watch relayed a report that Iraq had issued a NOTAM concerning overflights and aircraft landing at Baghdad, Erbil, Sulaimaniyah and Kirkuk. The visible source text is truncated after “Kirkuk” and does not show the full requirement; the item was credited to reagan0965.",
+        "date": "2026-11-05",
+        "dateLabel": "05 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118473996719001965"
+      },
+      {
+        "id": "2118470223195992213",
+        "headline": "E-3 Sentry sighting relayed",
+        "summary": "War Watch relayed a spotter report identifying an E-3 Sentry with hex code AE11EA. No call sign or registration was listed, and the sighting was credited to neeshbruh.",
+        "date": "2026-11-05",
+        "dateLabel": "05 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118470223195992213"
+      },
+      {
+        "id": "2118466327622893690",
+        "headline": "NATO anti-drone platform report relayed",
+        "summary": "War Watch relayed an Insider Paper report that NATO had launched a platform intended to help member states strengthen anti-drone defences. The item was credited to reagan0965.",
+        "date": "2026-11-05",
+        "dateLabel": "05 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118466327622893690"
+      },
+      {
         "id": "2118425121899569170",
         "headline": "South Korean Strait of Hormuz deployment report relayed",
         "summary": "War Watch relayed a report that South Korea had announced a military deployment off East Africa toward the Strait of Hormuz despite Iranian warnings. The visible source text is truncated after mentioning resistance to U.S. pressure and does not show the remainder; the item was credited to neesh26.",
@@ -59,46 +99,6 @@
         "date": "2026-11-05",
         "dateLabel": "05 NOV 2026 · UTC",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2118377317407867108"
-      },
-      {
-        "id": "2118343204378419655",
-        "headline": "U.S. transport and NATO surveillance activity reported",
-        "summary": "War Watch reported six U.S. Air Force transport aircraft airborne over the continental United States and a NATO surveillance jet, describing the activity as higher than typical for the hour.",
-        "date": "2026-11-05",
-        "dateLabel": "05 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118343204378419655"
-      },
-      {
-        "id": "2118328509974151327",
-        "headline": "European flight bomb-threat report relayed",
-        "summary": "War Watch relayed an Insider Paper report that bomb threats had affected European flights for a third day. The item was credited to reagan0965.",
-        "date": "2026-11-05",
-        "dateLabel": "05 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118328509974151327"
-      },
-      {
-        "id": "2118297655205900697",
-        "headline": "Heavy military transport activity reported",
-        "summary": "War Watch reported heavy military transport activity over Europe and the United States, with six cargo aircraft airborne, including one near the Baltic and another over the North Sea.",
-        "date": "2026-11-05",
-        "dateLabel": "05 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118297655205900697"
-      },
-      {
-        "id": "2118291386382348689",
-        "headline": "Bulgarian emergency landings report highlighted",
-        "summary": "War Watch highlighted an Al Jazeera Arabic report citing Bulgarian television on emergency landings by three aircraft in Bulgaria. The visible source text is truncated after “due to a series of” and does not show the cause; War Watch said the report was confirmed by two outlets.",
-        "date": "2026-11-05",
-        "dateLabel": "05 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118291386382348689"
-      },
-      {
-        "id": "2118266415400546603",
-        "headline": "Dublin-Rome A320 bomb-threat diversion report relayed",
-        "summary": "War Watch relayed a report attributed to BBC News that an Airbus A320 flying from Dublin to Rome had diverted because of a bomb threat. The item was credited to Robertchester-j5b.",
-        "date": "2026-11-05",
-        "dateLabel": "05 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118266415400546603"
       }
     ]
   },
