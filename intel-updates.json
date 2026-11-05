@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2118166719524929691",
+        "headline": "E-6 Mercury spotter report relayed",
+        "summary": "War Watch relayed a spotter report identifying a Boeing E-6 Mercury with hex code AEE6AC. No call sign or registration was listed, and the sighting was credited to reagan0965.",
+        "date": "2026-11-05",
+        "dateLabel": "05 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118166719524929691"
+      },
+      {
+        "id": "2118147468822991009",
+        "headline": "U.S. command-aircraft activity reported",
+        "summary": "War Watch reported multiple U.S. military command aircraft airborne over the continental United States, including a surveillance aircraft, two transport jets, an airborne radar aircraft and a nuclear communications aircraft.",
+        "date": "2026-11-05",
+        "dateLabel": "05 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118147468822991009"
+      },
+      {
+        "id": "2118143599544021435",
+        "headline": "Kawasaki P-1 ground sighting relayed",
+        "summary": "War Watch relayed a spotter report identifying a Kawasaki P-1 with registration 5519 and hex code 87C842 on the ground in Japan. No call sign was listed, and the sighting was credited to reagan0965.",
+        "date": "2026-11-05",
+        "dateLabel": "05 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118143599544021435"
+      },
+      {
+        "id": "2118135894632714585",
+        "headline": "U.S.-Colombia joint exercise report relayed",
+        "summary": "War Watch relayed a war.gov report that the United States and Colombia had launched a joint exercise intended to strengthen readiness and regional security. The item was credited to reagan0965.",
+        "date": "2026-11-05",
+        "dateLabel": "05 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118135894632714585"
+      },
+      {
+        "id": "2118129412554031512",
+        "headline": "CENTCOM Project Agincourt report relayed",
+        "summary": "War Watch relayed a war.gov item titled “Centcom Benefits From Project Agincourt, Drone Dominance Efforts.” The item was credited to reagan0965; no further detail was visible in the post.",
+        "date": "2026-11-04",
+        "dateLabel": "04 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118129412554031512"
+      },
+      {
         "id": "2118119283205013940",
         "headline": "Debate over further Iran strikes reported",
         "summary": "War Watch highlighted a Wall Street Journal report saying some U.S. administration officials were pressing President Donald Trump to launch further strikes on Iran, while others wanted the United States to pursue another course. The visible source text is truncated after “to” and does not show the remainder.",
@@ -59,46 +99,6 @@
         "date": "2026-11-04",
         "dateLabel": "04 NOV 2026 · UTC",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2118056618910704074"
-      },
-      {
-        "id": "2118052843907121383",
-        "headline": "Buk-M3 drone-strike footage report highlighted",
-        "summary": "War Watch highlighted a Ukrainska Pravda report that the Ukrainian military had released footage of a drone strike on a new Russian Buk-M3 air-defence system. The visible source text is truncated after “system”; War Watch said the report was confirmed by two outlets.",
-        "date": "2026-11-04",
-        "dateLabel": "04 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118052843907121383"
-      },
-      {
-        "id": "2118049049672613927",
-        "headline": "BLKCAT5 P-8 Poseidon spotter report relayed",
-        "summary": "War Watch relayed a spotter report identifying BLKCAT5 as a Boeing P-8 Poseidon with hex code AE688A, reported between Florida and Cuba. No registration was listed.",
-        "date": "2026-11-04",
-        "dateLabel": "04 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118049049672613927"
-      },
-      {
-        "id": "2118039141933887858",
-        "headline": "TOPCT27 TC-135W spotter report relayed",
-        "summary": "War Watch relayed a spotter report identifying TOPCT27 as a Boeing TC-135W with registration 62-4127 and hex code AE1254. The sighting was credited to reagan0965, with a photograph credited to Alon Varshaver via Planespotters.net.",
-        "date": "2026-11-04",
-        "dateLabel": "04 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118039141933887858"
-      },
-      {
-        "id": "2118010954260631741",
-        "headline": "Presidential, surveillance and cargo aircraft activity reported",
-        "summary": "War Watch reported presidential aircraft, a radar plane, surveillance drones and cargo jets airborne over the United States, along with coded military radio broadcasts detected that morning. The post’s Iran-related sentence was truncated in the visible source text.",
-        "date": "2026-11-04",
-        "dateLabel": "04 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118010954260631741"
-      },
-      {
-        "id": "2118002143030309153",
-        "headline": "NASA ER-2 NASA806 spotter report relayed",
-        "summary": "War Watch relayed a spotter report identifying NASA806 as a Lockheed ER-2 with registration N806NA and hex code AAF954.",
-        "date": "2026-11-04",
-        "dateLabel": "04 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118002143030309153"
       }
     ]
   },
