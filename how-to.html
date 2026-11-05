@@ -46,7 +46,7 @@
       card.hidden = !selected || count === 0;
       total += count;
     });
-    counter.textContent = total + ' free resources shown';
+    counter.textContent = total + (total === 1 ? ' free resource shown' : ' free resources shown');
     empty.hidden = total !== 0;
   }
   function selectFilter(value) {
