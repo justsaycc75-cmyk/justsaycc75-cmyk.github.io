@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2118425121899569170",
+        "headline": "South Korean Strait of Hormuz deployment report relayed",
+        "summary": "War Watch relayed a report that South Korea had announced a military deployment off East Africa toward the Strait of Hormuz despite Iranian warnings. The visible source text is truncated after mentioning resistance to U.S. pressure and does not show the remainder; the item was credited to neesh26.",
+        "date": "2026-11-05",
+        "dateLabel": "05 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118425121899569170"
+      },
+      {
+        "id": "2118411080233840776",
+        "headline": "EDDIE61 KC-135 sighting relayed",
+        "summary": "War Watch relayed a spotter report identifying a U.S. Air Force KC-135 using call sign EDDIE61, registration 59-1458 and hex code AE0384, departing Columbus, Ohio and heading east toward the Atlantic. The sighting was credited to alexgreen1767.",
+        "date": "2026-11-05",
+        "dateLabel": "05 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118411080233840776"
+      },
+      {
         "id": "2118392509852164572",
         "headline": "Paraguay president resignation report highlighted",
         "summary": "War Watch highlighted an Associated Press report saying Paraguay President Santiago Peña had resigned after the collapse of Ueno Bank. War Watch said the report was subsequently confirmed by two outlets.",
@@ -83,22 +99,6 @@
         "date": "2026-11-05",
         "dateLabel": "05 NOV 2026 · UTC",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2118266415400546603"
-      },
-      {
-        "id": "2118252355460149416",
-        "headline": "U.S. transport and NATO radar activity reported",
-        "summary": "War Watch reported unusually high U.S. Air Force transport activity across Europe, the Middle East and Asia, with six large cargo aircraft airborne simultaneously and a NATO radar aircraft over the North Sea.",
-        "date": "2026-11-05",
-        "dateLabel": "05 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118252355460149416"
-      },
-      {
-        "id": "2118224510222496000",
-        "headline": "Dnipro attack report highlighted",
-        "summary": "War Watch highlighted a Suspilne report saying three people were injured in a Russian attack on Dnipro overnight into 5 November. The visible source text is truncated after mentioning a private house roof and does not show the remainder; War Watch said the report was confirmed by two outlets.",
-        "date": "2026-11-05",
-        "dateLabel": "05 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118224510222496000"
       }
     ]
   },
