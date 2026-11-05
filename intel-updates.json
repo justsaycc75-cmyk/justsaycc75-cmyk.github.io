@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2118252355460149416",
+        "headline": "U.S. transport and NATO radar activity reported",
+        "summary": "War Watch reported unusually high U.S. Air Force transport activity across Europe, the Middle East and Asia, with six large cargo aircraft airborne simultaneously and a NATO radar aircraft over the North Sea.",
+        "date": "2026-11-05",
+        "dateLabel": "05 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118252355460149416"
+      },
+      {
+        "id": "2118224510222496000",
+        "headline": "Dnipro attack report highlighted",
+        "summary": "War Watch highlighted a Suspilne report saying three people were injured in a Russian attack on Dnipro overnight into 5 November. The visible source text is truncated after mentioning a private house roof and does not show the remainder; War Watch said the report was confirmed by two outlets.",
+        "date": "2026-11-05",
+        "dateLabel": "05 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118224510222496000"
+      },
+      {
         "id": "2118206810595139665",
         "headline": "Heavy-lift aircraft activity and regional tensions reported",
         "summary": "War Watch reported multiple U.S. Air Force heavy-lift transport aircraft airborne over the United States and North Sea, and cited rising regional tensions involving North Korean missile tests and Iranian readiness preparations.",
@@ -83,22 +99,6 @@
         "date": "2026-11-04",
         "dateLabel": "04 NOV 2026 · UTC",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2118115427825881389"
-      },
-      {
-        "id": "2118101919419842839",
-        "headline": "Military cargo aircraft and coded broadcasts reported",
-        "summary": "War Watch reported five large U.S. military cargo aircraft airborne and said five coded radio broadcasts had been heard during the preceding hour.",
-        "date": "2026-11-04",
-        "dateLabel": "04 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118101919419842839"
-      },
-      {
-        "id": "2118094392826335729",
-        "headline": "Trump administration Iran-policy report highlighted",
-        "summary": "War Watch highlighted a Wall Street Journal report saying President Donald Trump faced competing advice over possible further strikes on Iran. The visible text is truncated and does not show the full alternative proposed by officials opposing new strikes.",
-        "date": "2026-11-04",
-        "dateLabel": "04 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118094392826335729"
       }
     ]
   },
