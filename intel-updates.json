@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2118343204378419655",
+        "headline": "U.S. transport and NATO surveillance activity reported",
+        "summary": "War Watch reported six U.S. Air Force transport aircraft airborne over the continental United States and a NATO surveillance jet, describing the activity as higher than typical for the hour.",
+        "date": "2026-11-05",
+        "dateLabel": "05 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118343204378419655"
+      },
+      {
+        "id": "2118328509974151327",
+        "headline": "European flight bomb-threat report relayed",
+        "summary": "War Watch relayed an Insider Paper report that bomb threats had affected European flights for a third day. The item was credited to reagan0965.",
+        "date": "2026-11-05",
+        "dateLabel": "05 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118328509974151327"
+      },
+      {
         "id": "2118297655205900697",
         "headline": "Heavy military transport activity reported",
         "summary": "War Watch reported heavy military transport activity over Europe and the United States, with six cargo aircraft airborne, including one near the Baltic and another over the North Sea.",
@@ -83,22 +99,6 @@
         "date": "2026-11-05",
         "dateLabel": "05 NOV 2026 · UTC",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2118147468822991009"
-      },
-      {
-        "id": "2118143599544021435",
-        "headline": "Kawasaki P-1 ground sighting relayed",
-        "summary": "War Watch relayed a spotter report identifying a Kawasaki P-1 with registration 5519 and hex code 87C842 on the ground in Japan. No call sign was listed, and the sighting was credited to reagan0965.",
-        "date": "2026-11-05",
-        "dateLabel": "05 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118143599544021435"
-      },
-      {
-        "id": "2118135894632714585",
-        "headline": "U.S.-Colombia joint exercise report relayed",
-        "summary": "War Watch relayed a war.gov report that the United States and Colombia had launched a joint exercise intended to strengthen readiness and regional security. The item was credited to reagan0965.",
-        "date": "2026-11-05",
-        "dateLabel": "05 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118135894632714585"
       }
     ]
   },
