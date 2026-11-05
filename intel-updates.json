@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2118392509852164572",
+        "headline": "Paraguay president resignation report highlighted",
+        "summary": "War Watch highlighted an Associated Press report saying Paraguay President Santiago Peña had resigned after the collapse of Ueno Bank. War Watch said the report was subsequently confirmed by two outlets.",
+        "date": "2026-11-05",
+        "dateLabel": "05 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118392509852164572"
+      },
+      {
+        "id": "2118388734123020510",
+        "headline": "U.S. military aircraft and coded broadcasts reported",
+        "summary": "War Watch reported six U.S. military transport and surveillance aircraft airborne over the continental United States and said two coded military radio broadcasts had been heard earlier in the day.",
+        "date": "2026-11-05",
+        "dateLabel": "05 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118388734123020510"
+      },
+      {
+        "id": "2118384961665352151",
+        "headline": "RCH2026 C-5 sighting relayed",
+        "summary": "War Watch relayed a spotter report identifying a C-5 using call sign RCH2026, registration 86-0017 and hex code AE056E. The sighting was credited to jessidavin.",
+        "date": "2026-11-05",
+        "dateLabel": "05 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118384961665352151"
+      },
+      {
+        "id": "2118381184971330008",
+        "headline": "Potential U.S. strikes on Iranian energy infrastructure report relayed",
+        "summary": "War Watch relayed a New York Times report saying the United States was preparing potential strikes on Iran's energy infrastructure.",
+        "date": "2026-11-05",
+        "dateLabel": "05 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118381184971330008"
+      },
+      {
+        "id": "2118377317407867108",
+        "headline": "National Guard facility clashes report highlighted",
+        "summary": "War Watch highlighted a Kyiv Independent report saying police and Ukraine's Security Service had identified 130 people potentially involved in clashes near a National Guard facility. The visible source text is truncated after “facility” and does not show the remainder; War Watch said the report was confirmed by two outlets.",
+        "date": "2026-11-05",
+        "dateLabel": "05 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118377317407867108"
+      },
+      {
         "id": "2118343204378419655",
         "headline": "U.S. transport and NATO surveillance activity reported",
         "summary": "War Watch reported six U.S. Air Force transport aircraft airborne over the continental United States and a NATO surveillance jet, describing the activity as higher than typical for the hour.",
@@ -59,46 +99,6 @@
         "date": "2026-11-05",
         "dateLabel": "05 NOV 2026 · UTC",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2118224510222496000"
-      },
-      {
-        "id": "2118206810595139665",
-        "headline": "Heavy-lift aircraft activity and regional tensions reported",
-        "summary": "War Watch reported multiple U.S. Air Force heavy-lift transport aircraft airborne over the United States and North Sea, and cited rising regional tensions involving North Korean missile tests and Iranian readiness preparations.",
-        "date": "2026-11-05",
-        "dateLabel": "05 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118206810595139665"
-      },
-      {
-        "id": "2118194663123239123",
-        "headline": "North Korean missile tests report relayed",
-        "summary": "War Watch relayed a report attributed to EndGameWW3 that North Korea said it had tested an air-defence missile and conducted a cruise-missile drill.",
-        "date": "2026-11-05",
-        "dateLabel": "05 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118194663123239123"
-      },
-      {
-        "id": "2118187141092045082",
-        "headline": "South Korean Strait of Hormuz mission report relayed",
-        "summary": "War Watch relayed a report attributed to IP that South Korea's defence ministry had announced the deployment of a military mission to help keep the Strait of Hormuz open.",
-        "date": "2026-11-05",
-        "dateLabel": "05 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118187141092045082"
-      },
-      {
-        "id": "2118166719524929691",
-        "headline": "E-6 Mercury spotter report relayed",
-        "summary": "War Watch relayed a spotter report identifying a Boeing E-6 Mercury with hex code AEE6AC. No call sign or registration was listed, and the sighting was credited to reagan0965.",
-        "date": "2026-11-05",
-        "dateLabel": "05 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118166719524929691"
-      },
-      {
-        "id": "2118147468822991009",
-        "headline": "U.S. command-aircraft activity reported",
-        "summary": "War Watch reported multiple U.S. military command aircraft airborne over the continental United States, including a surveillance aircraft, two transport jets, an airborne radar aircraft and a nuclear communications aircraft.",
-        "date": "2026-11-05",
-        "dateLabel": "05 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118147468822991009"
       }
     ]
   },
