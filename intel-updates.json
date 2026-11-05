@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2118297655205900697",
+        "headline": "Heavy military transport activity reported",
+        "summary": "War Watch reported heavy military transport activity over Europe and the United States, with six cargo aircraft airborne, including one near the Baltic and another over the North Sea.",
+        "date": "2026-11-05",
+        "dateLabel": "05 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118297655205900697"
+      },
+      {
+        "id": "2118291386382348689",
+        "headline": "Bulgarian emergency landings report highlighted",
+        "summary": "War Watch highlighted an Al Jazeera Arabic report citing Bulgarian television on emergency landings by three aircraft in Bulgaria. The visible source text is truncated after “due to a series of” and does not show the cause; War Watch said the report was confirmed by two outlets.",
+        "date": "2026-11-05",
+        "dateLabel": "05 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118291386382348689"
+      },
+      {
+        "id": "2118266415400546603",
+        "headline": "Dublin-Rome A320 bomb-threat diversion report relayed",
+        "summary": "War Watch relayed a report attributed to BBC News that an Airbus A320 flying from Dublin to Rome had diverted because of a bomb threat. The item was credited to Robertchester-j5b.",
+        "date": "2026-11-05",
+        "dateLabel": "05 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118266415400546603"
+      },
+      {
         "id": "2118252355460149416",
         "headline": "U.S. transport and NATO radar activity reported",
         "summary": "War Watch reported unusually high U.S. Air Force transport activity across Europe, the Middle East and Asia, with six large cargo aircraft airborne simultaneously and a NATO radar aircraft over the North Sea.",
@@ -75,30 +99,6 @@
         "date": "2026-11-05",
         "dateLabel": "05 NOV 2026 · UTC",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2118135894632714585"
-      },
-      {
-        "id": "2118129412554031512",
-        "headline": "CENTCOM Project Agincourt report relayed",
-        "summary": "War Watch relayed a war.gov item titled “Centcom Benefits From Project Agincourt, Drone Dominance Efforts.” The item was credited to reagan0965; no further detail was visible in the post.",
-        "date": "2026-11-04",
-        "dateLabel": "04 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118129412554031512"
-      },
-      {
-        "id": "2118119283205013940",
-        "headline": "Debate over further Iran strikes reported",
-        "summary": "War Watch highlighted a Wall Street Journal report saying some U.S. administration officials were pressing President Donald Trump to launch further strikes on Iran, while others wanted the United States to pursue another course. The visible source text is truncated after “to” and does not show the remainder.",
-        "date": "2026-11-04",
-        "dateLabel": "04 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118119283205013940"
-      },
-      {
-        "id": "2118115427825881389",
-        "headline": "SAM752 89th Airlift Wing spotter report relayed",
-        "summary": "War Watch relayed a spotter report identifying SAM752 as a U.S. Air Force 89th Airlift Wing aircraft from Andrews Air Force Base, with registration 01-0040 and hex code AE0945. The sighting was credited to reagan0965, with a photograph credited to Westley_SJU via Planespotters.net.",
-        "date": "2026-11-04",
-        "dateLabel": "04 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118115427825881389"
       }
     ]
   },
