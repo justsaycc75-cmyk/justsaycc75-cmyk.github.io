@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2118206810595139665",
+        "headline": "Heavy-lift aircraft activity and regional tensions reported",
+        "summary": "War Watch reported multiple U.S. Air Force heavy-lift transport aircraft airborne over the United States and North Sea, and cited rising regional tensions involving North Korean missile tests and Iranian readiness preparations.",
+        "date": "2026-11-05",
+        "dateLabel": "05 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118206810595139665"
+      },
+      {
+        "id": "2118194663123239123",
+        "headline": "North Korean missile tests report relayed",
+        "summary": "War Watch relayed a report attributed to EndGameWW3 that North Korea said it had tested an air-defence missile and conducted a cruise-missile drill.",
+        "date": "2026-11-05",
+        "dateLabel": "05 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118194663123239123"
+      },
+      {
+        "id": "2118187141092045082",
+        "headline": "South Korean Strait of Hormuz mission report relayed",
+        "summary": "War Watch relayed a report attributed to IP that South Korea's defence ministry had announced the deployment of a military mission to help keep the Strait of Hormuz open.",
+        "date": "2026-11-05",
+        "dateLabel": "05 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118187141092045082"
+      },
+      {
         "id": "2118166719524929691",
         "headline": "E-6 Mercury spotter report relayed",
         "summary": "War Watch relayed a spotter report identifying a Boeing E-6 Mercury with hex code AEE6AC. No call sign or registration was listed, and the sighting was credited to reagan0965.",
@@ -75,30 +99,6 @@
         "date": "2026-11-04",
         "dateLabel": "04 NOV 2026 · UTC",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2118094392826335729"
-      },
-      {
-        "id": "2118091348955877712",
-        "headline": "MH-65 Dolphin C6585 spotter report relayed",
-        "summary": "War Watch relayed a spotter report identifying C6585 as an MH-65 Dolphin with registration 6585 and hex code AE26AB. The sighting was credited to jessidavin.",
-        "date": "2026-11-04",
-        "dateLabel": "04 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118091348955877712"
-      },
-      {
-        "id": "2118072574420590627",
-        "headline": "Florida active-threat report highlighted",
-        "summary": "War Watch highlighted an Associated Press report saying Florida authorities reported a suspect dead after officers responded to an active threat. The visible source text is truncated after “at” and does not show the remainder; War Watch said the report was confirmed by two outlets.",
-        "date": "2026-11-04",
-        "dateLabel": "04 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118072574420590627"
-      },
-      {
-        "id": "2118056618910704074",
-        "headline": "U.S. transport aircraft and coded broadcasts reported",
-        "summary": "War Watch reported six large U.S. Air Force transport aircraft airborne over the continental United States and four coded radio broadcasts heard during the preceding hour.",
-        "date": "2026-11-04",
-        "dateLabel": "04 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118056618910704074"
       }
     ]
   },
