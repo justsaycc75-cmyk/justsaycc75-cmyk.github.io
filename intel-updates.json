@@ -5,6 +5,38 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2118558176979095869",
+        "headline": "Hormuz tankers and South Korean naval mission report relayed",
+        "summary": "War Watch relayed a report that tankers were burning off Hormuz as South Korea prepared naval assets for a Gulf of Oman mission. The visible source text is truncated after beginning a reference to U.S. President Donald Trump and does not show the remainder; the item was credited to Neeshbruh.",
+        "date": "2026-11-06",
+        "dateLabel": "06 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118558176979095869"
+      },
+      {
+        "id": "2118542954633515482",
+        "headline": "Homeland missile-defence coordination report relayed",
+        "summary": "War Watch relayed a 5 November report that leaders from NORAD, U.S. Northern Command and the Missile Defense Agency had aligned on homeland missile defence. The item was credited to reagan0965.",
+        "date": "2026-11-06",
+        "dateLabel": "06 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118542954633515482"
+      },
+      {
+        "id": "2118539179277619659",
+        "headline": "U.S. cargo aircraft, radio and Iraqi corridor activity reported",
+        "summary": "War Watch reported six U.S. Air Force cargo aircraft airborne over the continental United States, one coded U.S. Air Force radio broadcast in the previous hour, and Iraqi flight-corridor restrictions through 11 November.",
+        "date": "2026-11-06",
+        "dateLabel": "06 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118539179277619659"
+      },
+      {
+        "id": "2118532809635594736",
+        "headline": "RAIDR03 C-130J sighting relayed",
+        "summary": "War Watch relayed a spotter report identifying a Lockheed Martin C-130J Super Hercules using call sign RAIDR03, registration 169533 and hex code AE6043. The sighting was credited to reagan0965.",
+        "date": "2026-11-06",
+        "dateLabel": "06 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118532809635594736"
+      },
+      {
         "id": "2118506557046390962",
         "headline": "JANET01 Beech B200C sighting relayed",
         "summary": "War Watch relayed a spotter report identifying a Janet Beech B200C Super King Air using call sign JANET01, registration N661BA and hex code A8B80A, in a pattern at 15,000 feet. The visible source text gives an uncertain origin and is truncated after “10 k SW of,” so the location is not stated; the sighting was credited to alexgreen1767.",
@@ -67,38 +99,6 @@
         "date": "2026-11-05",
         "dateLabel": "05 NOV 2026 · UTC",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2118470223195992213"
-      },
-      {
-        "id": "2118466327622893690",
-        "headline": "NATO anti-drone platform report relayed",
-        "summary": "War Watch relayed an Insider Paper report that NATO had launched a platform intended to help member states strengthen anti-drone defences. The item was credited to reagan0965.",
-        "date": "2026-11-05",
-        "dateLabel": "05 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118466327622893690"
-      },
-      {
-        "id": "2118425121899569170",
-        "headline": "South Korean Strait of Hormuz deployment report relayed",
-        "summary": "War Watch relayed a report that South Korea had announced a military deployment off East Africa toward the Strait of Hormuz despite Iranian warnings. The visible source text is truncated after mentioning resistance to U.S. pressure and does not show the remainder; the item was credited to neesh26.",
-        "date": "2026-11-05",
-        "dateLabel": "05 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118425121899569170"
-      },
-      {
-        "id": "2118411080233840776",
-        "headline": "EDDIE61 KC-135 sighting relayed",
-        "summary": "War Watch relayed a spotter report identifying a U.S. Air Force KC-135 using call sign EDDIE61, registration 59-1458 and hex code AE0384, departing Columbus, Ohio and heading east toward the Atlantic. The sighting was credited to alexgreen1767.",
-        "date": "2026-11-05",
-        "dateLabel": "05 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118411080233840776"
-      },
-      {
-        "id": "2118392509852164572",
-        "headline": "Paraguay president resignation report highlighted",
-        "summary": "War Watch highlighted an Associated Press report saying Paraguay President Santiago Peña had resigned after the collapse of Ueno Bank. War Watch said the report was subsequently confirmed by two outlets.",
-        "date": "2026-11-05",
-        "dateLabel": "05 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118392509852164572"
       }
     ]
   },
