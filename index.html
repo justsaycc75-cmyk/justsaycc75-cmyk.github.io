@@ -626,7 +626,7 @@ update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
  const labels={2:'Upcoming',3:'First half',4:'Half-time',5:'Second half',6:'Extra time',7:'Full-time',8:'Final',9:'Live',11:'Final',12:'Postponed',13:'Suspended',14:'Cancelled'};
  const live=new Set([3,4,5,6,9]),ended=new Set([7,8,11,12,14]);
  const fmt=new Intl.DateTimeFormat('en-AU',{timeZone:'Australia/Sydney',weekday:'short',hour:'numeric',minute:'2-digit',hour12:true});
- const stamp=new Intl.DateTimeFormat('en-AU',{timeZone:'Australia/Sydney',hour:'numeric',minute:'2-digit',second:'2-digit',hour12:true});
+ const stamp=new Intl.DateTimeFormat('en-AU',{timeZone:'Australia/Sydney',day:'numeric',month:'short',year:'numeric',hour:'numeric',minute:'2-digit',second:'2-digit',hour12:true});
  let data=null,failed=false,busy=false;
 
  function render(){
@@ -661,7 +661,8 @@ update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
   panel.dataset.sportStart=String((active||next||visible[0]).kickoff);
   status.textContent=active?'WORLD CUP · '+(active.state==='in'?'LIVE':'SCORE DELAYED'):'WORLD CUP · MEN’S FINALS';
   q('[data-rlwc-secondary]').hidden=true;
-  freshness.textContent=data?'Official score feed checked '+stamp.format(Date.parse(data.fetchedAt))+' Sydney'+(!fresh?' · updates may be delayed':''):'Upcoming fixtures confirmed · live scores available from match centres';
+  freshness.textContent=data?'Official score feed last checked '+stamp.format(Date.parse(data.fetchedAt))+' Sydney'+(age>10*60*1000?' · stale snapshot; scores may be out of date':failed?' · updates delayed':''):'Upcoming fixtures confirmed · live scores available from match centres';
+  freshness.classList.toggle('live-game-stale',!!data&&!fresh);
  }
  async function refresh(){
   if(busy||panel.hidden)return;busy=true;
