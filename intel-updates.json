@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2118660946415464528",
+        "headline": "Guided-bomb launch report highlighted",
+        "summary": "War Watch highlighted a Ukrainian Air Force statement that guided aerial bombs, identified as KABs, had been launched toward the Donetsk region. It said the statement appeared 11 minutes before the wire and had been confirmed by two outlets.",
+        "date": "2026-11-06",
+        "dateLabel": "06 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118660946415464528"
+      },
+      {
+        "id": "2118629781809820076",
+        "headline": "U.S. aircraft and coded radio activity reported",
+        "summary": "War Watch reported U.S. Air Force transport aircraft and aircraft it described as spy planes remaining airborne over the North Sea and beyond, continuing earlier activity. It also reported one coded radio broadcast during the day.",
+        "date": "2026-11-06",
+        "dateLabel": "06 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118629781809820076"
+      },
+      {
         "id": "2118609979678625956",
         "headline": "Afipsky oil-refinery strike report highlighted",
         "summary": "War Watch highlighted a Kyiv Post report that Ukrainian drones struck the Afipsky oil refinery in Russia’s Krasnodar region overnight and started a fire. It said the report appeared 18 minutes before the wire and had been confirmed by two outlets.",
@@ -83,22 +99,6 @@
         "date": "2026-11-05",
         "dateLabel": "05 NOV 2026 · UTC",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2118485324129055189"
-      },
-      {
-        "id": "2118481546604646472",
-        "headline": "FH-95 combat drone shootdown report relayed",
-        "summary": "War Watch relayed a report that the Sudanese Armed Forces had shot down another UAE-operated FH-95, also identified as a CH-95, unmanned combat aerial vehicle used by the UAE-backed Rapid Support Forces. The visible source text is truncated after “Forces” and does not show the remainder; the item was credited to reagan0965.",
-        "date": "2026-11-05",
-        "dateLabel": "05 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118481546604646472"
-      },
-      {
-        "id": "2118477775019323496",
-        "headline": "VENUS51 C-40B sighting relayed",
-        "summary": "War Watch relayed a spotter report identifying a Boeing C-40B using call sign VENUS51, registration 01-0015 and hex code AE115D. The sighting was credited to reagan0965.",
-        "date": "2026-11-05",
-        "dateLabel": "05 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118477775019323496"
       }
     ]
   },
