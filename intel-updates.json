@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2118609979678625956",
+        "headline": "Afipsky oil-refinery strike report highlighted",
+        "summary": "War Watch highlighted a Kyiv Post report that Ukrainian drones struck the Afipsky oil refinery in Russia’s Krasnodar region overnight and started a fire. It said the report appeared 18 minutes before the wire and had been confirmed by two outlets.",
+        "date": "2026-11-06",
+        "dateLabel": "06 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118609979678625956"
+      },
+      {
+        "id": "2118584480424194282",
+        "headline": "U.S. transport and regional military activity reported",
+        "summary": "War Watch reported multiple U.S. Air Force transport aircraft active over the North Sea alongside an aircraft it described as a spy plane, plus medium-level military activity in the eastern Mediterranean.",
+        "date": "2026-11-06",
+        "dateLabel": "06 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118584480424194282"
+      },
+      {
         "id": "2118558176979095869",
         "headline": "Hormuz tankers and South Korean naval mission report relayed",
         "summary": "War Watch relayed a report that tankers were burning off Hormuz as South Korea prepared naval assets for a Gulf of Oman mission. The visible source text is truncated after beginning a reference to U.S. President Donald Trump and does not show the remainder; the item was credited to Neeshbruh.",
@@ -83,22 +99,6 @@
         "date": "2026-11-05",
         "dateLabel": "05 NOV 2026 · UTC",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2118477775019323496"
-      },
-      {
-        "id": "2118473996719001965",
-        "headline": "Iraqi airport NOTAM report relayed",
-        "summary": "War Watch relayed a report that Iraq had issued a NOTAM concerning overflights and aircraft landing at Baghdad, Erbil, Sulaimaniyah and Kirkuk. The visible source text is truncated after “Kirkuk” and does not show the full requirement; the item was credited to reagan0965.",
-        "date": "2026-11-05",
-        "dateLabel": "05 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118473996719001965"
-      },
-      {
-        "id": "2118470223195992213",
-        "headline": "E-3 Sentry sighting relayed",
-        "summary": "War Watch relayed a spotter report identifying an E-3 Sentry with hex code AE11EA. No call sign or registration was listed, and the sighting was credited to neeshbruh.",
-        "date": "2026-11-05",
-        "dateLabel": "05 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118470223195992213"
       }
     ]
   },
