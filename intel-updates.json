@@ -5,6 +5,38 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2118506557046390962",
+        "headline": "JANET01 Beech B200C sighting relayed",
+        "summary": "War Watch relayed a spotter report identifying a Janet Beech B200C Super King Air using call sign JANET01, registration N661BA and hex code A8B80A, in a pattern at 15,000 feet. The visible source text gives an uncertain origin and is truncated after “10 k SW of,” so the location is not stated; the sighting was credited to alexgreen1767.",
+        "date": "2026-11-06",
+        "dateLabel": "06 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118506557046390962"
+      },
+      {
+        "id": "2118497654317474199",
+        "headline": "Iraqi airspace corridor restrictions report relayed",
+        "summary": "War Watch relayed a NOTAM report saying Iraq had restricted flights over its airspace and into four major airports to designated corridors from 05:00 to 11:00 UTC daily. The visible source text is truncated after “daily” and does not show the remainder; the item was credited to angrymusicsupers.",
+        "date": "2026-11-06",
+        "dateLabel": "06 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118497654317474199"
+      },
+      {
+        "id": "2118493880026890408",
+        "headline": "Coded U.S. Air Force radio activity reported",
+        "summary": "War Watch reported a worldwide increase in coded U.S. Air Force radio broadcasts, with the highest activity in the eastern Mediterranean and the United States, and said detected volume was nearly four times normal.",
+        "date": "2026-11-06",
+        "dateLabel": "06 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118493880026890408"
+      },
+      {
+        "id": "2118485324129055189",
+        "headline": "WATCH30 E-3G Sentry sighting relayed",
+        "summary": "War Watch relayed a spotter report identifying a Boeing E-3G Sentry using call sign WATCH30, registration 82-0006 and hex code AE11EF. The sighting was credited to reagan0965.",
+        "date": "2026-11-05",
+        "dateLabel": "05 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118485324129055189"
+      },
+      {
         "id": "2118481546604646472",
         "headline": "FH-95 combat drone shootdown report relayed",
         "summary": "War Watch relayed a report that the Sudanese Armed Forces had shot down another UAE-operated FH-95, also identified as a CH-95, unmanned combat aerial vehicle used by the UAE-backed Rapid Support Forces. The visible source text is truncated after “Forces” and does not show the remainder; the item was credited to reagan0965.",
@@ -67,38 +99,6 @@
         "date": "2026-11-05",
         "dateLabel": "05 NOV 2026 · UTC",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2118392509852164572"
-      },
-      {
-        "id": "2118388734123020510",
-        "headline": "U.S. military aircraft and coded broadcasts reported",
-        "summary": "War Watch reported six U.S. military transport and surveillance aircraft airborne over the continental United States and said two coded military radio broadcasts had been heard earlier in the day.",
-        "date": "2026-11-05",
-        "dateLabel": "05 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118388734123020510"
-      },
-      {
-        "id": "2118384961665352151",
-        "headline": "RCH2026 C-5 sighting relayed",
-        "summary": "War Watch relayed a spotter report identifying a C-5 using call sign RCH2026, registration 86-0017 and hex code AE056E. The sighting was credited to jessidavin.",
-        "date": "2026-11-05",
-        "dateLabel": "05 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118384961665352151"
-      },
-      {
-        "id": "2118381184971330008",
-        "headline": "Potential U.S. strikes on Iranian energy infrastructure report relayed",
-        "summary": "War Watch relayed a New York Times report saying the United States was preparing potential strikes on Iran's energy infrastructure.",
-        "date": "2026-11-05",
-        "dateLabel": "05 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118381184971330008"
-      },
-      {
-        "id": "2118377317407867108",
-        "headline": "National Guard facility clashes report highlighted",
-        "summary": "War Watch highlighted a Kyiv Independent report saying police and Ukraine's Security Service had identified 130 people potentially involved in clashes near a National Guard facility. The visible source text is truncated after “facility” and does not show the remainder; War Watch said the report was confirmed by two outlets.",
-        "date": "2026-11-05",
-        "dateLabel": "05 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118377317407867108"
       }
     ]
   },
