@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2118710004630847963",
+        "headline": "Prague and Sofia flight bomb-threat report relayed",
+        "summary": "War Watch relayed an Insider Paper report that bomb threats had targeted flights to and from Prague and Sofia. The item was credited to reagan0965.",
+        "date": "2026-11-06",
+        "dateLabel": "06 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118710004630847963"
+      },
+      {
+        "id": "2118675160848810012",
+        "headline": "U.S. aircraft and Atlantic coded radio activity reported",
+        "summary": "War Watch reported multiple U.S. Air Force transport aircraft and an aircraft it described as a spy plane airborne, with one coded radio broadcast heard earlier in the day over the Atlantic.",
+        "date": "2026-11-06",
+        "dateLabel": "06 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118675160848810012"
+      },
+      {
         "id": "2118660946415464528",
         "headline": "Guided-bomb launch report highlighted",
         "summary": "War Watch highlighted a Ukrainian Air Force statement that guided aerial bombs, identified as KABs, had been launched toward the Donetsk region. It said the statement appeared 11 minutes before the wire and had been confirmed by two outlets.",
@@ -83,22 +99,6 @@
         "date": "2026-11-06",
         "dateLabel": "06 NOV 2026 · UTC",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2118497654317474199"
-      },
-      {
-        "id": "2118493880026890408",
-        "headline": "Coded U.S. Air Force radio activity reported",
-        "summary": "War Watch reported a worldwide increase in coded U.S. Air Force radio broadcasts, with the highest activity in the eastern Mediterranean and the United States, and said detected volume was nearly four times normal.",
-        "date": "2026-11-06",
-        "dateLabel": "06 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118493880026890408"
-      },
-      {
-        "id": "2118485324129055189",
-        "headline": "WATCH30 E-3G Sentry sighting relayed",
-        "summary": "War Watch relayed a spotter report identifying a Boeing E-3G Sentry using call sign WATCH30, registration 82-0006 and hex code AE11EF. The sighting was credited to reagan0965.",
-        "date": "2026-11-05",
-        "dateLabel": "05 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118485324129055189"
       }
     ]
   },
