@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2118789627964260841",
+        "headline": "SAM801 C-40B sighting relayed",
+        "summary": "War Watch relayed a spotter report identifying a U.S. Air Force 89th Airlift Wing Boeing C-40B using call sign SAM801, registration 02-0042 and hex code AE11F8. The sighting was credited to reagan0965, with a photograph credited to HXD3D-0260 via Planespotters.net.",
+        "date": "2026-11-06",
+        "dateLabel": "06 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118789627964260841"
+      },
+      {
+        "id": "2118785598542471653",
+        "headline": "Strait of Hormuz explosion report relayed",
+        "summary": "War Watch relayed a UKREPORT report of an explosion heard in the Strait of Hormuz.",
+        "date": "2026-11-06",
+        "dateLabel": "06 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118785598542471653"
+      },
+      {
+        "id": "2118781573000495122",
+        "headline": "TIGER11 CH-53 Super Stallion sighting relayed",
+        "summary": "War Watch relayed a spotter report identifying a Sikorsky CH-53 Super Stallion using call sign TIGER11, registration 164359 and hex code AE4B8E. The sighting was credited to reagan0965.",
+        "date": "2026-11-06",
+        "dateLabel": "06 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118781573000495122"
+      },
+      {
+        "id": "2118777797145493691",
+        "headline": "Velos Sapphire projectile-strike report relayed",
+        "summary": "War Watch relayed a report that the Greek-managed product tanker Velos Sapphire had been struck by two unidentified projectiles late Wednesday local time. The visible source text is truncated after “about 50 nautical miles” and does not show the remaining location detail; the item was credited to reagan0965.",
+        "date": "2026-11-06",
+        "dateLabel": "06 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118777797145493691"
+      },
+      {
+        "id": "2118771504691179992",
+        "headline": "S8000 Banderol launch footage report relayed",
+        "summary": "War Watch relayed a report that Russia had released the first footage showing S8000 Banderol compact cruise missiles being launched from a Mi-28MN attack helicopter. The visible source text is truncated after “attack helicopter” and does not show the remainder.",
+        "date": "2026-11-06",
+        "dateLabel": "06 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118771504691179992"
+      },
+      {
         "id": "2118751133602599241",
         "headline": "Iran anti-radiation tablet report relayed",
         "summary": "War Watch relayed an RT report that Iran was distributing anti-radiation tablets while preparing for potential nuclear fallout.",
@@ -59,46 +99,6 @@
         "date": "2026-11-06",
         "dateLabel": "06 NOV 2026 · UTC",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2118675160848810012"
-      },
-      {
-        "id": "2118660946415464528",
-        "headline": "Guided-bomb launch report highlighted",
-        "summary": "War Watch highlighted a Ukrainian Air Force statement that guided aerial bombs, identified as KABs, had been launched toward the Donetsk region. It said the statement appeared 11 minutes before the wire and had been confirmed by two outlets.",
-        "date": "2026-11-06",
-        "dateLabel": "06 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118660946415464528"
-      },
-      {
-        "id": "2118629781809820076",
-        "headline": "U.S. aircraft and coded radio activity reported",
-        "summary": "War Watch reported U.S. Air Force transport aircraft and aircraft it described as spy planes remaining airborne over the North Sea and beyond, continuing earlier activity. It also reported one coded radio broadcast during the day.",
-        "date": "2026-11-06",
-        "dateLabel": "06 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118629781809820076"
-      },
-      {
-        "id": "2118609979678625956",
-        "headline": "Afipsky oil-refinery strike report highlighted",
-        "summary": "War Watch highlighted a Kyiv Post report that Ukrainian drones struck the Afipsky oil refinery in Russia’s Krasnodar region overnight and started a fire. It said the report appeared 18 minutes before the wire and had been confirmed by two outlets.",
-        "date": "2026-11-06",
-        "dateLabel": "06 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118609979678625956"
-      },
-      {
-        "id": "2118584480424194282",
-        "headline": "U.S. transport and regional military activity reported",
-        "summary": "War Watch reported multiple U.S. Air Force transport aircraft active over the North Sea alongside an aircraft it described as a spy plane, plus medium-level military activity in the eastern Mediterranean.",
-        "date": "2026-11-06",
-        "dateLabel": "06 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118584480424194282"
-      },
-      {
-        "id": "2118558176979095869",
-        "headline": "Hormuz tankers and South Korean naval mission report relayed",
-        "summary": "War Watch relayed a report that tankers were burning off Hormuz as South Korea prepared naval assets for a Gulf of Oman mission. The visible source text is truncated after beginning a reference to U.S. President Donald Trump and does not show the remainder; the item was credited to Neeshbruh.",
-        "date": "2026-11-06",
-        "dateLabel": "06 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118558176979095869"
       }
     ]
   },
