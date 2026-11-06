@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2118751133602599241",
+        "headline": "Iran anti-radiation tablet report relayed",
+        "summary": "War Watch relayed an RT report that Iran was distributing anti-radiation tablets while preparing for potential nuclear fallout.",
+        "date": "2026-11-06",
+        "dateLabel": "06 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118751133602599241"
+      },
+      {
+        "id": "2118744136312398056",
+        "headline": "Russia-Iran S-400 talks report relayed",
+        "summary": "War Watch relayed an OSINTtechnical report, attributed to a senior Iranian official quoted by The Telegraph, that Russia was in talks to send advanced S-400 surface-to-air missile systems to Iran. The item was credited to reagan0965.",
+        "date": "2026-11-06",
+        "dateLabel": "06 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118744136312398056"
+      },
+      {
+        "id": "2118740363363918233",
+        "headline": "TOPCT29 TC-135W sighting relayed",
+        "summary": "War Watch relayed a spotter report identifying a Boeing TC-135W using call sign TOPCT29, registration 62-4127 and hex code AE1254. The sighting was credited to reagan0965, with a photograph credited to Alon Varshaver via Planespotters.net.",
+        "date": "2026-11-06",
+        "dateLabel": "06 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118740363363918233"
+      },
+      {
+        "id": "2118736585915027718",
+        "headline": "IRGC MQ-1 shootdown claim relayed",
+        "summary": "War Watch relayed a Polymarket Intel report that the IRGC claimed a U.S. MQ-1 drone had been shot down over Qeshm Island and counted it as the 16th American drone destroyed. The item was credited to reagan0965.",
+        "date": "2026-11-06",
+        "dateLabel": "06 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118736585915027718"
+      },
+      {
+        "id": "2118732669416546500",
+        "headline": "U.S. Navy E-6B Mercury sighting relayed",
+        "summary": "War Watch relayed a spotter report identifying a U.S. Navy Boeing E-6B Mercury with hex code AF7F43. No call sign or registration was listed, and the sighting was credited to timharkness9152.",
+        "date": "2026-11-06",
+        "dateLabel": "06 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118732669416546500"
+      },
+      {
         "id": "2118710004630847963",
         "headline": "Prague and Sofia flight bomb-threat report relayed",
         "summary": "War Watch relayed an Insider Paper report that bomb threats had targeted flights to and from Prague and Sofia. The item was credited to reagan0965.",
@@ -59,46 +99,6 @@
         "date": "2026-11-06",
         "dateLabel": "06 NOV 2026 · UTC",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2118558176979095869"
-      },
-      {
-        "id": "2118542954633515482",
-        "headline": "Homeland missile-defence coordination report relayed",
-        "summary": "War Watch relayed a 5 November report that leaders from NORAD, U.S. Northern Command and the Missile Defense Agency had aligned on homeland missile defence. The item was credited to reagan0965.",
-        "date": "2026-11-06",
-        "dateLabel": "06 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118542954633515482"
-      },
-      {
-        "id": "2118539179277619659",
-        "headline": "U.S. cargo aircraft, radio and Iraqi corridor activity reported",
-        "summary": "War Watch reported six U.S. Air Force cargo aircraft airborne over the continental United States, one coded U.S. Air Force radio broadcast in the previous hour, and Iraqi flight-corridor restrictions through 11 November.",
-        "date": "2026-11-06",
-        "dateLabel": "06 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118539179277619659"
-      },
-      {
-        "id": "2118532809635594736",
-        "headline": "RAIDR03 C-130J sighting relayed",
-        "summary": "War Watch relayed a spotter report identifying a Lockheed Martin C-130J Super Hercules using call sign RAIDR03, registration 169533 and hex code AE6043. The sighting was credited to reagan0965.",
-        "date": "2026-11-06",
-        "dateLabel": "06 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118532809635594736"
-      },
-      {
-        "id": "2118506557046390962",
-        "headline": "JANET01 Beech B200C sighting relayed",
-        "summary": "War Watch relayed a spotter report identifying a Janet Beech B200C Super King Air using call sign JANET01, registration N661BA and hex code A8B80A, in a pattern at 15,000 feet. The visible source text gives an uncertain origin and is truncated after “10 k SW of,” so the location is not stated; the sighting was credited to alexgreen1767.",
-        "date": "2026-11-06",
-        "dateLabel": "06 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118506557046390962"
-      },
-      {
-        "id": "2118497654317474199",
-        "headline": "Iraqi airspace corridor restrictions report relayed",
-        "summary": "War Watch relayed a NOTAM report saying Iraq had restricted flights over its airspace and into four major airports to designated corridors from 05:00 to 11:00 UTC daily. The visible source text is truncated after “daily” and does not show the remainder; the item was credited to angrymusicsupers.",
-        "date": "2026-11-06",
-        "dateLabel": "06 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118497654317474199"
       }
     ]
   },
