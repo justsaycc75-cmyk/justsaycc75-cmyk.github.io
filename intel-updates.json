@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2118884557541798284",
+        "headline": "White House arrest report relayed",
+        "summary": "War Watch Intel relayed a CBS report, credited via alexgreen1767, that DHS said an armed man arrested near the White House had planned to kill President Trump.",
+        "date": "2026-11-07",
+        "dateLabel": "07 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118884557541798284"
+      },
+      {
+        "id": "2118876376660849125",
+        "headline": "Blue Angels pilot removal report relayed",
+        "summary": "War Watch Intel relayed an OSINTdefender report, credited via reagan0965, that Marine Corps Maj. Scott Laux, the Blue Angels’ No. 6 opposing solo pilot, had been removed from the team.",
+        "date": "2026-11-07",
+        "dateLabel": "07 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118876376660849125"
+      },
+      {
+        "id": "2118872603070705986",
+        "headline": "Transport-aircraft and Gulf activity update",
+        "summary": "War Watch Intel reported six U.S. Air Force transport aircraft airborne over the continental United States and said Gulf-region activity had risen to 16 reports in six hours.",
+        "date": "2026-11-07",
+        "dateLabel": "07 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118872603070705986"
+      },
+      {
+        "id": "2118868645174546661",
+        "headline": "Vance–Iran deal report relayed",
+        "summary": "War Watch Intel relayed an Axios report, credited via friedpotates, that Vice President Vance was leading a behind-the-scenes push for a new Iran agreement.",
+        "date": "2026-11-07",
+        "dateLabel": "07 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118868645174546661"
+      },
+      {
+        "id": "2118850376350708141",
+        "headline": "Kyiv Iskander strike report relayed",
+        "summary": "War Watch Intel relayed an OSINTWarfare report, credited via AngryMusicSuperS, that a Russian Iskander-M ballistic missile with a cluster warhead had struck Kyiv.",
+        "date": "2026-11-06",
+        "dateLabel": "06 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118850376350708141"
+      },
+      {
         "id": "2118843748272439700",
         "headline": "Qeshm Island missile-launch report relayed",
         "summary": "War Watch relayed a report that another Iranian surface-to-air missile had been launched from Qeshm Island. The visible source text then begins an unconfirmed report concerning a U.S. MQ-9A Reaper but is truncated before showing the remainder; the item was credited to reagan0965.",
@@ -59,46 +99,6 @@
         "date": "2026-11-06",
         "dateLabel": "06 NOV 2026 · UTC",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2118785598542471653"
-      },
-      {
-        "id": "2118781573000495122",
-        "headline": "TIGER11 CH-53 Super Stallion sighting relayed",
-        "summary": "War Watch relayed a spotter report identifying a Sikorsky CH-53 Super Stallion using call sign TIGER11, registration 164359 and hex code AE4B8E. The sighting was credited to reagan0965.",
-        "date": "2026-11-06",
-        "dateLabel": "06 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118781573000495122"
-      },
-      {
-        "id": "2118777797145493691",
-        "headline": "Velos Sapphire projectile-strike report relayed",
-        "summary": "War Watch relayed a report that the Greek-managed product tanker Velos Sapphire had been struck by two unidentified projectiles late Wednesday local time. The visible source text is truncated after “about 50 nautical miles” and does not show the remaining location detail; the item was credited to reagan0965.",
-        "date": "2026-11-06",
-        "dateLabel": "06 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118777797145493691"
-      },
-      {
-        "id": "2118771504691179992",
-        "headline": "S8000 Banderol launch footage report relayed",
-        "summary": "War Watch relayed a report that Russia had released the first footage showing S8000 Banderol compact cruise missiles being launched from a Mi-28MN attack helicopter. The visible source text is truncated after “attack helicopter” and does not show the remainder.",
-        "date": "2026-11-06",
-        "dateLabel": "06 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118771504691179992"
-      },
-      {
-        "id": "2118751133602599241",
-        "headline": "Iran anti-radiation tablet report relayed",
-        "summary": "War Watch relayed an RT report that Iran was distributing anti-radiation tablets while preparing for potential nuclear fallout.",
-        "date": "2026-11-06",
-        "dateLabel": "06 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118751133602599241"
-      },
-      {
-        "id": "2118744136312398056",
-        "headline": "Russia-Iran S-400 talks report relayed",
-        "summary": "War Watch relayed an OSINTtechnical report, attributed to a senior Iranian official quoted by The Telegraph, that Russia was in talks to send advanced S-400 surface-to-air missile systems to Iran. The item was credited to reagan0965.",
-        "date": "2026-11-06",
-        "dateLabel": "06 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118744136312398056"
       }
     ]
   },
