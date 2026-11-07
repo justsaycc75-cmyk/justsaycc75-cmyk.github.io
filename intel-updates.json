@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2119190364959416617",
+        "headline": "Southern Iran and U.S. airlift activity update",
+        "summary": "War Watch Intel reported explosions and missile launches across southern Iran, including the Strait of Hormuz area, and said U.S. military transport aircraft remained active over the continental United States.",
+        "date": "2026-11-07",
+        "dateLabel": "07 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119190364959416617"
+      },
+      {
+        "id": "2119185047185977351",
+        "headline": "Gulf of Oman vessel-stop report highlighted",
+        "summary": "War Watch Intel said Al Jazeera Arabic had reported, 66 minutes before later coverage, that U.S. Central Command said its forces stopped a commercial ship in the Gulf of Oman that day, and said two outlets subsequently confirmed the report. The visible quoted source text is truncated after “today”.",
+        "date": "2026-11-07",
+        "dateLabel": "07 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119185047185977351"
+      },
+      {
+        "id": "2119174607378731312",
+        "headline": "CENTCOM cargo-vessel action reported",
+        "summary": "War Watch Intel reported that U.S. CENTCOM forces disabled a St. Kitts-flagged cargo vessel in the Gulf of Oman on 7 November after it ignored warnings and attempted to breach something not fully shown in the visible source text, which is truncated at that point.",
+        "date": "2026-11-07",
+        "dateLabel": "07 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119174607378731312"
+      },
+      {
+        "id": "2119170832496734310",
+        "headline": "EAM header code reported",
+        "summary": "War Watch Intel reported an EAM header or preamble with the code 56QH3R. The post did not state a purpose for the transmission.",
+        "date": "2026-11-07",
+        "dateLabel": "07 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119170832496734310"
+      },
+      {
+        "id": "2119166942552449039",
+        "headline": "Hormuz anti-ship missile reports relayed",
+        "summary": "War Watch Intel relayed reports from multiple Iranian channels that anti-ship missiles were being launched toward ships in Hormuz, describing the information as open-source intelligence.",
+        "date": "2026-11-07",
+        "dateLabel": "07 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119166942552449039"
+      },
+      {
         "id": "2119159943831900668",
         "headline": "Bandar Abbas missile-launch report relayed",
         "summary": "War Watch Intel relayed a report, credited via reagan0965, that the IRGC had launched a missile from Bandar Abbas in southern Iran. It said the type was unclear and described the possibilities as a surface-to-air missile or a ballistic/cruise type; the visible source text is truncated after that phrase.",
@@ -59,46 +99,6 @@
         "date": "2026-11-07",
         "dateLabel": "07 NOV 2026 · UTC",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2119084562542207303"
-      },
-      {
-        "id": "2119080776364880296",
-        "headline": "BBC emergency broadcasting plan report relayed",
-        "summary": "War Watch Intel relayed a report, credited via lauraprietosanchez2240, that the BBC had developed a secret emergency broadcasting plan to keep the United Kingdom informed if a major blackout or cyberattack caused a shutdown. The visible source text is truncated before identifying what would be shut down.",
-        "date": "2026-11-07",
-        "dateLabel": "07 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119080776364880296"
-      },
-      {
-        "id": "2119071979554717867",
-        "headline": "CENTCOM transit-disruption task force report relayed",
-        "summary": "War Watch Intel relayed a CENTCOM report, credited via friedpotates, that CENTCOM had launched a task force to disrupt Iranian ground transit routes supporting illegal shipments.",
-        "date": "2026-11-07",
-        "dateLabel": "07 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119071979554717867"
-      },
-      {
-        "id": "2119067954264346821",
-        "headline": "Qeshm and Hormuz strike report highlighted",
-        "summary": "War Watch Intel said Al Jazeera English had reported that Qeshm Island and Hormuz were hit as mediators tried to prevent a U.S.–Iran escalation, 23 minutes before later coverage, and said two outlets subsequently confirmed it. The visible quoted source text is truncated at the link prompt.",
-        "date": "2026-11-07",
-        "dateLabel": "07 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119067954264346821"
-      },
-      {
-        "id": "2119054112188707142",
-        "headline": "Transport-aircraft and airborne-radar update",
-        "summary": "War Watch Intel reported multiple U.S. Air Force transport aircraft and an airborne radar jet over North America during the previous hour.",
-        "date": "2026-11-07",
-        "dateLabel": "07 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119054112188707142"
-      },
-      {
-        "id": "2119012498099613755",
-        "headline": "Iskander-M launcher strike report highlighted",
-        "summary": "War Watch Intel said Ukraine’s General Staff had reported that Ukrainian forces struck two Iskander-M missile launchers in Russia’s Bryansk region 42 minutes before later coverage and said two outlets subsequently confirmed it. The visible quoted source text is truncated immediately after that statement.",
-        "date": "2026-11-07",
-        "dateLabel": "07 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119012498099613755"
       }
     ]
   },
