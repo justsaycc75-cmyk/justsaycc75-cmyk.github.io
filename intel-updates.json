@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2119099410030195101",
+        "headline": "U.S. transport and surveillance aircraft update",
+        "summary": "War Watch Intel reported six U.S. military transport and surveillance aircraft airborne over the United States, including one radar aircraft and four large cargo jets.",
+        "date": "2026-11-07",
+        "dateLabel": "07 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119099410030195101"
+      },
+      {
+        "id": "2119084562542207303",
+        "headline": "CENTCOM task-force report highlighted",
+        "summary": "War Watch Intel said Al Jazeera Arabic had reported, 40 minutes before later coverage, that U.S. Central Command had directed the formation of a task force to support an unspecified activity, and said three outlets subsequently confirmed the report. The visible quoted source text is truncated immediately after “support”.",
+        "date": "2026-11-07",
+        "dateLabel": "07 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119084562542207303"
+      },
+      {
+        "id": "2119080776364880296",
+        "headline": "BBC emergency broadcasting plan report relayed",
+        "summary": "War Watch Intel relayed a report, credited via lauraprietosanchez2240, that the BBC had developed a secret emergency broadcasting plan to keep the United Kingdom informed if a major blackout or cyberattack caused a shutdown. The visible source text is truncated before identifying what would be shut down.",
+        "date": "2026-11-07",
+        "dateLabel": "07 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119080776364880296"
+      },
+      {
         "id": "2119071979554717867",
         "headline": "CENTCOM transit-disruption task force report relayed",
         "summary": "War Watch Intel relayed a CENTCOM report, credited via friedpotates, that CENTCOM had launched a task force to disrupt Iranian ground transit routes supporting illegal shipments.",
@@ -75,30 +99,6 @@
         "date": "2026-11-07",
         "dateLabel": "07 NOV 2026 · UTC",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2118884557541798284"
-      },
-      {
-        "id": "2118876376660849125",
-        "headline": "Blue Angels pilot removal report relayed",
-        "summary": "War Watch Intel relayed an OSINTdefender report, credited via reagan0965, that Marine Corps Maj. Scott Laux, the Blue Angels’ No. 6 opposing solo pilot, had been removed from the team.",
-        "date": "2026-11-07",
-        "dateLabel": "07 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118876376660849125"
-      },
-      {
-        "id": "2118872603070705986",
-        "headline": "Transport-aircraft and Gulf activity update",
-        "summary": "War Watch Intel reported six U.S. Air Force transport aircraft airborne over the continental United States and said Gulf-region activity had risen to 16 reports in six hours.",
-        "date": "2026-11-07",
-        "dateLabel": "07 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118872603070705986"
-      },
-      {
-        "id": "2118868645174546661",
-        "headline": "Vance–Iran deal report relayed",
-        "summary": "War Watch Intel relayed an Axios report, credited via friedpotates, that Vice President Vance was leading a behind-the-scenes push for a new Iran agreement.",
-        "date": "2026-11-07",
-        "dateLabel": "07 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118868645174546661"
       }
     ]
   },
