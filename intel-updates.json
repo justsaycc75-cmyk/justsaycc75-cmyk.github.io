@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2119071979554717867",
+        "headline": "CENTCOM transit-disruption task force report relayed",
+        "summary": "War Watch Intel relayed a CENTCOM report, credited via friedpotates, that CENTCOM had launched a task force to disrupt Iranian ground transit routes supporting illegal shipments.",
+        "date": "2026-11-07",
+        "dateLabel": "07 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119071979554717867"
+      },
+      {
+        "id": "2119067954264346821",
+        "headline": "Qeshm and Hormuz strike report highlighted",
+        "summary": "War Watch Intel said Al Jazeera English had reported that Qeshm Island and Hormuz were hit as mediators tried to prevent a U.S.–Iran escalation, 23 minutes before later coverage, and said two outlets subsequently confirmed it. The visible quoted source text is truncated at the link prompt.",
+        "date": "2026-11-07",
+        "dateLabel": "07 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119067954264346821"
+      },
+      {
+        "id": "2119054112188707142",
+        "headline": "Transport-aircraft and airborne-radar update",
+        "summary": "War Watch Intel reported multiple U.S. Air Force transport aircraft and an airborne radar jet over North America during the previous hour.",
+        "date": "2026-11-07",
+        "dateLabel": "07 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119054112188707142"
+      },
+      {
         "id": "2119012498099613755",
         "headline": "Iskander-M launcher strike report highlighted",
         "summary": "War Watch Intel said Ukraine’s General Staff had reported that Ukrainian forces struck two Iskander-M missile launchers in Russia’s Bryansk region 42 minutes before later coverage and said two outlets subsequently confirmed it. The visible quoted source text is truncated immediately after that statement.",
@@ -75,30 +99,6 @@
         "date": "2026-11-07",
         "dateLabel": "07 NOV 2026 · UTC",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2118868645174546661"
-      },
-      {
-        "id": "2118850376350708141",
-        "headline": "Kyiv Iskander strike report relayed",
-        "summary": "War Watch Intel relayed an OSINTWarfare report, credited via AngryMusicSuperS, that a Russian Iskander-M ballistic missile with a cluster warhead had struck Kyiv.",
-        "date": "2026-11-06",
-        "dateLabel": "06 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118850376350708141"
-      },
-      {
-        "id": "2118843748272439700",
-        "headline": "Qeshm Island missile-launch report relayed",
-        "summary": "War Watch relayed a report that another Iranian surface-to-air missile had been launched from Qeshm Island. The visible source text then begins an unconfirmed report concerning a U.S. MQ-9A Reaper but is truncated before showing the remainder; the item was credited to reagan0965.",
-        "date": "2026-11-06",
-        "dateLabel": "06 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118843748272439700"
-      },
-      {
-        "id": "2118837456120246589",
-        "headline": "Oryol explosion and FP-5 missile report relayed",
-        "summary": "War Watch relayed a NoelReports report of explosions in Oryol, Russia, with preliminary information indicating that Ukraine used FP-5 Flamingo cruise missiles in the attack.",
-        "date": "2026-11-06",
-        "dateLabel": "06 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118837456120246589"
       }
     ]
   },
