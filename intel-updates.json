@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2119012498099613755",
+        "headline": "Iskander-M launcher strike report highlighted",
+        "summary": "War Watch Intel said Ukraine’s General Staff had reported that Ukrainian forces struck two Iskander-M missile launchers in Russia’s Bryansk region 42 minutes before later coverage and said two outlets subsequently confirmed it. The visible quoted source text is truncated immediately after that statement.",
+        "date": "2026-11-07",
+        "dateLabel": "07 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119012498099613755"
+      },
+      {
+        "id": "2119008722345218241",
+        "headline": "Transport-aircraft and coded-broadcast update",
+        "summary": "War Watch Intel reported six U.S. Air Force transport aircraft airborne across the Atlantic, Europe and the Asia-Pacific and said one coded radio broadcast had been heard during the hour.",
+        "date": "2026-11-07",
+        "dateLabel": "07 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119008722345218241"
+      },
+      {
         "id": "2118967197435363648",
         "headline": "Jet-powered drone movement report highlighted",
         "summary": "War Watch Intel said the Ukrainian Air Force had reported a jet-powered drone moving from the Kyiv region toward the Zhytomyr region 23 minutes before later coverage and said three outlets subsequently confirmed it. The visible quoted source text is truncated after that movement statement.",
@@ -83,22 +99,6 @@
         "date": "2026-11-06",
         "dateLabel": "06 NOV 2026 · UTC",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2118837456120246589"
-      },
-      {
-        "id": "2118831165087875337",
-        "headline": "Qeshm Island explosions and airstrike report relayed",
-        "summary": "War Watch relayed a report of explosions, missile launches and an airstrike on Qeshm Island after Iranian forces reportedly fired at a drone over the Strait of Hormuz. The visible source text is truncated after that statement; the item was credited to reagan0965.",
-        "date": "2026-11-06",
-        "dateLabel": "06 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118831165087875337"
-      },
-      {
-        "id": "2118827392076513650",
-        "headline": "Boeing C-32A sighting relayed",
-        "summary": "War Watch relayed a spotter report identifying a Boeing C-32A with registration 09-0017 and hex code AE4AEA; no call sign was listed. The sighting was credited to reagan0965, with a photograph credited to Nicholas Toto via Planespotters.net.",
-        "date": "2026-11-06",
-        "dateLabel": "06 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118827392076513650"
       }
     ]
   },
