@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2118917901545562316",
+        "headline": "Latest transport-aircraft and Gulf activity update",
+        "summary": "War Watch Intel reported six U.S. Air Force transport aircraft airborne over the continental United States and said Gulf-region activity remained elevated, with eight reports in the previous six hours.",
+        "date": "2026-11-07",
+        "dateLabel": "07 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118917901545562316"
+      },
+      {
         "id": "2118884557541798284",
         "headline": "White House arrest report relayed",
         "summary": "War Watch Intel relayed a CBS report, credited via alexgreen1767, that DHS said an armed man arrested near the White House had planned to kill President Trump.",
@@ -91,14 +99,6 @@
         "date": "2026-11-06",
         "dateLabel": "06 NOV 2026 · UTC",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2118789627964260841"
-      },
-      {
-        "id": "2118785598542471653",
-        "headline": "Strait of Hormuz explosion report relayed",
-        "summary": "War Watch relayed a UKREPORT report of an explosion heard in the Strait of Hormuz.",
-        "date": "2026-11-06",
-        "dateLabel": "06 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118785598542471653"
       }
     ]
   },
