@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2118967197435363648",
+        "headline": "Jet-powered drone movement report highlighted",
+        "summary": "War Watch Intel said the Ukrainian Air Force had reported a jet-powered drone moving from the Kyiv region toward the Zhytomyr region 23 minutes before later coverage and said three outlets subsequently confirmed it. The visible quoted source text is truncated after that movement statement.",
+        "date": "2026-11-07",
+        "dateLabel": "07 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118967197435363648"
+      },
+      {
+        "id": "2118963422486319473",
+        "headline": "Transport-aircraft and radio-broadcast update",
+        "summary": "War Watch Intel reported six U.S. Air Force transport aircraft airborne, including one over the North Sea, and said no coded radio broadcasts had been detected in the previous hour.",
+        "date": "2026-11-07",
+        "dateLabel": "07 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2118963422486319473"
+      },
+      {
         "id": "2118917901545562316",
         "headline": "Latest transport-aircraft and Gulf activity update",
         "summary": "War Watch Intel reported six U.S. Air Force transport aircraft airborne over the continental United States and said Gulf-region activity remained elevated, with eight reports in the previous six hours.",
@@ -83,22 +99,6 @@
         "date": "2026-11-06",
         "dateLabel": "06 NOV 2026 · UTC",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2118827392076513650"
-      },
-      {
-        "id": "2118823519391731747",
-        "headline": "Qeshm Island missile-launch image report relayed",
-        "summary": "War Watch relayed a War Intel on X image report described as showing a surface-to-air missile launch from Qeshm Island, Iran.",
-        "date": "2026-11-06",
-        "dateLabel": "06 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118823519391731747"
-      },
-      {
-        "id": "2118789627964260841",
-        "headline": "SAM801 C-40B sighting relayed",
-        "summary": "War Watch relayed a spotter report identifying a U.S. Air Force 89th Airlift Wing Boeing C-40B using call sign SAM801, registration 02-0042 and hex code AE11F8. The sighting was credited to reagan0965, with a photograph credited to HXD3D-0260 via Planespotters.net.",
-        "date": "2026-11-06",
-        "dateLabel": "06 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118789627964260841"
       }
     ]
   },
