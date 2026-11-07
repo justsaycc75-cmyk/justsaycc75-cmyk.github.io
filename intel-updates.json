@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2119159943831900668",
+        "headline": "Bandar Abbas missile-launch report relayed",
+        "summary": "War Watch Intel relayed a report, credited via reagan0965, that the IRGC had launched a missile from Bandar Abbas in southern Iran. It said the type was unclear and described the possibilities as a surface-to-air missile or a ballistic/cruise type; the visible source text is truncated after that phrase.",
+        "date": "2026-11-07",
+        "dateLabel": "07 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119159943831900668"
+      },
+      {
+        "id": "2119150196739223789",
+        "headline": "Qeshm Island explosions report relayed",
+        "summary": "War Watch Intel relayed a report, credited via weslester6474, of two loud explosions on Qeshm Island in Iran’s Hormozgan Province and said a missile had been launched earlier from Bandar Khamir.",
+        "date": "2026-11-07",
+        "dateLabel": "07 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119150196739223789"
+      },
+      {
+        "id": "2119144871881535852",
+        "headline": "U.S. transports and East Asia activity update",
+        "summary": "War Watch Intel reported six military transport aircraft airborne over the United States and said unusual activity near Korea and Japan was running at more than five times normal levels.",
+        "date": "2026-11-07",
+        "dateLabel": "07 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119144871881535852"
+      },
+      {
+        "id": "2119132370519359824",
+        "headline": "BISON40 V-22 Osprey movement reported",
+        "summary": "War Watch Intel reported BISON40, a V-22 Osprey with registration 169457 and hex code AE6BAA, leaving NAS Jax. The sighting was credited to jessidavin.",
+        "date": "2026-11-07",
+        "dateLabel": "07 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119132370519359824"
+      },
+      {
+        "id": "2119122379347489146",
+        "headline": "FIXER03 E-2D Hawkeye patrol reported",
+        "summary": "War Watch Intel reported FIXER03, an E-2D Advanced Hawkeye with hex code AFA186 and no registration shown, patrolling restricted areas along Florida’s Atlantic coast. The sighting was credited to jessidavin.",
+        "date": "2026-11-07",
+        "dateLabel": "07 NOV 2026 · UTC",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119122379347489146"
+      },
+      {
         "id": "2119099410030195101",
         "headline": "U.S. transport and surveillance aircraft update",
         "summary": "War Watch Intel reported six U.S. military transport and surveillance aircraft airborne over the United States, including one radar aircraft and four large cargo jets.",
@@ -59,46 +99,6 @@
         "date": "2026-11-07",
         "dateLabel": "07 NOV 2026 · UTC",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2119012498099613755"
-      },
-      {
-        "id": "2119008722345218241",
-        "headline": "Transport-aircraft and coded-broadcast update",
-        "summary": "War Watch Intel reported six U.S. Air Force transport aircraft airborne across the Atlantic, Europe and the Asia-Pacific and said one coded radio broadcast had been heard during the hour.",
-        "date": "2026-11-07",
-        "dateLabel": "07 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119008722345218241"
-      },
-      {
-        "id": "2118967197435363648",
-        "headline": "Jet-powered drone movement report highlighted",
-        "summary": "War Watch Intel said the Ukrainian Air Force had reported a jet-powered drone moving from the Kyiv region toward the Zhytomyr region 23 minutes before later coverage and said three outlets subsequently confirmed it. The visible quoted source text is truncated after that movement statement.",
-        "date": "2026-11-07",
-        "dateLabel": "07 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118967197435363648"
-      },
-      {
-        "id": "2118963422486319473",
-        "headline": "Transport-aircraft and radio-broadcast update",
-        "summary": "War Watch Intel reported six U.S. Air Force transport aircraft airborne, including one over the North Sea, and said no coded radio broadcasts had been detected in the previous hour.",
-        "date": "2026-11-07",
-        "dateLabel": "07 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118963422486319473"
-      },
-      {
-        "id": "2118917901545562316",
-        "headline": "Latest transport-aircraft and Gulf activity update",
-        "summary": "War Watch Intel reported six U.S. Air Force transport aircraft airborne over the continental United States and said Gulf-region activity remained elevated, with eight reports in the previous six hours.",
-        "date": "2026-11-07",
-        "dateLabel": "07 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118917901545562316"
-      },
-      {
-        "id": "2118884557541798284",
-        "headline": "White House arrest report relayed",
-        "summary": "War Watch Intel relayed a CBS report, credited via alexgreen1767, that DHS said an armed man arrested near the White House had planned to kill President Trump.",
-        "date": "2026-11-07",
-        "dateLabel": "07 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2118884557541798284"
       }
     ]
   },
