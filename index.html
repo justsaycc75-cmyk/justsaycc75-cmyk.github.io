@@ -649,17 +649,19 @@ update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
    const label=card.querySelector('.rlwc-feature-state');
    if(isLive)label.textContent=(fresh?'LIVE':'LIVE · score delayed')+' · '+result.home+'–'+result.away;
    else if(isFinished)label.textContent='Final · '+result.home+'–'+result.away;
-   else if(now>=kickoff)label.textContent='Match underway · see official centre';
+   else if(now>=kickoff)label.textContent='Scheduled now · see official centre';
    else label.textContent=matchInfo.group;
    if(!card.hidden)visible.push({state,kickoff});
   }
   panel.hidden=!visible.length;
   if(panel.hidden)return;
   const active=visible.find(x=>x.state==='in'||x.state==='stale-live');
+  // Keep a current scheduled match ahead of future fixtures without claiming a verified live score.
+  const current=visible.find(x=>x.state==='unknown');
   const next=visible.filter(x=>x.kickoff>now).sort((a,b)=>a.kickoff-b.kickoff)[0];
-  panel.dataset.sportState=active?.state|| (next?'pre':'unknown');
-  panel.dataset.sportStart=String((active||next||visible[0]).kickoff);
-  status.textContent=active?'WORLD CUP · '+(active.state==='in'?'LIVE':'SCORE DELAYED'):'WORLD CUP · MEN’S FINALS';
+  panel.dataset.sportState=active?.state||(current?'scheduled':next?'pre':'unknown');
+  panel.dataset.sportStart=String((active||current||next||visible[0]).kickoff);
+  status.textContent=active?'WORLD CUP · '+(active.state==='in'?'LIVE':'SCORE DELAYED'):current?'WORLD CUP · AWAITING SCORE UPDATE':'WORLD CUP · MEN’S FINALS';
   q('[data-rlwc-secondary]').hidden=true;
   freshness.textContent=data?'Official score feed last checked '+stamp.format(Date.parse(data.fetchedAt))+' Sydney'+(age>10*60*1000?' · stale snapshot; scores may be out of date':failed?' · updates delayed':''):'Upcoming fixtures confirmed · live scores available from match centres';
   freshness.classList.toggle('live-game-stale',!!data&&!fresh);
