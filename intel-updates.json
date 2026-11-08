@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2119466364599423423",
+        "date": "2026-11-08",
+        "dateLabel": "08 NOV 2026 · UTC",
+        "headline": "Military air-activity spike near Korea and Japan reported",
+        "summary": "War Watch Intel reported an unusual rise in U.S. military air activity near Korea and Japan, describing nearly five times the normal number of flights and multiple transport aircraft airborne across the regions.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119466364599423423"
+      },
+      {
+        "id": "2119437575291027933",
+        "date": "2026-11-08",
+        "dateLabel": "08 NOV 2026 · UTC",
+        "headline": "Komyshuvakha airstrike missing-person report highlighted",
+        "summary": "War Watch Intel said Suspilne had reported, six minutes before later coverage, that 45 people were still considered missing after a Russian airstrike on Komyshuvakha in Zaporizhzhia district, and said two outlets subsequently confirmed the report. The visible quoted source text is truncated after “district…”, so no further detail is stated.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119437575291027933"
+      },
+      {
         "id": "2119429623725388000",
         "date": "2026-11-08",
         "dateLabel": "08 NOV 2026 · UTC",
@@ -83,22 +99,6 @@
         "headline": "Riyadh booms after warning alert reported",
         "summary": "War Watch Intel said Reuters had reported, 24 minutes before later coverage, that loud booms were heard in Riyadh after an early-warning alert was issued, and said two outlets subsequently confirmed the report.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2119330289113522651"
-      },
-      {
-        "id": "2119326514521030815",
-        "date": "2026-11-08",
-        "dateLabel": "08 NOV 2026 · UTC",
-        "headline": "U.S. cargo-aircraft and coded-radio update",
-        "summary": "War Watch Intel reported continuing U.S. military transport activity, including at least four large cargo aircraft airborne, and said three coded U.S. Air Force radio broadcasts had been detected that day, with the latest several hours earlier.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119326514521030815"
-      },
-      {
-        "id": "2119285631851413881",
-        "date": "2026-11-08",
-        "dateLabel": "08 NOV 2026 · UTC",
-        "headline": "Saudi Eastern Province all-clear report highlighted",
-        "summary": "War Watch Intel said Reuters had reported, nine minutes before later coverage, that Saudi civil defence issued an all-clear after alerts in the Eastern Province, and said two outlets subsequently confirmed the report.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119285631851413881"
       }
     ]
   },
