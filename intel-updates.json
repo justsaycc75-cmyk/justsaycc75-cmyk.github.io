@@ -5,6 +5,38 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2119384143507157456",
+        "date": "2026-11-08",
+        "dateLabel": "08 NOV 2026 · UTC",
+        "headline": "TROY708 MQ-9A Reaper movement reported",
+        "summary": "War Watch Intel reported TROY708, a General Atomics MQ-9A Reaper with registration CBP-119 and hex code AE4BDA. The sighting was credited to reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119384143507157456"
+      },
+      {
+        "id": "2119380259753660636",
+        "date": "2026-11-08",
+        "dateLabel": "08 NOV 2026 · UTC",
+        "headline": "EAM header code WEL37Y reported",
+        "summary": "War Watch Intel reported an EAM header or preamble with the code WEL37Y. The post did not state a purpose for the transmission.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119380259753660636"
+      },
+      {
+        "id": "2119375587525439648",
+        "date": "2026-11-08",
+        "dateLabel": "08 NOV 2026 · UTC",
+        "headline": "U.S. transport and coded-radio activity update",
+        "summary": "War Watch Intel reported six U.S. military transport aircraft airborne at the same time and said three coded radio broadcasts had been heard earlier that day over the United States.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119375587525439648"
+      },
+      {
+        "id": "2119371651380846724",
+        "date": "2026-11-08",
+        "dateLabel": "08 NOV 2026 · UTC",
+        "headline": "Dnipro drone-attack report highlighted",
+        "summary": "War Watch Intel said Ukrainska Pravda had reported, 13 minutes before later coverage, a Russian drone attack on the outskirts of Dnipro that morning, and said two outlets subsequently confirmed the report. The visible quoted source text ends after the words “a house was”, so no further outcome is stated.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119371651380846724"
+      },
+      {
         "id": "2119330289113522651",
         "date": "2026-11-08",
         "dateLabel": "08 NOV 2026 · UTC",
@@ -67,38 +99,6 @@
         "headline": "Gulf of Oman vessel-disabling report relayed",
         "summary": "War Watch Intel relayed a report, credited to IRLA via friedpotates, that U.S. Central Command forces had disabled a St. Kitts-flagged vessel in the Gulf of Oman.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2119225599084355650"
-      },
-      {
-        "id": "2119221778694214110",
-        "date": "2026-11-08",
-        "dateLabel": "08 NOV 2026 · UTC",
-        "headline": "RCH9209 C-130J movement reported",
-        "summary": "War Watch Intel reported RCH9209, a Lockheed Martin C-130J Super Hercules with registration 12-5756 and hex code AE54C7. The sighting was credited to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119221778694214110"
-      },
-      {
-        "id": "2119190364959416617",
-        "headline": "Southern Iran and U.S. airlift activity update",
-        "summary": "War Watch Intel reported explosions and missile launches across southern Iran, including the Strait of Hormuz area, and said U.S. military transport aircraft remained active over the continental United States.",
-        "date": "2026-11-07",
-        "dateLabel": "07 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119190364959416617"
-      },
-      {
-        "id": "2119185047185977351",
-        "headline": "Gulf of Oman vessel-stop report highlighted",
-        "summary": "War Watch Intel said Al Jazeera Arabic had reported, 66 minutes before later coverage, that U.S. Central Command said its forces stopped a commercial ship in the Gulf of Oman that day, and said two outlets subsequently confirmed the report. The visible quoted source text is truncated after “today”.",
-        "date": "2026-11-07",
-        "dateLabel": "07 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119185047185977351"
-      },
-      {
-        "id": "2119174607378731312",
-        "headline": "CENTCOM cargo-vessel action reported",
-        "summary": "War Watch Intel reported that U.S. CENTCOM forces disabled a St. Kitts-flagged cargo vessel in the Gulf of Oman on 7 November after it ignored warnings and attempted to breach something not fully shown in the visible source text, which is truncated at that point.",
-        "date": "2026-11-07",
-        "dateLabel": "07 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119174607378731312"
       }
     ]
   },
