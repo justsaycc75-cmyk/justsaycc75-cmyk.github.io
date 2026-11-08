@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2119330289113522651",
+        "date": "2026-11-08",
+        "dateLabel": "08 NOV 2026 · UTC",
+        "headline": "Riyadh booms after warning alert reported",
+        "summary": "War Watch Intel said Reuters had reported, 24 minutes before later coverage, that loud booms were heard in Riyadh after an early-warning alert was issued, and said two outlets subsequently confirmed the report.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119330289113522651"
+      },
+      {
+        "id": "2119326514521030815",
+        "date": "2026-11-08",
+        "dateLabel": "08 NOV 2026 · UTC",
+        "headline": "U.S. cargo-aircraft and coded-radio update",
+        "summary": "War Watch Intel reported continuing U.S. military transport activity, including at least four large cargo aircraft airborne, and said three coded U.S. Air Force radio broadcasts had been detected that day, with the latest several hours earlier.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119326514521030815"
+      },
+      {
         "id": "2119285631851413881",
         "date": "2026-11-08",
         "dateLabel": "08 NOV 2026 · UTC",
@@ -83,22 +99,6 @@
         "date": "2026-11-07",
         "dateLabel": "07 NOV 2026 · UTC",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2119174607378731312"
-      },
-      {
-        "id": "2119170832496734310",
-        "headline": "EAM header code reported",
-        "summary": "War Watch Intel reported an EAM header or preamble with the code 56QH3R. The post did not state a purpose for the transmission.",
-        "date": "2026-11-07",
-        "dateLabel": "07 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119170832496734310"
-      },
-      {
-        "id": "2119166942552449039",
-        "headline": "Hormuz anti-ship missile reports relayed",
-        "summary": "War Watch Intel relayed reports from multiple Iranian channels that anti-ship missiles were being launched toward ships in Hormuz, describing the information as open-source intelligence.",
-        "date": "2026-11-07",
-        "dateLabel": "07 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119166942552449039"
       }
     ]
   },
