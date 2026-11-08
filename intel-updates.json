@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2119429623725388000",
+        "date": "2026-11-08",
+        "dateLabel": "08 NOV 2026 · UTC",
+        "headline": "SAM800 C-40B movement reported",
+        "summary": "War Watch Intel reported SAM800, a Boeing C-40B assigned to the U.S. Air Force 89th Airlift Wing at Andrews Air Force Base, with registration 01-0015 and hex code AE115D. The sighting was credited to reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119429623725388000"
+      },
+      {
+        "id": "2119425733864914951",
+        "date": "2026-11-08",
+        "dateLabel": "08 NOV 2026 · UTC",
+        "headline": "China three-leader meeting talks reported",
+        "summary": "War Watch Intel relayed an Associated Press report that China had confirmed discussions were underway about a meeting involving Xi Jinping, Donald Trump and Vladimir Putin. The post credited reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119425733864914951"
+      },
+      {
+        "id": "2119421063025078313",
+        "date": "2026-11-08",
+        "dateLabel": "08 NOV 2026 · UTC",
+        "headline": "Heavy-lift military cargo activity update",
+        "summary": "War Watch Intel reported six heavy-lift military cargo aircraft airborne across the United States and Europe, including four over the North Sea and the United Kingdom, and described activity as near normal levels.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119421063025078313"
+      },
+      {
+        "id": "2119413783672057906",
+        "date": "2026-11-08",
+        "dateLabel": "08 NOV 2026 · UTC",
+        "headline": "Bessent appeal to China on Iran reported",
+        "summary": "War Watch Intel reported that U.S. Treasury Secretary Scott Bessent, with President Trump's backing, had asked China to use its influence over Iran to help bring an end to an unspecified situation. The visible source text is truncated after the words “an end to the…”, so no further object or outcome is stated.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119413783672057906"
+      },
+      {
+        "id": "2119391948129648774",
+        "date": "2026-11-08",
+        "dateLabel": "08 NOV 2026 · UTC",
+        "headline": "RCH4547 C-17A movement reported",
+        "summary": "War Watch Intel reported RCH4547, a Boeing C-17A Globemaster III with registration 08-8204 and hex code AE2FB0. The sighting was credited to reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119391948129648774"
+      },
+      {
         "id": "2119384143507157456",
         "date": "2026-11-08",
         "dateLabel": "08 NOV 2026 · UTC",
@@ -59,46 +99,6 @@
         "headline": "Saudi Eastern Province all-clear report highlighted",
         "summary": "War Watch Intel said Reuters had reported, nine minutes before later coverage, that Saudi civil defence issued an all-clear after alerts in the Eastern Province, and said two outlets subsequently confirmed the report.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2119285631851413881"
-      },
-      {
-        "id": "2119280964949963223",
-        "date": "2026-11-08",
-        "dateLabel": "08 NOV 2026 · UTC",
-        "headline": "U.S. transport and coded-radio activity update",
-        "summary": "War Watch Intel reported five U.S. Air Force transport aircraft airborne over the United States and Gulf region, along with three coded radio broadcasts during the previous hour, while U.S. forces remained active in the Arabian Sea. The visible source text is truncated before completing the description of the preceding incident.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119280964949963223"
-      },
-      {
-        "id": "2119244467320291548",
-        "date": "2026-11-08",
-        "dateLabel": "08 NOV 2026 · UTC",
-        "headline": "EXEC1F C-32A movement reported",
-        "summary": "War Watch Intel reported EXEC1F, a Boeing C-32A with registration 98-0001 and hex code ADFEB7. The sighting was credited to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119244467320291548"
-      },
-      {
-        "id": "2119235666038984765",
-        "date": "2026-11-08",
-        "dateLabel": "08 NOV 2026 · UTC",
-        "headline": "U.S. transport and Gulf-region activity update",
-        "summary": "War Watch Intel reported U.S. military transport aircraft still airborne over the continental United States and said activity over the Gulf region had increased during the previous six hours after a naval incident. The visible source text is truncated before identifying the vessel or further details.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119235666038984765"
-      },
-      {
-        "id": "2119230288400089419",
-        "date": "2026-11-08",
-        "dateLabel": "08 NOV 2026 · UTC",
-        "headline": "CNV4372 C-40A Clipper movement reported",
-        "summary": "War Watch Intel reported CNV4372, a Boeing C-40A Clipper with registration 165831 and hex code AE04D9. The sighting was credited to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119230288400089419"
-      },
-      {
-        "id": "2119225599084355650",
-        "date": "2026-11-08",
-        "dateLabel": "08 NOV 2026 · UTC",
-        "headline": "Gulf of Oman vessel-disabling report relayed",
-        "summary": "War Watch Intel relayed a report, credited to IRLA via friedpotates, that U.S. Central Command forces had disabled a St. Kitts-flagged vessel in the Gulf of Oman.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119225599084355650"
       }
     ]
   },
