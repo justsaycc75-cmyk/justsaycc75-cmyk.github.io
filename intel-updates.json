@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2119285631851413881",
+        "date": "2026-11-08",
+        "dateLabel": "08 NOV 2026 · UTC",
+        "headline": "Saudi Eastern Province all-clear report highlighted",
+        "summary": "War Watch Intel said Reuters had reported, nine minutes before later coverage, that Saudi civil defence issued an all-clear after alerts in the Eastern Province, and said two outlets subsequently confirmed the report.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119285631851413881"
+      },
+      {
+        "id": "2119280964949963223",
+        "date": "2026-11-08",
+        "dateLabel": "08 NOV 2026 · UTC",
+        "headline": "U.S. transport and coded-radio activity update",
+        "summary": "War Watch Intel reported five U.S. Air Force transport aircraft airborne over the United States and Gulf region, along with three coded radio broadcasts during the previous hour, while U.S. forces remained active in the Arabian Sea. The visible source text is truncated before completing the description of the preceding incident.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119280964949963223"
+      },
+      {
         "id": "2119244467320291548",
         "date": "2026-11-08",
         "dateLabel": "08 NOV 2026 · UTC",
@@ -83,22 +99,6 @@
         "date": "2026-11-07",
         "dateLabel": "07 NOV 2026 · UTC",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2119166942552449039"
-      },
-      {
-        "id": "2119159943831900668",
-        "headline": "Bandar Abbas missile-launch report relayed",
-        "summary": "War Watch Intel relayed a report, credited via reagan0965, that the IRGC had launched a missile from Bandar Abbas in southern Iran. It said the type was unclear and described the possibilities as a surface-to-air missile or a ballistic/cruise type; the visible source text is truncated after that phrase.",
-        "date": "2026-11-07",
-        "dateLabel": "07 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119159943831900668"
-      },
-      {
-        "id": "2119150196739223789",
-        "headline": "Qeshm Island explosions report relayed",
-        "summary": "War Watch Intel relayed a report, credited via weslester6474, of two loud explosions on Qeshm Island in Iran’s Hormozgan Province and said a missile had been launched earlier from Bandar Khamir.",
-        "date": "2026-11-07",
-        "dateLabel": "07 NOV 2026 · UTC",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119150196739223789"
       }
     ]
   },
