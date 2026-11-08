@@ -156,10 +156,12 @@
 <tr class="sandown-race"><td>Sun 8 Nov</td><td>RACE 34 · 250 km</td><td>3:30 pm</td></tr>
 </tbody></table></div>
 <div class="sandown-live-board" hidden aria-label="Sandown published race running order">
-<h4 data-sandown-race-title>RACE · RUNNING ORDER</h4>
-<p class="sandown-feed-status" data-sandown-status role="status">Waiting for a published running order…</p>
+<h4 data-sandown-race-title>RACE UPDATES</h4>
+<p class="sandown-feed-status" data-sandown-status role="status">Checking for published race positions…</p>
 <a data-sandown-image-link href="https://speedcafe.com/supercars-news-2026-sandown-500-live-updates-practice-qualifying-shootout-race-results-session-reports/" target="_blank" rel="noopener noreferrer"><img class="sandown-order-image" data-sandown-image hidden alt="Published Sandown running order"></a>
 <p class="sandown-race-note" data-sandown-note>Checking updates from the circuit…</p>
+<a class="sandown-timing-link" href="https://www.supercars.com/live-timing" target="_blank" rel="noopener noreferrer">Open official Supercars timing ↗</a>
+<p>Official timing requires a Supercars account. Availability is controlled by the timing provider.</p>
 <a class="sandown-timing-link" href="https://speedcafe.com/supercars-news-2026-sandown-500-live-updates-practice-qualifying-shootout-race-results-session-reports/" target="_blank" rel="noopener noreferrer">Open live Sandown updates ↗</a>
 <p>Speedcafe publishes race positions and track notes periodically. This is not lap-by-lap official timing; check the publication time above.</p>
 </div>
@@ -650,7 +652,8 @@ update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
  let lastRace='',snapshot=null,imageFailed=false,busy=false;
  const stamp=t=>new Intl.DateTimeFormat('en-AU',{timeZone:'Australia/Sydney',hour:'numeric',minute:'2-digit',hour12:true}).format(t);
  function status(failed=false){
-  if(!snapshot){feedStatus.textContent=failed?'Updates unavailable. Open the source below.':'Awaiting a published running order for this race.';return;}
+  board.querySelector('[data-sandown-race-title]').textContent=(lastRace||'Race').toUpperCase()+' · '+(snapshot?'REPORTED POSITIONS':'RACE UPDATES');
+  if(!snapshot){feedStatus.textContent=failed?'Race updates unavailable. Try the sources below.':'No running-order snapshot is available in this feed yet. Try official timing below.';return;}
   const age=Math.max(0,Math.floor((Date.now()-snapshot.time)/60000));
   feedStatus.textContent='Running order published '+stamp(snapshot.time)+' AEDT · '+age+' min ago'+(failed?' · updates unavailable':age>=10?' · awaiting newer positions':'')+(imageFailed?' · image unavailable, open live updates below':'');
  }
@@ -693,7 +696,7 @@ update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
   sandown.dataset.sportStart=String(race?.start||next.start);
   sandown.dataset.sportState=race?'race-window':now>=next.start?'scheduled':'pre';
   if(race){
-   board.querySelector('[data-sandown-race-title]').textContent=race.name.toUpperCase()+' · RUNNING ORDER';
+   board.querySelector('[data-sandown-race-title]').textContent=race.name.toUpperCase()+' · '+(snapshot?'REPORTED POSITIONS':'RACE UPDATES');
    if(lastRace!==race.name){lastRace=race.name;snapshot=null;imageFailed=false;image.hidden=true;raceNote.textContent='Checking updates from the circuit…';status();}
    refreshPositions();
   }
