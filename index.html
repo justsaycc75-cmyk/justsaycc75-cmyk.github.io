@@ -155,7 +155,7 @@
 <tr><td>Sun 8 Nov</td><td>Top Ten Shootout</td><td>12:05 pm</td></tr>
 <tr class="sandown-race"><td>Sun 8 Nov</td><td>RACE 34 · 250 km</td><td>3:30 pm</td></tr>
 </tbody></table></div>
-<div class="sandown-live-board" hidden aria-label="Sandown race live leaderboard">
+<div class="sandown-live-board" hidden aria-label="Sandown published race running order">
 <h4 data-sandown-race-title>RACE · RUNNING ORDER</h4>
 <p class="sandown-feed-status" data-sandown-status role="status">Waiting for a published running order…</p>
 <a data-sandown-image-link href="https://speedcafe.com/supercars-news-2026-sandown-500-live-updates-practice-qualifying-shootout-race-results-session-reports/" target="_blank" rel="noopener noreferrer"><img class="sandown-order-image" data-sandown-image hidden alt="Published Sandown running order"></a>
@@ -647,12 +647,12 @@ update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
  const board=sandown?.querySelector('.sandown-live-board'),table=sandown?.querySelector('.sandown-table-wrap');
  const feed='https://data.24liveplus.com/v1/retrieve_server/x/event/4237047060715927860/news/?limit=50&inverted_order=1';
  const feedStatus=board.querySelector('[data-sandown-status]'),image=board.querySelector('[data-sandown-image]'),imageLink=board.querySelector('[data-sandown-image-link]'),raceNote=board.querySelector('[data-sandown-note]');
- let lastRace='',snapshot=null,busy=false;
+ let lastRace='',snapshot=null,imageFailed=false,busy=false;
  const stamp=t=>new Intl.DateTimeFormat('en-AU',{timeZone:'Australia/Sydney',hour:'numeric',minute:'2-digit',hour12:true}).format(t);
  function status(failed=false){
   if(!snapshot){feedStatus.textContent=failed?'Updates unavailable. Open the source below.':'Awaiting a published running order for this race.';return;}
   const age=Math.max(0,Math.floor((Date.now()-snapshot.time)/60000));
-  feedStatus.textContent='Running order published '+stamp(snapshot.time)+' AEDT · '+age+' min ago'+(failed?' · updates unavailable':age>=10?' · awaiting newer positions':'');
+  feedStatus.textContent='Running order published '+stamp(snapshot.time)+' AEDT · '+age+' min ago'+(failed?' · updates unavailable':age>=10?' · awaiting newer positions':'')+(imageFailed?' · image unavailable, open live updates below':'');
  }
  async function refreshPositions(){
   const race=races.find(x=>x.start<=Date.now()&&Date.now()<x.end);
@@ -676,32 +676,32 @@ update();setInterval(()=>{if(!document.hidden)update();},REFRESH_MS);
     const url=new URL(img.getAttribute('src'));
     if(url.protocol!=='https:'||url.hostname!=='img.24live.co')continue;
     const time=Number(post.created)*1000;
-    if(!snapshot||time>snapshot.time){snapshot={time,url:url.href};image.src=url.href;image.hidden=false;imageLink.href=url.href;image.alt='Sandown '+race.name+' running order published '+stamp(time)+' AEDT. Open full size.';}
+    if(!snapshot||time>snapshot.time){snapshot={time,url:url.href};imageFailed=false;image.src=url.href;image.hidden=false;imageLink.href=url.href;image.alt='Sandown '+race.name+' running order published '+stamp(time)+' AEDT. Open full size.';}
     break;
    }
    status();
   }catch(e){status(true);}finally{busy=false;}
  }
- image.addEventListener('error',()=>{image.hidden=true;feedStatus.textContent='Running-order image unavailable. Open live updates below.';});
+ image.addEventListener('error',()=>{imageFailed=true;image.hidden=true;status();});
  function refreshSandown(){
   if(!sandown)return;
   const now=Date.now(),next=sessions.find(x=>x.end>now),race=races.find(x=>x.start<=now&&now<x.end);
   sandown.hidden=!next;
-  if(!next)return;
-  sandown.dataset.sportStart=String(race?.start||next.start);
-  sandown.dataset.sportState=race?'race-window':now>=next.start?'scheduled':'pre';
   board.hidden=!race;table.hidden=!!race;
   document.documentElement.classList.toggle('supercars-race-window',!!race);
+  if(!next){sandown.dataset.sportState='post';return;}
+  sandown.dataset.sportStart=String(race?.start||next.start);
+  sandown.dataset.sportState=race?'race-window':now>=next.start?'scheduled':'pre';
   if(race){
    board.querySelector('[data-sandown-race-title]').textContent=race.name.toUpperCase()+' · RUNNING ORDER';
-   if(lastRace!==race.name){lastRace=race.name;snapshot=null;image.hidden=true;raceNote.textContent='Checking updates from the circuit…';status();}
+   if(lastRace!==race.name){lastRace=race.name;snapshot=null;imageFailed=false;image.hidden=true;raceNote.textContent='Checking updates from the circuit…';status();}
    refreshPositions();
   }
   const intro=sandown.querySelector('.sandown-intro');
   if(intro){
    const start=new Intl.DateTimeFormat('en-AU',{timeZone:'Australia/Sydney',weekday:'short',hour:'numeric',minute:'2-digit'}).format(next.start);
    const end=new Intl.DateTimeFormat('en-AU',{timeZone:'Australia/Sydney',hour:'numeric',minute:'2-digit'}).format(next.end);
-   intro.textContent=race?'Race window · '+start+'–'+end+' AEDT · Natsoft timing below':(now>=next.start?'SCHEDULED WINDOW: ':'NEXT: ')+next.name+' · '+start+'–'+end+' AEDT · Schedule only, not live timing';
+   intro.textContent=race?'Race window · '+start+'–'+end+' AEDT · Public race updates below':(now>=next.start?'SCHEDULED WINDOW: ':'NEXT: ')+next.name+' · '+start+'–'+end+' AEDT · Schedule only, not live timing';
   }
  }
  refreshSandown();
