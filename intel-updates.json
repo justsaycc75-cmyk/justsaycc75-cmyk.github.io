@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2119933698854224226",
+        "date": "2026-11-09",
+        "dateLabel": "09 NOV 2026 · UTC",
+        "headline": "U.S. carrier movement and Iran diplomacy report relayed",
+        "summary": "War Watch Intel relayed a Stars and Stripes report that Donald Trump was pursuing diplomacy with Iran as a third U.S. aircraft carrier headed toward the region. The post credited reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119933698854224226"
+      },
+      {
+        "id": "2119929925704597628",
+        "date": "2026-11-09",
+        "dateLabel": "09 NOV 2026 · UTC",
+        "headline": "Elevated U.S. military activity reported",
+        "summary": "War Watch Intel reported elevated U.S. military activity across multiple regions, including 11 coded radio broadcasts that day and transport and surveillance aircraft airborne over the continental United States. The visible source text is truncated after “heightened…”, so no further region or activity is stated.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119929925704597628"
+      },
+      {
+        "id": "2119926148771586419",
+        "date": "2026-11-09",
+        "dateLabel": "09 NOV 2026 · UTC",
+        "headline": "Heavy Israeli Air Force activity reported",
+        "summary": "War Watch Intel reported heavy Israeli Air Force activity over northern Israel, citing Conflict Radar. The post credited jackhoricon.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119926148771586419"
+      },
+      {
+        "id": "2119919858099925080",
+        "date": "2026-11-09",
+        "dateLabel": "09 NOV 2026 · UTC",
+        "headline": "Iranian security official's message to U.S. relayed",
+        "summary": "War Watch Intel relayed a Reuters report quoting Iran's top security official telling the United States to stop manufacturing fake news about imaginary talks. The post credited jackhoricon.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119919858099925080"
+      },
+      {
+        "id": "2119913534108684642",
+        "date": "2026-11-09",
+        "dateLabel": "09 NOV 2026 · UTC",
+        "headline": "U.S. Air Force departures from RAF Mildenhall reported",
+        "summary": "War Watch Intel reported multiple U.S. Air Force aircraft departing RAF Mildenhall in rapid succession and relocating to bases. The visible source text is truncated after “bases…”, so no destinations or further detail are stated. The post cited Conflict Radar and credited jackhoricon.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119913534108684642"
+      },
+      {
         "id": "2119882766892286041",
         "date": "2026-11-09",
         "dateLabel": "09 NOV 2026 · UTC",
@@ -59,46 +99,6 @@
         "headline": "U.S. cargo and surveillance aircraft activity reported",
         "summary": "War Watch Intel reported multiple large U.S. military cargo aircraft airborne over the continental United States alongside a signals-intelligence aircraft and a naval surveillance drone. The visible source text is truncated after saying Gulf-region air activity “remains…”, so no further level or comparison is stated.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2119830771305193946"
-      },
-      {
-        "id": "2119819950332293263",
-        "date": "2026-11-09",
-        "dateLabel": "09 NOV 2026 · UTC",
-        "headline": "U.S. strikes on Iranian military systems relayed",
-        "summary": "War Watch Intel relayed a Reuters report that U.S. strikes targeted Iran's radar, missile and mine-laying systems. The post credited Ian3130.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119819950332293263"
-      },
-      {
-        "id": "2119813655705309681",
-        "date": "2026-11-09",
-        "dateLabel": "09 NOV 2026 · UTC",
-        "headline": "Strikes on Ukraine's power grid reported",
-        "summary": "War Watch Intel reported strikes on Ukraine's power grid as peace talks approached. The post credited Ian3130.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119813655705309681"
-      },
-      {
-        "id": "2119803846209786098",
-        "date": "2026-11-09",
-        "dateLabel": "09 NOV 2026 · UTC",
-        "headline": "TEAM31 KC-46A Pegasus sighting reported",
-        "summary": "War Watch Intel reported TEAM31, identified as a Boeing KC-46A Pegasus with registration 19-46064 and hex code AE5FAB. The sighting was credited to reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119803846209786098"
-      },
-      {
-        "id": "2119796243215880346",
-        "date": "2026-11-09",
-        "dateLabel": "09 NOV 2026 · UTC",
-        "headline": "BLKCAT5 MQ-4C Triton movement reported",
-        "summary": "War Watch Intel reported BLKCAT5, identified as an MQ-4C Triton with registration 169602 and hex code AE7811, leaving Naval Station Mayport. The sighting was credited to JessiDavin.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119796243215880346"
-      },
-      {
-        "id": "2119788995794137159",
-        "date": "2026-11-09",
-        "dateLabel": "09 NOV 2026 · UTC",
-        "headline": "Russian defence jet arrival in Israel relayed",
-        "summary": "War Watch Intel relayed a Jerusalem Post report that a sanctioned Russian Defence Ministry jet landed in Israel after departing a Moscow military base. The post credited reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119788995794137159"
       }
     ]
   },
