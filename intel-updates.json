@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2119882766892286041",
+        "date": "2026-11-09",
+        "dateLabel": "09 NOV 2026 · UTC",
+        "headline": "U.S. military aircraft activity reported",
+        "summary": "War Watch Intel reported six U.S. military transport aircraft airborne over the continental United States, alongside surveillance and refuelling aircraft. It also reported activity near Korea and Japan at nearly three times normal.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119882766892286041"
+      },
+      {
+        "id": "2119873997605105850",
+        "date": "2026-11-09",
+        "dateLabel": "09 NOV 2026 · UTC",
+        "headline": "VENUS03 VC-25B Bridge sighting reported",
+        "summary": "War Watch Intel reported VENUS03, identified in the post as a Boeing VC-25B Bridge with registration 25-33000 and hex code AF83F3. The sighting was credited to jessidavin, with the photograph credited to Conor Ewings via Planespotters.net.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119873997605105850"
+      },
+      {
+        "id": "2119868473199182238",
+        "date": "2026-11-09",
+        "dateLabel": "09 NOV 2026 · UTC",
+        "headline": "Ukraine talks expectations report relayed",
+        "summary": "War Watch Intel said Ukrainska Pravda reported, 22 minutes before later wire coverage, that Ukraine did not expect a breakthrough at the first meeting between Russian and U.S. participants. The visible quoted text is truncated after “US…”, so no participants or further detail are stated. The account said two outlets later confirmed the report.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119868473199182238"
+      },
+      {
+        "id": "2119853672414777449",
+        "date": "2026-11-09",
+        "dateLabel": "09 NOV 2026 · UTC",
+        "headline": "French accusation over Iranian cyberattacks relayed",
+        "summary": "War Watch Intel relayed a BBC report that France accused Iran of being behind cyberattacks that affected supermarket fridges and freezers.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119853672414777449"
+      },
+      {
+        "id": "2119847218748223684",
+        "date": "2026-11-09",
+        "dateLabel": "09 NOV 2026 · UTC",
+        "headline": "Reported Iranian strike on Didamar Island relayed",
+        "summary": "War Watch Intel relayed reports that Iran struck Oman's Didamar Island, described in the post as hosting radar and communications infrastructure used to assist vessels. The visible source text is truncated after “transiting the…”, so no route or further detail is stated.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119847218748223684"
+      },
+      {
         "id": "2119834545465766166",
         "date": "2026-11-09",
         "dateLabel": "09 NOV 2026 · UTC",
@@ -59,46 +99,6 @@
         "headline": "Russian defence jet arrival in Israel relayed",
         "summary": "War Watch Intel relayed a Jerusalem Post report that a sanctioned Russian Defence Ministry jet landed in Israel after departing a Moscow military base. The post credited reagan0965.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2119788995794137159"
-      },
-      {
-        "id": "2119785221193076988",
-        "date": "2026-11-09",
-        "dateLabel": "09 NOV 2026 · UTC",
-        "headline": "Heavy U.S. airlift and coded-radio activity reported",
-        "summary": "War Watch Intel reported heavy airlift activity over the United States, with multiple large transport aircraft airborne, and said six coded U.S. Air Force radio broadcasts had been heard earlier in the day, the latest at 05:13 Zulu.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119785221193076988"
-      },
-      {
-        "id": "2119778829103169880",
-        "date": "2026-11-09",
-        "dateLabel": "09 NOV 2026 · UTC",
-        "headline": "Trump comments on Iran conflict relayed",
-        "summary": "War Watch Intel relayed a statement attributed to Donald Trump that he saw no reason to escalate the war with Iran and was focused on his long-term goals in the conflict. The post credited Ian3130.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119778829103169880"
-      },
-      {
-        "id": "2119766850921734407",
-        "date": "2026-11-09",
-        "dateLabel": "09 NOV 2026 · UTC",
-        "headline": "Leaked Qatari-mediated proposal reported",
-        "summary": "War Watch Intel relayed a C14 English report that Iranian journalists had leaked a Qatari-mediated proposal showing potential terms for a diplomatic breakthrough. The visible source text is truncated after “to…”, so no parties or further outcome are stated. The post credited jackhoricon.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119766850921734407"
-      },
-      {
-        "id": "2119739921682305209",
-        "date": "2026-11-09",
-        "dateLabel": "09 NOV 2026 · UTC",
-        "headline": "U.S. Air Force transport and Black Sea activity reported",
-        "summary": "War Watch Intel reported multiple U.S. Air Force transport aircraft airborne across the Pacific and over the United States, Black Sea air activity at nearly 2.6 times normal, and six coded U.S. Air Force radio broadcasts. The visible source text is truncated after “broadcasts…”, so no further detail is stated.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119739921682305209"
-      },
-      {
-        "id": "2119728174267281867",
-        "date": "2026-11-09",
-        "dateLabel": "09 NOV 2026 · UTC",
-        "headline": "Reported strike on Ukrainian disability centre relayed",
-        "summary": "War Watch Intel said Kyiv Post reported, 36 minutes before later wire coverage, that a Russian drone strike destroyed a specialised centre for children with disabilities in Ukraine. The visible quoted text is truncated after “Ukraine’s…”, so no city or further detail is stated. The account said two outlets later confirmed the report.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119728174267281867"
       }
     ]
   },
