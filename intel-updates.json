@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2119698649638724075",
+        "date": "2026-11-09",
+        "dateLabel": "09 NOV 2026 · UTC",
+        "headline": "N717GD Gulfstream G700 sighting reported",
+        "summary": "War Watch Intel reported spotting N717GD, identified in the post as a 2026 Gulfstream G700 with type code GA7C and U.S. registration. The visible source text gives type description L2J and truncates the squawk after 0617. The sighting was credited to kostudas1.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119698649638724075"
+      },
+      {
+        "id": "2119694623857574020",
+        "date": "2026-11-09",
+        "dateLabel": "09 NOV 2026 · UTC",
+        "headline": "U.S. Air Force transport activity reported",
+        "summary": "War Watch Intel reported six U.S. Air Force transport aircraft airborne across multiple regions, including two over the North Sea and near the Asia-Pacific, and described the activity as routine military movement.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119694623857574020"
+      },
+      {
         "id": "2119649325697401314",
         "date": "2026-11-09",
         "dateLabel": "09 NOV 2026 · UTC",
@@ -83,22 +99,6 @@
         "headline": "U.S. transport and coded-radio activity surge reported",
         "summary": "War Watch Intel reported unusually active U.S. military transport aircraft over the United States, alongside increased coded-radio traffic and air activity near Iran and Korea following reported strikes in the Gulf. The visible source text ends after “Gulf…”, so no further detail is stated.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2119557719581405629"
-      },
-      {
-        "id": "2119553191029141692",
-        "date": "2026-11-08",
-        "dateLabel": "08 NOV 2026 · UTC",
-        "headline": "Iraqi Kurdistan drone-attack report highlighted",
-        "summary": "War Watch Intel said Al Jazeera Arabic had reported, 31 minutes before later coverage, that Reuters, citing security sources in Iraqi Kurdistan, reported a drone attack, and said two outlets subsequently confirmed the report. The visible quoted source text is truncated after “targeted…”, so no target or outcome is stated.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119553191029141692"
-      },
-      {
-        "id": "2119549417460027681",
-        "date": "2026-11-08",
-        "dateLabel": "08 NOV 2026 · UTC",
-        "headline": "Reported U.S. strikes on multiple Iranian locations relayed",
-        "summary": "War Watch Intel relayed an Open Source Intel report that the United States had struck multiple locations in Iran. The post credited JackHoricon.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119549417460027681"
       }
     ]
   },
