@@ -5,6 +5,46 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2119612989145808927",
+        "date": "2026-11-09",
+        "dateLabel": "09 NOV 2026 · UTC",
+        "headline": "Ukrainian drone raid into western Russia reported",
+        "summary": "War Watch Intel reported a major Ukrainian attack-drone raid deep into western Russia, with reports of hundreds of drones in flight. The visible source text is truncated after “towards Russian…”, so no destination or further outcome is stated. The post credited SailawayDebstaAU.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119612989145808927"
+      },
+      {
+        "id": "2119607804168171717",
+        "date": "2026-11-09",
+        "dateLabel": "09 NOV 2026 · UTC",
+        "headline": "GAF868 A319 movement reported",
+        "summary": "War Watch Intel reported GAF868, a German Air Force Airbus A319 with registration 15+02 and hex code 3F551D. The sighting was credited to reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119607804168171717"
+      },
+      {
+        "id": "2119604027172295101",
+        "date": "2026-11-09",
+        "dateLabel": "09 NOV 2026 · UTC",
+        "headline": "U.S. transport activity and regional surge reported",
+        "summary": "War Watch Intel reported six U.S. military transport aircraft airborne simultaneously and said activity in the eastern Mediterranean and Gulf region was running at three times normal levels amid tensions involving Iran.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119604027172295101"
+      },
+      {
+        "id": "2119600214717657094",
+        "date": "2026-11-09",
+        "dateLabel": "09 NOV 2026 · UTC",
+        "headline": "CTM1280 Falcon 900 movement reported",
+        "summary": "War Watch Intel reported CTM1280, a Dassault Falcon 900 associated with the French military air-transport command. The visible source text truncates the hex code after 3B77E5 and does not show a registration. The sighting was credited to reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119600214717657094"
+      },
+      {
+        "id": "2119575746104451138",
+        "date": "2026-11-08",
+        "dateLabel": "08 NOV 2026 · UTC",
+        "headline": "Kawasaki P-1 movement reported",
+        "summary": "War Watch Intel reported an aircraft using call sign 00, identified as a Kawasaki P-1 with registration 5512 and hex code 87C832. The sighting was credited to reagan0965.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119575746104451138"
+      },
+      {
         "id": "2119570304414437408",
         "date": "2026-11-08",
         "dateLabel": "08 NOV 2026 · UTC",
@@ -59,46 +99,6 @@
         "headline": "Initial U.S. airstrike report on Qeshm Island relayed",
         "summary": "War Watch Intel relayed an initial report, attributed to AT, of a U.S. airstrike on an Iranian air-defence site in Nariman on Qeshm Island. The post credited friedpotates.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2119516196525519293"
-      },
-      {
-        "id": "2119512421198958957",
-        "date": "2026-11-08",
-        "dateLabel": "08 NOV 2026 · UTC",
-        "headline": "Coded U.S. Air Force radio activity surge reported",
-        "summary": "War Watch Intel reported coded U.S. Air Force radio broadcasts at four times normal levels across multiple regions during the preceding hour, with particular activity near Korea and Japan.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119512421198958957"
-      },
-      {
-        "id": "2119508410936725554",
-        "date": "2026-11-08",
-        "dateLabel": "08 NOV 2026 · UTC",
-        "headline": "Blasts in Mahshahr, Iran reported",
-        "summary": "War Watch Intel reported that two blasts were heard at 22:20 local time, or 1850Z, in Mahshahr in Iran's Khuzestan Province. The post credited weslester6474.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119508410936725554"
-      },
-      {
-        "id": "2119492312103256402",
-        "date": "2026-11-08",
-        "dateLabel": "08 NOV 2026 · UTC",
-        "headline": "Trump comments on Iran highlighted",
-        "summary": "War Watch Intel said Al Jazeera Arabic had reported, 12 minutes before later coverage, that Donald Trump told CNN Iran was a failed state and inflation had reached 301%, and said two outlets subsequently confirmed the report. The visible quoted source text is truncated after “a return to…”, so no further claim is stated.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119492312103256402"
-      },
-      {
-        "id": "2119466364599423423",
-        "date": "2026-11-08",
-        "dateLabel": "08 NOV 2026 · UTC",
-        "headline": "Military air-activity spike near Korea and Japan reported",
-        "summary": "War Watch Intel reported an unusual rise in U.S. military air activity near Korea and Japan, describing nearly five times the normal number of flights and multiple transport aircraft airborne across the regions.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119466364599423423"
-      },
-      {
-        "id": "2119437575291027933",
-        "date": "2026-11-08",
-        "dateLabel": "08 NOV 2026 · UTC",
-        "headline": "Komyshuvakha airstrike missing-person report highlighted",
-        "summary": "War Watch Intel said Suspilne had reported, six minutes before later coverage, that 45 people were still considered missing after a Russian airstrike on Komyshuvakha in Zaporizhzhia district, and said two outlets subsequently confirmed the report. The visible quoted source text is truncated after “district…”, so no further detail is stated.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119437575291027933"
       }
     ]
   },
