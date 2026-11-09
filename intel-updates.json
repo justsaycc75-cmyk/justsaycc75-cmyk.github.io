@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2119649325697401314",
+        "date": "2026-11-09",
+        "dateLabel": "09 NOV 2026 · UTC",
+        "headline": "U.S. military transport activity reported",
+        "summary": "War Watch Intel reported six U.S. military transport aircraft airborne over the United States and Asia, including one heading across the Atlantic from Florida.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119649325697401314"
+      },
+      {
+        "id": "2119619378765254913",
+        "date": "2026-11-09",
+        "dateLabel": "09 NOV 2026 · UTC",
+        "headline": "Kirishi oil-refinery drone strike reported",
+        "summary": "War Watch Intel reported that Ukrainian attack drones struck Russia's Kirishi Oil Refinery and that the site was set ablaze. The post cited OsintTechnical and credited SailawayDebstaAU.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119619378765254913"
+      },
+      {
         "id": "2119612989145808927",
         "date": "2026-11-09",
         "dateLabel": "09 NOV 2026 · UTC",
@@ -83,22 +99,6 @@
         "headline": "Reported U.S. strikes on multiple Iranian locations relayed",
         "summary": "War Watch Intel relayed an Open Source Intel report that the United States had struck multiple locations in Iran. The post credited JackHoricon.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2119549417460027681"
-      },
-      {
-        "id": "2119522487562129573",
-        "date": "2026-11-08",
-        "dateLabel": "08 NOV 2026 · UTC",
-        "headline": "Explosions near Qeshm Island reported",
-        "summary": "War Watch Intel reported at least four explosions during the preceding hour near Iran's Qeshm Island in the Persian Gulf. The visible source text is truncated after “Iranian state-run media…”, so no further detail or attribution is stated. The post credited friedpotates.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119522487562129573"
-      },
-      {
-        "id": "2119516196525519293",
-        "date": "2026-11-08",
-        "dateLabel": "08 NOV 2026 · UTC",
-        "headline": "Initial U.S. airstrike report on Qeshm Island relayed",
-        "summary": "War Watch Intel relayed an initial report, attributed to AT, of a U.S. airstrike on an Iranian air-defence site in Nariman on Qeshm Island. The post credited friedpotates.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119516196525519293"
       }
     ]
   },
