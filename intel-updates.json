@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2119739921682305209",
+        "date": "2026-11-09",
+        "dateLabel": "09 NOV 2026 · UTC",
+        "headline": "U.S. Air Force transport and Black Sea activity reported",
+        "summary": "War Watch Intel reported multiple U.S. Air Force transport aircraft airborne across the Pacific and over the United States, Black Sea air activity at nearly 2.6 times normal, and six coded U.S. Air Force radio broadcasts. The visible source text is truncated after “broadcasts…”, so no further detail is stated.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119739921682305209"
+      },
+      {
+        "id": "2119728174267281867",
+        "date": "2026-11-09",
+        "dateLabel": "09 NOV 2026 · UTC",
+        "headline": "Reported strike on Ukrainian disability centre relayed",
+        "summary": "War Watch Intel said Kyiv Post reported, 36 minutes before later wire coverage, that a Russian drone strike destroyed a specialised centre for children with disabilities in Ukraine. The visible quoted text is truncated after “Ukraine’s…”, so no city or further detail is stated. The account said two outlets later confirmed the report.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2119728174267281867"
+      },
+      {
         "id": "2119698649638724075",
         "date": "2026-11-09",
         "dateLabel": "09 NOV 2026 · UTC",
@@ -83,22 +99,6 @@
         "headline": "Rubio says Iran talks are not productive",
         "summary": "War Watch Intel relayed a report attributed to ED that U.S. Secretary of State Marco Rubio said Iran was making “outrageous” demands behind closed doors and that talks were not productive. The post credited friedpotates.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2119570304414437408"
-      },
-      {
-        "id": "2119563874328330272",
-        "date": "2026-11-08",
-        "dateLabel": "08 NOV 2026 · UTC",
-        "headline": "Rubio comments on Iran talks relayed",
-        "summary": "War Watch Intel relayed a Faytuks News report that U.S. Secretary of State Marco Rubio said talks with Iran had not been productive. The visible source text is truncated after describing Tehran's demands as “simply…”, so no further characterization is stated. The post credited jackhoricon.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119563874328330272"
-      },
-      {
-        "id": "2119557719581405629",
-        "date": "2026-11-08",
-        "dateLabel": "08 NOV 2026 · UTC",
-        "headline": "U.S. transport and coded-radio activity surge reported",
-        "summary": "War Watch Intel reported unusually active U.S. military transport aircraft over the United States, alongside increased coded-radio traffic and air activity near Iran and Korea following reported strikes in the Gulf. The visible source text ends after “Gulf…”, so no further detail is stated.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119557719581405629"
       }
     ]
   },
