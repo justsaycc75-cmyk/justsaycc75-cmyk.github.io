@@ -481,6 +481,9 @@
 .world-clock:nth-child(10){--clock-accent:#b9a7f0;--clock-glow:#b9a7f040}
 .world-clock.clock-ready{background:linear-gradient(155deg,var(--clock-glow),#102019 68%);border-color:var(--clock-glow)}
 .world-clock.clock-ready span{color:var(--clock-accent)}
+.world-clock .clock-period{display:table;margin:0 auto 4px;padding:2px 8px;border:1px solid #f9cc8099;border-radius:999px;background:#604016;color:#ffe5a9;font-size:.65rem;font-weight:900;line-height:1;letter-spacing:.08em}
+.world-clock[data-period="pm"] .clock-period{border-color:#95bfff99;background:#203f69;color:#d9ebff}
+.world-clock[data-period="am"] .clock-period{color:#ffe5a9}
 .clock-face{position:relative;width:58px;height:58px;margin:6px auto 5px;border:2px solid var(--clock-accent);border-radius:50%;background:radial-gradient(circle at 35% 27%,var(--clock-glow),transparent 65%),radial-gradient(circle,#12261b 0 21px,transparent 22px),repeating-conic-gradient(from -1deg,var(--clock-accent) 0deg 2deg,transparent 2deg 30deg),#1b3325;box-shadow:inset 0 0 0 2px #0d2116,0 0 13px var(--clock-glow),0 2px 9px #0008}
 .world-clock-home .clock-face{box-shadow:inset 0 0 0 2px #16301e,0 0 15px var(--clock-glow)}
 .clock-face::after{content:"";position:absolute;top:50%;left:50%;width:6px;height:6px;transform:translate(-50%,-50%);border-radius:50%;background:#ffe4a3;box-shadow:0 0 0 1px #19271d}
