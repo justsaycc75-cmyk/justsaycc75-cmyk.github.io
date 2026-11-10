@@ -2,6 +2,14 @@
 (()=>{
   const clocks=[...document.querySelectorAll('[data-world-zone]')];
   if(!clocks.length)return;
+  clocks.forEach(clock=>{
+    const face=document.createElement('div');
+    face.className='clock-face';
+    face.setAttribute('aria-hidden','true');
+    face.innerHTML='<i class="clock-hand clock-hour"></i><i class="clock-hand clock-minute"></i>';
+    clock.querySelector('strong').before(face);
+    clock.classList.add('clock-ready');
+  });
   const formats=new Map();
   const format=zone=>{
     if(!formats.has(zone))formats.set(zone,{
@@ -14,6 +22,11 @@
     const now=new Date();
     clocks.forEach(clock=>{
       const zone=clock.dataset.worldZone,display=format(zone);
+      const parts=display.time.formatToParts(now);
+      const hour=Number(parts.find(part=>part.type==='hour').value);
+      const minute=Number(parts.find(part=>part.type==='minute').value);
+      clock.querySelector('.clock-hour').style.setProperty('--angle',`${(hour%12)*30+minute/2}deg`);
+      clock.querySelector('.clock-minute').style.setProperty('--angle',`${minute*6}deg`);
       clock.querySelector('strong').textContent=display.time.format(now);
       clock.querySelector('small').textContent=display.date.format(now);
     });
