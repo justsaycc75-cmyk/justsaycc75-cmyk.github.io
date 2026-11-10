@@ -466,14 +466,27 @@
 .world-clock span{display:block;overflow:hidden;color:#b9d1bc;font-size:.6rem;font-weight:800;letter-spacing:.07em;white-space:nowrap;text-overflow:ellipsis}
 .world-clock strong{display:block;margin:4px 0 1px;color:#f5d58b;font-size:1.3rem;font-variant-numeric:tabular-nums;letter-spacing:.02em}
 .world-clock-home strong{color:#ffe7a8}
-.world-clock small{display:block;color:#a7baaa;font-size:.66rem;white-space:nowrap}
+.world-clock small{display:block;color:#e7efdf;font-size:.69rem;font-weight:800;letter-spacing:.015em;white-space:nowrap}
 .world-clock.clock-ready strong{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
-.clock-face{position:relative;width:58px;height:58px;margin:6px auto 5px;border:2px solid #779b79;border-radius:50%;background:radial-gradient(circle,#12261b 0 22px,transparent 23px),repeating-conic-gradient(from -1deg,#a7c59e 0deg 2deg,transparent 2deg 30deg),#1b3325;box-shadow:inset 0 0 0 2px #0d2116,0 2px 9px #0008}
-.world-clock-home .clock-face{border-color:#b7e28b;box-shadow:inset 0 0 0 2px #16301e,0 0 9px #8bd96966}
+.world-clock{--clock-accent:#85d8b0;--clock-glow:#85d8b03d}
+.world-clock:nth-child(1){--clock-accent:#f7b76b;--clock-glow:#f7b76b42}
+.world-clock:nth-child(2){--clock-accent:#b6f27a;--clock-glow:#b6f27a55}
+.world-clock:nth-child(3){--clock-accent:#f29aac;--clock-glow:#f29aac40}
+.world-clock:nth-child(4){--clock-accent:#f0c77d;--clock-glow:#f0c77d40}
+.world-clock:nth-child(5){--clock-accent:#aaaff6;--clock-glow:#aaaff640}
+.world-clock:nth-child(6){--clock-accent:#f5abca;--clock-glow:#f5abca40}
+.world-clock:nth-child(7){--clock-accent:#8dcce9;--clock-glow:#8dcce940}
+.world-clock:nth-child(8){--clock-accent:#edb477;--clock-glow:#edb47740}
+.world-clock:nth-child(9){--clock-accent:#a7d697;--clock-glow:#a7d69740}
+.world-clock:nth-child(10){--clock-accent:#b9a7f0;--clock-glow:#b9a7f040}
+.world-clock.clock-ready{background:linear-gradient(155deg,var(--clock-glow),#102019 68%);border-color:var(--clock-glow)}
+.world-clock.clock-ready span{color:var(--clock-accent)}
+.clock-face{position:relative;width:58px;height:58px;margin:6px auto 5px;border:2px solid var(--clock-accent);border-radius:50%;background:radial-gradient(circle at 35% 27%,var(--clock-glow),transparent 65%),radial-gradient(circle,#12261b 0 21px,transparent 22px),repeating-conic-gradient(from -1deg,var(--clock-accent) 0deg 2deg,transparent 2deg 30deg),#1b3325;box-shadow:inset 0 0 0 2px #0d2116,0 0 13px var(--clock-glow),0 2px 9px #0008}
+.world-clock-home .clock-face{box-shadow:inset 0 0 0 2px #16301e,0 0 15px var(--clock-glow)}
 .clock-face::after{content:"";position:absolute;top:50%;left:50%;width:6px;height:6px;transform:translate(-50%,-50%);border-radius:50%;background:#ffe4a3;box-shadow:0 0 0 1px #19271d}
 .clock-hand{position:absolute;inset:0;transform:rotate(var(--angle,0deg));transform-origin:center}
 .clock-hand::before{content:"";position:absolute;bottom:50%;left:50%;width:3px;height:17px;transform:translateX(-50%);border-radius:3px;background:#ffe2a2;box-shadow:0 0 2px #000}
-.clock-minute::before{width:2px;height:22px;background:#f7f7e6}
+.clock-minute::before{width:2px;height:22px;background:var(--clock-accent)}
 @media(max-width:1000px){.world-times-grid{grid-template-columns:repeat(5,minmax(0,1fr))}}
 @media(max-width:650px){.world-times-inner{padding:11px 14px}.world-times-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:6px}.world-clock{padding:8px 5px}.world-clock strong{font-size:1.14rem}.world-clock span{font-size:.54rem}}
 
