@@ -8,9 +8,8 @@
   if(!eplTarget)return;
   const TZ='Australia/Sydney';
   const ESPN='https://site.api.espn.com/apis/site/v2/sports/';
-  const CRICKET_MATCH='https://www.cricket.com.au/matches/CA:39992/south-africa-men-australia-men-3rd-test';
-  const CRICKET_SCHEDULE='https://www.cricket.com.au/matches/tours';
-  const CRICKET_END=Date.parse('2026-11-02T00:00:00Z');
+  const CRICKET_API='https://apiv2.cricket.com.au/web/';
+  const CRICKET_SCHEDULE='https://www.cricket.com.au/matches';
   const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const dateKey=(now,offset)=>new Date(now+offset*86400000).toISOString().slice(0,10).replace(/-/g,'');
   const localDate=d=>new Intl.DateTimeFormat('en-AU',{timeZone:TZ,weekday:'short',day:'numeric',month:'short',hour:'numeric',minute:'2-digit',hour12:true}).format(new Date(d));
@@ -75,27 +74,46 @@
     }finally{eplBusy=false;}
   }
   let cricketBusy=false,cricketLast=null;
-  async function updateCricket(){
-    if(!cricketTarget)return;
-    if(cricketBusy)return;cricketBusy=true;
+  const australianMen=f=>f&&!f.isWomensMatch&&!f.competition?.isWomensCompetition&&[f.homeTeamId,f.awayTeamId,f.homeTeam?.id,f.awayTeam?.id].some(id=>Number(id)===23);
+  const cricketEligible=(f,now)=>australianMen(f)&&!f.isCompleted&&(f.isLive||f.isInProgress||dayKey(new Date(f.startDateTime))===dayKey(new Date(now)));
+  async function cricketJson(path){
+    const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),12000);
     try{
-      if(Date.now()>CRICKET_END){
-        cricketTarget.innerHTML='<div class="live-game-badge">AUSTRALIA CRICKET · NEXT MATCH</div><p class="live-game-empty">The Cape Town Test has finished. Check Cricket Australia for the next fixture.</p>'+link(CRICKET_SCHEDULE,'Australian cricket fixtures');
-        return;
-      }
-      const events=await json(ESPN+'cricket/24203/scoreboard?dates=20261027');
-      const game=events.find(e=>String(e.id)==='1525661');
-      if(!game)throw Error('Match missing');
-      cricketLast=game;
-      const [away,home]=teams(game),s=state(game),competition=game.competitions?.[0]||{};
-      const pause=status(game).type?.description||'';
-      const paused=s==='in'&&/stumps|lunch|tea|break|rain|delay|suspend|interruption/i.test(pause);
-      const detail=s==='pre'?localDate(game.date)+' Sydney':paused?pause+(status(game).session?' · '+status(game).session:''):status(game).summary||status(game).type?.shortDetail||status(game).type?.detail||'Latest score';
-      cricketTarget.innerHTML='<article data-game-id="'+esc(game.id)+'" data-sport-state="'+(paused?'paused':s)+'" data-sport-start="'+Date.parse(game.date)+'"><div class="live-game-badge '+(s==='in'&&!paused?'is-live':'')+'">CRICKET · 3RD TEST · '+(s==='in'?(paused?esc(pause.toUpperCase()):'● LIVE'):s==='post'?'FINAL':'COMING UP')+'</div><div class="live-game-teams">'+teamCard(away,'cricket',s==='pre')+'<span class="live-game-versus" aria-hidden="true">'+(s==='pre'?'v':'–')+'</span>'+teamCard(home,'cricket',s==='pre')+'</div><div class="live-game-clock">'+esc(detail)+'</div><p class="live-game-venue">'+esc(competition.venue?.fullName||'Newlands, Cape Town')+'</p>'+link(CRICKET_MATCH,s==='in'?'Live scorecard & commentary':s==='post'?'Result & scorecard':'Match centre')+'</article>';
-      finishImages(cricketTarget);
+      const response=await fetch(CRICKET_API+path,{cache:'no-store',signal:controller.signal});
+      if(!response.ok)throw Error('Cricket feed unavailable');
+      const data=await response.json();
+      if(data.responseError)throw Error('Cricket feed error');
+      return data;
+    }finally{clearTimeout(timer);}
+  }
+  const cricketUrl=f=>'https://www.cricket.com.au/matches/CA:'+encodeURIComponent(f.id);
+  function cricketScore(f,t){
+    const innings=(f.innings||[]).filter(i=>Number(i.battingTeamId)===Number(t.id));
+    return innings.map(i=>(i.numberOfWicketsFallen===10?'':i.numberOfWicketsFallen+'/')+i.runsScored+(i.isDeclared?'d':'')+' ('+i.oversBowled+')').join(' & ')||'–';
+  }
+  async function updateCricket(){
+    if(!cricketTarget||cricketBusy)return;cricketBusy=true;
+    try{
+      const now=Date.now(),year=new Date(now).getUTCFullYear();
+      const data=await cricketJson('fixtures/yearfilter?teamId=23&isWomenMatch=false&year='+year+'&isCompleted=false&limit=25&isInningInclude=true&jsconfig=eccn%3Atrue&format=json');
+      if(!Array.isArray(data.fixtures))throw Error('Invalid cricket fixtures');
+      const fixtures=data.fixtures.filter(f=>cricketEligible(f,now)).sort((a,b)=>Number(!!(b.isLive||b.isInProgress))-Number(!!(a.isLive||a.isInProgress))||Date.parse(a.startDateTime)-Date.parse(b.startDateTime));
+      if(!fixtures.length){cricketTarget.hidden=true;cricketTarget.innerHTML='';cricketLast=null;return;}
+      const fixture=fixtures[0];
+      const detail=await cricketJson('views/scorecard?fixtureId='+encodeURIComponent(fixture.id)+'&jsconfig=eccn%3Atrue&format=json');
+      const f=detail.fixture;
+      if(!f||String(f.id)!==String(fixture.id))throw Error('Invalid cricket scorecard');
+      if(!cricketEligible(f,now)){cricketTarget.hidden=true;cricketTarget.innerHTML='';cricketLast=null;return;}
+      cricketLast=f;cricketTarget.hidden=false;
+      const pause=/stumps|lunch|tea|break|rain|delay|suspend|interruption/i.test(f.gameStatus||'');
+      const live=!!f.isLive&&!pause,active=f.isLive||f.isInProgress;
+      const state=live?'in':active?'paused':'pre';
+      const team=t=>({team:{displayName:t.name,abbreviation:t.shortName},score:cricketScore(f,t)});
+      const info=active?(f.resultText||f.gameStatus||'Match in progress'):localDate(f.startDateTime)+' Sydney';
+      cricketTarget.innerHTML='<article data-game-id="'+esc(f.id)+'" data-sport-state="'+state+'" data-sport-start="'+Date.parse(f.startDateTime)+'"><div class="live-game-badge '+(live?'is-live':'')+'">CRICKET · '+esc(f.name)+' · '+(live?'● LIVE':active?esc(f.gameStatus||'PAUSED'):'TODAY')+'</div><div class="live-game-teams">'+teamCard(team(f.awayTeam),'cricket',!active)+'<span class="live-game-versus" aria-hidden="true">v</span>'+teamCard(team(f.homeTeam),'cricket',!active)+'</div><div class="live-game-clock">'+esc(info)+'</div><p class="live-game-venue">'+esc(f.venue?.name||'')+'</p>'+link(cricketUrl(f),'Official scorecard & commentary')+'<p class="live-game-empty">Cricket Australia · checked '+esc(new Intl.DateTimeFormat('en-AU',{timeZone:TZ,hour:'numeric',minute:'2-digit',second:'2-digit',hour12:true}).format(now))+' Sydney · refreshes every 30 seconds</p></article>';
     }catch(error){
-      if(cricketLast){markStale(cricketTarget,'CRICKET');if(!cricketTarget.querySelector('.live-game-stale'))cricketTarget.insertAdjacentHTML('beforeend','<p class="live-game-stale">Cricket update delayed</p>');}
-      else cricketTarget.innerHTML='<div class="live-game-badge">AUSTRALIA CRICKET · UPDATE DELAYED</div><p class="live-game-empty">Scores are temporarily unavailable.</p>'+link(CRICKET_MATCH,'Open the match centre');
+      if(cricketLast&&cricketEligible(cricketLast,Date.now())){cricketTarget.hidden=false;markStale(cricketTarget,'CRICKET');if(!cricketTarget.querySelector('.live-game-stale'))cricketTarget.insertAdjacentHTML('beforeend','<p class="live-game-stale">Cricket update delayed. Displayed scores are the last successful check, not confirmed current.</p>');}
+      else {cricketTarget.hidden=false;cricketTarget.innerHTML='<div class="live-game-badge">AUSTRALIA CRICKET · UPDATE UNAVAILABLE</div><p class="live-game-empty">Current match status could not be checked.</p>'+link(CRICKET_SCHEDULE,'Official cricket fixtures & scores');}
     }finally{cricketBusy=false;}
   }
   function update(){updateEpl();updateCricket();}
