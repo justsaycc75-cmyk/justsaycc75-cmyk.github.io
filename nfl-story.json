@@ -1,16 +1,17 @@
 {
-  "headline": "Porter says injury, not contract, caused absences",
-  "summary": "NFL.com reports Cowboys cornerback Joey Porter Jr. says a nagging ankle and foot injury, not contract concerns, caused his recent absences as he works toward a return.",
-  "source": "NFL.com",
-  "sourceUrl": "https://www.nfl.com/news/cowboys-cb-joey-porter-jr-recent-absences-injury-not-contract-related",
+  "headline": "Lock cleared to start against Raiders",
+  "summary": "NBC Sports Pro Football Talk reports Seahawks quarterback Drew Lock has no injury designation and will start against Las Vegas despite managing elbow and oblique injuries. Sam Darnold remains out.",
+  "source": "NBC Sports Pro Football Talk",
+  "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/drew-lock-has-another-limited-practice-but-does-not-have-an-injury-designation",
   "publishedDate": "2026-11-13",
   "dateLabel": "13 Nov 2026",
-  "imageUrl": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_mobile/f_auto/cowboys/dkjuhswg04bsefkveemv.jpg",
-  "imageAlt": "Dallas Cowboys cornerback Joey Porter Jr. sits on the sideline during a game.",
-  "imageCredit": "Dallas Cowboys",
-  "imageSourceUrl": "https://www.dallascowboys.com/news/joey-porter-jr-gives-injury-update-as-matchup-vs-49ers-looms",
-  "updatedAt": "2026-11-14T02:07:50.389Z",
+  "imageUrl": "https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/f_auto/seahawks/xlhxrffbvxvjusetdcsq.jpg",
+  "imageAlt": "Seattle Seahawks quarterback Drew Lock holds the football during practice.",
+  "imageCredit": "Seattle Seahawks",
+  "imageSourceUrl": "https://www.seahawks.com/news/drew-lock-confident-and-optimistic-heading-into-sunday-s-game-other-seahawks-updates",
+  "updatedAt": "2026-11-14T07:01:36.312Z",
   "recentUrls": [
+    "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/drew-lock-has-another-limited-practice-but-does-not-have-an-injury-designation",
     "https://www.nfl.com/news/cowboys-cb-joey-porter-jr-recent-absences-injury-not-contract-related",
     "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-extend-cameron-thomas-through-2029",
     "https://www.nfl.com/news/commanders-giants-on-thursday-night-football-what-we-learned-from-washington-s-24-21-win",
@@ -21,7 +22,6 @@
     "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/matthew-stafford-a-full-participant-wednesday-myles-garrett-limited",
     "https://www.nfl.com/news/vikings-wont-commit-to-kirk-cousins-starting-packers",
     "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/todd-monken-i-intend-for-deshaun-watson-being-our-starting-qb",
-    "https://www.nfl.com/news/dolphins-place-qb-malik-willis-groin-on-injured-reserve-kyle-mccord-in-line-for-first-start",
-    "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cba-allows-49ers-to-not-pay-brandon-aiyuk-during-two-week-roster-exemption"
+    "https://www.nfl.com/news/dolphins-place-qb-malik-willis-groin-on-injured-reserve-kyle-mccord-in-line-for-first-start"
   ]
 }
