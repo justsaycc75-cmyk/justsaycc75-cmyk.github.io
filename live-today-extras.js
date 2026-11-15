@@ -116,7 +116,7 @@
       else {cricketTarget.hidden=false;cricketTarget.innerHTML='<div class="live-game-badge">AUSTRALIA CRICKET · UPDATE UNAVAILABLE</div><p class="live-game-empty">Current match status could not be checked.</p>'+link(CRICKET_SCHEDULE,'Official cricket fixtures & scores');}
     }finally{cricketBusy=false;}
   }
-  function update(){updateEpl();updateCricket();}
+  function update(){updateCricket();}
   refresh?.addEventListener('click',update);
   window.addEventListener('online',update);
   document.addEventListener('visibilitychange',()=>{if(!document.hidden)update();});
