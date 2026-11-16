@@ -5,11 +5,19 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2122434645912396253",
+        "date": "2026-11-16T21:00:27Z",
+        "dateLabel": "16 NOV 2026 · 21:00 UTC",
+        "headline": "Priority Air Transport activity questioned",
+        "summary": "War Watch Intel noted numerous Priority Air Transport aircraft airborne and asked whether the activity was normal. The post did not establish a baseline, aircraft count or mission, so it does not confirm unusual activity.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2122434645912396253"
+      },
+      {
         "id": "2122390375033647140",
         "date": "2026-11-16T18:04:32Z",
         "dateLabel": "16 NOV 2026 · 18:04 UTC",
         "headline": "U.S. aircraft activity and fifteen radio broadcasts reported",
-        "summary": "War Watch Intel reported multiple U.S. Air Force surveillance and transport aircraft airborne over the United States, together with a nuclear command aircraft. It said fifteen coded radio broadcasts had been heard that day; the post did not establish the aircrafts’ missions.",
+        "summary": "War Watch Intel reported multiple U.S. Air Force surveillance and transport aircraft airborne over the United States, together with a nuclear command aircraft. It said fifteen coded radio broadcasts had been heard that day; the post did not establish the missions of those aircraft.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2122390375033647140"
       },
       {
@@ -91,17 +99,9 @@
         "headline": "Elevated U.S. military activity reported",
         "summary": "War Watch Intel reported elevated U.S. military activity across multiple regions, including 11 coded radio broadcasts that day and transport and surveillance aircraft airborne over the continental United States. The visible source text is truncated after “heightened…”, so no further region or activity is stated.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2119929925704597628"
-      },
-      {
-        "id": "2119926148771586419",
-        "date": "2026-11-09",
-        "dateLabel": "09 NOV 2026 · UTC",
-        "headline": "Heavy Israeli Air Force activity reported",
-        "summary": "War Watch Intel reported heavy Israeli Air Force activity over northern Israel, citing Conflict Radar. The post credited jackhoricon.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119926148771586419"
       }
     ],
-    "sourceCheckedAt": "2026-11-16T18:56:45Z",
+    "sourceCheckedAt": "2026-11-16T21:56:57Z",
     "profileUrl": "https://x.com/WarWatchIntel"
   },
   "skyglass": {
@@ -206,7 +206,7 @@
         "sourceUrl": "https://x.com/SkyGlass12/status/2115843936841241002"
       }
     ],
-    "sourceCheckedAt": "2026-11-16T18:56:45Z",
+    "sourceCheckedAt": "2026-11-16T21:56:57Z",
     "profileUrl": "https://x.com/SkyGlass12"
   }
 }
