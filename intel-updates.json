@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2122390375033647140",
+        "date": "2026-11-16T18:04:32Z",
+        "dateLabel": "16 NOV 2026 · 18:04 UTC",
+        "headline": "U.S. aircraft activity and fifteen radio broadcasts reported",
+        "summary": "War Watch Intel reported multiple U.S. Air Force surveillance and transport aircraft airborne over the United States, together with a nuclear command aircraft. It said fifteen coded radio broadcasts had been heard that day; the post did not establish the aircrafts’ missions.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2122390375033647140"
+      },
+      {
         "id": "2122284677482402298",
         "date": "2026-11-16T11:04:31Z",
         "dateLabel": "16 NOV 2026 · 11:04 UTC",
@@ -91,17 +99,9 @@
         "headline": "Heavy Israeli Air Force activity reported",
         "summary": "War Watch Intel reported heavy Israeli Air Force activity over northern Israel, citing Conflict Radar. The post credited jackhoricon.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2119926148771586419"
-      },
-      {
-        "id": "2119919858099925080",
-        "date": "2026-11-09",
-        "dateLabel": "09 NOV 2026 · UTC",
-        "headline": "Iranian security official's message to U.S. relayed",
-        "summary": "War Watch Intel relayed a Reuters report quoting Iran's top security official telling the United States to stop manufacturing fake news about imaginary talks. The post credited jackhoricon.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119919858099925080"
       }
     ],
-    "sourceCheckedAt": "2026-11-16T16:19:19Z",
+    "sourceCheckedAt": "2026-11-16T18:56:45Z",
     "profileUrl": "https://x.com/WarWatchIntel"
   },
   "skyglass": {
@@ -206,7 +206,7 @@
         "sourceUrl": "https://x.com/SkyGlass12/status/2115843936841241002"
       }
     ],
-    "sourceCheckedAt": "2026-11-16T16:19:19Z",
+    "sourceCheckedAt": "2026-11-16T18:56:45Z",
     "profileUrl": "https://x.com/SkyGlass12"
   }
 }
