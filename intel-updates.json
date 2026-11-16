@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2122177191932785000",
+        "date": "2026-11-16",
+        "dateLabel": "16 NOV 2026 · 03:57 UTC",
+        "headline": "E-6B route question posted",
+        "summary": "War Watch Intel asked whether an E-6B was crossing the Atlantic or heading offshore. The post posed a question; it did not confirm a route, destination or mission.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2122177191932785000"
+      },
+      {
         "id": "2122148781458104635",
         "date": "2026-11-16",
         "dateLabel": "16 NOV 2026 · UTC",
@@ -91,17 +99,9 @@
         "headline": "Ukraine talks expectations report relayed",
         "summary": "War Watch Intel said Ukrainska Pravda reported, 22 minutes before later wire coverage, that Ukraine did not expect a breakthrough at the first meeting between Russian and U.S. participants. The visible quoted text is truncated after “US…”, so no participants or further detail are stated. The account said two outlets later confirmed the report.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2119868473199182238"
-      },
-      {
-        "id": "2119853672414777449",
-        "date": "2026-11-09",
-        "dateLabel": "09 NOV 2026 · UTC",
-        "headline": "French accusation over Iranian cyberattacks relayed",
-        "summary": "War Watch Intel relayed a BBC report that France accused Iran of being behind cyberattacks that affected supermarket fridges and freezers.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119853672414777449"
       }
     ],
-    "sourceCheckedAt": "2026-11-16T02:46:34Z",
+    "sourceCheckedAt": "2026-11-16T07:04:35Z",
     "profileUrl": "https://x.com/WarWatchIntel"
   },
   "skyglass": {
@@ -206,7 +206,7 @@
         "sourceUrl": "https://x.com/SkyGlass12/status/2115843936841241002"
       }
     ],
-    "sourceCheckedAt": "2026-11-16T02:46:34Z",
+    "sourceCheckedAt": "2026-11-16T07:04:35Z",
     "profileUrl": "https://x.com/SkyGlass12"
   }
 }
