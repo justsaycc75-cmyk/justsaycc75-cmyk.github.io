@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2122269577807564935",
+        "date": "2026-11-16T10:04:31Z",
+        "dateLabel": "16 NOV 2026 · 10:04 UTC",
+        "headline": "Normal-level aircraft and radio activity reported",
+        "summary": "War Watch Intel reported U.S. Air Force transport aircraft and a NATO surveillance aircraft airborne across the North Sea and elsewhere, with eleven coded radio broadcasts heard that day. It described activity as normal.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2122269577807564935"
+      },
+      {
+        "id": "2122226058711683106",
+        "date": "2026-11-16T07:11:36Z",
+        "dateLabel": "16 NOV 2026 · 07:11 UTC",
+        "headline": "Crimean Bridge traffic-halt report relayed",
+        "summary": "War Watch Intel relayed an Al Jazeera Arabic report citing Interfax that traffic had halted on the Crimean Bridge. The quoted text is truncated after a reference to Ukrainian targeting, so the post does not establish further attack details here.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2122226058711683106"
+      },
+      {
         "id": "2122177191932785000",
         "date": "2026-11-16",
         "dateLabel": "16 NOV 2026 · 03:57 UTC",
@@ -19,6 +35,14 @@
         "headline": "Hourly radio and aircraft activity reported",
         "summary": "War Watch Intel reported four coded U.S. Air Force radio broadcasts in the past hour and two nuclear command-and-control jets airborne over the continental United States alongside transport aircraft. The visible post is truncated after “spy…”, so no further aircraft detail is stated.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2122148781458104635"
+      },
+      {
+        "id": "2122107161748603183",
+        "date": "2026-11-15T23:19:08Z",
+        "dateLabel": "15 NOV 2026 · 23:19 UTC",
+        "headline": "Commercial-shipping and Romanian warning claim posted",
+        "summary": "War Watch Intel claimed commercial vessels were being struck in NATO territorial waters and Romania was issuing navigation warnings. The post is truncated before specifying the area to avoid; locations, incidents and warning details are not independently verified here.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2122107161748603183"
       },
       {
         "id": "2122027929089523722",
@@ -75,33 +99,9 @@
         "headline": "U.S. Air Force departures from RAF Mildenhall reported",
         "summary": "War Watch Intel reported multiple U.S. Air Force aircraft departing RAF Mildenhall in rapid succession and relocating to bases. The visible source text is truncated after “bases…”, so no destinations or further detail are stated. The post cited Conflict Radar and credited jackhoricon.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2119913534108684642"
-      },
-      {
-        "id": "2119882766892286041",
-        "date": "2026-11-09",
-        "dateLabel": "09 NOV 2026 · UTC",
-        "headline": "U.S. military aircraft activity reported",
-        "summary": "War Watch Intel reported six U.S. military transport aircraft airborne over the continental United States, alongside surveillance and refuelling aircraft. It also reported activity near Korea and Japan at nearly three times normal.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119882766892286041"
-      },
-      {
-        "id": "2119873997605105850",
-        "date": "2026-11-09",
-        "dateLabel": "09 NOV 2026 · UTC",
-        "headline": "VENUS03 VC-25B Bridge sighting reported",
-        "summary": "War Watch Intel reported VENUS03, identified in the post as a Boeing VC-25B Bridge with registration 25-33000 and hex code AF83F3. The sighting was credited to jessidavin, with the photograph credited to Conor Ewings via Planespotters.net.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119873997605105850"
-      },
-      {
-        "id": "2119868473199182238",
-        "date": "2026-11-09",
-        "dateLabel": "09 NOV 2026 · UTC",
-        "headline": "Ukraine talks expectations report relayed",
-        "summary": "War Watch Intel said Ukrainska Pravda reported, 22 minutes before later wire coverage, that Ukraine did not expect a breakthrough at the first meeting between Russian and U.S. participants. The visible quoted text is truncated after “US…”, so no participants or further detail are stated. The account said two outlets later confirmed the report.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119868473199182238"
       }
     ],
-    "sourceCheckedAt": "2026-11-16T07:04:35Z",
+    "sourceCheckedAt": "2026-11-16T10:15:23Z",
     "profileUrl": "https://x.com/WarWatchIntel"
   },
   "skyglass": {
@@ -206,7 +206,7 @@
         "sourceUrl": "https://x.com/SkyGlass12/status/2115843936841241002"
       }
     ],
-    "sourceCheckedAt": "2026-11-16T07:04:35Z",
+    "sourceCheckedAt": "2026-11-16T10:15:23Z",
     "profileUrl": "https://x.com/SkyGlass12"
   }
 }
