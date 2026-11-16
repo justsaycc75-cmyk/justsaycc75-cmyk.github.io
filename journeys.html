@@ -16,14 +16,9 @@
 <div class="trip-panel-details"><p><strong>Route</strong> Sydney round trip via Hobart, Port Arthur, Melbourne and Eden</p><a class="trip-panel-link" href="Tasmania%20Cruise%20Jan%202027.png" target="_blank" rel="noopener">Open itinerary map →</a></div>
 </details>
 <details class="trip-panel" id="trip-brisbane-to-sydney">
-<summary class="trip-panel-toggle" aria-label="Brisbane to Sydney · 16–20 Mar 2027"><div class="trip-panel-visual trip-panel-photo"><img loading="lazy" decoding="async" src="assets/img/ship-aft-pool-and-wake.webp" alt="Shipboard pool and wake at sea"></div>
-<div class="trip-panel-copy"><div class="trip-panel-date">16–20 Mar 2027</div><h4>Brisbane to Sydney</h4><div class="trip-panel-meta">4 nights · Grand Princess</div><p>A short southbound sailing, with Newcastle before the Sydney arrival.</p><span class="trip-panel-link"><span class="trip-show">View trip details</span><span class="trip-hide">Hide trip details</span></span></div></summary>
-<div class="trip-panel-details"><p><strong>Route</strong> Brisbane → Newcastle → Sydney</p></div>
-</details>
-<details class="trip-panel" id="trip-fiji-mar-2027">
-<summary class="trip-panel-toggle" aria-label="Fiji & South Pacific · 20 Mar – 2 Apr 2027"><div class="trip-panel-visual trip-panel-map"><img loading="lazy" decoding="async" src="Fiji%20Cruise%20March%202027.png" alt="Map of the March 2027 Fiji cruise"></div>
-<div class="trip-panel-copy"><div class="trip-panel-date">20 Mar – 2 Apr 2027</div><h4>Fiji & South Pacific</h4><div class="trip-panel-meta">13 nights · Sydney round trip</div><p>Lautoka, Suva, Dravuni, Mystery Island and Nouméa are on the calendar.</p><span class="trip-panel-link"><span class="trip-show">View trip details</span><span class="trip-hide">Hide trip details</span></span></div></summary>
-<div class="trip-panel-details"><p><strong>Route</strong> Sydney round trip via Lautoka, Suva, Dravuni, Mystery Island and Nouméa</p><a class="trip-panel-link" href="Fiji%20Cruise%20March%202027.png" target="_blank" rel="noopener">Open itinerary map →</a></div>
+<summary class="trip-panel-toggle" aria-label="Brisbane, Sydney &amp; Fiji back-to-back cruise · 16 Mar – 2 Apr 2027"><div class="trip-panel-visual trip-panel-map"><img loading="lazy" decoding="async" src="Fiji%20Cruise%20March%202027.png" alt="Map of the Fiji leg of the March 2027 back-to-back cruise"></div>
+<div class="trip-panel-copy"><div class="trip-panel-date">16 Mar – 2 Apr 2027</div><h4>Brisbane, Sydney &amp; Fiji</h4><div class="trip-panel-meta">17 nights · Back-to-back cruise</div><p>One holiday: Brisbane to Sydney, then straight on to Fiji and the South Pacific.</p><span class="trip-panel-link"><span class="trip-show">View trip details</span><span class="trip-hide">Hide trip details</span></span></div></summary>
+<div class="trip-panel-details"><p><strong>First leg · 16–20 March · 4 nights · Grand Princess</strong><br>Brisbane → Newcastle → Sydney</p><p><strong>Second leg · 20 March–2 April · 13 nights</strong><br>Sydney round trip via Lautoka, Suva, Dravuni, Mystery Island and Nouméa</p><p>Sydney turnaround on 20 March connects both sailings as one back-to-back cruise.</p><a class="trip-panel-link" href="Fiji%20Cruise%20March%202027.png" target="_blank" rel="noopener">Open Fiji itinerary map →</a></div>
 </details>
 <details class="trip-panel" id="trip-tahiti-hawaii-2027">
 <summary class="trip-panel-toggle" aria-label="Tahiti, Hawaii & South Pacific · 4 Sep – 9 Oct 2027"><div class="trip-panel-visual trip-panel-map"><img loading="lazy" decoding="async" src="Soth%20Pacific%20Cruise%20Sep%202027.png" alt="Map of the September 2027 Pacific and Hawaii cruise"></div>
@@ -159,7 +154,9 @@
 <a class="portrait" href="assets/img/cruise-ship-towel-creature.webp" target="_blank" rel="noopener"><img loading="lazy" decoding="async" src="assets/img/cruise-ship-towel-creature.webp" alt="A playful towel creature waiting in the cabin"><span>A cabin surprise</span></a>
 </div></div></div></section></main><footer class="footer"><div class="wrap footer-grid"><span>© My Retirement Page</span><span>Music, travel, wine, sport, radio — and time to enjoy it.</span></div> <a href="privacy.html" style="font-size:.78em;opacity:.8">Visitor privacy</a></footer><script src="script.js?v=20260924-audit"></script><img src="https://www.stats4u.net/c/7154822844-980.png" width="1" height="1" alt="" aria-hidden="true" style="position:absolute;width:1px;height:1px;opacity:0;pointer-events:none"><script>
 function openLinkedTrip() {
-  const trip = document.getElementById(location.hash.slice(1));
+  const tripId = location.hash.slice(1);
+  const trip = document.getElementById(tripId === 'trip-fiji-mar-2027' ? 'trip-brisbane-to-sydney' : tripId);
+  if (tripId === 'trip-fiji-mar-2027' && trip) trip.scrollIntoView();
   if (trip?.matches('details.trip-panel')) trip.open = true;
 }
 openLinkedTrip();
