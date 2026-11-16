@@ -18,9 +18,33 @@
           const summary = document.createElement('p');
           summary.textContent = entry.summary;
           li.append(time, heading, summary);
+          if (typeof entry.sourceUrl === 'string' && /^https:\/\/x\.com\/(WarWatchIntel|SkyGlass12)\/status\/\d+$/.test(entry.sourceUrl)) {
+            const link = document.createElement('a');
+            link.href = entry.sourceUrl;
+            link.textContent = 'Source post ↗';
+            link.target = '_blank';
+            link.rel = 'noopener noreferrer';
+            li.append(link);
+          }
           return li;
         }));
       }
+    }
+    if (feed) {
+      let notice = feed.previousElementSibling;
+      if (!notice || !notice.classList.contains('intel-freshness')) {
+        notice = document.createElement('p');
+        notice.className = 'intel-freshness';
+        feed.before(notice);
+      }
+      const latest = item.entries?.[0]?.date || 'unknown';
+      const checked = item.sourceCheckedAt ? new Date(item.sourceCheckedAt) : null;
+      const valid = checked && Number.isFinite(checked.getTime());
+      const old = valid && Date.now() - checked.getTime() > 24 * 60 * 60 * 1000;
+      notice.textContent = 'Publisher snapshot, not live tracking. Newest post: ' + latest +
+        (valid ? ' · Source checked: ' + checked.toISOString().replace('T', ' ').slice(0, 16) + ' UTC.' : ' · Source check time unavailable.') +
+        (old ? ' Source check is overdue; newer posts may exist.' : '') +
+        ' This page reloads published snapshots every 3 hours.';
     }
     const image = document.querySelector(`[data-intel-image="${key}"]`);
     const caption = document.querySelector(`[data-intel-caption="${key}"]`);
