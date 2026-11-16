@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2122148781458104635",
+        "date": "2026-11-16",
+        "dateLabel": "16 NOV 2026 · UTC",
+        "headline": "Hourly radio and aircraft activity reported",
+        "summary": "War Watch Intel reported four coded U.S. Air Force radio broadcasts in the past hour and two nuclear command-and-control jets airborne over the continental United States alongside transport aircraft. The visible post is truncated after “spy…”, so no further aircraft detail is stated.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2122148781458104635"
+      },
+      {
+        "id": "2122027929089523722",
+        "date": "2026-11-15",
+        "dateLabel": "15 NOV 2026 · UTC",
+        "headline": "Transport activity near Korea and Japan reported",
+        "summary": "War Watch Intel reported U.S. military transport aircraft airborne over the continental United States, activity near Korea and Japan at nearly four times normal, and one coded U.S. Air Force radio broadcast heard that hour.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2122027929089523722"
+      },
+      {
+        "id": "2121907054684086693",
+        "date": "2026-11-15",
+        "dateLabel": "15 NOV 2026 · UTC",
+        "headline": "Six U.S. Air Force transport aircraft reported",
+        "summary": "War Watch Intel reported six U.S. Air Force transport aircraft airborne over the United States and described activity as slightly above normal after recent civilian aviation disruptions.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2121907054684086693"
+      },
+      {
         "id": "2119933698854224226",
         "date": "2026-11-09",
         "dateLabel": "09 NOV 2026 · UTC",
@@ -75,38 +99,48 @@
         "headline": "French accusation over Iranian cyberattacks relayed",
         "summary": "War Watch Intel relayed a BBC report that France accused Iran of being behind cyberattacks that affected supermarket fridges and freezers.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2119853672414777449"
-      },
-      {
-        "id": "2119847218748223684",
-        "date": "2026-11-09",
-        "dateLabel": "09 NOV 2026 · UTC",
-        "headline": "Reported Iranian strike on Didamar Island relayed",
-        "summary": "War Watch Intel relayed reports that Iran struck Oman's Didamar Island, described in the post as hosting radar and communications infrastructure used to assist vessels. The visible source text is truncated after “transiting the…”, so no route or further detail is stated.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119847218748223684"
-      },
-      {
-        "id": "2119834545465766166",
-        "date": "2026-11-09",
-        "dateLabel": "09 NOV 2026 · UTC",
-        "headline": "French suspicion of Iranian cyberattack involvement relayed",
-        "summary": "War Watch Intel said Al Jazeera Arabic reported, 47 minutes before later wire coverage, that Reuters, citing sources, reported French officials suspected Iran was behind cyberattacks. The visible quoted text is truncated after “cyberattacks…”, so no targets or further detail are stated. The account said three outlets later confirmed the report.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119834545465766166"
-      },
-      {
-        "id": "2119830771305193946",
-        "date": "2026-11-09",
-        "dateLabel": "09 NOV 2026 · UTC",
-        "headline": "U.S. cargo and surveillance aircraft activity reported",
-        "summary": "War Watch Intel reported multiple large U.S. military cargo aircraft airborne over the continental United States alongside a signals-intelligence aircraft and a naval surveillance drone. The visible source text is truncated after saying Gulf-region air activity “remains…”, so no further level or comparison is stated.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119830771305193946"
       }
-    ]
+    ],
+    "sourceCheckedAt": "2026-11-16T02:46:34Z",
+    "profileUrl": "https://x.com/WarWatchIntel"
   },
   "skyglass": {
     "imageUrl": "Skyglass.png",
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2121672154827620710",
+        "date": "2026-11-14",
+        "dateLabel": "14 NOV 2026 · UTC",
+        "headline": "Aircraft departures after FAA ground stop examined",
+        "summary": "SkyGlass introduced a thread showing some jets it observed departing after the previous day's FAA ground stop began.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2121672154827620710"
+      },
+      {
+        "id": "2121667506909708331",
+        "date": "2026-11-14",
+        "dateLabel": "14 NOV 2026 · UTC",
+        "headline": "FAA ground-stop aircraft counts reported",
+        "summary": "SkyGlass reported 7,373 aircraft airborne over the continental United States before the previous day's FAA ground stop, with a low of 424 reached 21 minutes after it lifted. It reported general aviation represented 36% and airlines 26% of aircraft still airborne.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2121667506909708331"
+      },
+      {
+        "id": "2121338180301377835",
+        "date": "2026-11-13",
+        "dateLabel": "13 NOV 2026 · UTC",
+        "headline": "Three-dimensional airspace advisories demonstrated",
+        "summary": "SkyGlass described its Overwatch display of SIGMETs, AIRMETs and temporary flight restrictions in three dimensions, from their lower to upper altitude limits, using NOAA and FAA data.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2121338180301377835"
+      },
+      {
+        "id": "2120879948533514676",
+        "date": "2026-11-12",
+        "dateLabel": "12 NOV 2026 · UTC",
+        "headline": "Business-jet analysis using SkyGlass MCP demonstrated",
+        "summary": "SkyGlass demonstrated querying business-jet activity from August through October through its MCP service, using AVIAR Labs data.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2120879948533514676"
+      },
       {
         "id": "2118052614512456069",
         "headline": "NASA806 U-2 movement reported",
@@ -170,39 +204,9 @@
         "headline": "BACE2026 four-field business-jet total revisited",
         "summary": "SkyGlass reported that 1,040 distinct business jets moved through four Las Vegas fields during BACE2026 show week. It said the RampWatch board prompted conversations, including direct-message feedback that ramp personnel wanted views of their own traffic, and linked to a replay.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2115843936841241002"
-      },
-      {
-        "id": "2114114769804312651",
-        "date": "2026-10-24",
-        "dateLabel": "24 OCT 2026 · UTC",
-        "headline": "BACE week business-jet totals reported",
-        "summary": "SkyGlass reported 1,040 distinct business jets in the Las Vegas valley during BACE2026 week, with activity peaking at 306 on Thursday before falling 19% on Friday. It shared a reel covering six days of after-action reports.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2114114769804312651"
-      },
-      {
-        "id": "2114084761031291200",
-        "date": "2026-10-24",
-        "dateLabel": "24 OCT 2026 · UTC",
-        "headline": "BACE departure-heavy traffic reported",
-        "summary": "SkyGlass reported 309 departures and 154 arrivals on its Las Vegas valley counter by 2:30 p.m. ET as BACE2026 wrapped Friday, saying there were about two departures for every arrival. It shared a 60-times-speed replay.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2114084761031291200"
-      },
-      {
-        "id": "2114046846741917783",
-        "date": "2026-10-24",
-        "dateLabel": "24 OCT 2026 · UTC",
-        "headline": "BACE Friday business-jet activity comparison posted",
-        "summary": "SkyGlass reported business-jet activity down 19% Friday compared with Thursday as BACE2026 wrapped and shared a whole-day scan.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2114046846741917783"
-      },
-      {
-        "id": "2113737255961403710",
-        "date": "2026-10-23",
-        "dateLabel": "23 OCT 2026 · UTC",
-        "headline": "BACE business-jet arrivals and impact estimated",
-        "summary": "SkyGlass reported 935 business-jet arrivals, 52% above a normal October week, and estimated that they represented about $13.5 million of BACE2026's roughly $50 million Las Vegas impact.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2113737255961403710"
       }
-    ]
+    ],
+    "sourceCheckedAt": "2026-11-16T02:46:34Z",
+    "profileUrl": "https://x.com/SkyGlass12"
   }
 }
