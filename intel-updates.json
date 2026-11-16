@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2122284677482402298",
+        "date": "2026-11-16T11:04:31Z",
+        "dateLabel": "16 NOV 2026 · 11:04 UTC",
+        "headline": "IDF weapons-shipment strike claim relayed",
+        "summary": "War Watch Intel relayed an IDF statement claiming a strike on a weapons shipment moving from Syria to Lebanon and intended for Hezbollah. The quoted statement is truncated; further strike details are not established by the visible post.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2122284677482402298"
+      },
+      {
         "id": "2122269577807564935",
         "date": "2026-11-16T10:04:31Z",
         "dateLabel": "16 NOV 2026 · 10:04 UTC",
@@ -91,17 +99,9 @@
         "headline": "Iranian security official's message to U.S. relayed",
         "summary": "War Watch Intel relayed a Reuters report quoting Iran's top security official telling the United States to stop manufacturing fake news about imaginary talks. The post credited jackhoricon.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2119919858099925080"
-      },
-      {
-        "id": "2119913534108684642",
-        "date": "2026-11-09",
-        "dateLabel": "09 NOV 2026 · UTC",
-        "headline": "U.S. Air Force departures from RAF Mildenhall reported",
-        "summary": "War Watch Intel reported multiple U.S. Air Force aircraft departing RAF Mildenhall in rapid succession and relocating to bases. The visible source text is truncated after “bases…”, so no destinations or further detail are stated. The post cited Conflict Radar and credited jackhoricon.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119913534108684642"
       }
     ],
-    "sourceCheckedAt": "2026-11-16T10:15:23Z",
+    "sourceCheckedAt": "2026-11-16T16:19:19Z",
     "profileUrl": "https://x.com/WarWatchIntel"
   },
   "skyglass": {
@@ -206,7 +206,7 @@
         "sourceUrl": "https://x.com/SkyGlass12/status/2115843936841241002"
       }
     ],
-    "sourceCheckedAt": "2026-11-16T10:15:23Z",
+    "sourceCheckedAt": "2026-11-16T16:19:19Z",
     "profileUrl": "https://x.com/SkyGlass12"
   }
 }
