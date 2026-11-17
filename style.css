@@ -28,3 +28,13 @@
   .daily-video-copy{left:16px;right:16px;bottom:14px;max-width:82%}
   .daily-video-play{width:60px;height:60px;font-size:1.45rem}
 }
+
+/* Keep navigation readable at tablet widths as well as on phones. */
+@media(max-width:900px){
+ .topbar .nav{position:relative}
+ .topbar .brand{font-size:.84rem;white-space:nowrap}
+ .topbar .menu-btn{display:inline-block}
+ .topbar nav{display:none;position:absolute;top:100%;left:0;right:0;background:#080a09;border-bottom:1px solid var(--line);padding:16px 22px;flex-direction:column;align-items:flex-start}
+ .menu-open .topbar nav{display:flex}
+ .topbar nav a{font-size:1rem;padding:8px 0}
+}
