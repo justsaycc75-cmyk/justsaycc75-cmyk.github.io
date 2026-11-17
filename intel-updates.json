@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2122511173723525506",
+        "date": "2026-11-17T02:04:32Z",
+        "dateLabel": "17 NOV 2026 · 02:04 UTC",
+        "headline": "Elevated radio activity and U.S. aircraft reported",
+        "summary": "War Watch Intel reported coded U.S. Air Force radio broadcasts at nearly four times normal across global hotspots, alongside transport aircraft and a nuclear command aircraft over the United States. The post supplies no baseline or detailed locations for that comparison; these remain publisher claims.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2122511173723525506"
+      },
+      {
         "id": "2122434645912396253",
         "date": "2026-11-16T21:00:27Z",
         "dateLabel": "16 NOV 2026 · 21:00 UTC",
@@ -91,17 +99,9 @@
         "headline": "U.S. carrier movement and Iran diplomacy report relayed",
         "summary": "War Watch Intel relayed a Stars and Stripes report that Donald Trump was pursuing diplomacy with Iran as a third U.S. aircraft carrier headed toward the region. The post credited reagan0965.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2119933698854224226"
-      },
-      {
-        "id": "2119929925704597628",
-        "date": "2026-11-09",
-        "dateLabel": "09 NOV 2026 · UTC",
-        "headline": "Elevated U.S. military activity reported",
-        "summary": "War Watch Intel reported elevated U.S. military activity across multiple regions, including 11 coded radio broadcasts that day and transport and surveillance aircraft airborne over the continental United States. The visible source text is truncated after “heightened…”, so no further region or activity is stated.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119929925704597628"
       }
     ],
-    "sourceCheckedAt": "2026-11-17T01:03:02Z",
+    "sourceCheckedAt": "2026-11-17T03:58:01Z",
     "profileUrl": "https://x.com/WarWatchIntel"
   },
   "skyglass": {
@@ -206,7 +206,7 @@
         "sourceUrl": "https://x.com/SkyGlass12/status/2115843936841241002"
       }
     ],
-    "sourceCheckedAt": "2026-11-17T01:03:02Z",
+    "sourceCheckedAt": "2026-11-17T03:58:01Z",
     "profileUrl": "https://x.com/SkyGlass12"
   }
 }
