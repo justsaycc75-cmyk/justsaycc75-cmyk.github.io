@@ -9,6 +9,13 @@
     const element = card.querySelector(selector);
     if (element) element.textContent = value;
   };
+  // NFL's t_lazy transform is a blurred placeholder, not a display photograph.
+  const fullPhoto = value => {
+    try { const u = new URL(value); if (u.hostname === 'static.clubs.nfl.com') u.pathname = u.pathname.replace(/\/t_lazy(?=\/)/g, ''); return u.href; }
+    catch (_) { return value; }
+  };
+  const initialImage = card.querySelector('[data-nfl-news-image], [data-nfl-image]');
+  if (initialImage) initialImage.src = fullPhoto(initialImage.src);
   let busy = false;
   async function refresh() {
     if (busy) return;
@@ -38,7 +45,7 @@
       setText('[data-nfl-news-credit], [data-nfl-image-credit]', story.imageCredit || '');
       const img = card.querySelector('[data-nfl-news-image], [data-nfl-image]');
       if (img) {
-        img.src = story.imageUrl;
+        img.src = fullPhoto(story.imageUrl);
         img.alt = story.imageAlt || 'NFL story image';
       }
       const status = card.querySelector('[data-nfl-news-status]');
