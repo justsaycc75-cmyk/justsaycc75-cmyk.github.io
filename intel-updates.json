@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2122752932936307057",
+        "date": "2026-11-17T18:05:12Z",
+        "dateLabel": "17 NOV 2026 · 18:05 UTC",
+        "headline": "Southern Russia military-plane crash report relayed",
+        "summary": "War Watch Intel relayed a WSN report that a military aircraft carrying 17 people had crashed in southern Russia, with no survivors. The post does not identify the aircraft type, exact location or cause; the casualty claim is attributed to the publisher rather than independently confirmed here.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2122752932936307057"
+      },
+      {
         "id": "2122661114500522106",
         "date": "2026-11-17T12:00:21Z",
         "dateLabel": "17 NOV 2026 · 12:00 UTC",
@@ -91,17 +99,9 @@
         "headline": "Hourly radio and aircraft activity reported",
         "summary": "War Watch Intel reported four coded U.S. Air Force radio broadcasts in the past hour and two nuclear command-and-control jets airborne over the continental United States alongside transport aircraft. The visible post is truncated after “spy…”, so no further aircraft detail is stated.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2122148781458104635"
-      },
-      {
-        "id": "2122107161748603183",
-        "date": "2026-11-15T23:19:08Z",
-        "dateLabel": "15 NOV 2026 · 23:19 UTC",
-        "headline": "Commercial-shipping and Romanian warning claim posted",
-        "summary": "War Watch Intel claimed commercial vessels were being struck in NATO territorial waters and Romania was issuing navigation warnings. The post is truncated before specifying the area to avoid; locations, incidents and warning details are not independently verified here.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2122107161748603183"
       }
     ],
-    "sourceCheckedAt": "2026-11-17T16:02:32Z",
+    "sourceCheckedAt": "2026-11-17T19:05:33.305Z",
     "profileUrl": "https://x.com/WarWatchIntel"
   },
   "skyglass": {
@@ -206,7 +206,7 @@
         "sourceUrl": "https://x.com/SkyGlass12/status/2115843936841241002"
       }
     ],
-    "sourceCheckedAt": "2026-11-17T16:02:32Z",
+    "sourceCheckedAt": "2026-11-17T19:05:33.305Z",
     "profileUrl": "https://x.com/SkyGlass12"
   }
 }
