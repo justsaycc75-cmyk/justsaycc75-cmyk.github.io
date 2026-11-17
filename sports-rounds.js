@@ -80,9 +80,11 @@ function render(c){
   const s=state(e),comp=e.competitions[0],ts=comp.competitors;
   const home=ts.find(t=>t.homeAway==='home')||ts[0],away=ts.find(t=>t.homeAway==='away')||ts[1];
   const detail=s==='pre'?format(e.date)+' Sydney':status(e).type?.shortDetail||status(e).type?.detail||'Status unavailable';
-  const score=s==='pre'?'v':esc(away.score??'–')+' – '+esc(home.score??'–');
+  // Football convention is home first; NFL retains its away-first display.
+  const first=c.league==='EPL'?home:away,last=c.league==='EPL'?away:home;
+  const score=s==='pre'?'v':esc(first.score??'–')+' – '+esc(last.score??'–');
   const href=(e.links||[]).map(l=>l.href).find(u=>/^https:\/\/www\.espn\.com\//.test(u))||c.url;
-  return '<li class="round-game '+(s==='in'?'round-live':'')+'" data-game-id="'+esc(e.id)+'"><a href="'+esc(href)+'" target="_blank" rel="noopener noreferrer"><span class="round-status">'+(s==='in'?(c.stale?'LAST LIVE SNAPSHOT':'LIVE'):s==='post'?'FINAL':'UPCOMING')+' · '+esc(detail)+'</span><span class="round-teams"><span>'+esc(teamName(away))+'</span><strong>'+score+'</strong><span>'+esc(teamName(home))+'</span></span></a></li>';
+  return '<li class="round-game '+(s==='in'?'round-live':'')+'" data-game-id="'+esc(e.id)+'"><a href="'+esc(href)+'" target="_blank" rel="noopener noreferrer"><span class="round-status">'+(s==='in'?(c.stale?'LAST LIVE SNAPSHOT':'LIVE'):s==='post'?'FINAL':'UPCOMING')+' · '+esc(detail)+'</span><span class="round-teams"><span>'+esc(teamName(first))+'</span><strong>'+score+'</strong><span>'+esc(teamName(last))+'</span></span></a></li>';
  };
  const focus=live.length?'<p class="round-focus">Now: '+esc(featured.shortName||featured.name)+' · '+esc(status(featured).type?.shortDetail||'In play')+(live.length>1?' · live focus rotates every 12 seconds':'')+'</p>':'';
  const msg=c.stale?'Update delayed. Scores below are the last successful snapshot, not confirmed current.':'Checked '+clock(c.at)+' Sydney · refreshes every 30 seconds';
