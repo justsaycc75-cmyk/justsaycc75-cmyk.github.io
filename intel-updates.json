@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2122627469505089710",
+        "date": "2026-11-17T09:46:39Z",
+        "dateLabel": "17 NOV 2026 · 09:46 UTC",
+        "headline": "Kyiv strike casualty report relayed",
+        "summary": "War Watch Intel relayed a Suspilne report quoting Kyiv mayor Vitali Klitschko that two people were killed in a Russian strike in the city’s Obolon district. The visible quotation is truncated, so no further incident details are stated here; this remains an attributed publisher report.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2122627469505089710"
+      },
+      {
         "id": "2122511173723525506",
         "date": "2026-11-17T02:04:32Z",
         "dateLabel": "17 NOV 2026 · 02:04 UTC",
@@ -91,17 +99,9 @@
         "headline": "Six U.S. Air Force transport aircraft reported",
         "summary": "War Watch Intel reported six U.S. Air Force transport aircraft airborne over the United States and described activity as slightly above normal after recent civilian aviation disruptions.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2121907054684086693"
-      },
-      {
-        "id": "2119933698854224226",
-        "date": "2026-11-09",
-        "dateLabel": "09 NOV 2026 · UTC",
-        "headline": "U.S. carrier movement and Iran diplomacy report relayed",
-        "summary": "War Watch Intel relayed a Stars and Stripes report that Donald Trump was pursuing diplomacy with Iran as a third U.S. aircraft carrier headed toward the region. The post credited reagan0965.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2119933698854224226"
       }
     ],
-    "sourceCheckedAt": "2026-11-17T07:05:03Z",
+    "sourceCheckedAt": "2026-11-17T10:04:48Z",
     "profileUrl": "https://x.com/WarWatchIntel"
   },
   "skyglass": {
@@ -206,7 +206,7 @@
         "sourceUrl": "https://x.com/SkyGlass12/status/2115843936841241002"
       }
     ],
-    "sourceCheckedAt": "2026-11-17T07:05:03Z",
+    "sourceCheckedAt": "2026-11-17T10:04:48Z",
     "profileUrl": "https://x.com/SkyGlass12"
   }
 }
