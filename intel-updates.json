@@ -5,6 +5,22 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2122661114500522106",
+        "date": "2026-11-17T12:00:21Z",
+        "dateLabel": "17 NOV 2026 · 12:00 UTC",
+        "headline": "Crimean Bridge operation claim relayed",
+        "summary": "War Watch Intel relayed an ASTRA report that Zelensky said a weeks-long SBU and General Staff operation had struck the Crimean Bridge. The quotation is truncated after mentioning Palianytsia drones; further operational details and the outcome are not established here.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2122661114500522106"
+      },
+      {
+        "id": "2122646012732776565",
+        "date": "2026-11-17T11:00:20Z",
+        "dateLabel": "17 NOV 2026 · 11:00 UTC",
+        "headline": "Transport aircraft and four radio broadcasts reported",
+        "summary": "War Watch Intel reported four coded U.S. Air Force radio broadcasts heard that day and multiple large military transport aircraft airborne over the United States and Europe. The post did not specify their missions or destinations.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2122646012732776565"
+      },
+      {
         "id": "2122627469505089710",
         "date": "2026-11-17T09:46:39Z",
         "dateLabel": "17 NOV 2026 · 09:46 UTC",
@@ -83,25 +99,9 @@
         "headline": "Commercial-shipping and Romanian warning claim posted",
         "summary": "War Watch Intel claimed commercial vessels were being struck in NATO territorial waters and Romania was issuing navigation warnings. The post is truncated before specifying the area to avoid; locations, incidents and warning details are not independently verified here.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2122107161748603183"
-      },
-      {
-        "id": "2122027929089523722",
-        "date": "2026-11-15",
-        "dateLabel": "15 NOV 2026 · UTC",
-        "headline": "Transport activity near Korea and Japan reported",
-        "summary": "War Watch Intel reported U.S. military transport aircraft airborne over the continental United States, activity near Korea and Japan at nearly four times normal, and one coded U.S. Air Force radio broadcast heard that hour.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2122027929089523722"
-      },
-      {
-        "id": "2121907054684086693",
-        "date": "2026-11-15",
-        "dateLabel": "15 NOV 2026 · UTC",
-        "headline": "Six U.S. Air Force transport aircraft reported",
-        "summary": "War Watch Intel reported six U.S. Air Force transport aircraft airborne over the United States and described activity as slightly above normal after recent civilian aviation disruptions.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2121907054684086693"
       }
     ],
-    "sourceCheckedAt": "2026-11-17T10:04:48Z",
+    "sourceCheckedAt": "2026-11-17T12:56:13Z",
     "profileUrl": "https://x.com/WarWatchIntel"
   },
   "skyglass": {
@@ -206,7 +206,7 @@
         "sourceUrl": "https://x.com/SkyGlass12/status/2115843936841241002"
       }
     ],
-    "sourceCheckedAt": "2026-11-17T10:04:48Z",
+    "sourceCheckedAt": "2026-11-17T12:56:13Z",
     "profileUrl": "https://x.com/SkyGlass12"
   }
 }
