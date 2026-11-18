@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2122873731756245415",
+        "date": "2026-11-18T02:05:13Z",
+        "dateLabel": "18 NOV 2026 · 02:05 UTC",
+        "headline": "Coalition military-target claim relayed",
+        "summary": "War Watch Intel relayed an Al Jazeera Arabic quotation in which a coalition spokesman claimed 60 military targets had been destroyed. The quotation is truncated before naming the governorates; it does not establish the locations, coalition identity or further operational details here.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2122873731756245415"
+      },
+      {
         "id": "2122832204636069972",
         "date": "2026-11-17T23:20:12Z",
         "dateLabel": "17 NOV 2026 · 23:20 UTC",
@@ -91,17 +99,9 @@
         "headline": "Crimean Bridge traffic-halt report relayed",
         "summary": "War Watch Intel relayed an Al Jazeera Arabic report citing Interfax that traffic had halted on the Crimean Bridge. The quoted text is truncated after a reference to Ukrainian targeting, so the post does not establish further attack details here.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2122226058711683106"
-      },
-      {
-        "id": "2122177191932785000",
-        "date": "2026-11-16",
-        "dateLabel": "16 NOV 2026 · 03:57 UTC",
-        "headline": "E-6B route question posted",
-        "summary": "War Watch Intel asked whether an E-6B was crossing the Atlantic or heading offshore. The post posed a question; it did not confirm a route, destination or mission.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2122177191932785000"
       }
     ],
-    "sourceCheckedAt": "2026-11-18T00:59:34.039Z",
+    "sourceCheckedAt": "2026-11-18T04:02:26.135Z",
     "profileUrl": "https://x.com/WarWatchIntel"
   },
   "skyglass": {
@@ -206,7 +206,7 @@
         "sourceUrl": "https://x.com/SkyGlass12/status/2116153766357389707"
       }
     ],
-    "sourceCheckedAt": "2026-11-18T00:59:34.039Z",
+    "sourceCheckedAt": "2026-11-18T04:02:26.135Z",
     "profileUrl": "https://x.com/SkyGlass12"
   }
 }
