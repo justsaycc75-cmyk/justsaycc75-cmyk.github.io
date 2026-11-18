@@ -5,6 +5,30 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2123039465056682460",
+        "date": "2026-11-18T13:03:47Z",
+        "dateLabel": "18 NOV 2026 · 13:03 UTC",
+        "headline": "Siverskyi Donets bridge-strike claim relayed",
+        "summary": "War Watch Intel relayed a Ukrainian General Staff claim that forces struck a road bridge over the Siverskyi Donets. The quotation ends after a partial place name, so the exact location and outcome are not established here.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2123039465056682460"
+      },
+      {
+        "id": "2123009264344060359",
+        "date": "2026-11-18T11:03:46Z",
+        "dateLabel": "18 NOV 2026 · 11:03 UTC",
+        "headline": "Central Odesa attack casualty report relayed",
+        "summary": "War Watch Intel relayed a Suspilne report that a Russian attack on central Odesa killed one person and injured seven. The quotation is truncated before identifying the underlying source; the casualty figures remain an attributed publisher report.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2123009264344060359"
+      },
+      {
+        "id": "2122993292375728300",
+        "date": "2026-11-18T10:00:18Z",
+        "dateLabel": "18 NOV 2026 · 10:00 UTC",
+        "headline": "Transport aircraft, Baltic radar aircraft and tanker reported",
+        "summary": "War Watch Intel reported five U.S. Air Force transport aircraft airborne across Europe and beyond, a NATO radar aircraft over the Baltic, and a refuelling tanker departing Germany. The post did not establish their missions or destinations.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2122993292375728300"
+      },
+      {
         "id": "2122873731756245415",
         "date": "2026-11-18T02:05:13Z",
         "dateLabel": "18 NOV 2026 · 02:05 UTC",
@@ -75,33 +99,9 @@
         "headline": "U.S. aircraft activity and fifteen radio broadcasts reported",
         "summary": "War Watch Intel reported multiple U.S. Air Force surveillance and transport aircraft airborne over the United States, together with a nuclear command aircraft. It said fifteen coded radio broadcasts had been heard that day; the post did not establish the missions of those aircraft.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2122390375033647140"
-      },
-      {
-        "id": "2122284677482402298",
-        "date": "2026-11-16T11:04:31Z",
-        "dateLabel": "16 NOV 2026 · 11:04 UTC",
-        "headline": "IDF weapons-shipment strike claim relayed",
-        "summary": "War Watch Intel relayed an IDF statement claiming a strike on a weapons shipment moving from Syria to Lebanon and intended for Hezbollah. The quoted statement is truncated; further strike details are not established by the visible post.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2122284677482402298"
-      },
-      {
-        "id": "2122269577807564935",
-        "date": "2026-11-16T10:04:31Z",
-        "dateLabel": "16 NOV 2026 · 10:04 UTC",
-        "headline": "Normal-level aircraft and radio activity reported",
-        "summary": "War Watch Intel reported U.S. Air Force transport aircraft and a NATO surveillance aircraft airborne across the North Sea and elsewhere, with eleven coded radio broadcasts heard that day. It described activity as normal.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2122269577807564935"
-      },
-      {
-        "id": "2122226058711683106",
-        "date": "2026-11-16T07:11:36Z",
-        "dateLabel": "16 NOV 2026 · 07:11 UTC",
-        "headline": "Crimean Bridge traffic-halt report relayed",
-        "summary": "War Watch Intel relayed an Al Jazeera Arabic report citing Interfax that traffic had halted on the Crimean Bridge. The quoted text is truncated after a reference to Ukrainian targeting, so the post does not establish further attack details here.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2122226058711683106"
       }
     ],
-    "sourceCheckedAt": "2026-11-18T09:56:36.621Z",
+    "sourceCheckedAt": "2026-11-18T13:04:59.795Z",
     "profileUrl": "https://x.com/WarWatchIntel"
   },
   "skyglass": {
@@ -206,7 +206,7 @@
         "sourceUrl": "https://x.com/SkyGlass12/status/2116153766357389707"
       }
     ],
-    "sourceCheckedAt": "2026-11-18T09:56:36.621Z",
+    "sourceCheckedAt": "2026-11-18T13:04:59.795Z",
     "profileUrl": "https://x.com/SkyGlass12"
   }
 }
