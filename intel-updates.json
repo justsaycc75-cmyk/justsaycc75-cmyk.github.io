@@ -101,7 +101,7 @@
         "sourceUrl": "https://x.com/WarWatchIntel/status/2122390375033647140"
       }
     ],
-    "sourceCheckedAt": "2026-11-18T13:04:59.795Z",
+    "sourceCheckedAt": "2026-11-18T15:59:38.069Z",
     "profileUrl": "https://x.com/WarWatchIntel"
   },
   "skyglass": {
@@ -109,6 +109,14 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2123061449245290608",
+        "date": "2026-11-18T14:31:08Z",
+        "dateLabel": "18 NOV 2026 · 14:31 UTC",
+        "headline": "RampWatch multi-field ramp view promoted",
+        "summary": "SkyGlass promoted AVIAR Labs’ RampWatch as a single-screen view of multiple airfields and linked to its BACE replay. This is a product update, not a new aircraft-movement report.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2123061449245290608"
+      },
       {
         "id": "2122830436770467895",
         "date": "2026-11-17T23:13:11Z",
@@ -196,17 +204,9 @@
         "headline": "N722BD Learjet 60 crash reported",
         "summary": "SkyGlass reported that Learjet 60 N722BD, flying from Austin to North Eleuthera, crashed near Military Trail in Palm Beach County on Sunday afternoon, killing all nine people aboard. It said the NTSB was investigating and shared an AVIAR Labs Overwatch replay.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2117080108183732667"
-      },
-      {
-        "id": "2116153766357389707",
-        "date": "2026-10-30",
-        "dateLabel": "30 OCT 2026 · UTC",
-        "headline": "Signature Access FBO pricing changes examined",
-        "summary": "SkyGlass said Signature Access prices core fixed-base-operator access by aircraft size, ramp time and location, while limiting event fees from 2027. It argued that ramp dwell time and demand are operational variables FBOs should track, citing RampWatch as a way to show them.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2116153766357389707"
       }
     ],
-    "sourceCheckedAt": "2026-11-18T13:04:59.795Z",
+    "sourceCheckedAt": "2026-11-18T15:59:38.069Z",
     "profileUrl": "https://x.com/SkyGlass12"
   }
 }
