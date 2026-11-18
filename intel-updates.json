@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2122832204636069972",
+        "date": "2026-11-17T23:20:12Z",
+        "dateLabel": "17 NOV 2026 · 23:20 UTC",
+        "headline": "U.S. surveillance aircraft and elevated UK-area traffic reported",
+        "summary": "War Watch Intel reported military surveillance aircraft and drones over the continental United States, and claimed air traffic near the UK and North Sea was four times normal. The post supplies no baseline and ends with a truncated reference to reported strikes; missions and strike details are not established here.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2122832204636069972"
+      },
+      {
         "id": "2122752932936307057",
         "date": "2026-11-17T18:05:12Z",
         "dateLabel": "17 NOV 2026 · 18:05 UTC",
@@ -91,17 +99,9 @@
         "headline": "E-6B route question posted",
         "summary": "War Watch Intel asked whether an E-6B was crossing the Atlantic or heading offshore. The post posed a question; it did not confirm a route, destination or mission.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2122177191932785000"
-      },
-      {
-        "id": "2122148781458104635",
-        "date": "2026-11-16",
-        "dateLabel": "16 NOV 2026 · UTC",
-        "headline": "Hourly radio and aircraft activity reported",
-        "summary": "War Watch Intel reported four coded U.S. Air Force radio broadcasts in the past hour and two nuclear command-and-control jets airborne over the continental United States alongside transport aircraft. The visible post is truncated after “spy…”, so no further aircraft detail is stated.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2122148781458104635"
       }
     ],
-    "sourceCheckedAt": "2026-11-17T22:04:59.563Z",
+    "sourceCheckedAt": "2026-11-18T00:59:34.039Z",
     "profileUrl": "https://x.com/WarWatchIntel"
   },
   "skyglass": {
@@ -109,6 +109,14 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2122830436770467895",
+        "date": "2026-11-17T23:13:11Z",
+        "dateLabel": "17 NOV 2026 · 23:13 UTC",
+        "headline": "RampWatch multi-field airport display presented",
+        "summary": "SkyGlass described AVIAR Labs' RampWatch as a way to view multiple airfields together and linked to a BACE replay. This is a product demonstration, not a new aircraft-movement report.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2122830436770467895"
+      },
       {
         "id": "2121672154827620710",
         "date": "2026-11-14",
@@ -196,17 +204,9 @@
         "headline": "Signature Access FBO pricing changes examined",
         "summary": "SkyGlass said Signature Access prices core fixed-base-operator access by aircraft size, ramp time and location, while limiting event fees from 2027. It argued that ramp dwell time and demand are operational variables FBOs should track, citing RampWatch as a way to show them.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2116153766357389707"
-      },
-      {
-        "id": "2115843936841241002",
-        "date": "2026-10-29",
-        "dateLabel": "29 OCT 2026 · UTC",
-        "headline": "BACE2026 four-field business-jet total revisited",
-        "summary": "SkyGlass reported that 1,040 distinct business jets moved through four Las Vegas fields during BACE2026 show week. It said the RampWatch board prompted conversations, including direct-message feedback that ramp personnel wanted views of their own traffic, and linked to a replay.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2115843936841241002"
       }
     ],
-    "sourceCheckedAt": "2026-11-17T22:04:59.563Z",
+    "sourceCheckedAt": "2026-11-18T00:59:34.039Z",
     "profileUrl": "https://x.com/SkyGlass12"
   }
 }
