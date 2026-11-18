@@ -1,0 +1,171 @@
+{
+  "players": [
+    {
+      "amateur": false,
+      "country": "AUS",
+      "name": "Jay Mackenzie",
+      "position": "T1",
+      "thru": "12",
+      "toPar": "-4"
+    },
+    {
+      "amateur": false,
+      "country": "USA",
+      "name": "Austen Truslow",
+      "position": "T1",
+      "thru": "12",
+      "toPar": "-4"
+    },
+    {
+      "amateur": false,
+      "country": "AUS",
+      "name": "Douglas Klein",
+      "position": "T3",
+      "thru": "12",
+      "toPar": "-3"
+    },
+    {
+      "amateur": false,
+      "country": "AUS",
+      "name": "Louis Dobbelaar",
+      "position": "T3",
+      "thru": "12",
+      "toPar": "-3"
+    },
+    {
+      "amateur": false,
+      "country": "AUS",
+      "name": "Jye Halls",
+      "position": "T3",
+      "thru": "12",
+      "toPar": "-3"
+    },
+    {
+      "amateur": false,
+      "country": "AUS",
+      "name": "Declan O'Donovan",
+      "position": "T3",
+      "thru": "9",
+      "toPar": "-3"
+    },
+    {
+      "amateur": false,
+      "country": "AUS",
+      "name": "Curtis Luck",
+      "position": "T3",
+      "thru": "9",
+      "toPar": "-3"
+    },
+    {
+      "amateur": false,
+      "country": "USA",
+      "name": "Mitchell Bowlin",
+      "position": "T3",
+      "thru": "9",
+      "toPar": "-3"
+    },
+    {
+      "amateur": false,
+      "country": "AUS",
+      "name": "Cameron John",
+      "position": "T9",
+      "thru": "9",
+      "toPar": "-2"
+    },
+    {
+      "amateur": false,
+      "country": "AUS",
+      "name": "James Marchesani",
+      "position": "T9",
+      "thru": "9",
+      "toPar": "-2"
+    },
+    {
+      "amateur": false,
+      "country": "USA",
+      "name": "Alex Scott",
+      "position": "T9",
+      "thru": "9",
+      "toPar": "-2"
+    },
+    {
+      "amateur": false,
+      "country": "AUS",
+      "name": "Jake Riley",
+      "position": "T9",
+      "thru": "6",
+      "toPar": "-2"
+    },
+    {
+      "amateur": false,
+      "country": "AUS",
+      "name": "Samuel Slater",
+      "position": "T9",
+      "thru": "6",
+      "toPar": "-2"
+    },
+    {
+      "amateur": false,
+      "country": "AUS",
+      "name": "Paul Hayden",
+      "position": "T9",
+      "thru": "6",
+      "toPar": "-2"
+    },
+    {
+      "amateur": false,
+      "country": "AUS",
+      "name": "Brett Rankin",
+      "position": "T9",
+      "thru": "6",
+      "toPar": "-2"
+    },
+    {
+      "amateur": true,
+      "country": "AUS",
+      "name": "Abel Eduard",
+      "position": "T16",
+      "thru": "12",
+      "toPar": "-1"
+    },
+    {
+      "amateur": false,
+      "country": "USA",
+      "name": "MJ Maguire",
+      "position": "T16",
+      "thru": "12",
+      "toPar": "-1"
+    },
+    {
+      "amateur": false,
+      "country": "AUS",
+      "name": "Jake McLeod",
+      "position": "T16",
+      "thru": "12",
+      "toPar": "-1"
+    },
+    {
+      "amateur": false,
+      "country": "AUS",
+      "name": "Andrew Martin",
+      "position": "T16",
+      "thru": "12",
+      "toPar": "-1"
+    },
+    {
+      "amateur": false,
+      "country": "AUS",
+      "name": "Mitchell Smith",
+      "position": "T16",
+      "thru": "12",
+      "toPar": "-1"
+    }
+  ],
+  "round": 1,
+  "source": "https://pga-live.pga-tic.com/tic/tmscores.cgi?tourn=1066~season=2026~params=PG0SSA00999",
+  "status": "in-progress",
+  "title": "Queensland PGA Championship",
+  "tournamentId": "qld-pga-2026",
+  "updatedAt": "2026-11-18T23:16:52.511Z",
+  "version": 1
+}
