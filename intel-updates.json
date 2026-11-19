@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2123401657572577318",
+        "date": "2026-11-19T13:03:00Z",
+        "dateLabel": "19 NOV 2026 · 13:03 UTC",
+        "headline": "Nuclear non-use agreement claim relayed",
+        "summary": "War Watch Intel relayed a claim, attributed in its post to BBC News, that the presidents of Russia, China and the United States agreed nuclear weapons should not be used. The post provides no report link or agreement date; the claim is not independently confirmed here.",
+        "sourceUrl": "https://x.com/WarWatchIntel"
+      },
+      {
         "id": "2123357312551211063",
         "date": "2026-11-19T10:06:48Z",
         "dateLabel": "19 NOV 2026 · 10:06 UTC",
@@ -91,17 +99,9 @@
         "headline": "Crimean Bridge operation claim relayed",
         "summary": "War Watch Intel relayed an ASTRA report that Zelensky said a weeks-long SBU and General Staff operation had struck the Crimean Bridge. The quotation is truncated after mentioning Palianytsia drones; further operational details and the outcome are not established here.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2122661114500522106"
-      },
-      {
-        "id": "2122646012732776565",
-        "date": "2026-11-17T11:00:20Z",
-        "dateLabel": "17 NOV 2026 · 11:00 UTC",
-        "headline": "Transport aircraft and four radio broadcasts reported",
-        "summary": "War Watch Intel reported four coded U.S. Air Force radio broadcasts heard that day and multiple large military transport aircraft airborne over the United States and Europe. The post did not specify their missions or destinations.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2122646012732776565"
       }
     ],
-    "sourceCheckedAt": "2026-11-19T13:01:55.705Z",
+    "sourceCheckedAt": "2026-11-19T15:58:32.340Z",
     "profileUrl": "https://x.com/WarWatchIntel"
   },
   "skyglass": {
@@ -109,6 +109,14 @@
     "imageAlt": "SkyGlass by AVIAR Labs profile thumbnail",
     "caption": "Military aircraft movement reports.",
     "entries": [
+      {
+        "id": "2123423831553429931",
+        "date": "2026-11-19T14:31:07Z",
+        "dateLabel": "19 NOV 2026 · 14:31 UTC",
+        "headline": "RampWatch single-screen airfield view promoted",
+        "summary": "SkyGlass promoted AVIAR Labs’ RampWatch as a single-screen view across multiple airfields and linked to a BACE replay. This is a product update, not a new aircraft-movement report.",
+        "sourceUrl": "https://x.com/SkyGlass12"
+      },
       {
         "id": "2123061449245290608",
         "date": "2026-11-18T14:31:08Z",
@@ -196,17 +204,9 @@
         "headline": "NetJets and Flexjet activity growth reported",
         "summary": "SkyGlass reported tracked NetJets and Flexjet activity up 11.0% in October 2026 from October 2025, while full-service Jet A rose from $7.50 to $7.86. It said fractional flying did not slow and that the figures were pulled with the SkyGlass MCP.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2117294392826335729"
-      },
-      {
-        "id": "2117080108183732667",
-        "date": "2026-11-02",
-        "dateLabel": "02 NOV 2026 · UTC",
-        "headline": "N722BD Learjet 60 crash reported",
-        "summary": "SkyGlass reported that Learjet 60 N722BD, flying from Austin to North Eleuthera, crashed near Military Trail in Palm Beach County on Sunday afternoon, killing all nine people aboard. It said the NTSB was investigating and shared an AVIAR Labs Overwatch replay.",
-        "sourceUrl": "https://x.com/SkyGlass12/status/2117080108183732667"
       }
     ],
-    "sourceCheckedAt": "2026-11-19T13:01:55.705Z",
+    "sourceCheckedAt": "2026-11-19T15:58:32.340Z",
     "profileUrl": "https://x.com/SkyGlass12"
   }
 }
