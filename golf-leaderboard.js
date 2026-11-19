@@ -27,10 +27,10 @@
     status.textContent = 'Scores checked ' + stamp + ' Sydney';
     round.textContent = d.status === 'final' ? 'Final results' :
       'Round ' + d.round + (d.status === 'round-complete' ? ' complete' : ' in progress');
-    const stale = d.status !== 'final' && Date.now() - Date.parse(d.updatedAt) > 30 * 3600000;
+    const stale = d.status === 'in-progress' && Date.now() - Date.parse(d.updatedAt) > 45 * 60000;
     note.textContent = failed ? 'Latest saved scores shown. Open the full leaderboard for the newest scores.' :
-      stale ? 'This saved leaderboard is more than a day old. Check the full leaderboard for newer scores.' :
-      '20 players in official order · T = tied · F = finished · (a) = amateur. Updated daily during the tournament.';
+      stale ? 'This saved leaderboard is more than 45 minutes old. Check the full leaderboard for newer scores.' :
+      '20 players in official order · T = tied · F = finished · (a) = amateur. Scores checked about every 10 minutes during play. This button reloads the latest published scores.';
     note.classList.toggle('golf-warning', failed || stale);
   }
 
@@ -85,7 +85,7 @@
     } finally {
       busy = false;
       button.disabled = false;
-      button.textContent = 'Refresh panel';
+      button.textContent = 'Reload latest scores';
     }
   }
   button.addEventListener('click', refresh);
