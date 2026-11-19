@@ -48,31 +48,39 @@ async function read(c,query=''){
 async function events(c,now){
  if(c.league==='NFL'){
   const first=await read(c),w=Number(first.week?.number),s=first.season;
-  const out=[...first.events];
+  const out=[...first.events];let partial=false;
   if(w&&s?.year){
    // ESPN can advance its default week early. Keep the previous round available
    // until Wednesday, and have the next round ready for the rollover.
    const adjacent=await Promise.allSettled([w-1,w+1].filter(n=>n>0&&n<=(s.type===2?18:s.type===3?5:5)).map(n=>read(c,`?seasontype=${s.type}&week=${n}&dates=${s.year}`)));
    for(const r of adjacent)if(r.status==='fulfilled')out.push(...r.value.events);
-   if(adjacent.some(r=>r.status==='rejected'))throw Error('Incomplete round feeds');
-  }return out;
+   partial=adjacent.some(r=>r.status==='rejected');
+  }return {games:out,partial};
  }
  // ESPN's EPL endpoint accepts individual UTC dates, not a date range.
  // Cache quiet dates for ten minutes; recheck active dates every 30 seconds.
  const start=windowStart(now),today=Math.floor(now/DAY)*DAY;
  const days=Array.from({length:9},(_,i)=>start+(i-1)*DAY);
  const load=async d=>{const k=dateParam(d),old=caches.get(k);const active=Math.abs(d-today)<=DAY||old?.events.some(e=>state(e)==='in');if(old&&now-old.at<(active?20000:600000))return old.events;const data=await read(c,'?dates='+k);caches.set(k,{at:now,events:data.events});return data.events;};
- let out=(await Promise.all(days.map(load))).flat();
+ let successes=0,failures=0;
+ const collect=async dates=>{
+  const results=await Promise.allSettled(dates.map(load));
+  const found=[];
+  for(const r of results){if(r.status==='fulfilled'){successes++;found.push(...r.value);}else failures++;}
+  return found;
+ };
+ let out=await collect(days);
  // An international break/off-week should not display old results as current.
- if(!selectRound(out,now,c.league).length)out.push(...(await Promise.all(Array.from({length:8},(_,i)=>load(start+(8+i)*DAY)))).flat());
- return out;
+ if(!selectRound(out,now,c.league).length)out.push(...await collect(Array.from({length:8},(_,i)=>start+(8+i)*DAY)));
+ if(!successes)throw Error('All fixture feeds failed');
+ return {games:out,partial:failures>0};
 }
 function teamName(t){return t?.team?.displayName||t?.team?.name||'Team';}
 function render(c){
  const now=Date.now();
  let games=selectRound(c.games||[],now,c.league);
  // Never carry last week's final board across Wednesday when the fresh feed failed.
- if(!games.length){c.target.innerHTML='<div class="live-game-badge">'+c.league+' · '+(c.stale?'UPDATE DELAYED':'SCHEDULE')+'</div><p class="live-game-empty">'+(c.stale?'Current round could not be checked.':'No fixtures in the current schedule window.')+'</p><a class="live-game-link" href="'+c.url+'" target="_blank" rel="noopener noreferrer">Official fixtures & results ↗</a>';return;}
+ if(!games.length){c.target.innerHTML='<div class="live-game-badge">'+c.league+' · '+(c.stale?'UPDATE DELAYED':c.partial?'INCOMPLETE COVERAGE':'SCHEDULE')+'</div><p class="live-game-empty">'+(c.stale?'Current round could not be checked.':c.partial?'Some fixture feeds could not be checked. Fixtures may be missing; retrying automatically.':'No fixtures in the current schedule window.')+'</p><a class="live-game-link" href="'+c.url+'" target="_blank" rel="noopener noreferrer">Official fixtures & results ↗</a>';return;}
  const live=games.filter(e=>state(e)==='in'),pre=games.filter(e=>state(e)==='pre'),post=games.filter(e=>state(e)==='post');
  const featured=live.length?live[Math.floor(now/12000)%live.length]:pre[0]||games[games.length-1];
  const boardState=live.length?(c.stale?'stale-live':'in'):pre.length?'pre':'post';
@@ -97,12 +105,13 @@ function render(c){
   return '<li class="round-game '+(s==='in'?'round-live':'')+'" data-game-id="'+esc(e.id)+'"><a href="'+esc(href)+'" target="_blank" rel="noopener noreferrer">'+picture+'<span class="round-status">'+(s==='in'?(c.stale?'LAST LIVE SNAPSHOT':'LIVE'):s==='post'?'FINAL':'UPCOMING')+' · '+esc(detail)+'</span><span class="round-teams">'+teamMarkup(first)+'<strong>'+score+'</strong>'+teamMarkup(last)+'</span></a>'+credit+'</li>';
  };
  const focus=live.length?'<p class="round-focus">Now: '+esc(featured.shortName||featured.name)+' · '+esc(status(featured).type?.shortDetail||'In play')+(live.length>1?' · live focus rotates every 12 seconds':'')+'</p>':'';
+ const coverage=c.partial&&!c.stale?'<p class="round-policy" role="status">Incomplete coverage: some fixture feeds could not be checked. Showing successful feeds; games may be missing. Retrying automatically.</p>':'';
  const msg=c.stale?'Update delayed. Scores below are the last successful snapshot, not confirmed current.':'Checked '+clock(c.at)+' Sydney · refreshes every 30 seconds';
- c.target.innerHTML='<article data-sport-state="'+boardState+'" data-sport-start="'+stamp(featured)+'"><div class="live-game-badge '+(live.length&&!c.stale?'is-live':'')+'">'+c.league+' · '+label+'</div><h3 class="round-title">'+esc(title)+'</h3><p class="round-policy">Finished games stay through Tuesday. New round from Wednesday (Sydney). Midweek games remain visible while in play.</p>'+focus+'<ul class="round-games">'+games.map(row).join('')+'</ul><p class="live-game-empty '+(c.stale?'live-game-stale':'')+'">'+esc(msg)+'</p><a class="live-game-link" href="'+c.url+'" target="_blank" rel="noopener noreferrer">All fixtures & results ↗</a></article>';
+ c.target.innerHTML='<article data-sport-state="'+boardState+'" data-sport-start="'+stamp(featured)+'"><div class="live-game-badge '+(live.length&&!c.stale?'is-live':'')+'">'+c.league+' · '+label+'</div><h3 class="round-title">'+esc(title)+'</h3><p class="round-policy">Finished games stay through Tuesday. New round from Wednesday (Sydney). Midweek games remain visible while in play.</p>'+coverage+focus+'<ul class="round-games">'+games.map(row).join('')+'</ul><p class="live-game-empty '+(c.stale?'live-game-stale':'')+'">'+esc(msg)+'</p><a class="live-game-link" href="'+c.url+'" target="_blank" rel="noopener noreferrer">All fixtures & results ↗</a></article>';
 }
 let busy=false;
 async function update(){if(busy)return;busy=true;if(refresh)refresh.disabled=true;
- try{await Promise.all(configs.filter(c=>c.target).map(async c=>{try{c.games=await events(c,Date.now());c.at=Date.now();c.stale=false;}catch(e){c.stale=true;}render(c);}));if(updated)updated.textContent='Round boards checked '+clock(Date.now())+' Sydney';}finally{busy=false;if(refresh)refresh.disabled=false;}}
+ try{await Promise.all(configs.filter(c=>c.target).map(async c=>{try{const result=await events(c,Date.now());c.games=result.games;c.partial=result.partial;c.at=Date.now();c.stale=false;}catch(e){c.stale=true;}render(c);}));if(updated)updated.textContent='Round boards checked '+clock(Date.now())+' Sydney';}finally{busy=false;if(refresh)refresh.disabled=false;}}
 const style=document.createElement('style');style.textContent='.round-title{margin:.4rem 0;font-size:1.15rem}.round-policy,.round-focus{font-size:.85rem;line-height:1.4;margin:.5rem 0}.round-games{list-style:none;padding:0;margin:.6rem 0}.round-game{border-top:1px solid #b8cbd1;padding:.55rem 0}.round-game a{display:block;text-decoration:none;color:inherit}.round-status{display:block;font-size:.85rem;line-height:1.4;margin-bottom:.3rem}.round-teams{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:.45rem;font-size:.95rem;line-height:1.35}.round-teams span:last-child{text-align:right}.round-teams strong{white-space:nowrap;font-size:.95rem}.round-live{border-left:3px solid #057d52;padding-left:.4rem}.round-live .round-status{font-weight:800;color:#b9ffd6}.round-game a:hover{text-decoration:underline}.round-game a:focus-visible{outline:2px solid #006541;outline-offset:3px}';document.head.appendChild(style);
 refresh?.addEventListener('click',update);window.addEventListener('online',update);document.addEventListener('visibilitychange',()=>{if(!document.hidden)update();});update();setInterval(()=>{if(!document.hidden)update();},30000);setInterval(()=>{if(!document.hidden)configs.filter(c=>c.target&&c.games).forEach(render);},12000);
 })(typeof window==='object'?window:globalThis);
