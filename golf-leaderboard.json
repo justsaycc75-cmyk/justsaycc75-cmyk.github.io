@@ -1,171 +1,171 @@
 {
+  "version": 1,
+  "tournamentId": "qld-pga-2026",
+  "title": "Queensland PGA Championship",
+  "round": 1,
+  "status": "in-progress",
+  "updatedAt": "2026-11-19T05:12:55.682336Z",
+  "source": "https://pga-live.pga-tic.com/tic/tmscores.cgi?tourn=1066~season=2026~params=PG0SSA00999",
   "players": [
     {
-      "amateur": false,
-      "country": "AUS",
-      "name": "Jay Mackenzie",
-      "position": "T1",
-      "thru": "12",
-      "toPar": "-4"
-    },
-    {
-      "amateur": false,
-      "country": "USA",
-      "name": "Austen Truslow",
-      "position": "T1",
-      "thru": "12",
-      "toPar": "-4"
-    },
-    {
-      "amateur": false,
-      "country": "AUS",
-      "name": "Douglas Klein",
-      "position": "T3",
-      "thru": "12",
-      "toPar": "-3"
-    },
-    {
-      "amateur": false,
-      "country": "AUS",
-      "name": "Louis Dobbelaar",
-      "position": "T3",
-      "thru": "12",
-      "toPar": "-3"
-    },
-    {
-      "amateur": false,
-      "country": "AUS",
-      "name": "Jye Halls",
-      "position": "T3",
-      "thru": "12",
-      "toPar": "-3"
-    },
-    {
-      "amateur": false,
-      "country": "AUS",
-      "name": "Declan O'Donovan",
-      "position": "T3",
-      "thru": "9",
-      "toPar": "-3"
-    },
-    {
-      "amateur": false,
-      "country": "AUS",
-      "name": "Curtis Luck",
-      "position": "T3",
-      "thru": "9",
-      "toPar": "-3"
-    },
-    {
-      "amateur": false,
-      "country": "USA",
-      "name": "Mitchell Bowlin",
-      "position": "T3",
-      "thru": "9",
-      "toPar": "-3"
-    },
-    {
-      "amateur": false,
-      "country": "AUS",
+      "position": "1",
       "name": "Cameron John",
-      "position": "T9",
-      "thru": "9",
-      "toPar": "-2"
+      "country": "AUS",
+      "amateur": false,
+      "toPar": "-8",
+      "thru": "F"
     },
     {
-      "amateur": false,
+      "position": "T2",
+      "name": "Jay Mackenzie",
       "country": "AUS",
+      "amateur": false,
+      "toPar": "-6",
+      "thru": "F"
+    },
+    {
+      "position": "T2",
+      "name": "Austen Truslow",
+      "country": "USA",
+      "amateur": false,
+      "toPar": "-6",
+      "thru": "F"
+    },
+    {
+      "position": "T2",
+      "name": "Declan O'Donovan",
+      "country": "AUS",
+      "amateur": false,
+      "toPar": "-6",
+      "thru": "F"
+    },
+    {
+      "position": "T5",
+      "name": "Jye Halls",
+      "country": "AUS",
+      "amateur": false,
+      "toPar": "-5",
+      "thru": "F"
+    },
+    {
+      "position": "T5",
+      "name": "Harrison Crowe",
+      "country": "AUS",
+      "amateur": false,
+      "toPar": "-5",
+      "thru": "15"
+    },
+    {
+      "position": "T5",
+      "name": "Darcy Brereton",
+      "country": "AUS",
+      "amateur": false,
+      "toPar": "-5",
+      "thru": "15"
+    },
+    {
+      "position": "T8",
       "name": "James Marchesani",
-      "position": "T9",
-      "thru": "9",
-      "toPar": "-2"
+      "country": "AUS",
+      "amateur": false,
+      "toPar": "-4",
+      "thru": "F"
     },
     {
-      "amateur": false,
+      "position": "T8",
+      "name": "Mitchell Bowlin",
       "country": "USA",
-      "name": "Alex Scott",
-      "position": "T9",
-      "thru": "9",
-      "toPar": "-2"
+      "amateur": false,
+      "toPar": "-4",
+      "thru": "F"
     },
     {
-      "amateur": false,
-      "country": "AUS",
-      "name": "Jake Riley",
-      "position": "T9",
-      "thru": "6",
-      "toPar": "-2"
-    },
-    {
-      "amateur": false,
-      "country": "AUS",
+      "position": "T8",
       "name": "Samuel Slater",
-      "position": "T9",
-      "thru": "6",
-      "toPar": "-2"
+      "country": "AUS",
+      "amateur": false,
+      "toPar": "-4",
+      "thru": "F"
     },
     {
-      "amateur": false,
-      "country": "AUS",
-      "name": "Paul Hayden",
-      "position": "T9",
-      "thru": "6",
-      "toPar": "-2"
-    },
-    {
-      "amateur": false,
-      "country": "AUS",
+      "position": "T8",
       "name": "Brett Rankin",
-      "position": "T9",
-      "thru": "6",
-      "toPar": "-2"
+      "country": "AUS",
+      "amateur": false,
+      "toPar": "-4",
+      "thru": "F"
     },
     {
-      "amateur": true,
+      "position": "T8",
+      "name": "Lucas Higgins",
       "country": "AUS",
+      "amateur": false,
+      "toPar": "-4",
+      "thru": "F"
+    },
+    {
+      "position": "T8",
+      "name": "Daniel Gale",
+      "country": "AUS",
+      "amateur": false,
+      "toPar": "-4",
+      "thru": "F"
+    },
+    {
+      "position": "T14",
+      "name": "Douglas Klein",
+      "country": "AUS",
+      "amateur": false,
+      "toPar": "-3",
+      "thru": "F"
+    },
+    {
+      "position": "T14",
       "name": "Abel Eduard",
-      "position": "T16",
-      "thru": "12",
-      "toPar": "-1"
-    },
-    {
-      "amateur": false,
-      "country": "USA",
-      "name": "MJ Maguire",
-      "position": "T16",
-      "thru": "12",
-      "toPar": "-1"
-    },
-    {
-      "amateur": false,
       "country": "AUS",
-      "name": "Jake McLeod",
-      "position": "T16",
-      "thru": "12",
-      "toPar": "-1"
+      "amateur": true,
+      "toPar": "-3",
+      "thru": "F"
     },
     {
-      "amateur": false,
+      "position": "T14",
+      "name": "Ben Eccles",
       "country": "AUS",
-      "name": "Andrew Martin",
-      "position": "T16",
-      "thru": "12",
-      "toPar": "-1"
+      "amateur": false,
+      "toPar": "-3",
+      "thru": "F"
     },
     {
-      "amateur": false,
+      "position": "T14",
+      "name": "Joseph Hodgson",
       "country": "AUS",
-      "name": "Mitchell Smith",
-      "position": "T16",
-      "thru": "12",
-      "toPar": "-1"
+      "amateur": false,
+      "toPar": "-3",
+      "thru": "F"
+    },
+    {
+      "position": "T14",
+      "name": "Jared Edwards",
+      "country": "NZL",
+      "amateur": false,
+      "toPar": "-3",
+      "thru": "15"
+    },
+    {
+      "position": "T14",
+      "name": "Jack Murdoch",
+      "country": "AUS",
+      "amateur": false,
+      "toPar": "-3",
+      "thru": "12"
+    },
+    {
+      "position": "T14",
+      "name": "Todd Sinnott",
+      "country": "AUS",
+      "amateur": false,
+      "toPar": "-3",
+      "thru": "12"
     }
-  ],
-  "round": 1,
-  "source": "https://pga-live.pga-tic.com/tic/tmscores.cgi?tourn=1066~season=2026~params=PG0SSA00999",
-  "status": "in-progress",
-  "title": "Queensland PGA Championship",
-  "tournamentId": "qld-pga-2026",
-  "updatedAt": "2026-11-18T23:16:52.511Z",
-  "version": 1
+  ]
 }
