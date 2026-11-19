@@ -1,0 +1,64 @@
+name: Refresh Queensland PGA scores
+on:
+  schedule:
+    - cron: '*/10 * 19-22 11 *'
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/golf-scores.yml'
+      - 'scripts/update-golf-leaderboard.py'
+permissions:
+  contents: write
+  pages: write
+concurrency:
+  group: queensland-pga-scores
+  cancel-in-progress: false
+jobs:
+  scores:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Read and validate official scores
+        run: python scripts/update-golf-leaderboard.py
+      - name: Publish changed snapshot
+        id: publish
+        run: |
+          if git diff --quiet -- golf-leaderboard.json; then
+            echo 'changed=false' >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add golf-leaderboard.json
+          git commit -m 'Refresh verified Queensland PGA top 20'
+          git pull --rebase origin main
+          git push origin HEAD:main
+          echo 'changed=true' >> "$GITHUB_OUTPUT"
+      - name: Request GitHub Pages rebuild
+        if: steps.publish.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/$GITHUB_REPOSITORY/pages/builds"
+      - name: Verify published scores
+        if: steps.publish.outputs.changed == 'true'
+        run: |
+          python - <<'PY'
+          import json, time, urllib.request
+          expected = json.load(open('golf-leaderboard.json'))['updatedAt']
+          for attempt in range(12):
+              try:
+                  url = 'https://justsaycc75-cmyk.github.io/golf-leaderboard.json?t=' + str(time.time_ns())
+                  actual = json.load(urllib.request.urlopen(url, timeout=15))
+                  if actual['updatedAt'] >= expected and len(actual['players']) == 20:
+                      print('Published score snapshot verified:', actual['updatedAt'])
+                      break
+              except Exception as error:
+                  print('Waiting for deployment:', type(error).__name__)
+              time.sleep(20)
+          else:
+              raise SystemExit('Updated scores did not reach GitHub Pages')
+          PY
