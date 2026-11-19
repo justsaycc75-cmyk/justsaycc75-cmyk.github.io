@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2123458179589685683",
+        "date": "2026-11-19T16:47:36Z",
+        "dateLabel": "19 NOV 2026 · 16:47 UTC",
+        "headline": "European Commission cyberattack claim relayed",
+        "summary": "War Watch Intel relayed a claim attributed to POLITICO that a cyberattack may have compromised European Commission staff data and disrupted internal systems. The quotation is truncated and provides no incident date, technical details or report link; the claim is not independently confirmed here.",
+        "sourceUrl": "https://x.com/WarWatchIntel"
+      },
+      {
         "id": "2123401657572577318",
         "date": "2026-11-19T13:03:00Z",
         "dateLabel": "19 NOV 2026 · 13:03 UTC",
@@ -91,17 +99,9 @@
         "headline": "Southern Russia military-plane crash report relayed",
         "summary": "War Watch Intel relayed a WSN report that a military aircraft carrying 17 people had crashed in southern Russia, with no survivors. The post does not identify the aircraft type, exact location or cause; the casualty claim is attributed to the publisher rather than independently confirmed here.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2122752932936307057"
-      },
-      {
-        "id": "2122661114500522106",
-        "date": "2026-11-17T12:00:21Z",
-        "dateLabel": "17 NOV 2026 · 12:00 UTC",
-        "headline": "Crimean Bridge operation claim relayed",
-        "summary": "War Watch Intel relayed an ASTRA report that Zelensky said a weeks-long SBU and General Staff operation had struck the Crimean Bridge. The quotation is truncated after mentioning Palianytsia drones; further operational details and the outcome are not established here.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2122661114500522106"
       }
     ],
-    "sourceCheckedAt": "2026-11-19T15:58:32.340Z",
+    "sourceCheckedAt": "2026-11-19T18:57:28.576Z",
     "profileUrl": "https://x.com/WarWatchIntel"
   },
   "skyglass": {
@@ -206,7 +206,7 @@
         "sourceUrl": "https://x.com/SkyGlass12/status/2117080108183732667"
       }
     ],
-    "sourceCheckedAt": "2026-11-19T15:58:32.340Z",
+    "sourceCheckedAt": "2026-11-19T18:57:28.576Z",
     "profileUrl": "https://x.com/SkyGlass12"
   }
 }
