@@ -4,11 +4,19 @@
   "title": "Queensland PGA Championship",
   "round": 2,
   "status": "in-progress",
-  "updatedAt": "2026-11-19T21:00:28.631064Z",
+  "updatedAt": "2026-11-19T22:22:22.435269Z",
   "source": "https://pga-live.pga-tic.com/tic/tmscores.cgi?tourn=1066~season=2026~params=PG0SSA00999",
   "players": [
     {
-      "position": "1",
+      "position": "T1",
+      "name": "Daniel Gale",
+      "country": "AUS",
+      "amateur": false,
+      "toPar": "-8",
+      "thru": "9"
+    },
+    {
+      "position": "T1",
       "name": "Cameron John",
       "country": "AUS",
       "amateur": false,
@@ -16,7 +24,7 @@
       "thru": "—"
     },
     {
-      "position": "T2",
+      "position": "T3",
       "name": "Jay Mackenzie",
       "country": "AUS",
       "amateur": false,
@@ -24,7 +32,7 @@
       "thru": "—"
     },
     {
-      "position": "T2",
+      "position": "T3",
       "name": "Austen Truslow",
       "country": "USA",
       "amateur": false,
@@ -32,7 +40,7 @@
       "thru": "—"
     },
     {
-      "position": "T2",
+      "position": "T3",
       "name": "Declan O'Donovan",
       "country": "AUS",
       "amateur": false,
@@ -40,16 +48,32 @@
       "thru": "—"
     },
     {
-      "position": "T2",
-      "name": "Todd Sinnott",
+      "position": "T6",
+      "name": "Matthew Griffin",
       "country": "AUS",
       "amateur": false,
-      "toPar": "-6",
-      "thru": "—"
+      "toPar": "-5",
+      "thru": "6"
     },
     {
       "position": "T6",
-      "name": "Daniel Gale",
+      "name": "Todd Sinnott",
+      "country": "AUS",
+      "amateur": false,
+      "toPar": "-5",
+      "thru": "3"
+    },
+    {
+      "position": "T6",
+      "name": "Adam Coull",
+      "country": "AUS",
+      "amateur": false,
+      "toPar": "-5",
+      "thru": "3"
+    },
+    {
+      "position": "T6",
+      "name": "Blake Windred",
       "country": "AUS",
       "amateur": false,
       "toPar": "-5",
@@ -64,23 +88,15 @@
       "thru": "—"
     },
     {
-      "position": "T8",
-      "name": "Thomas Giroux",
-      "country": "CAN",
-      "amateur": false,
-      "toPar": "-4",
-      "thru": "3"
-    },
-    {
-      "position": "T8",
+      "position": "T11",
       "name": "Jimmy Zheng",
       "country": "NZL",
       "amateur": false,
       "toPar": "-4",
-      "thru": "3"
+      "thru": "6"
     },
     {
-      "position": "T8",
+      "position": "T11",
       "name": "James Marchesani",
       "country": "AUS",
       "amateur": false,
@@ -88,7 +104,7 @@
       "thru": "—"
     },
     {
-      "position": "T8",
+      "position": "T11",
       "name": "Mitchell Bowlin",
       "country": "USA",
       "amateur": false,
@@ -96,7 +112,7 @@
       "thru": "—"
     },
     {
-      "position": "T8",
+      "position": "T11",
       "name": "Samuel Slater",
       "country": "AUS",
       "amateur": false,
@@ -104,7 +120,7 @@
       "thru": "—"
     },
     {
-      "position": "T8",
+      "position": "T11",
       "name": "Brett Rankin",
       "country": "AUS",
       "amateur": false,
@@ -112,7 +128,7 @@
       "thru": "—"
     },
     {
-      "position": "T8",
+      "position": "T11",
       "name": "Lucas Higgins",
       "country": "AUS",
       "amateur": false,
@@ -120,52 +136,36 @@
       "thru": "—"
     },
     {
-      "position": "T8",
-      "name": "Adam Coull",
-      "country": "AUS",
-      "amateur": false,
-      "toPar": "-4",
-      "thru": "—"
-    },
-    {
-      "position": "T8",
-      "name": "Blake Windred",
-      "country": "AUS",
-      "amateur": false,
-      "toPar": "-4",
-      "thru": "—"
-    },
-    {
       "position": "T17",
-      "name": "Matthew Griffin",
+      "name": "Connor McDade",
       "country": "AUS",
       "amateur": false,
       "toPar": "-3",
-      "thru": "3"
+      "thru": "9"
     },
     {
       "position": "T17",
-      "name": "Douglas Klein",
+      "name": "Blake Proverbs",
       "country": "AUS",
       "amateur": false,
       "toPar": "-3",
-      "thru": "—"
+      "thru": "9"
     },
     {
       "position": "T17",
-      "name": "Abel Eduard",
-      "country": "AUS",
-      "amateur": true,
-      "toPar": "-3",
-      "thru": "—"
-    },
-    {
-      "position": "T17",
-      "name": "Ben Eccles",
+      "name": "Phoenix Campbell",
       "country": "AUS",
       "amateur": false,
       "toPar": "-3",
-      "thru": "—"
+      "thru": "6"
+    },
+    {
+      "position": "T17",
+      "name": "Jediah Morgan",
+      "country": "AUS",
+      "amateur": false,
+      "toPar": "-3",
+      "thru": "6"
     }
   ]
 }
