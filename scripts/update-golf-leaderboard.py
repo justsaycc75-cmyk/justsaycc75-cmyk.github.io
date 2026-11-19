@@ -110,7 +110,8 @@ def parse_scores(html, checked_at):
         if not re.fullmatch(r'E|[+-]?\d{1,2}', score):
             raise ValueError('Missing overall score')
         holes = row.get(holes_col, '')
-        thru = 'F' if done or holes in {'18', 'F'} else holes
+        not_started = not round_score.strip() and not holes.strip()
+        thru = '—' if not_started else 'F' if done or holes in {'18', 'F'} else holes
         if not re.fullmatch(r'F|[0-9]|1[0-8]|—', thru):
             raise ValueError('Unrecognised holes value')
         ranked.append({'position': raw_position.rstrip('='), 'name': match[1],
