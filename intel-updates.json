@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2123236470555120049",
+        "date": "2026-11-19T02:06:37Z",
+        "dateLabel": "19 NOV 2026 · 02:06 UTC",
+        "headline": "U.S. transport, surveillance and command aircraft reported",
+        "summary": "War Watch Intel reported five U.S. Air Force transport aircraft, a surveillance aircraft and an airborne command centre over the United States. It described activity as higher than a recent baseline hour, without providing comparison figures or establishing aircraft missions.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2123236470555120049"
+      },
+      {
         "id": "2123217486455689299",
         "date": "2026-11-19T00:51:10Z",
         "dateLabel": "19 NOV 2026 · 00:51 UTC",
@@ -91,17 +99,9 @@
         "headline": "Kyiv strike casualty report relayed",
         "summary": "War Watch Intel relayed a Suspilne report quoting Kyiv mayor Vitali Klitschko that two people were killed in a Russian strike in the city’s Obolon district. The visible quotation is truncated, so no further incident details are stated here; this remains an attributed publisher report.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2122627469505089710"
-      },
-      {
-        "id": "2122511173723525506",
-        "date": "2026-11-17T02:04:32Z",
-        "dateLabel": "17 NOV 2026 · 02:04 UTC",
-        "headline": "Elevated radio activity and U.S. aircraft reported",
-        "summary": "War Watch Intel reported coded U.S. Air Force radio broadcasts at nearly four times normal across global hotspots, alongside transport aircraft and a nuclear command aircraft over the United States. The post supplies no baseline or detailed locations for that comparison; these remain publisher claims.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2122511173723525506"
       }
     ],
-    "sourceCheckedAt": "2026-11-19T00:58:55.600Z",
+    "sourceCheckedAt": "2026-11-19T04:06:13.621Z",
     "profileUrl": "https://x.com/WarWatchIntel"
   },
   "skyglass": {
@@ -206,7 +206,7 @@
         "sourceUrl": "https://x.com/SkyGlass12/status/2117080108183732667"
       }
     ],
-    "sourceCheckedAt": "2026-11-19T00:58:55.600Z",
+    "sourceCheckedAt": "2026-11-19T04:06:13.621Z",
     "profileUrl": "https://x.com/SkyGlass12"
   }
 }
