@@ -110,14 +110,6 @@
     "caption": "Military aircraft movement reports.",
     "entries": [
       {
-        "id": "2123423831553429931",
-        "date": "2026-11-19T14:31:07Z",
-        "dateLabel": "19 NOV 2026 · 14:31 UTC",
-        "headline": "RampWatch single-screen airfield view promoted",
-        "summary": "SkyGlass promoted AVIAR Labs’ RampWatch as a single-screen view across multiple airfields and linked to a BACE replay. This is a product update, not a new aircraft-movement report.",
-        "sourceUrl": "https://x.com/SkyGlass12"
-      },
-      {
         "id": "2123061449245290608",
         "date": "2026-11-18T14:31:08Z",
         "dateLabel": "18 NOV 2026 · 14:31 UTC",
@@ -204,6 +196,14 @@
         "headline": "NetJets and Flexjet activity growth reported",
         "summary": "SkyGlass reported tracked NetJets and Flexjet activity up 11.0% in October 2026 from October 2025, while full-service Jet A rose from $7.50 to $7.86. It said fractional flying did not slow and that the figures were pulled with the SkyGlass MCP.",
         "sourceUrl": "https://x.com/SkyGlass12/status/2117294392826335729"
+      },
+      {
+        "id": "2117080108183732667",
+        "date": "2026-11-02",
+        "dateLabel": "02 NOV 2026 · UTC",
+        "headline": "N722BD Learjet 60 crash reported",
+        "summary": "SkyGlass reported that Learjet 60 N722BD, flying from Austin to North Eleuthera, crashed near Military Trail in Palm Beach County on Sunday afternoon, killing all nine people aboard. It said the NTSB was investigating and shared an AVIAR Labs Overwatch replay.",
+        "sourceUrl": "https://x.com/SkyGlass12/status/2117080108183732667"
       }
     ],
     "sourceCheckedAt": "2026-11-19T15:58:32.340Z",
