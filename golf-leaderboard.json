@@ -2,9 +2,9 @@
   "version": 1,
   "tournamentId": "qld-pga-2026",
   "title": "Queensland PGA Championship",
-  "round": 1,
-  "status": "round-complete",
-  "updatedAt": "2026-11-19T08:58:13.339758Z",
+  "round": 2,
+  "status": "in-progress",
+  "updatedAt": "2026-11-19T20:48:54.708997Z",
   "source": "https://pga-live.pga-tic.com/tic/tmscores.cgi?tourn=1066~season=2026~params=PG0SSA00999",
   "players": [
     {
@@ -13,7 +13,7 @@
       "country": "AUS",
       "amateur": false,
       "toPar": "-8",
-      "thru": "F"
+      "thru": "—"
     },
     {
       "position": "T2",
@@ -21,7 +21,7 @@
       "country": "AUS",
       "amateur": false,
       "toPar": "-6",
-      "thru": "F"
+      "thru": "—"
     },
     {
       "position": "T2",
@@ -29,7 +29,7 @@
       "country": "USA",
       "amateur": false,
       "toPar": "-6",
-      "thru": "F"
+      "thru": "—"
     },
     {
       "position": "T2",
@@ -37,7 +37,7 @@
       "country": "AUS",
       "amateur": false,
       "toPar": "-6",
-      "thru": "F"
+      "thru": "—"
     },
     {
       "position": "T2",
@@ -45,127 +45,127 @@
       "country": "AUS",
       "amateur": false,
       "toPar": "-6",
-      "thru": "F"
+      "thru": "—"
     },
     {
-      "position": "6",
+      "position": "T6",
+      "name": "Daniel Gale",
+      "country": "AUS",
+      "amateur": false,
+      "toPar": "-5",
+      "thru": "3"
+    },
+    {
+      "position": "T6",
       "name": "Jye Halls",
       "country": "AUS",
       "amateur": false,
       "toPar": "-5",
-      "thru": "F"
+      "thru": "—"
     },
     {
-      "position": "T7",
+      "position": "T8",
+      "name": "Thomas Giroux",
+      "country": "CAN",
+      "amateur": false,
+      "toPar": "-4",
+      "thru": "3"
+    },
+    {
+      "position": "T8",
       "name": "James Marchesani",
       "country": "AUS",
       "amateur": false,
       "toPar": "-4",
-      "thru": "F"
+      "thru": "—"
     },
     {
-      "position": "T7",
+      "position": "T8",
       "name": "Mitchell Bowlin",
       "country": "USA",
       "amateur": false,
       "toPar": "-4",
-      "thru": "F"
+      "thru": "—"
     },
     {
-      "position": "T7",
+      "position": "T8",
       "name": "Samuel Slater",
       "country": "AUS",
       "amateur": false,
       "toPar": "-4",
-      "thru": "F"
+      "thru": "—"
     },
     {
-      "position": "T7",
+      "position": "T8",
       "name": "Brett Rankin",
       "country": "AUS",
       "amateur": false,
       "toPar": "-4",
-      "thru": "F"
+      "thru": "—"
     },
     {
-      "position": "T7",
+      "position": "T8",
       "name": "Lucas Higgins",
       "country": "AUS",
       "amateur": false,
       "toPar": "-4",
-      "thru": "F"
+      "thru": "—"
     },
     {
-      "position": "T7",
-      "name": "Daniel Gale",
-      "country": "AUS",
-      "amateur": false,
-      "toPar": "-4",
-      "thru": "F"
-    },
-    {
-      "position": "T7",
+      "position": "T8",
       "name": "Adam Coull",
       "country": "AUS",
       "amateur": false,
       "toPar": "-4",
-      "thru": "F"
+      "thru": "—"
     },
     {
-      "position": "T7",
+      "position": "T8",
       "name": "Blake Windred",
       "country": "AUS",
       "amateur": false,
       "toPar": "-4",
-      "thru": "F"
+      "thru": "—"
     },
     {
-      "position": "T15",
+      "position": "T16",
       "name": "Douglas Klein",
       "country": "AUS",
       "amateur": false,
       "toPar": "-3",
-      "thru": "F"
+      "thru": "—"
     },
     {
-      "position": "T15",
+      "position": "T16",
       "name": "Abel Eduard",
       "country": "AUS",
       "amateur": true,
       "toPar": "-3",
-      "thru": "F"
+      "thru": "—"
     },
     {
-      "position": "T15",
+      "position": "T16",
       "name": "Ben Eccles",
       "country": "AUS",
       "amateur": false,
       "toPar": "-3",
-      "thru": "F"
+      "thru": "—"
     },
     {
-      "position": "T15",
+      "position": "T16",
       "name": "Joseph Hodgson",
       "country": "AUS",
       "amateur": false,
       "toPar": "-3",
-      "thru": "F"
+      "thru": "—"
     },
     {
-      "position": "T15",
+      "position": "T16",
       "name": "Jimmy Zheng",
       "country": "NZL",
       "amateur": false,
       "toPar": "-3",
-      "thru": "F"
-    },
-    {
-      "position": "T15",
-      "name": "Harrison Crowe",
-      "country": "AUS",
-      "amateur": false,
-      "toPar": "-3",
-      "thru": "F"
+      "thru": "—"
     }
   ]
 }
