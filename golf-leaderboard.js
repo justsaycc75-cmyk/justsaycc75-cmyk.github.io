@@ -30,7 +30,7 @@
     const stale = d.status === 'in-progress' && Date.now() - Date.parse(d.updatedAt) > 45 * 60000;
     note.textContent = failed ? 'Latest saved scores shown. Open the full leaderboard for the newest scores.' :
       stale ? 'This saved leaderboard is more than 45 minutes old. Check the full leaderboard for newer scores.' :
-      '20 players in official order · T = tied · F = finished · (a) = amateur. Scores checked about every 10 minutes during play. This button reloads the latest published scores.';
+      '20 players in official order · T = tied · F = finished · (a) = amateur. Latest verified snapshot, not a continuous live feed. Use the full official leaderboard for current scores. This button reloads the latest published snapshot.';
     note.classList.toggle('golf-warning', failed || stale);
   }
 
