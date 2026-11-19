@@ -4,7 +4,7 @@
   "title": "Queensland PGA Championship",
   "round": 2,
   "status": "in-progress",
-  "updatedAt": "2026-11-19T20:49:26.180210Z",
+  "updatedAt": "2026-11-19T21:00:28.631064Z",
   "source": "https://pga-live.pga-tic.com/tic/tmscores.cgi?tourn=1066~season=2026~params=PG0SSA00999",
   "players": [
     {
@@ -73,6 +73,14 @@
     },
     {
       "position": "T8",
+      "name": "Jimmy Zheng",
+      "country": "NZL",
+      "amateur": false,
+      "toPar": "-4",
+      "thru": "3"
+    },
+    {
+      "position": "T8",
       "name": "James Marchesani",
       "country": "AUS",
       "amateur": false,
@@ -128,7 +136,15 @@
       "thru": "—"
     },
     {
-      "position": "T16",
+      "position": "T17",
+      "name": "Matthew Griffin",
+      "country": "AUS",
+      "amateur": false,
+      "toPar": "-3",
+      "thru": "3"
+    },
+    {
+      "position": "T17",
       "name": "Douglas Klein",
       "country": "AUS",
       "amateur": false,
@@ -136,7 +152,7 @@
       "thru": "—"
     },
     {
-      "position": "T16",
+      "position": "T17",
       "name": "Abel Eduard",
       "country": "AUS",
       "amateur": true,
@@ -144,25 +160,9 @@
       "thru": "—"
     },
     {
-      "position": "T16",
+      "position": "T17",
       "name": "Ben Eccles",
       "country": "AUS",
-      "amateur": false,
-      "toPar": "-3",
-      "thru": "—"
-    },
-    {
-      "position": "T16",
-      "name": "Joseph Hodgson",
-      "country": "AUS",
-      "amateur": false,
-      "toPar": "-3",
-      "thru": "—"
-    },
-    {
-      "position": "T16",
-      "name": "Jimmy Zheng",
-      "country": "NZL",
       "amateur": false,
       "toPar": "-3",
       "thru": "—"
