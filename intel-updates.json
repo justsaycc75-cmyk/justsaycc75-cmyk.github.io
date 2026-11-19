@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2123357312551211063",
+        "date": "2026-11-19T10:06:48Z",
+        "dateLabel": "19 NOV 2026 · 10:06 UTC",
+        "headline": "Three radio broadcasts reported",
+        "summary": "War Watch Intel reported hearing three coded U.S. Air Force radio broadcasts within one hour. The post did not establish their meaning or purpose. This summary omits military-activity locations and operational detail.",
+        "sourceUrl": "https://x.com/WarWatchIntel"
+      },
+      {
         "id": "2123236470555120049",
         "date": "2026-11-19T02:06:37Z",
         "dateLabel": "19 NOV 2026 · 02:06 UTC",
@@ -91,17 +99,9 @@
         "headline": "Transport aircraft and four radio broadcasts reported",
         "summary": "War Watch Intel reported four coded U.S. Air Force radio broadcasts heard that day and multiple large military transport aircraft airborne over the United States and Europe. The post did not specify their missions or destinations.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2122646012732776565"
-      },
-      {
-        "id": "2122627469505089710",
-        "date": "2026-11-17T09:46:39Z",
-        "dateLabel": "17 NOV 2026 · 09:46 UTC",
-        "headline": "Kyiv strike casualty report relayed",
-        "summary": "War Watch Intel relayed a Suspilne report quoting Kyiv mayor Vitali Klitschko that two people were killed in a Russian strike in the city’s Obolon district. The visible quotation is truncated, so no further incident details are stated here; this remains an attributed publisher report.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2122627469505089710"
       }
     ],
-    "sourceCheckedAt": "2026-11-19T10:05:16.004Z",
+    "sourceCheckedAt": "2026-11-19T13:01:55.705Z",
     "profileUrl": "https://x.com/WarWatchIntel"
   },
   "skyglass": {
@@ -206,7 +206,7 @@
         "sourceUrl": "https://x.com/SkyGlass12/status/2117080108183732667"
       }
     ],
-    "sourceCheckedAt": "2026-11-19T10:05:16.004Z",
+    "sourceCheckedAt": "2026-11-19T13:01:55.705Z",
     "profileUrl": "https://x.com/SkyGlass12"
   }
 }
