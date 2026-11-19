@@ -59,8 +59,11 @@ def cells(row):
 def parse_scores(html, checked_at):
     root = Document(html).root
     page = root.text()
-    if not all(x in page for x in ['2026', 'Queensland PGA Championship', 'Nudgee', 'Latest Scores']):
+    if not all(x in page for x in ['2026', 'Queensland PGA Championship', 'Nudgee']):
         raise ValueError('Wrong or unavailable tournament')
+    end_round = re.search(r'Scores at End of Round ([1-4])', page)
+    if 'Latest Scores' not in page and not end_round:
+        raise ValueError('Unrecognised scoreboard state')
     table = next((t for t in root.find('table') if
                   (first := next(t.find('tr'), None)) is not None and
                   (cs := cells(first)) and cs[0].text() == 'Pos.'), None)
@@ -81,9 +84,14 @@ def parse_scores(html, checked_at):
             col += 1
     header = grid[0]
     name_col = next(k for k, v in header.items() if v.startswith('Name'))
-    holes_col = next(k for k, v in header.items() if v == 'Holes')
+    holes_col = next((k for k, v in header.items() if v == 'Holes'), None)
+    score_col = next(k for k, v in header.items() if v == '-Par+')
+    if holes_col is None and not end_round:
+        raise ValueError('Live holes column missing')
     round_cols = [(int(v[1:]), k) for k, v in header.items() if re.fullmatch(r'R[1-4]', v)]
     round_number, current_col = max(round_cols)
+    if end_round and int(end_round[1]) != round_number:
+        raise ValueError('Completed round mismatch')
     ranked, finished = [], []
     for row in grid[1:]:
         match = re.match(r'^(.+?) \(([A-Z]{3})\)(.*)', row.get(name_col, ''))
@@ -97,7 +105,7 @@ def parse_scores(html, checked_at):
         finished.append(done)
         if not re.fullmatch(r'\d+=?', raw_position):
             continue
-        raw_score = row.get(1, '')
+        raw_score = row.get(score_col, '')
         score = 'E' if raw_score in {'Par', 'E'} else raw_score
         if not re.fullmatch(r'E|[+-]?\d{1,2}', score):
             raise ValueError('Missing overall score')
@@ -110,6 +118,8 @@ def parse_scores(html, checked_at):
                        'toPar': score, 'thru': thru})
     if len(ranked) < 20 or len({p['name'] for p in ranked}) != len(ranked):
         raise ValueError('Incomplete or duplicate leaderboard')
+    if end_round and not all(finished):
+        raise ValueError('Incomplete completed-round scores')
     scores = [0 if p['toPar'] == 'E' else int(p['toPar']) for p in ranked]
     if scores != sorted(scores):
         raise ValueError('Overall scores are not in leaderboard order')

@@ -3,8 +3,8 @@
   "tournamentId": "qld-pga-2026",
   "title": "Queensland PGA Championship",
   "round": 1,
-  "status": "in-progress",
-  "updatedAt": "2026-11-19T06:00:29.221121Z",
+  "status": "round-complete",
+  "updatedAt": "2026-11-19T08:57:25.053841Z",
   "source": "https://pga-live.pga-tic.com/tic/tmscores.cgi?tourn=1066~season=2026~params=PG0SSA00999",
   "players": [
     {
@@ -40,20 +40,20 @@
       "thru": "F"
     },
     {
-      "position": "T5",
+      "position": "T2",
+      "name": "Todd Sinnott",
+      "country": "AUS",
+      "amateur": false,
+      "toPar": "-6",
+      "thru": "F"
+    },
+    {
+      "position": "6",
       "name": "Jye Halls",
       "country": "AUS",
       "amateur": false,
       "toPar": "-5",
       "thru": "F"
-    },
-    {
-      "position": "T5",
-      "name": "Todd Sinnott",
-      "country": "AUS",
-      "amateur": false,
-      "toPar": "-5",
-      "thru": "15"
     },
     {
       "position": "T7",
@@ -105,14 +105,22 @@
     },
     {
       "position": "T7",
-      "name": "Jack Murdoch",
+      "name": "Adam Coull",
       "country": "AUS",
       "amateur": false,
       "toPar": "-4",
-      "thru": "15"
+      "thru": "F"
     },
     {
-      "position": "T14",
+      "position": "T7",
+      "name": "Blake Windred",
+      "country": "AUS",
+      "amateur": false,
+      "toPar": "-4",
+      "thru": "F"
+    },
+    {
+      "position": "T15",
       "name": "Douglas Klein",
       "country": "AUS",
       "amateur": false,
@@ -120,7 +128,7 @@
       "thru": "F"
     },
     {
-      "position": "T14",
+      "position": "T15",
       "name": "Abel Eduard",
       "country": "AUS",
       "amateur": true,
@@ -128,7 +136,7 @@
       "thru": "F"
     },
     {
-      "position": "T14",
+      "position": "T15",
       "name": "Ben Eccles",
       "country": "AUS",
       "amateur": false,
@@ -136,7 +144,7 @@
       "thru": "F"
     },
     {
-      "position": "T14",
+      "position": "T15",
       "name": "Joseph Hodgson",
       "country": "AUS",
       "amateur": false,
@@ -144,7 +152,7 @@
       "thru": "F"
     },
     {
-      "position": "T14",
+      "position": "T15",
       "name": "Jimmy Zheng",
       "country": "NZL",
       "amateur": false,
@@ -152,16 +160,8 @@
       "thru": "F"
     },
     {
-      "position": "T14",
+      "position": "T15",
       "name": "Harrison Crowe",
-      "country": "AUS",
-      "amateur": false,
-      "toPar": "-3",
-      "thru": "F"
-    },
-    {
-      "position": "T14",
-      "name": "Jediah Morgan",
       "country": "AUS",
       "amateur": false,
       "toPar": "-3",
