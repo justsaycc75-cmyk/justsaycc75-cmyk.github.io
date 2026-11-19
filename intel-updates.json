@@ -5,6 +5,14 @@
     "caption": "Shortwave and military aircraft reports.",
     "entries": [
       {
+        "id": "2123217486455689299",
+        "date": "2026-11-19T00:51:10Z",
+        "dateLabel": "19 NOV 2026 · 00:51 UTC",
+        "headline": "NSA communications outage report relayed",
+        "summary": "War Watch Intel relayed a report attributed to the Jerusalem Post that an NSA outage disrupted classified U.S. intelligence communications with the Middle East amid the Iran war. The post gives no outage timing, duration or cause; the claim is not independently confirmed here.",
+        "sourceUrl": "https://x.com/WarWatchIntel/status/2123217486455689299"
+      },
+      {
         "id": "2123115424728404200",
         "date": "2026-11-18T18:05:37Z",
         "dateLabel": "18 NOV 2026 · 18:05 UTC",
@@ -91,17 +99,9 @@
         "headline": "Elevated radio activity and U.S. aircraft reported",
         "summary": "War Watch Intel reported coded U.S. Air Force radio broadcasts at nearly four times normal across global hotspots, alongside transport aircraft and a nuclear command aircraft over the United States. The post supplies no baseline or detailed locations for that comparison; these remain publisher claims.",
         "sourceUrl": "https://x.com/WarWatchIntel/status/2122511173723525506"
-      },
-      {
-        "id": "2122434645912396253",
-        "date": "2026-11-16T21:00:27Z",
-        "dateLabel": "16 NOV 2026 · 21:00 UTC",
-        "headline": "Priority Air Transport activity questioned",
-        "summary": "War Watch Intel noted numerous Priority Air Transport aircraft airborne and asked whether the activity was normal. The post did not establish a baseline, aircraft count or mission, so it does not confirm unusual activity.",
-        "sourceUrl": "https://x.com/WarWatchIntel/status/2122434645912396253"
       }
     ],
-    "sourceCheckedAt": "2026-11-18T21:59:18.284Z",
+    "sourceCheckedAt": "2026-11-19T00:58:55.600Z",
     "profileUrl": "https://x.com/WarWatchIntel"
   },
   "skyglass": {
@@ -206,7 +206,7 @@
         "sourceUrl": "https://x.com/SkyGlass12/status/2117080108183732667"
       }
     ],
-    "sourceCheckedAt": "2026-11-18T21:59:18.284Z",
+    "sourceCheckedAt": "2026-11-19T00:58:55.600Z",
     "profileUrl": "https://x.com/SkyGlass12"
   }
 }
