@@ -1,5 +1,30 @@
 (()=>{
   const shows={
+    'The Dark':{
+      search:"The Dark official trailer",
+      
+      summary:"A murder investigation in the Scottish Highlands uncovers disturbing secrets and the possibility of a serial killer.",
+      source:"Series trailer"
+    },
+    'Blue Lights — Season 4':{
+      search:"Blue Lights official trailer",
+      video:'C2fifCku6IU',
+      summary:"The Belfast police drama follows frontline officers balancing crime, community tensions and personal danger.",
+      source:"BBC"
+    },
+    'Dustfall':{
+      search:"Dustfall official trailer",
+      
+      summary:"An Australian crime mystery centres on a detective investigating a troubling assault and secrets within a Queensland community.",
+      source:"ABC"
+    },
+    'Tulsa King — Season 4':{
+      search:"Tulsa King official trailer",
+      video:'NXpzKI-sEac',
+      wiki:'Tulsa King',
+      summary:"Dwight Manfredi continues building his criminal operation in Tulsa while rivalries and pressure mount.",
+      source:"Paramount+"
+    },
     'Wind River':{
       video:'W7V9Fsll5qM',
       link:'https://www.youtube.com/watch?v=W7V9Fsll5qM',
