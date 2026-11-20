@@ -4,7 +4,7 @@
   "title": "Queensland PGA Championship",
   "round": 2,
   "status": "in-progress",
-  "updatedAt": "2026-11-20T02:03:44.382462Z",
+  "updatedAt": "2026-11-20T03:04:49.366662Z",
   "source": "https://pga-live.pga-tic.com/tic/tmscores.cgi?tourn=1066~season=2026~params=PG0SSA00999",
   "players": [
     {
@@ -17,26 +17,26 @@
     },
     {
       "position": "2",
-      "name": "Declan O'Donovan",
-      "country": "AUS",
-      "amateur": false,
-      "toPar": "-9",
-      "thru": "3"
-    },
-    {
-      "position": "3",
       "name": "Cameron John",
       "country": "AUS",
       "amateur": false,
-      "toPar": "-8",
-      "thru": "3"
+      "toPar": "-9",
+      "thru": "6"
     },
     {
-      "position": "4",
+      "position": "T3",
       "name": "Jay Mackenzie",
       "country": "AUS",
       "amateur": false,
-      "toPar": "-7",
+      "toPar": "-8",
+      "thru": "9"
+    },
+    {
+      "position": "T3",
+      "name": "Declan O'Donovan",
+      "country": "AUS",
+      "amateur": false,
+      "toPar": "-8",
       "thru": "6"
     },
     {
@@ -49,14 +49,22 @@
     },
     {
       "position": "T5",
-      "name": "Austen Truslow",
+      "name": "MJ Maguire",
       "country": "USA",
       "amateur": false,
       "toPar": "-6",
-      "thru": "3"
+      "thru": "9"
     },
     {
-      "position": "T7",
+      "position": "T5",
+      "name": "Jye Halls",
+      "country": "AUS",
+      "amateur": false,
+      "toPar": "-6",
+      "thru": "9"
+    },
+    {
+      "position": "T8",
       "name": "Blake Proverbs",
       "country": "AUS",
       "amateur": false,
@@ -64,23 +72,47 @@
       "thru": "F"
     },
     {
-      "position": "T7",
-      "name": "Adam Baillie",
+      "position": "T8",
+      "name": "Blaike Perkins",
       "country": "AUS",
       "amateur": false,
       "toPar": "-5",
-      "thru": "15"
+      "thru": "F"
     },
     {
-      "position": "T7",
-      "name": "Jye Halls",
+      "position": "T8",
+      "name": "Douglas Klein",
+      "country": "AUS",
+      "amateur": false,
+      "toPar": "-5",
+      "thru": "9"
+    },
+    {
+      "position": "T8",
+      "name": "Jake McLeod",
+      "country": "AUS",
+      "amateur": false,
+      "toPar": "-5",
+      "thru": "9"
+    },
+    {
+      "position": "T8",
+      "name": "Austen Truslow",
+      "country": "USA",
+      "amateur": false,
+      "toPar": "-5",
+      "thru": "9"
+    },
+    {
+      "position": "T8",
+      "name": "Brett Rankin",
       "country": "AUS",
       "amateur": false,
       "toPar": "-5",
       "thru": "3"
     },
     {
-      "position": "T10",
+      "position": "T14",
       "name": "Jimmy Zheng",
       "country": "NZL",
       "amateur": false,
@@ -88,63 +120,23 @@
       "thru": "F"
     },
     {
-      "position": "T10",
-      "name": "Blaike Perkins",
+      "position": "T14",
+      "name": "Adam Baillie",
       "country": "AUS",
       "amateur": false,
       "toPar": "-4",
-      "thru": "15"
+      "thru": "F"
     },
     {
-      "position": "T10",
-      "name": "Braden Becker",
-      "country": "AUS",
-      "amateur": false,
-      "toPar": "-4",
-      "thru": "12"
-    },
-    {
-      "position": "T10",
-      "name": "Douglas Klein",
+      "position": "T14",
+      "name": "Curtis Luck",
       "country": "AUS",
       "amateur": false,
       "toPar": "-4",
       "thru": "6"
     },
     {
-      "position": "T10",
-      "name": "Mitchell Bowlin",
-      "country": "USA",
-      "amateur": false,
-      "toPar": "-4",
-      "thru": "—"
-    },
-    {
-      "position": "T10",
-      "name": "Samuel Slater",
-      "country": "AUS",
-      "amateur": false,
-      "toPar": "-4",
-      "thru": "—"
-    },
-    {
-      "position": "T10",
-      "name": "Brett Rankin",
-      "country": "AUS",
-      "amateur": false,
-      "toPar": "-4",
-      "thru": "—"
-    },
-    {
-      "position": "T10",
-      "name": "Lucas Higgins",
-      "country": "AUS",
-      "amateur": false,
-      "toPar": "-4",
-      "thru": "—"
-    },
-    {
-      "position": "T18",
+      "position": "T17",
       "name": "Connor McDade",
       "country": "AUS",
       "amateur": false,
@@ -152,7 +144,7 @@
       "thru": "F"
     },
     {
-      "position": "T18",
+      "position": "T17",
       "name": "Harrison Crowe",
       "country": "AUS",
       "amateur": false,
@@ -160,8 +152,16 @@
       "thru": "F"
     },
     {
-      "position": "T18",
+      "position": "T17",
       "name": "Jediah Morgan",
+      "country": "AUS",
+      "amateur": false,
+      "toPar": "-3",
+      "thru": "F"
+    },
+    {
+      "position": "T17",
+      "name": "Josh Edgar",
       "country": "AUS",
       "amateur": false,
       "toPar": "-3",
