@@ -142,6 +142,7 @@
     'Rillington Place':{
       search:"Rillington Place BBC Tim Roth official trailer",
       wiki:'Rillington Place',
+      thumbnailVideo:'A4I6YRuNBZA', // BBC Player trailer for the 2016 series.
       summary:'A bleak three-part true-crime drama about serial killer John Christie and the murders connected with 10 Rillington Place in post-war London.',
       source:'BBC / official trailer'
     },
@@ -374,6 +375,31 @@
 
   const normalise=s=>String(s||'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
 
+  // Site-drawn artwork stays visible until a real thumbnail has loaded.
+  const titleArtwork=title=>{
+    const seed=[...title].reduce((n,c)=>(n*31+c.codePointAt(0))>>>0,0);
+    const [background,accent]=[['#132d42','#71cfef'],['#3a2037','#f0a1cf'],['#163a31','#9df0c0'],['#433020','#ffcc82']][seed%4];
+    const escape=s=>s.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+    const lines=title.split(' ').reduce((rows,word)=>{
+      const last=rows[rows.length-1];
+      if(last&&last.length+word.length<16)rows[rows.length-1]=last+' '+word;
+      else rows.push(word);
+      return rows;
+    },[]);
+    const size=Math.min(39,350/Math.max(...lines.map(l=>l.length)));
+    const label=lines.map((line,i)=>`<tspan x="34" y="${174-(lines.length-1)*34+i*34}">${escape(line)}</tspan>`).join('');
+    const svg=`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" width="400" height="260">
+      <defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="${background}"/><stop offset="1" stop-color="#0b121d"/></linearGradient></defs>
+      <path fill="url(#g)" d="M0 0h400v260H0z"/>
+      <g fill="none" stroke="${accent}" opacity=".43"><circle cx="327" cy="46" r="47"/><circle cx="327" cy="46" r="55"/><path d="M309 75l-44 56m77-78l-91 100M244 226l156-45m-135 59l135-40"/></g>
+      <rect x="33" y="32" width="334" height="196" rx="10" fill="none" stroke="${accent}" opacity=".35"/>
+      <path d="M34 204h70" stroke="${accent}" stroke-width="4"/>
+      <text x="50" y="62" font-family="sans-serif" font-size="14" font-weight="700" letter-spacing="3" fill="${accent}">SCREEN TIME</text>
+      <text x="50" font-family="sans-serif" font-size="${size}" font-weight="800" fill="#fcf9f1" transform="translate(16 0)">${label}</text>
+    </svg>`;
+    return 'data:image/svg+xml,'+encodeURIComponent(svg);
+  };
+
   document.querySelectorAll('[data-watch]').forEach(card=>{
     const title=card.dataset.watch;
     const info=shows[title];
@@ -396,7 +422,15 @@
       img.loading='lazy';
       img.decoding='async';
       img.referrerPolicy='no-referrer';
-      const fallback=thumb.querySelector('span');
+      const initials=thumb.querySelector('span');
+      const artwork=document.createElement('img');
+      artwork.className='watch-title-art';
+      artwork.alt='';
+      artwork.setAttribute('aria-hidden','true');
+      artwork.src=titleArtwork(title);
+      thumb.prepend(artwork);
+      if(initials)initials.hidden=true;
+      img.style.visibility='hidden';
       const thumbnailVideo=info.thumbnailVideo||info.video;
       let triedStandard=false;
       const standardThumbnail=()=>{
@@ -409,12 +443,15 @@
       };
       img.onload=()=>{
         // YouTube sometimes returns a tiny placeholder instead of a 404.
-        if(img.naturalWidth<=120&&standardThumbnail())return;
-        if(fallback)fallback.hidden=true;
+        if(img.naturalWidth<=120||img.naturalHeight<=60){
+          if(!standardThumbnail())img.remove();
+          return;
+        }
+        img.style.visibility='';
+        artwork.remove();
       };
       img.onerror=()=>{
         if(standardThumbnail())return;
-        if(fallback)fallback.hidden=false;
         img.remove();
       };
       if(info.poster){
