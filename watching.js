@@ -116,6 +116,8 @@
     'The Newsroom':{
       search:"The Newsroom HBO Jeff Daniels official trailer",
       wiki:'The Newsroom (American TV series)',
+      // HBO Max press-room publicity photo of Jeff Daniels as Will McAvoy.
+      poster:'https://d28g66aanv98xa.cloudfront.net/460x308/news/110.jpg?cache=MDAwMC0wMC0wMCAwMDowMDowMA==',
       summary:'Jeff Daniels leads a cable-news team trying to produce serious journalism while careers, relationships, corporate pressure and newsroom politics collide behind the scenes.',
       source:'HBO',
       direct:true
