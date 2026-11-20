@@ -3,25 +3,25 @@
   "tournamentId": "qld-pga-2026",
   "title": "Queensland PGA Championship",
   "round": 2,
-  "status": "in-progress",
-  "updatedAt": "2026-11-20T05:43:43.383935Z",
+  "status": "round-complete",
+  "updatedAt": "2026-11-20T08:39:26.486070Z",
   "source": "https://pga-live.pga-tic.com/tic/tmscores.cgi?tourn=1066~season=2026~params=PG0SSA00999",
   "players": [
     {
-      "position": "T1",
+      "position": "1",
+      "name": "Declan O'Donovan",
+      "country": "AUS",
+      "amateur": false,
+      "toPar": "-12",
+      "thru": "F"
+    },
+    {
+      "position": "2",
       "name": "Cameron John",
       "country": "AUS",
       "amateur": false,
       "toPar": "-11",
       "thru": "F"
-    },
-    {
-      "position": "T1",
-      "name": "Declan O'Donovan",
-      "country": "AUS",
-      "amateur": false,
-      "toPar": "-11",
-      "thru": "15"
     },
     {
       "position": "3",
@@ -48,15 +48,7 @@
       "thru": "F"
     },
     {
-      "position": "T4",
-      "name": "Curtis Luck",
-      "country": "AUS",
-      "amateur": false,
-      "toPar": "-8",
-      "thru": "15"
-    },
-    {
-      "position": "T7",
+      "position": "T6",
       "name": "Jake McLeod",
       "country": "AUS",
       "amateur": false,
@@ -64,9 +56,17 @@
       "thru": "F"
     },
     {
-      "position": "T7",
+      "position": "T6",
       "name": "Austen Truslow",
       "country": "USA",
+      "amateur": false,
+      "toPar": "-7",
+      "thru": "F"
+    },
+    {
+      "position": "T6",
+      "name": "Curtis Luck",
+      "country": "AUS",
       "amateur": false,
       "toPar": "-7",
       "thru": "F"
@@ -104,15 +104,7 @@
       "thru": "F"
     },
     {
-      "position": "T10",
-      "name": "Jasper Stubbs",
-      "country": "AUS",
-      "amateur": false,
-      "toPar": "-5",
-      "thru": "15"
-    },
-    {
-      "position": "T14",
+      "position": "T13",
       "name": "Jimmy Zheng",
       "country": "NZL",
       "amateur": false,
@@ -120,7 +112,7 @@
       "thru": "F"
     },
     {
-      "position": "T14",
+      "position": "T13",
       "name": "Adam Baillie",
       "country": "AUS",
       "amateur": false,
@@ -128,7 +120,7 @@
       "thru": "F"
     },
     {
-      "position": "T14",
+      "position": "T13",
       "name": "Douglas Klein",
       "country": "AUS",
       "amateur": false,
@@ -136,8 +128,16 @@
       "thru": "F"
     },
     {
-      "position": "T14",
+      "position": "T13",
       "name": "Andrew Martin",
+      "country": "AUS",
+      "amateur": false,
+      "toPar": "-4",
+      "thru": "F"
+    },
+    {
+      "position": "T13",
+      "name": "Jason Norris",
       "country": "AUS",
       "amateur": false,
       "toPar": "-4",
