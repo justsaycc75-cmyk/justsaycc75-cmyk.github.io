@@ -1,6 +1,8 @@
 (()=>{
   const shows={
     'The Dark':{
+      link:'https://www.digitalspy.com/tv/a71570844/the-dark-itv-crime-drama-trailer/',
+      linkLabel:'Trailer and story · Digital Spy',
       search:"The Dark official trailer",
       // Promotional artwork from the matching Apple TV Australia listing.
       poster:"https://is1-ssl.mzstatic.com/image/thumb/LqYIJw--vGBausZOUiemhQ/1200x675.jpg",
@@ -9,6 +11,8 @@
       source:"Series trailer"
     },
     'Blue Lights — Season 4':{
+      link:'https://www.sbs.com.au/whats-on/video/blue-lights-s4-trailer/xoentszun',
+      linkLabel:'Season 4 trailer · SBS',
       search:"Blue Lights official trailer",
       video:'C2fifCku6IU',
       thumbnailVideo:'yPSUvnhuWi4', // Official Season 4 trailer artwork.
@@ -16,6 +20,8 @@
       source:"BBC"
     },
     'Dustfall':{
+      link:'https://www.youtube.com/watch?v=KqdeJ8q9EgA',
+      linkLabel:'Official trailer · ABC iview',
       search:"Dustfall official trailer",
       thumbnailVideo:"KqdeJ8q9EgA", // ABC Entertainment official trailer artwork.
       
@@ -23,6 +29,8 @@
       source:"ABC"
     },
     'Tulsa King — Season 4':{
+      link:'https://www.paramountanz.com.au/news/a-storm-is-brewing/',
+      linkLabel:'Season 4 trailer and story · Paramount+',
       search:"Tulsa King official trailer",
       video:'NXpzKI-sEac',
       thumbnailVideo:'Qq8yAg8urfY', // Official Season 4 trailer artwork.
@@ -417,7 +425,7 @@
     card.href=info.link||`https://www.youtube.com/results?search_query=${encodeURIComponent(safeSearch)}`;
     card.target='_blank';
     card.rel='noopener';
-    card.setAttribute('aria-label',`${title} — trailer and show search`);
+    card.setAttribute('aria-label',`${title} — ${info.linkLabel||'trailer and show search'}`);
 
     const thumb=card.querySelector('.watch-thumb');
     if(thumb){
@@ -477,6 +485,6 @@
     if(p)p.textContent=info.summary;
 
     const small=card.querySelector('.watch-copy small');
-    if(small)small.textContent=`Find trailer / show — ${info.source} →`;
+    if(small)small.textContent=`${info.linkLabel||`Find trailer / show — ${info.source}`} →`;
   });
 })();
