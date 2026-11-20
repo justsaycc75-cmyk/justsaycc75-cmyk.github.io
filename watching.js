@@ -2,6 +2,8 @@
   const shows={
     'The Dark':{
       search:"The Dark official trailer",
+      // Promotional artwork from the matching Apple TV Australia listing.
+      poster:"https://is1-ssl.mzstatic.com/image/thumb/LqYIJw--vGBausZOUiemhQ/1200x675.jpg",
       
       summary:"A murder investigation in the Scottish Highlands uncovers disturbing secrets and the possibility of a serial killer.",
       source:"Series trailer"
@@ -14,6 +16,7 @@
     },
     'Dustfall':{
       search:"Dustfall official trailer",
+      thumbnailVideo:"KqdeJ8q9EgA", // ABC Entertainment official trailer artwork.
       
       summary:"An Australian crime mystery centres on a detective investigating a troubling assault and secrets within a Queensland community.",
       source:"ABC"
@@ -394,8 +397,23 @@
       img.decoding='async';
       img.referrerPolicy='no-referrer';
       const fallback=thumb.querySelector('span');
-      img.onload=()=>{ if(fallback)fallback.hidden=true; };
+      const thumbnailVideo=info.thumbnailVideo||info.video;
+      let triedStandard=false;
+      const standardThumbnail=()=>{
+        if(!info.poster&&thumbnailVideo&&!triedStandard){
+          triedStandard=true;
+          img.src=`https://i.ytimg.com/vi/${thumbnailVideo}/hqdefault.jpg`;
+          return true;
+        }
+        return false;
+      };
+      img.onload=()=>{
+        // YouTube sometimes returns a tiny placeholder instead of a 404.
+        if(img.naturalWidth<=120&&standardThumbnail())return;
+        if(fallback)fallback.hidden=true;
+      };
       img.onerror=()=>{
+        if(standardThumbnail())return;
         if(fallback)fallback.hidden=false;
         img.remove();
       };
@@ -403,8 +421,8 @@
         img.classList.add('promo-image');
         img.src=info.poster;
         thumb.prepend(img);
-      }else if(info.video){
-        img.src=`https://i.ytimg.com/vi/${info.video}/hqdefault.jpg`;
+      }else if(thumbnailVideo){
+        img.src=`https://i.ytimg.com/vi/${thumbnailVideo}/maxresdefault.jpg`;
         thumb.prepend(img);
       }else if(info.wiki){
         fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(info.wiki)}`)
