@@ -4,107 +4,115 @@
   "title": "Queensland PGA Championship",
   "round": 2,
   "status": "in-progress",
-  "updatedAt": "2026-11-19T22:22:22.435269Z",
+  "updatedAt": "2026-11-20T02:03:44.382462Z",
   "source": "https://pga-live.pga-tic.com/tic/tmscores.cgi?tourn=1066~season=2026~params=PG0SSA00999",
   "players": [
     {
-      "position": "T1",
+      "position": "1",
       "name": "Daniel Gale",
       "country": "AUS",
       "amateur": false,
-      "toPar": "-8",
-      "thru": "9"
+      "toPar": "-10",
+      "thru": "F"
     },
     {
-      "position": "T1",
+      "position": "2",
+      "name": "Declan O'Donovan",
+      "country": "AUS",
+      "amateur": false,
+      "toPar": "-9",
+      "thru": "3"
+    },
+    {
+      "position": "3",
       "name": "Cameron John",
       "country": "AUS",
       "amateur": false,
       "toPar": "-8",
-      "thru": "—"
+      "thru": "3"
     },
     {
-      "position": "T3",
+      "position": "4",
       "name": "Jay Mackenzie",
       "country": "AUS",
       "amateur": false,
-      "toPar": "-6",
-      "thru": "—"
+      "toPar": "-7",
+      "thru": "6"
     },
     {
-      "position": "T3",
+      "position": "T5",
+      "name": "Todd Sinnott",
+      "country": "AUS",
+      "amateur": false,
+      "toPar": "-6",
+      "thru": "F"
+    },
+    {
+      "position": "T5",
       "name": "Austen Truslow",
       "country": "USA",
       "amateur": false,
       "toPar": "-6",
-      "thru": "—"
-    },
-    {
-      "position": "T3",
-      "name": "Declan O'Donovan",
-      "country": "AUS",
-      "amateur": false,
-      "toPar": "-6",
-      "thru": "—"
-    },
-    {
-      "position": "T6",
-      "name": "Matthew Griffin",
-      "country": "AUS",
-      "amateur": false,
-      "toPar": "-5",
-      "thru": "6"
-    },
-    {
-      "position": "T6",
-      "name": "Todd Sinnott",
-      "country": "AUS",
-      "amateur": false,
-      "toPar": "-5",
       "thru": "3"
     },
     {
-      "position": "T6",
-      "name": "Adam Coull",
+      "position": "T7",
+      "name": "Blake Proverbs",
       "country": "AUS",
       "amateur": false,
       "toPar": "-5",
-      "thru": "3"
+      "thru": "F"
     },
     {
-      "position": "T6",
-      "name": "Blake Windred",
+      "position": "T7",
+      "name": "Adam Baillie",
       "country": "AUS",
       "amateur": false,
       "toPar": "-5",
-      "thru": "3"
+      "thru": "15"
     },
     {
-      "position": "T6",
+      "position": "T7",
       "name": "Jye Halls",
       "country": "AUS",
       "amateur": false,
       "toPar": "-5",
-      "thru": "—"
+      "thru": "3"
     },
     {
-      "position": "T11",
+      "position": "T10",
       "name": "Jimmy Zheng",
       "country": "NZL",
+      "amateur": false,
+      "toPar": "-4",
+      "thru": "F"
+    },
+    {
+      "position": "T10",
+      "name": "Blaike Perkins",
+      "country": "AUS",
+      "amateur": false,
+      "toPar": "-4",
+      "thru": "15"
+    },
+    {
+      "position": "T10",
+      "name": "Braden Becker",
+      "country": "AUS",
+      "amateur": false,
+      "toPar": "-4",
+      "thru": "12"
+    },
+    {
+      "position": "T10",
+      "name": "Douglas Klein",
+      "country": "AUS",
       "amateur": false,
       "toPar": "-4",
       "thru": "6"
     },
     {
-      "position": "T11",
-      "name": "James Marchesani",
-      "country": "AUS",
-      "amateur": false,
-      "toPar": "-4",
-      "thru": "—"
-    },
-    {
-      "position": "T11",
+      "position": "T10",
       "name": "Mitchell Bowlin",
       "country": "USA",
       "amateur": false,
@@ -112,7 +120,7 @@
       "thru": "—"
     },
     {
-      "position": "T11",
+      "position": "T10",
       "name": "Samuel Slater",
       "country": "AUS",
       "amateur": false,
@@ -120,7 +128,7 @@
       "thru": "—"
     },
     {
-      "position": "T11",
+      "position": "T10",
       "name": "Brett Rankin",
       "country": "AUS",
       "amateur": false,
@@ -128,7 +136,7 @@
       "thru": "—"
     },
     {
-      "position": "T11",
+      "position": "T10",
       "name": "Lucas Higgins",
       "country": "AUS",
       "amateur": false,
@@ -136,36 +144,28 @@
       "thru": "—"
     },
     {
-      "position": "T17",
+      "position": "T18",
       "name": "Connor McDade",
       "country": "AUS",
       "amateur": false,
       "toPar": "-3",
-      "thru": "9"
+      "thru": "F"
     },
     {
-      "position": "T17",
-      "name": "Blake Proverbs",
+      "position": "T18",
+      "name": "Harrison Crowe",
       "country": "AUS",
       "amateur": false,
       "toPar": "-3",
-      "thru": "9"
+      "thru": "F"
     },
     {
-      "position": "T17",
-      "name": "Phoenix Campbell",
-      "country": "AUS",
-      "amateur": false,
-      "toPar": "-3",
-      "thru": "6"
-    },
-    {
-      "position": "T17",
+      "position": "T18",
       "name": "Jediah Morgan",
       "country": "AUS",
       "amateur": false,
       "toPar": "-3",
-      "thru": "6"
+      "thru": "F"
     }
   ]
 }
