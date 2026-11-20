@@ -11,6 +11,7 @@
     'Blue Lights — Season 4':{
       search:"Blue Lights official trailer",
       video:'C2fifCku6IU',
+      thumbnailVideo:'yPSUvnhuWi4', // Official Season 4 trailer artwork.
       summary:"The Belfast police drama follows frontline officers balancing crime, community tensions and personal danger.",
       source:"BBC"
     },
@@ -24,6 +25,7 @@
     'Tulsa King — Season 4':{
       search:"Tulsa King official trailer",
       video:'NXpzKI-sEac',
+      thumbnailVideo:'Qq8yAg8urfY', // Official Season 4 trailer artwork.
       wiki:'Tulsa King',
       summary:"Dwight Manfredi continues building his criminal operation in Tulsa while rivalries and pressure mount.",
       source:"Paramount+"
