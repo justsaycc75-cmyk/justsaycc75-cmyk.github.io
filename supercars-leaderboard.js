@@ -42,7 +42,7 @@
       waiting.hidden = false;
       session.textContent = '26–29 November · Awaiting session positions';
       status.textContent = 'No verified Adelaide session positions published yet.';
-      note.textContent = 'The top 20 will use the same format as the golf leaderboard. Published positions will show their actual update time.';
+      note.textContent = 'The top 20 will appear here once verified session positions are available, with the time they were updated.';
       return;
     }
     board.hidden = false;
