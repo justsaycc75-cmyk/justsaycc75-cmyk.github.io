@@ -131,8 +131,25 @@
       </div>
     </a>
 
-    <a href="sport-current.html" class="front-photo-card image-only-card sport-image-card" aria-label="Sport Central — NRL, NFL and EPL">
-      <img src="Sport.png" alt="Sport Central — NRL, NFL and EPL">
+    <a href="sport-current.html" class="front-photo-card image-only-card sport-image-card" aria-label="Sport Central — NRL, NFL, EPL and Golf">
+      <svg class="sport-central-art" viewBox="0 0 1374 1145" width="1374" height="1145" aria-hidden="true" focusable="false">
+        <defs>
+          <linearGradient id="sport-golf-tile" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7faf9"/><stop offset=".66" stop-color="#f2f7f6"/><stop offset="1" stop-color="#e1e9e6"/></linearGradient>
+          <linearGradient id="sport-golf-footer" x1="0" y1="0" x2=".22" y2="1"><stop stop-color="#071c0f"/><stop offset="1" stop-color="#072112"/></linearGradient>
+          <filter id="sport-golf-soft-edge" x="-12%" y="-25%" width="124%" height="150%"><feGaussianBlur stdDeviation="6"/></filter>
+        </defs>
+        <image href="Sport.png" width="1374" height="1145"/>
+        <rect x="1037" y="596" width="200" height="224" fill="url(#sport-golf-tile)" filter="url(#sport-golf-soft-edge)"/>
+        <g fill="#0b291b" stroke="#0b291b">
+          <ellipse cx="1136" cy="724" rx="57" ry="15" stroke="none"/>
+          <path d="M1135 724V613" stroke-width="10" stroke-linecap="round"/>
+          <path d="M1140 613L1200 632L1140 655Z" stroke="none"/>
+          <circle cx="1056" cy="710" r="13" stroke="none"/>
+        </g>
+        <text x="1137" y="802" text-anchor="middle" fill="#0b2519" font-family="Arial, sans-serif" font-size="52" font-weight="700">Golf</text>
+        <rect x="675" y="920" width="235" height="84" fill="url(#sport-golf-footer)" filter="url(#sport-golf-soft-edge)"/>
+        <text x="686" y="981" fill="#e2e9e7" font-family="Arial, sans-serif" font-size="62" font-weight="500">Golf</text>
+      </svg>
     </a>
 
 `;
@@ -178,6 +195,9 @@
 
       .front-photo-card.image-only-card{height:170px;padding:0!important;background:#07100b}.front-photo-card.sport-image-card{height:195px!important;background:#07100b!important;border-color:#31513a!important}.front-photo-card.sport-image-card img{object-fit:contain!important;background:#07100b!important;padding:0!important}
       .front-photo-card.image-only-card:after{display:none!important}
+      .sport-image-card .sport-central-art{display:block;width:100%;height:100%;transition:transform .22s ease,filter .22s ease}
+      .sport-image-card:hover .sport-central-art{transform:scale(1.025);filter:brightness(1.04)}
+      @media(prefers-reduced-motion:reduce){.sport-image-card .sport-central-art{transition:none}.sport-image-card:hover .sport-central-art{transform:none}}
       .front-photo-card.image-only-card img{width:100%!important;height:100%!important;object-fit:cover!important;object-position:center!important;display:block}
       .front-photo-card.image-only-card[href="radio.html"] img{object-fit:contain!important;background:#07100b;padding:4px!important}
       .front-photo-card.news-rail-card{height:170px!important;padding:0!important;overflow:hidden;background:#07101c!important;border-color:#234666!important}
