@@ -1,0 +1,39 @@
+{
+  "updatedAt": "2026-11-24T06:41+11:00",
+  "headline": "Wall Street jumps on chip rally after another ASX loss",
+  "paragraphs": [
+    "Wall Street was sharply higher around 4 am Sydney time. The S&P 500 was up 4.9% at that point; the Nasdaq-100 was up 6.6% in a separate intraday reading, as chip shares rallied after Nvidia reinstated Jensen Huang as CEO. That put tech out in front, but those gains were not closing figures.",
+    "Australia missed that bounce: the ASX 200 closed Monday down 0.26% at 8,570.56, its eighth consecutive fall. Banks weighed on the index even as miners recovered. The Aussie dollar also slipped, from US66.66¢ on Friday to US66.38¢ at the RBA’s Monday afternoon reading.",
+    "Gold and oil went in opposite directions. Spot gold rebounded 3.9% to about US$3,670 an ounce in US trading as buyers stepped in after Friday’s 14-month low. Brent fell about 3.5% to about US$89.32 a barrel as rising supply weighed on prices. Both are intraday readings."
+  ],
+  "sources": [
+    {
+      "label": "AP: US markets",
+      "url": "https://apnews.com/article/49ba1beba78fa4ed2bd5898029f79c91"
+    },
+    {
+      "label": "Reuters: Nasdaq-100",
+      "url": "https://www.investing.com/news/stock-market-news/ai-rally-set-to-add-2-trillion-to-nasdaq100-as-huang-returns-to-nvidia-helm-5045967"
+    },
+    {
+      "label": "Nvidia",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Board-Reinstates-Jensen-Huang-as-President-CEO-and-Board-Director/default.aspx"
+    },
+    {
+      "label": "AAP: ASX",
+      "url": "https://www.benallaensign.com.au/aap-finance/australian-shares-sink-for-eighth-straight-session/"
+    },
+    {
+      "label": "Reserve Bank of Australia",
+      "url": "https://www.rba.gov.au/statistics/frequency/exchange-rates.html"
+    },
+    {
+      "label": "Reuters: gold",
+      "url": "https://www.marketscreener.com/news/gold-rises-as-bargain-hunters-step-in-after-steep-weekly-drop-ce7851dada81f426"
+    },
+    {
+      "label": "Reuters: oil",
+      "url": "https://au.investing.com/news/commodities-news/oil-prices-fall-amid-equity-selloff-though-iran-war-attacks-limit-losses-4789095"
+    }
+  ]
+}

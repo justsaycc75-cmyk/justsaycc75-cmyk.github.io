@@ -4,6 +4,13 @@
 .market-hero-copy{padding:34px;border:1px solid #2f4135;border-radius:26px;background:radial-gradient(circle at 10% 90%,rgba(170,255,34,.12),transparent 30%),linear-gradient(145deg,#0d1711,#09100c)}
 .market-hero-copy h1{margin:.18em 0 .15em;font-size:clamp(3.5rem,7vw,6.4rem);line-height:.9;letter-spacing:-.055em}
 .market-hero-copy p{font-size:1.08rem;line-height:1.65;color:#d0d9d2;max-width:720px}
+.market-wrap{margin-top:23px;padding-top:18px;border-top:1px solid #35493a}
+.market-wrap h2{font-size:clamp(1.22rem,2.2vw,1.6rem);line-height:1.22;margin:.4rem 0 .35rem;color:#f4f7ed;overflow-wrap:anywhere}
+.market-wrap .market-wrap-copy p{font-size:1rem;line-height:1.57;margin:.78em 0}
+.market-wrap .market-wrap-meta,.market-wrap .market-wrap-status{font-size:.81rem;line-height:1.45;margin:.35rem 0;color:#b9c9bc}
+.market-wrap .market-wrap-status{color:#ffcc81}
+.market-wrap .market-wrap-sources:not([hidden]){display:flex;flex-wrap:wrap;gap:5px 12px;margin:.8rem 0 0;font-size:.81rem;line-height:1.55;color:#b9c9bc}
+.market-wrap-sources a{color:var(--lime);text-underline-offset:3px;overflow-wrap:anywhere}
 .market-hero-copy .market-cta{display:inline-flex;margin-top:18px;padding:11px 16px;border:1px solid #425248;border-radius:999px;color:var(--lime);font-weight:900;text-decoration:none}
 .market-hero-copy .market-cta:hover{border-color:var(--lime);background:#111a13}
 .market-visual-panel{border:1px solid #2f4135;border-radius:26px;padding:22px;background:radial-gradient(circle at 75% 15%,rgba(170,255,34,.1),transparent 24%),linear-gradient(145deg,#07120b,#0a160f);overflow:hidden}
@@ -55,7 +62,17 @@
 @media(max-width:520px){.gauge-grid,.market-links{grid-template-columns:1fr}.market-hero-copy,.market-visual-panel,.market-panel{padding:16px}}
 </style><script type="module" src="https://widgets.tradingview-widget.com/w/en/tv-mini-chart.js"></script><script type="module" src="https://widgets.tradingview-widget.com/w/en/tv-market-overview.js"></script></head><body><header class="topbar"><div class="wrap nav"><a class="brand" href="index.html">MY <b>RETIREMENT</b> PAGE</a><button class="menu-btn" data-menu-button aria-label="Open navigation">MENU</button><nav><a href="music.html">Music</a><a href="journeys.html">Journeys</a><a href="hunter.html">Hunter</a><a href="watching.html">Watching</a><a href="sport-current.html">Sport</a><a href="radio.html">Radio</a><a href="markets.html">Markets</a></nav></div></header><main><section class="section"><div class="market-shell">
 <div class="market-hero">
-  <div class="market-hero-copy"><div class="kicker">Markets</div><h1>Global Markets<br><span style="color:var(--lime)">Snapshot</span></h1><p>A faster, more visual way to read the day: Australia, Wall Street, tech, currencies, gold and oil — six live snapshots with the deeper detail underneath.</p><a class="market-cta" href="#live-markets">Jump to live markets →</a></div>
+  <div class="market-hero-copy"><div class="kicker">Markets</div><h1>Global Markets<br><span style="color:var(--lime)">Snapshot</span></h1>
+    <article class="market-wrap" aria-labelledby="market-wrap-label">
+      <div id="market-wrap-label" class="kicker">The last 24 hours</div>
+      <h2 id="market-wrap-headline" hidden></h2>
+      <p class="market-wrap-meta"><time id="market-wrap-updated" hidden></time><span id="market-wrap-sep" hidden> · </span>Updated at 6 am and 6 pm Sydney time</p>
+      <p id="market-wrap-status" class="market-wrap-status" role="status">Loading the market wrap…</p>
+      <div id="market-wrap-copy" class="market-wrap-copy"></div>
+      <div id="market-wrap-sources" class="market-wrap-sources" hidden></div>
+      <noscript><p>The charts are below. JavaScript is needed to display the latest market wrap.</p></noscript>
+    </article>
+    <a class="market-cta" href="#live-markets">Jump to live markets →</a></div>
   <div class="market-visual-panel">
   <div class="market-worldline">
     <span>NEW YORK</span><i></i><span>LONDON</span><i></i><span>SYDNEY</span>
@@ -136,4 +153,4 @@
 <a class="market-link" href="https://www.tradingview.com/symbols/TVC-NI225/" target="_blank" rel="noopener"><small>Japan</small><strong>Nikkei 225 →</strong></a>
 <a class="market-link" href="https://www.tradingview.com/symbols/XAUUSD/" target="_blank" rel="noopener"><small>Commodity</small><strong>Gold →</strong></a>
 <a class="market-link" href="https://www.tradingview.com/symbols/AUDUSD/" target="_blank" rel="noopener"><small>Currency</small><strong>AUD / USD →</strong></a>
-</div></div></section></main><footer class="footer"><div class="wrap footer-grid"><span>© My Retirement Page</span><span>Markets without the noise.</span></div> <a href="privacy.html" style="font-size:.78em;opacity:.8">Visitor privacy</a></footer><script src="script.js?v=20260924-audit"></script><img src="https://www.stats4u.net/c/7154822844-980.png" width="1" height="1" alt="" aria-hidden="true" style="position:absolute;width:1px;height:1px;opacity:0;pointer-events:none"></body></html>
+</div></div></section></main><footer class="footer"><div class="wrap footer-grid"><span>© My Retirement Page</span><span>Markets without the noise.</span></div> <a href="privacy.html" style="font-size:.78em;opacity:.8">Visitor privacy</a></footer><script src="script.js?v=20260924-audit"></script><script src="market-wrap.js?v=20261123-wrap" defer></script><img src="https://www.stats4u.net/c/7154822844-980.png" width="1" height="1" alt="" aria-hidden="true" style="position:absolute;width:1px;height:1px;opacity:0;pointer-events:none"></body></html>
