@@ -1,0 +1,76 @@
+name: Website Health and Photo Repair
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/website-health.yml'
+      - 'tools/site-health.mjs'
+      - 'tools/cache-tour-photos.py'
+  schedule:
+    - cron: '17 * * * *'
+    - cron: '37 19 * * *'
+    - cron: '47 20 * * 0'
+permissions:
+  contents: read
+concurrency:
+  group: website-health
+  cancel-in-progress: false
+jobs:
+  cache:
+    if: github.event_name != 'schedule' || github.event.schedule == '37 19 * * *'
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests beautifulsoup4 pillow
+      - name: Cache and validate photographs
+        id: photos
+        continue-on-error: true
+        run: python tools/cache-tour-photos.py
+      - name: Commit only validated photo repairs
+        run: |
+          git config user.name 'website-health[bot]'
+          git config user.email 'website-health[bot]@users.noreply.github.com'
+          git add world-cruise-journal.html assets/img/world-cruise-2029/tour-cache
+          if ! git diff --cached --quiet; then
+            git commit -m 'Cache validated licensed tour photographs'
+            git push
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: photo-cache-report
+          path: health-report/photo-cache.json
+          retention-days: 14
+      - name: Flag unresolved photographs
+        if: steps.photos.outcome == 'failure'
+        run: exit 1
+  audit:
+    if: always()
+    needs: [cache]
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --no-save playwright
+      - run: npx playwright install --with-deps chromium
+      - name: Audit public site
+        env:
+          SITE_URL: https://justsaycc75-cmyk.github.io/
+          AUDIT_MODE: ${{ github.event_name == 'schedule' && github.event.schedule == '17 * * * *' && 'hourly' || 'full' }}
+        run: node tools/site-health.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: website-health-report
+          path: health-report/
+          retention-days: 14
