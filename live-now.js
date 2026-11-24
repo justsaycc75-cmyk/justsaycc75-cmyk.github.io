@@ -79,14 +79,21 @@
     if (issPending) return;
     issPending = true;
     try {
-      // Visible passes only; predictions use current CelesTrak orbital elements.
-      const data = await getIssJson('https://iss-api.polluxlabs.io/iss-pass?lat=-33.8688&lon=151.2093&visible_only=true&n=5&days_ahead=10');
-      const generated = Date.parse(data.generated_at);
-      if (data.tle_stale || !Number.isFinite(generated) || Date.now() - generated > 24 * 60 * 60e3 || generated - Date.now() > 5 * 60e3) {
-        throw new Error('Stale orbit prediction');
+      // Prefer locally generated predictions, avoiding third-party browser failures.
+      function validate(data) {
+        const generated=Date.parse(data.generated_at);
+        if(data.tle_stale || !Number.isFinite(generated) || Date.now()-generated>24*60*60e3 || generated-Date.now()>5*60e3 || !Array.isArray(data.passes)) throw new Error('Stale or invalid predictions');
+        return data;
       }
-      if (!Array.isArray(data.passes)) throw new Error('Invalid pass list');
-      const next = data.passes.find(pass => pass.visible && Date.parse(pass.visible_start || pass.rise?.time) > Date.now());
+      let data,source;
+      try {
+        data=validate(await getJson('data/iss-sydney.json'));
+        source='CelesTrak / Skyfield';
+      } catch (_) {
+        data=validate(await getIssJson('https://iss-api.polluxlabs.io/iss-pass?lat=-33.8688&lon=151.2093&visible_only=true&n=5&days_ahead=10'));
+        source='Pollux / CelesTrak';
+      }
+      const next = [...data.passes].filter(pass => pass.visible && Date.parse(pass.visible_start || pass.rise?.time) > Date.now()).sort((a,b)=>Date.parse(a.visible_start||a.rise?.time)-Date.parse(b.visible_start||b.rise?.time))[0];
       if (!next) {
         issValue.textContent = 'No visible pass listed';
         issDetail.textContent = 'The station still circles overhead, but no visible Sydney pass is predicted in the next 10 days.';
@@ -98,9 +105,9 @@
           ? `If the sky is clear, watch for a bright point moving steadily overhead. This pass is predicted to peak near ${Math.round(elevation)}°.`
           : 'If the sky is clear, watch for a bright point moving steadily across Sydney’s sky.';
       }
-      issTime.textContent = 'Prediction: Pollux/CelesTrak · check Sydney pass list for changes';
+      issTime.textContent = 'Prediction: '+source+' · updated '+sydneyTime.format(new Date(data.generated_at));
     } catch (_) {
-      issValue.textContent = 'Find the next visible pass';
+      issValue.textContent = 'Next visible pass unavailable';
       issDetail.textContent = 'Look for a bright point moving steadily across the sky. The prediction is unavailable here; check the Sydney pass list.';
       issTime.textContent = 'Prediction unavailable — check Sydney pass list';
     } finally {
@@ -113,6 +120,6 @@
     updateIss();
   }
   refresh();
-  setInterval(() => { if (!document.hidden) refresh(); }, 30 * 60 * 1000);
+  setInterval(() => { if (!document.hidden) refresh(); }, 5 * 60 * 1000);
   document.addEventListener('visibilitychange', () => { if (!document.hidden) refresh(); });
 })();
