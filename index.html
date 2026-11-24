@@ -8,6 +8,17 @@
 
 :is(#golf-tournament,#live-supercars-next.supercars-score-panel){scroll-margin-top:90px;display:block;background:radial-gradient(ellipse at top right,#284534,#101e19 65%);text-align:left}
 #golf-tournament .golf-card-head{margin-bottom:0}
+#golf-tournament .golf-course-art svg{display:block;width:100%;height:auto;border:1px solid #55745f;border-radius:12px;box-sizing:border-box}
+#golf-tournament .golf-table .golf-empty{padding:17px 12px;text-align:center;color:#dcebe0}
+#golf-tournament .golf-draw-note{margin-top:10px}
+#golf-tournament .golf-draw-note a{display:inline;padding:0;margin:0;border:0;font-size:inherit;text-decoration:underline}
+#golf-tournament .golf-previous{margin-top:16px;border:1px solid #415e4c;border-radius:10px;background:#162a20;color:#e7f0e9}
+#golf-tournament .golf-previous summary{cursor:pointer;padding:12px 14px;font-weight:700;line-height:1.45;color:#d7ff75}
+#golf-tournament .golf-previous summary:focus-visible{outline:3px solid #c4ff55;outline-offset:4px}
+#golf-tournament .golf-previous-body{padding:0 14px 14px}
+#golf-tournament .golf-archive-links{margin-top:10px}
+@media(max-width:450px){#golf-tournament .golf-bmw-table thead th{padding-inline:2px;font-size:.77rem}}
+
 #golf-tournament .golf-actions .golf-primary-link{background:#d7ff75;border-color:#d7ff75;color:#11220f}
 .golf-panel-head{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(180px,.7fr);gap:24px;align-items:center;margin-bottom:22px}
 :is(#golf-tournament,#live-supercars-next.supercars-score-panel) .golf-kicker{font-size:.9rem;font-weight:800;letter-spacing:.12em;color:#c4ff55;margin:0 0 8px}
@@ -307,22 +318,59 @@
 </script>
 <section class="howto-feature" aria-labelledby="howto-feature-title"><div class="howto-feature-copy"><div class="howto-eyebrow">Everyday know-how</div><h2 id="howto-feature-title">How Do I<br>Do That?</h2><p>Free guides, practical ideas and useful websites for everyday things — from home projects and tech help to gardening, cooking, smart household fixes and finding better cruise deals.</p><a href="how-to.html">Explore the free guides →</a><small class="howto-feature-credit"><a href="how-to-photo-credits.html">Photo credits</a></small></div><div class="howto-tiles" aria-label="Choose a how-to category"><a class="howto-tile diy" href="how-to.html#diy"><span class="howto-tile-inner"><span class="howto-symbol" aria-hidden="true">⌂</span><span><span class="howto-tile-name">Home &amp; DIY</span><span class="howto-tile-sub">BUILD · FIX · IMPROVE</span></span></span></a><a class="howto-tile tech" href="how-to.html#tech"><span class="howto-tile-inner"><span class="howto-symbol" aria-hidden="true">⚙</span><span><span class="howto-tile-name">Tech Help</span><span class="howto-tile-sub">SOLVE · SET UP · LEARN</span></span></span></a><a class="howto-tile garden" href="how-to.html#garden"><span class="howto-tile-inner"><span class="howto-symbol" aria-hidden="true">✿</span><span><span class="howto-tile-name">Gardening</span><span class="howto-tile-sub">PLANT · GROW · ENJOY</span></span></span></a><a class="howto-tile cooking" href="how-to.html#cooking"><span class="howto-tile-inner"><span class="howto-symbol" aria-hidden="true">♨</span><span><span class="howto-tile-name">Cooking</span><span class="howto-tile-sub">RECIPES · SKILLS · FOOD</span></span></span></a><a class="howto-tile life" href="how-to.html#life"><span class="howto-tile-inner"><span class="howto-symbol" aria-hidden="true">✦</span><span><span class="howto-tile-name">Home &amp; Life Hacks</span><span class="howto-tile-sub">SMART IDEAS · EASY FIXES</span></span></span></a><a class="howto-tile cruises" href="how-to.html#cruises"><span class="howto-tile-inner"><span class="howto-symbol" aria-hidden="true">⚓</span><span><span class="howto-tile-name">Cruise Deals</span><span class="howto-tile-sub">FIND · COMPARE · SAIL</span></span></span></a></div></section>
 <a class="watch-feature" href="watching.html" aria-label="Open What We’re Watching"><div class="watch-feature-copy"><div class="kicker">Screen time</div><h2>What We’re Watching</h2><p>Crime, thrillers, dark drama and the series actually worth sticking with.</p><strong>Open the watch list →</strong></div><div class="stream-montage" aria-hidden="true"><span>NETFLIX</span><span>STAN</span><span>HBO MAX</span><span>PRIME VIDEO</span><span>APPLE TV+</span><span>FOXTEL</span></div></a>
-<section id="golf-tournament" class="supercars-feature golf-feature" aria-labelledby="golf-tournament-title">
+<section id="golf-tournament" class="supercars-feature golf-feature" data-golf-event="bmw-australian-pga-2026" aria-labelledby="golf-tournament-title">
 <div class="golf-panel-head golf-card-head">
   <div>
-    <p class="golf-kicker">CHALLENGER PGA TOUR OF AUSTRALASIA</p>
-    <h2 id="golf-tournament-title">Queensland PGA Championship</h2>
-    <p class="golf-details">19–22 November 2026 · Nudgee Golf Club<br>Kurrai Course, Brisbane</p>
-    <p class="golf-note">For the full final standings, open the official leaderboard. No sign-in required.</p>
+    <p class="golf-kicker">DP WORLD TOUR · CHALLENGER PGA TOUR OF AUSTRALASIA</p>
+    <h2 id="golf-tournament-title">BMW Australian PGA Championship</h2>
+    <p class="golf-details">26–29 November 2026 · The Lakes Golf Club<br>Eastlakes, Sydney</p>
+    <p class="golf-note">The championship returns to The Lakes for the first time since 1987 and opens the 2027 DP World Tour season.</p>
     <div class="golf-actions">
-      <a class="golf-primary-link" href="https://pga-live.pga-tic.com/tic/tmscores.cgi?tourn=1066~season=2026~params=PG0SSA00999" target="_blank" rel="noopener noreferrer">Official leaderboard <span aria-hidden="true">↗</span></a>
-      <a href="https://www.nudgeegolf.com.au/cms/qld-pga-championship/" target="_blank" rel="noopener noreferrer">Tournament information</a>
+      <a class="golf-primary-link" href="https://www.europeantour.com/dpworld-tour/bmw-australian-pga-championship-2027/" target="_blank" rel="noopener noreferrer">Official tournament coverage <span aria-hidden="true">↗</span></a>
+      <a href="https://www.europeantour.com/dpworld-tour/bmw-australian-pga-championship-2027/tee-times" target="_blank" rel="noopener noreferrer">Official tee times</a>
+      <a href="https://golf.com.au/aus-pga-info" target="_blank" rel="noopener noreferrer">Event guide</a>
     </div>
   </div>
-  <figure class="golf-photo"><img src="https://i.nextmedia.com.au/News/nudgee-golf.jpg" alt="Nudgee Golf Club’s green and sculpted bunkers below the clubhouse in warm afternoon light" loading="lazy" decoding="async"><figcaption>Photo · <a href="https://www.golfaustralia.com.au/news/the-preview-qld-pga-championship-587881" target="_blank" rel="noopener noreferrer">Golf Australia Magazine</a></figcaption></figure>
+  <figure class="golf-photo golf-course-art">
+    <svg viewBox="0 0 480 270" width="480" height="270" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="bmw-sky" x2="0" y2="1"><stop stop-color="#142e35"/><stop offset="1" stop-color="#46795c"/></linearGradient>
+        <linearGradient id="bmw-grass" x2=".6" y2="1"><stop stop-color="#75a45d"/><stop offset="1" stop-color="#245439"/></linearGradient>
+        <clipPath id="bmw-green"><path d="M-20 251c107-48 125-30 212-50 99-24 100-53 172-72 30-8 77-11 122-3v144H-20z"/></clipPath>
+      </defs>
+      <path fill="url(#bmw-sky)" d="M0 0h480v270H0z"/>
+      <circle cx="344" cy="66" r="29" fill="#ffe5a8"/>
+      <path fill="#294e41" d="M0 122q92-86 198 2 60-54 171-20 54-41 111-25v95H0z"/>
+      <path fill="#367174" d="M0 144q96 22 191-5 136-22 289 8v83H0z"/>
+      <path d="M38 168q109 11 189-15m-168 33q76 5 122-9m146-24q72-10 114-2" fill="none" stroke="#93c8ad" stroke-opacity=".46" stroke-width="2" stroke-linecap="round"/>
+      <path fill="url(#bmw-grass)" d="M-20 251c107-48 125-30 212-50 99-24 100-53 172-72 30-8 77-11 122-3v144H-20z"/>
+      <g clip-path="url(#bmw-green)" fill="none" stroke="#c4d893" stroke-opacity=".26" stroke-width="2">
+        <path d="M-34 259c82-26 104-22 196-28 168-10 157-101 335-83m-531 123c82-26 104-22 196-28 168-10 157-101 335-83m-531 124c82-26 104-22 196-28 168-10 157-101 335-83m-531 124c82-26 104-22 196-28 168-10 157-101 335-83m-531 124c82-26 104-22 196-28 168-10 157-101 335-83"/>
+      </g>
+      <path fill="#e7cca1" d="M19 246c27-6 54-15 89-16 18-1 24 7 12 12-24 10-81 11-101 4zm375-65c21-4 52-5 76 3 13 4 9 10-4 10-17 1-28-4-42-3-15 1-43-5-30-10z"/>
+      <ellipse cx="302" cy="206" rx="14" ry="4" fill="#193f2b"/>
+      <path d="M302 206v-70" stroke="#fff6d8" stroke-width="3" stroke-linecap="round"/>
+      <path d="M304 137h40l-11 10 11 10h-40z" fill="#d7ff75"/>
+      <circle cx="229" cy="223" r="3.5" fill="#fff9e8"/>
+    </svg>
+    <figcaption>Course illustration · <a href="https://www.europeantour.com/dpworld-tour/news/articles/detail/the-lakes-golf-club-to-host-the-bmw-australian-pga-championship/" target="_blank" rel="noopener noreferrer">See the venue on DP World Tour</a></figcaption>
+  </figure>
 </div>
 <div class="golf-panel-footer" aria-labelledby="golf-board-title">
-  <h3 class="golf-board-title" id="golf-board-title">Leaderboard · Final results</h3>
+  <h3 class="golf-board-title" id="golf-board-title">Leaderboard · Top 20</h3>
+  <p class="golf-status" id="golf-bmw-status">Round 1 is scheduled to start at 7 am on Thursday 26 November, Sydney time.</p>
+  <table class="golf-table golf-bmw-table">
+    <caption class="golf-sr-only">BMW Australian PGA Championship: leaderboard</caption>
+    <colgroup><col><col><col><col></colgroup>
+    <thead><tr><th scope="col">Pos</th><th scope="col">Player</th><th scope="col">To par</th><th scope="col">Thru</th></tr></thead>
+    <tbody id="golf-bmw-rows"><tr><td class="golf-empty" colspan="4">No scores posted here yet.</td></tr></tbody>
+  </table>
+  <p class="golf-note golf-round-source" id="golf-bmw-source" hidden></p>
+  <p class="golf-note golf-draw-note">The <a href="https://golf.com.au/aus-pga-faqs-2026" target="_blank" rel="noopener noreferrer">organisers scheduled the draw</a> for 5 pm Tuesday 24 November, Sydney time. Use the official tee-times link for published pairings.</p>
+</div>
+<details class="golf-previous" id="golf-qld-archive">
+  <summary>Previous event: Queensland PGA Championship · Declan O’Donovan won at −20</summary>
+  <div class="golf-previous-body">
   <table class="golf-table golf-round-summary">
     <caption class="golf-sr-only">Queensland PGA Championship: final top five, 22 November 2026</caption>
     <colgroup><col><col><col></colgroup>
@@ -336,7 +384,11 @@
     </tbody>
   </table>
   <p class="golf-note golf-round-source">Sunday 22 November · Tournament complete. <a href="https://golf.com.au/news/declan-o-donovan-wins-centenary-queensland-pga" target="_blank" rel="noopener noreferrer">Golf Australia final report</a> · <a href="https://www.foxsports.com.au/en-AU/news/golf/rising-nsw-star-claims-stellar-second-win-stakes-claim-as-aussie-pga-contender/1s76xxmhpv03r14450fyyplma6" target="_blank" rel="noopener noreferrer">Fox Sports final report</a></p>
-</div>
+  <div class="golf-actions golf-archive-links">
+    <a href="https://pga-live.pga-tic.com/tic/tmscores.cgi?tourn=1066~season=2026~params=PG0SSA00999" target="_blank" rel="noopener noreferrer">Full Queensland PGA results <span aria-hidden="true">↗</span></a>
+  </div>
+  </div>
+</details>
 </section>
 <section id="live-supercars-next" class="supercars-feature supercars-score-panel" data-sport-state="pre" data-sport-start="1795613400000" aria-labelledby="supercars-panel-title">
 <div class="golf-panel-head"><div><p class="golf-kicker">REPCO SUPERCARS CHAMPIONSHIP</p><h2 id="supercars-panel-title">Adelaide Grand Final</h2><p class="golf-details">26–29 November 2026<br>Adelaide Parklands Circuit</p><span class="golf-round" data-supercars-session>26–29 November · Awaiting session positions</span></div><figure class="golf-photo"><img src="https://images.ctfassets.net/xd502h20t7lh/3JlLiIcm5CjZcCsrM9le9Q/8095ae8626a2d4ebef3dfe330b7f2cf7/MSR_Perth-119.jpg" alt="A Chevrolet Camaro and Ford Mustang Supercar racing closely together on track" loading="lazy" decoding="async"><figcaption>Photo · <a href="https://www.supercars.com/events/2025-adelaide" target="_blank" rel="noopener noreferrer">Supercars</a></figcaption></figure></div>
