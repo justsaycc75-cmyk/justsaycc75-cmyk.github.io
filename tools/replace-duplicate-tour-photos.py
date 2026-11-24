@@ -110,7 +110,7 @@ for article in soup.select("article.port"):
             if done: break
             try:
                 # Namespace 6 selects files; do not use the unsupported bitmap filter.
-                pages=api({"generator":"search","gsrsearch":subject,"gsrnamespace":6,"gsrlimit":12,"prop":"imageinfo","iiprop":"url|size|mime|sha1|extmetadata","iiurlwidth":800,"iiextmetadatafilter":"Artist|LicenseShortName|LicenseUrl|ImageDescription|ObjectName"})
+                pages=api({"generator":"search","gsrsearch":subject,"gsrnamespace":6,"gsrlimit":24,"prop":"imageinfo","iiprop":"url|size|mime|sha1|extmetadata","iiurlwidth":800,"iiextmetadatafilter":"Artist|LicenseShortName|LicenseUrl|ImageDescription|ObjectName"})
                 for p in sorted(pages.values(),key=lambda p:p.get("index",999)):
                     title=p.get("title","")
                     candidate=norm(title.removeprefix("File:"))
@@ -130,12 +130,27 @@ for article in soup.select("article.port"):
                     if len([t for t in words if t in evidence])<min(2,len(words)):continue
                     u=info.get("thumburl") or info.get("url","")
                     if urlparse(u).hostname!="upload.wikimedia.org":continue
-                    rr=S.get(u,timeout=35);rr.raise_for_status()
-                    with Image.open(io.BytesIO(rr.content)) as im:
+                    rr=None
+                    for download_url in dict.fromkeys([u,info.get("url","")]):
+                        if urlparse(download_url).hostname!="upload.wikimedia.org":continue
+                        try:
+                            trial=S.get(download_url,timeout=20)
+                            trial.raise_for_status()
+                            if not trial.headers.get("Content-Type","").startswith("image/"):continue
+                            rr=trial;break
+                        except requests.RequestException as e:
+                            reasons.append(str(e))
+                    if rr is None:continue
+                    try:
+                        decoded=Image.open(io.BytesIO(rr.content))
+                        decoded.load()
+                    except Exception as e:
+                        reasons.append(str(e));continue
+                    with decoded as im:
                         im=ImageOps.exif_transpose(im).convert("RGB")
                         dh=dhash(im)
                         if any((dh^prev).bit_count()<=5 for prev in hashes):continue
-                        im.thumbnail((800,800))
+                        im.thumbnail((1000,1000))
                         dest=CACHE/(hashlib.sha256(title.encode()).hexdigest()[:20]+".webp")
                         im.save(dest,"WEBP",quality=88)
                     # Match the original card by both its link and source.
@@ -147,10 +162,11 @@ for article in soup.select("article.port"):
                     src=src[:target.start()]+fragment+src[target.end():]
                     used.add(candidate);seen.add(candidate);hashes.append(dh)
                     report.append({"day":day,"old":oldurl,"new":source,"subject":subject,"status":"replaced"})
+                    PAGE.write_text(src,encoding="utf-8")
                     done=True;break
             except Exception as e:reasons.append(str(e))
             time.sleep(.5)
-        if not done:report.append({"day":day,"old":oldurl,"status":"unresolved","reasons":reasons})
+        if not done:report.append({"day":day,"old":oldurl,"status":"unresolved","reasons":reasons or ["No distinct licensed landscape candidate met the destination and quality checks"]})
 PAGE.write_text(src,encoding="utf-8")
 Path("health-report/duplicate-photos.json").write_text(json.dumps(report,indent=2,ensure_ascii=False),encoding="utf-8")
 replaced=sum(x["status"]=="replaced" for x in report)
