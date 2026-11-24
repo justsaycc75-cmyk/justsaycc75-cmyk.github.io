@@ -1,0 +1,36 @@
+name: Sydney ISS predictions
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/iss-sydney.py'
+      - '.github/workflows/iss-sydney.yml'
+  schedule:
+    - cron: '11 */6 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: iss-sydney-predictions
+  cancel-in-progress: false
+jobs:
+  predict:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install skyfield requests numpy
+      - run: python tools/iss-sydney.py
+      - name: Publish fresh predictions
+        run: |
+          git config user.name 'iss-predictions[bot]'
+          git config user.email 'iss-predictions[bot]@users.noreply.github.com'
+          git add data/iss-sydney.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh Sydney visible ISS predictions'
+            git pull --rebase origin main
+            git push origin main
+          fi
