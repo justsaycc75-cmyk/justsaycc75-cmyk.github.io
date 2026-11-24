@@ -1,39 +1,44 @@
 {
-  "updatedAt": "2026-11-24T06:41+11:00",
-  "headline": "Wall Street jumps on chip rally after another ASX loss",
+  "updatedAt": "2026-11-24T18:03+11:00",
+  "headline": "ASX snaps eight-day slide after Wall Street’s tech rebound",
   "paragraphs": [
-    "Wall Street was sharply higher around 4 am Sydney time. The S&P 500 was up 4.9% at that point; the Nasdaq-100 was up 6.6% in a separate intraday reading, as chip shares rallied after Nvidia reinstated Jensen Huang as CEO. That put tech out in front, but those gains were not closing figures.",
-    "Australia missed that bounce: the ASX 200 closed Monday down 0.26% at 8,570.56, its eighth consecutive fall. Banks weighed on the index even as miners recovered. The Aussie dollar also slipped, from US66.66¢ on Friday to US66.38¢ at the RBA’s Monday afternoon reading.",
-    "Gold and oil went in opposite directions. Spot gold rebounded 3.9% to about US$3,670 an ounce in US trading as buyers stepped in after Friday’s 14-month low. Brent fell about 3.5% to about US$89.32 a barrel as rising supply weighed on prices. Both are intraday readings."
+    "The ASX 200 broke an eight-session losing streak on Tuesday, closing 1.8% higher at 8,726. Technology shares rose 2.8%, and the gains spread across almost every sector. Energy was the exception, down 0.1% as crude oil stayed under pressure.",
+    "Wall Street set the pace on Monday. The S&P 500 closed up 4.7% at 7,237.17 and the Nasdaq-100 climbed 6.86% to 26,746.10. Nvidia’s decision to reinstate Jensen Huang as chief executive added to a rebound already under way in US stocks, with chip and AI shares leading the gains.",
+    "The Aussie dollar didn’t follow shares higher. The Reserve Bank’s Tuesday afternoon rate was 66.27 US cents, down from 66.38 on Monday.",
+    "Gold gave back an early gain: Reuters had spot gold up 0.1% at US$3,635.10 an ounce at 3:49 pm Sydney time, but GoldSquawk quoted it at US$3,626.05, down about 0.2%, at 5:03 pm. Brent crude futures were down 0.7% at US$88.71 a barrel at 4:10 pm as rising supply kept prices near three-month lows. These were intraday readings, not closing prices."
   ],
   "sources": [
     {
-      "label": "AP: US markets",
-      "url": "https://apnews.com/article/49ba1beba78fa4ed2bd5898029f79c91"
+      "label": "ABC: ASX close",
+      "url": "https://www.abc.net.au/news/2026-11-24/asx-markets-business-news-live-updates-nov-24-2026/107419524"
     },
     {
-      "label": "Reuters: Nasdaq-100",
-      "url": "https://www.investing.com/news/stock-market-news/ai-rally-set-to-add-2-trillion-to-nasdaq100-as-huang-returns-to-nvidia-helm-5045967"
+      "label": "AP: Wall Street close",
+      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-fcdf1bad36b4f81c90cbb0f33a2c5704"
     },
     {
-      "label": "Nvidia",
+      "label": "Nasdaq: Nasdaq-100",
+      "url": "https://indexes.nasdaq.com/Index/Weighting/NDX"
+    },
+    {
+      "label": "Nvidia: CEO announcement",
       "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Board-Reinstates-Jensen-Huang-as-President-CEO-and-Board-Director/default.aspx"
     },
     {
-      "label": "AAP: ASX",
-      "url": "https://www.benallaensign.com.au/aap-finance/australian-shares-sink-for-eighth-straight-session/"
-    },
-    {
-      "label": "Reserve Bank of Australia",
-      "url": "https://www.rba.gov.au/statistics/frequency/exchange-rates.html"
+      "label": "RBA: exchange rates",
+      "url": "https://www.rba.gov.au/statistics/frequency/exchange-rates.html?v=2025-05-12-01-20-30"
     },
     {
       "label": "Reuters: gold",
-      "url": "https://www.marketscreener.com/news/gold-rises-as-bargain-hunters-step-in-after-steep-weekly-drop-ce7851dada81f426"
+      "url": "https://au.marketscreener.com/news/gold-edges-higher-on-bargain-buying-us-inflation-data-awaited-ce7851dade80f52d"
     },
     {
-      "label": "Reuters: oil",
-      "url": "https://au.investing.com/news/commodities-news/oil-prices-fall-amid-equity-selloff-though-iran-war-attacks-limit-losses-4789095"
+      "label": "GoldSquawk: later gold quote",
+      "url": "https://www.goldsquawk.com/data"
+    },
+    {
+      "label": "Reuters: Brent crude",
+      "url": "https://www.business-standard.com/amp/markets/commodities/oil-prices-extend-losses-hover-near-three-month-lows-on-supply-concerns-126112400254_1.html"
     }
   ]
 }
