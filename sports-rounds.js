@@ -62,30 +62,43 @@ async function events(c,now){
  const start=windowStart(now),today=Math.floor(now/DAY)*DAY;
  const days=Array.from({length:9},(_,i)=>start+(i-1)*DAY);
  const load=async d=>{const k=dateParam(d),old=caches.get(k);const active=Math.abs(d-today)<=DAY||old?.events.some(e=>state(e)==='in');if(old&&now-old.at<(active?20000:600000))return old.events;const data=await read(c,'?dates='+k);caches.set(k,{at:now,events:data.events});return data.events;};
- let successes=0,failures=0;
+ let successes=0;
+ const failedDates=[];
  const collect=async dates=>{
   const results=await Promise.allSettled(dates.map(load));
   const found=[];
-  for(const r of results){if(r.status==='fulfilled'){successes++;found.push(...r.value);}else failures++;}
+  results.forEach((r,i)=>{if(r.status==='fulfilled'){successes++;found.push(...r.value);}else failedDates.push(dates[i]);});
   return found;
  };
  let out=await collect(days);
  // An international break/off-week should not display old results as current.
  if(!selectRound(out,now,c.league).length)out.push(...await collect(Array.from({length:8},(_,i)=>start+(8+i)*DAY)));
  if(!successes)throw Error('All fixture feeds failed');
- return {games:out,partial:failures>0};
+ return {games:out,partial:failedDates.length>0,failedDates};
 }
 function teamName(t){return t?.team?.displayName||t?.team?.name||'Team';}
 function render(c){
  const now=Date.now();
  let games=selectRound(c.games||[],now,c.league);
+ const eplPartial=c.league==='EPL'&&c.partial&&!c.stale;
+ let unverifiedEarlier=false;
+ if(c.league==='EPL'&&c.failedDates?.length&&games.length){
+  const start=windowStart(now),end=start+7*DAY;
+  const later=games.find(e=>state(e)==='pre'&&stamp(e)>now);
+  const utcFloor=t=>Math.floor(t/DAY)*DAY;
+  // Do not present a future-window fallback as next when an earlier date
+  // is unverified. ESPN buckets by UTC date; matches are grouped in Sydney.
+  unverifiedEarlier=!!later&&!games.some(e=>state(e)==='in'||(dayNumber(stamp(e))>=start&&dayNumber(stamp(e))<end))&&
+    c.failedDates.some(day=>day>=utcFloor(now)&&day<=utcFloor(stamp(later)));
+ }
+ if(unverifiedEarlier)games=[];
  // Never carry last week's final board across Wednesday when the fresh feed failed.
- if(!games.length){c.target.innerHTML='<div class="live-game-badge">'+c.league+' · '+(c.stale?'UPDATE DELAYED':c.partial?'INCOMPLETE COVERAGE':'SCHEDULE')+'</div><p class="live-game-empty">'+(c.stale?'Current round could not be checked.':c.partial?'Some fixture feeds could not be checked. Fixtures may be missing; retrying automatically.':'No fixtures in the current schedule window.')+'</p><a class="live-game-link" href="'+c.url+'" target="_blank" rel="noopener noreferrer">Official fixtures & results ↗</a>';return;}
+ if(!games.length){c.target.innerHTML='<div class="live-game-badge">'+c.league+' · '+(c.stale?'UPDATE DELAYED':c.partial?'INCOMPLETE COVERAGE':'SCHEDULE')+'</div><p class="live-game-empty">'+(unverifiedEarlier?'Could not confirm the next fixtures because earlier dates could not be checked. Retrying automatically.':c.stale?'Current round could not be checked.':c.partial?'Some fixture feeds could not be checked. Fixtures may be missing; retrying automatically.':'No fixtures in the current schedule window.')+'</p><a class="live-game-link" href="'+c.url+'" target="_blank" rel="noopener noreferrer">Official fixtures & results ↗</a>';return;}
  const live=games.filter(e=>state(e)==='in'),pre=games.filter(e=>state(e)==='pre'),post=games.filter(e=>state(e)==='post');
  const featured=live.length?live[Math.floor(now/12000)%live.length]:pre[0]||games[games.length-1];
  const boardState=live.length?(c.stale?'stale-live':'in'):pre.length?'pre':'post';
  const title=c.league==='NFL'&&games[0].week?.number?'Week '+games[0].week.number:'Weekly fixtures';
- const label=c.stale?'UPDATE DELAYED':live.length?'● LIVE + ROUND RESULTS':pre.length?(post.length?'ROUND IN PROGRESS':'COMING UP'):'ROUND RESULTS';
+ const label=c.stale?'UPDATE DELAYED':live.length?'● LIVE + ROUND RESULTS':eplPartial?(pre.length?'PARTIAL FIXTURES':'PARTIAL RESULTS'):pre.length?(post.length?'ROUND IN PROGRESS':'COMING UP'):'ROUND RESULTS';
  const row=e=>{
   const s=state(e),comp=e.competitions[0],ts=comp.competitors;
   const home=ts.find(t=>t.homeAway==='home')||ts[0],away=ts.find(t=>t.homeAway==='away')||ts[1];
@@ -105,13 +118,13 @@ function render(c){
   return '<li class="round-game '+(s==='in'?'round-live':'')+'" data-game-id="'+esc(e.id)+'"><a href="'+esc(href)+'" target="_blank" rel="noopener noreferrer">'+picture+'<span class="round-status">'+(s==='in'?(c.stale?'LAST LIVE SNAPSHOT':'LIVE'):s==='post'?'FINAL':'UPCOMING')+' · '+esc(detail)+'</span><span class="round-teams">'+teamMarkup(first)+'<strong>'+score+'</strong>'+teamMarkup(last)+'</span></a>'+credit+'</li>';
  };
  const focus=live.length?'<p class="round-focus">Now: '+esc(featured.shortName||featured.name)+' · '+esc(status(featured).type?.shortDetail||'In play')+(live.length>1?' · live focus rotates every 12 seconds':'')+'</p>':'';
- const coverage=c.partial&&!c.stale?'<p class="round-policy" role="status">Incomplete coverage: some fixture feeds could not be checked. Showing successful feeds; games may be missing. Retrying automatically.</p>':'';
+ const coverage=c.partial&&!c.stale?'<p class="round-policy" role="status">Incomplete coverage: some fixture feeds could not be checked. '+(eplPartial?'Showing verified fixtures only; some games may be missing.':'Showing successful feeds; games may be missing.')+' Retrying automatically.</p>':'';
  const msg=c.stale?'Update delayed. Scores below are the last successful snapshot, not confirmed current.':'Checked '+clock(c.at)+' Sydney · refreshes every 30 seconds';
  c.target.innerHTML='<article data-sport-state="'+boardState+'" data-sport-start="'+stamp(featured)+'"><div class="live-game-badge '+(live.length&&!c.stale?'is-live':'')+'">'+c.league+' · '+label+'</div><h3 class="round-title">'+esc(title)+'</h3><p class="round-policy">Finished games stay through Tuesday. New round from Wednesday (Sydney). Midweek games remain visible while in play.</p>'+coverage+focus+'<ul class="round-games">'+games.map(row).join('')+'</ul><p class="live-game-empty '+(c.stale?'live-game-stale':'')+'">'+esc(msg)+'</p><a class="live-game-link" href="'+c.url+'" target="_blank" rel="noopener noreferrer">All fixtures & results ↗</a></article>';
 }
 let busy=false;
 async function update(){if(busy)return;busy=true;if(refresh)refresh.disabled=true;
- try{await Promise.all(configs.filter(c=>c.target).map(async c=>{try{const result=await events(c,Date.now());c.games=result.games;c.partial=result.partial;c.at=Date.now();c.stale=false;}catch(e){c.stale=true;}render(c);}));if(updated)updated.textContent='Round boards checked '+clock(Date.now())+' Sydney';}finally{busy=false;if(refresh)refresh.disabled=false;}}
+ try{await Promise.all(configs.filter(c=>c.target).map(async c=>{try{const result=await events(c,Date.now());c.games=result.games;c.partial=result.partial;c.failedDates=result.failedDates;c.at=Date.now();c.stale=false;}catch(e){c.stale=true;}render(c);}));if(updated)updated.textContent='Round boards checked '+clock(Date.now())+' Sydney';}finally{busy=false;if(refresh)refresh.disabled=false;}}
 const style=document.createElement('style');style.textContent='.round-title{margin:.4rem 0;font-size:1.15rem}.round-policy,.round-focus{font-size:.85rem;line-height:1.4;margin:.5rem 0}.round-games{list-style:none;padding:0;margin:.6rem 0}.round-game{border-top:1px solid #b8cbd1;padding:.55rem 0}.round-game a{display:block;text-decoration:none;color:inherit}.round-status{display:block;font-size:.85rem;line-height:1.4;margin-bottom:.3rem}.round-teams{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:.45rem;font-size:.95rem;line-height:1.35}.round-teams span:last-child{text-align:right}.round-teams strong{white-space:nowrap;font-size:.95rem}.round-live{border-left:3px solid #057d52;padding-left:.4rem}.round-live .round-status{font-weight:800;color:#b9ffd6}.round-game a:hover{text-decoration:underline}.round-game a:focus-visible{outline:2px solid #006541;outline-offset:3px}';document.head.appendChild(style);
 refresh?.addEventListener('click',update);window.addEventListener('online',update);document.addEventListener('visibilitychange',()=>{if(!document.hidden)update();});update();setInterval(()=>{if(!document.hidden)update();},30000);setInterval(()=>{if(!document.hidden)configs.filter(c=>c.target&&c.games).forEach(render);},12000);
 })(typeof window==='object'?window:globalThis);
