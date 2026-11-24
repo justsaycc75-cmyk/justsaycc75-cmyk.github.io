@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-24T18:03+11:00",
-  "headline": "ASX snaps eight-day slide after Wall Street’s tech rebound",
+  "updatedAt": "2026-11-25T06:03+11:00",
+  "headline": "US tech gives back gains after the ASX breaks its losing streak",
   "paragraphs": [
-    "The ASX 200 broke an eight-session losing streak on Tuesday, closing 1.8% higher at 8,726. Technology shares rose 2.8%, and the gains spread across almost every sector. Energy was the exception, down 0.1% as crude oil stayed under pressure.",
-    "Wall Street set the pace on Monday. The S&P 500 closed up 4.7% at 7,237.17 and the Nasdaq-100 climbed 6.86% to 26,746.10. Nvidia’s decision to reinstate Jensen Huang as chief executive added to a rebound already under way in US stocks, with chip and AI shares leading the gains.",
-    "The Aussie dollar didn’t follow shares higher. The Reserve Bank’s Tuesday afternoon rate was 66.27 US cents, down from 66.38 on Monday.",
-    "Gold gave back an early gain: Reuters had spot gold up 0.1% at US$3,635.10 an ounce at 3:49 pm Sydney time, but GoldSquawk quoted it at US$3,626.05, down about 0.2%, at 5:03 pm. Brent crude futures were down 0.7% at US$88.71 a barrel at 4:10 pm as rising supply kept prices near three-month lows. These were intraday readings, not closing prices."
+    "The ASX 200 closed Tuesday up 1.8% at 8,726, ending eight straight down sessions. Local technology shares rose 2.8%, catching up with Monday’s US rally. The next US session told a different story: by 5:54 am Wednesday Sydney time the S&P 500 was down 0.60% at 7,193.69, while Nasdaq’s Tuesday intraday reading put the Nasdaq-100 down 1.99% at 26,213.16. Wall Street was still open.",
+    "The weakness was more pronounced in tech than in the broad market, even as US consumer confidence improved. The Conference Board’s November index rose to 103.3 from a revised 91.9 in October. The Australian dollar edged back up to 66.45 US cents at 5:15 am Sydney, after the RBA recorded 66.27 US cents at 4 pm Tuesday.",
+    "Gold gave up more ground overnight: Kitco’s spot bid was down 2.13% to US$3,556.90 a troy ounce at 5:49 am Sydney. Oil moved the other way: January Brent futures recovered to US$89.88 a barrel, up 0.57%, in a 4:05 am Sydney reading. Those are snapshots, not final prices.",
+    "Australia’s October CPI is due at 11:30 am Wednesday. The US October PCE inflation report and the second estimate of third-quarter GDP follow at 12:30 am Thursday, Sydney time."
   ],
   "sources": [
     {
@@ -13,32 +13,40 @@
       "url": "https://www.abc.net.au/news/2026-11-24/asx-markets-business-news-live-updates-nov-24-2026/107419524"
     },
     {
-      "label": "AP: Wall Street close",
-      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-fcdf1bad36b4f81c90cbb0f33a2c5704"
+      "label": "Google Finance: S&P 500",
+      "url": "https://www.google.com/finance/beta/quote/.INX:INDEXSP"
     },
     {
-      "label": "Nasdaq: Nasdaq-100",
-      "url": "https://indexes.nasdaq.com/Index/Weighting/NDX"
+      "label": "Nasdaq: Nasdaq-100 index",
+      "url": "https://indexes.nasdaq.com/Index/Overview/NDX"
     },
     {
-      "label": "Nvidia: CEO announcement",
-      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Board-Reinstates-Jensen-Huang-as-President-CEO-and-Board-Director/default.aspx"
+      "label": "The Conference Board: US confidence",
+      "url": "https://www.conference-board.org/topics/consumer-confidence/"
     },
     {
       "label": "RBA: exchange rates",
-      "url": "https://www.rba.gov.au/statistics/frequency/exchange-rates.html?v=2025-05-12-01-20-30"
+      "url": "https://www.rba.gov.au/statistics/frequency/exchange-rates.html"
     },
     {
-      "label": "Reuters: gold",
-      "url": "https://au.marketscreener.com/news/gold-edges-higher-on-bargain-buying-us-inflation-data-awaited-ce7851dade80f52d"
+      "label": "MarketWatch: AUD/USD",
+      "url": "https://www.marketwatch.com/investing/currency/audusd"
     },
     {
-      "label": "GoldSquawk: later gold quote",
-      "url": "https://www.goldsquawk.com/data"
+      "label": "Kitco: spot gold",
+      "url": "https://www.kitco.com/charts/gold"
     },
     {
-      "label": "Reuters: Brent crude",
-      "url": "https://www.business-standard.com/amp/markets/commodities/oil-prices-extend-losses-hover-near-three-month-lows-on-supply-concerns-126112400254_1.html"
+      "label": "MarketWatch: January Brent",
+      "url": "https://www.marketwatch.com/investing/future/brnf27?countrycode=uk"
+    },
+    {
+      "label": "ABS: Australian CPI",
+      "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia"
+    },
+    {
+      "label": "BEA: US inflation and GDP schedule",
+      "url": "https://www.bea.gov/news/schedule/"
     }
   ]
 }
