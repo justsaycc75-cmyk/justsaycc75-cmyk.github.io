@@ -7,6 +7,7 @@ on:
       - '.github/workflows/website-health.yml'
       - 'tools/site-health.mjs'
       - 'tools/cache-tour-photos.py'
+      - 'tools/replace-duplicate-tour-photos.py'
   schedule:
     - cron: '17 * * * *'
     - cron: '37 19 * * *'
@@ -20,7 +21,7 @@ jobs:
   cache:
     if: github.event_name != 'schedule' || github.event.schedule == '37 19 * * *'
     runs-on: ubuntu-latest
-    timeout-minutes: 35
+    timeout-minutes: 55
     permissions:
       contents: write
     steps:
@@ -29,6 +30,10 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install requests beautifulsoup4 pillow
+      - name: Replace duplicate journal photographs
+        id: duplicates
+        continue-on-error: true
+        run: python tools/replace-duplicate-tour-photos.py
       - name: Cache and validate photographs
         id: photos
         continue-on-error: true
@@ -46,10 +51,12 @@ jobs:
         if: always()
         with:
           name: photo-cache-report
-          path: health-report/photo-cache.json
+          path: |
+            health-report/photo-cache.json
+            health-report/duplicate-photos.json
           retention-days: 14
       - name: Flag unresolved photographs
-        if: steps.photos.outcome == 'failure'
+        if: steps.photos.outcome == 'failure' || steps.duplicates.outcome == 'failure'
         run: exit 1
   audit:
     if: always()
