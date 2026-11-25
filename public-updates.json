@@ -1,7 +1,7 @@
 {
   "version": 1,
   "radio": {
-    "checkedAt": "2026-11-25T20:22:51.926Z",
+    "checkedAt": "2026-11-25T21:56:34.680Z",
     "entries": [
       {
         "id": "ndr-gruss-an-bord-2026",
@@ -10,6 +10,14 @@
         "summary": "Germany’s NDR has set out six shortwave frequencies for its Christmas greetings to seafarers. The main programme runs 6–8 am AEDT on Christmas Day; none of the published beams targets Australia or New Zealand. The broadcaster also lists online listening.",
         "sourceLabel": "NDR",
         "sourceUrl": "https://www.ndr.de/nachrichten/info/Gruss-an-Bord-So-empfangen-Sie-die-Sendung-2026,grussanbord-170.html"
+      },
+      {
+        "id": "reach-beyond-wavescan-2026-11-22",
+        "date": "2026-11-24",
+        "headline": "Hear Reach Beyond Australia on 17650 kHz",
+        "summary": "Shortwave listener Carlos Latuff recorded Wavescan’s Eiffel Tower segment on 22 November. The SWLing Post has the recording and his illustrated listening report. This is a recording of one reception, not a listening schedule.",
+        "sourceLabel": "Carlos Latuff via The SWLing Post",
+        "sourceUrl": "https://swling.com/blog/2026/11/carlos-illustrated-radio-listening-report-and-recording-of-reach-beyond-november-22-2026/"
       },
       {
         "id": "imaginary-stations-radio-prog-2026-11",
