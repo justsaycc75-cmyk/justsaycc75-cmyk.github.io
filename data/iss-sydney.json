@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-24T23:17:21.757962+00:00",
-  "tle_epoch": "2026-11-23T21:54:38.454041+00:00",
+  "generated_at": "2026-11-25T08:26:11.213007+00:00",
+  "tle_epoch": "2026-11-24T21:07:39.248840+00:00",
   "tle_stale": false,
   "passes": [
     {
       "visible": true,
-      "visible_start": "2026-12-04T17:38:52.143685+00:00",
-      "visible_end": "2026-12-04T17:44:37.143704+00:00",
+      "visible_start": "2026-12-04T17:38:59.385770+00:00",
+      "visible_end": "2026-12-04T17:44:44.385789+00:00",
       "culmination": {
         "elevation_deg": 24.6
       },
-      "start_azimuth_deg": 202.3
+      "start_azimuth_deg": 202.4
     }
   ],
   "source": "CelesTrak / Skyfield",
