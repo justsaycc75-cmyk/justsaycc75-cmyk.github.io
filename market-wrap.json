@@ -1,36 +1,36 @@
 {
-  "updatedAt": "2026-11-25T06:03+11:00",
-  "headline": "US tech gives back gains after the ASX breaks its losing streak",
+  "updatedAt": "2026-11-25T18:17+11:00",
+  "headline": "Hotter inflation dents the ASX as Wall Street’s tech rally fades",
   "paragraphs": [
-    "The ASX 200 closed Tuesday up 1.8% at 8,726, ending eight straight down sessions. Local technology shares rose 2.8%, catching up with Monday’s US rally. The next US session told a different story: by 5:54 am Wednesday Sydney time the S&P 500 was down 0.60% at 7,193.69, while Nasdaq’s Tuesday intraday reading put the Nasdaq-100 down 1.99% at 26,213.16. Wall Street was still open.",
-    "The weakness was more pronounced in tech than in the broad market, even as US consumer confidence improved. The Conference Board’s November index rose to 103.3 from a revised 91.9 in October. The Australian dollar edged back up to 66.45 US cents at 5:15 am Sydney, after the RBA recorded 66.27 US cents at 4 pm Tuesday.",
-    "Gold gave up more ground overnight: Kitco’s spot bid was down 2.13% to US$3,556.90 a troy ounce at 5:49 am Sydney. Oil moved the other way: January Brent futures recovered to US$89.88 a barrel, up 0.57%, in a 4:05 am Sydney reading. Those are snapshots, not final prices.",
-    "Australia’s October CPI is due at 11:30 am Wednesday. The US October PCE inflation report and the second estimate of third-quarter GDP follow at 12:30 am Thursday, Sydney time."
+    "Australian shares slipped on Wednesday as inflation picked up again. The ASX 200 closed down 0.4% at 8,692.4. It recovered the sharp dip that followed the inflation release, but weakness in miners and banks kept it in the red. Annual October inflation rose to 4.9% from 4.3% in September. Trimmed mean inflation, which strips out the biggest price swings, rose from 3.6% to 3.8%.",
+    "The Australian dollar’s jump was brief. CBA strategist Carol Kong said it rose towards 66.7 US cents on the inflation news before giving back the gain. By 5:39 pm Sydney, it was at 65.78 US cents, down 0.92% from MarketWatch’s previous close. Higher inflation can make near-term rate cuts less likely, but that wasn’t enough to keep the currency higher.",
+    "Wall Street’s Tuesday cash session was more divided than the S&P 500’s 0.50% fall to 7,201.09 suggests. The Nasdaq-100 slid 1.99% to 26,214.17 as AI stocks gave back some of Monday’s gains, while the Dow rose 0.85% to 50,018.70. The sell-off was concentrated in tech rather than shared across the whole market.",
+    "Gold and oil both weakened in Wednesday trading. Kitco’s spot gold bid was US$3,517.10 a troy ounce at 6:06 pm Sydney, down 1.07%. January Brent futures were down 1.50% at US$90.03 a barrel in a delayed 4:22 pm Sydney quote, giving back part of Tuesday’s rise. Reuters reported that expectations of ample supply outweighed concerns about Middle East disruptions. The next US tests are October PCE inflation and the second estimate of third-quarter GDP, both due at 12:30 am Thursday Sydney time."
   ],
   "sources": [
     {
-      "label": "ABC: ASX close",
-      "url": "https://www.abc.net.au/news/2026-11-24/asx-markets-business-news-live-updates-nov-24-2026/107419524"
+      "label": "ABS: October inflation",
+      "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/oct-2026"
     },
     {
-      "label": "Google Finance: S&P 500",
-      "url": "https://www.google.com/finance/beta/quote/.INX:INDEXSP"
+      "label": "ABC: ASX close and dollar reaction",
+      "url": "https://www.abc.net.au/news/2026-11-25/asx-markets-business-live-news/107423208"
     },
     {
-      "label": "Nasdaq: Nasdaq-100 index",
-      "url": "https://indexes.nasdaq.com/Index/Overview/NDX"
-    },
-    {
-      "label": "The Conference Board: US confidence",
-      "url": "https://www.conference-board.org/topics/consumer-confidence/"
-    },
-    {
-      "label": "RBA: exchange rates",
-      "url": "https://www.rba.gov.au/statistics/frequency/exchange-rates.html"
+      "label": "HotCopper: ASX 200 closing level",
+      "url": "https://hotcopper.com.au/?id=56268"
     },
     {
       "label": "MarketWatch: AUD/USD",
       "url": "https://www.marketwatch.com/investing/currency/audusd"
+    },
+    {
+      "label": "AP: Tuesday US close",
+      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-6cc4e580290aadf304ee316d6d46dd81"
+    },
+    {
+      "label": "Nasdaq: Nasdaq-100 close",
+      "url": "https://indexes.nasdaq.com/Index/Overview/NDX"
     },
     {
       "label": "Kitco: spot gold",
@@ -41,12 +41,12 @@
       "url": "https://www.marketwatch.com/investing/future/brnf27?countrycode=uk"
     },
     {
-      "label": "ABS: Australian CPI",
-      "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia"
+      "label": "Reuters: oil market",
+      "url": "https://au.investing.com/news/commodities-news/oil-prices-fall-as-supply-glut-concerns-offset-middle-east-disruption-fears-4794576"
     },
     {
       "label": "BEA: US inflation and GDP schedule",
-      "url": "https://www.bea.gov/news/schedule/"
+      "url": "https://www.bea.gov/news/schedule"
     }
   ]
 }
