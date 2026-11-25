@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "radio": {
+    "checkedAt": "2026-11-25T20:22:51.926Z",
+    "entries": [
+      {
+        "id": "ndr-gruss-an-bord-2026",
+        "date": "2026-11-25",
+        "headline": "NDR publishes its Christmas shortwave schedule",
+        "summary": "Germany’s NDR has set out six shortwave frequencies for its Christmas greetings to seafarers. The main programme runs 6–8 am AEDT on Christmas Day; none of the published beams targets Australia or New Zealand. The broadcaster also lists online listening.",
+        "sourceLabel": "NDR",
+        "sourceUrl": "https://www.ndr.de/nachrichten/info/Gruss-an-Bord-So-empfangen-Sie-die-Sendung-2026,grussanbord-170.html"
+      },
+      {
+        "id": "imaginary-stations-radio-prog-2026-11",
+        "date": "2026-11-24",
+        "headline": "Radio Prog announces weekend broadcasts",
+        "summary": "Imaginary Stations has scheduled progressive rock, folk and jazz for 28–29 November via Shortwave Gold in Europe. The broadcaster lists UTC slots on 3975 and 6160 kHz. European coverage does not guarantee reception in Australia.",
+        "sourceLabel": "Imaginary Stations via The SWLing Post",
+        "sourceUrl": "https://swling.com/blog/2026/11/thanksgiving-samplers-the-beatles-and-drm/"
+      },
+      {
+        "id": "top-dx-december-2026",
+        "date": "2026-11-23",
+        "headline": "December’s shortwave listening challenge returns",
+        "summary": "The Top DX Radioclub’s free December contest asks listeners to log ten broadcast stations from ten countries. It rewards lower-powered catches and requires an antenna connected to your own receiver, not a remote internet SDR.",
+        "sourceLabel": "Top DX Radioclub rules",
+        "sourceUrl": "https://topdx-radioclub.com/top10dx.html"
+      }
+    ]
+  },
+  "aviation": {
+    "checkedAt": "2026-11-25T20:22:51.926Z",
+    "entries": [
+      {
+        "id": "atsb-darwin-fuel-2026-11",
+        "date": "2026-11-25",
+        "headline": "ATSB explains Darwin beach forced landing",
+        "summary": "A Cessna 207 lost engine power in June and landed on a beach near Darwin. The final report found that an improperly sealed fuel cap almost certainly let fuel escape. No one was injured.",
+        "sourceLabel": "ATSB",
+        "sourceUrl": "https://www.atsb.gov.au/news/2026/darwin-beach-forced-landing-due-unsecured-fuel-cap"
+      },
+      {
+        "id": "atsb-ao-2026-061",
+        "date": "2026-11-20",
+        "headline": "Melbourne runway incident prompts a review of works guidance",
+        "summary": "A Boeing 737 freighter abandoned take-off in February after a safety vehicle entered an active runway. The final ATSB report found that temporary cues did not clearly distinguish the active crossing during works. CASA plans to amend its guidance.",
+        "sourceLabel": "ATSB",
+        "sourceUrl": "https://www.atsb.gov.au/news/2026/airport-safety-vehicle-runway-incursion-results-737-rejected-take"
+      },
+      {
+        "id": "atsb-gold-coast-737-2026-11",
+        "date": "2026-11-19",
+        "headline": "Gold Coast landing report highlights runway visibility",
+        "summary": "A 737 landed beyond the touchdown zone during a 2023 thunderstorm. The ATSB says visibility of the markings was likely reduced and is encouraging airports to consider reflective materials on runways used at night.",
+        "sourceLabel": "ATSB",
+        "sourceUrl": "https://www.atsb.gov.au/news/2026/737-long-landing-highlights-importance-reflective-runway-markings"
+      }
+    ]
+  }
+}
