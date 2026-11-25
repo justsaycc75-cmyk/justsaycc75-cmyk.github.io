@@ -24,6 +24,8 @@
       // Keep the full photograph visible, including the player’s face and key action.
       const credit = card.querySelector('[data-epl-news-credit]');
       if (credit) credit.textContent = story.imageCredit || '';
+      const archiveCredit = card.querySelector('[data-epl-archive-credit]');
+      if (archiveCredit) archiveCredit.hidden = story.imageUrl !== 'https://justsaycc75-cmyk.github.io/assets/live-now/epl-etihad-crowd.webp';
       const img = card.querySelector('[data-epl-news-image]');
       if (story.imageUrl && /^https:\/\//.test(story.imageUrl)) {
         img.src = story.imageUrl;
