@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-25T21:38:49.250891+00:00",
-  "tle_epoch": "2026-11-25T03:19:07.347961+00:00",
+  "generated_at": "2026-11-26T08:10:48.217346+00:00",
+  "tle_epoch": "2026-11-25T21:53:31.475922+00:00",
   "tle_stale": false,
   "passes": [
     {
       "visible": true,
-      "visible_start": "2026-12-04T17:38:55.505485+00:00",
-      "visible_end": "2026-12-04T17:44:40.505505+00:00",
+      "visible_start": "2026-12-04T17:38:59.770519+00:00",
+      "visible_end": "2026-12-04T17:44:44.770539+00:00",
       "culmination": {
         "elevation_deg": 24.6
       },
@@ -14,10 +14,10 @@
     },
     {
       "visible": true,
-      "visible_start": "2026-12-05T10:18:28.680771+00:00",
-      "visible_end": "2026-12-05T10:25:08.680774+00:00",
+      "visible_start": "2026-12-05T10:18:33.568573+00:00",
+      "visible_end": "2026-12-05T10:25:13.568576+00:00",
       "culmination": {
-        "elevation_deg": 60.6
+        "elevation_deg": 60.7
       },
       "start_azimuth_deg": 325.4
     }
