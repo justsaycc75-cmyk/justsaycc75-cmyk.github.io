@@ -1,40 +1,32 @@
 {
-  "updatedAt": "2026-11-26T06:05+11:00",
-  "headline": "Wall Street claws back losses as US inflation stays high and Brent rebounds",
+  "updatedAt": "2026-11-26T18:00:00+11:00",
+  "headline": "Miners lift the ASX as Wall Street steadies before Thanksgiving",
   "paragraphs": [
-    "US stocks recovered much of Wednesday’s early slide but were still lower heading into the final hours of trade. At 5:17 am Sydney, the S&P 500 was down 0.71% at 7,150.24, after dipping below 7,000. The Nasdaq-100 had been down 2.64% at 25,521.55 at 4:16 am; Nasdaq’s later reading showed it down 1.16% at 25,911.01. These are intraday readings, not closes. Renewed selling in chip and AI shares and fresh tariff worries weighed on sentiment ahead of Thanksgiving.",
-    "The US data gave investors little reason to expect relief on interest rates. The Fed’s preferred inflation measure, the PCE price index, rose 3.8% in the year to October, with core PCE at 3.3%. At the same time, US third-quarter growth was revised up from 3.4% to a 4.3% annualised rate. Stronger growth alongside above-target inflation makes it harder to argue for lower rates.",
-    "In Australia, the ASX 200 last closed down 0.4% at about 8,692 on Wednesday, with miners and banks weighing on the index after annual inflation climbed to 4.9%. The Australian dollar’s initial inflation-driven jump didn’t stick. It recovered some ground overnight to 66.15 US cents at 4:42 am Sydney but remained 0.36% below MarketWatch’s previous close.",
-    "Gold and oil went different ways. Kitco’s spot gold bid was down 0.50% at US$3,537.30 a troy ounce around 6 am Sydney. January Brent reversed its earlier fall, reaching US$93.74 a barrel in a delayed 4:47 am quote, 2.56% above Tuesday’s settlement. The next US cash session is skipped for Thanksgiving, and Friday’s New York session closes early at 5 am Saturday Sydney time."
+    "Mining and energy shares drove the ASX 200 up 0.8% to about 8,763 at Thursday’s Sydney close, reversing Wednesday’s loss. The ABS also reported that private capital spending jumped 12.2% in the September quarter, led by investment in data centres. The spending figures show how strongly that investment is still growing in Australia, even as investors question the price of AI shares in the US.",
+    "Wall Street recovered most of a steep early fall on Wednesday in New York. The S&P 500 closed down 0.25% at 7,182.78 and the Nasdaq-100 lost 0.64% to 26,046.90, while the Dow rose 0.33%. The pullback in AI shares and fresh tariff worries kept pressure on the broader market. The US PCE inflation rate rose to 3.8% in October, with core inflation at 3.3%, giving the Fed little reason to ease.",
+    "The Australian dollar edged up to 66.35 US cents at 5:43 pm Sydney, 0.09% above MarketWatch’s previous close. That was a small recovery after Wednesday’s inflation reading failed to sustain an early jump. Spot gold went the other way on Thursday: Kitco’s bid was down 0.62% at US$3,565.60 a troy ounce at 5:56 pm Sydney. Higher interest rates make holding gold less attractive because it pays no interest.",
+    "Oil extended its rebound. January Brent was US$95.09 a barrel in a delayed 5:17 pm Sydney quote, up 0.51% from Wednesday’s US$94.61 settlement, which had already risen 3.5%. AP reported that worries over Middle East supply continued to support crude. There’s no US cash share session tonight for Thanksgiving; the next New York session closes early at 5 am Saturday Sydney time."
   ],
   "sources": [
     {
-      "label": "ABC: Wednesday ASX close and inflation reaction",
-      "url": "https://www.abc.net.au/news/2026-11-25/asx-markets-business-live-news/107423208"
+      "label": "ABC: Thursday ASX close and market drivers",
+      "url": "https://www.abc.net.au/news/2026-11-26/asx-markets-business-news-live-updates-thursday-26-november/107428134"
     },
     {
-      "label": "MarketWatch: S&P 500",
-      "url": "https://www.marketwatch.com/investing/index/spx"
+      "label": "ABS: September-quarter capital spending",
+      "url": "https://www.abs.gov.au/media-centre/media-releases/data-centre-investment-continues-drive-new-capital-expenditure"
     },
     {
-      "label": "MarketWatch: Nasdaq-100 intraday",
-      "url": "https://www.marketwatch.com/investing/index/ndx"
+      "label": "AP: Wall Street close and Wednesday Brent settlement",
+      "url": "https://apnews.com/article/10044b4fb55d3ff20fde9ba9e9acaab1"
     },
     {
-      "label": "Nasdaq: Nasdaq-100",
+      "label": "Nasdaq: Nasdaq-100 closing level",
       "url": "https://indexes.nasdaq.com/Index/Overview/NDX"
-    },
-    {
-      "label": "Schwab: US market drivers",
-      "url": "https://www.schwab.com/learn/story/stock-market-update-open"
     },
     {
       "label": "BEA: October PCE inflation",
       "url": "https://bea.gov/sites/default/files/2026-11/pi1026.pdf"
-    },
-    {
-      "label": "BEA: revised US GDP",
-      "url": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026"
     },
     {
       "label": "MarketWatch: AUD/USD",
@@ -47,6 +39,14 @@
     {
       "label": "MarketWatch: January Brent",
       "url": "https://www.marketwatch.com/investing/future/brnf27?countrycode=uk"
+    },
+    {
+      "label": "AP: Thursday oil and Asia trade",
+      "url": "https://apnews.com/article/320cd8c9c286a7773797bf2f478ef314"
+    },
+    {
+      "label": "NYSE: Thanksgiving trading hours",
+      "url": "https://www.nyse.com/trade/hours-calendars"
     }
   ]
 }
