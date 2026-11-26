@@ -109,8 +109,9 @@ function render(c){
   const href=(e.links||[]).map(l=>l.href).find(u=>/^https:\/\/www\.espn\.com\//.test(u))||c.url;
   const teamMarkup=t=>{
    const raw=t.team?.logo||t.team?.logos?.[0]?.href;
-   const logo=typeof raw==='string'&&/^https:\/\/a\.espncdn\.com\//.test(raw)?'<img src="'+esc(raw)+'" alt="" loading="lazy" decoding="async" width="52" height="52">':'';
-   return visualCards?'<span class="round-team-visual">'+logo+'<span>'+esc(teamName(t))+'</span></span>':'<span>'+esc(teamName(t))+'</span>';
+   const size=visualCards?52:38;
+   const logo=typeof raw==='string'&&/^https:\/\/a\.espncdn\.com\//.test(raw)?'<img src="'+esc(raw)+'" alt="" loading="lazy" decoding="async" width="'+size+'" height="'+size+'">':'';
+   return '<span class="'+(visualCards?'round-team-visual':'round-team-home')+'">'+logo+'<span>'+esc(teamName(t))+'</span></span>';
   };
   const photo=visualCards?venuePhotos[comp.venue?.fullName]:null;
   const picture=photo?'<img class="round-venue-photo" src="'+esc(photo.url)+'" alt="'+esc(photo.name)+' venue photograph" loading="lazy" decoding="async"><span class="round-venue-label">'+esc(comp.venue.fullName)+' · venue photo, not live</span>':'';
@@ -126,5 +127,11 @@ let busy=false;
 async function update(){if(busy)return;busy=true;if(refresh)refresh.disabled=true;
  try{await Promise.all(configs.filter(c=>c.target).map(async c=>{try{const result=await events(c,Date.now());c.games=result.games;c.partial=result.partial;c.failedDates=result.failedDates;c.at=Date.now();c.stale=false;}catch(e){c.stale=true;}render(c);}));if(updated)updated.textContent='Round boards checked '+clock(Date.now())+' Sydney';}finally{busy=false;if(refresh)refresh.disabled=false;}}
 const style=document.createElement('style');style.textContent='.round-title{margin:.4rem 0;font-size:1.15rem}.round-policy,.round-focus{font-size:.85rem;line-height:1.4;margin:.5rem 0}.round-games{list-style:none;padding:0;margin:.6rem 0}.round-game{border-top:1px solid #b8cbd1;padding:.55rem 0}.round-game a{display:block;text-decoration:none;color:inherit}.round-status{display:block;font-size:.85rem;line-height:1.4;margin-bottom:.3rem}.round-teams{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:.45rem;font-size:.95rem;line-height:1.35}.round-teams span:last-child{text-align:right}.round-teams strong{white-space:nowrap;font-size:.95rem}.round-live{border-left:3px solid #057d52;padding-left:.4rem}.round-live .round-status{font-weight:800;color:#b9ffd6}.round-game a:hover{text-decoration:underline}.round-game a:focus-visible{outline:2px solid #006541;outline-offset:3px}';document.head.appendChild(style);
+if(!visualCards){
+ const homeStyle=document.createElement('style');
+ homeStyle.textContent='.front-live-today .round-teams>.round-team-home{display:grid;justify-items:center;align-content:start;gap:.22rem;min-width:0;text-align:center}.front-live-today .round-team-home>span{text-align:center;overflow-wrap:anywhere}.front-live-today .round-team-home>img{display:block;width:38px;height:38px;object-fit:contain;border-radius:8px;padding:3px;box-sizing:border-box;background:#f5f8fa}.front-live-today .round-team-home>img[hidden]{display:none}';
+ document.head.appendChild(homeStyle);
+ panel.addEventListener('error',event=>{if(event.target.matches?.('.round-team-home>img'))event.target.hidden=true;},true);
+}
 refresh?.addEventListener('click',update);window.addEventListener('online',update);document.addEventListener('visibilitychange',()=>{if(!document.hidden)update();});update();setInterval(()=>{if(!document.hidden)update();},30000);setInterval(()=>{if(!document.hidden)configs.filter(c=>c.target&&c.games).forEach(render);},12000);
 })(typeof window==='object'?window:globalThis);
