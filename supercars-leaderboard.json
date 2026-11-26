@@ -1,10 +1,35 @@
 {
   "version": 1,
   "eventId": "adelaide-2026",
-  "session": "",
-  "status": "scheduled",
-  "updatedAt": null,
-  "source": "https://www.supercars.com/events/2026-adelaide",
-  "columnLabel": "Gap",
-  "positions": []
+  "session": "Practice 1 · Thu 26 Nov · Reported leaders",
+  "status": "complete",
+  "updatedAt": "2026-11-26T09:07:55.658Z",
+  "source": "https://www.supercars.com/results/2026/2026-adelaide/P8",
+  "columnLabel": "Best",
+  "positions": [
+    {
+      "position": 1,
+      "driver": "Brodie Kostecki",
+      "car": "17",
+      "team": "",
+      "gapOrTime": "1:19.888",
+      "laps": "—"
+    },
+    {
+      "position": 2,
+      "driver": "Cam Waters",
+      "car": "06",
+      "team": "",
+      "gapOrTime": "1:19.962",
+      "laps": "—"
+    },
+    {
+      "position": 3,
+      "driver": "Chaz Mostert",
+      "car": "01",
+      "team": "",
+      "gapOrTime": "1:20.062",
+      "laps": "—"
+    }
+  ]
 }
