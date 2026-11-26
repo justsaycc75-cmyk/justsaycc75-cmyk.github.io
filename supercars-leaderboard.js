@@ -17,7 +17,7 @@
   function valid(d) {
     if (!d || d.version !== 1 || d.eventId !== 'adelaide-2026' ||
         !['scheduled', 'in-progress', 'complete', 'unavailable'].includes(d.status) ||
-        !Array.isArray(d.positions) || d.positions.length > 20) return false;
+        !Array.isArray(d.positions) || d.positions.length > 10) return false;
     if (!d.positions.length) return d.status === 'scheduled' || d.status === 'unavailable';
     const time = Date.parse(d.updatedAt);
     let url;
@@ -42,7 +42,7 @@
       waiting.hidden = false;
       session.textContent = '26–29 November · Awaiting session positions';
       status.textContent = 'No verified Adelaide session positions published yet.';
-      note.textContent = 'The top 20 will appear here once verified session positions are available, with the time they were updated.';
+      note.textContent = 'The top 10 will appear here once verified session positions are available, with the time they were updated.';
       return;
     }
     board.hidden = false;
