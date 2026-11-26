@@ -38,7 +38,7 @@
     ]
   },
   "aviation": {
-    "checkedAt": "2026-11-25T20:22:51.926Z",
+    "checkedAt": "2026-11-26T01:02:02.189Z",
     "entries": [
       {
         "id": "atsb-darwin-fuel-2026-11",
@@ -47,6 +47,14 @@
         "summary": "A Cessna 207 lost engine power in June and landed on a beach near Darwin. The final report found that an improperly sealed fuel cap almost certainly let fuel escape. No one was injured.",
         "sourceLabel": "ATSB",
         "sourceUrl": "https://www.atsb.gov.au/news/2026/darwin-beach-forced-landing-due-unsecured-fuel-cap"
+      },
+      {
+        "id": "wsi-singapore-airlines-launch-2026-11",
+        "date": "2026-11-23",
+        "headline": "Western Sydney gets daily nonstop flights to Singapore",
+        "summary": "Singapore Airlines began flying daily between Changi and Western Sydney International on 23 November. The new service joins Air New Zealand’s existing Auckland route at the airport.",
+        "sourceLabel": "NSW Government",
+        "sourceUrl": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/first-singapore-airlines-flights-connect-western-sydney-to-world"
       },
       {
         "id": "atsb-ao-2026-061",
