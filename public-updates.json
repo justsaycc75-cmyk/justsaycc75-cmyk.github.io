@@ -38,7 +38,7 @@
     ]
   },
   "aviation": {
-    "checkedAt": "2026-11-26T01:02:02.189Z",
+    "checkedAt": "2026-11-26T03:56:13.876Z",
     "entries": [
       {
         "id": "atsb-darwin-fuel-2026-11",
@@ -47,6 +47,14 @@
         "summary": "A Cessna 207 lost engine power in June and landed on a beach near Darwin. The final report found that an improperly sealed fuel cap almost certainly let fuel escape. No one was injured.",
         "sourceLabel": "ATSB",
         "sourceUrl": "https://www.atsb.gov.au/news/2026/darwin-beach-forced-landing-due-unsecured-fuel-cap"
+      },
+      {
+        "id": "casa-beechcraft-wing-bolt-repeal-2026-11",
+        "date": "2026-11-25",
+        "headline": "CASA withdraws seven Australian-only Beechcraft directives",
+        "summary": "The change removes Australian-only inspection and replacement intervals for wing attachment hardware on certain Beechcraft aircraft. CASA says operators are still responsible for keeping that hardware airworthy and checking other applicable directives and manufacturer instructions.",
+        "sourceLabel": "CASA",
+        "sourceUrl": "https://www.casa.gov.au/about-us/news-media-releases-and-speeches/casa-repeals-7-unique-australian-beechcraft-wing-bolt-ads"
       },
       {
         "id": "wsi-singapore-airlines-launch-2026-11",
