@@ -3,7 +3,7 @@
   "eventId": "adelaide-2026",
   "session": "Practice 1 · Thu 26 Nov · Leaders",
   "status": "complete",
-  "updatedAt": "2026-11-26T09:07:55.658Z",
+  "updatedAt": "2026-11-26T20:27:00.254Z",
   "source": "https://www.supercars.com/results/2026/2026-adelaide/P8",
   "columnLabel": "Best",
   "positions": [
@@ -29,6 +29,62 @@
       "car": "01",
       "team": "",
       "gapOrTime": "1:20.062",
+      "laps": "—"
+    },
+    {
+      "position": 4,
+      "driver": "Anton De Pasquale",
+      "car": "18",
+      "team": "",
+      "gapOrTime": "—",
+      "laps": "—"
+    },
+    {
+      "position": 5,
+      "driver": "Jayden Ojeda",
+      "car": "31",
+      "team": "",
+      "gapOrTime": "—",
+      "laps": "—"
+    },
+    {
+      "position": 6,
+      "driver": "David Reynolds",
+      "car": "20",
+      "team": "",
+      "gapOrTime": "—",
+      "laps": "—"
+    },
+    {
+      "position": 7,
+      "driver": "Jobe Stewart",
+      "car": "09",
+      "team": "",
+      "gapOrTime": "—",
+      "laps": "—"
+    },
+    {
+      "position": 8,
+      "driver": "Jarrod Hughes",
+      "car": "99",
+      "team": "",
+      "gapOrTime": "—",
+      "laps": "—"
+    },
+    {
+      "position": 9,
+      "driver": "Ryan Wood",
+      "car": "02",
+      "team": "",
+      "gapOrTime": "—",
+      "laps": "—"
+    },
+    {
+      "position": 10,
+      "driver": "Zach Bates",
+      "car": "10",
+      "team": "",
+      "gapOrTime": "—",
       "laps": "—"
     }
   ]
