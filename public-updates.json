@@ -46,8 +46,16 @@
     ]
   },
   "aviation": {
-    "checkedAt": "2026-11-26T10:02:40.668Z",
+    "checkedAt": "2026-11-26T12:59:50.024Z",
     "entries": [
+      {
+        "id": "atsb-sydney-aircraft-separation-ao-2026-105",
+        "date": "2026-11-26",
+        "headline": "ATSB investigating Sydney Airport go-around",
+        "summary": "A Qantas 737 went around at Sydney Airport on 25 November before it was cleared to land, after its crew reported seeing an Air New Zealand A321 crossing the runway. No one was injured. The ATSB is collecting evidence and has not released findings.",
+        "sourceLabel": "ATSB investigation",
+        "sourceUrl": "https://www.atsb.gov.au/investigations/ao-2026-105"
+      },
       {
         "id": "atsb-ocean-grove-r44-final-2026-11",
         "date": "2026-11-26",
