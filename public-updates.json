@@ -46,8 +46,16 @@
     ]
   },
   "aviation": {
-    "checkedAt": "2026-11-26T07:00:11.366Z",
+    "checkedAt": "2026-11-26T10:02:40.668Z",
     "entries": [
+      {
+        "id": "atsb-ocean-grove-r44-final-2026-11",
+        "date": "2026-11-26",
+        "headline": "ATSB reports on Ocean Grove helicopter water landing",
+        "summary": "Three people were seriously injured when a sightseeing helicopter landed hard in shallow water in May 2025. The final report found that rotor speed likely fell below the target range during the descent and did not recover. The operator has updated its passenger safety briefing.",
+        "sourceLabel": "ATSB",
+        "sourceUrl": "https://www.atsb.gov.au/news/2026/r44-hard-water-landing-after-rotor-rpm-reduced"
+      },
       {
         "id": "atsb-darwin-fuel-2026-11",
         "date": "2026-11-25",
