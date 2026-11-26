@@ -46,7 +46,7 @@
     ]
   },
   "aviation": {
-    "checkedAt": "2026-11-26T03:56:13.876Z",
+    "checkedAt": "2026-11-26T07:00:11.366Z",
     "entries": [
       {
         "id": "atsb-darwin-fuel-2026-11",
@@ -63,6 +63,14 @@
         "summary": "The change removes Australian-only inspection and replacement intervals for wing attachment hardware on certain Beechcraft aircraft. CASA says operators are still responsible for keeping that hardware airworthy and checking other applicable directives and manufacturer instructions.",
         "sourceLabel": "CASA",
         "sourceUrl": "https://www.casa.gov.au/about-us/news-media-releases-and-speeches/casa-repeals-7-unique-australian-beechcraft-wing-bolt-ads"
+      },
+      {
+        "id": "airservices-november-chart-update-2026",
+        "date": "2026-11-25",
+        "headline": "Updated aviation charts take effect across Australia",
+        "summary": "Airservices’ November chart update includes changes to Sydney’s controlled airspace and adds Western Sydney International’s tower frequency to several route charts. The changes took effect on 26 November local time.",
+        "sourceLabel": "Airservices Australia",
+        "sourceUrl": "https://www.airservicesaustralia.com/aip/current/sup/a26-h55.pdf"
       },
       {
         "id": "wsi-singapore-airlines-launch-2026-11",
