@@ -1,8 +1,24 @@
 {
   "version": 1,
   "radio": {
-    "checkedAt": "2026-11-27T20:37:39.256Z",
+    "checkedAt": "2026-11-27T21:06:01.075Z",
     "entries": [
+      {
+        "id": "euphonia-6960-20261127",
+        "date": "2026-11-27",
+        "headline": "PIRATE LOG • Radio Free Euphonia heard on 6960 kHz AM",
+        "summary": "A 27 November HF Underground thread logs Radio Free Euphonia from 1445 UTC, with a station identification reported at 1458 UTC. A New York listener heard weak music, while another in New Mexico reported no signal. These are past overseas reception reports, not an Australian reception claim or a broadcast schedule.",
+        "sourceLabel": "HF Underground · dated reception thread",
+        "sourceUrl": "https://www.hfunderground.com/board/index.php/topic,173448.0.html"
+      },
+      {
+        "id": "azadi-shortwave-return-20261127",
+        "date": "2026-11-27",
+        "headline": "CROSS-BORDER RADIO • Radio Azadi returns to Afghan shortwave",
+        "summary": "SWLing Post's 27 November report describes Radio Azadi's return on 24 November, with Dari and Pashto lessons for girls excluded from school alongside news and other programmes. RFE/RL reports listener confirmation from southern Afghanistan. No frequency or Australian reception is established by these reports.",
+        "sourceLabel": "The SWLing Post · Radio Azadi report",
+        "sourceUrl": "https://swling.com/blog/2026/11/rfe-rl-returns-to-shortwave-with-educational-programming-for-afghan-girls/"
+      },
       {
         "id": "intruder-6290-20261127",
         "date": "2026-11-27",
@@ -25,7 +41,7 @@
         "headline": "PIRATE • Bandaid Radio logged on 6945 kHz",
         "summary": "HF Underground listeners reported music and a Bandaid Radio identification in USB on 26 November UTC. Reception varied considerably across North America; no Australian reception is established.",
         "sourceLabel": "HF Underground",
-        "sourceUrl": "https://www.hfunderground.com/board/index.php?action=recent"
+        "sourceUrl": "https://www.hfunderground.com/board/index.php/topic,173379.0.html"
       },
       {
         "id": "liquid-20261125",
@@ -33,7 +49,7 @@
         "headline": "PIRATE • Liquid Radio heard on 6945 kHz AM",
         "summary": "A North American pirate listening thread records Liquid Radio at 0147 UTC on 25 November. This is a past reception report, not a regular broadcast schedule.",
         "sourceLabel": "HF Underground pirate logs",
-        "sourceUrl": "https://www.hfunderground.com/board/index.php?board=3.0"
+        "sourceUrl": "https://www.hfunderground.com/board/index.php/topic,173341.0.html"
       },
       {
         "id": "pirate-study-20261116",
