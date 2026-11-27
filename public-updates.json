@@ -46,8 +46,16 @@
     ]
   },
   "aviation": {
-    "checkedAt": "2026-11-27T07:01:38.644Z",
+    "checkedAt": "2026-11-27T13:00:40.399Z",
     "entries": [
+      {
+        "id": "atsb-proserpine-ab-2026-044",
+        "date": "2026-11-27",
+        "headline": "ATSB brief describes runway collision at Whitsunday Coast Airport",
+        "summary": "A brief released on 27 November describes a light aircraft striking a runway inspection vehicle while landing at Proserpine on 8 August. No injuries were reported. The ATSB did not investigate the occurrence or independently verify the information it received.",
+        "sourceLabel": "ATSB occurrence brief",
+        "sourceUrl": "https://www.atsb.gov.au/occurrence-briefs/ab-2026-044"
+      },
       {
         "id": "airservices-gold-coast-overnight-works-2026-12",
         "date": "2026-11-27",
