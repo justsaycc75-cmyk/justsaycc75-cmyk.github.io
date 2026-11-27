@@ -46,8 +46,16 @@
     ]
   },
   "aviation": {
-    "checkedAt": "2026-11-26T12:59:50.024Z",
+    "checkedAt": "2026-11-27T00:59:53.524Z",
     "entries": [
+      {
+        "id": "airservices-gold-coast-overnight-works-2026-12",
+        "date": "2026-11-27",
+        "headline": "Gold Coast Airport schedules three overnight closures",
+        "summary": "Airservices says both runways and the taxiways are scheduled to close for pavement and lighting works on the nights of 14, 15 and 16 December. Each closure is planned from 10:30 pm to 5:30 am the following morning, Queensland time.",
+        "sourceLabel": "Airservices Australia circular",
+        "sourceUrl": "https://www.airservicesaustralia.com/aip/current/sup/a26-h56.pdf"
+      },
       {
         "id": "atsb-sydney-aircraft-separation-ao-2026-105",
         "date": "2026-11-26",
