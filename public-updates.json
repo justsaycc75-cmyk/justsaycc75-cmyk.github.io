@@ -1,8 +1,24 @@
 {
   "version": 1,
   "radio": {
-    "checkedAt": "2026-11-27T10:02:27.783Z",
+    "checkedAt": "2026-11-27T20:37:39.256Z",
     "entries": [
+      {
+        "id": "intruder-6290-20261127",
+        "date": "2026-11-27",
+        "headline": "PIRATE LOG • Radio Intruder heard on 6290 kHz AM",
+        "summary": "European listeners logged Radio Intruder at 1737 UTC on 27 November, with station identifications noted later in the evening. Reception varied between a UK online receiver and France. This is an overseas listening report, not confirmed Australian reception or a regular schedule.",
+        "sourceLabel": "HF Underground · dated reception thread",
+        "sourceUrl": "https://www.hfunderground.com/board/index.php/topic,173457.0.html"
+      },
+      {
+        "id": "wmr-3975-20261127",
+        "date": "2026-11-27",
+        "headline": "PIRATE & PRIVATE • Weekend Music Radio logged on 3975 kHz",
+        "summary": "A listener in Nottingham, UK, reported Weekend Music Radio via Shortwave Gold on 3975 kHz AM at 1639 UTC on 27 November, including a station identification and music. The report describes reception in Britain; it does not establish reception in Australia.",
+        "sourceLabel": "HF Underground · Weekend Music Radio log",
+        "sourceUrl": "https://www.hfunderground.com/board/index.php/topic,173456.0.html"
+      },
       {
         "id": "bandaid-20261126",
         "date": "2026-11-26",
