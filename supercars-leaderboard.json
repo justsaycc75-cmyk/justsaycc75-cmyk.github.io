@@ -1,80 +1,80 @@
 {
   "version": 1,
   "eventId": "adelaide-2026",
-  "session": "Practice 1 · Thu 26 Nov · Leaders",
+  "session": "Practice 2 · Fri 27 Nov · Leaders",
   "status": "complete",
-  "updatedAt": "2026-11-26T20:27:00.254Z",
-  "source": "https://www.supercars.com/results/2026/2026-adelaide/P8",
+  "updatedAt": "2026-11-27T00:47:19.237Z",
+  "source": "https://speedcafe.com/supercars-news-2026-adelaide-grand-final-practice-2-results-kai-allen-fastest-finals-series-contenders/",
   "columnLabel": "Best",
   "positions": [
     {
       "position": 1,
-      "driver": "Brodie Kostecki",
-      "car": "17",
+      "driver": "Kai Allen",
+      "car": "26",
       "team": "",
-      "gapOrTime": "1:19.888",
+      "gapOrTime": "1:18.8397",
       "laps": "—"
     },
     {
       "position": 2,
-      "driver": "Cam Waters",
-      "car": "06",
+      "driver": "Matt Payne",
+      "car": "19",
       "team": "",
-      "gapOrTime": "1:19.962",
+      "gapOrTime": "—",
       "laps": "—"
     },
     {
       "position": 3,
-      "driver": "Chaz Mostert",
-      "car": "01",
+      "driver": "Brodie Kostecki",
+      "car": "17",
       "team": "",
-      "gapOrTime": "1:20.062",
+      "gapOrTime": "—",
       "laps": "—"
     },
     {
       "position": 4,
-      "driver": "Anton De Pasquale",
-      "car": "18",
+      "driver": "Cameron Waters",
+      "car": "6",
       "team": "",
       "gapOrTime": "—",
       "laps": "—"
     },
     {
       "position": 5,
-      "driver": "Jayden Ojeda",
-      "car": "31",
+      "driver": "Will Brown",
+      "car": "888",
       "team": "",
       "gapOrTime": "—",
       "laps": "—"
     },
     {
       "position": 6,
-      "driver": "David Reynolds",
-      "car": "20",
+      "driver": "Thomas Randle",
+      "car": "55",
       "team": "",
       "gapOrTime": "—",
       "laps": "—"
     },
     {
       "position": 7,
-      "driver": "Jobe Stewart",
-      "car": "09",
+      "driver": "Chaz Mostert",
+      "car": "1",
       "team": "",
       "gapOrTime": "—",
       "laps": "—"
     },
     {
       "position": 8,
-      "driver": "Jarrod Hughes",
-      "car": "99",
+      "driver": "Andre Heimgartner",
+      "car": "8",
       "team": "",
       "gapOrTime": "—",
       "laps": "—"
     },
     {
       "position": 9,
-      "driver": "Ryan Wood",
-      "car": "02",
+      "driver": "Jack Le Brocq",
+      "car": "4",
       "team": "",
       "gapOrTime": "—",
       "laps": "—"
