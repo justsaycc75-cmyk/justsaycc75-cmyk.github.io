@@ -4,8 +4,8 @@
   "session": "Race 35 · Fri 27 Nov · Finish",
   "status": "complete",
   "updatedAt": "2026-11-27T07:42:08.395Z",
-  "source": "https://www.v8sleuth.com.au/kostecki-wins-another-50000-in-crazy-adelaide-opener/",
-  "columnLabel": "Result",
+  "source": "https://www.supercars.com/results/2026/2026-adelaide/R4",
+  "columnLabel": "Gap",
   "positions": [
     {
       "position": 1,
@@ -20,7 +20,7 @@
       "driver": "Ryan Wood",
       "car": "2",
       "team": "",
-      "gapOrTime": "Finished",
+      "gapOrTime": "+2.68 s",
       "laps": "32"
     },
     {
@@ -28,7 +28,7 @@
       "driver": "Broc Feeney",
       "car": "88",
       "team": "",
-      "gapOrTime": "Finished",
+      "gapOrTime": "—",
       "laps": "32"
     },
     {
@@ -36,7 +36,7 @@
       "driver": "Matt Payne",
       "car": "19",
       "team": "",
-      "gapOrTime": "Finished",
+      "gapOrTime": "—",
       "laps": "32"
     },
     {
@@ -44,7 +44,7 @@
       "driver": "Jarrod Hughes",
       "car": "99",
       "team": "",
-      "gapOrTime": "Finished",
+      "gapOrTime": "—",
       "laps": "32"
     },
     {
@@ -52,7 +52,7 @@
       "driver": "Kai Allen",
       "car": "26",
       "team": "",
-      "gapOrTime": "Finished",
+      "gapOrTime": "—",
       "laps": "32"
     },
     {
@@ -60,7 +60,7 @@
       "driver": "Jack Le Brocq",
       "car": "4",
       "team": "",
-      "gapOrTime": "Finished",
+      "gapOrTime": "—",
       "laps": "32"
     },
     {
@@ -68,7 +68,7 @@
       "driver": "Jobe Stewart",
       "car": "9",
       "team": "",
-      "gapOrTime": "Finished",
+      "gapOrTime": "—",
       "laps": "32"
     },
     {
@@ -76,7 +76,7 @@
       "driver": "Jayden Ojeda",
       "car": "31",
       "team": "",
-      "gapOrTime": "Finished",
+      "gapOrTime": "—",
       "laps": "32"
     },
     {
@@ -84,7 +84,7 @@
       "driver": "Anton De Pasquale",
       "car": "18",
       "team": "",
-      "gapOrTime": "Finished",
+      "gapOrTime": "—",
       "laps": "32"
     }
   ]
