@@ -12,13 +12,106 @@
   const refreshButton = panel.querySelector('[data-supercars-refresh]');
   const bodies = [...panel.querySelectorAll('[data-supercars-rows]')];
   let busy = false;
-  let saved = null;
+  const storageKey = 'supercars-last-top-ten:adelaide-2026';
+  // Same verified practice snapshot already published in the feed. This seeds
+  // even a first visit when the request for a newer snapshot fails.
+  const fallback = {
+    "version": 1,
+    "eventId": "adelaide-2026",
+    "session": "Practice 2 · Fri 27 Nov · Leaders",
+    "status": "complete",
+    "updatedAt": "2026-11-27T00:47:19.237Z",
+    "source": "https://speedcafe.com/supercars-news-2026-adelaide-grand-final-practice-2-results-kai-allen-fastest-finals-series-contenders/",
+    "columnLabel": "Best",
+    "positions": [
+      {
+        "position": 1,
+        "driver": "Kai Allen",
+        "car": "26",
+        "team": "",
+        "gapOrTime": "1:18.8397",
+        "laps": "—"
+      },
+      {
+        "position": 2,
+        "driver": "Matt Payne",
+        "car": "19",
+        "team": "",
+        "gapOrTime": "—",
+        "laps": "—"
+      },
+      {
+        "position": 3,
+        "driver": "Brodie Kostecki",
+        "car": "17",
+        "team": "",
+        "gapOrTime": "—",
+        "laps": "—"
+      },
+      {
+        "position": 4,
+        "driver": "Cameron Waters",
+        "car": "6",
+        "team": "",
+        "gapOrTime": "—",
+        "laps": "—"
+      },
+      {
+        "position": 5,
+        "driver": "Will Brown",
+        "car": "888",
+        "team": "",
+        "gapOrTime": "—",
+        "laps": "—"
+      },
+      {
+        "position": 6,
+        "driver": "Thomas Randle",
+        "car": "55",
+        "team": "",
+        "gapOrTime": "—",
+        "laps": "—"
+      },
+      {
+        "position": 7,
+        "driver": "Chaz Mostert",
+        "car": "1",
+        "team": "",
+        "gapOrTime": "—",
+        "laps": "—"
+      },
+      {
+        "position": 8,
+        "driver": "Andre Heimgartner",
+        "car": "8",
+        "team": "",
+        "gapOrTime": "—",
+        "laps": "—"
+      },
+      {
+        "position": 9,
+        "driver": "Jack Le Brocq",
+        "car": "4",
+        "team": "",
+        "gapOrTime": "—",
+        "laps": "—"
+      },
+      {
+        "position": 10,
+        "driver": "Zach Bates",
+        "car": "10",
+        "team": "",
+        "gapOrTime": "—",
+        "laps": "—"
+      }
+    ]
+  };
+  let saved = fallback;
 
   function valid(d) {
     if (!d || d.version !== 1 || d.eventId !== 'adelaide-2026' ||
-        !['scheduled', 'in-progress', 'complete', 'unavailable'].includes(d.status) ||
-        !Array.isArray(d.positions) || d.positions.length > 10) return false;
-    if (!d.positions.length) return d.status === 'scheduled' || d.status === 'unavailable';
+        !['in-progress', 'complete'].includes(d.status) ||
+        !Array.isArray(d.positions) || d.positions.length !== 10) return false;
     const time = Date.parse(d.updatedAt);
     let url;
     try { url = new URL(d.source); } catch (_) { return false; }
@@ -26,25 +119,16 @@
       url.protocol === 'https:' && /(^|\.)(supercars\.com|speedcafe\.com)$/.test(url.hostname) &&
       typeof d.session === 'string' && d.session.length > 0 && d.session.length <= 90 &&
       ['Gap', 'Best', 'Time'].includes(d.columnLabel) &&
-      ['in-progress', 'complete'].includes(d.status) &&
-      new Set(d.positions.map(p => p.position)).size === d.positions.length &&
-      d.positions.every((p, i) => Number.isInteger(p.position) && p.position === i + 1 &&
+      d.positions.every((p, i) => p && p.position === i + 1 &&
         typeof p.driver === 'string' && p.driver.length > 2 && p.driver.length < 100 &&
         typeof p.car === 'string' && /^\d{1,3}$/.test(p.car) &&
         typeof p.team === 'string' && p.team.length <= 100 &&
         typeof p.gapOrTime === 'string' && p.gapOrTime.length > 0 && p.gapOrTime.length <= 30 &&
-        typeof p.laps === 'string' && /^(\d{1,3}|—)$/.test(p.laps));
+        typeof p.laps === 'string' && /^(\d{1,3}|—)$/.test(p.laps)) &&
+      new Set(d.positions.map(p => p.car)).size === d.positions.length;
   }
 
   function draw(d) {
-    if (!d.positions.length) {
-      board.hidden = true;
-      waiting.hidden = false;
-      session.textContent = '26–29 November · Awaiting session positions';
-      status.textContent = 'No verified Adelaide session positions published yet.';
-      note.textContent = 'The top 10 will appear here once verified session positions are available, with the time they were updated.';
-      return;
-    }
     board.hidden = false;
     waiting.hidden = true;
     title.textContent = 'Top ' + d.positions.length + ' positions';
@@ -99,12 +183,12 @@
       if (!response.ok) throw new Error('Positions unavailable');
       const d = await response.json();
       if (!valid(d)) throw new Error('Invalid positions');
-      if (saved?.positions.length && (!d.positions.length || Date.parse(d.updatedAt) < Date.parse(saved.updatedAt))) throw new Error('Older positions');
+      if (Date.parse(d.updatedAt) < Date.parse(saved.updatedAt)) throw new Error('Older positions');
       saved = d;
-      draw(d);
+      draw(saved);
+      try { localStorage.setItem(storageKey, JSON.stringify(saved)); } catch (_) { /* optional */ }
     } catch (_) {
-      note.textContent = saved?.positions.length ? 'Latest saved positions shown. Check the position source for newer information.' :
-        'No verified positions available here yet. The public event timetable is available below.';
+      note.textContent = 'Showing the last verified top ten. Check Supercars results for newer information.';
       note.classList.add('golf-warning');
     } finally {
       busy = false;
@@ -112,6 +196,11 @@
       refreshButton.textContent = 'Refresh panel';
     }
   }
+  try {
+    const cached = JSON.parse(localStorage.getItem(storageKey));
+    if (valid(cached) && Date.parse(cached.updatedAt) > Date.parse(fallback.updatedAt)) saved = cached;
+  } catch (_) { /* an unreadable cache must not blank the board */ }
+  draw(saved);
   refreshButton.addEventListener('click', refresh);
   document.addEventListener('visibilitychange', () => { if (!document.hidden) refresh(); });
   setInterval(() => { if (!document.hidden) refresh(); }, 60000);
