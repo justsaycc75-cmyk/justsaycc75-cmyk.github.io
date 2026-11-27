@@ -46,7 +46,7 @@
     ]
   },
   "aviation": {
-    "checkedAt": "2026-11-27T00:59:53.524Z",
+    "checkedAt": "2026-11-27T07:01:38.644Z",
     "entries": [
       {
         "id": "airservices-gold-coast-overnight-works-2026-12",
@@ -55,6 +55,14 @@
         "summary": "Airservices says both runways and the taxiways are scheduled to close for pavement and lighting works on the nights of 14, 15 and 16 December. Each closure is planned from 10:30 pm to 5:30 am the following morning, Queensland time.",
         "sourceLabel": "Airservices Australia circular",
         "sourceUrl": "https://www.airservicesaustralia.com/aip/current/sup/a26-h56.pdf"
+      },
+      {
+        "id": "airservices-southern-hf-split-2027",
+        "date": "2026-11-27",
+        "headline": "Southern aviation HF area to split in March",
+        "summary": "Airservices Australia says it will split the Southern Flightwatch region into South Western and South Eastern areas on 1 March 2027 so it can manage them separately. Both areas will keep the same published shortwave channels: 3461, 6565 and 8822 kHz on upper sideband. The notice’s February effective date is separate from the March switchover.",
+        "sourceLabel": "Airservices Australia · SUP H02/27",
+        "sourceUrl": "https://www.airservicesaustralia.com/aip/current/sup/s27-h02.pdf"
       },
       {
         "id": "atsb-sydney-aircraft-separation-ao-2026-105",
