@@ -1,44 +1,32 @@
 {
-  "updatedAt": "2026-11-27T06:00:00+11:00",
-  "headline": "Brent climbs above US$96 while Wall Street closes for Thanksgiving",
+  "updatedAt": "2026-11-27T18:00:00+11:00",
+  "headline": "ASX climbs as WiseTech jumps, while gold and oil rebound",
   "paragraphs": [
-    "Oil made the biggest move overnight. January Brent settled at US$96.57 a barrel on Thursday in London, up 2.1% from Wednesday’s US$94.61, then eased to US$96.09 in a delayed 5:15 am Sydney quote. ING pointed to renewed concern about Middle East supply and warned that thin holiday trading could magnify moves. There was no Thursday US settlement for WTI.",
-    "Wall Street’s stock exchanges were shut for Thanksgiving, so Wednesday’s New York closes still stand: the S&P 500 fell 0.25% to 7,182.78 and the Nasdaq-100 lost 0.64% to 26,046.90, while the Dow gained 0.33%. The US market reopens tonight Sydney time and closes early at 5 am Saturday. There’s no fresh US cash-market read yet on whether tech shares can hold Wednesday’s late recovery.",
-    "The ASX 200 goes into Friday from Thursday’s close of about 8,764, up 0.8% as miners and energy shares led the rebound. The ABS reported a 12.2% jump in September-quarter business investment, led by data centres. That was a local boost to the investment picture, even as US investors have been questioning what they’re paying for AI stocks.",
-    "The Australian dollar was little changed at 66.30 US cents at 4:03 am Sydney, slightly below Thursday evening’s 66.35. Kitco’s spot gold bid was US$3,567.30 a troy ounce at 5:53 am, still down about 0.6% against its prior reference despite a small recovery from Thursday evening. ING linked the broader pressure on gold to expectations that US rates would stay high."
+    "Australian shares rose for a second day. The ASX 200 closed Friday up 69.8 points, or 0.8%, at 8,833.60. Technology helped lead the gains: WiseTech jumped 14.5% after the logistics software group reaffirmed its annual revenue outlook and said CargoWise revenue had grown 11% in the four months to October. Miners and gold stocks also helped lift the index.",
+    "The local rally came without a fresh lead from Wall Street, which was shut Thursday for Thanksgiving. Wednesday remains the latest US cash session: the S&P 500 fell 0.25% to 7,182.78 and the Nasdaq-100 fell 0.64% to 26,046.90, while the Dow gained 0.33%. The next test for US tech comes in Friday’s shortened New York session, which runs from 1:30 am to 5 am Saturday Sydney time.",
+    "The Australian dollar rose to 66.64 US cents at 4:09 pm Sydney, up 0.44% against MarketWatch’s previous reference. Gold also rebounded: Kitco’s spot bid reached US$3,651 a troy ounce at 5:46 pm, up 2.4% against its reference. Reuters described the move as a bounce from Wednesday’s one-year low as the sell-off in AI-linked shares eased, even as US rate-rise expectations remained a headwind.",
+    "January Brent was quoted at US$97.27 a barrel at 5:46 pm Sydney, up 0.72% from Thursday’s US$96.57 settlement. That was a delayed Friday quote, not a settlement. Reuters pointed to concerns about shipments through the Strait of Hormuz and attacks on Saudi energy infrastructure, a separate driver from the rebound in tech shares."
   ],
   "sources": [
     {
-      "label": "MarketWatch: January Brent settlement and delayed quote",
-      "url": "https://www.marketwatch.com/investing/future/brnf27?countrycode=uk"
+      "label": "MT Newswires: Friday ASX close and WiseTech update",
+      "url": "https://au.finance.yahoo.com/news/australian-shares-close-higher-wisetech-053509339.html"
     },
     {
-      "label": "ING: oil supply risks and gold analysis",
-      "url": "https://think.ing.com/downloads/pdf/article/the-commodities-feed-gold-slumps-below-3500-oz"
+      "label": "ABC: Friday market snapshot",
+      "url": "https://www.abc.net.au/news/2026-11-27/asx-markets-business-news-live-updates/107430390"
     },
     {
-      "label": "CME: Thanksgiving settlement schedule",
-      "url": "https://www.cmegroup.com/tools-information/holiday-calendar/files/2026/thanksgiving-holiday-settlement-times-2026.pdf"
-    },
-    {
-      "label": "AP: Wednesday Wall Street close and Brent settlement",
+      "label": "AP: Wednesday Wall Street close",
       "url": "https://apnews.com/article/10044b4fb55d3ff20fde9ba9e9acaab1"
     },
     {
-      "label": "Nasdaq: Nasdaq-100 closing level",
+      "label": "Nasdaq: Nasdaq-100",
       "url": "https://indexes.nasdaq.com/Index/Overview/NDX"
     },
     {
       "label": "NYSE: Thanksgiving trading hours",
       "url": "https://www.nyse.com/trade/hours-calendars"
-    },
-    {
-      "label": "ABC: Thursday ASX close and market drivers",
-      "url": "https://www.abc.net.au/news/2026-11-26/asx-markets-business-news-live-updates-thursday-26-november/107428134"
-    },
-    {
-      "label": "ABS: September-quarter capital spending",
-      "url": "https://www.abs.gov.au/media-centre/media-releases/data-centre-investment-continues-drive-new-capital-expenditure"
     },
     {
       "label": "MarketWatch: AUD/USD",
@@ -47,6 +35,18 @@
     {
       "label": "Kitco: spot gold",
       "url": "https://www.kitco.com/charts/gold"
+    },
+    {
+      "label": "Reuters: gold rebounds",
+      "url": "https://www.brecorder.com/news/40450994"
+    },
+    {
+      "label": "MarketWatch: January Brent futures",
+      "url": "https://www.marketwatch.com/investing/future/brnf27?countrycode=uk"
+    },
+    {
+      "label": "Reuters: oil supply concerns",
+      "url": "https://www.brecorder.com/news/40450986/oil-on-track-to-snap-3-week-losing-streak-over-supply-fears"
     }
   ]
 }
