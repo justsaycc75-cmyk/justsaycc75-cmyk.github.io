@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-27T18:00:00+11:00",
-  "headline": "ASX climbs as WiseTech jumps, while gold and oil rebound",
+  "updatedAt": "2026-11-28T06:00:00+11:00",
+  "headline": "Wall Street rallies as tech rebounds, while Brent gives up its early gains",
   "paragraphs": [
-    "Australian shares rose for a second day. The ASX 200 closed Friday up 69.8 points, or 0.8%, at 8,833.60. Technology helped lead the gains: WiseTech jumped 14.5% after the logistics software group reaffirmed its annual revenue outlook and said CargoWise revenue had grown 11% in the four months to October. Miners and gold stocks also helped lift the index.",
-    "The local rally came without a fresh lead from Wall Street, which was shut Thursday for Thanksgiving. Wednesday remains the latest US cash session: the S&P 500 fell 0.25% to 7,182.78 and the Nasdaq-100 fell 0.64% to 26,046.90, while the Dow gained 0.33%. The next test for US tech comes in Friday’s shortened New York session, which runs from 1:30 am to 5 am Saturday Sydney time.",
-    "The Australian dollar rose to 66.64 US cents at 4:09 pm Sydney, up 0.44% against MarketWatch’s previous reference. Gold also rebounded: Kitco’s spot bid reached US$3,651 a troy ounce at 5:46 pm, up 2.4% against its reference. Reuters described the move as a bounce from Wednesday’s one-year low as the sell-off in AI-linked shares eased, even as US rate-rise expectations remained a headwind.",
-    "January Brent was quoted at US$97.27 a barrel at 5:46 pm Sydney, up 0.72% from Thursday’s US$96.57 settlement. That was a delayed Friday quote, not a settlement. Reuters pointed to concerns about shipments through the Strait of Hormuz and attacks on Saudi energy infrastructure, a separate driver from the rebound in tech shares."
+    "US shares rallied in Friday’s shortened post-Thanksgiving session, which ended at 5 am Saturday in Sydney. The S&P 500 rose 1.60% to 7,297.49 and the Dow gained 1.18% to 50,774.94. The Nasdaq-100 led the major benchmarks, up 2.61% to 26,726.39. Broadcom gained 3.8%, and AP reported that four out of five S&P 500 stocks rose: tech led the bounce, but it wasn’t the only source of gains.",
+    "The ASX 200 had already closed up 0.8% at 8,833.60 on Friday, before Wall Street reopened. WiseTech rose 14.5% after reaffirming its revenue guidance, and miners and gold stocks also helped. That makes it two separate rallies, not an Australian response to the US close. There’s no new ASX cash session on Saturday.",
+    "The Australian dollar was at 66.47 US cents at 5:42 am Sydney, up 0.18% against MarketWatch’s prior reference but below Friday afternoon’s 66.64 US cents. Kitco quoted spot gold at US$3,639.60 a troy ounce at 5:47 am, about 2.1% above its reference. Gold gave back part of its Sydney-afternoon bounce but was still well above the prior quote reference.",
+    "Oil moved the other way. January Brent reversed from an intraday high of US$98.06 to a delayed US$94.18 a barrel at 4:07 am Sydney, 2.47% below Thursday’s settlement. That’s a snapshot, not Friday’s settlement. Reuters reported that Middle East supply disruptions were still in focus ahead of Sunday’s OPEC+ meeting, even as Brent gave back its early gains."
   ],
   "sources": [
     {
@@ -17,8 +17,12 @@
       "url": "https://www.abc.net.au/news/2026-11-27/asx-markets-business-news-live-updates/107430390"
     },
     {
-      "label": "AP: Wednesday Wall Street close",
-      "url": "https://apnews.com/article/10044b4fb55d3ff20fde9ba9e9acaab1"
+      "label": "AP: Friday US closing levels",
+      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-04dab6079cf7f3dfe7285a3cc1f240a2"
+    },
+    {
+      "label": "AP: US tech and broader rally",
+      "url": "https://apnews.com/article/stock-markets-tariffs-ai-profits-energy-c7ef10c1dbc5fa09668bd4fe0729c613"
     },
     {
       "label": "Nasdaq: Nasdaq-100",
@@ -37,16 +41,12 @@
       "url": "https://www.kitco.com/charts/gold"
     },
     {
-      "label": "Reuters: gold rebounds",
-      "url": "https://www.brecorder.com/news/40450994"
-    },
-    {
       "label": "MarketWatch: January Brent futures",
       "url": "https://www.marketwatch.com/investing/future/brnf27?countrycode=uk"
     },
     {
-      "label": "Reuters: oil supply concerns",
-      "url": "https://www.brecorder.com/news/40450986/oil-on-track-to-snap-3-week-losing-streak-over-supply-fears"
+      "label": "Reuters: Brent reverses ahead of OPEC+",
+      "url": "https://live.euronext.com/en/financial-news/oil-track-first-weekly-gain-november-supply-fears"
     }
   ]
 }
