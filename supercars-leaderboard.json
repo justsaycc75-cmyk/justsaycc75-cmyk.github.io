@@ -1,91 +1,91 @@
 {
   "version": 1,
   "eventId": "adelaide-2026",
-  "session": "Qualifying · Race 35 · Fri 27 Nov · Leaders",
+  "session": "Race 35 · Fri 27 Nov · Finish",
   "status": "complete",
-  "updatedAt": "2026-11-27T03:56:25.353Z",
-  "source": "https://speedcafe.com/supercars-news-2026-adelaide-grand-final-friday-qualifying-results-ryan-wood-pole-position-comments-reaction-starting-grid/",
-  "columnLabel": "Best",
+  "updatedAt": "2026-11-27T07:42:08.395Z",
+  "source": "https://www.v8sleuth.com.au/kostecki-wins-another-50000-in-crazy-adelaide-opener/",
+  "columnLabel": "Result",
   "positions": [
     {
       "position": 1,
-      "driver": "Ryan Wood",
-      "car": "2",
+      "driver": "Brodie Kostecki",
+      "car": "17",
       "team": "",
-      "gapOrTime": "1:18.8928",
-      "laps": "—"
+      "gapOrTime": "Winner",
+      "laps": "32"
     },
     {
       "position": 2,
-      "driver": "Kai Allen",
-      "car": "26",
+      "driver": "Ryan Wood",
+      "car": "2",
       "team": "",
-      "gapOrTime": "—",
-      "laps": "—"
+      "gapOrTime": "Finished",
+      "laps": "32"
     },
     {
       "position": 3,
-      "driver": "Chaz Mostert",
-      "car": "1",
+      "driver": "Broc Feeney",
+      "car": "88",
       "team": "",
-      "gapOrTime": "—",
-      "laps": "—"
+      "gapOrTime": "Finished",
+      "laps": "32"
     },
     {
       "position": 4,
       "driver": "Matt Payne",
       "car": "19",
       "team": "",
-      "gapOrTime": "—",
-      "laps": "—"
+      "gapOrTime": "Finished",
+      "laps": "32"
     },
     {
       "position": 5,
-      "driver": "Brodie Kostecki",
-      "car": "17",
+      "driver": "Jarrod Hughes",
+      "car": "99",
       "team": "",
-      "gapOrTime": "—",
-      "laps": "—"
+      "gapOrTime": "Finished",
+      "laps": "32"
     },
     {
       "position": 6,
-      "driver": "Jack Le Brocq",
-      "car": "4",
+      "driver": "Kai Allen",
+      "car": "26",
       "team": "",
-      "gapOrTime": "—",
-      "laps": "—"
+      "gapOrTime": "Finished",
+      "laps": "32"
     },
     {
       "position": 7,
-      "driver": "Will Brown",
-      "car": "888",
+      "driver": "Jack Le Brocq",
+      "car": "4",
       "team": "",
-      "gapOrTime": "—",
-      "laps": "—"
+      "gapOrTime": "Finished",
+      "laps": "32"
     },
     {
       "position": 8,
-      "driver": "Broc Feeney",
-      "car": "88",
+      "driver": "Jobe Stewart",
+      "car": "9",
       "team": "",
-      "gapOrTime": "—",
-      "laps": "—"
+      "gapOrTime": "Finished",
+      "laps": "32"
     },
     {
       "position": 9,
-      "driver": "Zach Bates",
-      "car": "10",
+      "driver": "Jayden Ojeda",
+      "car": "31",
       "team": "",
-      "gapOrTime": "—",
-      "laps": "—"
+      "gapOrTime": "Finished",
+      "laps": "32"
     },
     {
       "position": 10,
-      "driver": "Cooper Murray",
-      "car": "36",
+      "driver": "Anton De Pasquale",
+      "car": "18",
       "team": "",
-      "gapOrTime": "—",
-      "laps": "—"
+      "gapOrTime": "Finished",
+      "laps": "32"
     }
   ]
 }
