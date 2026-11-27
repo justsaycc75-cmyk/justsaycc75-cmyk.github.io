@@ -1,62 +1,30 @@
 {
   "version": 1,
   "eventId": "adelaide-2026",
-  "session": "Practice 2 · Fri 27 Nov · Leaders",
+  "session": "Qualifying · Race 35 · Fri 27 Nov · Leaders",
   "status": "complete",
-  "updatedAt": "2026-11-27T00:47:19.237Z",
-  "source": "https://speedcafe.com/supercars-news-2026-adelaide-grand-final-practice-2-results-kai-allen-fastest-finals-series-contenders/",
+  "updatedAt": "2026-11-27T03:56:25.353Z",
+  "source": "https://speedcafe.com/supercars-news-2026-adelaide-grand-final-friday-qualifying-results-ryan-wood-pole-position-comments-reaction-starting-grid/",
   "columnLabel": "Best",
   "positions": [
     {
       "position": 1,
-      "driver": "Kai Allen",
-      "car": "26",
+      "driver": "Ryan Wood",
+      "car": "2",
       "team": "",
-      "gapOrTime": "1:18.8397",
+      "gapOrTime": "1:18.8928",
       "laps": "—"
     },
     {
       "position": 2,
-      "driver": "Matt Payne",
-      "car": "19",
+      "driver": "Kai Allen",
+      "car": "26",
       "team": "",
       "gapOrTime": "—",
       "laps": "—"
     },
     {
       "position": 3,
-      "driver": "Brodie Kostecki",
-      "car": "17",
-      "team": "",
-      "gapOrTime": "—",
-      "laps": "—"
-    },
-    {
-      "position": 4,
-      "driver": "Cameron Waters",
-      "car": "6",
-      "team": "",
-      "gapOrTime": "—",
-      "laps": "—"
-    },
-    {
-      "position": 5,
-      "driver": "Will Brown",
-      "car": "888",
-      "team": "",
-      "gapOrTime": "—",
-      "laps": "—"
-    },
-    {
-      "position": 6,
-      "driver": "Thomas Randle",
-      "car": "55",
-      "team": "",
-      "gapOrTime": "—",
-      "laps": "—"
-    },
-    {
-      "position": 7,
       "driver": "Chaz Mostert",
       "car": "1",
       "team": "",
@@ -64,15 +32,23 @@
       "laps": "—"
     },
     {
-      "position": 8,
-      "driver": "Andre Heimgartner",
-      "car": "8",
+      "position": 4,
+      "driver": "Matt Payne",
+      "car": "19",
       "team": "",
       "gapOrTime": "—",
       "laps": "—"
     },
     {
-      "position": 9,
+      "position": 5,
+      "driver": "Brodie Kostecki",
+      "car": "17",
+      "team": "",
+      "gapOrTime": "—",
+      "laps": "—"
+    },
+    {
+      "position": 6,
       "driver": "Jack Le Brocq",
       "car": "4",
       "team": "",
@@ -80,9 +56,33 @@
       "laps": "—"
     },
     {
-      "position": 10,
+      "position": 7,
+      "driver": "Will Brown",
+      "car": "888",
+      "team": "",
+      "gapOrTime": "—",
+      "laps": "—"
+    },
+    {
+      "position": 8,
+      "driver": "Broc Feeney",
+      "car": "88",
+      "team": "",
+      "gapOrTime": "—",
+      "laps": "—"
+    },
+    {
+      "position": 9,
       "driver": "Zach Bates",
       "car": "10",
+      "team": "",
+      "gapOrTime": "—",
+      "laps": "—"
+    },
+    {
+      "position": 10,
+      "driver": "Cooper Murray",
+      "car": "36",
       "team": "",
       "gapOrTime": "—",
       "laps": "—"
