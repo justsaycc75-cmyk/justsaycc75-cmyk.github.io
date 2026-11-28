@@ -845,7 +845,16 @@
   });
   const current=[...rail.querySelectorAll('.live-sport-panel')].filter(card=>cards.includes(card));
   if(cards.some((card,index)=>current[index]!==card))cards.forEach(card=>rail.insertBefore(card,anchor));
-  if(liveCount){const n=cards.filter(card=>!card.hidden&&(card.matches('.sandown-schedule')?card.dataset.sportState==='in':priority(card).rank===0)).length;liveCount.hidden=n===0;liveCount.textContent=n+' LIVE NOW';}
+  if(liveCount){
+   const n=cards.reduce((total,card)=>{
+    if(card.hidden)return total;
+    const inPlay=card.matches('.sandown-schedule')?card.dataset.sportState==='in':priority(card).rank===0;
+    if(!inPlay)return total;
+    // The football panels keep multiple fixtures in one card; count matches, not cards.
+    return total+(card.querySelectorAll('.round-game.round-live').length||1);
+   },0);
+   liveCount.hidden=n===0;liveCount.textContent=n+' LIVE NOW';
+  }
  }
  let queued=false;
  function schedule(){if(queued)return;queued=true;requestAnimationFrame(()=>{queued=false;sortCards();});}
