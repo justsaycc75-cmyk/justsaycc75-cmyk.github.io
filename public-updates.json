@@ -1,8 +1,24 @@
 {
   "version": 1,
   "radio": {
-    "checkedAt": "2026-11-27T21:06:01.075Z",
+    "checkedAt": "2026-11-28T07:07:09.150Z",
     "entries": [
+      {
+        "id": "stooges-6940-20261128",
+        "date": "2026-11-28",
+        "headline": "PIRATE LOG • Stooges Radio identified on 6940 kHz USB",
+        "summary": "A 28 November HF Underground thread records music from 0101 UTC and a station identification at 0111 UTC. The main logger used a northern Utah online receiver and heard nothing locally in Ohio, illustrating how reception varied. This is a past overseas reception report, not a transmission schedule or evidence of reception in Australia.",
+        "sourceLabel": "HF Underground · dated reception thread",
+        "sourceUrl": "https://www.hfunderground.com/board/index.php/topic,173463.0.html"
+      },
+      {
+        "id": "liquid-6925-20261128",
+        "date": "2026-11-28",
+        "headline": "PIRATE LOG • Liquid Radio heard on 6925 kHz AM",
+        "summary": "North American listeners logged electronic dance music from 0013 UTC on 28 November, with Liquid Radio identifications noted at 0017 and 0029 UTC. Reports from Wisconsin described strong noise and interference; other listeners heard fading or weak signals. These are past overseas logs, not a regular schedule or confirmation of Australian reception.",
+        "sourceLabel": "HF Underground · dated reception thread",
+        "sourceUrl": "https://www.hfunderground.com/board/index.php/topic,173461.0.html"
+      },
       {
         "id": "euphonia-6960-20261127",
         "date": "2026-11-27",
