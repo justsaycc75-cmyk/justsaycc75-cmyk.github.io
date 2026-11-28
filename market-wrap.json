@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-28T06:00:00+11:00",
-  "headline": "Wall Street rallies as tech rebounds, while Brent gives up its early gains",
+  "updatedAt": "2026-11-28T18:00:48.901+11:00",
+  "headline": "Tech led Wall Street’s Friday rally; Brent settled lower before OPEC+",
   "paragraphs": [
-    "US shares rallied in Friday’s shortened post-Thanksgiving session, which ended at 5 am Saturday in Sydney. The S&P 500 rose 1.60% to 7,297.49 and the Dow gained 1.18% to 50,774.94. The Nasdaq-100 led the major benchmarks, up 2.61% to 26,726.39. Broadcom gained 3.8%, and AP reported that four out of five S&P 500 stocks rose: tech led the bounce, but it wasn’t the only source of gains.",
-    "The ASX 200 had already closed up 0.8% at 8,833.60 on Friday, before Wall Street reopened. WiseTech rose 14.5% after reaffirming its revenue guidance, and miners and gold stocks also helped. That makes it two separate rallies, not an Australian response to the US close. There’s no new ASX cash session on Saturday.",
+    "There was no new Saturday cash session in Australia or the US. In Friday’s shortened post-Thanksgiving session, which ended at 5 am Saturday in Sydney, the S&P 500 rose 1.60% to 7,297.49 and the Dow gained 1.18% to 50,774.94. The Nasdaq-100 led with a 2.61% rise to 26,726.39. Broadcom jumped 3.8%, and AP reported that about four in five S&P 500 stocks rose, so the buying went well beyond tech.",
+    "The ASX 200 had closed 0.8% higher at 8,833.60 on Friday, before Wall Street reopened. WiseTech jumped 14.5% after reaffirming its revenue guidance, while miners and gold stocks also helped lift the index. Australia and the US both rallied, but the timing rules out the later Wall Street move as the reason for the ASX rise.",
     "The Australian dollar was at 66.47 US cents at 5:42 am Sydney, up 0.18% against MarketWatch’s prior reference but below Friday afternoon’s 66.64 US cents. Kitco quoted spot gold at US$3,639.60 a troy ounce at 5:47 am, about 2.1% above its reference. Gold gave back part of its Sydney-afternoon bounce but was still well above the prior quote reference.",
-    "Oil moved the other way. January Brent reversed from an intraday high of US$98.06 to a delayed US$94.18 a barrel at 4:07 am Sydney, 2.47% below Thursday’s settlement. That’s a snapshot, not Friday’s settlement. Reuters reported that Middle East supply disruptions were still in focus ahead of Sunday’s OPEC+ meeting, even as Brent gave back its early gains."
+    "January Brent futures settled Friday at US$95.44 a barrel, down US$1.13, or 1.2%, from Thursday. That replaces the earlier delayed quote. Brent still gained about 3% for the week as disruptions to Middle East supplies returned to focus, Reuters reported. OPEC+ meets on Sunday; any decision on production is still pending."
   ],
   "sources": [
     {
@@ -41,12 +41,12 @@
       "url": "https://www.kitco.com/charts/gold"
     },
     {
-      "label": "MarketWatch: January Brent futures",
-      "url": "https://www.marketwatch.com/investing/future/brnf27?countrycode=uk"
+      "label": "Reuters: Friday Brent close and weekly move",
+      "url": "https://live.euronext.com/en/financial-news/oil-notches-first-weekly-gain-november-supply-fears"
     },
     {
-      "label": "Reuters: Brent reverses ahead of OPEC+",
-      "url": "https://live.euronext.com/en/financial-news/oil-track-first-weekly-gain-november-supply-fears"
+      "label": "OPEC: 29 November meeting schedule",
+      "url": "https://www.opec.org/pr-detail/605-7-june-2026.html"
     }
   ]
 }
