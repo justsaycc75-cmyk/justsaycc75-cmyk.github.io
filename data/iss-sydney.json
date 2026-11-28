@@ -1,52 +1,70 @@
 {
-  "generated_at": "2026-11-27T08:21:36.236583+00:00",
-  "tle_epoch": "2026-11-26T22:39:22.268738+00:00",
+  "generated_at": "2026-11-28T07:41:43.370714+00:00",
+  "tle_epoch": "2026-11-27T21:52:19.802765+00:00",
   "tle_stale": false,
   "passes": [
     {
       "visible": true,
-      "visible_start": "2026-12-04T17:38:25.142101+00:00",
-      "visible_end": "2026-12-04T17:44:10.142121+00:00",
+      "visible_start": "2026-12-04T17:38:51.078029+00:00",
+      "visible_end": "2026-12-04T17:44:36.078049+00:00",
       "culmination": {
-        "elevation_deg": 24.3
+        "elevation_deg": 24.6
       },
-      "start_azimuth_deg": 202.1
+      "start_azimuth_deg": 202.3
     },
     {
       "visible": true,
-      "visible_start": "2026-12-05T10:17:53.844468+00:00",
-      "visible_end": "2026-12-05T10:24:33.844471+00:00",
+      "visible_start": "2026-12-05T10:18:24.595297+00:00",
+      "visible_end": "2026-12-05T10:25:04.595300+00:00",
       "culmination": {
-        "elevation_deg": 59.5
+        "elevation_deg": 60.4
       },
-      "start_azimuth_deg": 325.9
+      "start_azimuth_deg": 325.5
     },
     {
       "visible": true,
-      "visible_start": "2026-12-06T09:30:06.980919+00:00",
-      "visible_end": "2026-12-06T09:36:06.980938+00:00",
+      "visible_start": "2026-12-06T09:30:44.597895+00:00",
+      "visible_end": "2026-12-06T09:36:44.597914+00:00",
       "culmination": {
-        "elevation_deg": 29.6
+        "elevation_deg": 30.1
       },
-      "start_azimuth_deg": 347.0
+      "start_azimuth_deg": 346.4
     },
     {
       "visible": true,
-      "visible_start": "2026-12-06T11:07:03.577010+00:00",
-      "visible_end": "2026-12-06T11:12:38.577003+00:00",
+      "visible_start": "2026-12-06T11:07:43.690411+00:00",
+      "visible_end": "2026-12-06T11:13:18.690405+00:00",
       "culmination": {
-        "elevation_deg": 23.4
+        "elevation_deg": 23.1
       },
-      "start_azimuth_deg": 270.2
+      "start_azimuth_deg": 269.7
     },
     {
       "visible": true,
-      "visible_start": "2026-12-06T17:38:19.293973+00:00",
-      "visible_end": "2026-12-06T17:45:09.293962+00:00",
+      "visible_start": "2026-12-06T17:39:00.633359+00:00",
+      "visible_end": "2026-12-06T17:45:50.633348+00:00",
       "culmination": {
-        "elevation_deg": 72.8
+        "elevation_deg": 74.1
       },
-      "start_azimuth_deg": 222.9
+      "start_azimuth_deg": 223.2
+    },
+    {
+      "visible": true,
+      "visible_start": "2026-12-07T10:19:07.210717+00:00",
+      "visible_end": "2026-12-07T10:25:32.210720+00:00",
+      "culmination": {
+        "elevation_deg": 38.0
+      },
+      "start_azimuth_deg": 289.0
+    },
+    {
+      "visible": true,
+      "visible_start": "2026-12-07T16:51:03.171115+00:00",
+      "visible_end": "2026-12-07T16:57:33.171132+00:00",
+      "culmination": {
+        "elevation_deg": 39.0
+      },
+      "start_azimuth_deg": 212.3
     }
   ],
   "source": "CelesTrak / Skyfield",
