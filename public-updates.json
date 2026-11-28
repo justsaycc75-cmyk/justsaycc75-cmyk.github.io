@@ -78,7 +78,7 @@
     ]
   },
   "aviation": {
-    "checkedAt": "2026-11-28T04:00:38.018Z",
+    "checkedAt": "2026-11-28T07:01:18.765Z",
     "entries": [
       {
         "id": "sydney-airport-summer-routes-2026-11-27",
@@ -111,6 +111,14 @@
         "summary": "Airservices Australia says it will split the Southern Flightwatch region into South Western and South Eastern areas on 1 March 2027 so it can manage them separately. Both areas will keep the same published shortwave channels: 3461, 6565 and 8822 kHz on upper sideband. The notice’s February effective date is separate from the March switchover.",
         "sourceLabel": "Airservices Australia · SUP H02/27",
         "sourceUrl": "https://www.airservicesaustralia.com/aip/current/sup/s27-h02.pdf"
+      },
+      {
+        "id": "bitre-international-aviation-aug2026",
+        "date": "2026-11-27",
+        "headline": "International passenger traffic was flat in August as fewer seats flew",
+        "summary": "The federal transport bureau’s 27 November release counted 3.65 million scheduled international passenger journeys to and from Australia in August 2026, down 0.1% from August 2025. Airlines offered 1% fewer seats, but filled 82.2% of available seats, up from 81.0%. Over the 12 months to August, international passenger traffic was up 4.5%.",
+        "sourceLabel": "BITRE · August 2026 statistical report",
+        "sourceUrl": "https://www.bitre.gov.au/sites/default/files/documents/International_airline_activity_0826.pdf"
       },
       {
         "id": "atsb-sydney-aircraft-separation-ao-2026-105",
@@ -167,14 +175,6 @@
         "summary": "A Boeing 737 freighter abandoned take-off in February after a safety vehicle entered an active runway. The final ATSB report found that temporary cues did not clearly distinguish the active crossing during works. CASA plans to amend its guidance.",
         "sourceLabel": "ATSB",
         "sourceUrl": "https://www.atsb.gov.au/news/2026/airport-safety-vehicle-runway-incursion-results-737-rejected-take"
-      },
-      {
-        "id": "atsb-gold-coast-737-2026-11",
-        "date": "2026-11-19",
-        "headline": "Gold Coast landing report highlights runway visibility",
-        "summary": "A 737 landed beyond the touchdown zone during a 2023 thunderstorm. The ATSB says visibility of the markings was likely reduced and is encouraging airports to consider reflective materials on runways used at night.",
-        "sourceLabel": "ATSB",
-        "sourceUrl": "https://www.atsb.gov.au/news/2026/737-long-landing-highlights-importance-reflective-runway-markings"
       }
     ]
   }
