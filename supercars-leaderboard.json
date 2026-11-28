@@ -1,24 +1,24 @@
 {
   "version": 1,
   "eventId": "adelaide-2026",
-  "session": "Qualifying (Race 36) · Sat 28 Nov · Leaders · prose summary",
+  "session": "Top Ten Shootout (Race 36) · Sat 28 Nov · Leaders · prose summary",
   "status": "complete",
-  "updatedAt": "2026-11-28T02:26:28.366Z",
-  "source": "https://speedcafe.com/supercars-news-2026-adelaide-grand-final-saturday-qualifying-results-chaz-mostert-misses-shootout-comments-reaction/",
+  "updatedAt": "2026-11-28T03:44:56.368Z",
+  "source": "https://www.supercars.com/news/supercars-news-2026-adelaide-saturday-qualifying-report-broc-feeney-pole-position-top-ten-shootout-grand-final",
   "columnLabel": "Best",
   "positions": [
     {
       "position": 1,
-      "driver": "Matt Payne",
-      "car": "19",
+      "driver": "Broc Feeney",
+      "car": "88",
       "team": "",
       "gapOrTime": "—",
       "laps": "—"
     },
     {
       "position": 2,
-      "driver": "Broc Feeney",
-      "car": "88",
+      "driver": "Matt Payne",
+      "car": "19",
       "team": "",
       "gapOrTime": "—",
       "laps": "—"
@@ -33,14 +33,6 @@
     },
     {
       "position": 4,
-      "driver": "Andre Heimgartner",
-      "car": "8",
-      "team": "",
-      "gapOrTime": "—",
-      "laps": "—"
-    },
-    {
-      "position": 5,
       "driver": "Zach Bates",
       "car": "10",
       "team": "",
@@ -48,31 +40,7 @@
       "laps": "—"
     },
     {
-      "position": 6,
-      "driver": "Cooper Murray",
-      "car": "36",
-      "team": "",
-      "gapOrTime": "—",
-      "laps": "—"
-    },
-    {
-      "position": 7,
-      "driver": "Kai Allen",
-      "car": "26",
-      "team": "",
-      "gapOrTime": "—",
-      "laps": "—"
-    },
-    {
-      "position": 8,
-      "driver": "Cameron Waters",
-      "car": "6",
-      "team": "",
-      "gapOrTime": "—",
-      "laps": "—"
-    },
-    {
-      "position": 9,
+      "position": 5,
       "driver": "Jarrod Hughes",
       "car": "99",
       "team": "",
@@ -80,9 +48,41 @@
       "laps": "—"
     },
     {
-      "position": 10,
+      "position": 6,
+      "driver": "Kai Allen",
+      "car": "26",
+      "team": "",
+      "gapOrTime": "—",
+      "laps": "—"
+    },
+    {
+      "position": 7,
       "driver": "Jack Le Brocq",
       "car": "4",
+      "team": "",
+      "gapOrTime": "—",
+      "laps": "—"
+    },
+    {
+      "position": 8,
+      "driver": "Andre Heimgartner",
+      "car": "8",
+      "team": "",
+      "gapOrTime": "—",
+      "laps": "—"
+    },
+    {
+      "position": 9,
+      "driver": "Cooper Murray",
+      "car": "36",
+      "team": "",
+      "gapOrTime": "—",
+      "laps": "—"
+    },
+    {
+      "position": 10,
+      "driver": "Cameron Waters",
+      "car": "6",
       "team": "",
       "gapOrTime": "—",
       "laps": "—"
