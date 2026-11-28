@@ -1,11 +1,11 @@
 {
   "version": 1,
   "eventId": "adelaide-2026",
-  "session": "Top Ten Shootout (Race 36) · Sat 28 Nov · Leaders · prose summary",
+  "session": "Race 36 · Sat 28 Nov · Final results",
   "status": "complete",
-  "updatedAt": "2026-11-28T03:44:56.368Z",
-  "source": "https://www.supercars.com/news/supercars-news-2026-adelaide-saturday-qualifying-report-broc-feeney-pole-position-top-ten-shootout-grand-final",
-  "columnLabel": "Best",
+  "updatedAt": "2026-11-28T08:39:52.274Z",
+  "source": "https://www.supercars.com/results/2026/2026-adelaide/R10",
+  "columnLabel": "Gap",
   "positions": [
     {
       "position": 1,
@@ -17,14 +17,6 @@
     },
     {
       "position": 2,
-      "driver": "Matt Payne",
-      "car": "19",
-      "team": "",
-      "gapOrTime": "—",
-      "laps": "—"
-    },
-    {
-      "position": 3,
       "driver": "Brodie Kostecki",
       "car": "17",
       "team": "",
@@ -32,23 +24,23 @@
       "laps": "—"
     },
     {
+      "position": 3,
+      "driver": "Cam Waters",
+      "car": "6",
+      "team": "",
+      "gapOrTime": "—",
+      "laps": "—"
+    },
+    {
       "position": 4,
-      "driver": "Zach Bates",
-      "car": "10",
+      "driver": "Matt Payne",
+      "car": "19",
       "team": "",
       "gapOrTime": "—",
       "laps": "—"
     },
     {
       "position": 5,
-      "driver": "Jarrod Hughes",
-      "car": "99",
-      "team": "",
-      "gapOrTime": "—",
-      "laps": "—"
-    },
-    {
-      "position": 6,
       "driver": "Kai Allen",
       "car": "26",
       "team": "",
@@ -56,33 +48,41 @@
       "laps": "—"
     },
     {
+      "position": 6,
+      "driver": "Ryan Wood",
+      "car": "2",
+      "team": "",
+      "gapOrTime": "—",
+      "laps": "—"
+    },
+    {
       "position": 7,
-      "driver": "Jack Le Brocq",
-      "car": "4",
+      "driver": "Jarrod Hughes",
+      "car": "99",
       "team": "",
       "gapOrTime": "—",
       "laps": "—"
     },
     {
       "position": 8,
-      "driver": "Andre Heimgartner",
-      "car": "8",
+      "driver": "Jayden Ojeda",
+      "car": "31",
       "team": "",
       "gapOrTime": "—",
       "laps": "—"
     },
     {
       "position": 9,
-      "driver": "Cooper Murray",
-      "car": "36",
+      "driver": "Anton De Pasquale",
+      "car": "18",
       "team": "",
       "gapOrTime": "—",
       "laps": "—"
     },
     {
       "position": 10,
-      "driver": "Cameron Waters",
-      "car": "6",
+      "driver": "David Reynolds",
+      "car": "20",
       "team": "",
       "gapOrTime": "—",
       "laps": "—"
