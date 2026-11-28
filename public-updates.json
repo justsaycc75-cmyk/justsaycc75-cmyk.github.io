@@ -78,8 +78,16 @@
     ]
   },
   "aviation": {
-    "checkedAt": "2026-11-28T01:03:48.921Z",
+    "checkedAt": "2026-11-28T04:00:38.018Z",
     "entries": [
+      {
+        "id": "sydney-airport-summer-routes-2026-11-27",
+        "date": "2026-11-27",
+        "headline": "Sydney Airport adds summer links to Tahiti, Shenzhen and Las Vegas",
+        "summary": "Sydney Airport says Air Tahiti Nui plans two weekly nonstop flights to Papeete from mid-December, Shenzhen Airlines will start four weekly flights to Shenzhen, and Qantas will add three weekly flights to Las Vegas. The airport also says 98.3% of international arrivals cleared border processing in under 10 minutes in the July–September quarter.",
+        "sourceLabel": "Sydney Airport · 27 November update",
+        "sourceUrl": "https://www.sydneyairport.com/corporate/media/corporate-newsroom/more-airlines-more-choice-and-faster-arrivals-at-sydney-airport"
+      },
       {
         "id": "atsb-proserpine-ab-2026-044",
         "date": "2026-11-27",
